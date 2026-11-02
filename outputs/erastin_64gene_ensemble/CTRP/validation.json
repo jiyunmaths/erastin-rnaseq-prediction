@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "assay": "CTRP",
+  "group_split_checks": 120,
+  "retained_base_outer_predictions_reproduced": 60,
+  "base_candidate_fold_scores_checked": 34900,
+  "base_prediction_max_error": 1.1102230246251565e-16,
+  "source_aggregate_prediction_max_difference": 1.1102230246251565e-16,
+  "ensemble_prediction_max_error": 2.220446049250313e-16,
+  "base_inner_rmse_max_error": 8.326672684688674e-17,
+  "blend_standardized_kkt_max": 8.901129729121937e-10,
+  "weights_nonnegative_sum_one": true,
+  "outer_test_labels_excluded_from_weight_fit": true,
+  "all_base_predictions_unchanged": true,
+  "equal_weight_and_model_selection_controls_verified": true,
+  "bootstrap_arithmetic": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 235,
+    "max_error": 1.6653345369377348e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  }
+}

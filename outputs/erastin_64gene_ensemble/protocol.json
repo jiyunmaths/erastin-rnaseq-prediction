@@ -1,0 +1,102 @@
+{
+  "status": "frozen_before_ensemble_evaluation",
+  "created_utc": "2026-11-02T21:05:34Z",
+  "retained_panel": 64,
+  "base_family_order": [
+    "ridge",
+    "elastic_net",
+    "neural_network"
+  ],
+  "assays": [
+    "CTRP",
+    "PRISM"
+  ],
+  "outer_repeats_per_assay": 20,
+  "split_design": "Unchanged saved lineage-stratified identity-group 80/20 holdouts and five inner folds. Every evaluated lineage in outer train/test; protected inner-training singleton rows omitted from weight fitting because no inner validation prediction exists.",
+  "base_models": "Use exactly the 120 retained outer models, their chosen hyperparameters and saved inner/outer predictions. No RNA model refit or hyperparameter change. NN is its original mean of three networks and counts as one family.",
+  "arms": {
+    "equal_blend": "Fixed weights 1/3 for each family; no tuning.",
+    "learned_blend": "Nonnegative family weights summing to one, no intercept/calibration/clipping. Fit on saved inner-validation predictions at retained base hyperparameters by equal-mean five-fold RMSE. Zero weights allowed; vertices and all edges included.",
+    "inner_best_single": "Choose the family with lowest mean five-fold inner RMSE, as a model-selection-only control; family order breaks ties."
+  },
+  "fitting": "Weight optimizer receives only rows with original inner assignment >=0. It never receives outer-test responses. Scaling of the meta training target/predictions is training-only and only improves numerical conditioning; weights are applied to base predictions in original response units.",
+  "numerical": {
+    "slsqp_ftol": 1e-12,
+    "maxiter": 1000,
+    "kkt_limit": 2e-06,
+    "search": "All three vertices, all three bounded scalar edge optima, uniform weights, two SLSQP starts. Accept best candidate only after global simplex KKT check."
+  },
+  "primary_comparisons": [
+    [
+      "equal_blend",
+      "ridge"
+    ],
+    [
+      "equal_blend",
+      "elastic_net"
+    ],
+    [
+      "equal_blend",
+      "neural_network"
+    ],
+    [
+      "learned_blend",
+      "ridge"
+    ],
+    [
+      "learned_blend",
+      "elastic_net"
+    ],
+    [
+      "learned_blend",
+      "neural_network"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "learned_blend",
+      "equal_blend"
+    ],
+    [
+      "equal_blend",
+      "inner_best_single"
+    ],
+    [
+      "learned_blend",
+      "inner_best_single"
+    ]
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026112601,
+    "unit": "Paired whole-lineage bootstrap preserving all overlapping repeats/models together; conditional on fitted models, no retraining/multiplicity adjustment."
+  },
+  "source_prediction_audit": "Reproduce all retained outer predictions from their saved model binaries; verify exact data/splits, all base inner RMSEs/choices, registry hashes and ensemble arithmetic.",
+  "scope": "RNA-only, unweighted, no culture/lineage predictors. Retained registry/model binaries unchanged. CTRP and PRISM trained/evaluated separately.",
+  "limitations": [
+    "These cohorts have informed prior experiments; results remain exploratory internal validation.",
+    "The same inner labels originally choose base hyperparameters and now fit blend weights. Chosen-hyperparameter inner losses are optimistic training diagnostics, not independently cross-validated ensemble accuracy. Only outer-test scores assess the full ensemble procedure.",
+    "No second layer of inner hyperparameter cross-fitting is added; this benchmark blends the retained models at their retained settings.",
+    "Weights across overlapping splits are not independent replication or gene importance. Learned zero weights may omit a family.",
+    "Original endpoint provenance, 64-gene panel selection history and within-represented-lineage scope remain."
+  ],
+  "references": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html",
+    "https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html"
+  ],
+  "scripts": {
+    "models.py": "2b7a42c2b0e7e5257fddb662c1ffe46f34a16b1cff6a64f95ac85d22e88079ff",
+    "common.py": "cd801746d315b93ed4821f2c70c272f4c685d84b1a4978cd5da4d98805d95404",
+    "run_comparison.py": "12a8502a12654626070342792f445e5c079f90e1ee2e4fdcd5ab11ad62ef77de",
+    "validate_preflight.py": "c068dc887cbd4d1153dc80f969aba32082ed7d9b8a36ccb9af3fb7695f5ff4f8",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  }
+}

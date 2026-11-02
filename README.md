@@ -14,6 +14,10 @@ This decision is reaffirmed after the latest neural-network benchmarks:
 Elastic Net-selected additions, including stronger regularization, did not
 establish lower prediction error than the matched 64-gene control.
 
+The ensemble benchmark likewise supports retaining the individual models:
+neither equal averaging nor learned mixing weights established a gain over
+the retained neural network.
+
 The existing CTRP and PRISM models are retained separately. These are saved
 models from 20 shared, lineage-stratified holdouts for each response cohort;
 they are not new models fitted on the entire cohort. Their response endpoints
@@ -79,6 +83,7 @@ Useful study reports:
 - [Genome-wide Elastic Net selection beyond the core64 panel](outputs/erastin_genomewide_elastic_net/REVIEW.md)
 - [Elastic Net-selected additions with the neural network](outputs/erastin_genomewide_enet_nn/REVIEW.md)
 - [Stronger NN regularization for Elastic Net additions](outputs/erastin_enet_nn_stronger_regularization/REVIEW.md)
+- [Ensemble of the retained 64-gene models](outputs/erastin_64gene_ensemble/REVIEW.md)
 
 ## Version-control scope
 

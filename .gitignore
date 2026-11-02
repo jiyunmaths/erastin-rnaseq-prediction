@@ -74,6 +74,10 @@ Thumbs.db
 !/outputs/**/paired_comparisons.tsv
 !/outputs/**/lineage_win_counts.tsv
 !/outputs/**/parameter_counts.tsv
+# Compact model-family ensemble diagnostics.
+!/outputs/erastin_64gene_ensemble/ensemble_weights.tsv
+!/outputs/erastin_64gene_ensemble/weight_summary.tsv
+!/outputs/erastin_64gene_ensemble/base_error_correlation.tsv
 !/outputs/**/visual_qa.json
 !/outputs/**/grid_amendment.json
 !/outputs/**/grid_boundary_audit.json

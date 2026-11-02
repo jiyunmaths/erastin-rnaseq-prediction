@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "review_comparison.py": "2704707eec13446a1d72b767a7bf0845d15f20a39e3e2bcd4703e516b6716967",
+    "analysis_helpers.py": "a2e696c5baef5c79399808ec66ade60bb113f80ff0115e73ea73f13a04739159",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+  },
+  "report_only_revision": {
+    "previous_scripts": {
+      "review_comparison.py": "fb70b7d844ba934aa3615b73aeafaa0e4d8f34ee1b112dbff772c4ef7bdf3a01",
+      "analysis_helpers.py": "a2e696c5baef5c79399808ec66ade60bb113f80ff0115e73ea73f13a04739159",
+      "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+      "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+    },
+    "changes": "Add matched-family findings, model-selection-control interpretation and base error-correlation table. Re-rendered saved results only; no weights, models, predictions, scores or intervals changed."
+  }
+}

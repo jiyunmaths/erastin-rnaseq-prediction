@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "a081e2576248d3b2990952b36a629ee2d1ff1cfe4b07839445a83446ddba9d37"
+    },
+    {
+      "path": "ensemble_weights.png",
+      "sha256": "92e2f5faacd892b01a0499a89c318c863f66266941efd6f7d1622772faa9002e"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "06b5c435173776baa0516b5e84c90ebbe304a0c62e19ced35e909b3f9563ed80"
+    }
+  ],
+  "checks": [
+    "Inspected comparison plot: both assays, six base-family comparisons, labels, signs and conditional intervals legible without clipping.",
+    "Inspected weight plot: stacked family weights sum to one, seed labels and legends legible; extreme and variable split choices visible.",
+    "Report distinguishes inner training diagnostics from outer-test accuracy and explains reuse of inner labels for base tuning/weight fitting.",
+    "Saved-data report-only rerender preserves inspected PNG hashes.",
+    "All 120 retained model predictions and 70,200 base candidate-fold scores audited; registry byte-identical to Git HEAD."
+  ]
+}
