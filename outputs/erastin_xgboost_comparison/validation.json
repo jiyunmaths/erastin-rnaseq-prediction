@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "outer_models": 480,
+  "group_exclusion_checks": 2880,
+  "reconstructed_candidate_fold_scores": 86400,
+  "prediction_max_error": 0.0,
+  "inner_loss_max_error": 1.1102230246251565e-16,
+  "exact_shared_splits_verified": true,
+  "training_only_scaling_verified": true,
+  "baseline_predictions_and_scores_verified": true,
+  "independent_sklearn_api_and_prefix_refits": [
+    {
+      "repeat": 1,
+      "lineage": "Lung",
+      "candidate": 24,
+      "outer_api_refit_error": 0.0,
+      "inner_prefix_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "candidate": 30,
+      "outer_api_refit_error": 0.0,
+      "inner_prefix_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "repeat": 20,
+      "lineage": "Lung",
+      "candidate": 1,
+      "outer_api_refit_error": 0.0,
+      "inner_prefix_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "candidate": 34,
+      "outer_api_refit_error": 0.0,
+      "inner_prefix_refit_error": 0.0,
+      "inner_refits": 5
+    }
+  ],
+  "warning_count": 0,
+  "warnings": [],
+  "bootstrap_checks": {
+    "weighted_midranks_exact_vs_expanded_scipy_ranks": true,
+    "max_rank_error": 0.0,
+    "bootstrap_max_metric_error_vs_expansion": 6.106226635438361e-16,
+    "identical_predictions_have_exact_zero_paired_difference": true
+  }
+}

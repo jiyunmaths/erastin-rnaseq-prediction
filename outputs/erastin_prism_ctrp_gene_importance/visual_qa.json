@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "figures": {
+    "native_rank_comparison.png": "0c7c0019498f6dde037b47360753e0cf76ab1e4e012ff120c60c758c0ace5ce9",
+    "agreement_controls.png": "d1cbc4eba89164c4cf9cdbab44f4813da8e4dea140d8c26cd9f17e5d87e73a4e",
+    "lineage_importance_comparison.png": "e1d10bef96ed280f5141730e038af49a25d38183c379fef818a5460bbdcbc1ba",
+    "relative_importance_intervals.png": "f3b94d7fe6994f7efb57d98482cb96c3c112e88a1064ac5d8875bdbe16a414a4"
+  },
+  "inspection": "All four rendered scientific figures inspected. Native ranks, cohort-controlled correlations, effect signs, confidence intervals, labels and axis scales agree with tables. No clipped labels or overlapping text found."
+}

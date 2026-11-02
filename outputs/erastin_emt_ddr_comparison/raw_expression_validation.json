@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source_path": "work/erastin/raw/OmicsExpressionProteinCodingGenesTPMLogp1.csv",
+  "source_sha256": "2a71dc94110efcc0221eae821bb93a9f03b54bea16f005818911a09d33383d56",
+  "samples": 744,
+  "unique_expanded_features": 413,
+  "entries_checked": 307272,
+  "max_error": 0.0,
+  "baseline_and_every_expanded_panel_match": true,
+  "precision": "Original float32 storage convention retained exactly, then promoted to float64 for fitting.",
+  "BOLA2_column_verified": true,
+  "seconds": 16.566784612979973
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "known_covariance_reconstruction_error": 4.440892098500626e-16,
+  "conditional_coefficient_error": 1.6653345369377348e-16,
+  "conditional_variance_error": 0.0,
+  "tree_root_orientation_invariance_error": 4.440892098500626e-16,
+  "naive_closed_form_error": 5.551115123125783e-17,
+  "maximum_spanning_tree_weight_error": 1.1102230246251565e-16
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "all_five_panel_folds_match_independent_sklearn_fits": true,
+  "max_abs_prediction_errors_by_fold": [
+    4.440892098500626e-16,
+    4.440892098500626e-16,
+    3.3306690738754696e-16,
+    2.220446049250313e-16,
+    2.220446049250313e-16
+  ],
+  "outer_test_target_perturbation_leaves_predictions_and_alpha_unchanged": true,
+  "outer_test_feature_shift_leaves_scaler_coefficients_and_alpha_unchanged": true,
+  "rank_deficient_643_feature_ridge_max_abs_error": 7.771561172376096e-16,
+  "paired_group_bootstrap_identical_predictions_have_exactly_zero_difference": true,
+  "partial_real_embedding_ridge_max_abs_error": 0.0,
+  "partial_embedding_rows_checked": 8
+}

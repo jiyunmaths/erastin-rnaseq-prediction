@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "source_models": 960,
+  "exact_all_donor_receiver_substitutions": true,
+  "ridge_closed_form_expectation_max_error": 7.849623728795052e-17,
+  "bootstrap_expansion_max_error": 2.168404344971009e-19,
+  "one_prediction_per_sample_per_model_repeat": true,
+  "all_input_and_model_hashes_verified": true,
+  "max_baseline_prediction_error": 1.1102230246251565e-16,
+  "max_native_replacement_error": 3.3306690738754696e-16,
+  "max_gradient_finite_difference_error": 1.7211065038436058e-11,
+  "max_two_cell_exhaustive_permutation_error": 1.0408340855860843e-17,
+  "calculation_elapsed_seconds": 10.444976329803467
+}

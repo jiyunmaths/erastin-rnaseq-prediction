@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "path": "RESULTS.html",
+      "bytes": 7601,
+      "sha256": "f46b70d29e98a3c105d061a9d31a8156ee654bfa1fde1a027066c1414b0f4e46"
+    },
+    {
+      "path": "RESULTS.txt",
+      "bytes": 5311,
+      "sha256": "5766d8b3906d329d7ceee21fd8ea3bc50a6c4b6686557d6a87bc865f6c0dddc3"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 3598,
+      "sha256": "a6b78131bb9860132db181f4bba59bbe081d08d06903121a380ccf029a0eed6b"
+    },
+    {
+      "path": "bootstrap_mean_metric_draws.npz",
+      "bytes": 446261,
+      "sha256": "1697fd9a79911e7eb60041a3b6caf9f9a9cbac3d603415efb9fecb9754ca5291"
+    },
+    {
+      "path": "final_summary.json",
+      "bytes": 6163,
+      "sha256": "bfc61692356e05baf2fa87acc8ab322ae8f6b5bf5fc56717e7e12aec1c902d1d"
+    },
+    {
+      "path": "fitted_outer_models.json.gz",
+      "bytes": 3988587,
+      "sha256": "6412730f306f645ada7125b4d920a1c1c10908999faa8246cec303c26e8c3297"
+    },
+    {
+      "path": "independent_review.json",
+      "bytes": 841,
+      "sha256": "65bcd9d908821890bc5deae23800432938cd74ac38d2893b2d69a009253ff25d"
+    },
+    {
+      "path": "legacy_vs_corrected.tsv",
+      "bytes": 3785,
+      "sha256": "4fbc2944bf172a4d654bdf29ff60d0f8cce870356ae37b32c75a4e6e0da97584"
+    },
+    {
+      "path": "mean_performance.tsv",
+      "bytes": 1902,
+      "sha256": "8e37509a5178d22f14d335d0f4fec747f482c7144afe71c74f865236c6466da1"
+    },
+    {
+      "path": "outer_fold_metrics.tsv",
+      "bytes": 55989,
+      "sha256": "ca20afecae4efa4f3851f2461c0e3c1526f283c3c45a22dc40a47861a64cab4d"
+    },
+    {
+      "path": "paired_seed_differences.tsv",
+      "bytes": 16250,
+      "sha256": "23d0c8f8aab25d6ae699468ab4feded37e493da2ac4545de334618d1b83ed4d4"
+    },
+    {
+      "path": "paired_seed_improvements.png",
+      "bytes": 80381,
+      "sha256": "c1f3d2cdab22c7fa1f87e97a41fca2a171eec7b5d403074a4ceacdcf4d8d8465"
+    },
+    {
+      "path": "paired_seed_improvements.svg",
+      "bytes": 35174,
+      "sha256": "5a4a09e74b2330f1204c9d3dcdbfc36a7e5ccae2d3eb6fa8c1847ed6be946f62"
+    },
+    {
+      "path": "paired_summary.tsv",
+      "bytes": 1919,
+      "sha256": "355185a499cddc8d03155ae9dfe037296a4d925198097cacc1a3e91f6d6f63b4"
+    },
+    {
+      "path": "per_repeat_metrics.tsv",
+      "bytes": 7922,
+      "sha256": "6b23f797958942b6dd41a7376c69ad668505de76d2c802f36cadcc40661b16df"
+    },
+    {
+      "path": "per_repeat_predictions.npz",
+      "bytes": 379035,
+      "sha256": "245c1a849b9c1f9a83fa6755e9e1be2bf0ef4341f20eb3f966edc44c3d3fc657"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 2508,
+      "sha256": "e1f78ae8ca4a22fcd44c9d0f066a2766edeef1338197e8f887e84cc927baaa16"
+    },
+    {
+      "path": "repeat_cv.py",
+      "bytes": 30066,
+      "sha256": "ce96f6fe0d632199c8e4c071c52b06562fddd197b5f0ddaf10e63db4b09f07e3"
+    },
+    {
+      "path": "shared_splits.npz",
+      "bytes": 43007,
+      "sha256": "0eb0be63ce826da3ca0595104c257dad4242b6363d481a6c3bb77ab4db0fb1c4"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 2371,
+      "sha256": "d5f900374447dd70f53b0240a28eb1f65b17447173b52eaea3f21d36c4709e72"
+    },
+    {
+      "path": "split_assignments.tsv.gz",
+      "bytes": 138938,
+      "sha256": "593fe9248dd11a1cb9c69750592fe9f8ff5a5081eeb9b4405f7a31c7aec1454a"
+    },
+    {
+      "path": "split_audit.tsv",
+      "bytes": 13374,
+      "sha256": "fbc1613474e54bb03b5207cf95166d756792ff2d897bc42ccd0904ab7f963129"
+    },
+    {
+      "path": "split_balance_audit.tsv",
+      "bytes": 2603,
+      "sha256": "a92510a5b29f730716c886a79bf00435fbcd5656fd5aff5456b3128a4c3ad6df"
+    },
+    {
+      "path": "split_correction_audit.json",
+      "bytes": 231,
+      "sha256": "f3fe8f043d3f4a9a7c5cc1f70afab04e8652a0a6f0ff9033384dbf587e8a8e12"
+    },
+    {
+      "path": "tuning_scores.tsv.gz",
+      "bytes": 85962,
+      "sha256": "e4ec06f005e13fadb57933b927e948e2fd767c6c7a91f9a865b3ce4a2d5119c1"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1887,
+      "sha256": "05b1c94f37255b3cbcd5797a8dffce8b5276b1b48be55e0faa7296669e2aa754"
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 11096,
+      "sha256": "d3cb0801299fc4a17b156107ccd5224634c38252aeb8cd3450e3f82ae8b5fc5d"
+    }
+  ]
+}

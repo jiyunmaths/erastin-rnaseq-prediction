@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "protocol_sha256": "892fbd8b1cfe99f269b9a0ad7cab5cb0d11410f9dc5496a2cf016a342cb21646",
+  "checks": [
+    {
+      "scheme": "inverse_sqrt",
+      "gradient_max_error": 2.0916964937455623e-11,
+      "direct_objective_error": 0.0,
+      "unit_weight_error": 0.0,
+      "toy_weight_audit": {
+        "scheme": "inverse_sqrt",
+        "n": 38,
+        "represented_lineages": 4,
+        "weight_min": 0.685047068642202,
+        "weight_max": 3.75215732448124,
+        "weight_sum": 38.0,
+        "effective_sample_size": 25.64160009071182,
+        "capped_cells": 0,
+        "groups": [
+          {
+            "lineage": "a",
+            "n": 30,
+            "weight_per_cell": 0.685047068642202,
+            "total_weight": 20.55141205926606
+          },
+          {
+            "lineage": "b",
+            "n": 5,
+            "weight_per_cell": 1.6780157679627576,
+            "total_weight": 8.390078839813789
+          },
+          {
+            "lineage": "c",
+            "n": 2,
+            "weight_per_cell": 2.6531758882194576,
+            "total_weight": 5.306351776438915
+          },
+          {
+            "lineage": "d",
+            "n": 1,
+            "weight_per_cell": 3.75215732448124,
+            "total_weight": 3.75215732448124
+          }
+        ]
+      }
+    },
+    {
+      "scheme": "capped_inverse_5",
+      "gradient_max_error": 1.0474211775690634e-11,
+      "direct_objective_error": 0.0,
+      "unit_weight_error": 0.0,
+      "toy_weight_audit": {
+        "scheme": "capped_inverse_5",
+        "n": 38,
+        "represented_lineages": 4,
+        "weight_min": 0.38333333333333336,
+        "weight_max": 5.0,
+        "weight_sum": 38.0,
+        "effective_sample_size": 13.640872234905142,
+        "capped_cells": 3,
+        "groups": [
+          {
+            "lineage": "a",
+            "n": 30,
+            "weight_per_cell": 0.38333333333333336,
+            "total_weight": 11.499999999999998
+          },
+          {
+            "lineage": "b",
+            "n": 5,
+            "weight_per_cell": 2.3,
+            "total_weight": 11.5
+          },
+          {
+            "lineage": "c",
+            "n": 2,
+            "weight_per_cell": 5.0,
+            "total_weight": 10.0
+          },
+          {
+            "lineage": "d",
+            "n": 1,
+            "weight_per_cell": 5.0,
+            "total_weight": 5.0
+          }
+        ]
+      }
+    }
+  ],
+  "actual_data_replays": [
+    {
+      "scheme": "unweighted",
+      "lineage": "Lung",
+      "max_prediction_error": 0.0
+    },
+    {
+      "scheme": "inverse_frequency",
+      "lineage": "Lung",
+      "max_prediction_error": 0.0
+    },
+    {
+      "scheme": "unweighted",
+      "lineage": "Thyroid",
+      "max_prediction_error": 0.0
+    },
+    {
+      "scheme": "inverse_frequency",
+      "lineage": "Thyroid",
+      "max_prediction_error": 0.0
+    }
+  ],
+  "fitting_membership_weight_checks": 5760,
+  "planned_weight_summary": {
+    "inverse_sqrt": {
+      "effective_sample_size_range": [
+        419.20649041855893,
+        628.6061086601628
+      ],
+      "weight_range": [
+        0.527695104276045,
+        6.2246515500944914
+      ]
+    },
+    "capped_inverse_5": {
+      "effective_sample_size_range": [
+        288.2003697743417,
+        432.74293237880215
+      ],
+      "weight_range": [
+        0.24742268041237114,
+        5.0
+      ]
+    }
+  }
+}

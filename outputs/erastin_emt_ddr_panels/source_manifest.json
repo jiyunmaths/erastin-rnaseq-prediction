@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_elastic_net_comparison/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_40gene_comparison/matched_depmap_expression.npz",
+      "sha256": "4b2a17a1e0ddc6cd97da4aaa001cab4cdbd653947d90df9118c10c325d40cdea"
+    },
+    {
+      "path": "work/erastin/raw/Gene.csv",
+      "sha256": "dfb5f74496ca17baf67f215a44f06197ddd835685813aede75754876b62b19db"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json",
+      "sha256": "b4f4872e065400c48c6b16f191c59078a3b5bc549c740b3dbbf89a016bf126dd",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/download_geneset.jsp?fileType=json&geneSetName=HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.html",
+      "sha256": "201a48bf19ef2eac584cd5d2cf555f594f5295e3329342ecac912f93dab84e69",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.html",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_DNA_REPAIR.json",
+      "sha256": "e56f512bf53f83232ac11f6d27833ef8e029af0f65fc7c89e10757a90f6cb469",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/download_geneset.jsp?fileType=json&geneSetName=HALLMARK_DNA_REPAIR",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_DNA_REPAIR.html",
+      "sha256": "124a31f737519b43dbe9ab84aad5deb08b1351503b95064f8f7f5b2234a9c4fc",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_DNA_REPAIR.html",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    }
+  ]
+}

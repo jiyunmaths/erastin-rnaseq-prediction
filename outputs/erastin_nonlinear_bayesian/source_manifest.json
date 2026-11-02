@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_40gene_comparison/comparison_inputs.npz",
+      "sha256": "62b83d6cf2e8daeb6e8d78f9091c3db4bb4b8192b9cc3a93d12536e808c26891"
+    },
+    {
+      "path": "outputs/erastin_nn_repeated/shared_splits.npz",
+      "sha256": "f79b759071009fccf506ccaf7a8c1f6ddd20fcab1b02291b079add023b82c959"
+    },
+    {
+      "path": "outputs/erastin_nn_repeated/predictions.npz",
+      "sha256": "b782fba157958a2671ddbcd0cffb464fea6e2b377a777d2e295096a2ed023f04"
+    },
+    {
+      "path": "outputs/erastin_nn_repeated/protocol.json",
+      "sha256": "ecddfb1029bfa78accadb2853b1f96261da3245504af2d60b2a393cec657b150"
+    },
+    {
+      "path": "outputs/erastin_nn_repeated/per_repeat_metrics.tsv",
+      "sha256": "dbf90a31bd074270d6f8cd9eb65ea96c82881335e1a0edfbe5ade72987fbdbc8"
+    },
+    {
+      "path": "outputs/erastin_nn_repeated/per_repeat_macro_metrics.tsv",
+      "sha256": "26c148d8e2af692a54f10c1e8733cf135fb049b8b079223f8a5b4e659cfb3123"
+    },
+    {
+      "path": "outputs/erastin_bayesian_comparison/gaussian_network.py",
+      "sha256": "17b69a5c6cb6c536d591227fca326b2e33e8bf9a9192db08ad9ad859ff35da99"
+    },
+    {
+      "path": "outputs/erastin_bayesian_comparison/predictions.npz",
+      "sha256": "c89f22d8692a812df53c31d6afb877b9c89220c998952f44066e127420b93930"
+    },
+    {
+      "path": "outputs/erastin_bayesian_comparison/protocol.json",
+      "sha256": "2ddb27a0c6eb8666f73d84c7a3bb6c83d10114f6009936094b3d8026d09956c7"
+    },
+    {
+      "path": "outputs/erastin_bayesian_comparison/repeated_summary.tsv",
+      "sha256": "f1b526d063a087c087a2316f8e15b947334a277aa376be7acf46bbc9a962b733"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv/repeat_cv.py",
+      "sha256": "ce96f6fe0d632199c8e4c071c52b06562fddd197b5f0ddaf10e63db4b09f07e3"
+    },
+    {
+      "path": "outputs/erastin_nonlinear_comparison/run_models.py",
+      "sha256": "86a3c4a4d99f4e96cdeb24894f17ab50bced3c69d459702db00cb843429fdbff"
+    }
+  ]
+}

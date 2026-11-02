@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "panel_input_sha256": "624020958910f44e61c489b0a0f6394b9516fe491d8430b100a16567bcfb4608",
+  "shared_split_sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+  "raw_array_row_order_verified": true,
+  "entrez_mapping_one_to_one": true,
+  "source_gene_counts_verified": {
+    "emt": 200,
+    "ddr": 150
+  },
+  "source_response_arrays_unchanged": true,
+  "created_utc": "2026-11-02T13:38:31Z"
+}

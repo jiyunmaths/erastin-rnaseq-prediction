@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "family": "ridge",
+      "lineage": "Lung",
+      "prediction_error": 0.0
+    },
+    {
+      "family": "ridge",
+      "lineage": "Thyroid",
+      "prediction_error": 0.0
+    },
+    {
+      "family": "neural_network",
+      "lineage": "Lung",
+      "prediction_error": 0.0
+    },
+    {
+      "family": "neural_network",
+      "lineage": "Thyroid",
+      "prediction_error": 0.0
+    },
+    {
+      "family": "xgboost",
+      "lineage": "Lung",
+      "prediction_error": 0.0
+    },
+    {
+      "family": "xgboost",
+      "lineage": "Thyroid",
+      "prediction_error": 0.0
+    }
+  ]
+}

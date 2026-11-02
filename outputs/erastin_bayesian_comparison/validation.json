@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "selected_models_audited": 1008,
+  "candidate_loss_sets_audited": 12096,
+  "prediction_reconstruction_max_error": 0.0,
+  "independent_covariance_conditioning_max_error": 1.1102230246251565e-16,
+  "conditional_variance_max_error": 1.734723475976807e-17,
+  "inner_fold_loss_max_error": 0.0,
+  "acyclic_graphs_and_positive_definite_covariances": true,
+  "source_scalers_and_group_exclusion_verified": true,
+  "independent_full_candidate_refits": [
+    {
+      "repeat": 0,
+      "lineage": "Lung",
+      "model": "gaussian_naive",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 1.734723475976807e-17,
+      "inner_prediction_max_error": 1.3322676295501878e-15
+    },
+    {
+      "repeat": 0,
+      "lineage": "Lung",
+      "model": "gaussian_tan",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 3.469446951953614e-17,
+      "inner_prediction_max_error": 1.3322676295501878e-15
+    },
+    {
+      "repeat": 0,
+      "lineage": "Thyroid",
+      "model": "gaussian_naive",
+      "outer_prediction_error": 5.551115123125783e-16,
+      "outer_variance_error": 1.3877787807814457e-17,
+      "inner_prediction_max_error": 1.1102230246251565e-15
+    },
+    {
+      "repeat": 0,
+      "lineage": "Thyroid",
+      "model": "gaussian_tan",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 0.0,
+      "inner_prediction_max_error": 9.992007221626409e-16
+    },
+    {
+      "repeat": 1,
+      "lineage": "Lung",
+      "model": "gaussian_naive",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 1.734723475976807e-17,
+      "inner_prediction_max_error": 1.1102230246251565e-15
+    },
+    {
+      "repeat": 1,
+      "lineage": "Lung",
+      "model": "gaussian_tan",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 3.469446951953614e-17,
+      "inner_prediction_max_error": 1.3322676295501878e-15
+    },
+    {
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "model": "gaussian_naive",
+      "outer_prediction_error": 5.551115123125783e-16,
+      "outer_variance_error": 1.3877787807814457e-17,
+      "inner_prediction_max_error": 1.1102230246251565e-15
+    },
+    {
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "model": "gaussian_tan",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 0.0,
+      "inner_prediction_max_error": 9.992007221626409e-16
+    },
+    {
+      "repeat": 20,
+      "lineage": "Lung",
+      "model": "gaussian_naive",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 1.734723475976807e-17,
+      "inner_prediction_max_error": 1.1102230246251565e-15
+    },
+    {
+      "repeat": 20,
+      "lineage": "Lung",
+      "model": "gaussian_tan",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 3.469446951953614e-17,
+      "inner_prediction_max_error": 1.1102230246251565e-15
+    },
+    {
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "model": "gaussian_naive",
+      "outer_prediction_error": 5.551115123125783e-16,
+      "outer_variance_error": 1.3877787807814457e-17,
+      "inner_prediction_max_error": 1.3322676295501878e-15
+    },
+    {
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "model": "gaussian_tan",
+      "outer_prediction_error": 6.661338147750939e-16,
+      "outer_variance_error": 0.0,
+      "inner_prediction_max_error": 1.2212453270876722e-15
+    }
+  ],
+  "original_grid_predictions_unchanged_in_extension": 504,
+  "reused_original_reference_metrics_match": true,
+  "bootstrap_validation": {
+    "weighted_midranks_exact_vs_expanded_scipy_ranks": true,
+    "max_rank_error": 0.0,
+    "bootstrap_max_metric_error_vs_expansion": 6.661338147750939e-16,
+    "identical_predictions_have_exact_zero_paired_difference": true
+  },
+  "mathematical_tests": {
+    "passed": true,
+    "known_covariance_reconstruction_error": 4.440892098500626e-16,
+    "conditional_coefficient_error": 1.6653345369377348e-16,
+    "conditional_variance_error": 0.0,
+    "tree_root_orientation_invariance_error": 4.440892098500626e-16,
+    "naive_closed_form_error": 5.551115123125783e-17,
+    "maximum_spanning_tree_weight_error": 1.1102230246251565e-16
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "passed": true,
+  "no_refitting": true,
+  "new_model_importance_calculations": 20,
+  "reused_model_importance_calculations": 40,
+  "total_saved_models": 60,
+  "all_gene_donor_pair_moment_checks": 29440,
+  "train_test_identity_exclusion_checks": 480,
+  "byte_identical_splits_and_features": true,
+  "reused_models_and_predictions_exactly_match_importance_sources": true,
+  "all_selection_counts_and_signs_match_previous_results": true,
+  "checks": [
+    {
+      "repeat": 1,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.0570971181733668e-17,
+      "prediction_shift_enumeration_error": 1.3010426069826053e-18,
+      "native_replacement_error": 1.1102230246251565e-16,
+      "native_full_matrix_checks": 12,
+      "finite_difference_gradient_error": 5.96266092056652e-13,
+      "selected_genes": 30,
+      "selected_parameters": {
+        "alpha": 0.1333521432163324,
+        "l1_ratio": 0.25
+      }
+    },
+    {
+      "repeat": 2,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.214306433183765e-17,
+      "prediction_shift_enumeration_error": 2.168404344971009e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 4.724029327440871e-13,
+      "selected_genes": 24,
+      "selected_parameters": {
+        "alpha": 0.03162277660168379,
+        "l1_ratio": 1.0
+      }
+    },
+    {
+      "repeat": 3,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 7.806255641895632e-18,
+      "prediction_shift_enumeration_error": 3.0357660829594124e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 5.309606920800292e-13,
+      "selected_genes": 28,
+      "selected_parameters": {
+        "alpha": 0.1333521432163324,
+        "l1_ratio": 0.25
+      }
+    },
+    {
+      "repeat": 4,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.5178830414797062e-17,
+      "prediction_shift_enumeration_error": 4.336808689942018e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 6.037869856867495e-13,
+      "selected_genes": 17,
+      "selected_parameters": {
+        "alpha": 0.05623413251903491,
+        "l1_ratio": 0.75
+      }
+    },
+    {
+      "repeat": 5,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.1926223897340549e-17,
+      "prediction_shift_enumeration_error": 1.8431436932253575e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 7.041637238580645e-13,
+      "selected_genes": 54,
+      "selected_parameters": {
+        "alpha": 0.5623413251903491,
+        "l1_ratio": 0.01
+      }
+    },
+    {
+      "repeat": 6,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.1709383462843448e-17,
+      "prediction_shift_enumeration_error": 1.951563910473908e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 9.686678542619731e-13,
+      "selected_genes": 39,
+      "selected_parameters": {
+        "alpha": 0.1778279410038923,
+        "l1_ratio": 0.1
+      }
+    },
+    {
+      "repeat": 7,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.1600963245594897e-17,
+      "prediction_shift_enumeration_error": 3.0357660829594124e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 8.854566385663176e-13,
+      "selected_genes": 34,
+      "selected_parameters": {
+        "alpha": 0.23713737056616552,
+        "l1_ratio": 0.1
+      }
+    },
+    {
+      "repeat": 8,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 6.5865281978494394e-18,
+      "prediction_shift_enumeration_error": 7.318364664277155e-19,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 4.2355355334144917e-13,
+      "selected_genes": 38,
+      "selected_parameters": {
+        "alpha": 0.4216965034285822,
+        "l1_ratio": 0.05
+      }
+    },
+    {
+      "repeat": 9,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 2.0383000842727483e-17,
+      "prediction_shift_enumeration_error": 2.2768245622195593e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 4.74205744116496e-13,
+      "selected_genes": 33,
+      "selected_parameters": {
+        "alpha": 0.23713737056616552,
+        "l1_ratio": 0.1
+      }
+    },
+    {
+      "repeat": 10,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.6479873021779667e-17,
+      "prediction_shift_enumeration_error": 1.5178830414797062e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 4.4143855237877005e-13,
+      "selected_genes": 58,
+      "selected_parameters": {
+        "alpha": 0.5623413251903491,
+        "l1_ratio": 0.01
+      }
+    },
+    {
+      "repeat": 11,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.1600963245594897e-17,
+      "prediction_shift_enumeration_error": 2.710505431213761e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 5.651494897063181e-13,
+      "selected_genes": 42,
+      "selected_parameters": {
+        "alpha": 0.31622776601683794,
+        "l1_ratio": 0.05
+      }
+    },
+    {
+      "repeat": 12,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.2624179045878092e-17,
+      "prediction_shift_enumeration_error": 3.686287386450715e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 8.037737142529977e-13,
+      "selected_genes": 36,
+      "selected_parameters": {
+        "alpha": 0.23713737056616552,
+        "l1_ratio": 0.1
+      }
+    },
+    {
+      "repeat": 13,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.2739375526704677e-17,
+      "prediction_shift_enumeration_error": 2.3852447794681098e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 5.26336786654813e-13,
+      "selected_genes": 41,
+      "selected_parameters": {
+        "alpha": 0.31622776601683794,
+        "l1_ratio": 0.05
+      }
+    },
+    {
+      "repeat": 14,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 2.0816681711721685e-17,
+      "prediction_shift_enumeration_error": 3.0357660829594124e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 4.237842715637541e-13,
+      "selected_genes": 40,
+      "selected_parameters": {
+        "alpha": 0.31622776601683794,
+        "l1_ratio": 0.05
+      }
+    },
+    {
+      "repeat": 15,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 6.613633252161577e-18,
+      "prediction_shift_enumeration_error": 2.8189256484623115e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 5.399708458142527e-13,
+      "selected_genes": 41,
+      "selected_parameters": {
+        "alpha": 0.31622776601683794,
+        "l1_ratio": 0.05
+      }
+    },
+    {
+      "repeat": 16,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.2793585635328952e-17,
+      "prediction_shift_enumeration_error": 2.3852447794681098e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 4.4499039869583257e-13,
+      "selected_genes": 34,
+      "selected_parameters": {
+        "alpha": 0.4216965034285822,
+        "l1_ratio": 0.05
+      }
+    },
+    {
+      "repeat": 17,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.5612511283791264e-17,
+      "prediction_shift_enumeration_error": 5.204170427930421e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 3.86021076215215e-13,
+      "selected_genes": 20,
+      "selected_parameters": {
+        "alpha": 0.042169650342858224,
+        "l1_ratio": 1.0
+      }
+    },
+    {
+      "repeat": 18,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.919037845299343e-17,
+      "prediction_shift_enumeration_error": 9.75781955236954e-19,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 9.494315056368663e-13,
+      "selected_genes": 35,
+      "selected_parameters": {
+        "alpha": 0.23713737056616552,
+        "l1_ratio": 0.1
+      }
+    },
+    {
+      "repeat": 19,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.0625181290357943e-17,
+      "prediction_shift_enumeration_error": 3.0357660829594124e-18,
+      "native_replacement_error": 0.0,
+      "native_full_matrix_checks": 0,
+      "finite_difference_gradient_error": 8.354896635642817e-13,
+      "selected_genes": 46,
+      "selected_parameters": {
+        "alpha": 0.23713737056616552,
+        "l1_ratio": 0.05
+      }
+    },
+    {
+      "repeat": 20,
+      "saved_prediction_error": 0.0,
+      "all_gene_donor_pair_enumeration_error": 1.691355389077387e-17,
+      "prediction_shift_enumeration_error": 9.215718466126788e-19,
+      "native_replacement_error": 1.1102230246251565e-16,
+      "native_full_matrix_checks": 12,
+      "finite_difference_gradient_error": 1.1542745925741116e-12,
+      "selected_genes": 40,
+      "selected_parameters": {
+        "alpha": 0.31622776601683794,
+        "l1_ratio": 0.05
+      }
+    }
+  ],
+  "bootstrap_expansion_max_error": 4.336808689942018e-19,
+  "reused_importance_score_max_error": 4.970524859759795e-16,
+  "original_bootstrap_and_ranks_exactly_reproduced": true
+}

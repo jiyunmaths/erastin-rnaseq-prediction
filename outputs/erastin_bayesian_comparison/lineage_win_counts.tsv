@@ -1,0 +1,4 @@
+reference_model	spearman_favorable_lineages	rmse_favorable_lineages	r2_favorable_lineages	eligible_lineages
+ridge	8	5	5	19
+neural_network	7	3	3	19
+gaussian_naive	11	10	10	19

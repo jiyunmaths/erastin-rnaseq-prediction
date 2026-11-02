@@ -1,0 +1,5 @@
+reference	eligible_lineages	spearman_favorable_lineages	rmse_favorable_lineages	r2_favorable_lineages
+ridge	19	7	3	3
+neural_network	19	7	2	2
+linear_cpd	19	7	5	5
+gaussian_tan	19	8	6	6

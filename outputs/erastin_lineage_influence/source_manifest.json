@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_panel_comparison/predictions.npz",
+      "sha256": "917dbe175b5dc70bbd2ec3ca11202e341470971271b26b45cd9434eec1c2931c"
+    },
+    {
+      "path": "outputs/erastin_panel_comparison/shared_splits.npz",
+      "sha256": "f79b759071009fccf506ccaf7a8c1f6ddd20fcab1b02291b079add023b82c959"
+    },
+    {
+      "path": "outputs/erastin_panel_comparison/per_repeat_metrics.tsv",
+      "sha256": "dde742dcbdb5deb3dcd84fc5f9f8b857dbad59cd782391d51b9d4ecf62bbdcae"
+    },
+    {
+      "path": "outputs/erastin_panel_comparison/per_lineage_metrics.tsv",
+      "sha256": "a024f6aba06c5706ca5d99068b537725ccd68cc1b4e7527d94550eb88f40711b"
+    },
+    {
+      "path": "outputs/erastin_panel_comparison/summary.tsv",
+      "sha256": "6d8424823e3280195310aadd5abab50e987732f798a73cf5a3981f6c2ab2e98c"
+    },
+    {
+      "path": "outputs/erastin_panel_comparison/run_panels.py",
+      "sha256": "8db1d117aebbe44031033a941cf8fc83393b1d20cf2f4bcb40a7a819d5569b6d"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "primary_genes": 24,
+  "primary_lineages": 19,
+  "primary_samples": 721,
+  "repeats": 20,
+  "top5_predictive_genes": [
+    "ABCC1",
+    "FADS1",
+    "GOT1",
+    "FAR1",
+    "FADS2"
+  ],
+  "top5_influence_genes": [
+    "ABCC1",
+    "FADS1",
+    "GOT1",
+    "SLC3A2",
+    "FADS2"
+  ],
+  "median_between_lineage_importance_rank_correlation": 0.07739130434782608,
+  "median_between_lineage_influence_rank_correlation": 0.786086956521739,
+  "median_between_seed_rank_correlation": 0.9991304347826085,
+  "positive_pointwise_intervals": [
+    "ABCC1"
+  ],
+  "top5_rank_ranges": [
+    {
+      "gene": "ABCC1",
+      "rank_min": 1.0,
+      "rank_max": 1.0,
+      "top5_repeats": 20.0
+    },
+    {
+      "gene": "FADS1",
+      "rank_min": 2.0,
+      "rank_max": 2.0,
+      "top5_repeats": 20.0
+    },
+    {
+      "gene": "GOT1",
+      "rank_min": 3.0,
+      "rank_max": 3.0,
+      "top5_repeats": 20.0
+    },
+    {
+      "gene": "FAR1",
+      "rank_min": 4.0,
+      "rank_max": 4.0,
+      "top5_repeats": 20.0
+    },
+    {
+      "gene": "FADS2",
+      "rank_min": 5.0,
+      "rank_max": 5.0,
+      "top5_repeats": 20.0
+    }
+  ]
+}

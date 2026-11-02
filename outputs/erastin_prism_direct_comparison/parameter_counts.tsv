@@ -1,0 +1,33 @@
+model	panel	alpha	outer_fits	l1_ratio	width
+ridge__5	5	31.6227766017	8		
+ridge__5	5	100	12		
+ridge__64	64	316.227766017	3		
+ridge__64	64	1000	17		
+elastic_net__5	5	0.0237137370566	1	0.75	
+elastic_net__5	5	0.0316227766017	2	1	
+elastic_net__5	5	0.0421696503429	4	0.75	
+elastic_net__5	5	0.0421696503429	2	1	
+elastic_net__5	5	0.056234132519	1	0.9	
+elastic_net__5	5	0.0749894209332	2	0.25	
+elastic_net__5	5	0.1	1	0.25	
+elastic_net__5	5	0.177827941004	1	0.01	
+elastic_net__5	5	0.237137370566	4	0.01	
+elastic_net__5	5	0.237137370566	1	0.1	
+elastic_net__5	5	0.56234132519	1	0.01	
+elastic_net__64	64	0.0749894209332	1	0.9	
+elastic_net__64	64	0.1	1	0.75	
+elastic_net__64	64	0.133352143216	1	0.75	
+elastic_net__64	64	0.133352143216	1	0.9	
+elastic_net__64	64	0.56234132519	1	0.1	
+elastic_net__64	64	0.749894209332	1	0.05	
+elastic_net__64	64	1	1	0.01	
+elastic_net__64	64	1	2	0.05	
+elastic_net__64	64	1.33352143216	1	0.01	
+elastic_net__64	64	1.33352143216	1	0.05	
+elastic_net__64	64	1.77827941004	2	0.01	
+elastic_net__64	64	2.37137370566	3	0.01	
+elastic_net__64	64	3.16227766017	4	0.01	
+neural_network__5	5	10	10		16
+neural_network__5	5	10	10		32
+neural_network__64	64	100	18		16
+neural_network__64	64	100	2		32

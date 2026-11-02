@@ -1,0 +1,230 @@
+{
+  "summary": [
+    {
+      "scope": "pooled_745",
+      "model": "xgboost",
+      "spearman_mean": 0.39710402392421634,
+      "spearman_sd": 0.0076324230882590886,
+      "spearman_min": 0.38453516619286965,
+      "spearman_max": 0.4128247708766486,
+      "rmse_mean": 0.12139365760954073,
+      "rmse_sd": 0.0005893855817501421,
+      "rmse_min": 0.12030088524279381,
+      "rmse_max": 0.12238866593367287,
+      "r2_mean": 0.16487911145357703,
+      "r2_sd": 0.008109114517402361,
+      "r2_min": 0.15115180592047495,
+      "r2_max": 0.1798651372486867
+    },
+    {
+      "scope": "pooled_745",
+      "model": "ridge",
+      "spearman_mean": 0.42380182647208847,
+      "spearman_sd": 0.004125667510739486,
+      "spearman_min": 0.4150407758829957,
+      "spearman_max": 0.42837877148051573,
+      "rmse_mean": 0.12075003110909788,
+      "rmse_sd": 0.00020577261223612514,
+      "rmse_min": 0.1205141780334639,
+      "rmse_max": 0.12109106954797491,
+      "r2_mean": 0.17372744444680194,
+      "r2_sd": 0.002816650312512087,
+      "r2_min": 0.16905580618892224,
+      "r2_max": 0.17695437018020088
+    },
+    {
+      "scope": "pooled_745",
+      "model": "neural_network",
+      "spearman_mean": 0.428235244768857,
+      "spearman_sd": 0.0005195313133461767,
+      "spearman_min": 0.4271472883659895,
+      "spearman_max": 0.42912358760596536,
+      "rmse_mean": 0.1204839208282257,
+      "rmse_sd": 3.217844490799105e-05,
+      "rmse_min": 0.12043770483377604,
+      "rmse_max": 0.12055334593241399,
+      "r2_mean": 0.17736754273427474,
+      "r2_sd": 0.0004394465178162415,
+      "r2_min": 0.1764192927777023,
+      "r2_max": 0.1779985786542806
+    },
+    {
+      "scope": "macro_19",
+      "model": "xgboost",
+      "spearman_mean": 0.22743308560664066,
+      "spearman_sd": 0.01791899417417613,
+      "spearman_min": 0.18709347520047323,
+      "spearman_max": 0.2538110196009614,
+      "rmse_mean": 0.12173942780571476,
+      "rmse_sd": 0.000655346575328374,
+      "rmse_min": 0.12063836147428153,
+      "rmse_max": 0.1228483867647962,
+      "r2_mean": -0.0966801694719891,
+      "r2_sd": 0.013292934409798039,
+      "r2_min": -0.11813697885553977,
+      "r2_max": -0.07270410031983689
+    },
+    {
+      "scope": "macro_19",
+      "model": "ridge",
+      "spearman_mean": 0.2300750750686073,
+      "spearman_sd": 0.003603406064645262,
+      "spearman_min": 0.21817416376261112,
+      "spearman_max": 0.23318967921387887,
+      "rmse_mean": 0.12124997439394418,
+      "rmse_sd": 0.0002031103740315621,
+      "rmse_min": 0.1210110240616045,
+      "rmse_max": 0.121567485330945,
+      "r2_mean": -0.08774798988681662,
+      "r2_sd": 0.005651293156056672,
+      "r2_min": -0.096787511858583,
+      "r2_max": -0.08081482014402283
+    },
+    {
+      "scope": "macro_19",
+      "model": "neural_network",
+      "spearman_mean": 0.22628156844446176,
+      "spearman_sd": 0.0019660471840619825,
+      "spearman_min": 0.22408568005149954,
+      "spearman_max": 0.230721353334854,
+      "rmse_mean": 0.12087245582769249,
+      "rmse_sd": 3.6964701528788206e-05,
+      "rmse_min": 0.12082570030884913,
+      "rmse_max": 0.12096736836096036,
+      "r2_mean": -0.07708236324957939,
+      "r2_sd": 0.0007164720804805069,
+      "r2_min": -0.07870481513362704,
+      "r2_max": -0.07599758091469296
+    }
+  ],
+  "lineage_wins": [
+    {
+      "reference": "ridge",
+      "eligible_lineages": 19,
+      "spearman_favorable_lineages": 9,
+      "rmse_favorable_lineages": 9,
+      "r2_favorable_lineages": 9
+    },
+    {
+      "reference": "neural_network",
+      "eligible_lineages": 19,
+      "spearman_favorable_lineages": 9,
+      "rmse_favorable_lineages": 8,
+      "r2_favorable_lineages": 8
+    }
+  ],
+  "parameter_counts": [
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300,
+      "outer_fits": 16
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600,
+      "outer_fits": 1
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300,
+      "outer_fits": 2
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600,
+      "outer_fits": 1
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300,
+      "outer_fits": 1
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300,
+      "outer_fits": 16
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300,
+      "outer_fits": 13
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300,
+      "outer_fits": 5
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300,
+      "outer_fits": 47
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100,
+      "outer_fits": 73
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100,
+      "outer_fits": 30
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300,
+      "outer_fits": 19
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100,
+      "outer_fits": 111
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100,
+      "outer_fits": 96
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300,
+      "outer_fits": 49
+    }
+  ],
+  "validation_passed": true,
+  "distinct_prediction_vectors": 20,
+  "boosting_length_counts": {
+    "100": 310,
+    "300": 168,
+    "600": 2
+  }
+}

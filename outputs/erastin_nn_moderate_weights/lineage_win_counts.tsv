@@ -1,0 +1,6 @@
+first_model	reference_model	eligible_lineages	spearman_favorable_lineages	rmse_favorable_lineages	r2_favorable_lineages
+inverse_sqrt	unweighted	19	10	8	8
+capped_inverse_5	unweighted	19	7	6	6
+inverse_sqrt	inverse_frequency	19	15	14	14
+capped_inverse_5	inverse_frequency	19	12	13	13
+inverse_sqrt	capped_inverse_5	19	13	13	13

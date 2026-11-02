@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "figures": [
+    "model_comparison.png",
+    "paired_differences.png",
+    "elastic_net_selection.png",
+    "lineage_comparison.png"
+  ],
+  "inspection": "Rendered plots inspected; axis text, annotations, interval direction and tabulated values checked. Neural-network labels wrapped to avoid overlap.",
+  "figure_sha256": {
+    "model_comparison.png": "493eec83cf0b5eb13d2622e6a8b384df1d8021d0c3eba27dc1fb47099f86bf87",
+    "paired_differences.png": "c21b3273542e62a8cdc58d6a9e90e49aca357a1ce464a69b48702283ab51f896",
+    "elastic_net_selection.png": "a2ce2488e301f6bb06f932839fee60c838c35c4ac5fe44f191a3f5ac0d8672ef",
+    "lineage_comparison.png": "b3b0c37865336ef51ec1cf5a09c40d785f5f4cd1f7cbb3082ddae0a438d12fd2"
+  }
+}

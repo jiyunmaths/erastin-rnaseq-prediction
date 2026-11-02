@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "bytes": 8705,
+      "sha256": "f207c08666d385f611dd74be3fbfe311cb59497d2fd8cc789ca8649c89d438fd"
+    },
+    {
+      "path": "analyze_lineages.py",
+      "bytes": 24758,
+      "sha256": "d121000f0a52d66994d6c981214f3323026bd56ecd08b7ed11906e0ffcc64140"
+    },
+    {
+      "path": "evaluation_omission_sensitivity.tsv",
+      "bytes": 20093,
+      "sha256": "c467334764a39d5bd0c455e34067ada6b3964d808065879f0e9b8849d9e4da3a"
+    },
+    {
+      "path": "lineage_contributions.png",
+      "bytes": 249668,
+      "sha256": "b89e2081286f6708521f8c1c13bbe702dd25cd904b92569403e9bda326e8e996"
+    },
+    {
+      "path": "lineage_contributions.svg",
+      "bytes": 57834,
+      "sha256": "dd1cf4fe198ba457cce8e02634bd0a1ac3a814577a094e51b0f8e9979d14ca87"
+    },
+    {
+      "path": "lineage_weights.tsv",
+      "bytes": 1555,
+      "sha256": "6413a53d7868a64da1c881b7ba7ae07c36f695980943c2b966e5811f6f62dbbc"
+    },
+    {
+      "path": "metric_reconstruction.tsv",
+      "bytes": 13748,
+      "sha256": "0d70a859625c3aecd52a76d1942f237c83b34b8a0347dc72ae452d600b32bbef"
+    },
+    {
+      "path": "model_lineage_summary.tsv",
+      "bytes": 1782,
+      "sha256": "dffba3d3bb126b580658eed241c34edc043ae63d8c42be07bc213b0f15953384"
+    },
+    {
+      "path": "panel_gain_lineage_contributions.tsv",
+      "bytes": 20461,
+      "sha256": "d682ffd0590a0259b6f37051ab85d67222f9476dbfa838ab34c86da0b37b1b41"
+    },
+    {
+      "path": "panel_gain_summary.tsv",
+      "bytes": 1012,
+      "sha256": "a84c42c3d0893e502b60ce1116cbc8f28ef22a81950cff3e7f4d6cbed2034feb"
+    },
+    {
+      "path": "per_model_lineage_contributions.tsv",
+      "bytes": 58286,
+      "sha256": "3a1fdbcc0ae323e07da02e7c377bef6ce491111bec687b97722104a4e729ef51"
+    },
+    {
+      "path": "per_repeat_lineage_contributions.tsv",
+      "bytes": 1171005,
+      "sha256": "f081397064b36a673229602efe64bcbe6ea68fc3e9213a5a93ea011de949b624"
+    },
+    {
+      "path": "progress.json",
+      "bytes": 74,
+      "sha256": "1debbd52a1b20bce4fa5bed38924d943f52cd5c003c96ade0b74f7a6973b08ee"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 1980,
+      "sha256": "ced2d7de5459b4d7cfc9f2c9b73902e73b03a269c1053e4aba0585d892667985"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 1003,
+      "sha256": "c9f2eeb7e354b4abecd605e663ca1c10f7014bd599e5a570499524b8538f51b8"
+    },
+    {
+      "path": "training_lineage_weights.tsv",
+      "bytes": 49419,
+      "sha256": "dc655ffba7b580b442ec0b9aaed06371ad90e7a1c23c14e1eed25839849ec5d6"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 641,
+      "sha256": "8507e6bb6b0c8d75fec83bfe973d94b392ac9012a311668638425d084c75dbf5"
+    },
+    {
+      "path": "weights_and_nn64_gains.png",
+      "bytes": 149008,
+      "sha256": "741b369f28a8bc4e93215757053d5d41e7cbb7557fce570ceeb38dd8ee4e5f01"
+    },
+    {
+      "path": "weights_and_nn64_gains.svg",
+      "bytes": 51287,
+      "sha256": "3a968a8037cd206fa4d9fd4d68485f95085bb26f32dbea4d967b8a31faad6917"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+model	alpha	outer_fits
+linear_cpd	1000	20
+linear_cpd	3000	460
+spline_cpd	0	1
+spline_cpd	1	13
+spline_cpd	10	8
+spline_cpd	100	2
+spline_cpd	10000	456

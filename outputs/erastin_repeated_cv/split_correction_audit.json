@@ -1,0 +1,6 @@
+{
+  "legacy_count_lookup_mismatches_in_reproduction": 672,
+  "legacy_identity_groups_remain_disjoint": true,
+  "corrected_counts_match_actual_fold_membership_on_every_call": true,
+  "original_and_20_followup_seeds_audited": true
+}

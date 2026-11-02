@@ -1,0 +1,64 @@
+model	panel	gene_count	alpha	outer_fits	l1_ratio	width
+ridge__ferro5	ferro5	5	10	8		
+ridge__ferro5	ferro5	5	31.6227766017	12		
+ridge__ferro64	ferro64	64	316.227766017	20		
+ridge__ferro64_ddr	ferro64_ddr	213	1000	20		
+ridge__ferro64_emt	ferro64_emt	264	1000	20		
+ridge__ferro64_emt_ddr	ferro64_emt_ddr	413	1000	20		
+elastic_net__ferro5	ferro5	5	0.0237137370566	1	0.01	
+elastic_net__ferro5	ferro5	5	0.0316227766017	5	0.01	
+elastic_net__ferro5	ferro5	5	0.0421696503429	7	0.01	
+elastic_net__ferro5	ferro5	5	0.056234132519	3	0.01	
+elastic_net__ferro5	ferro5	5	0.0749894209332	4	0.01	
+elastic_net__ferro64	ferro64	64	0.0316227766017	1	1	
+elastic_net__ferro64	ferro64	64	0.0421696503429	1	1	
+elastic_net__ferro64	ferro64	64	0.056234132519	1	0.75	
+elastic_net__ferro64	ferro64	64	0.133352143216	2	0.25	
+elastic_net__ferro64	ferro64	64	0.177827941004	1	0.1	
+elastic_net__ferro64	ferro64	64	0.237137370566	1	0.05	
+elastic_net__ferro64	ferro64	64	0.237137370566	4	0.1	
+elastic_net__ferro64	ferro64	64	0.316227766017	5	0.05	
+elastic_net__ferro64	ferro64	64	0.421696503429	2	0.05	
+elastic_net__ferro64	ferro64	64	0.56234132519	2	0.01	
+elastic_net__ferro64_ddr	ferro64_ddr	213	0.0421696503429	2	0.9	
+elastic_net__ferro64_ddr	ferro64_ddr	213	0.056234132519	2	0.9	
+elastic_net__ferro64_ddr	ferro64_ddr	213	0.056234132519	1	1	
+elastic_net__ferro64_ddr	ferro64_ddr	213	0.316227766017	6	0.1	
+elastic_net__ferro64_ddr	ferro64_ddr	213	0.421696503429	2	0.05	
+elastic_net__ferro64_ddr	ferro64_ddr	213	0.56234132519	2	0.05	
+elastic_net__ferro64_ddr	ferro64_ddr	213	1	5	0.01	
+elastic_net__ferro64_emt	ferro64_emt	264	0.0316227766017	1	1	
+elastic_net__ferro64_emt	ferro64_emt	264	0.0421696503429	1	0.75	
+elastic_net__ferro64_emt	ferro64_emt	264	0.0421696503429	1	1	
+elastic_net__ferro64_emt	ferro64_emt	264	0.056234132519	1	0.75	
+elastic_net__ferro64_emt	ferro64_emt	264	0.0749894209332	2	0.5	
+elastic_net__ferro64_emt	ferro64_emt	264	0.133352143216	2	0.25	
+elastic_net__ferro64_emt	ferro64_emt	264	0.177827941004	2	0.25	
+elastic_net__ferro64_emt	ferro64_emt	264	0.237137370566	1	0.1	
+elastic_net__ferro64_emt	ferro64_emt	264	0.316227766017	2	0.1	
+elastic_net__ferro64_emt	ferro64_emt	264	0.421696503429	1	0.05	
+elastic_net__ferro64_emt	ferro64_emt	264	0.421696503429	1	0.1	
+elastic_net__ferro64_emt	ferro64_emt	264	0.56234132519	1	0.05	
+elastic_net__ferro64_emt	ferro64_emt	264	1	2	0.01	
+elastic_net__ferro64_emt	ferro64_emt	264	1.33352143216	2	0.01	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.0421696503429	1	1	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.056234132519	1	0.75	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.056234132519	1	0.9	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.056234132519	2	1	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.0749894209332	2	0.75	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.1	3	0.5	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.177827941004	3	0.25	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.237137370566	1	0.25	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.421696503429	1	0.1	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.56234132519	1	0.05	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	0.749894209332	2	0.05	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	1.33352143216	1	0.01	
+elastic_net__ferro64_emt_ddr	ferro64_emt_ddr	413	1.77827941004	1	0.01	
+neural_network__ferro5	ferro5	5	10	9		16
+neural_network__ferro5	ferro5	5	10	11		32
+neural_network__ferro64	ferro64	64	100	19		16
+neural_network__ferro64	ferro64	64	100	1		32
+neural_network__ferro64_ddr	ferro64_ddr	213	100	19		16
+neural_network__ferro64_ddr	ferro64_ddr	213	100	1		32
+neural_network__ferro64_emt	ferro64_emt	264	100	20		16
+neural_network__ferro64_emt_ddr	ferro64_emt_ddr	413	100	20		16

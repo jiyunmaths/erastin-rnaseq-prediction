@@ -1,0 +1,7 @@
+scope	metric	favorable_lineages	eligible_lineages
+corrected_original_seed	spearman	10	19
+corrected_original_seed	rmse	9	19
+corrected_original_seed	r2	9	19
+mean_20_inner_seeds	spearman	10	19
+mean_20_inner_seeds	rmse	9	19
+mean_20_inner_seeds	r2	9	19

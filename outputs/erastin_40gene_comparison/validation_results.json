@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "sample_count": 745,
+  "panel_genes": 40,
+  "all_labels_rechecked_against_source": true,
+  "expression_source_rows_rechecked": [
+    "ACH-000002",
+    "ACH-000535",
+    "ACH-001321"
+  ],
+  "npz_load_without_pickle": true,
+  "missing_vs_zero_preserved": true,
+  "outer_inner_and_leave_lineage_group_separation": true,
+  "row_alignment_and_log_base_conversion": true
+}

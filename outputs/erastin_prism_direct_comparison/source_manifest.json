@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_prism_validation/matched_prism_inputs.npz",
+      "sha256": "2a0d29ac7c80d49f8657e37a7e49a6bd14f48293a1d113d420f17d3b08d820e6"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/matched_cohort.tsv",
+      "sha256": "6ef2bbeccb48aec292d7abecfc6a148de969f8fff068590bd11870d785c8e76d"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/cohort_summary.json",
+      "sha256": "1ec9eb93448563875b6bec2f3afd72999a8a5fd7d81aa5e4ac1d066b150c05b9"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/cohort_audit.tsv",
+      "sha256": "cfd5fddb068a1ffd5e4a56c4414e8dbc6c8dd8b832a53203db4e0053af0d4888"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/prism_erastin_all_rows.tsv",
+      "sha256": "a73366f34f133016f6eb6a0ddfb6ca91849704524868c94430342be0de983fbe"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/erastin_treatment_metadata.tsv",
+      "sha256": "5353e8c28461e6172e0b0815c43bda02672d1fbc74c0c478779b16f16951631b"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/gene_mapping.tsv",
+      "sha256": "17f9834fcd59b9828395aaa4d7e53c5c3d15ee44e866b40fa800ade7116d9e68"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/source_manifest.json",
+      "sha256": "8dc2efe18a5f5e84a23df2d2f9d9a6bb8199ff1285b667fba405397579c6a781"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/validation.json",
+      "sha256": "c279d08fde1c9b27dc4a335cb6acfb6207d207d90a276f05eb0bb148dcb278a3"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/protocol.json",
+      "sha256": "42aa8dddb872f428b06304c10a6bd284e061bdb8523cfcf39b7ee4fb8654e468"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/figshare_20564034.json",
+      "sha256": "025d40b85f92df9d12f9cc50af6e811cc0b819bdf2e478898f565256afcbfdfe"
+    },
+    {
+      "path": "outputs/erastin_prism_validation/prism-repurposing-20q2-secondary-screen-readme",
+      "sha256": "652173e1050dc92a7005809545bfc2ce7e491a22af2af3ce0b62447e31d2e851"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/model_helpers.py",
+      "sha256": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/weighted_mlp.py",
+      "sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/metric_helpers.py",
+      "sha256": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/make_splits.py",
+      "sha256": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/enet_helpers.py",
+      "sha256": "7b8b70578da676e0ed4cc0126b214b559f5bd3cca4045d568ad846c7394bbd15"
+    },
+    {
+      "path": "outputs/erastin_five_gene_comparison/ridge_helpers.py",
+      "sha256": "9b66630eb6436921e400c2951f036004e6a6749553f2cba1636fcb85f354e768"
+    }
+  ],
+  "prism_source_manifest_sha256": "8dc2efe18a5f5e84a23df2d2f9d9a6bb8199ff1285b667fba405397579c6a781"
+}

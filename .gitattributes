@@ -1,0 +1,13 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+*.png binary
+
+# Frozen experiment manifests pin exact bytes. Preserve their original line
+# endings (including downloaded source snapshots) on every platform.
+outputs/** -text
+work/** -text

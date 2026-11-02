@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "saved_models": 480,
+  "added_genes": 24,
+  "joint_block": true,
+  "no_refitting": true,
+  "exact_within_lineage_permutation_expectation": true,
+  "model_and_input_source_hashes_verified": true,
+  "max_cell_aggregation_error": 0.0,
+  "bootstrap_expansion_error": 2.168404344971009e-19,
+  "baseline_prediction_error": 0.0,
+  "native_swap_error": 3.3306690738754696e-16,
+  "identity_swap_error": 2.220446049250313e-16,
+  "gradient_finite_difference_error": 1.7988115337541632e-11,
+  "exhaustive_two_cell_error": 2.0816681711721685e-17
+}

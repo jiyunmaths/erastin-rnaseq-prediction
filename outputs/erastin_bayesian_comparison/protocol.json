@@ -1,0 +1,140 @@
+{
+  "status": "extended_grid_frozen_before_new_BN_heldout_results",
+  "created_utc": "2026-11-01T14:06:31Z",
+  "scripts": {
+    "gaussian_network.py": "17b69a5c6cb6c536d591227fca326b2e33e8bf9a9192db08ad9ad859ff35da99",
+    "run_bayesian.py": "59641c71cb1453635c880df2ab44a6c07c30d9db46173724e78a9ea7af15e7b2"
+  },
+  "data": "unchanged 745 cancer lines, 734 related-identity groups, 40 log2(TPM+1) panel genes",
+  "response": "negative reported CTRP erastin AUC, continuous, no discretization or prediction clipping",
+  "families": [
+    "gaussian_naive",
+    "gaussian_tan"
+  ],
+  "gaussian_naive": "Y is the root, all 40 genes have Y as their sole parent; conditionally independent genes given continuous Y",
+  "gaussian_tan": "Y is root and parent of all genes; add a maximum spanning tree of Gaussian conditional mutual information between genes given Y; orient gene tree from fixed panel index 0",
+  "interpretation": "arrows express statistical factorization, not a causal or mechanistic gene network; conditional response mean is linear in expression",
+  "parameter_estimation": "point estimates from training-only standardized joint covariance; not full Bayesian averaging over graph and parameter uncertainty",
+  "regularization": "S=(1-lambda)*C + lambda*I on jointly standardized Y and X; both graph and local Gaussian CPDs use S",
+  "shrinkage_grid": [
+    0.0,
+    0.01,
+    0.03,
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    0.9,
+    0.95,
+    0.99,
+    1.0
+  ],
+  "grid_amendment": {
+    "reason": "every naive fit and 483/504 TAN fits selected the upper shrinkage boundary 0.8 by inner validation",
+    "selection_counts": {
+      "gaussian_naive": {
+        "0.8": 504
+      },
+      "gaussian_tan": {
+        "0.8": 483,
+        "0.6": 21
+      }
+    },
+    "old_grid": [
+      0,
+      0.01,
+      0.03,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "extended_grid": [
+      0,
+      0.01,
+      0.03,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95,
+      0.99,
+      1.0
+    ],
+    "extension_criterion": "inner-validation boundary selections, not held-out score improvement",
+    "initial_outer_pooled_results_already_seen": true,
+    "no_external_validation_added": true
+  },
+  "graph_edges": "39 gene-gene tree edges plus 40 response-gene edges for TAN; 40 response-gene edges for naive; coefficients can be zero, especially at lambda=1",
+  "inference": "exact Gaussian conditional mean and variance from BN precision; ensemble not required because fitting is deterministic",
+  "outer_splits": "all 24 fixed corrected lineage holdouts unchanged; original inner seed plus saved 20 followup seeds",
+  "inner_seeds": [
+    20261031,
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "tuning": "minimum equal-weight mean 5-fold inner RMSE; each inner fit learns its own scalers, moments, graph, CPDs; first candidate wins ties",
+  "primary_comparisons": "20-repeat TAN vs matched expression ridge, expression neural network and naive BN; paired seed-level metrics",
+  "secondary_comparisons": "original seed 20261031 BN vs all nine saved ridge/RF/NN x expression/panel-BulkFormer/all-BulkFormer arms; RF not available over 20 repeats",
+  "additional_repeat_references": "saved panel-focused and all-gene BulkFormer ridge across the same 20 seeds",
+  "metrics": [
+    "spearman",
+    "rmse",
+    "r2"
+  ],
+  "macro": "equal weight over same 19 lineages with n>=10; all 745 lines in pooled scores",
+  "uncertainty": {
+    "count": 5000,
+    "repeat_pooled_seed": 2026110901,
+    "repeat_macro_seed": 2026110902,
+    "original_pooled_seed": 2026110903,
+    "original_macro_seed": 2026110904,
+    "unit": "whole held-out lineage; all arms and repeats paired; conditional on predictions with no refitting; no independent-seed significance tests"
+  },
+  "predictive_uncertainty": "held-out Gaussian negative log likelihood, 90% conditional predictive interval coverage and width; no post-hoc calibration",
+  "graph_reporting": "undirected gene-edge stability across 480 selected repeat TAN fits; do not interpret arbitrary tree direction as causality",
+  "previous_models_and_gene_importance_results_seen": true,
+  "exploratory_followup": true,
+  "workers": 6,
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "sklearn": "1.5.2"
+  },
+  "references": [
+    {
+      "url": "https://dang.cs.technion.ac.il/journal_papers/friedman1997Bayesian.pdf",
+      "use": "TAN factorization and maximum spanning tree; original paper is classification, implemented here with continuous Gaussian CPDs"
+    },
+    {
+      "url": "https://pgmpy.org/api/generated/models/pgmpy.models.LinearGaussianBayesianNetwork.html",
+      "use": "linear Gaussian BN to joint Gaussian representation and conditioning"
+    },
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.covariance.ledoit_wolf.html",
+      "use": "diagonal covariance shrinkage form only; lambda selected by inner CV, not Ledoit-Wolf estimate"
+    }
+  ]
+}

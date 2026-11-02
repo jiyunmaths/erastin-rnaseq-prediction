@@ -1,0 +1,968 @@
+{
+  "passed": true,
+  "no_refitting": true,
+  "models_checked": 120,
+  "checks": [
+    {
+      "model": "ridge__5",
+      "repeat": 1,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 1,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 1,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 1,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 1,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 1,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 2,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 2,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 2,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 2,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 2,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 2,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 3,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 76,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 3,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 76,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 3,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 76,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 3,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 76,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 3,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 76,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 3,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 76,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 4,
+      "predicted_lines": 109,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 4,
+      "predicted_lines": 109,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 4,
+      "predicted_lines": 109,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 4,
+      "predicted_lines": 109,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 4,
+      "predicted_lines": 109,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 4,
+      "predicted_lines": 109,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 5,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 77,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 5,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 77,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 5,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 77,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 5,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 77,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 5,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 77,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 5,
+      "predicted_lines": 120,
+      "known_original_test_predictions_checked": 77,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 6,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 6,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 6,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 6,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 6,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 6,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 7,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 64,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 7,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 64,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 7,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 64,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 7,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 64,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 7,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 64,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 7,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 64,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 8,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 8,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 8,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 8,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 8,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 8,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 9,
+      "predicted_lines": 104,
+      "known_original_test_predictions_checked": 60,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 9,
+      "predicted_lines": 104,
+      "known_original_test_predictions_checked": 60,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 9,
+      "predicted_lines": 104,
+      "known_original_test_predictions_checked": 60,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 9,
+      "predicted_lines": 104,
+      "known_original_test_predictions_checked": 60,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 9,
+      "predicted_lines": 104,
+      "known_original_test_predictions_checked": 60,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 9,
+      "predicted_lines": 104,
+      "known_original_test_predictions_checked": 60,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 10,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 65,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 10,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 65,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 10,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 65,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 10,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 65,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 10,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 65,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 10,
+      "predicted_lines": 108,
+      "known_original_test_predictions_checked": 65,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 11,
+      "predicted_lines": 102,
+      "known_original_test_predictions_checked": 59,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 11,
+      "predicted_lines": 102,
+      "known_original_test_predictions_checked": 59,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 11,
+      "predicted_lines": 102,
+      "known_original_test_predictions_checked": 59,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 11,
+      "predicted_lines": 102,
+      "known_original_test_predictions_checked": 59,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 11,
+      "predicted_lines": 102,
+      "known_original_test_predictions_checked": 59,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 11,
+      "predicted_lines": 102,
+      "known_original_test_predictions_checked": 59,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 12,
+      "predicted_lines": 114,
+      "known_original_test_predictions_checked": 71,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 12,
+      "predicted_lines": 114,
+      "known_original_test_predictions_checked": 71,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 12,
+      "predicted_lines": 114,
+      "known_original_test_predictions_checked": 71,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 12,
+      "predicted_lines": 114,
+      "known_original_test_predictions_checked": 71,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 12,
+      "predicted_lines": 114,
+      "known_original_test_predictions_checked": 71,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 12,
+      "predicted_lines": 114,
+      "known_original_test_predictions_checked": 71,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 13,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 13,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 13,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 13,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 13,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 13,
+      "predicted_lines": 117,
+      "known_original_test_predictions_checked": 73,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 14,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 61,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 14,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 61,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 14,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 61,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 14,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 61,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 14,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 61,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 14,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 61,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 15,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 15,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 15,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 15,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 15,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 15,
+      "predicted_lines": 113,
+      "known_original_test_predictions_checked": 70,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 16,
+      "predicted_lines": 112,
+      "known_original_test_predictions_checked": 69,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 16,
+      "predicted_lines": 112,
+      "known_original_test_predictions_checked": 69,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 16,
+      "predicted_lines": 112,
+      "known_original_test_predictions_checked": 69,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 16,
+      "predicted_lines": 112,
+      "known_original_test_predictions_checked": 69,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 16,
+      "predicted_lines": 112,
+      "known_original_test_predictions_checked": 69,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 16,
+      "predicted_lines": 112,
+      "known_original_test_predictions_checked": 69,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 17,
+      "predicted_lines": 110,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 17,
+      "predicted_lines": 110,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 17,
+      "predicted_lines": 110,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 17,
+      "predicted_lines": 110,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 17,
+      "predicted_lines": 110,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 17,
+      "predicted_lines": 110,
+      "known_original_test_predictions_checked": 66,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 18,
+      "predicted_lines": 121,
+      "known_original_test_predictions_checked": 78,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 18,
+      "predicted_lines": 121,
+      "known_original_test_predictions_checked": 78,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 18,
+      "predicted_lines": 121,
+      "known_original_test_predictions_checked": 78,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 18,
+      "predicted_lines": 121,
+      "known_original_test_predictions_checked": 78,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 18,
+      "predicted_lines": 121,
+      "known_original_test_predictions_checked": 78,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 18,
+      "predicted_lines": 121,
+      "known_original_test_predictions_checked": 78,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 19,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 19,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 19,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 19,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 19,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 19,
+      "predicted_lines": 105,
+      "known_original_test_predictions_checked": 62,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 20,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 20,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 1.1102230246251565e-16,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__5",
+      "repeat": 20,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "elastic_net__64",
+      "repeat": 20,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 20,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 20,
+      "predicted_lines": 111,
+      "known_original_test_predictions_checked": 68,
+      "max_saved_prediction_error": 0.0,
+      "max_native_manual_error": 0.0
+    }
+  ],
+  "all_predictions_identity_group_held_out": true
+}

@@ -1,0 +1,308 @@
+{
+  "always_selected": [
+    "SLC7A11",
+    "ACSL4",
+    "AIFM2",
+    "GPX4",
+    "ACSL3",
+    "ABCC1",
+    "LAMP2",
+    "CYB5R1",
+    "CTSD",
+    "FADS1",
+    "GCLC",
+    "FADS2",
+    "ATF4"
+  ],
+  "selected_19_of_20": [
+    "GSR",
+    "LRP8",
+    "GOT1",
+    "DHFR"
+  ],
+  "selected_18_of_20": [
+    "SLC3A2",
+    "LPCAT3",
+    "PROM2",
+    "SPR"
+  ],
+  "top10_predictive": {
+    "elastic_net": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "FADS1",
+      "ACSL3",
+      "LAMP2",
+      "GOT1",
+      "CYB5R1"
+    ],
+    "ridge": [
+      "SLC7A11",
+      "GPX4",
+      "ABCC1",
+      "ACSL4",
+      "AIFM2",
+      "GOT1",
+      "ACSL3",
+      "FADS1",
+      "LPCAT3",
+      "LRP8"
+    ],
+    "neural_network": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "GOT1",
+      "ACSL3",
+      "LRP8",
+      "GSR",
+      "DHFR"
+    ]
+  },
+  "positive_pointwise_intervals": {
+    "elastic_net": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "GOT1"
+    ],
+    "ridge": [
+      "SLC7A11",
+      "GPX4",
+      "ABCC1",
+      "ACSL4",
+      "AIFM2",
+      "GOT1",
+      "LRP8"
+    ],
+    "neural_network": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "GOT1",
+      "LRP8"
+    ]
+  },
+  "global_agreement": [
+    {
+      "first_model": "elastic_net",
+      "reference_model": "ridge",
+      "scope": "pooled23",
+      "measure": "predictive_importance",
+      "spearman": 0.9164835164835166
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "ridge",
+      "scope": "pooled23",
+      "measure": "prediction_influence",
+      "spearman": 0.9641941391941392
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "ridge",
+      "scope": "pooled23",
+      "measure": "standardized_sensitivity",
+      "spearman": 0.9619047619047618
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "scope": "pooled23",
+      "measure": "predictive_importance",
+      "spearman": 0.9155219780219779
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "scope": "pooled23",
+      "measure": "prediction_influence",
+      "spearman": 0.9564560439560438
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "scope": "pooled23",
+      "measure": "standardized_sensitivity",
+      "spearman": 0.9594322344322344
+    },
+    {
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "scope": "pooled23",
+      "measure": "predictive_importance",
+      "spearman": 0.9914835164835164
+    },
+    {
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "scope": "pooled23",
+      "measure": "prediction_influence",
+      "spearman": 0.9905677655677654
+    },
+    {
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "scope": "pooled23",
+      "measure": "standardized_sensitivity",
+      "spearman": 0.9889194139194138
+    }
+  ],
+  "stability": [
+    {
+      "model": "elastic_net",
+      "unit": "between_splits",
+      "measure": "predictive_importance",
+      "pairs": 190,
+      "median": 0.34063292498792597,
+      "q25": 0.22280851394239104,
+      "q75": 0.4587085910025679
+    },
+    {
+      "model": "elastic_net",
+      "unit": "between_lineages19",
+      "measure": "predictive_importance",
+      "pairs": 171,
+      "median": 0.021657509157509157,
+      "q25": -0.10650183150183148,
+      "q75": 0.1767628205128205
+    },
+    {
+      "model": "elastic_net",
+      "unit": "between_lineages12",
+      "measure": "predictive_importance",
+      "pairs": 66,
+      "median": 0.04619963369963369,
+      "q25": -0.06190476190476189,
+      "q75": 0.20005723443223444
+    },
+    {
+      "model": "ridge",
+      "unit": "between_splits",
+      "measure": "predictive_importance",
+      "pairs": 190,
+      "median": 0.36897893772893764,
+      "q25": 0.2509157509157509,
+      "q75": 0.49296016483516475
+    },
+    {
+      "model": "ridge",
+      "unit": "between_lineages19",
+      "measure": "predictive_importance",
+      "pairs": 171,
+      "median": 0.03603479853479853,
+      "q25": -0.09590201465201464,
+      "q75": 0.17873168498168496
+    },
+    {
+      "model": "ridge",
+      "unit": "between_lineages12",
+      "measure": "predictive_importance",
+      "pairs": 66,
+      "median": 0.05579212454212453,
+      "q25": -0.03889652014652014,
+      "q75": 0.20342261904761905
+    },
+    {
+      "model": "neural_network",
+      "unit": "between_splits",
+      "measure": "predictive_importance",
+      "pairs": 190,
+      "median": 0.3640567765567765,
+      "q25": 0.24024725274725275,
+      "q75": 0.48990384615384613
+    },
+    {
+      "model": "neural_network",
+      "unit": "between_lineages19",
+      "measure": "predictive_importance",
+      "pairs": 171,
+      "median": 0.031272893772893766,
+      "q25": -0.1002289377289377,
+      "q75": 0.167032967032967
+    },
+    {
+      "model": "neural_network",
+      "unit": "between_lineages12",
+      "measure": "predictive_importance",
+      "pairs": 66,
+      "median": 0.054258241758241746,
+      "q25": -0.03448946886446886,
+      "q75": 0.2099358974358974
+    }
+  ],
+  "top_overlap": [
+    {
+      "first_model": "elastic_net",
+      "reference_model": "ridge",
+      "top_k": 5,
+      "overlap": 5,
+      "shared_genes": "ABCC1, ACSL4, AIFM2, GPX4, SLC7A11"
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "ridge",
+      "top_k": 10,
+      "overlap": 8,
+      "shared_genes": "ABCC1, ACSL3, ACSL4, AIFM2, FADS1, GOT1, GPX4, SLC7A11"
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "ridge",
+      "top_k": 20,
+      "overlap": 19,
+      "shared_genes": "ABCC1, ACSL3, ACSL4, AIFM2, CNDP2, CTSD, CYB5R1, DHFR, FADS1, FADS2, FAR1, GCLC, GOT1, GPX4, GSR, LAMP2, LPCAT3, LRP8, SLC7A11"
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "top_k": 5,
+      "overlap": 5,
+      "shared_genes": "ABCC1, ACSL4, AIFM2, GPX4, SLC7A11"
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "top_k": 10,
+      "overlap": 7,
+      "shared_genes": "ABCC1, ACSL3, ACSL4, AIFM2, GOT1, GPX4, SLC7A11"
+    },
+    {
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "top_k": 20,
+      "overlap": 20,
+      "shared_genes": "ABCC1, ACSL3, ACSL4, AIFM2, CNDP2, CTSD, CYB5R1, DHFR, FADS1, FADS2, FAR1, GCLC, GOT1, GPX4, GSR, LAMP2, LPCAT3, LRP8, POR, SLC7A11"
+    },
+    {
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "top_k": 5,
+      "overlap": 5,
+      "shared_genes": "ABCC1, ACSL4, AIFM2, GPX4, SLC7A11"
+    },
+    {
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "top_k": 10,
+      "overlap": 8,
+      "shared_genes": "ABCC1, ACSL3, ACSL4, AIFM2, GOT1, GPX4, LRP8, SLC7A11"
+    },
+    {
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "top_k": 20,
+      "overlap": 19,
+      "shared_genes": "ABCC1, ACSL3, ACSL4, AIFM2, CNDP2, CTSD, CYB5R1, DHFR, FADS1, FADS2, FAR1, GCLC, GOT1, GPX4, GSR, LAMP2, LPCAT3, LRP8, SLC7A11"
+    }
+  ]
+}

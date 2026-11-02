@@ -1,0 +1,129 @@
+{
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "0f5692bf927b40e8e6e55863d8dde6e10bed73613e14a617bdc410fb7ea4fb38",
+      "bytes": 8418
+    },
+    {
+      "path": "analyze_agreement.py",
+      "sha256": "8d5cba09ae944500c87b72396af0881d0450a069274d6c2080d74fc0ef22d62f",
+      "bytes": 20073
+    },
+    {
+      "path": "bootstrap_draws.npz",
+      "sha256": "5f6aba8c6a1e83ba6ea37e7b04d9f8f77d5fa3e7979fbd61b02b771c8509a1a0",
+      "bytes": 29840154
+    },
+    {
+      "path": "core_lineage_importance.png",
+      "sha256": "d5d6080874852dc2d3aaa4fb09a99a0a4e40885394ca51514ff48fc7fa888110",
+      "bytes": 181960
+    },
+    {
+      "path": "core_lineage_importance.svg",
+      "sha256": "7cb482e03ec24b6eeb5559be052c2386318853d875bdb4dd592801754268d536",
+      "bytes": 116064
+    },
+    {
+      "path": "cross_model_rank_correlations.tsv",
+      "sha256": "26339f4c5eeab9b3f192b4e7ef865e50c886b43b9287c94d8f0759987bdf5bd0",
+      "bytes": 9588
+    },
+    {
+      "path": "elastic_net_selection.tsv",
+      "sha256": "144b007271c7fcd5bea4c84072dbd4ba5f9f6aa095b4897fa65f78a677f91595",
+      "bytes": 5142
+    },
+    {
+      "path": "gene_agreement.tsv",
+      "sha256": "b2f194e2af48b0251b7c6dc67533b1077f95fa6071237675c552ed6ff8b979d0",
+      "bytes": 25476
+    },
+    {
+      "path": "gene_importance_summary.tsv",
+      "sha256": "bd89f5d1836a1fe2bfd5495ca280ad141d3784f7e04c594c33b47a9f75e4a16b",
+      "bytes": 128582
+    },
+    {
+      "path": "importance_arrays.npz",
+      "sha256": "77c9062c8485b60cbe841b21e132bc967a075bb114218de97629b9f830f829dc",
+      "bytes": 1709842
+    },
+    {
+      "path": "matched_predictive_importance.png",
+      "sha256": "44dae46b9abc82812ea4329d32fab77637431e0396b6581fe4527f1a0f672aeb",
+      "bytes": 112751
+    },
+    {
+      "path": "matched_predictive_importance.svg",
+      "sha256": "1bf3d3c30052dca96a28b73396a2f63162a99d20e507ae8e63bc332be3bd2d59",
+      "bytes": 70514
+    },
+    {
+      "path": "per_lineage_importance.tsv",
+      "sha256": "76077b349bdded055cb420b1c3e03b68168f3d9113fc31ec6a1a5996beddffe8",
+      "bytes": 248734
+    },
+    {
+      "path": "per_repeat_importance.tsv",
+      "sha256": "59994ef154fc2da5a2c54f8f952043ed4d491d32a261f03e11e9bfaa31b93a84",
+      "bytes": 147108
+    },
+    {
+      "path": "progress.json",
+      "sha256": "e0003c9b9a8ab3f4aec883e1f93850cfc7c5ffa69d8040093f46ecafda79b2d2",
+      "bytes": 93
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "2a50009457b39d78efb57cd97a7cb1a129acfdded37a859bc2dc43640c953c11",
+      "bytes": 2464
+    },
+    {
+      "path": "rank_stability.tsv",
+      "sha256": "7bd7c0ef6e7a070e54529032b6b969618ffa1741ac7f9d7df0183c56bb45d165",
+      "bytes": 949
+    },
+    {
+      "path": "report_agreement.py",
+      "sha256": "f692713f7011388dc1e94d979f2a3c6a8d6718825a9a8d69edbf2ef9f5e588f6",
+      "bytes": 13717
+    },
+    {
+      "path": "selection_and_rank_agreement.png",
+      "sha256": "361184ce6e9ef1467e5de7f474652da78f57f3c438c80cad5d8925913cf59c1f",
+      "bytes": 239880
+    },
+    {
+      "path": "selection_and_rank_agreement.svg",
+      "sha256": "91724e552538122642282df9bc7c74a263cbb053669875aebbae2eb91eefe12a",
+      "bytes": 121819
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "43f31649b0f72449c37fd43a64ce8ca5933876d75457ed90e9c8eedf1dd7ad6e",
+      "bytes": 36190
+    },
+    {
+      "path": "summary.json",
+      "sha256": "4ae4b0e498bde0a5b4100a931d96dd75e0aeaaeb143404eb52a387dcc5eaf54e",
+      "bytes": 7319
+    },
+    {
+      "path": "top_gene_overlap.tsv",
+      "sha256": "2d379aa225f03317da836cebb658b139e350409507f757840bdd29dbf0f6536a",
+      "bytes": 946
+    },
+    {
+      "path": "validation.json",
+      "sha256": "878198b3ae0e356d6cfb54f825ec68b99b9dcb968f52b7a4ed8bcc2f19ee9152",
+      "bytes": 10260
+    },
+    {
+      "path": "visual_qa.json",
+      "sha256": "468eab288ac133bb02afd70e8dae49ee2b1c45070aadfed100046908c98f8e70",
+      "bytes": 592
+    }
+  ]
+}

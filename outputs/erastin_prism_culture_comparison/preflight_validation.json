@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "protocol_sha256": "66abd0207918ecbd7959d2e34002310fd6797274d5129bc975226925a86309a1",
+  "split_checks": 120,
+  "all_20_lineages_on_both_outer_sides": true,
+  "independent_preprocessor_checks_passed": true,
+  "unseen_missing_category_controls_passed": true,
+  "native_vs_unit_weight_nn_error": 0.0,
+  "checks": [
+    {
+      "panel": 0,
+      "family": "ridge",
+      "inner_candidate_fits_checked": 85,
+      "max_inner_error": 1.318944953254686e-13,
+      "max_outer_error": 1.1102230246251565e-16
+    },
+    {
+      "panel": 0,
+      "family": "elastic_net",
+      "inner_candidate_fits_checked": 5,
+      "max_inner_error": 2.048583525038339e-12,
+      "max_outer_error": 1.9148016505710075e-12
+    },
+    {
+      "panel": 0,
+      "family": "neural_network",
+      "inner_candidate_fits_checked": 40,
+      "max_inner_error": 0.0,
+      "max_outer_error": 0.0
+    },
+    {
+      "panel": 0,
+      "path_candidates_checked": 32,
+      "native_error": 7.629629483751899e-09,
+      "augmented_lasso_error": 4.191276103959751e-09
+    },
+    {
+      "panel": 5,
+      "family": "ridge",
+      "inner_candidate_fits_checked": 85,
+      "max_inner_error": 1.3027356970951587e-12,
+      "max_outer_error": 1.1102230246251565e-16
+    },
+    {
+      "panel": 5,
+      "family": "elastic_net",
+      "inner_candidate_fits_checked": 5,
+      "max_inner_error": 6.537992369715084e-12,
+      "max_outer_error": 6.151079645633217e-12
+    },
+    {
+      "panel": 5,
+      "family": "neural_network",
+      "inner_candidate_fits_checked": 40,
+      "max_inner_error": 0.0,
+      "max_outer_error": 0.0
+    },
+    {
+      "panel": 5,
+      "path_candidates_checked": 32,
+      "native_error": 1.287437045860429e-09,
+      "augmented_lasso_error": 1.0524654481258722e-09
+    },
+    {
+      "panel": 64,
+      "family": "ridge",
+      "inner_candidate_fits_checked": 85,
+      "max_inner_error": 1.219646605932212e-11,
+      "max_outer_error": 2.220446049250313e-16
+    },
+    {
+      "panel": 64,
+      "family": "elastic_net",
+      "inner_candidate_fits_checked": 5,
+      "max_inner_error": 7.293254888907086e-11,
+      "max_outer_error": 4.6250780982859396e-11
+    },
+    {
+      "panel": 64,
+      "family": "neural_network",
+      "inner_candidate_fits_checked": 40,
+      "max_inner_error": 0.0,
+      "max_outer_error": 0.0
+    },
+    {
+      "panel": 64,
+      "path_candidates_checked": 32,
+      "native_error": 2.131484766465519e-09,
+      "augmented_lasso_error": 2.1424417795401496e-09
+    }
+  ],
+  "preflight_fits_retained": 9,
+  "elapsed_seconds": 34.77289839601144
+}

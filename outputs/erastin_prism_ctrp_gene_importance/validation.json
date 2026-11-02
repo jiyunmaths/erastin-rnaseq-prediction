@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "no_refitting": true,
+  "saved_models": 120,
+  "genes": 64,
+  "datasets": 2,
+  "repeats_each": 20,
+  "common_large_lineages": 13,
+  "common_strict_lineages": 7,
+  "matched_receiver_cells": 290,
+  "CTRP_previous_importance_max_error": 4.3937293039975067e-16,
+  "previous_CTRP_native_ranks_exactly_reproduced": true,
+  "bootstrap_expansion_max_error": 2.168404344971009e-19,
+  "train_test_and_donor_identity_checks": 900,
+  "coefficient_selection_counts_and_signs_verified": true,
+  "source_hashes_verified": true,
+  "saved_prediction_error": 0.0,
+  "native_replacement_error": 3.3306690738754696e-16,
+  "identity_replacement_error": 2.220446049250313e-16,
+  "finite_difference_gradient_error": 2.1779788909881415e-11,
+  "full_donor_matrix_error": 3.3306690738754696e-16
+}

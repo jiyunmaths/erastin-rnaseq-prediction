@@ -1,0 +1,1834 @@
+{
+  "status": "fixed_before_culture_augmented_fits",
+  "created_utc": "2026-11-02T12:40:07Z",
+  "samples": 744,
+  "identity_groups": 733,
+  "lineages": 23,
+  "excluded_samples": [
+    {
+      "sample_id": "ACH-001086",
+      "lineage": "Cervix",
+      "reason": "Singleton lineage cannot occur in both disjoint sets."
+    }
+  ],
+  "ampulla_handling": "Two total lines: one outer train and one outer test in every repeat. Outer-training Ampulla is present in every inner fit but not inner validation; outer test is never used for tuning.",
+  "source_target": "Unchanged archived CTRP harmonized erastin AUC; source archive DOI 10.5281/zenodo.22125121. Original upstream AUC generation recipe remains unverified.",
+  "target": "Negative saved harmonized CTRP erastin AUC; higher means more sensitive. Exact prior target array, no clipping or calibration.",
+  "panels": {
+    "5": [
+      "SLC7A11",
+      "GPX4",
+      "ABCC1",
+      "ACSL4",
+      "AIFM2"
+    ],
+    "64": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB",
+      "SLC3A2",
+      "CBS",
+      "CTH",
+      "GLS2",
+      "GOT1",
+      "PRDX6",
+      "SEPHS2",
+      "GCH1",
+      "PTS",
+      "SPR",
+      "IREB2",
+      "FTH1",
+      "SLC40A1",
+      "PROM2",
+      "FADS1",
+      "ELOVL5",
+      "FADS2",
+      "FAR1",
+      "GNPAT",
+      "AGPS",
+      "TMEM164",
+      "BECN1",
+      "BAP1",
+      "ABCC1"
+    ]
+  },
+  "split_design": "20 response-blind lineage-stratified identity-group holdouts. Approximately 80/20 per lineage, nearest feasible rounded sample count, at least one identity group on each side. Uniform random group subsets conditional on each sample-count target.",
+  "inner_design": "Five identity-group-stratified validation folds within outer training. A lineage represented by one training identity group is always inner training (-2) and never inner validation. Thus all 23 lineages remain in every inner training set; validation has 22 lineages because Ampulla has only one outer-training line.",
+  "outer_train_sizes": [
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595
+  ],
+  "outer_test_sizes": [
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149
+  ],
+  "split_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "inner_split_seeds": [
+    3222237651,
+    4211103832,
+    3387312844,
+    760744323,
+    4025413262,
+    1064357086,
+    208690526,
+    3469505707,
+    2542410094,
+    3924082622,
+    3102039871,
+    2986340925,
+    1856675270,
+    4079919694,
+    1433603754,
+    2646278236,
+    342012659,
+    2242551488,
+    234027037,
+    711790135
+  ],
+  "neural_seed_triplets": [
+    [
+      2893371290,
+      497654881,
+      1975922792
+    ],
+    [
+      3355977667,
+      424493826,
+      1550394385
+    ],
+    [
+      2168687005,
+      1647426202,
+      2688205909
+    ],
+    [
+      42786468,
+      3076077911,
+      273767066
+    ],
+    [
+      1609035048,
+      2851333803,
+      976039955
+    ],
+    [
+      2236401383,
+      2445062483,
+      1129737822
+    ],
+    [
+      3329912852,
+      2638933889,
+      1145265932
+    ],
+    [
+      3422116929,
+      1806768943,
+      1378693510
+    ],
+    [
+      1256998787,
+      700040913,
+      2981348477
+    ],
+    [
+      2517894111,
+      3267202418,
+      2342300164
+    ],
+    [
+      4106300991,
+      1308386135,
+      2273722985
+    ],
+    [
+      1426094152,
+      2803084605,
+      3417373563
+    ],
+    [
+      1122310826,
+      28864576,
+      2615952050
+    ],
+    [
+      2346668660,
+      3452764067,
+      842565008
+    ],
+    [
+      2744930578,
+      3510598388,
+      675723401
+    ],
+    [
+      703156529,
+      4234057440,
+      1500259783
+    ],
+    [
+      3090577113,
+      2300113296,
+      1426115566
+    ],
+    [
+      1178198002,
+      3473816129,
+      1766774902
+    ],
+    [
+      835497170,
+      2416392876,
+      3057713454
+    ],
+    [
+      3712087977,
+      2560194263,
+      1118821988
+    ]
+  ],
+  "ridge_alphas": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "neural_grid": [
+    {
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "width": 32,
+      "alpha": 100.0
+    }
+  ],
+  "neural_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "elastic_net_grid": [
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 1.0
+    }
+  ],
+  "elastic_net_l1_ratios": [
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    1.0
+  ],
+  "elastic_net_alphas": [
+    10.0,
+    7.498942093324558,
+    5.623413251903491,
+    4.216965034285822,
+    3.1622776601683795,
+    2.371373705661655,
+    1.7782794100389228,
+    1.333521432163324,
+    1.0,
+    0.7498942093324559,
+    0.5623413251903491,
+    0.4216965034285822,
+    0.31622776601683794,
+    0.23713737056616552,
+    0.1778279410038923,
+    0.1333521432163324,
+    0.1,
+    0.07498942093324558,
+    0.05623413251903491,
+    0.042169650342858224,
+    0.03162277660168379,
+    0.023713737056616554,
+    0.01778279410038923,
+    0.01333521432163324,
+    0.01,
+    0.007498942093324558,
+    0.005623413251903491,
+    0.004216965034285823,
+    0.0031622776601683794,
+    0.0023713737056616554,
+    0.0017782794100389228,
+    0.001333521432163324,
+    0.001,
+    0.0007498942093324559,
+    0.0005623413251903491,
+    0.00042169650342858224,
+    0.00031622776601683794,
+    0.00023713737056616554,
+    0.00017782794100389227,
+    0.0001333521432163324,
+    0.0001
+  ],
+  "elastic_net_fixed": {
+    "max_iter": 200000,
+    "tol": 1e-11,
+    "selection": "cyclic",
+    "pure_lasso_start": "Native cold start per candidate and selected refit; nonunique test predictions are not assumed equal across solver starts."
+  },
+  "primary_features": "Fixed 5/64 gene expression + growth pattern + medium code + basal-medium recipe prefix + recorded FBS percentage and its missingness. No response/lineage/identity/source-vendor fields as model inputs.",
+  "condition_fields": "GrowthPattern; observed MF code from OnboardedMedia; recipe from FormulationID. One-to-one code/recipe mapping verified. Serum % extracted by explicit % FBS regex; the one serum-free recipe without explicit FBS % is retained as missing, not zero; do not infer unrecorded supplements or basal nutrient concentrations.",
+  "excluded_fields": "Fixed PRISM covariate set retained. PlateCoating is constant None in all 744; ModelDerivationMaterial and CulturedResistanceDrug are entirely empty. ModelTreatment has one EBV annotation and is outside the fixed set. SerumFreeMedia has 703 False, one True and 40 missing: no new serum-free predictor is added. The one explicit serum-free recipe has no numeric FBS percentage and is median-imputed with an indicator, without inferring zero. Exact full recipe not separately encoded from its one-to-one medium code.",
+  "metadata_limit": "These Model.csv fields describe onboarding, not verified CTRP-screen conditions. Associations may reflect lineage, source or other cell-line properties rather than causal culture effects. The release README description and observed medium columns are reversed; preserve and audit raw field values.",
+  "preprocessing": "Fit separately inside every inner training fold and on outer training for refit. Median-impute serum % using current training values; standardize genes and serum only. Encode growth with training-observed categories; medium code/basal family need >=5 current-training rows to retain separate categories. Other/unseen categories share reserved OTHER; missing is explicit MISSING. One-hot and missingness indicators are centered but never variance-standardized, avoiding rare-category amplification. Training column means center the joint matrix.",
+  "categorical_min_counts": {
+    "growth_pattern": 1,
+    "medium_code": 5,
+    "basal_medium": 5
+  },
+  "weighting": "Unweighted across all arms; tuning equal-mean five-fold RMSE in original CTRP target units. No outer-test selection of categories, imputation values, scalers or hyperparameters.",
+  "solver_stability": "Same candidate grid; new mixed-feature Elastic Net fits use tighter tol=1e-11/max_iter=200000 versus saved baseline tol=1e-9/max_iter=50000. Pure-Lasso inner candidates use native cold starts to match outer refits. Independent augmented-Lasso objectives/KKT are checked where coefficients are nonunique.",
+  "controls": "Reuse 120 verified gene-only models, newly fit 120 gene+culture models and 60 culture-only models. Same source targets, RNA values, outer/inner masks and initialization seed triplets. Native unweighted MLP replaces the unit-weight adapter; numerical parity checked independently.",
+  "primary_comparisons": [
+    [
+      "ridge__5__culture",
+      "ridge__5__expression"
+    ],
+    [
+      "ridge__64__culture",
+      "ridge__64__expression"
+    ],
+    [
+      "elastic_net__5__culture",
+      "elastic_net__5__expression"
+    ],
+    [
+      "elastic_net__64__culture",
+      "elastic_net__64__expression"
+    ],
+    [
+      "neural_network__5__culture",
+      "neural_network__5__expression"
+    ],
+    [
+      "neural_network__64__culture",
+      "neural_network__64__expression"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "ridge__5__culture",
+      "ridge__0__culture"
+    ],
+    [
+      "ridge__64__culture",
+      "ridge__0__culture"
+    ],
+    [
+      "elastic_net__5__culture",
+      "elastic_net__0__culture"
+    ],
+    [
+      "elastic_net__64__culture",
+      "elastic_net__0__culture"
+    ],
+    [
+      "neural_network__5__culture",
+      "neural_network__0__culture"
+    ],
+    [
+      "neural_network__64__culture",
+      "neural_network__0__culture"
+    ],
+    [
+      "ridge__5__culture",
+      "ridge__64__culture"
+    ],
+    [
+      "elastic_net__5__culture",
+      "elastic_net__64__culture"
+    ],
+    [
+      "neural_network__5__culture",
+      "neural_network__64__culture"
+    ]
+  ],
+  "primary_metrics": [
+    "pooled_spearman",
+    "pooled_rmse",
+    "pooled_r2",
+    "macro_all_rmse"
+  ],
+  "secondary_metrics": [
+    "macro_large_rmse",
+    "pooled_pearson",
+    "pooled_mae"
+  ],
+  "metric_aliases": {
+    "macro_all_rmse": "previous macro23_rmse",
+    "macro_large_rmse": "previous macro19_rmse"
+  },
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026111501,
+    "unit": "Paired whole-lineage bootstrap shared across models and all 20 split-specific test sets; conditional on predictions, no refitting, no multiplicity adjustment. Repeated test sets overlap and are not independent biological replicates. These conditional intervals also do not adjust for the prior five-gene selection."
+  },
+  "new_outer_models": 180,
+  "reused_outer_models": 120,
+  "total_outer_models": 300,
+  "workers": 8,
+  "limitations": [
+    "Exploratory reuse of the cell-line cohort; evaluates new cell lines from represented lineages, not unseen-lineage transfer. No external validation. Rare-lineage test subsets are tiny; one Ampulla training line cannot be an inner validation point. Panel/model comparisons reuse this cohort after earlier exploration; no multiplicity adjustment or independent external validation.",
+    "Earlier test responses influenced the choice of this five-gene panel. Reusing the same outer splits gives an exploratory post-selection comparison, not independent validation of feature selection. Inner hyperparameter tuning does not remove this selection bias; a fresh response cohort or prospectively reserved test set is required for confirmatory validation.",
+    "Adding culture covariates measures prediction gain under these shared lineage-stratified splits; it does not isolate causal growth-condition effects or demonstrate transfer to unseen media.",
+    "This experiment is exploratory; prior response/model results have informed the ongoing investigation."
+  ],
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  },
+  "data_sha256": {
+    "panel_inputs.npz": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421",
+    "shared_splits.npz": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+    "culture_metadata.tsv": "aedd4ca8c34baa8057d1407092c4f620ea2e056232b4b6eee9cecb46d9f1f239"
+  },
+  "scripts": {
+    "run_comparison.py": "8cbe422245d39f9e1a89f5b2e808ada1fcbd6e87b3e0f6d24f3ce06de72e0097",
+    "culture_features.py": "f27db99be76c35ba880cabe85f3de45ca9f6747f39584654fb85b9c63817b1ea",
+    "fit_helpers.py": "e0b8d702f4652fb7c85ff6cf1a1c689d38ef7c2702189ff03164b9f6dff803f9",
+    "validate_preflight.py": "644fea80876b9593405b18b53f9c64e657a09a71267536079383a0da242f9ad4",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+    "model_helpers.py": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+  }
+}

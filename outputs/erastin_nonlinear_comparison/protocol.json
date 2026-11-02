@@ -1,0 +1,100 @@
+{
+  "created_utc": "2026-11-01T12:59:25Z",
+  "status": "frozen_before_any_heldout_scoring",
+  "script_sha256": "86a3c4a4d99f4e96cdeb24894f17ab50bced3c69d459702db00cb843429fdbff",
+  "samples": 745,
+  "identity_groups": 734,
+  "heldout_lineages": 24,
+  "split_source": "corrected leave-lineage-out shared_splits.npz, original seed 20261031, five inner folds",
+  "representations": [
+    "panel_expression",
+    "panel_contextual_embedding",
+    "all_gene_contextual_embedding"
+  ],
+  "families": [
+    "ridge",
+    "random_forest",
+    "neural_network"
+  ],
+  "random_forest_grid": [
+    {
+      "min_samples_leaf": 5,
+      "max_features": "sqrt"
+    },
+    {
+      "min_samples_leaf": 5,
+      "max_features": 0.3
+    },
+    {
+      "min_samples_leaf": 15,
+      "max_features": "sqrt"
+    },
+    {
+      "min_samples_leaf": 15,
+      "max_features": 0.3
+    }
+  ],
+  "neural_network_grid": [
+    {
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "width": 32,
+      "alpha": 100.0
+    }
+  ],
+  "rf_fixed": {
+    "n_estimators": 128,
+    "bootstrap": true,
+    "random_state": 20261104,
+    "n_jobs": 1
+  },
+  "nn_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "initialization_seeds": [
+      20261104,
+      20261105,
+      20261106
+    ],
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "tuning": "minimum equal-weight mean five-fold inner RMSE in original response units; deterministic first-candidate ties",
+  "ridge_reference": "reuse saved original-seed corrected predictions and inner tuning losses; never compare new models to ridge averaged across other split seeds",
+  "nested_family_representation_selector": "for each outer lineage choose the arm with smallest inner RMSE from all nine already tuned arms; tie order ridge/RF/NN then expression/panel/all",
+  "pooled_metrics": [
+    "spearman",
+    "rmse",
+    "r2"
+  ],
+  "macro_metrics": "equal-weight within-lineage mean among 19 lineages with n>=10",
+  "uncertainty": "5000 paired whole-lineage resamples conditional on fixed predictions; 24 clusters pooled, 19 macro; no refitting",
+  "bootstrap_seeds": {
+    "pooled": 2026110401,
+    "macro": 2026110402
+  },
+  "comparison_scope": "exploratory new-head comparison on one fixed inner split scheme; not a 20-split repeat and not external validation",
+  "training_only_timing_pilot": "used only runtime and convergence on an inner-training subset; no validation or outer-test predictions inspected",
+  "warnings_policy": "record all optimizer warnings and finite predictions; no performance-based reruns or grid expansion",
+  "prior_ridge_results_already_seen": true,
+  "workers": 6,
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "sklearn": "1.5.2"
+  }
+}

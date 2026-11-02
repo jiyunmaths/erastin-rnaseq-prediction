@@ -1,0 +1,792 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_elastic_net_comparison/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/predictions.npz",
+      "sha256": "d1c72c296fe42229dbe1d9a38090ec48a214f8b51d5ddca22ea6c5a79b7c1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/validation.json",
+      "sha256": "aa510f475cbe23544c82e5a3a5f90316df73cffc5b74842530ce9640697e038a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/elastic_net_gene_selection.tsv",
+      "sha256": "becaed7d4008e7267403d5c042dca4439a4eaefb7e9086a9f101b6f356a8d930"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/elastic_net_coefficients.tsv",
+      "sha256": "097f2738f18a50c69d2ce659ffe64f02e7f1b9c49f37e793f1c52849981e8a6d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/selected_parameters.tsv",
+      "sha256": "4f00d148527ee9ef7f7f856fd4ee5dab78b2f5d8e91dfd17b75b542d7b8c1003"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.json",
+      "sha256": "89f9fe65a4b0f85950029ed9510dd2e0c82b24100e39d7dcc0741bd2a3ca7dd5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.npz",
+      "sha256": "0be79d9262ff9fc6a582ab11d54c6072b07806c54cd7b100ea3dd4850720a58a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.joblib",
+      "sha256": "551be4b00eb58fa385e27661be26efa9ef6210534e3cac9e3e5f22648d034b28"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.json",
+      "sha256": "eafacc7979dc8e8504d1cf52f3c8706ed981712c7c6a91dbd37e2c530cc17666"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.npz",
+      "sha256": "a50be1d850e9f96c63aa61ba764ef841c39c6d7a5d65a5e82ba26d07e5ce579f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.joblib",
+      "sha256": "a35d9cd9914481292a1ec935d415dbf9ac4c67bce299ece97a2ed19336b15685"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.json",
+      "sha256": "ab96468aac1079c7014c0972b63a5f9432db9c31504663fe3f4f6a9a71fe821a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.npz",
+      "sha256": "cef2871242942e9ce030ef3d4e3776e490f5815411c9279f528e30fb71a05f95"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.joblib",
+      "sha256": "ac4b75ba3bf0cdbd5138b39cd9ab95fce5802e7d9538e589f0ceaefad3a7a7b0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.json",
+      "sha256": "7697baf639133761b26eaa6371d59246317424a9d3dc8f8ad563dfb083c82fd9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.npz",
+      "sha256": "16918d73120788b7f5b6c9fa6be454093c526459d2b1639dfc37a41218ee544c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.joblib",
+      "sha256": "c8429afe975ba7262edaf237e55d9bc81e80d05d4de9fce9754b86dc345803a0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.json",
+      "sha256": "39c2e3a6967d71bf558af18aec2e15555033230c9d07dcad053a0c1c7f6b0e73"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.npz",
+      "sha256": "65892e6a61702b096944374c5a895a55753472dd78c483e27d3de8da919811b2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.joblib",
+      "sha256": "d9bb705d5d8f295dc6347853533a3208173a32df53300923d295049539d7397b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.json",
+      "sha256": "4c6415cdaafd4ef11369f6941977486a39faa96576a4d3ed2ab81332a5f34acf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.npz",
+      "sha256": "2c47dee48a0044b029e01604c1168fbdd4bb69f3b374848cab82e4b1e4d97441"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.joblib",
+      "sha256": "ffee0aae56a3951425cb2ac498a845ffd35f1e1207eae7db9be2b8bad1ed8812"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.json",
+      "sha256": "adcfa9e91b710cce11cdf2c79d84301ff7c1deb180a32d8fb3d18efb60de4ddd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.npz",
+      "sha256": "e94aa2900bd42f9a7334cab194578ff1f72fdb3126e6a5676b03190941ffbd2e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.joblib",
+      "sha256": "24459cf4bf57a3d457ba835c231b14aec4664c41fa6869d835eeb73f00469a96"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.json",
+      "sha256": "d65ae29df95ae2d7dab630d4a6933ac6591b0703ceb7d0457bddfe7e02297a19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.npz",
+      "sha256": "abba058bc21a9338b677fbbb0a4c5790d2926b7e039c603c531c283b9fce6d1b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.joblib",
+      "sha256": "830bdf3da13fed0f03f7ef309378b2761934105c894318ec0d8046566f1f82cd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.json",
+      "sha256": "ab414a105a766ae31e7f80a23be2e9737c970b168fb549cb3de46ac0c366fff4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.npz",
+      "sha256": "2e40c07e6f71e9030a1d3ebc8a18700fea7c1b7a49c4557d4fc251754ab19583"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.joblib",
+      "sha256": "2c3f9739a9fe9e3b8f871bfbd9004f96278dbdb75ac3787284e2de510e921d55"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.json",
+      "sha256": "97c13ead7f6319fbdd62f83bf8262ff1f4141be390e8f87d947da813fe8e922f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.npz",
+      "sha256": "ba97063a6cff9caa9058006110cf9d0999c520c50f88db2e2fed50288b1b8dd3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.joblib",
+      "sha256": "787e7c207ccbbd9787499db33c9f5500736da53130d5d208b729627cbc3f1406"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.json",
+      "sha256": "4d6e4d339711a75c8cdc6ab3da59ddb616d7a977dc9be408b55c7a0cc722fb9b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.npz",
+      "sha256": "4b02b8323a7a89b30ca1054a86441d76af50810e7f2ce349382cc9e68c6545fa"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.joblib",
+      "sha256": "0edaf4a0c7eaad6c0d1e0613863ff8cbde09c746e8f818c2611cc61fbe9044e7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.json",
+      "sha256": "8d534832609a50a63f930e9ce1efc3c4e3c714382a0212488a511b18283f21c2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.npz",
+      "sha256": "121c5b508ffec9b90c5907f96abb072f5cac0ba419dca8c68e8518143e748dba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.joblib",
+      "sha256": "4eae09df2415227d5a0292a5251dac07bfc8abdfe3e07b9257c392c1d5bd0ab9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.json",
+      "sha256": "f5017e5fb4aff787bececddfcb3c6971572691018b54ffc662392e290fde6d4a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.npz",
+      "sha256": "b1d65b7783e33f15e52043b36806dbb0b9713a626d847d1f0b30fccfb187479e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.joblib",
+      "sha256": "3549417d8b00a73865376b8339712d1f17cc13f9e0c097956ab17b4e3a58de7f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.json",
+      "sha256": "c9f8c0c786a4bd8abf78e6c828863a9544ccffd7248cc5a2d784ff7a4e3f17ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.npz",
+      "sha256": "1f3396bad2911284b4620b29075682a659d73a845c2442d505371ae87d8b7ddf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.joblib",
+      "sha256": "8f87832f5e960fda35c77bf74d3a79b6d65b217d34790b77e27591e3857bd5b1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.json",
+      "sha256": "ccfe0d36ecc2775ff327ab647d069135f7dec3fa4992056ad35c9c58f240c1ea"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.npz",
+      "sha256": "627f6959f1b67447f1bdcb68a0dae8a43030dde5cb419391227a8d5f551dc256"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.joblib",
+      "sha256": "c6617aca74bd351aca3dde72a0b73cdec6dc27f4ff88a7f2a9423340a8fe2e49"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.json",
+      "sha256": "f21ac47e8c7f9a035b3d76a7e311bc2c685ef84c51835e62c130ece2ebc3d454"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.npz",
+      "sha256": "f11cff10026b480b8d7685abbd7af50524b65383c8b596b85020cf195c51c290"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.joblib",
+      "sha256": "1fe0317c073e0d7602a6f4e32916b1e17c3435ad04d3d8ea34f971ceaa16ba51"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.json",
+      "sha256": "b2501b33d986143613383cf79b2dd2b02bd3ee879330c1a35f3404da0d826f42"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.npz",
+      "sha256": "deb1892144e0e4c0b13a1c5e8c3c241aa3f93fb910dbcf0ee873bc25c8ade5a0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.joblib",
+      "sha256": "6e1b7ec9533fcdd290a0d0a40c25db15bd5ccb7427b53f097ccab80a81b63d23"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.json",
+      "sha256": "1d4f3c025eeb973c434132d6a451ce1ea41cb41317e1786d21101bb226aa8d77"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.npz",
+      "sha256": "85cc525544910a76b40ecfad12f20c6afe07a9865074dfd41ed677f3bfabaeed"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.joblib",
+      "sha256": "0cd7ac585526a0977209669f8452ac439c53648e2e4f5a12d1869303a37fddef"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.json",
+      "sha256": "58bb2d4540b75c2473a1fbf3afbfbd6e771e54fef3bcf97347617360abfe0a26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.npz",
+      "sha256": "0d8e1afdfc7003b0250bc6d60a94e5c845e3a05ff777b7a0330429a8cf6359ef"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.joblib",
+      "sha256": "41921ec051b3f51ddd2072171ff9f165b0d24d46d8d48cc6c66e6ce8db898367"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.json",
+      "sha256": "8ca8b5784f9abf80ea8844de3704c6133625f751eede324bbf85a860fb91aec8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.npz",
+      "sha256": "46b6b45529753b3f655ff30491520303c5e4e6f2dbd0f81e3e65cc71c42ad1bf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.joblib",
+      "sha256": "9a93704b8c39ea215a25692fc45b40d0f8966d897c16fc9016e30d3c4fdbccd5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.json",
+      "sha256": "4db8d34e0b51755a21ce6ad833327b3e3f071965caf0c2de6e97f525cfab9af5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.npz",
+      "sha256": "ff043a8aa05c738aef3dd124d142316ac603e332f3ecc4fa17bafc36958ad5fa"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.joblib",
+      "sha256": "ea9ebe3c1c6633485a5ba652c3911a4ee11ca53339381c519cfed43919fe5e2c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.json",
+      "sha256": "23b9eccbe16c43e857b1533ef7e513145e2d75999a6d29552f2036147ea39e93"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.npz",
+      "sha256": "5714235c0f23a0c3c0250343d00ba1798b0a0810f9e1943db01a475642e6e76a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.joblib",
+      "sha256": "26501ede4879ed620b51c2ab112f2b2e6793c5dbca5cb8bb2921316424e948dd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.json",
+      "sha256": "a9496ddc57d55f8b1770460da45813e1318252aed877d277e66fc4436bdbdf0e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.npz",
+      "sha256": "f4da95dc6f9656cc5f3cba1e603cf9b9cbcb1483564d87e377f5e0ceb43f4554"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.joblib",
+      "sha256": "2434aa4228ca7f8043df83092e3848e626cf813b384e49381e6cf97d90c5b1de"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.json",
+      "sha256": "afa39e1f21c36c6246c003106fee3aa37ac27e785638be3eebd3eca7726482a7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.npz",
+      "sha256": "efdb737f9cbcdad0b7ee6996e72f3a7bfc73cae306d106579fe56918abb0570d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.joblib",
+      "sha256": "b522c2eaf6a127c647b13372aee4c7caac75830dce7ee18971fa55dc54547614"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.json",
+      "sha256": "ed06ad7eabfcaa6312a872551f69156c67a704693f6edef7cedc4d16aaad8735"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.npz",
+      "sha256": "1a2fefe3236b92541f100fdde851848bf77a5b5aef5c24d01035a0ebf2e48f81"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.joblib",
+      "sha256": "c2c732b1ada2fae8ef823431000866bbef644e560fd62e1ad7704bd053e3884d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.json",
+      "sha256": "43840314c125aa753953b4eed3446e413c6d9fcdcde9b928e279ff7ca8032b42"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.npz",
+      "sha256": "9af44fd679d5fcd9a9e6c1465798051f7c4816f2a8b31306034217210dd7f72d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.joblib",
+      "sha256": "b91cf57479618da05dfb92cde4a4ad14c1353359426e145a5e3888ccbe68c1f2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.json",
+      "sha256": "36f707f368d9e1c7b6dd7deeba88ceb87f90a7d9938e12ae7427f5ab54ac148d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.npz",
+      "sha256": "6a01bb507becedcb2bae90e69daab10ae44f3845408f083a42295fd7e2ed7d08"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.joblib",
+      "sha256": "a41e9bd3223f1ede09c15bbb42d8384894819fcff3c3ce8dcd150a17567bc4e0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.json",
+      "sha256": "5a47ec61a9700feb2493afdfb288e25aa2e552c5dca6437159de389eae92740a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.npz",
+      "sha256": "ace613faaef2bf75f4b6f6465e7778cc9f73f711f2c00aee2358cdd1d2a8bb90"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.joblib",
+      "sha256": "8fe8ce353763fc9be0fbadd3e2a0635a00d2751e19d33d8f19951c8e32551381"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.json",
+      "sha256": "3bf1ebeb51f1c6936209e6d6556df1d8c7a8a1eddfb040df058b02930df900ac"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.npz",
+      "sha256": "4c6dd1e4d9df3960cad6e89307de74da874b8f53e55fbbb27a20dc9f2a6b5f2f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.joblib",
+      "sha256": "025aaaeded7108745154743cd4b5c29cdc05c3f783b46e4f0c11605c0c216044"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.json",
+      "sha256": "ce05ba56bd083c5ac5f2c6b9b032d7d3ffa485d41dcf57cc2c891e59a521153b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.npz",
+      "sha256": "0ed63af7f6a0793cc8fb98952df16bfe15627aaf941736c3f4cecb4865bd8e40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.joblib",
+      "sha256": "c601d0fa075944caeac04b40ac620a72281b025697b5f4622657438bd82047dd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.json",
+      "sha256": "ad787fef09458fc39eca4fb308dd49ad066fd9a9af80c06866a6c4639a478ccc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.npz",
+      "sha256": "5166cff909c6abd4916b66f4b6224af14a02be8a1f81f34d8a5f66cfebfd8f07"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.joblib",
+      "sha256": "f858f1c18a16aee0892b642a86624ac0233ddce924b484aa6355d65c92f6892d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.json",
+      "sha256": "58282dbe5c230c2898f637d99c5b557194614422adbca1872d2b0295029a747f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.npz",
+      "sha256": "1dbee2b3fe74384ad2156de65d82da6ab65a552c5686013cf134d4a15dfbf36f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.joblib",
+      "sha256": "f1fac2ebde80b4a4cdae2a6e5415f3f95e67c3a447c99d7739e6ea6605d22418"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.json",
+      "sha256": "722aaaa88f79ccf9e4dbf0e488e6654eaf1c056d38cbec2c839d83ee3f586b45"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.npz",
+      "sha256": "28c738d051415d9579552014900a0580b5e7b550ea3d78f63d34b01752ac6b3c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.joblib",
+      "sha256": "5572ee0d1a4eeb1abfb85835db4c4423908d91a05c0437bcc074f75a9fad6a71"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.json",
+      "sha256": "1e8b13f81015b2620b3bf29b3e263aae53c45bc158cb62f0ed5dfdd62aeb56ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.npz",
+      "sha256": "ae988244c10e203c1cbbe3383605d5f76795f9410e0e2b37e97b14b60a8978ea"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.joblib",
+      "sha256": "f98b0cc2f4bbdbb60b2dbd9cb481f7801dce0fddaae364ac19be7d1982eb9187"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.json",
+      "sha256": "bbfe6f8e4bfc84673a4d628780c9d172357c1b2055bf27be980711cd81e4f937"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.npz",
+      "sha256": "444ec934e2728a9ff9b23adfa365464ebcd23f3e83c5e540ee0c0c582cc229f3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.joblib",
+      "sha256": "ffc3218cc25c1ecd14bdaeb413f945782c595e267ed34e2725a9c4e35550d00d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.json",
+      "sha256": "b680f557a30eb70c261164fd4629e53509cceb88b752e2fe435be837c7d8ed5d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.npz",
+      "sha256": "8f90b4890f8bbc3bfbb4f01ea1b7bfe0260f613679faac6572d1ac1d44447aa4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.joblib",
+      "sha256": "9c4d7c3a1fdd533c6da0bafca94853aa7bf7e3c9b8267599aa26f3db132a4c31"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.json",
+      "sha256": "d6f8eeac3f01118493c1bb80385979bf9fc42cefe66aa312ec3b35315cb7f30f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.npz",
+      "sha256": "969df90b7afc814fccbe4c84b5dac8e4e9eb77982be78f5e519ca292b0da5e83"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.joblib",
+      "sha256": "67e4dc18e57625e596ed9bcf04499c7beef2481f4b5b482f4f5577ce99496fcd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.json",
+      "sha256": "eebdf02c8f9e682a42bee74f9537481ec71d3427a7541642fb4bed9cbf162351"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.npz",
+      "sha256": "258524c208b57717c901fd445393f5d1ba275f8058abc6aa24da506b9f19858e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.joblib",
+      "sha256": "b5731e3d65fbc4d385041688fc7bc46cc4589355d8ea94143f529ec26bd29279"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.json",
+      "sha256": "82962b2f47a345893aa29dfbab246a1da13b0678b71850a2294d73a16e93e10f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.npz",
+      "sha256": "2d368bcde7b6c58a08fb5a857522aab33670658ef838f9f331e158980c140695"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.joblib",
+      "sha256": "33a943b5dbdb062fcc102c203c4a653197be5f92a27e284f05b4ef0847f8f5cb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.json",
+      "sha256": "dc1d828d1464fee341275d1add592b6f3ba3913b01012c7d503ace75794735b9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.npz",
+      "sha256": "aaf81527a9a176ec11119c2ae176cad2e01c93a4242edc37fe9d192019ad9b16"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.joblib",
+      "sha256": "e3c71e275130db3ef46dfc414422a1e1ce4fc49bfb252d67337ba7e0ffca06eb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "e3f72f65915e4d798f789269cb768e7247e2c784bd70ed61382c2a756d340722"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "97c05b000e0d249c5865937e7b5334165923f706157f8600f87cc9123db4cf8d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "bdd4506582adfd6e27b5c3737991daab3e716db568255bcbf6e0cafa508f2b72"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "28d185c1174e304829482859d7de597cebc69a42fa2f514d02f2a1004fb14416"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "5559c6682a5d071c196a8d9926513329b95d93ca352a89797327dba2d4ade207"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "742af7e888e5a43188d6e3e3d7675073e489a6a4f846cee6e9eb3fc64a082e86"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "79f475f79de988cf262797b4311194f9ec5d838f87b20fcd8f7301b093be06bd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "4736acc742bbb7833fdef7b2913fe9f09ab00aa063e5bcf5ea3c328d3df0e9c3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "cafd58996c06a0c39269d9c0bf315af64f6ca9cfb00beee6a23bb8acf92ac2eb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "66dd8d0d942151c49bcd38b3a8f722a3065cb8c150fa4760a9b300b7973f4006"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "35f9b56aca1b9eefe46cb3d2db61c8f97b89f88716d46e1127ffd287268af884"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "e26428d87ffe46c5a6ac3bee16e4e6b329bde325ab9cdb1287348a9bdc698a31"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "6878c61b35f602abd5d3d503e20ecb5e64e5c64e691e580251c296a23dd53ff4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "178227b85b2a830447e01152b6e6ff4986b2652f4944312777be359653bf7aa4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "29853b0aafb24b3a06a3e3822036ca02cff770ae8a85a853e530ed74571a827d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "fbd46dddc5c9aaacbd9028ef408797a1e53d71f65783e5b7a29454c9d7c6636b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "3f7dc0aabdc6fad15d3d6d0c07eb91cfec599296cc171f3be991c061650793d1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "00e5f34e1c0f43cd56a68419505a32db4aa39a7f3211ba2fc6340286eaefeaa7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "b5554135a9a57849789a9b69ad07896dc2c4de719b8d81f0a40c635986cc8d41"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "3913f6e970491102d9be415a9f811da7288c73e1996f838d9c517d6bea442056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "edf1911bd5879b9c796f402ef5792dea2d37d27260d0b6ee55ef0e162b0284b4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "5952068d0de048d4dc32906cbe0c00c119a574d580858b479520e7f5ff5f3599"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "b1bf62b48dc986c855244ab40d7c814b1c82413d92cb8013d6a09d38126ac071"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "66d99a4a5c3062dc761d6c8754f1fe4cac575e6ee5fa1914a016ddf4aaab453b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "e5c52f516396f7b0426ad1003b4847dec9e242cf929e5eb12502e5f75692dc15"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "d870c8b6f171a514fc9a744287aed03eb6fbc46ab9df1231838f79c8b97aa6ee"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "0fdb62f2fe065ebfbb442c3a9a9694a240f964a262f86e636a52632e1d214cb4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "ea1b3c8c2aef5aca151f6115321d6e4f167c65c564e11090a24f5c9e1b6e9387"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "392b13aa2f394acdc4ace0e4744674013e466cd155195fdfd263e0bb6de1069c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "a9c2b3a39ae0a2b5f79df3c582ea918aaa64b1cf6b39d687a40c5ed635f3d3e6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "8917a7481aa54247c653b91bbb71d5b0bdaa5bfb63b4ba2abc9ab678725e4512"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "628b9ce0d71bba2cc20a8f2a7b3299f4e90743f3ec76dc776b8d6473e7d0b6e4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "ae7bc785e67514248b36dab8f77f4f5a5d1d47ae309eeb8729c06b20502b1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "0f6ac0120d5241eb6af24b67a6edf61413914f80e6ba1b49f18ee827a955c201"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "54a367cdfa31170bba96af20c82f69860668657bf38b01133c5ac2b59b308f5c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "9dcedcc6a110758ae416736105ce6858874145696c09b8c097837a84809486a7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "db808cc09b7fcc9d8bf56a2dc343fab96dad3ed378a5c4d162925fd8e7b979a5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "eeb684e7c8eb4835b14026f34e4b63013a4dff835c7184305e9cf024cecb9a40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "b00cadbb25a712395876545a923d5f35e19884401d1a96b1b26a517d607fb680"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "34af9d116011ba050895628f6a0e6dafe78cf6ff347b7047fcaa6fb17fe8d883"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "462385fb494cf52891bd6b60c40d2f7c0b04f7b09ad0d48a16d1a95a8f7fb7c7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "389327b41a64b3ad1ec12892a7377e54aaa98f712071431ee4845afcd1853903"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "3f21be3910b91c09d2c14efba722d3d10f05057d7295fdfa92fd57cf9fa3315c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "e582ee835090e97c1206215e0af0236513bd4f946d18c7782e56762f23edabcc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "ee4e33ed5aa1a688adf56f323fb11da6190f603ed461769e48ed4674b8648305"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "1146c791584bb8274fffcb6bc51af6b3bc9987a23fe12b71aba601bd4200bce5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "127fb40ba1b4f443300138c03c5bd76c0860980f43466518e3f49cb1083f977f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "4271af71400faf9475f0b935f095aac2224fcd4ef7c691e3639f8b9e80349dd6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "d086ddc8d31516e88f8cb95e44993218ddda378a640d7acf9aa7b8c98239b4dc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "13c3cec77aee6b44e4d02b681f0b4ba7e42280acf6f0cd533d1bfd7ffdf2fe2b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "a9f6853892717ba6a4bde68939889fb83617deb72df8ac03f4e0c3c3cc6d354e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "80ebd0435f3be6fa27ddd2bd3497ccb2b5e2e7563796b9a3f2d37bc4a2a102e5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "5245477002ff1282ba085138af88fbf10cb49f8792c85a3e7fdc5525336eb056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "d522e3b59269f113ff9fa466531329ae0d86e11cc885bcf7997b568698167fe7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "f35e06e18be414643b042ccc65bb9aea96ce794d819c7cd6b060c814f3c8bc26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "33774f16c3299d30872546ee744ee5862d1f4dae3517ff8b359154a2cbda6bc6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "bc5dc3fbe19e85f1f639bb594a75156fc0f952ecb8e6301653e9ecd25a5d4428"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "032127712278d1a47237d78012ad331b0b093b72ec5cec3ffe98323307db2d12"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "e41a1dc11361668104b47ee48e907efb0e06e2dacdeea3e28776fd35809e7f0c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d9a4ce4c0d40bc211d384c1d6b9285a538bdddf6b8899bba373dcbb44adbb509"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/analysis_inputs.npz",
+      "sha256": "d04e947dfb2a8ca60aa47afd9aabd5aad89b6ea6958af0550c4cc4a1e221c0fb"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/importance_arrays.npz",
+      "sha256": "95f5cc19a551f57e9600bb33e28bf3931c856080a5c6394890e23a8385b2c2a0"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/gene_importance_summary.tsv",
+      "sha256": "746886fa95ebace155c7929c7268bc2df0f7e001ad06795e87c8846181883b9f"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/standardized_sensitivity_summary.tsv",
+      "sha256": "79393e94ba216461d7e1c7496b0242fb271157a8e8d1b5880f71d2474a2ab2d3"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/per_lineage_importance.tsv",
+      "sha256": "511a1d7bc28028bf641e50cbc9aa1ceb75a5d7b7cfc074a29c596833e20f8e50"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/bootstrap_draws.npz",
+      "sha256": "cc3c1329a604b3de839a74e73d8212b3ae2e4246ee39b4c6c4ecc727610697e0"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/protocol.json",
+      "sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/validation.json",
+      "sha256": "736e6f2c30103a9ecd5ac7bd10e676ade409bd5ed189b90e28af0edb0e9b959b"
+    },
+    {
+      "path": "outputs/erastin_stratified_gene_importance/source_manifest.json",
+      "sha256": "35c7979f12d246b5cb9b829b052d56cf005b37aff9132bcb8fcb166797fc3294"
+    }
+  ]
+}

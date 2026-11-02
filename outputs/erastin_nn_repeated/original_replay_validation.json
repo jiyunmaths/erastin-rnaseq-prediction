@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "lineage": "Lung",
+      "max_abs_prediction_error": 0.0,
+      "selected_parameters_reproduced": true,
+      "all_candidate_losses_reproduced": true
+    },
+    {
+      "lineage": "Thyroid",
+      "max_abs_prediction_error": 0.0,
+      "selected_parameters_reproduced": true,
+      "all_candidate_losses_reproduced": true
+    }
+  ]
+}

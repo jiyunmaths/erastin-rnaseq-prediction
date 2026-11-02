@@ -1,0 +1,431 @@
+{
+  "passed": true,
+  "total_outer_models": 180,
+  "new_outer_models": 160,
+  "reused_nn64_outer_models": 20,
+  "all_23_lineages_in_both_outer_sets": true,
+  "identity_group_exclusion_checks": 1080,
+  "candidate_fold_scores_checked": 17100,
+  "prediction_max_error": 1.1102230246251565e-16,
+  "inner_rmse_max_error": 8.326672684688674e-17,
+  "neural_training_objectives_checked": 180,
+  "neural_objective_max_error": 5.551115123125783e-17,
+  "independent_selected_setting_refits": [
+    {
+      "model": "ridge__40",
+      "repeat": 1,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__40",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__40",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 1,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__64",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__80",
+      "repeat": 1,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 4.440892098500626e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__80",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__80",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__40",
+      "repeat": 20,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__40",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__40",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 20,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__64",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__80",
+      "repeat": 20,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__80",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__80",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    }
+  ],
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "c1f637f357260dd967347709f5fcb4c2097ef604af3300d3851f38477a3d9e37",
+    "samples": 744,
+    "lineages_in_both_sets": 23,
+    "split_checks": 120,
+    "reused_nn64_models": 20,
+    "native_nn_replay_repeats": [
+      1,
+      20
+    ],
+    "checks": [
+      {
+        "check": "full_native_nn_nested_replay",
+        "repeat": 1,
+        "candidates": 4,
+        "inner_folds": 5,
+        "inner_prediction_error": 0.0,
+        "outer_prediction_error": 0.0
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 1,
+        "alpha": 0.0001,
+        "error": 3.3306690738754696e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 1,
+        "alpha": 1.0,
+        "error": 3.3306690738754696e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 1,
+        "alpha": 100.0,
+        "error": 2.220446049250313e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 1,
+        "alpha": 10000.0,
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "check": "xgb_native_prefix_and_wrapper_parity",
+        "panel": 40,
+        "repeat": 1,
+        "prefixes": [
+          100,
+          300,
+          600
+        ],
+        "error": 0.0
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 1,
+        "alpha": 0.0001,
+        "error": 5.551115123125783e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 1,
+        "alpha": 1.0,
+        "error": 5.551115123125783e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 1,
+        "alpha": 100.0,
+        "error": 4.440892098500626e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 1,
+        "alpha": 10000.0,
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "check": "xgb_native_prefix_and_wrapper_parity",
+        "panel": 64,
+        "repeat": 1,
+        "prefixes": [
+          100,
+          300,
+          600
+        ],
+        "error": 0.0
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 1,
+        "alpha": 0.0001,
+        "error": 4.440892098500626e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 1,
+        "alpha": 1.0,
+        "error": 5.551115123125783e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 1,
+        "alpha": 100.0,
+        "error": 3.3306690738754696e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 1,
+        "alpha": 10000.0,
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "check": "xgb_native_prefix_and_wrapper_parity",
+        "panel": 80,
+        "repeat": 1,
+        "prefixes": [
+          100,
+          300,
+          600
+        ],
+        "error": 0.0
+      },
+      {
+        "check": "full_native_nn_nested_replay",
+        "repeat": 20,
+        "candidates": 4,
+        "inner_folds": 5,
+        "inner_prediction_error": 0.0,
+        "outer_prediction_error": 0.0
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 20,
+        "alpha": 0.0001,
+        "error": 4.440892098500626e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 20,
+        "alpha": 1.0,
+        "error": 3.3306690738754696e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 20,
+        "alpha": 100.0,
+        "error": 3.3306690738754696e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 40,
+        "repeat": 20,
+        "alpha": 10000.0,
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "check": "xgb_native_prefix_and_wrapper_parity",
+        "panel": 40,
+        "repeat": 20,
+        "prefixes": [
+          100,
+          300,
+          600
+        ],
+        "error": 0.0
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 20,
+        "alpha": 0.0001,
+        "error": 5.551115123125783e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 20,
+        "alpha": 1.0,
+        "error": 4.440892098500626e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 20,
+        "alpha": 100.0,
+        "error": 3.3306690738754696e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 64,
+        "repeat": 20,
+        "alpha": 10000.0,
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "check": "xgb_native_prefix_and_wrapper_parity",
+        "panel": 64,
+        "repeat": 20,
+        "prefixes": [
+          100,
+          300,
+          600
+        ],
+        "error": 0.0
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 20,
+        "alpha": 0.0001,
+        "error": 5.551115123125783e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 20,
+        "alpha": 1.0,
+        "error": 6.661338147750939e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 20,
+        "alpha": 100.0,
+        "error": 4.440892098500626e-16
+      },
+      {
+        "check": "ridge_api_parity",
+        "panel": 80,
+        "repeat": 20,
+        "alpha": 10000.0,
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "check": "xgb_native_prefix_and_wrapper_parity",
+        "panel": 80,
+        "repeat": 20,
+        "prefixes": [
+          100,
+          300,
+          600
+        ],
+        "error": 0.0
+      }
+    ],
+    "bootstrap_validation": {
+      "passed": true,
+      "expanded_scipy_check_draws": 5,
+      "all_repeats_paired": true,
+      "max_error": 1.6653345369377348e-16
+    },
+    "identical_prediction_bootstrap_differences_exactly_zero": true
+  },
+  "bootstrap_validation": {
+    "passed": true,
+    "expanded_scipy_check_draws": 5,
+    "all_repeats_paired": true,
+    "max_error": 2.220446049250313e-16
+  },
+  "warning_count": 3780,
+  "warning_summary": [
+    {
+      "category": "DeprecationWarning",
+      "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+      "count": 3780
+    }
+  ],
+  "convergence_warning_count": 0,
+  "input_source_hashes_verified": true,
+  "training_only_scaling_verified": true,
+  "unweighted_training_verified": true,
+  "byte_identical_shared_splits_verified": true
+}

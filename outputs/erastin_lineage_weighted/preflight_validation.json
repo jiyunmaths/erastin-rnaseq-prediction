@@ -1,0 +1,205 @@
+{
+  "passed": true,
+  "protocol_sha256": "682a24d4ad159421df9e248fe1eb865588c467238d66b5935da5d02a18c6d749",
+  "script_sha256": "bc28d13ae8614df8ee1e5eb3cf30bf7a8c70c66093bb59669697e5076da458b2",
+  "unit_weight_synthetic_mlp_error": 0.0,
+  "weighted_mlp_gradient_max_errors": [
+    2.023461606603938e-11,
+    1.8409870850000232e-11,
+    2.4401165116261225e-11
+  ],
+  "weighted_mlp_direct_objective_errors": [
+    1.1102230246251565e-16,
+    2.220446049250313e-16,
+    2.220446049250313e-16
+  ],
+  "synthetic_weight_sums": [
+    12.333333333333336,
+    12.333333333333334,
+    12.333333333333334
+  ],
+  "checks": [
+    {
+      "check": "weighted_ridge_api",
+      "panel": 40,
+      "lineage": "Lung",
+      "alpha": 0.0001,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 40,
+      "lineage": "Lung",
+      "alpha": 100.0,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 40,
+      "lineage": "Lung",
+      "alpha": 10000.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "unit_weight_actual_nn_replay",
+      "panel": 40,
+      "lineage": "Lung",
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 64,
+      "lineage": "Lung",
+      "alpha": 0.0001,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 64,
+      "lineage": "Lung",
+      "alpha": 100.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 64,
+      "lineage": "Lung",
+      "alpha": 10000.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "unit_weight_actual_nn_replay",
+      "panel": 64,
+      "lineage": "Lung",
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 80,
+      "lineage": "Lung",
+      "alpha": 0.0001,
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 80,
+      "lineage": "Lung",
+      "alpha": 100.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 80,
+      "lineage": "Lung",
+      "alpha": 10000.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "unit_weight_actual_nn_replay",
+      "panel": 80,
+      "lineage": "Lung",
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_xgb_native_vs_wrapper",
+      "lineage": "Lung",
+      "max_error": 0.0
+    },
+    {
+      "check": "unit_weight_xgb",
+      "lineage": "Lung",
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 40,
+      "lineage": "Thyroid",
+      "alpha": 0.0001,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 40,
+      "lineage": "Thyroid",
+      "alpha": 100.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 40,
+      "lineage": "Thyroid",
+      "alpha": 10000.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "unit_weight_actual_nn_replay",
+      "panel": 40,
+      "lineage": "Thyroid",
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 64,
+      "lineage": "Thyroid",
+      "alpha": 0.0001,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 64,
+      "lineage": "Thyroid",
+      "alpha": 100.0,
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 64,
+      "lineage": "Thyroid",
+      "alpha": 10000.0,
+      "max_error": 0.0
+    },
+    {
+      "check": "unit_weight_actual_nn_replay",
+      "panel": 64,
+      "lineage": "Thyroid",
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 80,
+      "lineage": "Thyroid",
+      "alpha": 0.0001,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 80,
+      "lineage": "Thyroid",
+      "alpha": 100.0,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "check": "weighted_ridge_api",
+      "panel": 80,
+      "lineage": "Thyroid",
+      "alpha": 10000.0,
+      "max_error": 0.0
+    },
+    {
+      "check": "unit_weight_actual_nn_replay",
+      "panel": 80,
+      "lineage": "Thyroid",
+      "max_error": 0.0
+    },
+    {
+      "check": "weighted_xgb_native_vs_wrapper",
+      "lineage": "Thyroid",
+      "max_error": 0.0
+    },
+    {
+      "check": "unit_weight_xgb",
+      "lineage": "Thyroid",
+      "max_error": 0.0
+    }
+  ]
+}

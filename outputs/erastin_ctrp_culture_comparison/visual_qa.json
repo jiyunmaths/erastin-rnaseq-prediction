@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "method": "All three PNGs inspected using view_image: legible labels, complete legends, intervals and heatmap; signs and values agree with tables. PNG hashes unchanged after report-only expansion.",
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "84759425d819d9d02037298f45f6b82e04f2fdc7281faf53568898a5952db686"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "fad75e94e40650f4c3adda7eb126f4f9875e0faf348ade065996a5b9c1415ba9"
+    },
+    {
+      "path": "paired_culture_effects.png",
+      "sha256": "670434a4ea2bce7ad3145f23041f8bd50e5d55f4648aec0112efeeb0704bf6c4"
+    },
+    {
+      "path": "paired_culture_effects.svg",
+      "sha256": "1da0126bed4d1acf91da893eb13efe4a07d8b3854ed0b4f380083d2a2035934a"
+    },
+    {
+      "path": "lineage_culture_effects.png",
+      "sha256": "0cf8af04ca1f1afbecadffadb057570633e325f12e8bc280021f4ba1940747d4"
+    },
+    {
+      "path": "lineage_culture_effects.svg",
+      "sha256": "0ad98e2748cb65e81d3551fa1b60b9db2ed35d685fa96949e516aa38c85c49d2"
+    }
+  ]
+}

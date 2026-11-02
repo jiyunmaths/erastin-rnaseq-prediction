@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "method": "All three PNGs inspected using view_image: legible labels, complete legends, unclipped intervals and lineage heatmap. Signs and displayed values agree with numerical tables; positive reductions favor expansion.",
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "a408ac30712d545bf7f5e374fb4ec21bd7126dd535337300461bf7853ee7bc60"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "1827230af5b0246cdf9fad726e520be8f8ea0606843b9378c929fe12a9356254"
+    },
+    {
+      "path": "paired_pathway_effects.png",
+      "sha256": "37d996cbe9278a74116b741e65cc346033795cd71b6dd61d8d546d80af0bd0fa"
+    },
+    {
+      "path": "paired_pathway_effects.svg",
+      "sha256": "9c76b030a56deba1ab235a69182892a4163233553b68cf0c6a8c7c53c95550e1"
+    },
+    {
+      "path": "lineage_pathway_effects.png",
+      "sha256": "8da02c6882631553bbe326ce1767b1d85498041c1c20561ea8b78e414fcee4cc"
+    },
+    {
+      "path": "lineage_pathway_effects.svg",
+      "sha256": "c2a012212cb7d92476de01bc95376a1f33d4c6a5047abc6845a0719c49739c3d"
+    }
+  ]
+}

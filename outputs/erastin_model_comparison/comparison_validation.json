@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "sample_count": 745,
+  "identity_groups": 734,
+  "ridge_vs_sklearn_max_abs_error": {
+    "panel_expression": 4.440892098500626e-16,
+    "panel_contextual_embedding": 5.10702591327572e-15,
+    "all_gene_contextual_embedding": 5.329070518200751e-15,
+    "lineage_only": 6.661338147750939e-16
+  },
+  "all_primary_oof_rows_complete": true,
+  "group_disjoint_outer_inner_modal_and_lineage_splits": true,
+  "pretrained_features_sample_order_verified": true,
+  "no_test_rows_used_for_scaling_or_hyperparameter_selection": true,
+  "finite_predictions": true,
+  "fold_model_predictions_reconstruct_from_exported_parameters": true,
+  "elapsed_comparison_seconds": 45.69481897354126,
+  "selected_alphas_at_grid_boundary": {
+    "all_gene_contextual_embedding": 0,
+    "all_gene_trunk640": 0,
+    "lineage_only": 0,
+    "observed_gene_pooling": 0,
+    "panel_contextual_embedding": 0,
+    "panel_expression": 0,
+    "panel_trunk640": 0,
+    "training_mean": 0
+  }
+}

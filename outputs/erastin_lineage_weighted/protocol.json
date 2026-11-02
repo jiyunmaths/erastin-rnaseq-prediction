@@ -1,0 +1,660 @@
+{
+  "panels": {
+    "40": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB"
+    ],
+    "64": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB",
+      "SLC3A2",
+      "CBS",
+      "CTH",
+      "GLS2",
+      "GOT1",
+      "PRDX6",
+      "SEPHS2",
+      "GCH1",
+      "PTS",
+      "SPR",
+      "IREB2",
+      "FTH1",
+      "SLC40A1",
+      "PROM2",
+      "FADS1",
+      "ELOVL5",
+      "FADS2",
+      "FAR1",
+      "GNPAT",
+      "AGPS",
+      "TMEM164",
+      "BECN1",
+      "BAP1",
+      "ABCC1"
+    ],
+    "80": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB",
+      "SLC3A2",
+      "CBS",
+      "CTH",
+      "GLS2",
+      "GOT1",
+      "PRDX6",
+      "SEPHS2",
+      "GCH1",
+      "PTS",
+      "SPR",
+      "IREB2",
+      "FTH1",
+      "SLC40A1",
+      "PROM2",
+      "FADS1",
+      "ELOVL5",
+      "FADS2",
+      "FAR1",
+      "GNPAT",
+      "AGPS",
+      "TMEM164",
+      "BECN1",
+      "BAP1",
+      "ABCC1",
+      "SC5D",
+      "DHCR7",
+      "VKORC1L1",
+      "G6PD",
+      "DHODH",
+      "GPD2",
+      "HMOX1",
+      "KEAP1",
+      "TP53",
+      "CDH1",
+      "NF2",
+      "YAP1",
+      "WWTR1",
+      "ZEB1",
+      "EPAS1",
+      "HILPDA"
+    ]
+  },
+  "samples": 745,
+  "identity_groups": 734,
+  "repeats": 20,
+  "lineage_holdouts": 24,
+  "inner_folds": 5,
+  "split_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "neural_seed_triplets": [
+    [
+      2893371290,
+      497654881,
+      1975922792
+    ],
+    [
+      3355977667,
+      424493826,
+      1550394385
+    ],
+    [
+      2168687005,
+      1647426202,
+      2688205909
+    ],
+    [
+      42786468,
+      3076077911,
+      273767066
+    ],
+    [
+      1609035048,
+      2851333803,
+      976039955
+    ],
+    [
+      2236401383,
+      2445062483,
+      1129737822
+    ],
+    [
+      3329912852,
+      2638933889,
+      1145265932
+    ],
+    [
+      3422116929,
+      1806768943,
+      1378693510
+    ],
+    [
+      1256998787,
+      700040913,
+      2981348477
+    ],
+    [
+      2517894111,
+      3267202418,
+      2342300164
+    ],
+    [
+      4106300991,
+      1308386135,
+      2273722985
+    ],
+    [
+      1426094152,
+      2803084605,
+      3417373563
+    ],
+    [
+      1122310826,
+      28864576,
+      2615952050
+    ],
+    [
+      2346668660,
+      3452764067,
+      842565008
+    ],
+    [
+      2744930578,
+      3510598388,
+      675723401
+    ],
+    [
+      703156529,
+      4234057440,
+      1500259783
+    ],
+    [
+      3090577113,
+      2300113296,
+      1426115566
+    ],
+    [
+      1178198002,
+      3473816129,
+      1766774902
+    ],
+    [
+      835497170,
+      2416392876,
+      3057713454
+    ],
+    [
+      3712087977,
+      2560194263,
+      1118821988
+    ]
+  ],
+  "xgboost_seeds": [
+    177239007,
+    344280928,
+    163021274,
+    1404301111,
+    717091204,
+    762532665,
+    192520296,
+    2092557757,
+    1553071104,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    1413513707,
+    150599687,
+    1576819194,
+    1086027190,
+    1379426082,
+    781699641,
+    1068672312
+  ],
+  "ridge_alphas": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "neural_grid": [
+    {
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "width": 32,
+      "alpha": 100.0
+    }
+  ],
+  "neural_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "initialization_seeds": [
+      20261104,
+      20261105,
+      20261106
+    ],
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "xgboost_grid": [
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    }
+  ],
+  "xgboost_fixed": {
+    "objective": "reg:squarederror",
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "device": "cpu",
+    "nthread": 1,
+    "eta": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "sampling_method": "uniform",
+    "max_bin": 64,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "base_score": 0.0,
+    "seed_per_iteration": false,
+    "validate_parameters": true,
+    "verbosity": 1
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "sklearn": "1.5.2",
+    "xgboost": "3.4.1"
+  },
+  "status": "frozen_before_weighted_fits",
+  "created_utc": "2026-11-01T22:57:19Z",
+  "script_sha256": "10a22d155ba63f043592c885e44a0bc5fd7206128c9ac14351a4e2419ea6647f",
+  "weighted_mlp_sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+  "weighting": "Every current fitting subset: w_i=N_train/(K_represented_lineages*n_lineage_in_that_subset). Mean one; each represented lineage has equal total weight. Recomputed independently in each inner fold and outer refit. All represented lineages included.",
+  "neural_implementation": "Pinned sklearn 1.5.2 MLPRegressor with weighted squared-error data loss/output delta; unchanged architecture, optimizer, initialization and L2 scaling. Unit-weight replay and finite-difference gradient checks precede fitting.",
+  "tuning": "Unchanged minimum equal-weight mean of five UNWEIGHTED inner-fold RMSE values; first grid member breaks ties. This isolates training-loss reweighting.",
+  "scaling": "UNCHANGED unweighted train-only X scaling for ridge/NN and unweighted train-only y scaling for NN/XGBoost. Ridge uses weighted centering to fit an unpenalized intercept.",
+  "controls": "Exact saved samples, targets, inner/outer splits, initialization/sampling seeds, grids and settings across all weighted/unweighted arms. No test-based tuning changes.",
+  "baseline": "Reuse nine verified unweighted prediction arms from the completed panel comparison. All nine weighted arms are newly refit.",
+  "comparisons": "Nine matched weighted-versus-unweighted contrasts; within weighted families 64 vs 40, 80 vs 40, 80 vs 64; within weighted panels cross-family contrasts.",
+  "uncertainty": {
+    "count": 5000,
+    "pooled_seed": 2026110401,
+    "macro_seed": 2026110402,
+    "unit": "Paired whole held-out lineage across all arms/repeats. Conditional on fitted predictions, no refitting."
+  },
+  "reporting": "Pooled 745-cell scores and equal-weight macro scores over the same 19 lineages with n>=10. All 20 repeats retained. Unweighted test scoring remains unchanged.",
+  "limitations": "Exploratory reuse of this cohort; no independent validation or multiplicity adjustment. Very small represented training lineages receive large per-cell weights. Inner tuning folds mix lineages; outer folds alone test unseen lineage transfer.",
+  "new_outer_models": 4320,
+  "workers": 10
+}

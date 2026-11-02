@@ -1,0 +1,5 @@
+model	width	alpha	outer_fits
+capped_inverse_5	16	100	475
+capped_inverse_5	32	100	5
+inverse_sqrt	16	100	450
+inverse_sqrt	32	100	30

@@ -1,0 +1,36 @@
+{
+  "status": "fixed_before_gene_importance_results",
+  "created_utc": "2026-11-01T13:57:46Z",
+  "script_sha256": "08e0e70006a8cdea8687650c8edf8263d2a6b0e495f89379d076cc3d1e5724b4",
+  "models": [
+    "ridge",
+    "neural_network"
+  ],
+  "repeats": 20,
+  "data": "same 745 lines, 734 identities, 40 log2(TPM+1) genes, and 24 outer lineage holdouts",
+  "saved_models": "reuse the paired follow-up models from every repeat; no refitting or feature selection",
+  "primary_importance": "expected held-out MSE increase when replacing one gene by a uniformly selected donor from the SAME held-out lineage",
+  "exact_expectation": "all n*n receiver/donor pairs per gene; includes identity replacement; exactly equals expected random-bijection permutation MSE by linearity of additive loss",
+  "ensemble": "average three NN member predictions BEFORE computing squared error",
+  "primary_scope": "sample-weighted mean over the same 19 lineages with n>=10, 721 lines",
+  "secondary_scope": "equal-weight mean of the same 19 lineages; descriptive sample-weighted mean across all 23 non-singleton lineages (744 lines)",
+  "singleton": "Cervix n=1 has no within-lineage permutation information and is excluded from summary rankings",
+  "direction": "training-SD-standardized ridge coefficient; NN analytical local derivative at each held-out observed sample averaged over three members, in negative-AUC units per training SD",
+  "lineage_consistency": "mean over 20 repeats per lineage; positive importance counts, top-ten ranks, direction signs, and between-lineage rank correlations",
+  "seed_consistency": "per-repeat aggregate rank range and top-ten frequency; not independent biological replications",
+  "uncertainty": {
+    "draws": 5000,
+    "seed": 2026110801,
+    "unit": "whole held-out lineage among the 19 eligible lineages",
+    "paired": "same resamples for all genes, models and repeats; average repeat effects before resampling",
+    "scope": "conditional on fitted models and observed donor distributions, no refitting; pointwise exploratory 95% intervals, no multiplicity correction"
+  },
+  "correlation": "descriptive pairwise correlation after within-lineage centering in 721 eligible lines; no label-based gene regrouping",
+  "limits": [
+    "Unconditional gene shuffling disrupts correlated features and may create atypical expression combinations.",
+    "Small importance can reflect redundancy, limited within-lineage variation, regularization or low power, not biological irrelevance.",
+    "Positive/negative prediction slopes are associations, not causal responses to gene perturbation.",
+    "No new external cohort; related cell lines remain together in lineage-level uncertainty."
+  ],
+  "workers": 6
+}

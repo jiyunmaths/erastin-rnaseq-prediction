@@ -1,0 +1,8 @@
+model	panel	alpha	outer_fits	width
+ridge__5	5	10	8	
+ridge__5	5	31.6227766017	12	
+ridge__64	64	316.227766017	20	
+neural_network__5	5	10	9	16
+neural_network__5	5	10	11	32
+neural_network__64	64	100	19	16
+neural_network__64	64	100	1	32

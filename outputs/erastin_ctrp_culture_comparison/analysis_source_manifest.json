@@ -1,0 +1,5 @@
+{
+  "review_sha256": "01df69515682072699a591fe6d96bdcb18474fdd53def537bc5dd6ae6423d3dc",
+  "report_sha256": "f23acc68437c87ea4a763016a5b9ed1c2925d8c352e7d146ef79529b94eec479",
+  "report_note": "Added display of pre-specified five-versus-64 augmented panel contrasts; numerical results unchanged."
+}

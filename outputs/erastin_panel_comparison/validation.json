@@ -1,0 +1,251 @@
+{
+  "passed": true,
+  "new_outer_models": 2880,
+  "reused_40_gene_models": 1440,
+  "group_exclusion_checks": 17280,
+  "reconstructed_candidate_fold_scores": 273600,
+  "prediction_max_error": 1.1102230246251565e-16,
+  "inner_rmse_max_error": 1.1102230246251565e-16,
+  "independent_refits": [
+    {
+      "model": "ridge__64",
+      "repeat": 1,
+      "lineage": "Lung",
+      "outer_refit_error": 2.220446049250313e-16,
+      "inner_refit_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "outer_refit_error": 2.220446049250313e-16,
+      "inner_refit_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 1,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__64",
+      "repeat": 1,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__64",
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__80",
+      "repeat": 1,
+      "lineage": "Lung",
+      "outer_refit_error": 2.220446049250313e-16,
+      "inner_refit_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__80",
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "outer_refit_error": 1.1102230246251565e-16,
+      "inner_refit_error": 4.440892098500626e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__80",
+      "repeat": 1,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__80",
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__80",
+      "repeat": 1,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__80",
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 20,
+      "lineage": "Lung",
+      "outer_refit_error": 2.220446049250313e-16,
+      "inner_refit_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "outer_refit_error": 2.220446049250313e-16,
+      "inner_refit_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 20,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__64",
+      "repeat": 20,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__64",
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__80",
+      "repeat": 20,
+      "lineage": "Lung",
+      "outer_refit_error": 2.220446049250313e-16,
+      "inner_refit_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__80",
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "outer_refit_error": 1.1102230246251565e-16,
+      "inner_refit_error": 4.440892098500626e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__80",
+      "repeat": 20,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__80",
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__80",
+      "repeat": 20,
+      "lineage": "Lung",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "xgboost__80",
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "outer_refit_error": 0.0,
+      "inner_refit_error": 0.0,
+      "inner_refits": 5
+    }
+  ],
+  "warning_count": 60480,
+  "warning_summary": [
+    {
+      "category": "DeprecationWarning",
+      "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+      "count": 60480
+    }
+  ],
+  "convergence_warning_count": 0,
+  "warning_detail_location": "folds/*.json:fit_diagnostics",
+  "baseline_replay": {
+    "passed": true,
+    "checks": [
+      {
+        "family": "ridge",
+        "lineage": "Lung",
+        "prediction_error": 0.0
+      },
+      {
+        "family": "ridge",
+        "lineage": "Thyroid",
+        "prediction_error": 0.0
+      },
+      {
+        "family": "neural_network",
+        "lineage": "Lung",
+        "prediction_error": 0.0
+      },
+      {
+        "family": "neural_network",
+        "lineage": "Thyroid",
+        "prediction_error": 0.0
+      },
+      {
+        "family": "xgboost",
+        "lineage": "Lung",
+        "prediction_error": 0.0
+      },
+      {
+        "family": "xgboost",
+        "lineage": "Thyroid",
+        "prediction_error": 0.0
+      }
+    ]
+  },
+  "exact_splits_and_initialization_seeds_verified": true,
+  "training_only_scaling_verified": true,
+  "source_hashes_verified": true
+}

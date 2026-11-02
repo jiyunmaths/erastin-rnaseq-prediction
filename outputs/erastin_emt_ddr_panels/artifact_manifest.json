@@ -1,0 +1,69 @@
+{
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "3489303bc1701a4c62b453c9899018b64cb81263ccf3b8a3251977323b8c5118",
+      "bytes": 1818
+    },
+    {
+      "path": "coverage_summary.json",
+      "sha256": "7771ef2fdc7605480cdacf52355034611ffd9552e26d6fe9881c1bd8df038230",
+      "bytes": 1120
+    },
+    {
+      "path": "gene_mapping.tsv",
+      "sha256": "218d1513afbc338fe28183a568a0b5a591eb7e25abdf55c85441a329ac17b70b",
+      "bytes": 52285
+    },
+    {
+      "path": "panel_definitions.json",
+      "sha256": "60b35b52cf31298cd04a236968d27f653319443e50318cc6ce675da9385cea8d",
+      "bytes": 28554
+    },
+    {
+      "path": "panel_inputs.npz",
+      "sha256": "624020958910f44e61c489b0a0f6394b9516fe491d8430b100a16567bcfb4608",
+      "bytes": 2458468
+    },
+    {
+      "path": "preparation_validation.json",
+      "sha256": "a3c7d998e543c429ac185b26d2a4e52185b0d42ffd624a5bb8ed079e0bdf65ce",
+      "bytes": 439
+    },
+    {
+      "path": "prepare_panels.py",
+      "sha256": "6ae64ab35d6c8a9e086d087ee95cf9cb1099d2eb04512bddf92deadc1ab9d3ff",
+      "bytes": 8148
+    },
+    {
+      "path": "shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+      "bytes": 16057
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "d9a804aea4e4f16271d392d282b660c1a44543a240dfc4ba0f8b01baf98f982a",
+      "bytes": 2221
+    },
+    {
+      "path": "sources/HALLMARK_DNA_REPAIR.html",
+      "sha256": "124a31f737519b43dbe9ab84aad5deb08b1351503b95064f8f7f5b2234a9c4fc",
+      "bytes": 147742
+    },
+    {
+      "path": "sources/HALLMARK_DNA_REPAIR.json",
+      "sha256": "e56f512bf53f83232ac11f6d27833ef8e029af0f65fc7c89e10757a90f6cb469",
+      "bytes": 1477
+    },
+    {
+      "path": "sources/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.html",
+      "sha256": "201a48bf19ef2eac584cd5d2cf555f594f5295e3329342ecac912f93dab84e69",
+      "bytes": 207772
+    },
+    {
+      "path": "sources/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json",
+      "sha256": "b4f4872e065400c48c6b16f191c59078a3b5bc549c740b3dbbf89a016bf126dd",
+      "bytes": 1909
+    }
+  ]
+}

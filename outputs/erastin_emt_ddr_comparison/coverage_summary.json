@@ -1,0 +1,36 @@
+{
+  "modules": [
+    {
+      "module": "emt",
+      "source_genes": 200,
+      "mapped_expression_genes": 200,
+      "already_in_64": 0,
+      "missing_genes": [],
+      "symbol_updates": []
+    },
+    {
+      "module": "ddr",
+      "source_genes": 150,
+      "mapped_expression_genes": 150,
+      "already_in_64": 1,
+      "missing_genes": [],
+      "symbol_updates": []
+    }
+  ],
+  "panels": {
+    "ferro5": 5,
+    "ferro64": 64,
+    "ferro64_emt": 264,
+    "ferro64_ddr": 213,
+    "ferro64_emt_ddr": 413
+  },
+  "samples": 744,
+  "identity_groups": 733,
+  "lineages": 23,
+  "all_values_finite": true,
+  "base_5_and_64_arrays_identical": true,
+  "response_associations_used_for_gene_selection": false,
+  "culture_predictors": false,
+  "requested_scope": "Full Hallmark EMT and DNA repair sets, as explicitly selected by user. No BRCA/EMT-regulator extras added.",
+  "limitations": "Hallmark sets are expression programs, not comprehensive catalogues. For example BRCA1/BRCA2 and ZEB1/ZEB2 are absent from the chosen Hallmark DNA-repair/EMT sets. Their absence is documented rather than silently adding extra genes."
+}

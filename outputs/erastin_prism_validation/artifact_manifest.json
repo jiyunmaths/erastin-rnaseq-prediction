@@ -1,0 +1,199 @@
+{
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "90a2edffd5d4a808fdc5b67a6e3b7c2ce6b2f90b1839865c033bba29fc139e66",
+      "bytes": 11387
+    },
+    {
+      "path": "analysis_source_manifest.json",
+      "sha256": "2b7edee0f37c92919213af13b53b6015edd32d46670c8986b9b374cf6ca7c8f5",
+      "bytes": 484
+    },
+    {
+      "path": "bootstrap_draws.npz",
+      "sha256": "c519ad9eb5e179cffb441117004c3f0b897aa63d54f19d9a16343f9253882ddd",
+      "bytes": 6762364
+    },
+    {
+      "path": "cohort_audit.tsv",
+      "sha256": "cfd5fddb068a1ffd5e4a56c4414e8dbc6c8dd8b832a53203db4e0053af0d4888",
+      "bytes": 18327
+    },
+    {
+      "path": "cohort_summary.json",
+      "sha256": "1ec9eb93448563875b6bec2f3afd72999a8a5fd7d81aa5e4ac1d066b150c05b9",
+      "bytes": 889
+    },
+    {
+      "path": "confidence_intervals.tsv",
+      "sha256": "560952686d9ffaf020285dc2a257d6ef373d10a9a58f5f06c706a85e61065d34",
+      "bytes": 24181
+    },
+    {
+      "path": "cross_assay_measurement_agreement.png",
+      "sha256": "1803fcafb82bf80c8568ecf3eaef893628113bca509e0b3a8ad919aed1aa1236",
+      "bytes": 133575
+    },
+    {
+      "path": "cross_assay_measurement_agreement.svg",
+      "sha256": "146a9d57f12b78d6602ba7e2f8f15c4a8b625474da647120738fc240d13676c8",
+      "bytes": 97782
+    },
+    {
+      "path": "cross_assay_measurement_agreement.tsv",
+      "sha256": "cbee199cd270eac3d9720fc91def0e202f88ce716f23d1f41ae074a8e9a3107b",
+      "bytes": 496
+    },
+    {
+      "path": "download_manifest.json",
+      "sha256": "fc838f59c0c61959fe03f60f594d01c93271bed6fc7ea6366af7060fd5ec8397",
+      "bytes": 2791
+    },
+    {
+      "path": "ensemble_predictions.tsv",
+      "sha256": "126fac0d0bdb30a1f5f81a4cdbe30902126b8cdf43298f0fdfcef4e876a29115",
+      "bytes": 225810
+    },
+    {
+      "path": "erastin_treatment_metadata.tsv",
+      "sha256": "5353e8c28461e6172e0b0815c43bda02672d1fbc74c0c478779b16f16951631b",
+      "bytes": 2265
+    },
+    {
+      "path": "figshare_20564034.json",
+      "sha256": "025d40b85f92df9d12f9cc50af6e811cc0b819bdf2e478898f565256afcbfdfe",
+      "bytes": 11403
+    },
+    {
+      "path": "final_summary.json",
+      "sha256": "4cc01f75e24aa8d909e602a7834983efaa7598d774098abc7204556584ed1d24",
+      "bytes": 9649
+    },
+    {
+      "path": "gene_mapping.tsv",
+      "sha256": "17f9834fcd59b9828395aaa4d7e53c5c3d15ee44e866b40fa800ade7116d9e68",
+      "bytes": 2803
+    },
+    {
+      "path": "lineage_cohort_counts.tsv",
+      "sha256": "ebacc300cd04e261f95704565eef9b07daa98513bfeed3f2377428c0c024ef24",
+      "bytes": 412
+    },
+    {
+      "path": "matched_cohort.tsv",
+      "sha256": "6ef2bbeccb48aec292d7abecfc6a148de969f8fff068590bd11870d785c8e76d",
+      "bytes": 64977
+    },
+    {
+      "path": "matched_prism_inputs.npz",
+      "sha256": "2a0d29ac7c80d49f8657e37a7e49a6bd14f48293a1d113d420f17d3b08d820e6",
+      "bytes": 115116
+    },
+    {
+      "path": "metric_helpers.py",
+      "sha256": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+      "bytes": 1168
+    },
+    {
+      "path": "paired_comparisons.tsv",
+      "sha256": "f014bc516ed6220de85e4cae4b348373e6665980c81909f9e6822c9d7814acf9",
+      "bytes": 9774
+    },
+    {
+      "path": "per_lineage_metrics.tsv",
+      "sha256": "87cb9560aab8e29f7c20abc452470f87721ccce1b48d69331f61910487b132cb",
+      "bytes": 44218
+    },
+    {
+      "path": "per_repeat_metrics.tsv",
+      "sha256": "60b4cff9a6fd8cfe123847d803a4f5b9755f15a2c99cf77c18cf250866d63955",
+      "bytes": 58925
+    },
+    {
+      "path": "prediction_validation.json",
+      "sha256": "1c3d700678486c98d87c1e40eb9e54f652fd0b5b01192a99868973fac7a8ccef",
+      "bytes": 28044
+    },
+    {
+      "path": "predictions.npz",
+      "sha256": "f278aadba22156569793a7ac7506a4556547775eeec841dbb3f760e898737ebb",
+      "bytes": 135420
+    },
+    {
+      "path": "prism-repurposing-20q2-secondary-screen-readme",
+      "sha256": "652173e1050dc92a7005809545bfc2ce7e491a22af2af3ce0b62447e31d2e851",
+      "bytes": 8046
+    },
+    {
+      "path": "prism_correlation_comparison.png",
+      "sha256": "2edf8533edf6e02e25ea67825e224a313b88aa4577f70d0dc3f9db995faf7083",
+      "bytes": 108072
+    },
+    {
+      "path": "prism_correlation_comparison.svg",
+      "sha256": "a1a135e39ff01e8ad4e715b090818e3546b98b07000a283ee5728c15ac982839",
+      "bytes": 71500
+    },
+    {
+      "path": "prism_erastin_all_rows.tsv",
+      "sha256": "a73366f34f133016f6eb6a0ddfb6ca91849704524868c94430342be0de983fbe",
+      "bytes": 148191
+    },
+    {
+      "path": "prism_prediction_scatter.png",
+      "sha256": "43a625da016afb27a72fb3ba4cf9ebd3dd732c4becbc281438956813fc6cb03f",
+      "bytes": 392951
+    },
+    {
+      "path": "prism_prediction_scatter.svg",
+      "sha256": "555d33dd14ddff0c1d1d905a506a029a0b7fc31b7e7fa04c03fa31e07f98f61e",
+      "bytes": 351230
+    },
+    {
+      "path": "progress.json",
+      "sha256": "79f33f9f86f08d8a09e31cae323f0add39d627aceeb231728ebb054d3d14445c",
+      "bytes": 79
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "42aa8dddb872f428b06304c10a6bd284e061bdb8523cfcf39b7ee4fb8654e468",
+      "bytes": 4283
+    },
+    {
+      "path": "report_validation.py",
+      "sha256": "6f01c54f6725e1f71fb5108cc41b31ae5575487d198c1de7b88ee396014601f6",
+      "bytes": 16186
+    },
+    {
+      "path": "run_validation.py",
+      "sha256": "16d209e33067be8e979d5872a512229a51777e58de5ae2f683a02f87630480e1",
+      "bytes": 22316
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "8dc2efe18a5f5e84a23df2d2f9d9a6bb8199ff1285b667fba405397579c6a781",
+      "bytes": 72342
+    },
+    {
+      "path": "summary.tsv",
+      "sha256": "4348f047ce79949bddcd9e9af6f606bc087faeb88fbbef98b50761409610cee9",
+      "bytes": 3132
+    },
+    {
+      "path": "validation.json",
+      "sha256": "c279d08fde1c9b27dc4a335cb6acfb6207d207d90a276f05eb0bb148dcb278a3",
+      "bytes": 29374
+    },
+    {
+      "path": "visual_qa.json",
+      "sha256": "9d3f6ff70b0b5a94719c2adae0ffa30303f7d57d627b7164770ab2ef20cff30e",
+      "bytes": 576
+    },
+    {
+      "path": "weighted_mlp.py",
+      "sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+      "bytes": 2493
+    }
+  ]
+}

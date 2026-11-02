@@ -1,0 +1,1160 @@
+[
+  {
+    "symbol": "SLC3A2",
+    "tier": "add24",
+    "module": "Cystine import",
+    "mechanism": "Heavy-chain partner of SLC7A11 in system xc-.",
+    "inducer_relevance": "Direct erastin mechanism; erastin2 screen corroboration.",
+    "interpretation_caveat": "Also partners with other amino-acid transporters; do not label SLC3A2 itself as the established direct erastin-binding target.",
+    "literature_basis": "transporter mechanism plus perturbation screen",
+    "reference_ids": [
+      "xc",
+      "screen2026"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000168003",
+    "hgnc_id": "HGNC:11026",
+    "entrez_id": 6520,
+    "depmap_column": "SLC3A2 (6520)",
+    "depmap_index_0based": 12027,
+    "bulkformer_index_0based": 12037,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 8.089377403259277,
+    "sd_log2tpm1": 0.9132594466209412,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4054777/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/"
+    ]
+  },
+  {
+    "symbol": "CBS",
+    "tier": "add24",
+    "module": "Alternative cysteine synthesis",
+    "mechanism": "Transsulfuration supplies cysteine when extracellular cystine uptake is limited.",
+    "inducer_relevance": "Cystine deprivation and erastin-resistance mechanism.",
+    "interpretation_caveat": "Depends on methionine supply and pathway flux; enzyme RNA alone does not measure flux.",
+    "literature_basis": "pathway induction with functional inhibition/rescue",
+    "reference_ids": [
+      "transsulfuration"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000160200",
+    "hgnc_id": "HGNC:1550",
+    "entrez_id": 875,
+    "depmap_column": "CBS (875)",
+    "depmap_index_0based": 10270,
+    "bulkformer_index_0based": 10276,
+    "finite_samples": 745,
+    "fraction_zero": 0.0026845637583892616,
+    "mean_log2tpm1": 4.340178489685059,
+    "sd_log2tpm1": 2.2118279933929443,
+    "reference_urls": [
+      "https://www.nature.com/articles/cdd201593"
+    ]
+  },
+  {
+    "symbol": "CTH",
+    "tier": "add24",
+    "module": "Alternative cysteine synthesis",
+    "mechanism": "Transsulfuration supplies cysteine when extracellular cystine uptake is limited.",
+    "inducer_relevance": "Cystine deprivation and erastin-resistance mechanism.",
+    "interpretation_caveat": "Depends on methionine supply and pathway flux; enzyme RNA alone does not measure flux.",
+    "literature_basis": "pathway induction with functional inhibition/rescue",
+    "reference_ids": [
+      "transsulfuration"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000116761",
+    "hgnc_id": "HGNC:2501",
+    "entrez_id": 1491,
+    "depmap_column": "CTH (1491)",
+    "depmap_index_0based": 4577,
+    "bulkformer_index_0based": 4576,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 2.667541980743408,
+    "sd_log2tpm1": 1.2429969310760498,
+    "reference_urls": [
+      "https://www.nature.com/articles/cdd201593"
+    ]
+  },
+  {
+    "symbol": "GLS2",
+    "tier": "add24",
+    "module": "Glutaminolysis",
+    "mechanism": "Glutamine-derived carbon and alpha-ketoglutarate support ferroptosis in tested starvation models.",
+    "inducer_relevance": "Cystine/amino-acid deprivation; relevant to system xc- blockade.",
+    "interpretation_caveat": "Nutrient and cell-type dependent; GLS and GLS2 are distinct genes.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "glutaminolysis"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000135423",
+    "hgnc_id": "HGNC:29570",
+    "entrez_id": 27165,
+    "depmap_column": "GLS2 (27165)",
+    "depmap_index_0based": 6968,
+    "bulkformer_index_0based": 6969,
+    "finite_samples": 745,
+    "fraction_zero": 0.03087248322147651,
+    "mean_log2tpm1": 1.1689313650131226,
+    "sd_log2tpm1": 1.2199286222457886,
+    "reference_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1097276515004505"
+    ]
+  },
+  {
+    "symbol": "GOT1",
+    "tier": "add24",
+    "module": "Glutaminolysis",
+    "mechanism": "Glutamine-derived carbon and alpha-ketoglutarate support ferroptosis in tested starvation models.",
+    "inducer_relevance": "Cystine/amino-acid deprivation; relevant to system xc- blockade.",
+    "interpretation_caveat": "Nutrient and cell-type dependent; GLS and GLS2 are distinct genes.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "glutaminolysis"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000120053",
+    "hgnc_id": "HGNC:4432",
+    "entrez_id": 2805,
+    "depmap_column": "GOT1 (2805)",
+    "depmap_index_0based": 4950,
+    "bulkformer_index_0based": 4949,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.431982517242432,
+    "sd_log2tpm1": 0.7210609912872314,
+    "reference_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1097276515004505"
+    ]
+  },
+  {
+    "symbol": "PRDX6",
+    "tier": "add24",
+    "module": "Selenium and GPX4 synthesis",
+    "mechanism": "PRDX6 transfers selenium to the selenoprotein synthesis machinery including SEPHS2, supporting GPX4 abundance.",
+    "inducer_relevance": "PRDX6 functional evidence includes IKE, RSL3 and iron; erastin2 screen support for PRDX6.",
+    "interpretation_caveat": "SEPHS2 evidence is partly synthesis-pathway evidence; selenium availability matters. PRDX6 is not interchangeable with GPX4.",
+    "literature_basis": "functional PRDX6 experiments; SEPHS2 biochemical and rescue evidence",
+    "reference_ids": [
+      "prdx6",
+      "screen2026"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000117592",
+    "hgnc_id": "HGNC:16753",
+    "entrez_id": 9588,
+    "depmap_column": "PRDX6 (9588)",
+    "depmap_index_0based": 4687,
+    "bulkformer_index_0based": 4686,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 7.405750751495361,
+    "sd_log2tpm1": 0.6262583136558533,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41594-024-01329-z",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/"
+    ]
+  },
+  {
+    "symbol": "SEPHS2",
+    "tier": "add24",
+    "module": "Selenium and GPX4 synthesis",
+    "mechanism": "PRDX6 transfers selenium to the selenoprotein synthesis machinery including SEPHS2, supporting GPX4 abundance.",
+    "inducer_relevance": "PRDX6 functional evidence includes IKE, RSL3 and iron; erastin2 screen support for PRDX6.",
+    "interpretation_caveat": "SEPHS2 evidence is partly synthesis-pathway evidence; selenium availability matters. PRDX6 is not interchangeable with GPX4.",
+    "literature_basis": "functional PRDX6 experiments; SEPHS2 biochemical and rescue evidence",
+    "reference_ids": [
+      "prdx6",
+      "screen2026"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000179918",
+    "hgnc_id": "HGNC:19686",
+    "entrez_id": 22928,
+    "depmap_column": "SEPHS2 (22928)",
+    "depmap_index_0based": 14259,
+    "bulkformer_index_0based": 14276,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.800585746765137,
+    "sd_log2tpm1": 0.7631177306175232,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41594-024-01329-z",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/"
+    ]
+  },
+  {
+    "symbol": "GCH1",
+    "tier": "add24",
+    "module": "BH4 antioxidant defense",
+    "mechanism": "The BH4 synthesis pathway provides a GPX4-independent ferroptosis defense; complements DHFR already in the panel.",
+    "inducer_relevance": "Strong general/GPX4-inhibitor evidence; erastin relevance is context dependent.",
+    "interpretation_caveat": "RSL3 and erastin2 screens differ; do not infer universal protection against every inducer.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "bh4",
+      "bh4_screen",
+      "screen2026"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000131979",
+    "hgnc_id": "HGNC:4193",
+    "entrez_id": 2643,
+    "depmap_column": "GCH1 (2643)",
+    "depmap_index_0based": 6426,
+    "bulkformer_index_0based": 6427,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 2.821051836013794,
+    "sd_log2tpm1": 1.2374578714370728,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/31989025/",
+      "https://www.nature.com/articles/s41589-020-0613-y",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/"
+    ]
+  },
+  {
+    "symbol": "PTS",
+    "tier": "add24",
+    "module": "BH4 antioxidant defense",
+    "mechanism": "The BH4 synthesis pathway provides a GPX4-independent ferroptosis defense; complements DHFR already in the panel.",
+    "inducer_relevance": "Strong general/GPX4-inhibitor evidence; erastin relevance is context dependent.",
+    "interpretation_caveat": "RSL3 and erastin2 screens differ; do not infer universal protection against every inducer.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "bh4",
+      "bh4_screen",
+      "screen2026"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000150787",
+    "hgnc_id": "HGNC:9689",
+    "entrez_id": 5805,
+    "depmap_column": "PTS (5805)",
+    "depmap_index_0based": 9194,
+    "bulkformer_index_0based": 9199,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.0206685066223145,
+    "sd_log2tpm1": 0.7646048069000244,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/31989025/",
+      "https://www.nature.com/articles/s41589-020-0613-y",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/"
+    ]
+  },
+  {
+    "symbol": "SPR",
+    "tier": "add24",
+    "module": "BH4 antioxidant defense",
+    "mechanism": "The BH4 synthesis pathway provides a GPX4-independent ferroptosis defense; complements DHFR already in the panel.",
+    "inducer_relevance": "Strong general/GPX4-inhibitor evidence; erastin relevance is context dependent.",
+    "interpretation_caveat": "RSL3 and erastin2 screens differ; do not infer universal protection against every inducer.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "bh4",
+      "bh4_screen",
+      "screen2026"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000116096",
+    "hgnc_id": "HGNC:11257",
+    "entrez_id": 6697,
+    "depmap_column": "SPR (6697)",
+    "depmap_index_0based": 4487,
+    "bulkformer_index_0based": 4486,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.662014961242676,
+    "sd_log2tpm1": 1.3781721591949463,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/31989025/",
+      "https://www.nature.com/articles/s41589-020-0613-y",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/"
+    ]
+  },
+  {
+    "symbol": "IREB2",
+    "tier": "add24",
+    "module": "Iron regulation",
+    "mechanism": "Iron regulatory protein 2 controls the iron-handling program; knockdown protected cells in the original erastin screen.",
+    "inducer_relevance": "Direct erastin perturbation evidence in HT-1080 and Calu-1.",
+    "interpretation_caveat": "IRP2 activity is strongly controlled at the protein level.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "original"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000136381",
+    "hgnc_id": "HGNC:6115",
+    "entrez_id": 3658,
+    "depmap_column": "IREB2 (3658)",
+    "depmap_index_0based": 7158,
+    "bulkformer_index_0based": 7160,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.4031877517700195,
+    "sd_log2tpm1": 0.6221598386764526,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367386/"
+    ]
+  },
+  {
+    "symbol": "FTH1",
+    "tier": "add24",
+    "module": "Iron storage",
+    "mechanism": "Ferritin heavy chain limits the labile iron available to sustain lipid oxidation.",
+    "inducer_relevance": "Erastin/NRF2 studies and coordinated iron regulation.",
+    "interpretation_caveat": "Ferritin protein, iron loading and ferritinophagy can dissociate from baseline RNA.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "nrf2",
+      "iron"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000167996",
+    "hgnc_id": "HGNC:3976",
+    "entrez_id": 2495,
+    "depmap_column": "FTH1 (2495)",
+    "depmap_index_0based": 12024,
+    "bulkformer_index_0based": 12034,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 10.854544639587402,
+    "sd_log2tpm1": 1.305383324623108,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4688087/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/"
+    ]
+  },
+  {
+    "symbol": "SLC40A1",
+    "tier": "add24",
+    "module": "Iron export",
+    "mechanism": "Ferroportin exports cellular iron and is part of the BACH1-regulated ferroptosis program.",
+    "inducer_relevance": "Erastin-associated iron-handling pathway evidence.",
+    "interpretation_caveat": "Activity also depends on post-translational regulation and extracellular iron handling; not a universal RNA biomarker.",
+    "literature_basis": "functional iron-handling pathway; gene-specific evidence varies",
+    "reference_ids": [
+      "iron"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000138449",
+    "hgnc_id": "HGNC:10909",
+    "entrez_id": 30061,
+    "depmap_column": "SLC40A1 (30061)",
+    "depmap_index_0based": 7558,
+    "bulkformer_index_0based": 7560,
+    "finite_samples": 745,
+    "fraction_zero": 0.0026845637583892616,
+    "mean_log2tpm1": 1.7618167400360107,
+    "sd_log2tpm1": 1.9240713119506836,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/"
+    ]
+  },
+  {
+    "symbol": "PROM2",
+    "tier": "add24",
+    "module": "Iron export",
+    "mechanism": "Prominin2 promotes ferritin-containing extracellular vesicles and iron export.",
+    "inducer_relevance": "Perturbation studies include erastin and GPX4-targeting compounds.",
+    "interpretation_caveat": "Observed in epithelial/breast models; vesicle production and culture context matter.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "prom2"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000155066",
+    "hgnc_id": "HGNC:20685",
+    "entrez_id": 150696,
+    "depmap_column": "PROM2 (150696)",
+    "depmap_index_0based": 9679,
+    "bulkformer_index_0based": 9684,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 1.9428820610046387,
+    "sd_log2tpm1": 2.187129497528076,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8316835/"
+    ]
+  },
+  {
+    "symbol": "FADS1",
+    "tier": "add24",
+    "module": "PUFA synthesis",
+    "mechanism": "Desaturation and elongation create oxidizable PUFA substrates.",
+    "inducer_relevance": "Functional ferroptosis evidence in gastric cancer; broader lipid mechanism.",
+    "interpretation_caveat": "Lineage and lipid-supply dependent; much evidence uses GPX4 inhibitors.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "pufa",
+      "fads"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000149485",
+    "hgnc_id": "HGNC:3574",
+    "entrez_id": 3992,
+    "depmap_column": "FADS1 (3992)",
+    "depmap_index_0based": 9075,
+    "bulkformer_index_0based": 9080,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.051689147949219,
+    "sd_log2tpm1": 1.5707099437713623,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7768719/",
+      "https://pubmed.ncbi.nlm.nih.gov/38926633/"
+    ]
+  },
+  {
+    "symbol": "ELOVL5",
+    "tier": "add24",
+    "module": "PUFA synthesis",
+    "mechanism": "Desaturation and elongation create oxidizable PUFA substrates.",
+    "inducer_relevance": "Functional ferroptosis evidence in gastric cancer; broader lipid mechanism.",
+    "interpretation_caveat": "Lineage and lipid-supply dependent; much evidence uses GPX4 inhibitors.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "pufa",
+      "fads"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000012660",
+    "hgnc_id": "HGNC:21308",
+    "entrez_id": 60481,
+    "depmap_column": "ELOVL5 (60481)",
+    "depmap_index_0based": 317,
+    "bulkformer_index_0based": 317,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 6.155991077423096,
+    "sd_log2tpm1": 1.345851182937622,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7768719/",
+      "https://pubmed.ncbi.nlm.nih.gov/38926633/"
+    ]
+  },
+  {
+    "symbol": "FADS2",
+    "tier": "add24",
+    "module": "PUFA synthesis",
+    "mechanism": "PUFA desaturation contributes to the lipid substrates that permit ferroptosis.",
+    "inducer_relevance": "Functional ferroptosis evidence in cancer models; not erastin-specific.",
+    "interpretation_caveat": "Dietary/culture lipids and alternative desaturation routes affect the phenotype.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "fads",
+      "zeb"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000134824",
+    "hgnc_id": "HGNC:3575",
+    "entrez_id": 9415,
+    "depmap_column": "FADS2 (9415)",
+    "depmap_index_0based": 6859,
+    "bulkformer_index_0based": 6860,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.967081546783447,
+    "sd_log2tpm1": 2.230365753173828,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/38926633/",
+      "https://www.nature.com/articles/s41556-024-01464-1"
+    ]
+  },
+  {
+    "symbol": "FAR1",
+    "tier": "add24",
+    "module": "Ether phospholipids",
+    "mechanism": "Peroxisomal ether-lipid synthesis provides substrates for ferroptotic lipid oxidation.",
+    "inducer_relevance": "Strong genetic/pathway evidence, mainly GPX4 inhibition.",
+    "interpretation_caveat": "Ether-lipid products can have differing effects; availability is not determined by transcript abundance alone.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "ether"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000197601",
+    "hgnc_id": "HGNC:26222",
+    "entrez_id": 84188,
+    "depmap_column": "FAR1 (84188)",
+    "depmap_index_0based": 16487,
+    "bulkformer_index_0based": 16519,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.792412757873535,
+    "sd_log2tpm1": 0.9147762656211853,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41418-021-00769-0"
+    ]
+  },
+  {
+    "symbol": "GNPAT",
+    "tier": "add24",
+    "module": "Ether phospholipids",
+    "mechanism": "Peroxisomal ether-lipid synthesis provides substrates for ferroptotic lipid oxidation.",
+    "inducer_relevance": "Strong genetic/pathway evidence, mainly GPX4 inhibition.",
+    "interpretation_caveat": "Ether-lipid products can have differing effects; availability is not determined by transcript abundance alone.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "ether"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000116906",
+    "hgnc_id": "HGNC:4416",
+    "entrez_id": 8443,
+    "depmap_column": "GNPAT (8443)",
+    "depmap_index_0based": 4600,
+    "bulkformer_index_0based": 4599,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.923913955688477,
+    "sd_log2tpm1": 0.5355105400085449,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41418-021-00769-0"
+    ]
+  },
+  {
+    "symbol": "AGPS",
+    "tier": "add24",
+    "module": "Ether phospholipids",
+    "mechanism": "Peroxisomal ether-lipid synthesis provides substrates for ferroptotic lipid oxidation.",
+    "inducer_relevance": "Strong genetic/pathway evidence, mainly GPX4 inhibition.",
+    "interpretation_caveat": "Ether-lipid products can have differing effects; availability is not determined by transcript abundance alone.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "ether"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000018510",
+    "hgnc_id": "HGNC:327",
+    "entrez_id": 8540,
+    "depmap_column": "AGPS (8540)",
+    "depmap_index_0based": 379,
+    "bulkformer_index_0based": 379,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.130795478820801,
+    "sd_log2tpm1": 0.8550503253936768,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41418-021-00769-0"
+    ]
+  },
+  {
+    "symbol": "TMEM164",
+    "tier": "add24",
+    "module": "Ether phospholipid remodeling",
+    "mechanism": "Acyltransferase generates arachidonoyl ether phospholipids; loss can suppress ferroptosis.",
+    "inducer_relevance": "General ferroptosis and inducer-specific perturbation studies.",
+    "interpretation_caveat": "Reported autophagy and lipid-remodeling mechanisms should not be assumed identical in all models.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "tmem",
+      "tmem_function"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000157600",
+    "hgnc_id": "HGNC:26217",
+    "entrez_id": 84187,
+    "depmap_column": "TMEM164 (84187)",
+    "depmap_index_0based": 9959,
+    "bulkformer_index_0based": 9964,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 3.846987724304199,
+    "sd_log2tpm1": 0.8142293095588684,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41589-022-01253-7",
+      "https://pubmed.ncbi.nlm.nih.gov/35947500/"
+    ]
+  },
+  {
+    "symbol": "BECN1",
+    "tier": "add24",
+    "module": "System xc- regulation",
+    "mechanism": "AMPK-dependent BECN1 phosphorylation promotes binding to SLC7A11 and inhibits system xc-.",
+    "inducer_relevance": "Direct erastin/system xc- inhibitor evidence.",
+    "interpretation_caveat": "Phosphorylation and protein interactions matter; baseline BECN1 RNA is an indirect proxy.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "becn"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000126581",
+    "hgnc_id": "HGNC:1034",
+    "entrez_id": 8678,
+    "depmap_column": "BECN1 (8678)",
+    "depmap_index_0based": 5758,
+    "bulkformer_index_0based": 5759,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.900148868560791,
+    "sd_log2tpm1": 0.4977751672267914,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081251/"
+    ]
+  },
+  {
+    "symbol": "BAP1",
+    "tier": "add24",
+    "module": "Transcriptional regulation",
+    "mechanism": "BAP1 affects ferroptosis through SLC7A11 repression and additional lipid-regulatory mechanisms.",
+    "inducer_relevance": "Direct erastin perturbation/rescue evidence.",
+    "interpretation_caveat": "Mutation/catalytic activity can matter more than transcript abundance; not exclusively an SLC7A11 mechanism.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "bap",
+      "bap_update"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000163930",
+    "hgnc_id": "HGNC:950",
+    "entrez_id": 8314,
+    "depmap_column": "BAP1 (8314)",
+    "depmap_index_0based": 10983,
+    "bulkformer_index_0based": 10991,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.337124347686768,
+    "sd_log2tpm1": 0.6347423791885376,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6170713/",
+      "https://www.nature.com/articles/s41418-025-01624-2.pdf"
+    ]
+  },
+  {
+    "symbol": "ABCC1",
+    "tier": "add24",
+    "module": "Glutathione export",
+    "mechanism": "MRP1/ABCC1 exports glutathione; its disruption can preserve glutathione and inhibit ferroptosis.",
+    "inducer_relevance": "Direct functional ferroptosis study; counterintuitive for a generic drug-efflux marker.",
+    "interpretation_caveat": "Do not assume all ABC-transporter expression predicts resistance; substrates and metabolic context matter.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "abcc"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000103222",
+    "hgnc_id": "HGNC:51",
+    "entrez_id": 4363,
+    "depmap_column": "ABCC1 (4363)",
+    "depmap_index_0based": 2757,
+    "bulkformer_index_0based": 2758,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.987480163574219,
+    "sd_log2tpm1": 0.8618409633636475,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/30726737/"
+    ]
+  },
+  {
+    "symbol": "SC5D",
+    "tier": "add16",
+    "module": "Sterol antioxidant defense",
+    "mechanism": "SC5D synthesizes the 7-DHC precursor pool that can protect membranes from peroxidation.",
+    "inducer_relevance": "7-DHC protects against multiple inducers including erastin.",
+    "interpretation_caveat": "Sterol supply and flux matter; the cited study also analyzed CTRP, so its expression associations are not independent validation here.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "sterol"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000109929",
+    "hgnc_id": "HGNC:10547",
+    "entrez_id": 6309,
+    "depmap_column": "SC5D (6309)",
+    "depmap_index_0based": 3684,
+    "bulkformer_index_0based": 3683,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.7919206619262695,
+    "sd_log2tpm1": 0.9806159138679504,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41586-023-06983-9"
+    ]
+  },
+  {
+    "symbol": "DHCR7",
+    "tier": "add16",
+    "module": "Sterol antioxidant defense",
+    "mechanism": "DHCR7 consumes protective 7-DHC; its loss can protect cells from ferroptosis.",
+    "inducer_relevance": "Multiple-inducer functional studies; erastin protection by 7-DHC.",
+    "interpretation_caveat": "Its functional effect can oppose SC5D despite both being cholesterol-pathway genes. Do not force a coefficient sign.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "sterol"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000172893",
+    "hgnc_id": "HGNC:2860",
+    "entrez_id": 1717,
+    "depmap_column": "DHCR7 (1717)",
+    "depmap_index_0based": 13117,
+    "bulkformer_index_0based": 13130,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.890155792236328,
+    "sd_log2tpm1": 1.0981416702270508,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41586-023-06983-9"
+    ]
+  },
+  {
+    "symbol": "VKORC1L1",
+    "tier": "add16",
+    "module": "Vitamin K antioxidant defense",
+    "mechanism": "Vitamin K reduction provides a radical-trapping defense independent of GSH/GPX4.",
+    "inducer_relevance": "Strong ferroptosis evidence, especially RSL3; not interchangeable with VKORC1.",
+    "interpretation_caveat": "Vitamin K supply, protein activity and p53 state matter.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "vitk",
+      "screen2026"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000196715",
+    "hgnc_id": "HGNC:21492",
+    "entrez_id": 154807,
+    "depmap_column": "VKORC1L1 (154807)",
+    "depmap_index_0based": 16268,
+    "bulkformer_index_0based": 16299,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.282047748565674,
+    "sd_log2tpm1": 0.5724053382873535,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529626/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/"
+    ]
+  },
+  {
+    "symbol": "G6PD",
+    "tier": "add16",
+    "module": "NADPH metabolism",
+    "mechanism": "Supplies NADPH to both protective redox systems and pro-oxidant pathways.",
+    "inducer_relevance": "Knockdown suppressed erastin ferroptosis in the original Calu-1 experiments.",
+    "interpretation_caveat": "NADPH is not uniformly protective: NOX dependence can reverse the functional direction.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "original"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000160211",
+    "hgnc_id": "HGNC:4057",
+    "entrez_id": 2539,
+    "depmap_column": "G6PD (2539)",
+    "depmap_index_0based": 10276,
+    "bulkformer_index_0based": 10282,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 6.337687969207764,
+    "sd_log2tpm1": 1.299646258354187,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367386/"
+    ]
+  },
+  {
+    "symbol": "DHODH",
+    "tier": "add16",
+    "module": "Mitochondrial redox defense",
+    "mechanism": "Proposed mitochondrial CoQ-reducing defense parallel to mitochondrial GPX4.",
+    "inducer_relevance": "Mostly GPX4-inhibitor evidence.",
+    "interpretation_caveat": "Contribution is context dependent and disputed; high-dose inhibitor effects can reflect FSP1 inhibition.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "dhodh",
+      "dhodh_dispute"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000102967",
+    "hgnc_id": "HGNC:2867",
+    "entrez_id": 1723,
+    "depmap_column": "DHODH (1723)",
+    "depmap_index_0based": 2710,
+    "bulkformer_index_0based": 2711,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 3.133661985397339,
+    "sd_log2tpm1": 0.6069779992103577,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41586-021-03539-7",
+      "https://www.nature.com/articles/s41586-023-06269-0"
+    ]
+  },
+  {
+    "symbol": "GPD2",
+    "tier": "add16",
+    "module": "Mitochondrial redox defense",
+    "mechanism": "Glycerol-3-phosphate oxidation reduces CoQ to antioxidant ubiquinol.",
+    "inducer_relevance": "Primary evidence emphasizes GPX4 inhibition.",
+    "interpretation_caveat": "Do not equate GPX4-inhibitor response with erastin response.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "gpd2"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000115159",
+    "hgnc_id": "HGNC:4456",
+    "entrez_id": 2820,
+    "depmap_column": "GPD2 (2820)",
+    "depmap_index_0based": 4332,
+    "bulkformer_index_0based": 4331,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 3.9657671451568604,
+    "sd_log2tpm1": 1.20180344581604,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/35749365/"
+    ]
+  },
+  {
+    "symbol": "HMOX1",
+    "tier": "add16",
+    "module": "Heme and iron stress",
+    "mechanism": "Heme breakdown affects labile iron and the oxidative-stress response.",
+    "inducer_relevance": "Erastin perturbation evidence in both promoting and protective settings.",
+    "interpretation_caveat": "Opposite effects reported across cell types; neither a fixed driver nor fixed suppressor for pan-cancer RNA prediction.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "hmox_pro",
+      "hmox_anti",
+      "nrf2"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000100292",
+    "hgnc_id": "HGNC:5013",
+    "entrez_id": 3162,
+    "depmap_column": "HMOX1 (3162)",
+    "depmap_index_0based": 2227,
+    "bulkformer_index_0based": 2227,
+    "finite_samples": 745,
+    "fraction_zero": 0.0013422818791946308,
+    "mean_log2tpm1": 3.7598633766174316,
+    "sd_log2tpm1": 1.9551219940185547,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4695193/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6031916/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4688087/"
+    ]
+  },
+  {
+    "symbol": "KEAP1",
+    "tier": "add16",
+    "module": "NRF2 regulation",
+    "mechanism": "KEAP1 regulates NRF2 stability and its ferroptosis-defense transcriptional program.",
+    "inducer_relevance": "Erastin/NRF2 pathway evidence in liver cancer.",
+    "interpretation_caveat": "KEAP1 mutation and protein function are poorly represented by mRNA alone.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "nrf2"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000079999",
+    "hgnc_id": "HGNC:23177",
+    "entrez_id": 9817,
+    "depmap_column": "KEAP1 (9817)",
+    "depmap_index_0based": 1472,
+    "bulkformer_index_0based": 1473,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.609877109527588,
+    "sd_log2tpm1": 0.6031471490859985,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4688087/"
+    ]
+  },
+  {
+    "symbol": "TP53",
+    "tier": "add16",
+    "module": "Context-dependent stress regulation",
+    "mechanism": "p53 can promote or suppress ferroptosis through different downstream mechanisms.",
+    "inducer_relevance": "Includes direct inhibition of erastin ferroptosis through DPP4 in colorectal models.",
+    "interpretation_caveat": "TP53 expression is not a surrogate for functional p53 status; mutation information is a separate modality.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "p53",
+      "vitk"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000141510",
+    "hgnc_id": "HGNC:11998",
+    "entrez_id": 7157,
+    "depmap_column": "TP53 (7157)",
+    "depmap_index_0based": 8008,
+    "bulkformer_index_0based": 8009,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 5.125201225280762,
+    "sd_log2tpm1": 1.2654308080673218,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/28813679/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529626/"
+    ]
+  },
+  {
+    "symbol": "CDH1",
+    "tier": "add16",
+    "module": "Cell contact and Hippo state",
+    "mechanism": "E-cadherin/NF2/Hippo signaling connects cell contact to YAP activity and ferroptosis susceptibility.",
+    "inducer_relevance": "Functional cancer-cell perturbation and density experiments.",
+    "interpretation_caveat": "May encode lineage or culture density; nuclear localization and activity differ from RNA abundance.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "contact"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000039068",
+    "hgnc_id": "HGNC:1748",
+    "entrez_id": 999,
+    "depmap_column": "CDH1 (999)",
+    "depmap_index_0based": 550,
+    "bulkformer_index_0based": 551,
+    "finite_samples": 745,
+    "fraction_zero": 0.004026845637583893,
+    "mean_log2tpm1": 3.271463394165039,
+    "sd_log2tpm1": 2.9779000282287598,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41586-019-1426-6"
+    ]
+  },
+  {
+    "symbol": "NF2",
+    "tier": "add16",
+    "module": "Cell contact and Hippo state",
+    "mechanism": "E-cadherin/NF2/Hippo signaling connects cell contact to YAP activity and ferroptosis susceptibility.",
+    "inducer_relevance": "Functional cancer-cell perturbation and density experiments.",
+    "interpretation_caveat": "May encode lineage or culture density; nuclear localization and activity differ from RNA abundance.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "contact"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000186575",
+    "hgnc_id": "HGNC:7773",
+    "entrez_id": 4771,
+    "depmap_column": "NF2 (4771)",
+    "depmap_index_0based": 15504,
+    "bulkformer_index_0based": 15529,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.254557132720947,
+    "sd_log2tpm1": 0.9313298463821411,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41586-019-1426-6"
+    ]
+  },
+  {
+    "symbol": "YAP1",
+    "tier": "add16",
+    "module": "Cell contact and Hippo state",
+    "mechanism": "E-cadherin/NF2/Hippo signaling connects cell contact to YAP activity and ferroptosis susceptibility.",
+    "inducer_relevance": "Functional cancer-cell perturbation and density experiments.",
+    "interpretation_caveat": "May encode lineage or culture density; nuclear localization and activity differ from RNA abundance.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "contact"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000137693",
+    "hgnc_id": "HGNC:16262",
+    "entrez_id": 10413,
+    "depmap_column": "YAP1 (10413)",
+    "depmap_index_0based": 7397,
+    "bulkformer_index_0based": 7399,
+    "finite_samples": 745,
+    "fraction_zero": 0.0013422818791946308,
+    "mean_log2tpm1": 4.478548526763916,
+    "sd_log2tpm1": 2.230149984359741,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41586-019-1426-6"
+    ]
+  },
+  {
+    "symbol": "WWTR1",
+    "tier": "add16",
+    "module": "Cell contact and Hippo state",
+    "mechanism": "TAZ promotes an EMP1-NOX4 ferroptosis program in renal cancer.",
+    "inducer_relevance": "Direct erastin studies in renal cancer models.",
+    "interpretation_caveat": "TAZ is WWTR1, not TAFAZZIN; effects and target genes are tissue dependent.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "taz"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000018408",
+    "hgnc_id": "HGNC:24042",
+    "entrez_id": 25937,
+    "depmap_column": "WWTR1 (25937)",
+    "depmap_index_0based": 378,
+    "bulkformer_index_0based": 378,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 3.9665982723236084,
+    "sd_log2tpm1": 2.2546133995056152,
+    "reference_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S221112471931023X"
+    ]
+  },
+  {
+    "symbol": "ZEB1",
+    "tier": "add16",
+    "module": "Mesenchymal lipid state",
+    "mechanism": "ZEB1 controls lipogenic enzymes and phospholipid composition linked to ferroptosis susceptibility.",
+    "inducer_relevance": "Cancer-cell perturbation evidence, including experiments with erastin.",
+    "interpretation_caveat": "May act as a lineage/state proxy; published expression-response associations may reuse public cell-line resources.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "zeb"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000148516",
+    "hgnc_id": "HGNC:11642",
+    "entrez_id": 6935,
+    "depmap_column": "ZEB1 (6935)",
+    "depmap_index_0based": 8970,
+    "bulkformer_index_0based": 8975,
+    "finite_samples": 745,
+    "fraction_zero": 0.0013422818791946308,
+    "mean_log2tpm1": 2.244706869125366,
+    "sd_log2tpm1": 1.589943289756775,
+    "reference_urls": [
+      "https://www.nature.com/articles/s41556-024-01464-1"
+    ]
+  },
+  {
+    "symbol": "EPAS1",
+    "tier": "add16",
+    "module": "Clear-cell and hypoxic lipid state",
+    "mechanism": "The HIF-2alpha-HILPDA axis contributes to a PUFA-rich, GPX4-dependent clear-cell state.",
+    "inducer_relevance": "Strong clear-cell cancer/GPX4-inhibition evidence.",
+    "interpretation_caveat": "Especially context dependent; should not be assumed a pan-cancer erastin mechanism.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "hypoxia"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000116016",
+    "hgnc_id": "HGNC:3374",
+    "entrez_id": 2034,
+    "depmap_column": "EPAS1 (2034)",
+    "depmap_index_0based": 4477,
+    "bulkformer_index_0based": 4476,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 3.902956008911133,
+    "sd_log2tpm1": 2.1228699684143066,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/30962421/"
+    ]
+  },
+  {
+    "symbol": "HILPDA",
+    "tier": "add16",
+    "module": "Clear-cell and hypoxic lipid state",
+    "mechanism": "The HIF-2alpha-HILPDA axis contributes to a PUFA-rich, GPX4-dependent clear-cell state.",
+    "inducer_relevance": "Strong clear-cell cancer/GPX4-inhibition evidence.",
+    "interpretation_caveat": "Especially context dependent; should not be assumed a pan-cancer erastin mechanism.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "hypoxia"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000135245",
+    "hgnc_id": "HGNC:28859",
+    "entrez_id": 29923,
+    "depmap_column": "HILPDA (29923)",
+    "depmap_index_0based": 6928,
+    "bulkformer_index_0based": 6929,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 4.199632167816162,
+    "sd_log2tpm1": 0.8873522281646729,
+    "reference_urls": [
+      "https://pubmed.ncbi.nlm.nih.gov/30962421/"
+    ]
+  },
+  {
+    "symbol": "FTL",
+    "tier": "reserve",
+    "module": "Iron storage",
+    "mechanism": "Ferritin light chain participates in iron sequestration.",
+    "inducer_relevance": "BACH1/iron-handling evidence.",
+    "interpretation_caveat": "Closely related to the FTH1 module; not a claim that this gene lacks ferroptosis relevance.",
+    "literature_basis": "pathway evidence",
+    "reference_ids": [
+      "iron"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000087086",
+    "hgnc_id": "HGNC:3999",
+    "entrez_id": 2512,
+    "depmap_column": "FTL (2512)",
+    "depmap_index_0based": 1706,
+    "bulkformer_index_0based": 1707,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 10.88705825805664,
+    "sd_log2tpm1": 1.3158520460128784,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/"
+    ]
+  },
+  {
+    "symbol": "PGD",
+    "tier": "reserve",
+    "module": "NADPH metabolism",
+    "mechanism": "6-phosphogluconate dehydrogenase supplies NADPH through the pentose phosphate pathway.",
+    "inducer_relevance": "Knockdown suppressed erastin ferroptosis in Calu-1.",
+    "interpretation_caveat": "PGD is not PHGDH. Kept as a reserve member of the G6PD/NADPH module.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "original"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000142657",
+    "hgnc_id": "HGNC:8891",
+    "entrez_id": 5226,
+    "depmap_column": "PGD (5226)",
+    "depmap_index_0based": 8144,
+    "bulkformer_index_0based": 8148,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 6.874906063079834,
+    "sd_log2tpm1": 0.9211151003837585,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367386/"
+    ]
+  },
+  {
+    "symbol": "OTUB1",
+    "tier": "reserve",
+    "module": "SLC7A11 protein stability",
+    "mechanism": "OTUB1 stabilizes SLC7A11 and can protect against ferroptosis.",
+    "inducer_relevance": "Direct cystine starvation/ferroptosis perturbation evidence.",
+    "interpretation_caveat": "Protein stability and activity may be more informative than RNA; another candidate for a separately frozen follow-up.",
+    "literature_basis": "functional perturbation",
+    "reference_ids": [
+      "otub"
+    ],
+    "predictive_coefficient_sign": "Not prespecified; functional direction does not fix an RNA-expression coefficient.",
+    "ensembl_gene_id": "ENSG00000167770",
+    "hgnc_id": "HGNC:23077",
+    "entrez_id": 55611,
+    "depmap_column": "OTUB1 (55611)",
+    "depmap_index_0based": 11969,
+    "bulkformer_index_0based": 11977,
+    "finite_samples": 745,
+    "fraction_zero": 0.0,
+    "mean_log2tpm1": 6.211653232574463,
+    "sd_log2tpm1": 0.4500269293785095,
+    "reference_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6467774/"
+    ]
+  }
+]

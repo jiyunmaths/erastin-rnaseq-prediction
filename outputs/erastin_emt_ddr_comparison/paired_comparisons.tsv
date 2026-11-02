@@ -1,0 +1,232 @@
+first_model	reference_model	metric	improvement	favorable_repeats	paired_defined_repeats	conditional_ci_low	conditional_ci_high	valid_bootstrap_draws
+ridge__ferro64_emt	ridge__ferro64	pooled_spearman	-0.00153920450057	10	20	-0.0288623341292	0.0281931248365	5000
+ridge__ferro64_emt	ridge__ferro64	pooled_pearson	0.00172731664812	12	20	-0.0230669345988	0.0312507181025	5000
+ridge__ferro64_emt	ridge__ferro64	pooled_rmse	-5.82953835669e-06	11	20	-0.00145780552382	0.00176991811054	5000
+ridge__ferro64_emt	ridge__ferro64	pooled_mae	-0.000241933328656	9	20	-0.00180894238911	0.00156589187954	5000
+ridge__ferro64_emt	ridge__ferro64	pooled_r2	0.000116826076442	11	20	-0.0214541756005	0.0251203104673	5000
+ridge__ferro64_emt	ridge__ferro64	macro_all_rmse	0.00142314738395	14	20	-0.00128613128664	0.0043414169572	5000
+ridge__ferro64_emt	ridge__ferro64	macro_large_rmse	0.000417263140037	14	20	-0.00201319944631	0.00316149211313	5000
+ridge__ferro64_ddr	ridge__ferro64	pooled_spearman	0.00344566855479	13	20	-0.0205298172476	0.0321378299853	5000
+ridge__ferro64_ddr	ridge__ferro64	pooled_pearson	0.00257256353884	10	20	-0.0204822677704	0.0358683410139	5000
+ridge__ferro64_ddr	ridge__ferro64	pooled_rmse	8.1107017546e-05	10	20	-0.00134025333001	0.00167787807482	5000
+ridge__ferro64_ddr	ridge__ferro64	pooled_mae	-5.89999447398e-05	11	20	-0.00148847422074	0.00129856560906	5000
+ridge__ferro64_ddr	ridge__ferro64	pooled_r2	0.00136826335684	10	20	-0.0178350977155	0.0247252787131	5000
+ridge__ferro64_ddr	ridge__ferro64	macro_all_rmse	0.000836263905934	14	20	-0.00109898333524	0.00294366037271	5000
+ridge__ferro64_ddr	ridge__ferro64	macro_large_rmse	0.000136996236884	12	20	-0.00196566003775	0.00254937206254	5000
+ridge__ferro64_emt_ddr	ridge__ferro64	pooled_spearman	0.00149784267459	13	20	-0.0198712394797	0.0324106702503	5000
+ridge__ferro64_emt_ddr	ridge__ferro64	pooled_pearson	0.00459042570449	12	20	-0.0222157148199	0.0438018032952	5000
+ridge__ferro64_emt_ddr	ridge__ferro64	pooled_rmse	0.000416388424801	13	20	-0.00140035113787	0.00255956798009	5000
+ridge__ferro64_emt_ddr	ridge__ferro64	pooled_mae	0.000591988754238	13	20	-0.000981429982618	0.00243677228381	5000
+ridge__ferro64_emt_ddr	ridge__ferro64	pooled_r2	0.00552139341333	13	20	-0.0204675023392	0.0365048545982	5000
+ridge__ferro64_emt_ddr	ridge__ferro64	macro_all_rmse	0.00198772903059	16	20	-0.00109409623184	0.00507710785785	5000
+ridge__ferro64_emt_ddr	ridge__ferro64	macro_large_rmse	0.000727514275807	13	20	-0.00245114004855	0.00413041768637	5000
+elastic_net__ferro64_emt	elastic_net__ferro64	pooled_spearman	-0.00386057082965	10	20	-0.0255844237087	0.0221127768327	5000
+elastic_net__ferro64_emt	elastic_net__ferro64	pooled_pearson	0.00481995469786	12	20	-0.0130063760481	0.0271881914103	5000
+elastic_net__ferro64_emt	elastic_net__ferro64	pooled_rmse	0.000407087604016	13	20	-0.000765564741265	0.00178208070504	5000
+elastic_net__ferro64_emt	elastic_net__ferro64	pooled_mae	0.000123825140639	10	20	-0.00104048071119	0.00151242804444	5000
+elastic_net__ferro64_emt	elastic_net__ferro64	pooled_r2	0.00546559167464	13	20	-0.0119379700736	0.0241178163575	5000
+elastic_net__ferro64_emt	elastic_net__ferro64	macro_all_rmse	0.00184826770827	14	20	-0.000252557177566	0.00421480978134	5000
+elastic_net__ferro64_emt	elastic_net__ferro64	macro_large_rmse	0.000771867823132	12	20	-0.00114092961528	0.0031619296406	5000
+elastic_net__ferro64_ddr	elastic_net__ferro64	pooled_spearman	0.0104518866493	17	20	-0.0101003554012	0.0354807932501	5000
+elastic_net__ferro64_ddr	elastic_net__ferro64	pooled_pearson	0.00567442524697	13	20	-0.0154605301101	0.0365519982855	5000
+elastic_net__ferro64_ddr	elastic_net__ferro64	pooled_rmse	0.000595965056835	13	20	-0.000735231465358	0.00203085841316	5000
+elastic_net__ferro64_ddr	elastic_net__ferro64	pooled_mae	0.000484672742676	12	20	-0.000980944660181	0.00194125457851	5000
+elastic_net__ferro64_ddr	elastic_net__ferro64	pooled_r2	0.00807978034217	13	20	-0.00986673800116	0.0293851746575	5000
+elastic_net__ferro64_ddr	elastic_net__ferro64	macro_all_rmse	0.000643056587964	13	20	-0.00111423712541	0.00259249464095	5000
+elastic_net__ferro64_ddr	elastic_net__ferro64	macro_large_rmse	0.000932645766447	14	20	-0.00103956153281	0.00314241497751	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64	pooled_spearman	0.0147823650767	16	20	-0.00577949785272	0.0399095784458	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64	pooled_pearson	0.0133980129742	13	20	-0.00727010583122	0.0442026596234	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64	pooled_rmse	0.00094054963298	14	20	-0.000294544936682	0.00241259332641	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64	pooled_mae	0.000600650083774	14	20	-0.000702190557835	0.00201826738438	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64	pooled_r2	0.0128018497509	14	20	-0.00367998293707	0.0347227135754	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64	macro_all_rmse	0.00132861308775	14	20	-0.000555627289201	0.00350676996694	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64	macro_large_rmse	0.00157394127639	14	20	-0.000479768123555	0.00406230496739	5000
+neural_network__ferro64_emt	neural_network__ferro64	pooled_spearman	-0.0340645470729	2	20	-0.0577353150407	-0.00714400092611	5000
+neural_network__ferro64_emt	neural_network__ferro64	pooled_pearson	-0.0233643253027	6	20	-0.0489221412858	0.00415263752518	5000
+neural_network__ferro64_emt	neural_network__ferro64	pooled_rmse	-0.00210856170064	4	20	-0.00437140849646	-3.16003257996e-05	5000
+neural_network__ferro64_emt	neural_network__ferro64	pooled_mae	-0.00152006398832	6	20	-0.00353986526879	0.000692734809995	5000
+neural_network__ferro64_emt	neural_network__ferro64	pooled_r2	-0.0301154037728	4	20	-0.0699701561666	-0.00243967288232	5000
+neural_network__ferro64_emt	neural_network__ferro64	macro_all_rmse	-0.0007876125239	9	20	-0.00428122820111	0.00272598797046	5000
+neural_network__ferro64_emt	neural_network__ferro64	macro_large_rmse	-0.00258871805655	3	20	-0.00609550049999	0.000838836141293	5000
+neural_network__ferro64_ddr	neural_network__ferro64	pooled_spearman	-0.0152726214035	6	20	-0.0433399142097	0.0211360799654	5000
+neural_network__ferro64_ddr	neural_network__ferro64	pooled_pearson	-0.0172853275301	7	20	-0.0424492871922	0.0202497624952	5000
+neural_network__ferro64_ddr	neural_network__ferro64	pooled_rmse	-0.00127963076324	7	20	-0.0033334495259	0.00104545019584	5000
+neural_network__ferro64_ddr	neural_network__ferro64	pooled_mae	-0.000110813481642	9	20	-0.00220552700672	0.00203266529506	5000
+neural_network__ferro64_ddr	neural_network__ferro64	pooled_r2	-0.0180001420509	7	20	-0.0485504444871	0.0137176842593	5000
+neural_network__ferro64_ddr	neural_network__ferro64	macro_all_rmse	8.11180779157e-05	10	20	-0.00279393681662	0.00340799733588	5000
+neural_network__ferro64_ddr	neural_network__ferro64	macro_large_rmse	-0.000807761523164	9	20	-0.00334735202226	0.00209897569627	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64	pooled_spearman	-0.0490032057733	4	20	-0.0733566134573	-0.0153198613671	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64	pooled_pearson	-0.0480421658179	3	20	-0.0833981210959	-0.00320002681455	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64	pooled_rmse	-0.00564476391795	3	20	-0.00880625034571	-0.00266183523798	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64	pooled_mae	-0.0037251889783	4	20	-0.006544725628	-0.000845386486192	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64	pooled_r2	-0.0801312644921	3	20	-0.138555506465	-0.0407197391832	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64	macro_all_rmse	-0.00400086348907	3	20	-0.00869929550211	0.000639551546602	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64	macro_large_rmse	-0.00537284996403	2	20	-0.0104226881336	-0.000258227759755	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_emt	pooled_spearman	0.00303704717516	12	20	-0.0159141725831	0.0249802322628	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_emt	pooled_pearson	0.00286310905637	12	20	-0.0137604357328	0.0260450844435	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_emt	pooled_rmse	0.000422217963158	12	20	-0.000756962677113	0.00158180236075	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_emt	pooled_mae	0.000833922082894	16	20	-0.00036614907169	0.00195646585757	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_emt	pooled_r2	0.00540456733689	12	20	-0.0110649350737	0.0222355865401	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_emt	macro_all_rmse	0.000564581646646	12	20	-0.000854736583321	0.00206650809051	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_emt	macro_large_rmse	0.000310251135769	12	20	-0.00106018369595	0.00164028845614	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_ddr	pooled_spearman	-0.0019478258802	9	20	-0.0190905648803	0.017253341303	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_ddr	pooled_pearson	0.00201786216566	12	20	-0.0159314694451	0.0199350810972	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_ddr	pooled_rmse	0.000335281407255	14	20	-0.000789621300263	0.00152896051056	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_ddr	pooled_mae	0.000650988698978	16	20	-0.000492407275945	0.00219894760307	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_ddr	pooled_r2	0.00415313005649	14	20	-0.013051859512	0.0201279524149	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_ddr	macro_all_rmse	0.00115146512466	16	20	-0.000930044828167	0.00351738488996	5000
+ridge__ferro64_emt_ddr	ridge__ferro64_ddr	macro_large_rmse	0.000590518038922	14	20	-0.00156111242799	0.00309743753554	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_emt	pooled_spearman	0.0186429359063	16	20	-0.00308774438935	0.0414630516696	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_emt	pooled_pearson	0.00857805827635	14	20	-0.00992410775828	0.0340842160965	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_emt	pooled_rmse	0.000533462028964	15	20	-0.000654687865905	0.00173063703179	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_emt	pooled_mae	0.000476824943135	13	20	-0.000959526552943	0.0018101197067	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_emt	pooled_r2	0.00733625807629	15	20	-0.0079624311842	0.0264082360583	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_emt	macro_all_rmse	-0.000519654620519	8	20	-0.00255239057389	0.00157238450935	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_emt	macro_large_rmse	0.000802073453259	15	20	-0.0009546815026	0.00263799437735	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_ddr	pooled_spearman	0.00433047842738	12	20	-0.0117553845794	0.0204230009058	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_ddr	pooled_pearson	0.00772358772724	14	20	-0.00362027196613	0.0200471978731	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_ddr	pooled_rmse	0.000344584576145	13	20	-0.000295589964566	0.00110843761983	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_ddr	pooled_mae	0.000115977341098	14	20	-0.000572704657022	0.000926901092365	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_ddr	pooled_r2	0.00472206940875	13	20	-0.00381093715017	0.0149499407314	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_ddr	macro_all_rmse	0.000685556499788	15	20	-0.000401670165916	0.00192032618398	5000
+elastic_net__ferro64_emt_ddr	elastic_net__ferro64_ddr	macro_large_rmse	0.000641295509944	12	20	-0.000380877647341	0.00192616652014	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_emt	pooled_spearman	-0.0149386587004	5	20	-0.0411917652597	0.0156069988301	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_emt	pooled_pearson	-0.0246778405151	2	20	-0.0485888477812	0.0066956320586	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_emt	pooled_rmse	-0.00353620221731	0	20	-0.0057887485212	-0.00133597199762	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_emt	pooled_mae	-0.00220512498998	4	20	-0.00479371844083	0.000314774053949	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_emt	pooled_r2	-0.0500158607193	0	20	-0.0847023078359	-0.0211187801498	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_emt	macro_all_rmse	-0.00321325096517	2	20	-0.00618625673744	-0.000306063552194	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_emt	macro_large_rmse	-0.00278413190748	4	20	-0.00546141932011	-0.000197426490237	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_ddr	pooled_spearman	-0.0337305843697	3	20	-0.0545484560095	-0.00993316047811	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_ddr	pooled_pearson	-0.0307568382877	3	20	-0.0544822213439	-0.00963800719075	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_ddr	pooled_rmse	-0.0043651331547	2	20	-0.00658310118221	-0.00258949175981	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_ddr	pooled_mae	-0.00361437549666	2	20	-0.00548706273623	-0.00176574337392	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_ddr	pooled_r2	-0.0621311224412	2	20	-0.103582100072	-0.037282958483	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_ddr	macro_all_rmse	-0.00408198156699	3	20	-0.00722697056962	-0.00113198836687	5000
+neural_network__ferro64_emt_ddr	neural_network__ferro64_ddr	macro_large_rmse	-0.00456508844086	2	20	-0.00792170463352	-0.00135861603777	5000
+ridge__ferro64	ridge__ferro5	pooled_spearman	0.0508264604188	16	20	-0.00321700462612	0.105014236995	5000
+ridge__ferro64	ridge__ferro5	pooled_pearson	0.0497204528823	16	20	-0.0108454292956	0.103886397727	5000
+ridge__ferro64	ridge__ferro5	pooled_rmse	0.00322627388919	16	20	-0.000648948211678	0.00694786380308	5000
+ridge__ferro64	ridge__ferro5	pooled_mae	0.00320659624059	19	20	-0.000417776813134	0.00700292929053	5000
+ridge__ferro64	ridge__ferro5	pooled_r2	0.0443157806164	16	20	-0.00883375092113	0.097714494601	5000
+ridge__ferro64	ridge__ferro5	macro_all_rmse	0.0018029379553	11	20	-0.00227798999653	0.00579363752768	5000
+ridge__ferro64	ridge__ferro5	macro_large_rmse	0.00250454672176	14	20	-0.00147608271523	0.00661849133314	5000
+elastic_net__ferro64	elastic_net__ferro5	pooled_spearman	0.0503957878056	16	20	-0.00120450839271	0.10261971922	5000
+elastic_net__ferro64	elastic_net__ferro5	pooled_pearson	0.0495191756299	16	20	-0.0070348797088	0.100915425798	5000
+elastic_net__ferro64	elastic_net__ferro5	pooled_rmse	0.00301638278511	17	20	-0.000548925595006	0.00649426182581	5000
+elastic_net__ferro64	elastic_net__ferro5	pooled_mae	0.0029009308268	20	20	-0.000465649570081	0.00639212908757	5000
+elastic_net__ferro64	elastic_net__ferro5	pooled_r2	0.0415746171631	17	20	-0.0074049503293	0.0913392974752	5000
+elastic_net__ferro64	elastic_net__ferro5	macro_all_rmse	0.00123171403508	12	20	-0.00249063024987	0.00494051242617	5000
+elastic_net__ferro64	elastic_net__ferro5	macro_large_rmse	0.00233590640445	14	20	-0.00129608503406	0.00609247171272	5000
+neural_network__ferro64	neural_network__ferro5	pooled_spearman	0.052042004572	16	20	0.000360686651561	0.104015214285	5000
+neural_network__ferro64	neural_network__ferro5	pooled_pearson	0.0490771810417	16	20	-0.00594814731939	0.0990768194621	5000
+neural_network__ferro64	neural_network__ferro5	pooled_rmse	0.00308406047578	16	20	-0.000440625816763	0.00649984000384	5000
+neural_network__ferro64	neural_network__ferro5	pooled_mae	0.00296771163387	19	20	-0.00038519536808	0.00652947875506	5000
+neural_network__ferro64	neural_network__ferro5	pooled_r2	0.0424866922196	16	20	-0.00502074335206	0.0918883909803	5000
+neural_network__ferro64	neural_network__ferro5	macro_all_rmse	0.00167833071628	12	20	-0.0023176827284	0.00549365729051	5000
+neural_network__ferro64	neural_network__ferro5	macro_large_rmse	0.00250156770252	14	20	-0.00129498831817	0.0063532697309	5000
+ridge__ferro5	training_mean	pooled_spearman		0	0			0
+ridge__ferro5	training_mean	pooled_pearson		0	0			0
+ridge__ferro5	training_mean	pooled_rmse	0.0118520638585	20	20	0.00518126757377	0.0167430078962	5000
+ridge__ferro5	training_mean	pooled_mae	0.0111647263525	20	20	0.00473435792012	0.0157774374593	5000
+ridge__ferro5	training_mean	pooled_r2	0.170662353284	20	20	0.0813401081431	0.230351976734	5000
+ridge__ferro5	training_mean	macro_all_rmse	0.00831921503214	19	20	0.00265186315397	0.0139535512837	5000
+ridge__ferro5	training_mean	macro_large_rmse	0.00970479164113	20	20	0.00419407933741	0.0150272883281	5000
+ridge__ferro64	training_mean	pooled_spearman		0	0			0
+ridge__ferro64	training_mean	pooled_pearson		0	0			0
+ridge__ferro64	training_mean	pooled_rmse	0.0150783377477	20	20	0.00857505124502	0.0208303432307	5000
+ridge__ferro64	training_mean	pooled_mae	0.0143713225931	20	20	0.00843373177909	0.0192074365156	5000
+ridge__ferro64	training_mean	pooled_r2	0.214978133901	20	20	0.132136394656	0.282189981191	5000
+ridge__ferro64	training_mean	macro_all_rmse	0.0101221529874	19	20	0.00491387529279	0.015364013648	5000
+ridge__ferro64	training_mean	macro_large_rmse	0.0122093383629	20	20	0.00752536261875	0.0171685837056	5000
+ridge__ferro64_emt	training_mean	pooled_spearman		0	0			0
+ridge__ferro64_emt	training_mean	pooled_pearson		0	0			0
+ridge__ferro64_emt	training_mean	pooled_rmse	0.0150725082093	20	20	0.00857624369401	0.0211531785292	5000
+ridge__ferro64_emt	training_mean	pooled_mae	0.0141293892644	20	20	0.00803563274269	0.0194887600145	5000
+ridge__ferro64_emt	training_mean	pooled_r2	0.215094959977	20	20	0.130477944311	0.288069452862	5000
+ridge__ferro64_emt	training_mean	macro_all_rmse	0.0115453003714	20	20	0.00630226622834	0.0171738141568	5000
+ridge__ferro64_emt	training_mean	macro_large_rmse	0.0126266015029	19	20	0.00693677786286	0.0181996692178	5000
+ridge__ferro64_ddr	training_mean	pooled_spearman		0	0			0
+ridge__ferro64_ddr	training_mean	pooled_pearson		0	0			0
+ridge__ferro64_ddr	training_mean	pooled_rmse	0.0151594447652	20	20	0.00880697507598	0.0205778700652	5000
+ridge__ferro64_ddr	training_mean	pooled_mae	0.0143123226484	20	20	0.00815127258747	0.0191555806993	5000
+ridge__ferro64_ddr	training_mean	pooled_r2	0.216346397258	20	20	0.136094138054	0.281344390007	5000
+ridge__ferro64_ddr	training_mean	macro_all_rmse	0.0109584168934	20	20	0.00607359926865	0.0159185558952	5000
+ridge__ferro64_ddr	training_mean	macro_large_rmse	0.0123463345998	20	20	0.00763086574275	0.0172462773264	5000
+ridge__ferro64_emt_ddr	training_mean	pooled_spearman		0	0			0
+ridge__ferro64_emt_ddr	training_mean	pooled_pearson		0	0			0
+ridge__ferro64_emt_ddr	training_mean	pooled_rmse	0.0154947261725	20	20	0.00895338892627	0.0211892138647	5000
+ridge__ferro64_emt_ddr	training_mean	pooled_mae	0.0149633113473	20	20	0.00888930494331	0.0201646450303	5000
+ridge__ferro64_emt_ddr	training_mean	pooled_r2	0.220499527314	20	20	0.136197911611	0.288865247131	5000
+ridge__ferro64_emt_ddr	training_mean	macro_all_rmse	0.012109882018	19	20	0.00691950134158	0.0176161656183	5000
+ridge__ferro64_emt_ddr	training_mean	macro_large_rmse	0.0129368526387	19	20	0.00738208700951	0.0185405933032	5000
+elastic_net__ferro5	training_mean	pooled_spearman		0	0			0
+elastic_net__ferro5	training_mean	pooled_pearson		0	0			0
+elastic_net__ferro5	training_mean	pooled_rmse	0.0118613121312	20	20	0.00523368217209	0.0167163279485	5000
+elastic_net__ferro5	training_mean	pooled_mae	0.011142029642	20	20	0.00475008946243	0.0157220332478	5000
+elastic_net__ferro5	training_mean	pooled_r2	0.170850154916	20	20	0.082449610548	0.230094198371	5000
+elastic_net__ferro5	training_mean	macro_all_rmse	0.00835210839285	19	20	0.00272124223349	0.0139726896492	5000
+elastic_net__ferro5	training_mean	macro_large_rmse	0.0097148323616	20	20	0.00428324011436	0.0149805818209	5000
+elastic_net__ferro64	training_mean	pooled_spearman		0	0			0
+elastic_net__ferro64	training_mean	pooled_pearson		0	0			0
+elastic_net__ferro64	training_mean	pooled_rmse	0.0148776949163	20	20	0.0083566122765	0.0204703834443	5000
+elastic_net__ferro64	training_mean	pooled_mae	0.0140429604688	20	20	0.00797996636552	0.0188042304051	5000
+elastic_net__ferro64	training_mean	pooled_r2	0.212424772079	20	20	0.129815181026	0.278203485979	5000
+elastic_net__ferro64	training_mean	macro_all_rmse	0.00958382242792	20	20	0.0038740770116	0.0151800781428	5000
+elastic_net__ferro64	training_mean	macro_large_rmse	0.0120507387661	20	20	0.00715344350769	0.0170773200545	5000
+elastic_net__ferro64_emt	training_mean	pooled_spearman		0	0			0
+elastic_net__ferro64_emt	training_mean	pooled_pearson		0	0			0
+elastic_net__ferro64_emt	training_mean	pooled_rmse	0.0152847825203	20	20	0.00858900769664	0.0213160128299	5000
+elastic_net__ferro64_emt	training_mean	pooled_mae	0.0141667856094	20	20	0.00790148690187	0.019478190561	5000
+elastic_net__ferro64_emt	training_mean	pooled_r2	0.217890363754	20	20	0.134454013761	0.290144287482	5000
+elastic_net__ferro64_emt	training_mean	macro_all_rmse	0.0114320901362	20	20	0.00595669083919	0.01731150934	5000
+elastic_net__ferro64_emt	training_mean	macro_large_rmse	0.0128226065892	20	20	0.00711373378325	0.0185871214314	5000
+elastic_net__ferro64_ddr	training_mean	pooled_spearman		0	0			0
+elastic_net__ferro64_ddr	training_mean	pooled_pearson		0	0			0
+elastic_net__ferro64_ddr	training_mean	pooled_rmse	0.0154736599731	20	20	0.00914908142385	0.0206904834224	5000
+elastic_net__ferro64_ddr	training_mean	pooled_mae	0.0145276332115	20	20	0.00826010986973	0.0194386689255	5000
+elastic_net__ferro64_ddr	training_mean	pooled_r2	0.220504552422	20	20	0.140779921645	0.283610413103	5000
+elastic_net__ferro64_ddr	training_mean	macro_all_rmse	0.0102268790159	20	20	0.00451222383949	0.0157556251695	5000
+elastic_net__ferro64_ddr	training_mean	macro_large_rmse	0.0129833845325	20	20	0.00814234270649	0.0178458003524	5000
+elastic_net__ferro64_emt_ddr	training_mean	pooled_spearman		0	0			0
+elastic_net__ferro64_emt_ddr	training_mean	pooled_pearson		0	0			0
+elastic_net__ferro64_emt_ddr	training_mean	pooled_rmse	0.0158182445493	20	20	0.00945354198874	0.0212046652704	5000
+elastic_net__ferro64_emt_ddr	training_mean	pooled_mae	0.0146436105526	20	20	0.00847951969389	0.0195354063434	5000
+elastic_net__ferro64_emt_ddr	training_mean	pooled_r2	0.22522662183	20	20	0.146464260791	0.289614877976	5000
+elastic_net__ferro64_emt_ddr	training_mean	macro_all_rmse	0.0109124355157	20	20	0.0050715457661	0.0167238055808	5000
+elastic_net__ferro64_emt_ddr	training_mean	macro_large_rmse	0.0136246800424	20	20	0.00826528549667	0.0188333284687	5000
+neural_network__ferro5	training_mean	pooled_spearman		0	0			0
+neural_network__ferro5	training_mean	pooled_pearson		0	0			0
+neural_network__ferro5	training_mean	pooled_rmse	0.0120313471764	20	20	0.00576397441396	0.0168213710085	5000
+neural_network__ferro5	training_mean	pooled_mae	0.0114260983982	20	20	0.00516048309241	0.0158443925492	5000
+neural_network__ferro5	training_mean	pooled_r2	0.173154779704	20	20	0.0896853450916	0.230805501286	5000
+neural_network__ferro5	training_mean	macro_all_rmse	0.00858454705518	20	20	0.0027949696123	0.0142436384165	5000
+neural_network__ferro5	training_mean	macro_large_rmse	0.00977713939856	20	20	0.00445162602679	0.0148920676072	5000
+neural_network__ferro64	training_mean	pooled_spearman		0	0			0
+neural_network__ferro64	training_mean	pooled_pearson		0	0			0
+neural_network__ferro64	training_mean	pooled_rmse	0.0151154076522	20	20	0.00873474682511	0.0206420305707	5000
+neural_network__ferro64	training_mean	pooled_mae	0.0143938100321	20	20	0.00856866318868	0.0191363304057	5000
+neural_network__ferro64	training_mean	pooled_r2	0.215641471924	20	20	0.135032164266	0.280721468012	5000
+neural_network__ferro64	training_mean	macro_all_rmse	0.0102628777715	20	20	0.00509256207224	0.0153868343099	5000
+neural_network__ferro64	training_mean	macro_large_rmse	0.0122787071011	20	20	0.00764735668232	0.01706270272	5000
+neural_network__ferro64_emt	training_mean	pooled_spearman		0	0			0
+neural_network__ferro64_emt	training_mean	pooled_pearson		0	0			0
+neural_network__ferro64_emt	training_mean	pooled_rmse	0.0130068459516	20	20	0.00577862000924	0.0195230842216	5000
+neural_network__ferro64_emt	training_mean	pooled_mae	0.0128737460438	20	20	0.00623674372089	0.0186956609907	5000
+neural_network__ferro64_emt	training_mean	pooled_r2	0.185526068151	20	20	0.0850517485019	0.263779707448	5000
+neural_network__ferro64_emt	training_mean	macro_all_rmse	0.00947526524756	19	20	0.00363826368071	0.0153500104563	5000
+neural_network__ferro64_emt	training_mean	macro_large_rmse	0.00968998904453	19	20	0.00313230070399	0.0160380096317	5000
+neural_network__ferro64_ddr	training_mean	pooled_spearman		0	0			0
+neural_network__ferro64_ddr	training_mean	pooled_pearson		0	0			0
+neural_network__ferro64_ddr	training_mean	pooled_rmse	0.013835776889	20	20	0.00744977094086	0.0190304221236	5000
+neural_network__ferro64_ddr	training_mean	pooled_mae	0.0142829965505	20	20	0.00811257884837	0.0194964529139	5000
+neural_network__ferro64_ddr	training_mean	pooled_r2	0.197641329873	20	20	0.112448585333	0.261960544416	5000
+neural_network__ferro64_ddr	training_mean	macro_all_rmse	0.0103439958494	18	20	0.00462442489006	0.0162334249195	5000
+neural_network__ferro64_ddr	training_mean	macro_large_rmse	0.0114709455779	19	20	0.006349328363	0.0166864666209	5000
+neural_network__ferro64_emt_ddr	training_mean	pooled_spearman		0	0			0
+neural_network__ferro64_emt_ddr	training_mean	pooled_pearson		0	0			0
+neural_network__ferro64_emt_ddr	training_mean	pooled_rmse	0.00947064373427	19	20	0.00218551128698	0.0153999867374	5000
+neural_network__ferro64_emt_ddr	training_mean	pooled_mae	0.0106686210538	19	20	0.00389849225378	0.016505771746	5000
+neural_network__ferro64_emt_ddr	training_mean	pooled_r2	0.135510207432	19	20	0.025833466154	0.211533571627	5000
+neural_network__ferro64_emt_ddr	training_mean	macro_all_rmse	0.00626201428238	15	20	6.94966273463e-05	0.0127501733135	5000
+neural_network__ferro64_emt_ddr	training_mean	macro_large_rmse	0.00690585713705	18	20	0.000140135712181	0.0137586403392	5000

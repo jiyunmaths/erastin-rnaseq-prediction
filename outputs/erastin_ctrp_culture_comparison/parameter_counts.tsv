@@ -1,0 +1,74 @@
+model	panel	view	alpha	outer_fits	l1_ratio	width
+ridge__0__culture	0	culture	3.16227766017	1		
+ridge__0__culture	0	culture	10	2		
+ridge__0__culture	0	culture	31.6227766017	16		
+ridge__0__culture	0	culture	100	1		
+ridge__5__culture	5	culture	10	3		
+ridge__5__culture	5	culture	31.6227766017	11		
+ridge__5__culture	5	culture	100	6		
+ridge__5__expression	5	expression	10	8		
+ridge__5__expression	5	expression	31.6227766017	12		
+ridge__64__culture	64	culture	316.227766017	20		
+ridge__64__expression	64	expression	316.227766017	20		
+elastic_net__0__culture	0	culture	0.00749894209332	1	0.9	
+elastic_net__0__culture	0	culture	0.01	1	0.01	
+elastic_net__0__culture	0	culture	0.01	6	0.9	
+elastic_net__0__culture	0	culture	0.0133352143216	1	0.75	
+elastic_net__0__culture	0	culture	0.0133352143216	2	0.9	
+elastic_net__0__culture	0	culture	0.0177827941004	1	0.1	
+elastic_net__0__culture	0	culture	0.0177827941004	1	0.25	
+elastic_net__0__culture	0	culture	0.0177827941004	1	1	
+elastic_net__0__culture	0	culture	0.0237137370566	1	1	
+elastic_net__0__culture	0	culture	0.0316227766017	1	0.01	
+elastic_net__0__culture	0	culture	0.0316227766017	1	0.05	
+elastic_net__0__culture	0	culture	0.056234132519	1	0.01	
+elastic_net__0__culture	0	culture	0.0749894209332	1	0.01	
+elastic_net__0__culture	0	culture	0.1	1	0.01	
+elastic_net__5__culture	5	culture	0.01	2	0.5	
+elastic_net__5__culture	5	culture	0.01	4	0.75	
+elastic_net__5__culture	5	culture	0.01	4	0.9	
+elastic_net__5__culture	5	culture	0.0133352143216	1	0.9	
+elastic_net__5__culture	5	culture	0.0177827941004	1	0.1	
+elastic_net__5__culture	5	culture	0.0177827941004	1	0.75	
+elastic_net__5__culture	5	culture	0.0316227766017	1	0.1	
+elastic_net__5__culture	5	culture	0.0421696503429	1	0.1	
+elastic_net__5__culture	5	culture	0.056234132519	1	0.05	
+elastic_net__5__culture	5	culture	0.056234132519	1	0.1	
+elastic_net__5__culture	5	culture	0.0749894209332	1	0.01	
+elastic_net__5__culture	5	culture	0.1	1	0.1	
+elastic_net__5__culture	5	culture	0.177827941004	1	0.01	
+elastic_net__5__expression	5	expression	0.0237137370566	1	0.01	
+elastic_net__5__expression	5	expression	0.0316227766017	5	0.01	
+elastic_net__5__expression	5	expression	0.0421696503429	7	0.01	
+elastic_net__5__expression	5	expression	0.056234132519	3	0.01	
+elastic_net__5__expression	5	expression	0.0749894209332	4	0.01	
+elastic_net__64__culture	64	culture	0.0421696503429	1	0.9	
+elastic_net__64__culture	64	culture	0.0421696503429	1	1	
+elastic_net__64__culture	64	culture	0.056234132519	1	0.75	
+elastic_net__64__culture	64	culture	0.133352143216	3	0.25	
+elastic_net__64__culture	64	culture	0.237137370566	3	0.1	
+elastic_net__64__culture	64	culture	0.316227766017	5	0.05	
+elastic_net__64__culture	64	culture	0.316227766017	1	0.1	
+elastic_net__64__culture	64	culture	0.421696503429	2	0.01	
+elastic_net__64__culture	64	culture	0.421696503429	1	0.05	
+elastic_net__64__culture	64	culture	0.56234132519	2	0.01	
+elastic_net__64__expression	64	expression	0.0316227766017	1	1	
+elastic_net__64__expression	64	expression	0.0421696503429	1	1	
+elastic_net__64__expression	64	expression	0.056234132519	1	0.75	
+elastic_net__64__expression	64	expression	0.133352143216	2	0.25	
+elastic_net__64__expression	64	expression	0.177827941004	1	0.1	
+elastic_net__64__expression	64	expression	0.237137370566	1	0.05	
+elastic_net__64__expression	64	expression	0.237137370566	4	0.1	
+elastic_net__64__expression	64	expression	0.316227766017	5	0.05	
+elastic_net__64__expression	64	expression	0.421696503429	2	0.05	
+elastic_net__64__expression	64	expression	0.56234132519	2	0.01	
+neural_network__0__culture	0	culture	10	9		16
+neural_network__0__culture	0	culture	10	11		32
+neural_network__5__culture	5	culture	10	9		16
+neural_network__5__culture	5	culture	10	11		32
+neural_network__5__expression	5	expression	10	9		16
+neural_network__5__expression	5	expression	10	11		32
+neural_network__64__culture	64	culture	100	19		16
+neural_network__64__culture	64	culture	100	1		32
+neural_network__64__expression	64	expression	100	19		16
+neural_network__64__expression	64	expression	100	1		32

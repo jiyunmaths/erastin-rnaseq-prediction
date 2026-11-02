@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "models": 9,
+  "repeats": 20,
+  "lineages": 24,
+  "no_refitting": true,
+  "explicit_weights_identical_across_models": true,
+  "held_out_lineage_training_weight_zero": true,
+  "training_mix_rows_sum_to_one": true,
+  "exact_mse_and_error_share_decomposition_max_error": 4.440892098500626e-16,
+  "exact_spearman_global_rank_covariance_decomposition_max_error": 1.6653345369377348e-16,
+  "saved_metric_reconstruction_max_error": 4.992534163861251e-13,
+  "per_lineage_metrics_reproduced": true,
+  "note": "Rank components are an algebraic decomposition of global ranks, not within-lineage Spearman or causal attribution."
+}

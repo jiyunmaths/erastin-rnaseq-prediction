@@ -1,0 +1,127 @@
+{
+  "depmap_release": "DepMap 24Q4 Public v1",
+  "depmap_doi": "10.25452/figshare.plus.27993248.v1",
+  "response_archive_doi": "10.5281/zenodo.22125121",
+  "response_archive_warning": "Archived redistribution. Checksums verified against Zenodo, not a freshly retrieved DepMap manifest. Exact upstream AUC generation recipe not established.",
+  "bulkformer_repository_commit": "6d7f21b513299c7803887a7954a11d2c95039f47",
+  "files": [
+    {
+      "url": "https://zenodo.org/api/records/22125121/files/CTRPAUCMatrix.csv/content",
+      "bytes": 6136230,
+      "md5": "73a53278629bc6486ca9a90c73d85085",
+      "sha256": "8a688f6fc275d96b7b8e0724799d932aecd826a3bf4362abd8cb1ca0a6523e26",
+      "retrieved_utc": "2026-11-01T02:41:53Z",
+      "integrity": "md5 agrees with archive manifest",
+      "local_name": "CTRPAUCMatrix.csv"
+    },
+    {
+      "url": "https://zenodo.org/api/records/22125121/files/CTRPResponseCurves.csv/content",
+      "bytes": 45175131,
+      "md5": "36115a26e2cabab33906793ba04c47f8",
+      "sha256": "c2f8e1fc9e42dfcb698d7a2d1101bc88922d83dd5074aac922df876bbf4a4b39",
+      "retrieved_utc": "2026-11-01T02:41:56Z",
+      "integrity": "md5 agrees with archive manifest",
+      "local_name": "CTRPResponseCurves.csv"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/51065183",
+      "bytes": 16564061,
+      "md5": "ec139ccb21b8ccb0714f21bdcc6f4137",
+      "sha256": "dfb5f74496ca17baf67f215a44f06197ddd835685813aede75754876b62b19db",
+      "integrity": "md5 agrees with official Figshare manifest",
+      "local_name": "Gene.csv"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/51065297",
+      "bytes": 645696,
+      "md5": "675210d17675f3517b0ce39a3c274f16",
+      "sha256": "b7a0c1385e6cef30132b56aff61f1261d11e3f490490b355c430d32ee0dbdcfa",
+      "retrieved_utc": "2026-11-01T02:41:48Z",
+      "integrity": "md5 agrees with archive manifest",
+      "local_name": "Model.csv"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/51065339",
+      "bytes": 90080,
+      "md5": "4d342a03701c0a4c0742fedb56c1de40",
+      "sha256": "096a96c39d88374cb7c37058816e6cde29d6617b820b8a14d33ae9dd821c6dc5",
+      "integrity": "md5 agrees with official Figshare manifest",
+      "local_name": "OmicsDefaultModelProfiles.csv"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/51065489",
+      "bytes": 506628654,
+      "md5": "71794802b750ce77c422dad0720a40af",
+      "sha256": "2a71dc94110efcc0221eae821bb93a9f03b54bea16f005818911a09d33383d56",
+      "retrieved_utc": "2026-11-01T02:42:02Z",
+      "integrity": "md5 agrees with archive manifest",
+      "local_name": "OmicsExpressionProteinCodingGenesTPMLogp1.csv"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/51065723",
+      "bytes": 254733,
+      "md5": "7195088a5fc41eddb3f896c6e984a992",
+      "sha256": "0bb19ee57935d4b213d378a4db9caacaa1db7318a63ae81485d84f91c20a3bf2",
+      "integrity": "md5 agrees with official Figshare manifest",
+      "local_name": "OmicsProfiles.csv"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/51065762",
+      "bytes": 692052,
+      "md5": "8234f528f1c9e157753fa006263798d6",
+      "sha256": "8078ad69c27378a8101e90358dc216bfa03156c20f3087b66a260b90a8fad992",
+      "integrity": "md5 agrees with official Figshare manifest",
+      "local_name": "PortalCompounds.csv"
+    },
+    {
+      "url": "https://ndownloader.figshare.com/files/51065795",
+      "bytes": 43103,
+      "md5": "54628c15a10b9ff6536db245cfed5231",
+      "sha256": "f744a5cf5c112e01276e772679157aac8e85cdc4a8f6d3b86d808e3bfd332891",
+      "integrity": "md5 agrees with official Figshare manifest",
+      "local_name": "README.txt"
+    },
+    {
+      "local_name": "vocabulary.txt",
+      "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/data/bulkformer_gene_info.csv",
+      "bytes": 12835716,
+      "sha256": "0ac27c1adfb3cb2548ae37ddbbac221a4aefd5ae79e7950ec13c56e0d9e5ab68"
+    },
+    {
+      "local_name": "notebook.txt",
+      "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/bulkformer_extract_feature.ipynb",
+      "bytes": 29661,
+      "sha256": "e2f342012f3d0ff07ddfc3a6d5c2db01fe99a202975501094c2b835811a73793"
+    },
+    {
+      "local_name": "hgnc.txt",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+      "bytes": 16986126,
+      "sha256": "d93ce6b22d01dc1e1ded28857246951d605ead47ed17ef973ad1142b1d13bed0"
+    },
+    {
+      "local_name": "bulkformer_model.py",
+      "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/utils/BulkFormer.py",
+      "bytes": 4648,
+      "sha256": "85dabcd2f05db97f5956c9390f5c1c088bc8e782329e5f31426c0a86e745ef9f"
+    },
+    {
+      "local_name": "bulkformer_config.py",
+      "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/model/config.py",
+      "bytes": 960,
+      "sha256": "34376d3062e725cb6479a00ce162b142ff9b13d2dc2e4d7814a0b0d1f6992a54"
+    },
+    {
+      "local_name": "depmap_24q4_article.json",
+      "url": "https://api.figshare.com/v2/articles/27993248",
+      "bytes": 26540,
+      "sha256": "84d67d7bac97d1ef4c2e2960169865fc26d5c865f3926c8f5aa1dfe87fbfd952"
+    },
+    {
+      "local_name": "zenodo_record.txt",
+      "url": "https://zenodo.org/api/records/22125121",
+      "bytes": 4271,
+      "sha256": "1439c81b3490c4f4589ceb0926a4e3844c86a6414701b9e2412a2951b64b26b6"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "figures": {
+    "model_comparison.png": "0428ef3892237442d07639ff747839334d20c08598e67a0a8aed277a1a2518e1",
+    "paired_panel_differences.png": "98455b5c3da31a5bb90bd7a58d350994e4733bc58c7d8055dc8422211dc3a98f",
+    "training_mean_comparison.png": "b4c812d13b581aa898acd7b3c7653d31623b07408055f65b1ad7819223d60375",
+    "lineage_panel_differences.png": "13deb81d2f6a92693fbfe0f0cf8434a0a421afc3efc2bf99a18d3a4bb705ec42"
+  },
+  "inspection": "All four rendered figures inspected. Labels, baseline wording, interval directions, sample counts and tabulated score values checked; plot margins leave all labels visible."
+}

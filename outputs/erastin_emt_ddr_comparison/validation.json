@@ -1,0 +1,260 @@
+{
+  "passed": true,
+  "total_outer_models": 300,
+  "new_outer_models": 180,
+  "reused_outer_models": 120,
+  "all_23_lineages_in_both_outer_sets": true,
+  "identity_exclusion_checks": 1800,
+  "candidate_fold_scores_checked": 174500,
+  "prediction_max_error": 2.220446049250313e-16,
+  "inner_rmse_max_error": 1.6653345369377348e-16,
+  "elastic_net_max_kkt_residual": 7.468829305024016e-10,
+  "elastic_net_inner_candidate_solutions_kkt_checked": 164000,
+  "elastic_net_outer_objectives_checked": 100,
+  "neural_objectives_checked": 300,
+  "neural_objective_max_error": 5.551115123125783e-17,
+  "independent_selected_refits": [
+    {
+      "model": "ridge__ferro64_emt",
+      "repeat": 1,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__ferro64_emt",
+      "repeat": 1,
+      "outer_error": 2.2125934417971393e-10,
+      "inner_error": 3.2573199693075594e-10,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__ferro64_emt",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__ferro64_ddr",
+      "repeat": 1,
+      "outer_error": 4.440892098500626e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__ferro64_ddr",
+      "repeat": 1,
+      "outer_error": 8.677758511765887e-11,
+      "inner_error": 1.348405831436139e-10,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__ferro64_ddr",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__ferro64_emt_ddr",
+      "repeat": 1,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 4.440892098500626e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__ferro64_emt_ddr",
+      "repeat": 1,
+      "outer_error": 9.18934928151316e-11,
+      "inner_error": 2.7160207416443427e-10,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__ferro64_emt_ddr",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__ferro64_emt",
+      "repeat": 20,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__ferro64_emt",
+      "repeat": 20,
+      "outer_error": 5.572892147753805e-10,
+      "inner_error": 3.4661074010955417e-10,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__ferro64_emt",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__ferro64_ddr",
+      "repeat": 20,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__ferro64_ddr",
+      "repeat": 20,
+      "outer_error": 1.6004420011483944e-10,
+      "inner_error": 2.123866638115146e-10,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__ferro64_ddr",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__ferro64_emt_ddr",
+      "repeat": 20,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 4.440892098500626e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__ferro64_emt_ddr",
+      "repeat": 20,
+      "outer_error": 1.5602030778438802e-10,
+      "inner_error": 2.2515489472851868e-10,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__ferro64_emt_ddr",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    }
+  ],
+  "warning_summary": [
+    {
+      "category": "DeprecationWarning",
+      "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+      "count": 6300
+    }
+  ],
+  "convergence_warning_count": 0,
+  "selected_outer_convergence_warning_count": 0,
+  "bootstrap_validation": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 550,
+    "max_error": 1.6653345369377348e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  },
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "dadb6e37415db2658e2f22b4cbe1844e651d7ac1dbfe690b4326234ab7343bb4",
+    "split_checks": 120,
+    "all_23_lineages_on_both_outer_sides": true,
+    "baseline_arrays_identical": true,
+    "full_Hallmark_memberships_verified": true,
+    "BOLA2_mapping_collision_resolved": true,
+    "preflight_fits_retained": 9,
+    "checks": [
+      {
+        "panel": "ferro64_emt",
+        "family": "ridge",
+        "independent_inner_candidates": 21,
+        "max_inner_error": 1.9984014443252818e-15,
+        "max_outer_error": 2.220446049250313e-16
+      },
+      {
+        "panel": "ferro64_emt",
+        "family": "elastic_net",
+        "independent_inner_candidates": 5,
+        "max_inner_error": 3.2573199693075594e-10,
+        "max_outer_error": 2.2125934417971393e-10
+      },
+      {
+        "panel": "ferro64_emt",
+        "family": "neural_network",
+        "independent_inner_candidates": 8,
+        "max_inner_error": 0.0,
+        "max_outer_error": 0.0
+      },
+      {
+        "panel": "ferro64_emt",
+        "path_candidates": 32,
+        "native_path_error": 1.3730774295339643e-09,
+        "augmented_lasso_error": 8.040116350471749e-10
+      },
+      {
+        "panel": "ferro64_ddr",
+        "family": "ridge",
+        "independent_inner_candidates": 21,
+        "max_inner_error": 1.2212453270876722e-15,
+        "max_outer_error": 3.3306690738754696e-16
+      },
+      {
+        "panel": "ferro64_ddr",
+        "family": "elastic_net",
+        "independent_inner_candidates": 5,
+        "max_inner_error": 1.348405831436139e-10,
+        "max_outer_error": 8.677758511765887e-11
+      },
+      {
+        "panel": "ferro64_ddr",
+        "family": "neural_network",
+        "independent_inner_candidates": 8,
+        "max_inner_error": 0.0,
+        "max_outer_error": 0.0
+      },
+      {
+        "panel": "ferro64_ddr",
+        "path_candidates": 32,
+        "native_path_error": 2.5978751372335296e-09,
+        "augmented_lasso_error": 1.332458254843516e-09
+      },
+      {
+        "panel": "ferro64_emt_ddr",
+        "family": "ridge",
+        "independent_inner_candidates": 21,
+        "max_inner_error": 6.5503158452884236e-15,
+        "max_outer_error": 4.440892098500626e-16
+      },
+      {
+        "panel": "ferro64_emt_ddr",
+        "family": "elastic_net",
+        "independent_inner_candidates": 5,
+        "max_inner_error": 2.7160207416443427e-10,
+        "max_outer_error": 9.18934928151316e-11
+      },
+      {
+        "panel": "ferro64_emt_ddr",
+        "family": "neural_network",
+        "independent_inner_candidates": 8,
+        "max_inner_error": 0.0,
+        "max_outer_error": 0.0
+      },
+      {
+        "panel": "ferro64_emt_ddr",
+        "path_candidates": 32,
+        "native_path_error": 3.3285120770720766e-09,
+        "augmented_lasso_error": 2.0221773699979906e-09
+      }
+    ],
+    "seconds": 1082.728565562982
+  },
+  "source_hashes_verified": true,
+  "baseline_models_and_predictions_unchanged": true,
+  "shared_splits_verified": true,
+  "unweighted_training_verified": true,
+  "training_only_scalers_verified": true,
+  "culture_predictors": false
+}

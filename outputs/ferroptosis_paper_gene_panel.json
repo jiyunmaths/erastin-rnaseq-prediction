@@ -1,0 +1,1380 @@
+{
+  "name": "Dixon-Olzmann 2024 paper-derived erastin candidate panel",
+  "version": "0.1-proposed",
+  "curation_date": "2026-10-31",
+  "status": "Literature-derived proposal; not a validated predictive signature or an exhaustive gene catalog.",
+  "source": {
+    "title": "The cell biology of ferroptosis",
+    "authors": [
+      "Scott J. Dixon",
+      "James A. Olzmann"
+    ],
+    "doi": "10.1038/s41580-024-00703-5",
+    "citation": "Nature Reviews Molecular Cell Biology 25, 424-442 (2024)",
+    "path": "/home/sji/Downloads/The_cell_biology_of_ferroptosis_2024.pdf",
+    "sha256": "67e59353bdbba59f703f631e1948434a48fd23588771aa9be37bab064b768b92",
+    "reference_number_convention": "Numbers refer to the supplied review bibliography. The underlying primary literature has not been systematically re-audited; targeted checks are listed separately."
+  },
+  "selection_rule": [
+    "Gene or unambiguous protein name appears in the review main text or figure captions.",
+    "The review describes a ferroptosis mechanism, a functional perturbation, or an explicit component of a mechanistically linked pathway.",
+    "Primary-panel prioritization emphasizes cystine supply, lipid peroxide defense, lipid substrates, iron, and GPX4 maintenance relevant to the erastin question.",
+    "This ranking is an analyst proposal, not a panel published or validated by the review authors.",
+    "No DepMap expression-response associations or erastin labels were used to select this panel."
+  ],
+  "primary_panel_count": 40,
+  "primary_panel_symbols": [
+    "SLC7A11",
+    "GCLC",
+    "GCLM",
+    "GSS",
+    "GSR",
+    "GGT1",
+    "CNDP2",
+    "CTSD",
+    "CTNS",
+    "GPX4",
+    "LRP8",
+    "AIFM2",
+    "STARD7",
+    "DHFR",
+    "TFRC",
+    "NCOA4",
+    "NFS1",
+    "ACSL4",
+    "LPCAT3",
+    "AGPAT3",
+    "MBOAT7",
+    "ACSL3",
+    "SCD",
+    "MBOAT1",
+    "MBOAT2",
+    "PLA2G6",
+    "ABHD12",
+    "POR",
+    "CYB5R1",
+    "NADK",
+    "HDDC3",
+    "NFE2L2",
+    "NFE2L1",
+    "NGLY1",
+    "SREBF1",
+    "ATF4",
+    "ATF3",
+    "HSPA8",
+    "LAMP2",
+    "CKB"
+  ],
+  "erastin_proximal_priority_symbols": [
+    "SLC7A11",
+    "GCLC",
+    "GCLM",
+    "GSS",
+    "GSR",
+    "GGT1",
+    "CNDP2",
+    "CTSD",
+    "CTNS",
+    "GPX4",
+    "NCOA4",
+    "NFS1",
+    "ATF3",
+    "ATF4",
+    "HSPA8",
+    "LAMP2",
+    "CKB"
+  ],
+  "alias_map": {
+    "FSP1": "AIFM2",
+    "NRF2": "NFE2L2",
+    "SCD1": "SCD",
+    "SREBP1": "SREBF1",
+    "MESH1": "HDDC3",
+    "MBOAT5": "LPCAT3",
+    "PNPLA9": "PLA2G6",
+    "iPLA2beta": "PLA2G6",
+    "cathepsin D": "CTSD",
+    "cystinosin": "CTNS",
+    "TAZ": "WWTR1",
+    "HIF2alpha": "EPAS1",
+    "ATGL": "PNPLA2",
+    "MFRN1": "SLC25A37",
+    "MRP1": "ABCC1",
+    "p53": "TP53"
+  },
+  "alias_authority_sources": [
+    "https://www.uniprot.org/uniprotkb/Q9BRQ8/entry",
+    "https://www.uniprot.org/entry/O00767",
+    "https://www.ncbi.nlm.nih.gov/gene/1509",
+    "https://ncbi.nlm.nih.gov/gene?from_uid=219800&linkname=omim_gene",
+    "https://www.ncbi.nlm.nih.gov/gene/6720",
+    "https://www.ncbi.nlm.nih.gov/gene/25937"
+  ],
+  "targeted_primary_source_checks": [
+    {
+      "symbol": "ATF3",
+      "review_reference": 171,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7206049/",
+      "finding": "ATF3 suppresses SLC7A11/system xc- and promotes erastin-induced ferroptosis in tested cell models."
+    },
+    {
+      "symbol": "NCOA4",
+      "review_reference": 153,
+      "url": "https://iris.unibs.it/bitstream/11379/542015/1/NCOA4.pdf",
+      "finding": "Erastin-versus-RSL3 distinction was demonstrated in HeLa cells; do not assume it is universal."
+    }
+  ],
+  "genes": [
+    {
+      "symbol": "SLC7A11",
+      "paper_name": "SLC7A11 / transport subunit of system xc-",
+      "module": "cystine_gsh",
+      "journal_pages": [
+        426,
+        430,
+        433
+      ],
+      "pdf_pages": [
+        3,
+        7,
+        10
+      ],
+      "review_reference_numbers": [
+        58
+      ],
+      "mechanism_as_described_in_review": "Imports cystine through system xc-, supplying cysteine for glutathione and other protective sulfur metabolites.",
+      "erastin_relevance": "Directly proximal to erastin mechanism: erastin inhibits system xc-.",
+      "interpretation_caveat": "Target expression does not by itself determine inhibitor sensitivity; transporter activity and alternative cysteine supplies matter.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "GCLC",
+      "paper_name": "GCLC / catalytic subunit of GCL",
+      "module": "cystine_gsh",
+      "journal_pages": [
+        427
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "review_reference_numbers": [
+        68,
+        73
+      ],
+      "mechanism_as_described_in_review": "Catalytic subunit of glutamate cysteine ligase; supports glutathione synthesis and alternative glutamate-sequestering peptides during cysteine shortage.",
+      "erastin_relevance": "Cysteine-deprivation response downstream of system xc- inhibition.",
+      "interpretation_caveat": "Review explicitly states that GCLC disruption and loss of de novo glutathione do not invariably cause ferroptosis.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "GCLM",
+      "paper_name": "GCLM / modifier subunit of GCL",
+      "module": "cystine_gsh",
+      "journal_pages": [
+        427
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "review_reference_numbers": [
+        68,
+        73
+      ],
+      "mechanism_as_described_in_review": "Modifier subunit of glutamate cysteine ligase in the glutathione biosynthesis pathway.",
+      "erastin_relevance": "Pathway component downstream of cystine supply.",
+      "interpretation_caveat": "The local discussion establishes pathway membership, not a universal independent GCLM-expression effect.",
+      "evidence_basis": "explicit_pathway_component",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "GSS",
+      "paper_name": "GSH synthetase (GSS)",
+      "module": "cystine_gsh",
+      "journal_pages": [
+        427
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "review_reference_numbers": [],
+      "mechanism_as_described_in_review": "Catalyzes the second step of glutathione synthesis.",
+      "erastin_relevance": "Supports the glutathione pool affected by cysteine depletion.",
+      "interpretation_caveat": "Glutathione abundance alone is insufficient to explain all cystine-deprivation phenotypes.",
+      "evidence_basis": "explicit_pathway_component",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "GSR",
+      "paper_name": "Glutathione-disulfide reductase / GSR / GR",
+      "module": "cystine_gsh",
+      "journal_pages": [
+        427,
+        428
+      ],
+      "pdf_pages": [
+        4,
+        5
+      ],
+      "review_reference_numbers": [
+        74,
+        75
+      ],
+      "mechanism_as_described_in_review": "Uses NADPH to regenerate reduced glutathione from oxidized glutathione.",
+      "erastin_relevance": "Maintains the glutathione-dependent lipid peroxide defense.",
+      "interpretation_caveat": "Recycling capacity depends on NADPH and substrate availability.",
+      "evidence_basis": "explicit_pathway_component",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "GGT1",
+      "paper_name": "Gamma-glutamyltransferase 1 (GGT1)",
+      "module": "alternative_cysteine",
+      "journal_pages": [
+        426
+      ],
+      "pdf_pages": [
+        3
+      ],
+      "review_reference_numbers": [
+        60,
+        61,
+        62
+      ],
+      "mechanism_as_described_in_review": "Cleaves extracellular glutathione, enabling cysteine salvage that can bypass dependence on imported free cystine.",
+      "erastin_relevance": "Particularly relevant to resistance to system xc- inhibition.",
+      "interpretation_caveat": "Effect depends on extracellular glutathione and tissue context; review highlights brain and chromophobe renal cancers.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "CNDP2",
+      "paper_name": "Carnosine dipeptidase 2 (CNDP2)",
+      "module": "alternative_cysteine",
+      "journal_pages": [
+        426
+      ],
+      "pdf_pages": [
+        3
+      ],
+      "review_reference_numbers": [
+        60
+      ],
+      "mechanism_as_described_in_review": "Catabolizes imported cysteinylglycine to release cysteine for glutathione synthesis.",
+      "erastin_relevance": "Alternative cysteine acquisition downstream of extracellular glutathione cleavage.",
+      "interpretation_caveat": "Requires extracellular substrate and uptake; the review discusses the pathway rather than a universal predictive marker.",
+      "evidence_basis": "explicit_pathway_component",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "CTSD",
+      "paper_name": "Cathepsin D",
+      "module": "alternative_cysteine",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "review_reference_numbers": [
+        59
+      ],
+      "mechanism_as_described_in_review": "Lysosomal catabolism of cysteine-rich extracellular proteins supplies cysteine equivalents and supports glutathione synthesis.",
+      "erastin_relevance": "Potential bypass when extracellular free cystine is limiting.",
+      "interpretation_caveat": "Requires protein uptake and appropriate medium composition; broad lysosomal expression is not a ferroptosis-specific readout.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "CTNS",
+      "paper_name": "Cystinosin",
+      "module": "alternative_cysteine",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "review_reference_numbers": [
+        59,
+        158
+      ],
+      "mechanism_as_described_in_review": "Exports lysosomal cystine to the cytosol after protein catabolism.",
+      "erastin_relevance": "Alternative cystine supply and lysosomal cystine stress response.",
+      "interpretation_caveat": "Lysosomal cystine depletion can also trigger protective ATF4 signaling; net effects may be nonmonotonic.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "GPX4",
+      "paper_name": "Glutathione peroxidase 4 (GPX4)",
+      "module": "gpx4_selenium",
+      "journal_pages": [
+        425,
+        426,
+        430
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        7
+      ],
+      "review_reference_numbers": [
+        34,
+        35,
+        36,
+        63
+      ],
+      "mechanism_as_described_in_review": "Reduces lipid hydroperoxides using glutathione and protects against ferroptosis.",
+      "erastin_relevance": "Convergence point of the glutathione defense compromised by erastin.",
+      "interpretation_caveat": "RNA is an incomplete proxy for selenoprotein translation, isoform location, protein turnover, and enzymatic activity.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "LRP8",
+      "paper_name": "LDL receptor-related protein 8 (LRP8)",
+      "module": "gpx4_selenium",
+      "journal_pages": [
+        426
+      ],
+      "pdf_pages": [
+        3
+      ],
+      "review_reference_numbers": [
+        63,
+        64,
+        65
+      ],
+      "mechanism_as_described_in_review": "Imports selenium-bearing selenoprotein P, supporting GPX4 synthesis; loss can sensitize cells or induce ferroptosis.",
+      "erastin_relevance": "Modulates GPX4 defense capacity in parallel with cysteine availability.",
+      "interpretation_caveat": "Dependence varies with selenium sources and cell lineage.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "AIFM2",
+      "paper_name": "FSP1 (also known as AIFM2)",
+      "module": "parallel_antioxidants",
+      "journal_pages": [
+        425,
+        426,
+        429
+      ],
+      "pdf_pages": [
+        2,
+        3,
+        6
+      ],
+      "review_reference_numbers": [
+        41,
+        42,
+        43
+      ],
+      "mechanism_as_described_in_review": "Regenerates reduced CoQ and vitamin K at the plasma membrane to terminate lipid radical propagation.",
+      "erastin_relevance": "Parallel defense that may compensate for weakening of the glutathione-GPX4 system.",
+      "interpretation_caveat": "Membrane targeting and protein modification are required; gene expression alone does not establish activity.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "STARD7",
+      "paper_name": "StAR-related lipid transfer protein 7 (STARD7)",
+      "module": "parallel_antioxidants",
+      "journal_pages": [
+        428,
+        431
+      ],
+      "pdf_pages": [
+        5,
+        8
+      ],
+      "review_reference_numbers": [
+        86
+      ],
+      "mechanism_as_described_in_review": "A processed form transports mitochondrial CoQ to the plasma membrane for FSP1-mediated protection.",
+      "erastin_relevance": "Supports the parallel CoQ-FSP1 defense.",
+      "interpretation_caveat": "Function depends on proteolytic processing, localization, and CoQ supply.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "DHFR",
+      "paper_name": "Dihydrofolate reductase (DHFR)",
+      "module": "parallel_antioxidants",
+      "journal_pages": [
+        427
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "review_reference_numbers": [
+        23,
+        45
+      ],
+      "mechanism_as_described_in_review": "Regenerates reduced tetrahydrobiopterin from BH2 using NADPH.",
+      "erastin_relevance": "Supports an endogenous radical-trapping antioxidant pathway.",
+      "interpretation_caveat": "This is general ferroptosis relevance; erastin-specific predictive value is unestablished.",
+      "evidence_basis": "explicit_pathway_component",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "TFRC",
+      "paper_name": "Transferrin receptor (TFRC)",
+      "module": "iron_handling",
+      "journal_pages": [
+        435,
+        438
+      ],
+      "pdf_pages": [
+        12,
+        15
+      ],
+      "review_reference_numbers": [
+        52,
+        53,
+        191
+      ],
+      "mechanism_as_described_in_review": "Mediates uptake of transferrin-bound iron; silencing reduces ferroptosis.",
+      "erastin_relevance": "Supplies redox-active iron needed for lipid peroxidation.",
+      "interpretation_caveat": "RNA does not report the labile iron pool or stimulus-dependent receptor trafficking.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "NCOA4",
+      "paper_name": "Nuclear receptor coactivator 4 (NCOA4)",
+      "module": "iron_handling",
+      "journal_pages": [
+        430,
+        435
+      ],
+      "pdf_pages": [
+        7,
+        12
+      ],
+      "review_reference_numbers": [
+        151,
+        152,
+        153,
+        219
+      ],
+      "mechanism_as_described_in_review": "Drives ferritinophagy and release of iron from ferritin; disruption reduces ferroptosis sensitivity.",
+      "erastin_relevance": "Review notes ferritin catabolism may matter more for system xc- inhibition than direct GPX4 inhibition.",
+      "interpretation_caveat": "Functional effect depends on ferritin cargo, lysosomal activity, and cellular iron status.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "NFS1",
+      "paper_name": "NFS1 cysteine desulfurase",
+      "module": "iron_handling",
+      "journal_pages": [
+        429
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "review_reference_numbers": [
+        92
+      ],
+      "mechanism_as_described_in_review": "Supports iron-sulfur cluster synthesis; depletion triggers iron-starvation feedback, increased iron uptake, and sensitization.",
+      "erastin_relevance": "Cysteine-derived sulfur links this pathway to cystine deprivation.",
+      "interpretation_caveat": "The review presents selective perturbation of iron-sulfur synthesis by cystine deprivation as a mechanistic model, not a settled universal mechanism.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "ACSL4",
+      "paper_name": "Acyl-CoA synthetase long-chain family member 4 (ACSL4)",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        430,
+        431,
+        437
+      ],
+      "pdf_pages": [
+        7,
+        8,
+        14
+      ],
+      "review_reference_numbers": [
+        24,
+        27,
+        30,
+        99,
+        105,
+        106,
+        185
+      ],
+      "mechanism_as_described_in_review": "Activates polyunsaturated fatty acids for incorporation into oxidizable lipids and generally increases sensitivity.",
+      "erastin_relevance": "Determines availability of substrates for ferroptotic lipid peroxidation.",
+      "interpretation_caveat": "Localization, phosphorylation, substrate availability, and lipid flux can change effects.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "LPCAT3",
+      "paper_name": "LPCAT3 / MBOAT5",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        430,
+        433
+      ],
+      "pdf_pages": [
+        7,
+        10
+      ],
+      "review_reference_numbers": [
+        25,
+        105,
+        115
+      ],
+      "mechanism_as_described_in_review": "Incorporates polyunsaturated acyl chains into phospholipids; inhibition can suppress ferroptosis.",
+      "erastin_relevance": "Sets membrane susceptibility to peroxidation.",
+      "interpretation_caveat": "Effect depends on competing acyltransferases and available fatty acids.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "AGPAT3",
+      "paper_name": "1-acylglycerol-3-phosphate O-acyltransferase 3 (AGPAT3)",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        433
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "review_reference_numbers": [
+        25,
+        105,
+        115
+      ],
+      "mechanism_as_described_in_review": "Participates in acylation of phospholipids with polyunsaturated fatty acids.",
+      "erastin_relevance": "Supports oxidizable phospholipid synthesis.",
+      "interpretation_caveat": "Pathway role is established in the review; a fixed RNA-response direction is not.",
+      "evidence_basis": "explicit_pathway_component",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "MBOAT7",
+      "paper_name": "MBOAT7",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        433
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "review_reference_numbers": [
+        24
+      ],
+      "mechanism_as_described_in_review": "Acylates lysophospholipids with polyunsaturated fatty acids in the lipid remodeling pathway.",
+      "erastin_relevance": "May influence the pool of peroxidizable membrane lipids.",
+      "interpretation_caveat": "Contribution depends on lipid class and cellular context.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "ACSL3",
+      "paper_name": "ACSL3",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        431
+      ],
+      "pdf_pages": [
+        8
+      ],
+      "review_reference_numbers": [
+        28,
+        99,
+        107
+      ],
+      "mechanism_as_described_in_review": "Monounsaturated fatty-acid metabolism generally supports ferroptosis resistance.",
+      "erastin_relevance": "Controls competition between less and more oxidizable lipid species.",
+      "interpretation_caveat": "Review explicitly describes a pro-ferroptotic exception in KRAS-mutant lung cancer.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "SCD",
+      "paper_name": "SCD1 / stearoyl-CoA desaturase 1",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        433,
+        436
+      ],
+      "pdf_pages": [
+        10,
+        13
+      ],
+      "review_reference_numbers": [
+        125,
+        179,
+        180,
+        181
+      ],
+      "mechanism_as_described_in_review": "Produces monounsaturated fatty acids that can reduce membrane susceptibility to peroxidation.",
+      "erastin_relevance": "Potential protective lipid state across cancer cell lines.",
+      "interpretation_caveat": "Human gene symbol is SCD; effects depend on substrates and signaling context.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "MBOAT1",
+      "paper_name": "MBOAT1",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        433,
+        438
+      ],
+      "pdf_pages": [
+        10,
+        15
+      ],
+      "review_reference_numbers": [
+        116,
+        117
+      ],
+      "mechanism_as_described_in_review": "Acylates lysophospholipids with monounsaturated fatty acids and can promote resistance.",
+      "erastin_relevance": "Controls a protective membrane lipid program.",
+      "interpretation_caveat": "Review highlights estrogen-receptor-positive breast cancer; assess lineage dependence.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "MBOAT2",
+      "paper_name": "MBOAT2",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        433,
+        438
+      ],
+      "pdf_pages": [
+        10,
+        15
+      ],
+      "review_reference_numbers": [
+        116,
+        117
+      ],
+      "mechanism_as_described_in_review": "Acylates lysophospholipids with monounsaturated fatty acids and can promote resistance.",
+      "erastin_relevance": "Controls a protective membrane lipid program.",
+      "interpretation_caveat": "Review highlights androgen-receptor-positive prostate cancer; assess lineage dependence.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "PLA2G6",
+      "paper_name": "PLA2G6 / PNPLA9 / iPLA2beta",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        432,
+        433
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "review_reference_numbers": [
+        112,
+        113,
+        114
+      ],
+      "mechanism_as_described_in_review": "Removes oxidized polyunsaturated acyl chains from phospholipids, limiting lipid peroxide propagation.",
+      "erastin_relevance": "Repairs substrates damaged during ferroptosis.",
+      "interpretation_caveat": "Activity and localization are not captured completely by basal RNA levels.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "ABHD12",
+      "paper_name": "ABhydrolase domain-containing protein 12 (ABHD12)",
+      "module": "lipid_substrates",
+      "journal_pages": [
+        433
+      ],
+      "pdf_pages": [
+        10
+      ],
+      "review_reference_numbers": [],
+      "mechanism_as_described_in_review": "Cleaves polyunsaturated lysophosphatidylserines and oxidized phosphatidylserines; inhibition increases sensitivity.",
+      "erastin_relevance": "Controls oxidizable and oxidized phosphatidylserine pools.",
+      "interpretation_caveat": "The local paragraph does not attach a separate numbered reference to this claim; the review is the evidence source.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "POR",
+      "paper_name": "Cytochrome P450 oxidoreductase (POR)",
+      "module": "redox_supply",
+      "journal_pages": [
+        427,
+        429,
+        432
+      ],
+      "pdf_pages": [
+        4,
+        6,
+        9
+      ],
+      "review_reference_numbers": [
+        76,
+        77
+      ],
+      "mechanism_as_described_in_review": "ER oxidoreductase that promotes reactive oxygen production and lipid peroxidation.",
+      "erastin_relevance": "Provides oxidative pressure that can promote ferroptotic death.",
+      "interpretation_caveat": "NADPH can support both oxidant production and antioxidant regeneration.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "CYB5R1",
+      "paper_name": "Cytochrome b5 reductase 1 (CYB5R1)",
+      "module": "redox_supply",
+      "journal_pages": [
+        427,
+        429,
+        432
+      ],
+      "pdf_pages": [
+        4,
+        6,
+        9
+      ],
+      "review_reference_numbers": [
+        76,
+        77
+      ],
+      "mechanism_as_described_in_review": "ER oxidoreductase implicated in reactive oxygen production and membrane lipid peroxidation.",
+      "erastin_relevance": "Provides oxidative pressure during ferroptosis.",
+      "interpretation_caveat": "Net effect depends on electron supply and other redox defenses.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "NADK",
+      "paper_name": "NAD kinase (NADK)",
+      "module": "redox_supply",
+      "journal_pages": [
+        427
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "review_reference_numbers": [
+        74,
+        78
+      ],
+      "mechanism_as_described_in_review": "Generates the cytosolic NADP pool supporting NADPH-dependent reactions; manipulation links cytosolic NADPH to sensitivity.",
+      "erastin_relevance": "Supports redox capacity under cysteine stress.",
+      "interpretation_caveat": "NADPH is used by both antioxidant and pro-oxidant reactions; do not impose a universal coefficient sign.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "HDDC3",
+      "paper_name": "HDDC3 / MESH1",
+      "module": "redox_supply",
+      "journal_pages": [
+        427
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "review_reference_numbers": [
+        78
+      ],
+      "mechanism_as_described_in_review": "Proposed cytosolic NADPH phosphatase that increases sensitivity by reducing NADPH.",
+      "erastin_relevance": "Potential regulator of antioxidant reserve.",
+      "interpretation_caveat": "The review describes the phosphatase mechanism as proposed.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "NFE2L2",
+      "paper_name": "NRF2 / NFE2L2",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        435,
+        438
+      ],
+      "pdf_pages": [
+        12,
+        15
+      ],
+      "review_reference_numbers": [
+        57,
+        130,
+        154,
+        165,
+        166,
+        167,
+        168
+      ],
+      "mechanism_as_described_in_review": "Coordinates glutathione, FSP1, and iron-handling programs that usually protect against ferroptosis.",
+      "erastin_relevance": "Integrates several defenses relevant to erastin.",
+      "interpretation_caveat": "Review explicitly notes opposite effects through ABCC1-mediated glutathione export; RNA abundance does not establish transcription-factor activation.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "NFE2L1",
+      "paper_name": "NFE2L1",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        432,
+        433
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "review_reference_numbers": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "mechanism_as_described_in_review": "ER-processed transcription factor whose NGLY1-dependent pathway supports GPX4 stability and protection.",
+      "erastin_relevance": "Controls GPX4 defense capacity.",
+      "interpretation_caveat": "Protein processing and proteasome regulation matter; NFE2L1 and NRF2/NFE2L2 are distinct.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "NGLY1",
+      "paper_name": "N-glycanase 1 (NGLY1)",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        432,
+        433
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "review_reference_numbers": [
+        127,
+        130,
+        131
+      ],
+      "mechanism_as_described_in_review": "Deglycosylates NFE2L1 and supports the NGLY1-NFE2L1 ferroptosis-protection pathway.",
+      "erastin_relevance": "Potential determinant of GPX4 protein maintenance.",
+      "interpretation_caveat": "The review notes that the mechanism connecting this pathway to GPX4 stability is indirect and incompletely resolved.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "SREBF1",
+      "paper_name": "SREBP1",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        432,
+        433,
+        438
+      ],
+      "pdf_pages": [
+        9,
+        10,
+        15
+      ],
+      "review_reference_numbers": [
+        125,
+        180,
+        194
+      ],
+      "mechanism_as_described_in_review": "Regulates lipid metabolic programs, including SCD-mediated monounsaturated fatty-acid production that can protect cells.",
+      "erastin_relevance": "Integrates protective lipid composition with metabolic signaling.",
+      "interpretation_caveat": "Cleavage and nuclear localization determine activity; the review also discusses potentially competing metabolic effects.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "ATF4",
+      "paper_name": "Activating transcription factor 4 (ATF4)",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        427,
+        431,
+        435
+      ],
+      "pdf_pages": [
+        4,
+        8,
+        12
+      ],
+      "review_reference_numbers": [
+        84,
+        157,
+        158
+      ],
+      "mechanism_as_described_in_review": "Integrated stress-response factor that can support glutathione metabolism, GPX4 stability, and protection during cysteine stress.",
+      "erastin_relevance": "Particularly relevant to cysteine and lysosomal cystine deprivation.",
+      "interpretation_caveat": "Baseline RNA does not capture stress-induced translation or downstream activation; induction is not always equivalent to successful protection.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "ATF3",
+      "paper_name": "ATF3",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "review_reference_numbers": [
+        171
+      ],
+      "mechanism_as_described_in_review": "Named in the review as a ferroptosis regulator; cited primary study shows repression of SLC7A11 and promotion of erastin-induced ferroptosis.",
+      "erastin_relevance": "Direct erastin and system xc- relevance supported by the review-cited primary paper.",
+      "interpretation_caveat": "A stress-responsive transcription factor; basal expression across cell lines is not equivalent to experimental activation.",
+      "evidence_basis": "review_named_regulator_with_targeted_primary_source_check",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "HSPA8",
+      "paper_name": "Heat shock 70 kDa protein 8 (HSPA8)",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "review_reference_numbers": [
+        155,
+        156
+      ],
+      "mechanism_as_described_in_review": "Participates in chaperone-mediated autophagic degradation of GPX4.",
+      "erastin_relevance": "System xc- inhibitors can promote this GPX4-degradation pathway.",
+      "interpretation_caveat": "A broad chaperone with many functions; protein interactions and autophagic flux matter.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "LAMP2",
+      "paper_name": "Lysosome-associated membrane glycoprotein 2 (LAMP2)",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "review_reference_numbers": [
+        155,
+        156
+      ],
+      "mechanism_as_described_in_review": "Participates in chaperone-mediated autophagic degradation of GPX4.",
+      "erastin_relevance": "System xc- inhibitors can increase LAMP2 and GPX4 degradation.",
+      "interpretation_caveat": "Gene-level RNA does not directly measure chaperone-mediated autophagy activity or GPX4 degradation.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    },
+    {
+      "symbol": "CKB",
+      "paper_name": "Creatine kinase B (CKB)",
+      "module": "stress_and_gpx4_turnover",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "review_reference_numbers": [
+        156
+      ],
+      "mechanism_as_described_in_review": "Phosphorylates GPX4 at Ser104 and limits its interaction with HSPA8/LAMP2, reducing degradation.",
+      "erastin_relevance": "Counteracts loss of the GPX4 defense through chaperone-mediated autophagy.",
+      "interpretation_caveat": "Protein kinase activity and phosphorylation state are not determined by CKB RNA alone.",
+      "evidence_basis": "mechanism_or_function_reported",
+      "expression_effect_direction": "Not prespecified; estimate within training data",
+      "ensembl_gene_id": null
+    }
+  ],
+  "secondary_contextual_candidates": [
+    {
+      "symbol": "TP53",
+      "paper_name": "p53",
+      "journal_pages": [
+        435,
+        438
+      ],
+      "pdf_pages": [
+        12,
+        15
+      ],
+      "reason_for_separate_analysis": "Both pro- and anti-ferroptotic effects are explicitly described; variant and stimulus matter."
+    },
+    {
+      "symbol": "KEAP1",
+      "paper_name": "KEAP1",
+      "journal_pages": [
+        437
+      ],
+      "pdf_pages": [
+        14
+      ],
+      "reason_for_separate_analysis": "Regulates NRF2 stability; discussed in the ACOD1-itaconate pathway in tumor-infiltrating neutrophils. Mutation/protein function is poorly represented by RNA alone."
+    },
+    {
+      "symbol": "FADS1",
+      "paper_name": "FADS1",
+      "journal_pages": [
+        430,
+        436
+      ],
+      "pdf_pages": [
+        7,
+        13
+      ],
+      "reason_for_separate_analysis": "Desaturation changes PUFA/MUFA composition; context and substrates determine the phenotype."
+    },
+    {
+      "symbol": "FADS2",
+      "paper_name": "FADS2",
+      "journal_pages": [
+        430,
+        436
+      ],
+      "pdf_pages": [
+        7,
+        13
+      ],
+      "reason_for_separate_analysis": "Desaturation changes PUFA/MUFA composition; context and substrates determine the phenotype."
+    },
+    {
+      "symbol": "FAR1",
+      "paper_name": "FAR1",
+      "journal_pages": [
+        434
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "reason_for_separate_analysis": "Peroxisomal ether lipid synthesis affects ferroptosis in selected models."
+    },
+    {
+      "symbol": "GNPAT",
+      "paper_name": "GNPAT",
+      "journal_pages": [
+        434
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "reason_for_separate_analysis": "Peroxisomal ether lipid synthesis affects ferroptosis in selected models."
+    },
+    {
+      "symbol": "AGPS",
+      "paper_name": "AGPS",
+      "journal_pages": [
+        434
+      ],
+      "pdf_pages": [
+        11
+      ],
+      "reason_for_separate_analysis": "Review explicitly contrasts sensitizing, neutral, and opposite effects across cells/species; human cancer context must be established."
+    },
+    {
+      "symbol": "EPAS1",
+      "paper_name": "HIF2alpha / EPAS1",
+      "journal_pages": [
+        433,
+        435
+      ],
+      "pdf_pages": [
+        10,
+        12
+      ],
+      "reason_for_separate_analysis": "HIF2alpha-HILPDA signaling is linked to sensitivity in clear-cell renal carcinoma."
+    },
+    {
+      "symbol": "HILPDA",
+      "paper_name": "HILPDA",
+      "journal_pages": [
+        433,
+        435
+      ],
+      "pdf_pages": [
+        10,
+        12
+      ],
+      "reason_for_separate_analysis": "In renal cancer, increased lipid droplets and PUFA-TAGs accompany increased sensitivity; not a universal lipid-droplet protection rule."
+    },
+    {
+      "symbol": "PNPLA2",
+      "paper_name": "ATGL / PNPLA2",
+      "journal_pages": [
+        433,
+        434
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "reason_for_separate_analysis": "Controls lipid-droplet lipolysis; the effect of PUFA storage and release is context dependent."
+    },
+    {
+      "symbol": "DGAT1",
+      "paper_name": "DGAT1",
+      "journal_pages": [
+        433,
+        434
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "reason_for_separate_analysis": "Lipid-droplet synthesis can protect, promote, or have little effect on ferroptosis depending on the setting."
+    },
+    {
+      "symbol": "DGAT2",
+      "paper_name": "DGAT2",
+      "journal_pages": [
+        433,
+        434
+      ],
+      "pdf_pages": [
+        10,
+        11
+      ],
+      "reason_for_separate_analysis": "Lipid-droplet synthesis can protect, promote, or have little effect on ferroptosis depending on the setting."
+    },
+    {
+      "symbol": "DECR1",
+      "paper_name": "DECR1",
+      "journal_pages": [
+        428,
+        429,
+        438
+      ],
+      "pdf_pages": [
+        5,
+        6,
+        15
+      ],
+      "reason_for_separate_analysis": "PUFA breakdown can protect against ferroptosis; review emphasizes prostate-cancer context."
+    },
+    {
+      "symbol": "DHODH",
+      "paper_name": "DHODH",
+      "journal_pages": [
+        429,
+        431
+      ],
+      "pdf_pages": [
+        6,
+        8
+      ],
+      "reason_for_separate_analysis": "Mitochondrial CoQ defense is explicitly presented as conditional and controversial; avoid equating GPX4-inhibitor evidence with erastin response."
+    },
+    {
+      "symbol": "GPD2",
+      "paper_name": "GPD2",
+      "journal_pages": [
+        429
+      ],
+      "pdf_pages": [
+        6
+      ],
+      "reason_for_separate_analysis": "Mitochondrial CoQ reduction and ETC dependence; context-specific contribution."
+    },
+    {
+      "symbol": "SLC25A37",
+      "paper_name": "MFRN1 / SLC25A37",
+      "journal_pages": [
+        429,
+        431
+      ],
+      "pdf_pages": [
+        6,
+        8
+      ],
+      "reason_for_separate_analysis": "Mitochondrial iron import can increase sensitivity, but the review states that the precise mechanism is unclear."
+    },
+    {
+      "symbol": "MARCHF6",
+      "paper_name": "MARCHF6",
+      "journal_pages": [
+        427
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "reason_for_separate_analysis": "NADPH-sensing E3 ligase affects ACSL4 and p53 levels; net effects and developmental evidence are context dependent."
+    },
+    {
+      "symbol": "MS4A15",
+      "paper_name": "MS4A15",
+      "journal_pages": [
+        430
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "reason_for_separate_analysis": "ER calcium regulation affects lipid desaturation and sensitivity."
+    },
+    {
+      "symbol": "UBIAD1",
+      "paper_name": "UBIAD1",
+      "journal_pages": [
+        434,
+        435
+      ],
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "reason_for_separate_analysis": "Vitamin K metabolism is relevant; direct Golgi CoQ synthesis and its relative contribution remain unresolved."
+    },
+    {
+      "symbol": "ABCC1",
+      "paper_name": "MRP1 / ABCC1",
+      "journal_pages": [
+        438
+      ],
+      "pdf_pages": [
+        15
+      ],
+      "reason_for_separate_analysis": "Glutathione export can make NRF2 activation pro-ferroptotic in some cells."
+    },
+    {
+      "symbol": "YAP1",
+      "paper_name": "YAP1",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "reason_for_separate_analysis": "Named transcriptional regulator; cell interaction and context require separate interpretation."
+    },
+    {
+      "symbol": "WWTR1",
+      "paper_name": "TAZ",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "reason_for_separate_analysis": "Named Hippo-pathway transcriptional regulator; TAZ here maps to WWTR1, not tafazzin."
+    },
+    {
+      "symbol": "ZEB1",
+      "paper_name": "ZEB1",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "reason_for_separate_analysis": "Named regulator associated with a cell-state program; prioritize within-lineage evaluation."
+    },
+    {
+      "symbol": "VKORC1",
+      "paper_name": "VKORC1",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "reason_for_separate_analysis": "Vitamin K recycling is relevant; keep this gene distinct from VKORC1L1, and establish the specific contribution of each."
+    },
+    {
+      "symbol": "BAP1",
+      "paper_name": "BAP1",
+      "journal_pages": [
+        435
+      ],
+      "pdf_pages": [
+        12
+      ],
+      "reason_for_separate_analysis": "Named epigenetic regulator; loss-of-function status may matter more than transcript abundance."
+    }
+  ],
+  "exclusions_and_scope": [
+    "Do not expand generic protein-family mentions (for example NOX, COQ, TRP, or AMPK) into arbitrary paralog sets.",
+    "Do not automatically add genes mentioned only in bibliography titles.",
+    "Common ferroptosis genes not individually named in the review body/captions, such as GCH1 and SLC3A2, are not silently added.",
+    "NINJ1 and membrane-execution/repair components remain outside this compact primary panel; the review describes context-dependent or shared cell-death roles.",
+    "Other explicitly mentioned genes can be curated in a separately versioned expansion; absence from this compact panel is not a claim of biological irrelevance."
+  ],
+  "model_comparisons": [
+    {
+      "name": "panel_expression",
+      "input": "Baseline expression of the 40 genes only",
+      "head": "Ridge or elastic net with nested tuning",
+      "interpretation": "Strict gene-restricted prediction."
+    },
+    {
+      "name": "panel_contextual_embedding",
+      "input": "Complete available coding transcriptome into frozen BulkFormer; pool contextual embeddings at observed primary-panel positions only",
+      "head": "Ridge with nested tuning",
+      "interpretation": "Readout focuses on the panel, but representations still depend on non-panel genes."
+    },
+    {
+      "name": "all_gene_contextual_embedding",
+      "input": "Complete available coding transcriptome; checkpoint-standard sample pooling",
+      "head": "Same regression head and validation splits",
+      "interpretation": "Comparator testing whether panel-focused pooling helps."
+    }
+  ],
+  "modeling_constraints": [
+    "Do not zero or mask all non-panel genes to force a gene-only BulkFormer input.",
+    "Use all-panel mean pooling as the first fixed pooling rule; select module pooling or feature changes only within training folds.",
+    "Keep the literature-selected set fixed across folds; estimate scalers, filters, PCA, hyperparameters and any data-driven selection on training data only.",
+    "Apply no fixed coefficient signs from mechanistic annotations.",
+    "Evaluate pooled and within-lineage predictions; group related cancer models together.",
+    "Do not equate predictive feature importance with causal regulation."
+  ],
+  "mapping_status": "Symbol curation complete. Ensembl mapping, actual DepMap coverage, checkpoint-vocabulary coverage and prediction performance remain unverified."
+}

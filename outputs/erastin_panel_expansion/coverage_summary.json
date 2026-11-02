@@ -1,0 +1,12 @@
+{
+  "samples": 745,
+  "additions_proposed": 40,
+  "reserves_checked": 3,
+  "approved_unique_mappings": 43,
+  "measured_in_depmap": 43,
+  "in_bulkformer_vocabulary_and_observed": 43,
+  "all_finite_and_variable": true,
+  "response_labels_used": false,
+  "mapping_authority": "Saved HGNC snapshot from original preparation; verified against saved DepMap and BulkFormer column identities.",
+  "note": "Vocabulary coverage does not change the old 40-token BulkFormer pooled embedding; a new pooling/extraction is needed if embeddings are revisited."
+}

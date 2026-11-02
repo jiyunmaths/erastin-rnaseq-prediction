@@ -1,0 +1,292 @@
+{
+  "status": "frozen_before_moderate_weight_fits",
+  "created_utc": "2026-11-02T00:59:03Z",
+  "genes": [
+    "SLC7A11",
+    "GCLC",
+    "GCLM",
+    "GSS",
+    "GSR",
+    "GGT1",
+    "CNDP2",
+    "CTSD",
+    "CTNS",
+    "GPX4",
+    "LRP8",
+    "AIFM2",
+    "STARD7",
+    "DHFR",
+    "TFRC",
+    "NCOA4",
+    "NFS1",
+    "ACSL4",
+    "LPCAT3",
+    "AGPAT3",
+    "MBOAT7",
+    "ACSL3",
+    "SCD",
+    "MBOAT1",
+    "MBOAT2",
+    "PLA2G6",
+    "ABHD12",
+    "POR",
+    "CYB5R1",
+    "NADK",
+    "HDDC3",
+    "NFE2L2",
+    "NFE2L1",
+    "NGLY1",
+    "SREBF1",
+    "ATF4",
+    "ATF3",
+    "HSPA8",
+    "LAMP2",
+    "CKB",
+    "SLC3A2",
+    "CBS",
+    "CTH",
+    "GLS2",
+    "GOT1",
+    "PRDX6",
+    "SEPHS2",
+    "GCH1",
+    "PTS",
+    "SPR",
+    "IREB2",
+    "FTH1",
+    "SLC40A1",
+    "PROM2",
+    "FADS1",
+    "ELOVL5",
+    "FADS2",
+    "FAR1",
+    "GNPAT",
+    "AGPS",
+    "TMEM164",
+    "BECN1",
+    "BAP1",
+    "ABCC1"
+  ],
+  "samples": 745,
+  "identity_groups": 734,
+  "repeats": 20,
+  "lineage_holdouts": 24,
+  "inner_folds": 5,
+  "split_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "neural_seed_triplets": [
+    [
+      2893371290,
+      497654881,
+      1975922792
+    ],
+    [
+      3355977667,
+      424493826,
+      1550394385
+    ],
+    [
+      2168687005,
+      1647426202,
+      2688205909
+    ],
+    [
+      42786468,
+      3076077911,
+      273767066
+    ],
+    [
+      1609035048,
+      2851333803,
+      976039955
+    ],
+    [
+      2236401383,
+      2445062483,
+      1129737822
+    ],
+    [
+      3329912852,
+      2638933889,
+      1145265932
+    ],
+    [
+      3422116929,
+      1806768943,
+      1378693510
+    ],
+    [
+      1256998787,
+      700040913,
+      2981348477
+    ],
+    [
+      2517894111,
+      3267202418,
+      2342300164
+    ],
+    [
+      4106300991,
+      1308386135,
+      2273722985
+    ],
+    [
+      1426094152,
+      2803084605,
+      3417373563
+    ],
+    [
+      1122310826,
+      28864576,
+      2615952050
+    ],
+    [
+      2346668660,
+      3452764067,
+      842565008
+    ],
+    [
+      2744930578,
+      3510598388,
+      675723401
+    ],
+    [
+      703156529,
+      4234057440,
+      1500259783
+    ],
+    [
+      3090577113,
+      2300113296,
+      1426115566
+    ],
+    [
+      1178198002,
+      3473816129,
+      1766774902
+    ],
+    [
+      835497170,
+      2416392876,
+      3057713454
+    ],
+    [
+      3712087977,
+      2560194263,
+      1118821988
+    ]
+  ],
+  "neural_grid": [
+    {
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "width": 32,
+      "alpha": 100.0
+    }
+  ],
+  "neural_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "initialization_seeds": [
+      20261104,
+      20261105,
+      20261106
+    ],
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "schemes": {
+    "inverse_sqrt": "w_i=(1/sqrt(n_lineage))/(training-subset mean of 1/sqrt(n_lineage)); mean one.",
+    "capped_inverse_5": "w_i=min(c/n_lineage,5), c solved so sum(w)=N. The FINAL normalized weights have a hard cap of five; uncapped lineages retain inverse-frequency ratios."
+  },
+  "cap": 5.0,
+  "cap_selection": "Fixed at five before fitting or inspecting the new test predictions; no cap search or test-based selection.",
+  "weight_scope": "Each current fitting subset independently; training memberships only. All represented lineages included, including n<10.",
+  "tuning": "UNCHANGED minimum equal-weight mean of five UNWEIGHTED inner-fold RMSEs. First candidate breaks ties. Each arm tuned separately.",
+  "scaling": "UNCHANGED unweighted StandardScaler for X/y, fit only on current training rows; mean-one weights retain the prior L2 scale.",
+  "controls": "Exact saved sample order, targets, groups, outer/inner splits, grid, three initialization seeds per repeat, architecture, L-BFGS settings and weighted-loss adapter.",
+  "baseline": "Reuse verified unweighted 64-gene NN predictions. Previous full inverse-frequency 64-gene NN included as a reused contextual reference.",
+  "primary_comparisons": [
+    [
+      "inverse_sqrt",
+      "unweighted"
+    ],
+    [
+      "capped_inverse_5",
+      "unweighted"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "inverse_sqrt",
+      "inverse_frequency"
+    ],
+    [
+      "capped_inverse_5",
+      "inverse_frequency"
+    ],
+    [
+      "inverse_sqrt",
+      "capped_inverse_5"
+    ]
+  ],
+  "reporting": "Mean of per-repeat pooled 745-cell metrics and macro metrics over the same 19 lineages with n>=10. All 20 repeats retained.",
+  "uncertainty": {
+    "count": 5000,
+    "pooled_seed": 2026110501,
+    "macro_seed": 2026110502,
+    "unit": "Paired whole held-out lineage across all arms/repeats, conditional on fitted predictions; no refitting or multiplicity adjustment."
+  },
+  "limitations": "Exploratory reuse of the existing cohort, motivated by earlier inverse-frequency results; no independent validation. Inner folds mix training lineages, outer tests hold out entire lineages.",
+  "new_outer_models": 960,
+  "workers": 10,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  },
+  "scripts": {
+    "run_moderate.py": "e60d88d26e7e95fdc912ba76cf6f5c62f8ba5fb555faf88854ea532fd8b1cf90",
+    "lineage_weights.py": "45d88f0a63e66854a357bfd3f46fb4391b6fea353c57d99822f563eba332534c",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+    "evaluation.py": "7bff0b5d1b56c02128168b845a659a907c8a5cf714caa2ecd9816c55a3d34dff",
+    "helper_sources.json": "96e019e74cc5db0818cd6feef4f212cf3087a6a778b21a33fc46a6247fa01621",
+    "validate_preflight.py": "e5eff38890afa60cf378a70ddac8221d40eeb15924212f83e94c1566eb035a04"
+  }
+}

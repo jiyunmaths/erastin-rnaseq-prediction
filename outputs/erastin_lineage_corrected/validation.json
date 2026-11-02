@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "source_hashes_verified": true,
+  "original_predictions_max_abs_errors": {
+    "panel_expression": 2.220446049250313e-16,
+    "panel_contextual_embedding": 2.220446049250313e-16,
+    "all_gene_contextual_embedding": 2.220446049250313e-16,
+    "lineage_only": 1.1102230246251565e-16,
+    "training_mean": 1.1102230246251565e-16
+  },
+  "original_outer_lineage_holdouts_preserved": true,
+  "all_outer_and_inner_groups_disjoint": true,
+  "all_test_lineages_absent_from_supervised_training_and_tuning": true,
+  "same_corrected_20_seed_assignments_as_prior_run": true,
+  "all_745_predictions_present_per_run": true,
+  "protocol_sha256": "86815be152a40d6e5e9781ca448056245def87d4c9beaa2d0ec5a1008d322c37",
+  "model_count": 1560,
+  "primary_seed": 20261031,
+  "sensitivity_repeats": 20,
+  "weighted_midranks_exact_vs_expanded_scipy_ranks": true,
+  "max_rank_error": 0.0,
+  "bootstrap_max_metric_error_vs_expansion": 4.996003610813204e-16,
+  "identical_predictions_have_exact_zero_paired_difference": true,
+  "alpha_grid_boundary_counts": {
+    "all_gene_contextual_embedding": 0,
+    "lineage_only": 0,
+    "panel_contextual_embedding": 0,
+    "panel_expression": 0,
+    "training_mean": 0
+  },
+  "protocol_script_and_sources_unchanged_after_fitting": true,
+  "elapsed_seconds": 608.9922814369202
+}

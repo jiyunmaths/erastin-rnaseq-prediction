@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "family": "ridge",
+      "panel": 40,
+      "max_refit_error": 1.1102230246251565e-16
+    },
+    {
+      "family": "neural_network",
+      "panel": 40,
+      "max_refit_error": 0.0
+    },
+    {
+      "family": "xgboost",
+      "panel": 40,
+      "max_refit_error": 0.0
+    },
+    {
+      "family": "ridge",
+      "panel": 64,
+      "max_refit_error": 0.0
+    },
+    {
+      "family": "neural_network",
+      "panel": 64,
+      "max_refit_error": 0.0
+    },
+    {
+      "family": "xgboost",
+      "panel": 64,
+      "max_refit_error": 0.0
+    },
+    {
+      "family": "ridge",
+      "panel": 80,
+      "max_refit_error": 0.0
+    },
+    {
+      "family": "neural_network",
+      "panel": 80,
+      "max_refit_error": 0.0
+    },
+    {
+      "family": "xgboost",
+      "panel": 80,
+      "max_refit_error": 0.0
+    }
+  ]
+}

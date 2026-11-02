@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "all_source_and_frozen_script_hashes_verified": true,
+  "new_outer_models_audited": 144,
+  "candidate_inner_cv_prediction_sets_audited": 576,
+  "group_and_lineage_exclusion_verified": true,
+  "train_only_neural_feature_and_target_scaling_verified": true,
+  "max_recomputed_inner_loss_error": 0.0,
+  "max_independent_model_reconstruction_error": 2.220446049250313e-16,
+  "independent_lung_refits": [
+    {
+      "family": "neural_network",
+      "representation": "all_gene_contextual_embedding",
+      "lineage": "Lung",
+      "max_abs_prediction_error": 0.0
+    },
+    {
+      "family": "neural_network",
+      "representation": "panel_contextual_embedding",
+      "lineage": "Lung",
+      "max_abs_prediction_error": 0.0
+    },
+    {
+      "family": "neural_network",
+      "representation": "panel_expression",
+      "lineage": "Lung",
+      "max_abs_prediction_error": 0.0
+    },
+    {
+      "family": "random_forest",
+      "representation": "all_gene_contextual_embedding",
+      "lineage": "Lung",
+      "max_abs_prediction_error": 0.0
+    },
+    {
+      "family": "random_forest",
+      "representation": "panel_contextual_embedding",
+      "lineage": "Lung",
+      "max_abs_prediction_error": 0.0
+    },
+    {
+      "family": "random_forest",
+      "representation": "panel_expression",
+      "lineage": "Lung",
+      "max_abs_prediction_error": 0.0
+    }
+  ],
+  "nested_selector_uses_only_inner_validation_losses": true,
+  "neural_convergence": {
+    "all_member_fits": 4536,
+    "all_member_fits_with_convergence_warning": 0,
+    "outer_member_fits": 216,
+    "outer_member_fits_with_convergence_warning": 0
+  }
+}

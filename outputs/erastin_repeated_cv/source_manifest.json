@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_40gene_comparison/comparison_inputs.npz",
+      "sha256": "62b83d6cf2e8daeb6e8d78f9091c3db4bb4b8192b9cc3a93d12536e808c26891"
+    },
+    {
+      "path": "outputs/erastin_40gene_comparison/cohort.tsv",
+      "sha256": "62a9b4b1078f2e28753f4eccafc13f2ed8f6a953f97851db0783024017947824"
+    },
+    {
+      "path": "outputs/erastin_40gene_comparison/comparison_config.json",
+      "sha256": "90a77404074172f2884538f94014ab20d91a07c697d865b9fa7f4709ebc4a20f"
+    },
+    {
+      "path": "outputs/erastin_40gene_comparison/prepare_data.py",
+      "sha256": "77ecc6b3c8889540a800d0171fe6d90dcabc0c705f2b6022642912c16645626e"
+    },
+    {
+      "path": "outputs/erastin_40gene_comparison/splits.json",
+      "sha256": "e72bf9aa82c51bfec98d773d14f7b1fd7fdc3de6c4fc4a58c39d2b73c413607f"
+    },
+    {
+      "path": "outputs/erastin_model_comparison/bulkformer_embeddings.npz",
+      "sha256": "26a30740b48c470d6797fc8d646cd84955c39a86cfdb277fb0b9bf7c59f078b1"
+    },
+    {
+      "path": "outputs/erastin_model_comparison/embedding_metadata.json",
+      "sha256": "6fef2e8e5c455bc49a0fb7e9af88945e3eecbaa87a352ed89519646b6401164d"
+    },
+    {
+      "path": "outputs/erastin_model_comparison/compare_models.py",
+      "sha256": "8f37c7627d819ba1bdfb4f3a3cace096b5da37c7b64459958e90f456866d75eb"
+    },
+    {
+      "path": "outputs/erastin_model_comparison/oof_predictions.tsv",
+      "sha256": "351c583db4eee88a09adc34734fe46ad8d44c526b2dc5c5f071179c2d4985829"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv_legacy_splits/protocol.json",
+      "sha256": "2de704e2e127e2c091cc9755c9856b7bf821d51cf7aafe6294a2b5844896ae28"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv_legacy_splits/paired_summary.tsv",
+      "sha256": "7f9f51d3def9dd4b2281f13ad4869c60c4de3e2d5836c84983f4aad373f41b20"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv_legacy_splits/mean_performance.tsv",
+      "sha256": "0c2c80aec9eb405e9e730e33850deef99f40d980ba976d3e7f42cdcaa8f83b6d"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv_legacy_splits/shared_splits.npz",
+      "sha256": "05ae4fa94c37c4f02a8081c0753f9c3e3b8c4b9076ab7051146cfc44254e8dc4"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv_legacy_splits/repeat_cv.py",
+      "sha256": "7577aba733f7cddd27a32f98049ad1dce0f1a7712a9832b904a1a6c546752331"
+    }
+  ]
+}

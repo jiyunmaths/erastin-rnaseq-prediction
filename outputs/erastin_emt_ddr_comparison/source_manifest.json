@@ -1,0 +1,1584 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_emt_ddr_panels/panel_inputs.npz",
+      "sha256": "624020958910f44e61c489b0a0f6394b9516fe491d8430b100a16567bcfb4608"
+    },
+    {
+      "path": "outputs/erastin_emt_ddr_panels/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_emt_ddr_panels/panel_definitions.json",
+      "sha256": "60b35b52cf31298cd04a236968d27f653319443e50318cc6ce675da9385cea8d"
+    },
+    {
+      "path": "outputs/erastin_emt_ddr_panels/gene_mapping.tsv",
+      "sha256": "218d1513afbc338fe28183a568a0b5a591eb7e25abdf55c85441a329ac17b70b"
+    },
+    {
+      "path": "outputs/erastin_emt_ddr_panels/coverage_summary.json",
+      "sha256": "7771ef2fdc7605480cdacf52355034611ffd9552e26d6fe9881c1bd8df038230"
+    },
+    {
+      "path": "outputs/erastin_emt_ddr_panels/source_manifest.json",
+      "sha256": "d9a804aea4e4f16271d392d282b660c1a44543a240dfc4ba0f8b01baf98f982a"
+    },
+    {
+      "path": "outputs/erastin_emt_ddr_panels/preparation_validation.json",
+      "sha256": "a3c7d998e543c429ac185b26d2a4e52185b0d42ffd624a5bb8ed079e0bdf65ce"
+    },
+    {
+      "path": "outputs/erastin_emt_ddr_panels/prepare_panels.py",
+      "sha256": "6ae64ab35d6c8a9e086d087ee95cf9cb1099d2eb04512bddf92deadc1ab9d3ff"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_40gene_comparison/matched_depmap_expression.npz",
+      "sha256": "4b2a17a1e0ddc6cd97da4aaa001cab4cdbd653947d90df9118c10c325d40cdea"
+    },
+    {
+      "path": "work/erastin/raw/Gene.csv",
+      "sha256": "dfb5f74496ca17baf67f215a44f06197ddd835685813aede75754876b62b19db"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json",
+      "sha256": "b4f4872e065400c48c6b16f191c59078a3b5bc549c740b3dbbf89a016bf126dd",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/download_geneset.jsp?fileType=json&geneSetName=HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.html",
+      "sha256": "201a48bf19ef2eac584cd5d2cf555f594f5295e3329342ecac912f93dab84e69",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.html",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_DNA_REPAIR.json",
+      "sha256": "e56f512bf53f83232ac11f6d27833ef8e029af0f65fc7c89e10757a90f6cb469",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/download_geneset.jsp?fileType=json&geneSetName=HALLMARK_DNA_REPAIR",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    },
+    {
+      "path": "work/erastin_emt_ddr/raw/HALLMARK_DNA_REPAIR.html",
+      "sha256": "124a31f737519b43dbe9ab84aad5deb08b1351503b95064f8f7f5b2234a9c4fc",
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_DNA_REPAIR.html",
+      "retrieved_utc": "2026-11-02T13:34:58Z"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/summary.tsv",
+      "sha256": "ea499e84d4a5c170778b92c4ed6c6f7c57406820179a15f2cad49b9941e74b2b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/predictions.npz",
+      "sha256": "d1c72c296fe42229dbe1d9a38090ec48a214f8b51d5ddca22ea6c5a79b7c1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/validation.json",
+      "sha256": "aa510f475cbe23544c82e5a3a5f90316df73cffc5b74842530ce9640697e038a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/split_lineage_counts.tsv",
+      "sha256": "6e0863f9bfad7c453e381787c31d3ef1f6739bb033ac108c851272f4d0e68228"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/inner_split_lineage_counts.tsv",
+      "sha256": "5fcd14f9613f752d455eadd8536aeac324767cc0051bcfb081796b1d00546237"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/sample_test_coverage.tsv",
+      "sha256": "cf882d0cabfa92c65b71c9cf5df18d6919310a5d7a218d6a01d7b7d9c6dbeff8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/model_helpers.py",
+      "sha256": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/weighted_mlp.py",
+      "sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/metric_helpers.py",
+      "sha256": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/make_splits.py",
+      "sha256": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/enet_helpers.py",
+      "sha256": "7b8b70578da676e0ed4cc0126b214b559f5bd3cca4045d568ad846c7394bbd15"
+    },
+    {
+      "path": "outputs/erastin_five_gene_comparison/ridge_helpers.py",
+      "sha256": "9b66630eb6436921e400c2951f036004e6a6749553f2cba1636fcb85f354e768"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/evaluate.py",
+      "sha256": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r01.json",
+      "sha256": "a8a5aa021aa0f5339242420d3dcdc4ddd12b48cbd9ad6b1e5aa7e7f8b6b37b4d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r01.npz",
+      "sha256": "ed65497248f2061d2f2ddb8108932795f59dfa4f45191bc4df7baebfba42469d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r01.joblib",
+      "sha256": "a494c555a39b7e4de3c9b5aefc17c0b988b9be065a3df550b4ef3efae4c23d44"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r02.json",
+      "sha256": "8ba5d0e2443c6dba87f8e8517166af8a451178bc4ed51768eedf0108211dd128"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r02.npz",
+      "sha256": "8657fdb96a09d7261e202d02be67a1ddf19ed9da52b49eedaeaca08f31f67b73"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r02.joblib",
+      "sha256": "7752a58b7377898a6808b21ac543116fe7d44e3bd1bf76ecac4f8d02bc1291db"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r03.json",
+      "sha256": "3aa16f8531a3ac8181a4c91168f15414d2ecc258f267b049e5dde5b82edeed7c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r03.npz",
+      "sha256": "1d7e162b0992cf42bbab6f8952269fdf216b98703278b01e1f1d3d99f90a2461"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r03.joblib",
+      "sha256": "f977ab2f9c031a5ebfeff232d62983a749bca6c396cb1d4476dd7060f90dd7ae"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r04.json",
+      "sha256": "787ac8245d04f0db833fde4bf4e2ee7b69ded247263d74ed7082cabeb92b3281"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r04.npz",
+      "sha256": "c816047db4b4d0cd1e0775a99cafb7c3b3f2b0d25f5db9cf4784e3ee904180fd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r04.joblib",
+      "sha256": "3c2469e4e872cd4aa29f1bcccedb97311a47b31f21834d3471310d3a7afb1bfc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r05.json",
+      "sha256": "31212a685f6eae63767f99d644603426746a47ea3d4fdb0e81a5e97ef044ac58"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r05.npz",
+      "sha256": "c22d4ec16c29c1b9e2ed59c87492c27e057b80e86b247653564efd85df73a81a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r05.joblib",
+      "sha256": "e430223e424066cff57506d5d402196ef9ca0de77e0ddba71784e934afc43132"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r06.json",
+      "sha256": "b27bddf816fde28d56f6e594e97227fbe6fe4c14c772ae8cfe15c79103c9fcee"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r06.npz",
+      "sha256": "7b13a05cd42687d90cfa155f7e163bc351d1ea27eaf7a025605e2a57a5b3b337"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r06.joblib",
+      "sha256": "6bb79508899309e255f9e1ea70454855029ca960d2e7dad34f36a58efcb248ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r07.json",
+      "sha256": "a8ab07b5731c733e959fbf80dc854219db32409f0e89f3d6784cf88d2c3fbec7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r07.npz",
+      "sha256": "449ed994b4c0e398b3bd3d00dff44fd0fcb3abe25d4e6ca88e21ca503a4e518c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r07.joblib",
+      "sha256": "e0c869b32a35718e0953da83addec70fba396fa329b47b30fc5be6cd88ba68fe"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r08.json",
+      "sha256": "0659fa9f4c570258923381ad0607b58b4d64fc00d0fed93c48fbf986a544f92f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r08.npz",
+      "sha256": "ac6e68e4036799daa13e0a09bca2028b48758e9a610c0ea5d24b48a67ee60322"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r08.joblib",
+      "sha256": "86fd94b4a3a471dcac0ba3817b285e4083fe8a2964662a6fc246a0bd19ba6080"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r09.json",
+      "sha256": "57c27b4240dabf657002b49e9c719f3cab48e32f4efe85f35538cfb33b9db010"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r09.npz",
+      "sha256": "884935e8b3b35d322a73bfa4e203d12caa8a243765d5e63b17fc108a421dd37b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r09.joblib",
+      "sha256": "eda77b1449ea53937f005753cc2199ecdc49637c47b5863d3ac1df8f1a2b870f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r10.json",
+      "sha256": "960572535f301cb29b5dfc9593de1e05c4a93ad40f57a68a6e3875b426014013"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r10.npz",
+      "sha256": "03b1f0dee1512c6a2d35a049e7f6ed770a10731d17a93e42f5c2b7878ebe1772"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r10.joblib",
+      "sha256": "cfb199d274a43b6764773c0e52b6777bc2c1f4a1ba029942da2c45de92cc2499"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r11.json",
+      "sha256": "2c9e9dc3b0c8edb002de6e82e6795e9a980d4ef219b49ace8c2ebdd1db1e6756"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r11.npz",
+      "sha256": "dfbbf8b7f5ef5d3d4d5c8d1875c5b27da1079500515121e871a2b869d01034ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r11.joblib",
+      "sha256": "3efa91983c7a67af8bf4869d1faaa2a4e4cad5abbb8547380e22f7e47b864910"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r12.json",
+      "sha256": "8e1d25e6fd0c2a4bfdbe4578dfe927ab648fe87867271c92fa47161b4787f3bd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r12.npz",
+      "sha256": "7a36b2886a30b8f988dc9e3cfc1d35fc906e0cbdd0f8678847828fa0a18aab76"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r12.joblib",
+      "sha256": "5d1a5836ae49084de7bd93e8745b1f3976c0d21e17a5e059e29b030cf580ed86"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r13.json",
+      "sha256": "40c6a214935020c897f0c8edc741769c89b06d2968e415d38596d4ff95a3eec3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r13.npz",
+      "sha256": "b1d4bb17990da33bc1ea72a35cd3274b62e3a6ea4c7ab2b33ca6b242d6bfb5a9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r13.joblib",
+      "sha256": "274d799068d31c616b132cdad0d675b8185588721618277dd8a24a0507334121"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r14.json",
+      "sha256": "4a2287be10422f772256890fd679616399672c6a20981a445795b538d48b8828"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r14.npz",
+      "sha256": "a55bfaa19b3cf269b2fc540ee5fdce0519fce59ff444cc341a3852f71baff8ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r14.joblib",
+      "sha256": "79311cade28fe2c2a9bbfc689507a9a777a7a78ae6430856900b8a9d95fb65ad"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r15.json",
+      "sha256": "025ef580acaf5ee9879338fa94574e7b545bb1538616f15653ccb0ae91e6c1ed"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r15.npz",
+      "sha256": "ae412c533f3a219ac07f00794f13875f05fd30f6a136df4833a72a8b266aab22"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r15.joblib",
+      "sha256": "cf950f220a603b6633961c3f8e65b4cd34d792193b3e784574882c175c2d923b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r16.json",
+      "sha256": "9b7c9692a4270c389c055ed8df4cbc8bc525c7d1e7d1d7e37bee7d8c4cc93ac0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r16.npz",
+      "sha256": "690ffa94799546d757f6a84c815abf04263ecbec77997807eaf5b5f6f68384df"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r16.joblib",
+      "sha256": "45670a2cdd9d22bee148bc8d6c02618359351861775da1818d52c579e73e1a48"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r17.json",
+      "sha256": "7b8dab7f2f08b2bf55bbda993b1cb6e583d7bc4433f92514f281a4c21079d5f5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r17.npz",
+      "sha256": "d41f6f91d0e9312bba296f07b2665029bb48ae39c0065d3a83479b7610446506"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r17.joblib",
+      "sha256": "6bd7dd31747266df39382317e2e52d81877cdeca75ed190388fd572fcf0cfab5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r18.json",
+      "sha256": "de244c54959ac461a4d5e923278d4c70c7de08fd913bd11d715beabc7836b56b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r18.npz",
+      "sha256": "02ddc7cd0bf9176798f56ef614c0dfc58be21f0b0bcd07ffbeca4552561fa0f9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r18.joblib",
+      "sha256": "85b1649856047d535fca57a6461131a773fb4fe1552fe812fab605af98eb1ef8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r19.json",
+      "sha256": "bf0ee93a8c301a29398af9605e73d3f1aec53bcb4852a1900e51474acf2b7dd7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r19.npz",
+      "sha256": "8f9155ac1b5f38b44f68074c76a2e625fc2c33afb836b4b524265c3041046ce6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r19.joblib",
+      "sha256": "0616da71251f2ab47029ccfd8b2178b91677f4d9e4dedd0b429ca388de9c4044"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r20.json",
+      "sha256": "65ffc11c24c76b297124d4b42ff49efd4710e6ecb135f3f396806bb9d7ca0410"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r20.npz",
+      "sha256": "75921c81f74fd16ebb987526d60d7face658064c26943ca2e190678222600543"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p5__r20.joblib",
+      "sha256": "38593e8a3f46db3c29774b7aa14384c11d1cd7caf2f5bc66c288b1aedff7f9c5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.json",
+      "sha256": "4db8d34e0b51755a21ce6ad833327b3e3f071965caf0c2de6e97f525cfab9af5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.npz",
+      "sha256": "ff043a8aa05c738aef3dd124d142316ac603e332f3ecc4fa17bafc36958ad5fa"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.joblib",
+      "sha256": "ea9ebe3c1c6633485a5ba652c3911a4ee11ca53339381c519cfed43919fe5e2c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.json",
+      "sha256": "23b9eccbe16c43e857b1533ef7e513145e2d75999a6d29552f2036147ea39e93"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.npz",
+      "sha256": "5714235c0f23a0c3c0250343d00ba1798b0a0810f9e1943db01a475642e6e76a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.joblib",
+      "sha256": "26501ede4879ed620b51c2ab112f2b2e6793c5dbca5cb8bb2921316424e948dd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.json",
+      "sha256": "a9496ddc57d55f8b1770460da45813e1318252aed877d277e66fc4436bdbdf0e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.npz",
+      "sha256": "f4da95dc6f9656cc5f3cba1e603cf9b9cbcb1483564d87e377f5e0ceb43f4554"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.joblib",
+      "sha256": "2434aa4228ca7f8043df83092e3848e626cf813b384e49381e6cf97d90c5b1de"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.json",
+      "sha256": "afa39e1f21c36c6246c003106fee3aa37ac27e785638be3eebd3eca7726482a7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.npz",
+      "sha256": "efdb737f9cbcdad0b7ee6996e72f3a7bfc73cae306d106579fe56918abb0570d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.joblib",
+      "sha256": "b522c2eaf6a127c647b13372aee4c7caac75830dce7ee18971fa55dc54547614"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.json",
+      "sha256": "ed06ad7eabfcaa6312a872551f69156c67a704693f6edef7cedc4d16aaad8735"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.npz",
+      "sha256": "1a2fefe3236b92541f100fdde851848bf77a5b5aef5c24d01035a0ebf2e48f81"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.joblib",
+      "sha256": "c2c732b1ada2fae8ef823431000866bbef644e560fd62e1ad7704bd053e3884d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.json",
+      "sha256": "43840314c125aa753953b4eed3446e413c6d9fcdcde9b928e279ff7ca8032b42"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.npz",
+      "sha256": "9af44fd679d5fcd9a9e6c1465798051f7c4816f2a8b31306034217210dd7f72d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.joblib",
+      "sha256": "b91cf57479618da05dfb92cde4a4ad14c1353359426e145a5e3888ccbe68c1f2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.json",
+      "sha256": "36f707f368d9e1c7b6dd7deeba88ceb87f90a7d9938e12ae7427f5ab54ac148d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.npz",
+      "sha256": "6a01bb507becedcb2bae90e69daab10ae44f3845408f083a42295fd7e2ed7d08"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.joblib",
+      "sha256": "a41e9bd3223f1ede09c15bbb42d8384894819fcff3c3ce8dcd150a17567bc4e0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.json",
+      "sha256": "5a47ec61a9700feb2493afdfb288e25aa2e552c5dca6437159de389eae92740a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.npz",
+      "sha256": "ace613faaef2bf75f4b6f6465e7778cc9f73f711f2c00aee2358cdd1d2a8bb90"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.joblib",
+      "sha256": "8fe8ce353763fc9be0fbadd3e2a0635a00d2751e19d33d8f19951c8e32551381"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.json",
+      "sha256": "3bf1ebeb51f1c6936209e6d6556df1d8c7a8a1eddfb040df058b02930df900ac"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.npz",
+      "sha256": "4c6dd1e4d9df3960cad6e89307de74da874b8f53e55fbbb27a20dc9f2a6b5f2f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.joblib",
+      "sha256": "025aaaeded7108745154743cd4b5c29cdc05c3f783b46e4f0c11605c0c216044"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.json",
+      "sha256": "ce05ba56bd083c5ac5f2c6b9b032d7d3ffa485d41dcf57cc2c891e59a521153b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.npz",
+      "sha256": "0ed63af7f6a0793cc8fb98952df16bfe15627aaf941736c3f4cecb4865bd8e40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.joblib",
+      "sha256": "c601d0fa075944caeac04b40ac620a72281b025697b5f4622657438bd82047dd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.json",
+      "sha256": "ad787fef09458fc39eca4fb308dd49ad066fd9a9af80c06866a6c4639a478ccc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.npz",
+      "sha256": "5166cff909c6abd4916b66f4b6224af14a02be8a1f81f34d8a5f66cfebfd8f07"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.joblib",
+      "sha256": "f858f1c18a16aee0892b642a86624ac0233ddce924b484aa6355d65c92f6892d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.json",
+      "sha256": "58282dbe5c230c2898f637d99c5b557194614422adbca1872d2b0295029a747f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.npz",
+      "sha256": "1dbee2b3fe74384ad2156de65d82da6ab65a552c5686013cf134d4a15dfbf36f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.joblib",
+      "sha256": "f1fac2ebde80b4a4cdae2a6e5415f3f95e67c3a447c99d7739e6ea6605d22418"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.json",
+      "sha256": "722aaaa88f79ccf9e4dbf0e488e6654eaf1c056d38cbec2c839d83ee3f586b45"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.npz",
+      "sha256": "28c738d051415d9579552014900a0580b5e7b550ea3d78f63d34b01752ac6b3c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.joblib",
+      "sha256": "5572ee0d1a4eeb1abfb85835db4c4423908d91a05c0437bcc074f75a9fad6a71"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.json",
+      "sha256": "1e8b13f81015b2620b3bf29b3e263aae53c45bc158cb62f0ed5dfdd62aeb56ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.npz",
+      "sha256": "ae988244c10e203c1cbbe3383605d5f76795f9410e0e2b37e97b14b60a8978ea"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.joblib",
+      "sha256": "f98b0cc2f4bbdbb60b2dbd9cb481f7801dce0fddaae364ac19be7d1982eb9187"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.json",
+      "sha256": "bbfe6f8e4bfc84673a4d628780c9d172357c1b2055bf27be980711cd81e4f937"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.npz",
+      "sha256": "444ec934e2728a9ff9b23adfa365464ebcd23f3e83c5e540ee0c0c582cc229f3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.joblib",
+      "sha256": "ffc3218cc25c1ecd14bdaeb413f945782c595e267ed34e2725a9c4e35550d00d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.json",
+      "sha256": "b680f557a30eb70c261164fd4629e53509cceb88b752e2fe435be837c7d8ed5d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.npz",
+      "sha256": "8f90b4890f8bbc3bfbb4f01ea1b7bfe0260f613679faac6572d1ac1d44447aa4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.joblib",
+      "sha256": "9c4d7c3a1fdd533c6da0bafca94853aa7bf7e3c9b8267599aa26f3db132a4c31"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.json",
+      "sha256": "d6f8eeac3f01118493c1bb80385979bf9fc42cefe66aa312ec3b35315cb7f30f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.npz",
+      "sha256": "969df90b7afc814fccbe4c84b5dac8e4e9eb77982be78f5e519ca292b0da5e83"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.joblib",
+      "sha256": "67e4dc18e57625e596ed9bcf04499c7beef2481f4b5b482f4f5577ce99496fcd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.json",
+      "sha256": "eebdf02c8f9e682a42bee74f9537481ec71d3427a7541642fb4bed9cbf162351"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.npz",
+      "sha256": "258524c208b57717c901fd445393f5d1ba275f8058abc6aa24da506b9f19858e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.joblib",
+      "sha256": "b5731e3d65fbc4d385041688fc7bc46cc4589355d8ea94143f529ec26bd29279"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.json",
+      "sha256": "82962b2f47a345893aa29dfbab246a1da13b0678b71850a2294d73a16e93e10f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.npz",
+      "sha256": "2d368bcde7b6c58a08fb5a857522aab33670658ef838f9f331e158980c140695"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.joblib",
+      "sha256": "33a943b5dbdb062fcc102c203c4a653197be5f92a27e284f05b4ef0847f8f5cb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.json",
+      "sha256": "dc1d828d1464fee341275d1add592b6f3ba3913b01012c7d503ace75794735b9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.npz",
+      "sha256": "aaf81527a9a176ec11119c2ae176cad2e01c93a4242edc37fe9d192019ad9b16"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.joblib",
+      "sha256": "e3c71e275130db3ef46dfc414422a1e1ce4fc49bfb252d67337ba7e0ffca06eb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r01.json",
+      "sha256": "20f43b5c0e6a5b16aa9c9540e10ffffe52f6f42a19f4485ccaf13ec1d834cdf3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r01.npz",
+      "sha256": "398e3052f73148e934df2edcc42cd2282c9f891e838ac4f0fc93773b0bf2c08f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r01.joblib",
+      "sha256": "156bfc3c25ab921864c13d084a934163de85bcd300ed648059b8938515d904f2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r02.json",
+      "sha256": "dd35963cf1a3d9a8e91a7ac64d0b18bac78ca3941d76fcda47ebf5f80415ff6f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r02.npz",
+      "sha256": "cd9c84ddabbd2ca4ddfb063e5b371ccc264682ff55a32467f752fd8e364ad6ea"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r02.joblib",
+      "sha256": "9401adddfb993b1847c42e38250f5e032d5cb8ef500fa3643a6da015c5de6c8e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r03.json",
+      "sha256": "1ae08051e0250b8940f4a51a362c4cc17876dee1bab0e4485fe9070b6dc2fdd8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r03.npz",
+      "sha256": "2e6f401442e5f36915e3b21d47804dcbd699934a40dc79906179cd1d33cf00c9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r03.joblib",
+      "sha256": "7f3b46989d02c79cab1a40a6404c5dad97de08825cf813b8b186c7e5df2ba562"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r04.json",
+      "sha256": "a96c936667184d6fc9cf41322d0071770d4148cfff297549b4c48018bba31e89"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r04.npz",
+      "sha256": "17a4d58a626fc4beb604b16d11aec2c89437e87d1bb31b684fd95eb00bc575ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r04.joblib",
+      "sha256": "9a4b2e83c7f90fcca8cc8a0c15b64659895539117ea4cb206d53b097ef28c924"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r05.json",
+      "sha256": "07b360fac3d982448af1333aba0c8175a8e2cbac581b680ff239cd7ae2d27e90"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r05.npz",
+      "sha256": "c23f4dc8c113f9b209a3dc8e5eb2f7782a23d6964460faba1098856b003f38b6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r05.joblib",
+      "sha256": "d71108e38aa3290dcc546148f8226f3e8579ccc55eff93827571569609c1b40e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r06.json",
+      "sha256": "eeee83fb91e44da23198e3f417ba205141b7f91f01b8662bf51421a632a507b4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r06.npz",
+      "sha256": "0a4eb51c8f5c2fda36399dcfc729e9f6d87ea993bc8d3af79d0d25e6ebccc4da"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r06.joblib",
+      "sha256": "98816321294fbef876c2fcc2ffe7c90205ade1b44169e9ce2efbda9ae43a33e2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r07.json",
+      "sha256": "628a022214cbb67c018d062154114ea3fef12428876c55ec41be86b659d6306d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r07.npz",
+      "sha256": "e833e614ce8e53de74cb8cbf09db78af9df9a35df3d761b8bf4aa4df303cb4f2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r07.joblib",
+      "sha256": "4ab10d16f79417537dedcc1ee32eea067ee9a866957c0500903ca6e73cdc5ce7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r08.json",
+      "sha256": "ba86c7d5f7b8e6da1c1c430f35391f9f2e2b227db585ef967826aae4a0f11ffd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r08.npz",
+      "sha256": "5d7370c2fad8789bb70216593c50d3a849504a95339320916be1fbb2b33692c3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r08.joblib",
+      "sha256": "3d4de60c2f9522ded6d914a29dd3d7d932b7366f72b891cf2beee222564fdaac"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r09.json",
+      "sha256": "0b0336e2dba14c08b58d8133ae1d5e8011a19bd30e040c13385615b0d35ef8c9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r09.npz",
+      "sha256": "f359025a500123a5a98348d852a22d7b1b5d8acaf434c97ec8183371edd9a6b3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r09.joblib",
+      "sha256": "b2ad2e85a1c65455ed205b6c4ebf9ce697cbf6f7fc4563388eb09a004dd3c40a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r10.json",
+      "sha256": "0fb94b0aad100e700b7fc4ae455d1948e5e66040f8878235a4256df3b5721ee5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r10.npz",
+      "sha256": "3d5e87f1a6f4cf5e7af9d62dad2f8e166ee524bf7ea55146f82d1150100e9073"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r10.joblib",
+      "sha256": "6f8e94acd9784342fd3490578f1524ed9ac0ee6745df3bfb9bc51a4520ed5f6a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r11.json",
+      "sha256": "11b80fff4db6b8e8d99516fe4dc316186ae2d67ab2ed3916b055c1f2ae4d93f1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r11.npz",
+      "sha256": "3135a5dae2bb9fb639f65280e7d74ac4a19575157cec5f7b7401ea8ac0d05de0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r11.joblib",
+      "sha256": "2a3984693a36db0010bd62001f5cff1612d38f3a276a635dd8f561def0f092ac"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r12.json",
+      "sha256": "c1672ff250c7778b59578ea6cfaf78f2c11b3e6517ef01a2784f744b071e8382"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r12.npz",
+      "sha256": "5cf7676d9ce24623c56dee08df2185c936a408ad9e0855be1445600e8350f26b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r12.joblib",
+      "sha256": "57f0eed239b08480fe0280a13fba3a76df0391c7cb2c2aa06cf6becfb4faae40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r13.json",
+      "sha256": "60a1e4251bfa01bb291ba0320a72bbb2b3cae419701730d6768d45a62c2ecd62"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r13.npz",
+      "sha256": "d6be00f0ff6d6b7a728040da081f67fd29562fa81f160e38d0ab0a0e7226fd47"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r13.joblib",
+      "sha256": "cd040fefc9a3c20e0a2e12c4b56a1fa6af72cfb4fb3760538b5a645e374cc5df"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r14.json",
+      "sha256": "30c5959a74e9d0dd2de9c77d16671ecefde8d4eb728c7ed00b836d697139bb9c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r14.npz",
+      "sha256": "901ce944f78393e9b373c675482e3d3b70ba570d47f13a369b0a7d19b0eae7fd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r14.joblib",
+      "sha256": "2ca62ef9ec84a55d84bdf3bd53c8fe0c19bef181d86293cd84da6e14e197519f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r15.json",
+      "sha256": "def7619b285dfc2bd786f8a0a18cd5a26ceb429559977c7761ec640518d43cdd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r15.npz",
+      "sha256": "0f5cc00a987fbd11ff9e954bbed9e7c7bec9ac73f14fb265d81f47a393dcbbbe"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r15.joblib",
+      "sha256": "48496d9506e7c847d5b4ac3dcb59eaed5b8f7d00cf12266bede76cb7bb1c9aa1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r16.json",
+      "sha256": "54e7548865ee388c6f22df48c60f91a79018607d91c39a6c08a1cd7013d84a26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r16.npz",
+      "sha256": "cc7cb80770c9edd504a772c016237edee0b28b0fb8d8d7ef33f20de16b3fd678"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r16.joblib",
+      "sha256": "671b5307084378bef3c004af39f79a96390cf75f95c3780765c011a6f6a4567f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r17.json",
+      "sha256": "eeab3e62613fce5c4136c11898c41d410a11b8d0d41365a213d3d93bd04b26d1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r17.npz",
+      "sha256": "7f15be381efe8d39c8176d94077afe0d6c0f771f0f02fc7829fb415c1e2546a5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r17.joblib",
+      "sha256": "03cda8220285278d3d1147a3b9920949e138813b1efd25cf5613c0ae5c01627f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r18.json",
+      "sha256": "700d33b927d9faa410140e19060c745140c82c6843df073c456129cabd3ea0e8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r18.npz",
+      "sha256": "2345c2c381c9758cb4c7cfd945b6e8f86f17055f4d9204fe35ed75768db0bf1a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r18.joblib",
+      "sha256": "7f683adb2cf1a55d2491912829f17542b3c00f17382bae556387fdd65255c835"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r19.json",
+      "sha256": "46ace2f570ee3c09801c63998a3e20371d0eda632b89c299988e055caf485f56"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r19.npz",
+      "sha256": "c8ca4a49461587c1810fd337eefade209e52072f4902107406cb225738529ac4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r19.joblib",
+      "sha256": "925a53662916a1453a03cbfcda48088b1c1d109e35fcb6e59dd3a2a3f987cdc4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r20.json",
+      "sha256": "46b0067bba1e1438470593e49da34fc557e272659550d4a4ea18b07489a036a6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r20.npz",
+      "sha256": "a487da29d00391d68214ee4dbdb787fef9556d271c010f4ddeda09192e33944d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p5__r20.joblib",
+      "sha256": "e541cbb7c2030d48eb853093ab404fbffbc41ab58427e1689e755aa531b0e632"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.json",
+      "sha256": "89f9fe65a4b0f85950029ed9510dd2e0c82b24100e39d7dcc0741bd2a3ca7dd5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.npz",
+      "sha256": "0be79d9262ff9fc6a582ab11d54c6072b07806c54cd7b100ea3dd4850720a58a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.joblib",
+      "sha256": "551be4b00eb58fa385e27661be26efa9ef6210534e3cac9e3e5f22648d034b28"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.json",
+      "sha256": "eafacc7979dc8e8504d1cf52f3c8706ed981712c7c6a91dbd37e2c530cc17666"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.npz",
+      "sha256": "a50be1d850e9f96c63aa61ba764ef841c39c6d7a5d65a5e82ba26d07e5ce579f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.joblib",
+      "sha256": "a35d9cd9914481292a1ec935d415dbf9ac4c67bce299ece97a2ed19336b15685"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.json",
+      "sha256": "ab96468aac1079c7014c0972b63a5f9432db9c31504663fe3f4f6a9a71fe821a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.npz",
+      "sha256": "cef2871242942e9ce030ef3d4e3776e490f5815411c9279f528e30fb71a05f95"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.joblib",
+      "sha256": "ac4b75ba3bf0cdbd5138b39cd9ab95fce5802e7d9538e589f0ceaefad3a7a7b0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.json",
+      "sha256": "7697baf639133761b26eaa6371d59246317424a9d3dc8f8ad563dfb083c82fd9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.npz",
+      "sha256": "16918d73120788b7f5b6c9fa6be454093c526459d2b1639dfc37a41218ee544c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.joblib",
+      "sha256": "c8429afe975ba7262edaf237e55d9bc81e80d05d4de9fce9754b86dc345803a0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.json",
+      "sha256": "39c2e3a6967d71bf558af18aec2e15555033230c9d07dcad053a0c1c7f6b0e73"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.npz",
+      "sha256": "65892e6a61702b096944374c5a895a55753472dd78c483e27d3de8da919811b2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.joblib",
+      "sha256": "d9bb705d5d8f295dc6347853533a3208173a32df53300923d295049539d7397b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.json",
+      "sha256": "4c6415cdaafd4ef11369f6941977486a39faa96576a4d3ed2ab81332a5f34acf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.npz",
+      "sha256": "2c47dee48a0044b029e01604c1168fbdd4bb69f3b374848cab82e4b1e4d97441"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.joblib",
+      "sha256": "ffee0aae56a3951425cb2ac498a845ffd35f1e1207eae7db9be2b8bad1ed8812"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.json",
+      "sha256": "adcfa9e91b710cce11cdf2c79d84301ff7c1deb180a32d8fb3d18efb60de4ddd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.npz",
+      "sha256": "e94aa2900bd42f9a7334cab194578ff1f72fdb3126e6a5676b03190941ffbd2e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.joblib",
+      "sha256": "24459cf4bf57a3d457ba835c231b14aec4664c41fa6869d835eeb73f00469a96"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.json",
+      "sha256": "d65ae29df95ae2d7dab630d4a6933ac6591b0703ceb7d0457bddfe7e02297a19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.npz",
+      "sha256": "abba058bc21a9338b677fbbb0a4c5790d2926b7e039c603c531c283b9fce6d1b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.joblib",
+      "sha256": "830bdf3da13fed0f03f7ef309378b2761934105c894318ec0d8046566f1f82cd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.json",
+      "sha256": "ab414a105a766ae31e7f80a23be2e9737c970b168fb549cb3de46ac0c366fff4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.npz",
+      "sha256": "2e40c07e6f71e9030a1d3ebc8a18700fea7c1b7a49c4557d4fc251754ab19583"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.joblib",
+      "sha256": "2c3f9739a9fe9e3b8f871bfbd9004f96278dbdb75ac3787284e2de510e921d55"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.json",
+      "sha256": "97c13ead7f6319fbdd62f83bf8262ff1f4141be390e8f87d947da813fe8e922f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.npz",
+      "sha256": "ba97063a6cff9caa9058006110cf9d0999c520c50f88db2e2fed50288b1b8dd3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.joblib",
+      "sha256": "787e7c207ccbbd9787499db33c9f5500736da53130d5d208b729627cbc3f1406"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.json",
+      "sha256": "4d6e4d339711a75c8cdc6ab3da59ddb616d7a977dc9be408b55c7a0cc722fb9b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.npz",
+      "sha256": "4b02b8323a7a89b30ca1054a86441d76af50810e7f2ce349382cc9e68c6545fa"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.joblib",
+      "sha256": "0edaf4a0c7eaad6c0d1e0613863ff8cbde09c746e8f818c2611cc61fbe9044e7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.json",
+      "sha256": "8d534832609a50a63f930e9ce1efc3c4e3c714382a0212488a511b18283f21c2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.npz",
+      "sha256": "121c5b508ffec9b90c5907f96abb072f5cac0ba419dca8c68e8518143e748dba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.joblib",
+      "sha256": "4eae09df2415227d5a0292a5251dac07bfc8abdfe3e07b9257c392c1d5bd0ab9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.json",
+      "sha256": "f5017e5fb4aff787bececddfcb3c6971572691018b54ffc662392e290fde6d4a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.npz",
+      "sha256": "b1d65b7783e33f15e52043b36806dbb0b9713a626d847d1f0b30fccfb187479e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.joblib",
+      "sha256": "3549417d8b00a73865376b8339712d1f17cc13f9e0c097956ab17b4e3a58de7f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.json",
+      "sha256": "c9f8c0c786a4bd8abf78e6c828863a9544ccffd7248cc5a2d784ff7a4e3f17ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.npz",
+      "sha256": "1f3396bad2911284b4620b29075682a659d73a845c2442d505371ae87d8b7ddf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.joblib",
+      "sha256": "8f87832f5e960fda35c77bf74d3a79b6d65b217d34790b77e27591e3857bd5b1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.json",
+      "sha256": "ccfe0d36ecc2775ff327ab647d069135f7dec3fa4992056ad35c9c58f240c1ea"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.npz",
+      "sha256": "627f6959f1b67447f1bdcb68a0dae8a43030dde5cb419391227a8d5f551dc256"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.joblib",
+      "sha256": "c6617aca74bd351aca3dde72a0b73cdec6dc27f4ff88a7f2a9423340a8fe2e49"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.json",
+      "sha256": "f21ac47e8c7f9a035b3d76a7e311bc2c685ef84c51835e62c130ece2ebc3d454"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.npz",
+      "sha256": "f11cff10026b480b8d7685abbd7af50524b65383c8b596b85020cf195c51c290"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.joblib",
+      "sha256": "1fe0317c073e0d7602a6f4e32916b1e17c3435ad04d3d8ea34f971ceaa16ba51"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.json",
+      "sha256": "b2501b33d986143613383cf79b2dd2b02bd3ee879330c1a35f3404da0d826f42"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.npz",
+      "sha256": "deb1892144e0e4c0b13a1c5e8c3c241aa3f93fb910dbcf0ee873bc25c8ade5a0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.joblib",
+      "sha256": "6e1b7ec9533fcdd290a0d0a40c25db15bd5ccb7427b53f097ccab80a81b63d23"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.json",
+      "sha256": "1d4f3c025eeb973c434132d6a451ce1ea41cb41317e1786d21101bb226aa8d77"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.npz",
+      "sha256": "85cc525544910a76b40ecfad12f20c6afe07a9865074dfd41ed677f3bfabaeed"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.joblib",
+      "sha256": "0cd7ac585526a0977209669f8452ac439c53648e2e4f5a12d1869303a37fddef"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.json",
+      "sha256": "58bb2d4540b75c2473a1fbf3afbfbd6e771e54fef3bcf97347617360abfe0a26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.npz",
+      "sha256": "0d8e1afdfc7003b0250bc6d60a94e5c845e3a05ff777b7a0330429a8cf6359ef"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.joblib",
+      "sha256": "41921ec051b3f51ddd2072171ff9f165b0d24d46d8d48cc6c66e6ce8db898367"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.json",
+      "sha256": "8ca8b5784f9abf80ea8844de3704c6133625f751eede324bbf85a860fb91aec8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.npz",
+      "sha256": "46b6b45529753b3f655ff30491520303c5e4e6f2dbd0f81e3e65cc71c42ad1bf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.joblib",
+      "sha256": "9a93704b8c39ea215a25692fc45b40d0f8966d897c16fc9016e30d3c4fdbccd5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r01.json",
+      "sha256": "424f069339c141a9a859fc6f62759e1d71101ed01f9542a253a7a190986c5f53"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r01.npz",
+      "sha256": "001a3b3e3463f7dcfeefb48276e6e19b14ad5984d9b0daa1b353e94354d9b2a8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r01.joblib",
+      "sha256": "4ae9eef2e960232b955aad461de84a3be903e0089cfe984fc78f2edec78cb2ca"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r02.json",
+      "sha256": "3bead13e618a3baf62fcd60e930ea9b3fbac6c945f812cca2dec7df063afc60b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r02.npz",
+      "sha256": "64f8f21d7220b88c53f319a6097bc494cf14086f13b61a6ac469519a1196715f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r02.joblib",
+      "sha256": "30f52f33ba18977677a50fd6fb3d6605e1454b5a97b0fd89c1af4df5094922a8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r03.json",
+      "sha256": "9452cc08c27a828df6ed7cfdcf010e7a6c63fe01c99e0fcfdab140593c07a3a9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r03.npz",
+      "sha256": "7b42c2bbb2af55acd954c8580675ae26baef2e8872721736cef402fffba02e1e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r03.joblib",
+      "sha256": "53338928c34c79465168849cc312a4a407fd7654f07e554f3b4aac77e5b62390"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r04.json",
+      "sha256": "09cf9932ec78539260ed172a597e1d79b8a3120674136eaa8c6fc2af2a783832"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r04.npz",
+      "sha256": "715fa4645484a9e90f3ab9c6d0e966db215f6174131e3b19c9d69af047d75413"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r04.joblib",
+      "sha256": "b160b9bbe6e6106e2cfd62448e9bfc39521d3bec252dfa2c6f446656eb96648a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r05.json",
+      "sha256": "40de04a56dc238b4538aa819711ba38de754b918594450d10df79cbf42cf5d1e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r05.npz",
+      "sha256": "681edd8f98bff7496689d7ef09684207ec44c6d5694e7d411cdf1f26047a709a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r05.joblib",
+      "sha256": "dddd7750f28ab3f8eb76023f21595ccf732798725307af25b7b1286787e7d52b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r06.json",
+      "sha256": "1fbc038ca8a5c94fc2c100c1c309f7fe574e84b4cc409121055ad4d24a210829"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r06.npz",
+      "sha256": "10af1462eaf4dd211655fe08c79f0cd4c6a38878fd5fe471efdc5d259cac50bf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r06.joblib",
+      "sha256": "96f769c8122ea0af3315b2c9af248a8bbe98a61903b8a8159789d6563187eb59"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r07.json",
+      "sha256": "7a193260890d09d2065926101bb52a7f73c72c3a4c88db713c7ddeafbd342fbc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r07.npz",
+      "sha256": "13636e1da1b7b849bdb2f35b2ae3dd6b5162000d85c573a3867c34ffe114e277"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r07.joblib",
+      "sha256": "c0ff16bb46586c640bb8a4e7f0957dac6beeaa8df50f43a04da2795680f87d6d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r08.json",
+      "sha256": "e5026bce1e230e10fa706375b7e02d2b909225cde7ad674b609cf41f06e447d2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r08.npz",
+      "sha256": "a28c6ef1da321ae00169adebdcefeb17e8b16f53c9264553724d3f47a0b2e4ac"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r08.joblib",
+      "sha256": "de68a4c283c3165dc38759d05f44ef42830580faf1caacee2f81e902644caed7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r09.json",
+      "sha256": "01dff7993bdf9392d971a2aa426dc6983760926ac18ca56a416d3cb1baf3edd3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r09.npz",
+      "sha256": "55c7e47a5430f7bf50d5132ede0dad24c7fc978ccd48ffb32176243b56d246a0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r09.joblib",
+      "sha256": "926a2ea825bee3de8182bdf5290f341baa2bff03b5e5bba0989467df41531caa"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r10.json",
+      "sha256": "2629be5e52d11c1fc00d716f2927c0510d64add198e5e7d1ee7bbd6c6cf062a9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r10.npz",
+      "sha256": "f7e198cba7a54c4bd18c17542c2da64e4d0cad67d5b33ef52f34c01255435174"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r10.joblib",
+      "sha256": "122cf437b3c62155a29da534b944e1f2c64d6991a97682390c840b04c44089d2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r11.json",
+      "sha256": "1837252271c4e6250befc98646e304472404f7b4569776b55c9a87235c1654fc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r11.npz",
+      "sha256": "bb44100cc2e1325e1f94bce4fd257ca23f98382d37489ac282ad40aa96c5d5e9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r11.joblib",
+      "sha256": "81a3f62af8f1d81eb524c282d90291224b81a04920d7373bea73f951d04ec8d9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r12.json",
+      "sha256": "02a71ecec57f1f48ad26bb5d965189e087c493889683b37628e72b64f453d9b3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r12.npz",
+      "sha256": "6c585cd9bd7d439433e1a611058f95053e987e739ef6e2aa12814f3506dba0c3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r12.joblib",
+      "sha256": "238d3be520c87de116c3ff1e406be084cf0abe69db648b0ddbdb0b7cbd58d7cb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r13.json",
+      "sha256": "c3ba6753ccf537f9522a0a620d02dce63e2c2a8363601f8a3d962a9a41e87c48"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r13.npz",
+      "sha256": "e3872083dbdda04d0a66ff468a201c35db95faf71cb999f1df7449a5dc77cf08"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r13.joblib",
+      "sha256": "6a1861a8fdd58ee2444cf188f955ce163227d8a7298c032cff0be7610dbf26c6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r14.json",
+      "sha256": "c31b96359655d64bd59382bd068878dac6180501ea08af36096c0e42cff8062f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r14.npz",
+      "sha256": "ab06f9b627ef70044e967709df286d83273e03737f66dc8cd2988e0c1509b9f9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r14.joblib",
+      "sha256": "4c1204481e9989ab593d578a7738284d24f79ff07c4ca79bbfa7affa7e95da13"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r15.json",
+      "sha256": "42a2d7da1b7fe3e00e455b01123846814058216634a1732c2b32ced128fdaa49"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r15.npz",
+      "sha256": "2a1fbeb3f9e08799e1eafa258572285e41a7310b205b954f9894a36d4ec63e53"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r15.joblib",
+      "sha256": "f0dd92b753958c15257f7093e9a5d980a75479940278a0a0e5708700e7bf72af"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r16.json",
+      "sha256": "209fe2fd9c94d676fdd749888935017005fbdf3c54306264b4317ffbd8ffe7bc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r16.npz",
+      "sha256": "bdf4608559865fed81bf0292aa2541d03c2133fc20ee89b8859be0a00d7e9d71"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r16.joblib",
+      "sha256": "4b51cb3342f591c91a1a74f154e098a875bfabf4082438a816fd58d127655013"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r17.json",
+      "sha256": "4a8b0ee61bb668c1b1043ee313fc18b9c2827e611087b3de00e35bd85b8365d1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r17.npz",
+      "sha256": "cb6053a1df901d74f48eadbbbc1f6271edddd05676bfaa537dfac72ea4bc7bb5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r17.joblib",
+      "sha256": "bb13b482f33f989b6998d8202f957b9b23db7f67aa14ff61d27282b81a9e4a00"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r18.json",
+      "sha256": "4ccc259cb213560255f813162c0bff492ed50e56bda3693f27ad8f0258a1cc80"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r18.npz",
+      "sha256": "9772e93d42791941a619cbfbc5a33b82d51934f2fe31462c74c612b99f33d152"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r18.joblib",
+      "sha256": "857661b37e2d37e5f70ddc19f1b97a0c4f1f030e7b7940785b02a4793d415a81"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r19.json",
+      "sha256": "7578d73272a46e18146d842ec06ec6ec4c9026bd1fafec54063026aaab12cb09"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r19.npz",
+      "sha256": "cdde917eac6279c3dfb5c053f097b647803f6e58eb79b430aa2fa690c9577395"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r19.joblib",
+      "sha256": "f7df7dc1748c7fefd83983f068e77501e36c4526340fdf447e6f57ab8f35dd0e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r20.json",
+      "sha256": "40dc75207b7bf5bcc89af150f1d1b47a42343b72d652c3cc89c75716a1fd3b22"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r20.npz",
+      "sha256": "7bbadeeafb016774b22cd49afde11aa8eb41ebaa94ee23a8d7005e561b34c392"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p5__r20.joblib",
+      "sha256": "de88149fd0301514876a792477b9504ba42e7f83f88a223cb40fc5e949f66c3b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "e3f72f65915e4d798f789269cb768e7247e2c784bd70ed61382c2a756d340722"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "97c05b000e0d249c5865937e7b5334165923f706157f8600f87cc9123db4cf8d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "bdd4506582adfd6e27b5c3737991daab3e716db568255bcbf6e0cafa508f2b72"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "28d185c1174e304829482859d7de597cebc69a42fa2f514d02f2a1004fb14416"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "5559c6682a5d071c196a8d9926513329b95d93ca352a89797327dba2d4ade207"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "742af7e888e5a43188d6e3e3d7675073e489a6a4f846cee6e9eb3fc64a082e86"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "79f475f79de988cf262797b4311194f9ec5d838f87b20fcd8f7301b093be06bd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "4736acc742bbb7833fdef7b2913fe9f09ab00aa063e5bcf5ea3c328d3df0e9c3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "cafd58996c06a0c39269d9c0bf315af64f6ca9cfb00beee6a23bb8acf92ac2eb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "66dd8d0d942151c49bcd38b3a8f722a3065cb8c150fa4760a9b300b7973f4006"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "35f9b56aca1b9eefe46cb3d2db61c8f97b89f88716d46e1127ffd287268af884"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "e26428d87ffe46c5a6ac3bee16e4e6b329bde325ab9cdb1287348a9bdc698a31"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "6878c61b35f602abd5d3d503e20ecb5e64e5c64e691e580251c296a23dd53ff4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "178227b85b2a830447e01152b6e6ff4986b2652f4944312777be359653bf7aa4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "29853b0aafb24b3a06a3e3822036ca02cff770ae8a85a853e530ed74571a827d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "fbd46dddc5c9aaacbd9028ef408797a1e53d71f65783e5b7a29454c9d7c6636b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "3f7dc0aabdc6fad15d3d6d0c07eb91cfec599296cc171f3be991c061650793d1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "00e5f34e1c0f43cd56a68419505a32db4aa39a7f3211ba2fc6340286eaefeaa7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "b5554135a9a57849789a9b69ad07896dc2c4de719b8d81f0a40c635986cc8d41"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "3913f6e970491102d9be415a9f811da7288c73e1996f838d9c517d6bea442056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "edf1911bd5879b9c796f402ef5792dea2d37d27260d0b6ee55ef0e162b0284b4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "5952068d0de048d4dc32906cbe0c00c119a574d580858b479520e7f5ff5f3599"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "b1bf62b48dc986c855244ab40d7c814b1c82413d92cb8013d6a09d38126ac071"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "66d99a4a5c3062dc761d6c8754f1fe4cac575e6ee5fa1914a016ddf4aaab453b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "e5c52f516396f7b0426ad1003b4847dec9e242cf929e5eb12502e5f75692dc15"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "d870c8b6f171a514fc9a744287aed03eb6fbc46ab9df1231838f79c8b97aa6ee"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "0fdb62f2fe065ebfbb442c3a9a9694a240f964a262f86e636a52632e1d214cb4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "ea1b3c8c2aef5aca151f6115321d6e4f167c65c564e11090a24f5c9e1b6e9387"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "392b13aa2f394acdc4ace0e4744674013e466cd155195fdfd263e0bb6de1069c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "a9c2b3a39ae0a2b5f79df3c582ea918aaa64b1cf6b39d687a40c5ed635f3d3e6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "8917a7481aa54247c653b91bbb71d5b0bdaa5bfb63b4ba2abc9ab678725e4512"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "628b9ce0d71bba2cc20a8f2a7b3299f4e90743f3ec76dc776b8d6473e7d0b6e4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "ae7bc785e67514248b36dab8f77f4f5a5d1d47ae309eeb8729c06b20502b1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "0f6ac0120d5241eb6af24b67a6edf61413914f80e6ba1b49f18ee827a955c201"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "54a367cdfa31170bba96af20c82f69860668657bf38b01133c5ac2b59b308f5c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "9dcedcc6a110758ae416736105ce6858874145696c09b8c097837a84809486a7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "db808cc09b7fcc9d8bf56a2dc343fab96dad3ed378a5c4d162925fd8e7b979a5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "eeb684e7c8eb4835b14026f34e4b63013a4dff835c7184305e9cf024cecb9a40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "b00cadbb25a712395876545a923d5f35e19884401d1a96b1b26a517d607fb680"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "34af9d116011ba050895628f6a0e6dafe78cf6ff347b7047fcaa6fb17fe8d883"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "462385fb494cf52891bd6b60c40d2f7c0b04f7b09ad0d48a16d1a95a8f7fb7c7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "389327b41a64b3ad1ec12892a7377e54aaa98f712071431ee4845afcd1853903"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "3f21be3910b91c09d2c14efba722d3d10f05057d7295fdfa92fd57cf9fa3315c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "e582ee835090e97c1206215e0af0236513bd4f946d18c7782e56762f23edabcc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "ee4e33ed5aa1a688adf56f323fb11da6190f603ed461769e48ed4674b8648305"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "1146c791584bb8274fffcb6bc51af6b3bc9987a23fe12b71aba601bd4200bce5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "127fb40ba1b4f443300138c03c5bd76c0860980f43466518e3f49cb1083f977f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "4271af71400faf9475f0b935f095aac2224fcd4ef7c691e3639f8b9e80349dd6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "d086ddc8d31516e88f8cb95e44993218ddda378a640d7acf9aa7b8c98239b4dc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "13c3cec77aee6b44e4d02b681f0b4ba7e42280acf6f0cd533d1bfd7ffdf2fe2b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "a9f6853892717ba6a4bde68939889fb83617deb72df8ac03f4e0c3c3cc6d354e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "80ebd0435f3be6fa27ddd2bd3497ccb2b5e2e7563796b9a3f2d37bc4a2a102e5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "5245477002ff1282ba085138af88fbf10cb49f8792c85a3e7fdc5525336eb056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "d522e3b59269f113ff9fa466531329ae0d86e11cc885bcf7997b568698167fe7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "f35e06e18be414643b042ccc65bb9aea96ce794d819c7cd6b060c814f3c8bc26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "33774f16c3299d30872546ee744ee5862d1f4dae3517ff8b359154a2cbda6bc6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "bc5dc3fbe19e85f1f639bb594a75156fc0f952ecb8e6301653e9ecd25a5d4428"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "032127712278d1a47237d78012ad331b0b093b72ec5cec3ffe98323307db2d12"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "e41a1dc11361668104b47ee48e907efb0e06e2dacdeea3e28776fd35809e7f0c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d9a4ce4c0d40bc211d384c1d6b9285a538bdddf6b8899bba373dcbb44adbb509"
+    }
+  ]
+}

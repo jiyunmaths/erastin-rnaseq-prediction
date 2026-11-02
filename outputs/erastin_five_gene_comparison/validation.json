@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "total_outer_models": 80,
+  "new_outer_models": 40,
+  "reused_64gene_outer_models": 40,
+  "all_23_lineages_in_both_outer_sets": true,
+  "identity_group_exclusion_checks": 480,
+  "candidate_fold_scores_checked": 4200,
+  "prediction_max_error": 1.1102230246251565e-16,
+  "inner_rmse_max_error": 8.326672684688674e-17,
+  "neural_training_objectives_checked": 120,
+  "neural_objective_max_error": 5.551115123125783e-17,
+  "independent_selected_setting_refits": [
+    {
+      "model": "ridge__5",
+      "repeat": 1,
+      "outer_error": 1.1102230246251565e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 1,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__5",
+      "repeat": 20,
+      "outer_error": 1.1102230246251565e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__5",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64",
+      "repeat": 20,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 3.3306690738754696e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    }
+  ],
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "bc2c294655af24fc2c1d9026c07fb28303670e6697bb8640dc16f1f08614bce5",
+    "five_genes": [
+      "SLC7A11",
+      "GPX4",
+      "ABCC1",
+      "ACSL4",
+      "AIFM2"
+    ],
+    "five_gene_indices_in_64": [
+      0,
+      9,
+      63,
+      17,
+      11
+    ],
+    "samples": 744,
+    "lineages_in_both_sets": 23,
+    "split_checks": 120,
+    "checks": [
+      {
+        "family": "ridge",
+        "panel": 5,
+        "repeat": 1,
+        "all_inner_candidates_verified": true,
+        "inner_prediction_error": 2.220446049250313e-16,
+        "outer_prediction_error": 1.1102230246251565e-16
+      },
+      {
+        "family": "ridge",
+        "panel": 64,
+        "repeat": 1,
+        "reused_selected_model": true,
+        "outer_prediction_error": 3.3306690738754696e-16
+      },
+      {
+        "family": "neural_network",
+        "panel": 5,
+        "repeat": 1,
+        "all_inner_candidates_verified": true,
+        "inner_prediction_error": 0.0,
+        "outer_prediction_error": 0.0
+      },
+      {
+        "family": "neural_network",
+        "panel": 64,
+        "repeat": 1,
+        "reused_selected_model": true,
+        "outer_prediction_error": 0.0
+      },
+      {
+        "family": "ridge",
+        "panel": 5,
+        "repeat": 20,
+        "all_inner_candidates_verified": true,
+        "inner_prediction_error": 2.220446049250313e-16,
+        "outer_prediction_error": 1.1102230246251565e-16
+      },
+      {
+        "family": "ridge",
+        "panel": 64,
+        "repeat": 20,
+        "reused_selected_model": true,
+        "outer_prediction_error": 3.3306690738754696e-16
+      },
+      {
+        "family": "neural_network",
+        "panel": 5,
+        "repeat": 20,
+        "all_inner_candidates_verified": true,
+        "inner_prediction_error": 0.0,
+        "outer_prediction_error": 0.0
+      },
+      {
+        "family": "neural_network",
+        "panel": 64,
+        "repeat": 20,
+        "reused_selected_model": true,
+        "outer_prediction_error": 0.0
+      }
+    ],
+    "bootstrap_validation": {
+      "passed": true,
+      "expanded_scipy_check_draws": 5,
+      "all_repeats_paired": true,
+      "max_error": 1.1102230246251565e-16
+    },
+    "preflight_fits_retained": 4,
+    "analysis_is_exploratory_due_to_prior_test_informed_gene_selection": true
+  },
+  "bootstrap_validation": {
+    "passed": true,
+    "expanded_scipy_check_draws": 5,
+    "all_repeats_paired": true,
+    "max_error": 1.3877787807814457e-16
+  },
+  "warning_count": 2520,
+  "warning_summary": [
+    {
+      "category": "DeprecationWarning",
+      "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+      "count": 2520
+    }
+  ],
+  "convergence_warning_count": 0,
+  "input_source_hashes_verified": true,
+  "training_only_scaling_verified": true,
+  "unweighted_training_verified": true,
+  "byte_identical_shared_splits_verified": true,
+  "exploratory_post_selection_comparison": true
+}

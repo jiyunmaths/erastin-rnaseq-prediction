@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "42aa8dddb872f428b06304c10a6bd284e061bdb8523cfcf39b7ee4fb8654e468",
+  "scripts": {
+    "run_validation.py": "16d209e33067be8e979d5872a512229a51777e58de5ae2f683a02f87630480e1",
+    "report_validation.py": "6f01c54f6725e1f71fb5108cc41b31ae5575487d198c1de7b88ee396014601f6",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+  }
+}

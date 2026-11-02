@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "path": "outputs/erastin_model_comparison/compare_models.py",
+      "functions": [
+        "metrics"
+      ],
+      "sha256": "8f37c7627d819ba1bdfb4f3a3cace096b5da37c7b64459958e90f456866d75eb"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv/repeat_cv.py",
+      "functions": [
+        "weighted_ranker",
+        "repeated_group_bootstrap",
+        "validate_weighted_bootstrap"
+      ],
+      "sha256": "ce96f6fe0d632199c8e4c071c52b06562fddd197b5f0ddaf10e63db4b09f07e3"
+    },
+    {
+      "path": "outputs/erastin_bayesian_comparison/review_bayesian.py",
+      "functions": [
+        "bootstrap_macro",
+        "paired_comparisons",
+        "score_predictions"
+      ],
+      "sha256": "efc424ea3beda62093f595749b2f30615cfcd0062a11f6bc5a21ace56e4e638b"
+    }
+  ],
+  "substitutions": [
+    "score_predictions: prior.metrics -> local copied metrics"
+  ]
+}

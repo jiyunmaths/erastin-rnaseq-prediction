@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "method": "Rendered PNGs inspected with view_image; verified readable labels, complete legends, unclipped interval and heatmap content, correct paired-effect signs and table agreement.",
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "11e36ec90891974ed078adf7b1eeba5f1be545dec960d5e576537b731f936474"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "7bf73a02641d73bd4661bb6f638d4d4ada8a7c69de1b10db3c2bc9540b2f1fc3"
+    },
+    {
+      "path": "paired_culture_effects.png",
+      "sha256": "30cd20e27f06fcae8ce5f248b044fb284820d6fdaef3684bff49d2052a659805"
+    },
+    {
+      "path": "paired_culture_effects.svg",
+      "sha256": "4c7484f1d65df89a4dd3fe4822b3049d4e3234c52eea7ced359d1bb3b013743c"
+    },
+    {
+      "path": "lineage_culture_effects.png",
+      "sha256": "2efc43416d9059b4683a626443fc99535afd067ed45f5dff29a2c6230f75d5a6"
+    },
+    {
+      "path": "lineage_culture_effects.svg",
+      "sha256": "51a88336749090042ae1c15fb8605f59d0242edc5e0f3955d8766446d1f29c5f"
+    }
+  ]
+}

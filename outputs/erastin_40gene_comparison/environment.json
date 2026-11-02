@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "build_python": "/home/sji/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "model_training_performed": false,
+  "bulkformer_embedding_extraction_performed": false
+}

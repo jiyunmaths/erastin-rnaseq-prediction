@@ -1,0 +1,28 @@
+{
+  "status": "fixed_before_new_importance_calculation",
+  "created_utc": "2026-11-02T02:44:01Z",
+  "models": [
+    "elastic_net",
+    "ridge",
+    "neural_network"
+  ],
+  "panel": 64,
+  "repeats": 20,
+  "no_refitting": true,
+  "split_design": "Reuse exact 20 lineage-stratified grouped 80/20 splits: 595 train, 149 test, all 23 lineages in both; Cervix excluded.",
+  "selection": "Nonzero coefficient in each saved outer-training fit. Always selected=20/20; frequent=at least 18/20, descriptive thresholds only. Check signed stability separately.",
+  "primary": "For each held-out receiver and each gene, replace that gene with every same-lineage training donor value; mean increase in held-out squared error, then cell-weight over 149 receivers and average over 20 splits. Analytic donor moments for linear Elastic Net; verify against exhaustive donor-pair enumeration.",
+  "secondary": "Equal-lineage and >=10-cohort-line sensitivity summaries; RMS prediction change and RMS local derivative per training expression SD are separate from predictive importance.",
+  "agreement": "Compare identical held-out replacement ranks across all 64 genes using Spearman, top5/top10 overlap, split and lineage agreement. Compare signed mean coefficients/local derivatives only on matched standardized expression units.",
+  "uncertainty": "Reuse the exact existing 5,000 whole-lineage bootstrap draws for all three models. Conditional pointwise intervals; fixed fits, donors and panels, no refitting or selection/multiplicity correction.",
+  "limitations": [
+    "Correlated genes may share coefficients; replacement disrupts gene correlations and can produce atypical expression combinations. It is within-lineage marginal replacement, not full conditional permutation.",
+    "Selection across overlapping random splits is descriptive stability, not statistical significance, independent biological replication or causal evidence.",
+    "A linear coefficient vector is common to all lineages in a split. Similar signed slopes do not establish uniform held-out prediction benefit across lineages.",
+    "The five-gene candidate panel and prior model choices were informed by this cohort. No new reduced-panel model is fitted or independently validated here."
+  ],
+  "scripts": {
+    "analyze_agreement.py": "8d5cba09ae944500c87b72396af0881d0450a069274d6c2080d74fc0ef22d62f",
+    "report_agreement.py": "f692713f7011388dc1e94d979f2a3c6a8d6718825a9a8d69edbf2ef9f5e588f6"
+  }
+}

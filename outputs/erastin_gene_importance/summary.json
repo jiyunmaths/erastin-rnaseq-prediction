@@ -1,0 +1,130 @@
+{
+  "models": [
+    "ridge",
+    "neural_network"
+  ],
+  "primary_lineages": 19,
+  "primary_lines": 721,
+  "repeats": 20,
+  "ridge_nn_primary_gene_rank_correlation": 0.9846153846153848,
+  "top10_overlap": 9,
+  "top10_genes": {
+    "ridge": [
+      "SLC7A11",
+      "ACSL4",
+      "AIFM2",
+      "GPX4",
+      "CYB5R1",
+      "LPCAT3",
+      "DHFR",
+      "LRP8",
+      "LAMP2",
+      "GCLC"
+    ],
+    "neural_network": [
+      "SLC7A11",
+      "ACSL4",
+      "AIFM2",
+      "CYB5R1",
+      "GPX4",
+      "LPCAT3",
+      "DHFR",
+      "LRP8",
+      "GCLC",
+      "CTSD"
+    ]
+  },
+  "between_lineage_rank_correlation": {
+    "ridge": {
+      "median": 0.06547842401500939,
+      "q25": -0.07936210131332083,
+      "q75": 0.2539399624765479,
+      "min": -0.5712945590994373,
+      "max": 0.6418386491557224
+    },
+    "neural_network": {
+      "median": 0.07110694183864917,
+      "q25": -0.0854596622889306,
+      "q75": 0.23339587242026272,
+      "min": -0.5872420262664165,
+      "max": 0.6144465290806755
+    }
+  },
+  "within_lineage_model_agreement_median": 0.9823639774859287,
+  "positive_pointwise_intervals": {
+    "ridge": [
+      "SLC7A11",
+      "ACSL4",
+      "AIFM2",
+      "GPX4",
+      "CYB5R1",
+      "LPCAT3",
+      "LRP8"
+    ],
+    "neural_network": [
+      "SLC7A11",
+      "ACSL4",
+      "AIFM2",
+      "CYB5R1",
+      "GPX4",
+      "LPCAT3",
+      "LRP8"
+    ]
+  },
+  "top5_seed_rank_ranges": {
+    "ridge": [
+      {
+        "gene": "SLC7A11",
+        "repeat_rank_min": 1,
+        "repeat_rank_max": 1
+      },
+      {
+        "gene": "ACSL4",
+        "repeat_rank_min": 2,
+        "repeat_rank_max": 2
+      },
+      {
+        "gene": "AIFM2",
+        "repeat_rank_min": 3,
+        "repeat_rank_max": 3
+      },
+      {
+        "gene": "GPX4",
+        "repeat_rank_min": 4,
+        "repeat_rank_max": 4
+      },
+      {
+        "gene": "CYB5R1",
+        "repeat_rank_min": 5,
+        "repeat_rank_max": 5
+      }
+    ],
+    "neural_network": [
+      {
+        "gene": "SLC7A11",
+        "repeat_rank_min": 1,
+        "repeat_rank_max": 1
+      },
+      {
+        "gene": "ACSL4",
+        "repeat_rank_min": 2,
+        "repeat_rank_max": 2
+      },
+      {
+        "gene": "AIFM2",
+        "repeat_rank_min": 3,
+        "repeat_rank_max": 3
+      },
+      {
+        "gene": "CYB5R1",
+        "repeat_rank_min": 4,
+        "repeat_rank_max": 4
+      },
+      {
+        "gene": "GPX4",
+        "repeat_rank_min": 5,
+        "repeat_rank_max": 5
+      }
+    ]
+  }
+}

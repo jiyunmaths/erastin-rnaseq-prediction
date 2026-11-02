@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_40gene_comparison/comparison_inputs.npz",
+      "sha256": "62b83d6cf2e8daeb6e8d78f9091c3db4bb4b8192b9cc3a93d12536e808c26891"
+    },
+    {
+      "path": "outputs/erastin_lineage_corrected/shared_splits.npz",
+      "sha256": "12292250ee38d5c86556bcefc46d831d53f28e7d40a12b69ef561987d1860d66"
+    },
+    {
+      "path": "outputs/erastin_lineage_corrected/per_run_predictions.npz",
+      "sha256": "7e93f1666ae4b8306915e0ed218d73da11c9a17257295f9faf1d10c2ef88f59f"
+    },
+    {
+      "path": "outputs/erastin_lineage_corrected/per_lineage_metrics.tsv",
+      "sha256": "1e6a8a23f8c6060ab9afed44d8b550a08549f7d9040ba5fd1ae9e04ea7e5e8c4"
+    },
+    {
+      "path": "outputs/erastin_nn_repeated/predictions.npz",
+      "sha256": "b782fba157958a2671ddbcd0cffb464fea6e2b377a777d2e295096a2ed023f04"
+    },
+    {
+      "path": "outputs/erastin_nn_repeated/protocol.json",
+      "sha256": "ecddfb1029bfa78accadb2853b1f96261da3245504af2d60b2a393cec657b150"
+    },
+    {
+      "path": "outputs/erastin_nonlinear_comparison/predictions.npz",
+      "sha256": "06ac1b349c5bb51a396088359e423a6196605d9288c7d21b57188cdbf2254574"
+    },
+    {
+      "path": "outputs/erastin_nonlinear_comparison/summary.tsv",
+      "sha256": "6b4fe892b1cd8a12ad6e815746d9b7baad9b233ce5ff0380f4bb5538f97cc758"
+    },
+    {
+      "path": "outputs/erastin_nonlinear_comparison/protocol.json",
+      "sha256": "2f8d6ca50870f40be8e997d4773be77cf2db7d22b4d2df1d38729693b1517ae7"
+    },
+    {
+      "path": "outputs/erastin_repeated_cv/repeat_cv.py",
+      "sha256": "ce96f6fe0d632199c8e4c071c52b06562fddd197b5f0ddaf10e63db4b09f07e3"
+    }
+  ]
+}

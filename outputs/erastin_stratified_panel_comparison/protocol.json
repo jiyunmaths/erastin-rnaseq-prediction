@@ -1,0 +1,754 @@
+{
+  "status": "frozen_before_stratified_panel_fits",
+  "created_utc": "2026-11-02T01:47:05Z",
+  "samples": 744,
+  "identity_groups": 733,
+  "lineages": 23,
+  "excluded_samples": [
+    {
+      "sample_id": "ACH-001086",
+      "lineage": "Cervix",
+      "reason": "Singleton lineage cannot occur in both disjoint sets."
+    }
+  ],
+  "panels": {
+    "40": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB"
+    ],
+    "64": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB",
+      "SLC3A2",
+      "CBS",
+      "CTH",
+      "GLS2",
+      "GOT1",
+      "PRDX6",
+      "SEPHS2",
+      "GCH1",
+      "PTS",
+      "SPR",
+      "IREB2",
+      "FTH1",
+      "SLC40A1",
+      "PROM2",
+      "FADS1",
+      "ELOVL5",
+      "FADS2",
+      "FAR1",
+      "GNPAT",
+      "AGPS",
+      "TMEM164",
+      "BECN1",
+      "BAP1",
+      "ABCC1"
+    ],
+    "80": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB",
+      "SLC3A2",
+      "CBS",
+      "CTH",
+      "GLS2",
+      "GOT1",
+      "PRDX6",
+      "SEPHS2",
+      "GCH1",
+      "PTS",
+      "SPR",
+      "IREB2",
+      "FTH1",
+      "SLC40A1",
+      "PROM2",
+      "FADS1",
+      "ELOVL5",
+      "FADS2",
+      "FAR1",
+      "GNPAT",
+      "AGPS",
+      "TMEM164",
+      "BECN1",
+      "BAP1",
+      "ABCC1",
+      "SC5D",
+      "DHCR7",
+      "VKORC1L1",
+      "G6PD",
+      "DHODH",
+      "GPD2",
+      "HMOX1",
+      "KEAP1",
+      "TP53",
+      "CDH1",
+      "NF2",
+      "YAP1",
+      "WWTR1",
+      "ZEB1",
+      "EPAS1",
+      "HILPDA"
+    ]
+  },
+  "split_design": "20 response-blind lineage-stratified identity-group holdouts. Approximately 80/20 per lineage, nearest feasible rounded sample count, at least one identity group on each side. Uniform random group subsets conditional on each sample-count target.",
+  "inner_design": "Five identity-group-stratified validation folds within outer training. A lineage represented by one training identity group is always inner training (-2) and never inner validation. Thus all 23 lineages remain in every inner training set; validation has 22 lineages because Ampulla has only one outer-training line.",
+  "ampulla_handling": "Two total lines: one outer train and one outer test in every repeat. Outer-training Ampulla is present in every inner fit but not inner validation; outer test is never used for tuning.",
+  "outer_train_sizes": [
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595
+  ],
+  "outer_test_sizes": [
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149
+  ],
+  "split_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "inner_split_seeds": [
+    3222237651,
+    4211103832,
+    3387312844,
+    760744323,
+    4025413262,
+    1064357086,
+    208690526,
+    3469505707,
+    2542410094,
+    3924082622,
+    3102039871,
+    2986340925,
+    1856675270,
+    4079919694,
+    1433603754,
+    2646278236,
+    342012659,
+    2242551488,
+    234027037,
+    711790135
+  ],
+  "neural_seed_triplets": [
+    [
+      2893371290,
+      497654881,
+      1975922792
+    ],
+    [
+      3355977667,
+      424493826,
+      1550394385
+    ],
+    [
+      2168687005,
+      1647426202,
+      2688205909
+    ],
+    [
+      42786468,
+      3076077911,
+      273767066
+    ],
+    [
+      1609035048,
+      2851333803,
+      976039955
+    ],
+    [
+      2236401383,
+      2445062483,
+      1129737822
+    ],
+    [
+      3329912852,
+      2638933889,
+      1145265932
+    ],
+    [
+      3422116929,
+      1806768943,
+      1378693510
+    ],
+    [
+      1256998787,
+      700040913,
+      2981348477
+    ],
+    [
+      2517894111,
+      3267202418,
+      2342300164
+    ],
+    [
+      4106300991,
+      1308386135,
+      2273722985
+    ],
+    [
+      1426094152,
+      2803084605,
+      3417373563
+    ],
+    [
+      1122310826,
+      28864576,
+      2615952050
+    ],
+    [
+      2346668660,
+      3452764067,
+      842565008
+    ],
+    [
+      2744930578,
+      3510598388,
+      675723401
+    ],
+    [
+      703156529,
+      4234057440,
+      1500259783
+    ],
+    [
+      3090577113,
+      2300113296,
+      1426115566
+    ],
+    [
+      1178198002,
+      3473816129,
+      1766774902
+    ],
+    [
+      835497170,
+      2416392876,
+      3057713454
+    ],
+    [
+      3712087977,
+      2560194263,
+      1118821988
+    ]
+  ],
+  "xgboost_seeds": [
+    177239007,
+    344280928,
+    163021274,
+    1404301111,
+    717091204,
+    762532665,
+    192520296,
+    2092557757,
+    1553071104,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    1413513707,
+    150599687,
+    1576819194,
+    1086027190,
+    1379426082,
+    781699641,
+    1068672312
+  ],
+  "ridge_alphas": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "neural_grid": [
+    {
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "width": 32,
+      "alpha": 100.0
+    }
+  ],
+  "neural_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "xgboost_grid": [
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    }
+  ],
+  "xgboost_fixed": {
+    "objective": "reg:squarederror",
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "device": "cpu",
+    "nthread": 1,
+    "eta": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "sampling_method": "uniform",
+    "max_bin": 64,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "base_score": 0.0,
+    "seed_per_iteration": false,
+    "validate_parameters": true,
+    "verbosity": 1
+  },
+  "weighting": "Unweighted training in every model and every fold. NN adapter receives an exact all-ones sample-weight vector and is checked against native MLPRegressor.",
+  "tuning": "Original model-specific grids; minimum unweighted equal-weight mean of five inner-fold RMSEs; original candidate order breaks ties. Each arm tuned independently.",
+  "scaling": "Training-only unweighted StandardScaler for ridge/NN features; training-only y standardization for NN/XGBoost, target centering for ridge. Unchanged raw log2(TPM+1) features for XGBoost.",
+  "controls": "Byte-identical saved 20 outer/inner split arrays across all nine arms, identical samples/targets/genes within a panel, fixed family grids/settings and matched initialization/sampling seeds.",
+  "baseline": "Reuse all 20 verified unweighted 64-gene NN models with exact input/split equality and native-MLP nested replay checks in repeats 1/20. Refit eight other arms, 160 new outer models; nine arms total 180.",
+  "primary_comparisons": "Within each family: 64 vs 40, 80 vs 40, 80 vs 64.",
+  "secondary_comparisons": "Within each panel: NN vs ridge, XGBoost vs ridge, XGBoost vs NN. Expanded ridge/XGBoost vs 40-gene NN.",
+  "primary_metrics": [
+    "pooled_spearman",
+    "pooled_rmse",
+    "pooled_r2",
+    "macro23_rmse"
+  ],
+  "secondary_metrics": [
+    "macro19_rmse"
+  ],
+  "metric_notes": "Mean of per-repeat outer-test scores. Macro23 RMSE equally averages all 23 held-in lineages; macro19 RMSE uses the 19 cohort lineages with n>=10. Per-lineage Spearman is descriptive and undefined for one-point/constant test subsets; no macro Spearman is used because tiny held-out subsets make it unstable.",
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026110701,
+    "unit": "Paired whole-lineage bootstrap shared across models and all 20 split-specific test sets; conditional on predictions, no refitting, no multiplicity adjustment. Repeated test sets overlap and are not independent biological replicates."
+  },
+  "limitations": "Exploratory reuse of the cell-line cohort; evaluates new cell lines from represented lineages, not unseen-lineage transfer. No external validation. Rare-lineage test subsets are tiny; one Ampulla training line cannot be an inner validation point. Panel/model comparisons reuse this cohort after earlier exploration; no multiplicity adjustment or independent external validation.",
+  "new_outer_models": 160,
+  "reused_outer_models": 20,
+  "total_outer_models": 180,
+  "workers": 10,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2",
+    "xgboost": "3.4.1"
+  },
+  "data_sha256": {
+    "panel_inputs.npz": "69aeb84d26e19e743c35310a8a214d3a47806584af223f72b76dee0ab701b8f4",
+    "shared_splits.npz": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+  },
+  "scripts": {
+    "run_panels.py": "1f90b8aaf61a7e97f0559956d9d5dc51e8a6b7e7678a1d9790a8b17472ac5cb1",
+    "ridge_helpers.py": "9b66630eb6436921e400c2951f036004e6a6749553f2cba1636fcb85f354e768",
+    "xgb_helpers.py": "86a146a70448d94d77631cb4cf336fe7ddc292fc9675457889aea1c4dca46449",
+    "model_helpers.py": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+    "evaluate.py": "1f0eec0d688943edf88d87f81fb14523e4be775e00bb2503bf3f3f3cc335e44b",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4",
+    "validate_preflight.py": "f8ed9590dcbae221ab4f94e600142b0b18818251d0bbe2ef8ed8b097ff86003a"
+  }
+}

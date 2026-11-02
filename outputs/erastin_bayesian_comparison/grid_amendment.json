@@ -1,0 +1,39 @@
+{
+  "reason": "every naive fit and 483/504 TAN fits selected the upper shrinkage boundary 0.8 by inner validation",
+  "selection_counts": {
+    "gaussian_naive": {
+      "0.8": 504
+    },
+    "gaussian_tan": {
+      "0.8": 483,
+      "0.6": 21
+    }
+  },
+  "old_grid": [
+    0,
+    0.01,
+    0.03,
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "extended_grid": [
+    0,
+    0.01,
+    0.03,
+    0.1,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    0.9,
+    0.95,
+    0.99,
+    1.0
+  ],
+  "extension_criterion": "inner-validation boundary selections, not held-out score improvement",
+  "initial_outer_pooled_results_already_seen": true,
+  "no_external_validation_added": true
+}

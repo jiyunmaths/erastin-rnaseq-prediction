@@ -1,0 +1,206 @@
+{
+  "xc": {
+    "citation": "Dixon et al., 2014",
+    "title": "Pharmacological inhibition of cystine-glutamate exchange induces endoplasmic reticulum stress and ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4054777/",
+    "type": "primary"
+  },
+  "transsulfuration": {
+    "citation": "Hayano et al., 2016",
+    "title": "Loss of cysteinyl-tRNA synthetase induces the transsulfuration pathway and inhibits ferroptosis induced by cystine deprivation",
+    "url": "https://www.nature.com/articles/cdd201593",
+    "type": "primary"
+  },
+  "glutaminolysis": {
+    "citation": "Gao et al., 2015",
+    "title": "Glutaminolysis and Transferrin Regulate Ferroptosis",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1097276515004505",
+    "type": "primary"
+  },
+  "prdx6": {
+    "citation": "Fujita et al., 2024",
+    "title": "PRDX6 augments selenium utilization to limit iron toxicity and ferroptosis",
+    "url": "https://www.nature.com/articles/s41594-024-01329-z",
+    "type": "primary"
+  },
+  "bh4": {
+    "citation": "Kraft et al., 2020",
+    "title": "GTP Cyclohydrolase 1/Tetrahydrobiopterin Counteract Ferroptosis through Lipid Remodeling",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31989025/",
+    "type": "primary"
+  },
+  "bh4_screen": {
+    "citation": "Soula et al., 2020",
+    "title": "Metabolic determinants of cancer cell sensitivity to canonical ferroptosis inducers",
+    "url": "https://www.nature.com/articles/s41589-020-0613-y",
+    "type": "primary"
+  },
+  "original": {
+    "citation": "Dixon et al., 2012",
+    "title": "Ferroptosis: An Iron-Dependent Form of Non-Apoptotic Cell Death",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367386/",
+    "type": "primary"
+  },
+  "iron": {
+    "citation": "Nishizawa et al., 2020",
+    "title": "Ferroptosis is controlled by the coordinated transcriptional regulation of glutathione and labile iron metabolism by BACH1",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/",
+    "type": "primary"
+  },
+  "prom2": {
+    "citation": "Brown et al., 2019",
+    "title": "Prominin2 Drives Ferroptosis Resistance by Stimulating Multivesicular Body/Exosome-Mediated Iron Export",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8316835/",
+    "type": "primary"
+  },
+  "pufa": {
+    "citation": "Lee et al., 2020",
+    "title": "Polyunsaturated fatty acid biosynthesis pathway determines ferroptosis sensitivity in gastric cancer",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7768719/",
+    "type": "primary"
+  },
+  "fads": {
+    "citation": "2024 primary study",
+    "title": "FADS1/2 control lipid metabolism and ferroptosis susceptibility in triple-negative breast cancer",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38926633/",
+    "type": "primary"
+  },
+  "ether": {
+    "citation": "2021 primary study",
+    "title": "Peroxisome-driven ether-linked phospholipids biosynthesis is essential for ferroptosis",
+    "url": "https://www.nature.com/articles/s41418-021-00769-0",
+    "type": "primary"
+  },
+  "tmem": {
+    "citation": "Reed et al., 2023",
+    "title": "TMEM164 is an acyltransferase that forms ferroptotic C20:4 ether phospholipids",
+    "url": "https://www.nature.com/articles/s41589-022-01253-7",
+    "type": "primary"
+  },
+  "tmem_function": {
+    "citation": "2022 primary study",
+    "title": "TMEM164 is a new determinant of autophagy-dependent ferroptosis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35947500/",
+    "type": "primary"
+  },
+  "becn": {
+    "citation": "Song et al., 2018",
+    "title": "AMPK-Mediated BECN1 Phosphorylation Promotes Ferroptosis by Directly Blocking System Xc- Activity",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081251/",
+    "type": "primary"
+  },
+  "bap": {
+    "citation": "Zhang et al., 2018",
+    "title": "BAP1 links metabolic regulation of ferroptosis to tumour suppression",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6170713/",
+    "type": "primary"
+  },
+  "bap_update": {
+    "citation": "2025 primary study",
+    "title": "Epigenetic regulation of ACSL4 via H2A monoubiquitylation connects lipid metabolism to BAP1-mediated ferroptosis",
+    "url": "https://www.nature.com/articles/s41418-025-01624-2.pdf",
+    "type": "primary"
+  },
+  "abcc": {
+    "citation": "Cao et al., 2019",
+    "title": "A Genome-wide Haploid Genetic Screen Identifies Regulators of Glutathione Abundance and Ferroptosis Sensitivity",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30726737/",
+    "type": "primary"
+  },
+  "sterol": {
+    "citation": "2024 primary study",
+    "title": "7-Dehydrocholesterol dictates ferroptosis sensitivity",
+    "url": "https://www.nature.com/articles/s41586-023-06983-9",
+    "type": "primary"
+  },
+  "vitk": {
+    "citation": "Yang et al., 2023",
+    "title": "Regulation of VKORC1L1 is critical for p53-mediated tumor suppression through vitamin K metabolism",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529626/",
+    "type": "primary"
+  },
+  "dhodh": {
+    "citation": "Mao et al., 2021",
+    "title": "DHODH-mediated ferroptosis defence is a targetable vulnerability in cancer",
+    "url": "https://www.nature.com/articles/s41586-021-03539-7",
+    "type": "primary"
+  },
+  "dhodh_dispute": {
+    "citation": "Mishima et al., 2023",
+    "title": "DHODH inhibitors sensitize to ferroptosis by FSP1 inhibition",
+    "url": "https://www.nature.com/articles/s41586-023-06269-0",
+    "type": "primary Matters Arising"
+  },
+  "gpd2": {
+    "citation": "Wu et al., 2022",
+    "title": "A ferroptosis defense mechanism mediated by glycerol-3-phosphate dehydrogenase 2 in mitochondria",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35749365/",
+    "type": "primary"
+  },
+  "hmox_pro": {
+    "citation": "Kwon et al., 2015",
+    "title": "Heme oxygenase-1 accelerates erastin-induced ferroptotic cell death",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4695193/",
+    "type": "primary"
+  },
+  "hmox_anti": {
+    "citation": "Adedoyin et al., 2018",
+    "title": "Heme oxygenase-1 mitigates ferroptosis in renal proximal tubule cells",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6031916/",
+    "type": "primary"
+  },
+  "nrf2": {
+    "citation": "Sun et al., 2016",
+    "title": "Activation of the p62-Keap1-NRF2 Pathway Protects against Ferroptosis in Hepatocellular Carcinoma Cells",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4688087/",
+    "type": "primary"
+  },
+  "p53": {
+    "citation": "Xie et al., 2017",
+    "title": "The Tumor Suppressor p53 Limits Ferroptosis by Blocking DPP4 Activity",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28813679/",
+    "type": "primary"
+  },
+  "contact": {
+    "citation": "Wu et al., 2019",
+    "title": "Intercellular interaction dictates cancer cell ferroptosis via NF2-YAP signalling",
+    "url": "https://www.nature.com/articles/s41586-019-1426-6",
+    "type": "primary"
+  },
+  "taz": {
+    "citation": "Yang et al., 2019",
+    "title": "The Hippo Pathway Effector TAZ Regulates Ferroptosis in Renal Cell Carcinoma",
+    "url": "https://www.sciencedirect.com/science/article/pii/S221112471931023X",
+    "type": "primary"
+  },
+  "zeb": {
+    "citation": "2024 primary study",
+    "title": "Zeb1 mediates EMT/plasticity-associated ferroptosis sensitivity in cancer cells by regulating lipogenic enzyme expression and phospholipid composition",
+    "url": "https://www.nature.com/articles/s41556-024-01464-1",
+    "type": "primary"
+  },
+  "hypoxia": {
+    "citation": "Zou et al., 2019",
+    "title": "A GPX4-dependent cancer cell state underlies the clear-cell morphology and confers sensitivity to ferroptosis",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30962421/",
+    "type": "primary"
+  },
+  "otub": {
+    "citation": "Liu et al., 2019",
+    "title": "The deubiquitylase OTUB1 mediates ferroptosis via stabilization of SLC7A11",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6467774/",
+    "type": "primary"
+  },
+  "screen2026": {
+    "citation": "Murray et al., 2026; PREPRINT",
+    "title": "Dissecting Complex Interactions Between Ferroptosis and the Proteasome",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060147/",
+    "type": "preprint; not peer reviewed in retrieved version"
+  },
+  "ferrdb": {
+    "citation": "FerrDb V3 documentation; checked 2026-11-01",
+    "title": "FerrDb V3 categories, confidence levels and coverage",
+    "url": "https://www.zhounan.org/ferrdb/v3/pages/help.html",
+    "type": "resource documentation"
+  }
+}

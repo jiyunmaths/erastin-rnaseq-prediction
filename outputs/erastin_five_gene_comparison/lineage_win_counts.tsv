@@ -1,0 +1,7 @@
+first_model	reference_model	rmse_favorable_lineages	lineages
+ridge__5	ridge__64	12	23
+neural_network__5	neural_network__64	10	23
+neural_network__5	ridge__5	13	23
+neural_network__64	ridge__64	11	23
+neural_network__5	ridge__64	9	23
+ridge__5	neural_network__64	11	23

@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "protocol_sha256": "3c4a74048a4b4be994a8c62e8584394cd067b53acaf26cd7df093fb50393fada",
+  "split_checks": 120,
+  "all_23_lineages_on_both_outer_sides": true,
+  "independent_preprocessor_checks_passed": true,
+  "unseen_missing_category_controls_passed": true,
+  "native_vs_unit_weight_nn_error": 0.0,
+  "checks": [
+    {
+      "panel": 0,
+      "family": "ridge",
+      "inner_candidate_fits_checked": 85,
+      "max_inner_error": 9.47131262307721e-13,
+      "max_outer_error": 2.220446049250313e-16
+    },
+    {
+      "panel": 0,
+      "family": "elastic_net",
+      "inner_candidate_fits_checked": 5,
+      "max_inner_error": 6.370459715299148e-12,
+      "max_outer_error": 3.1230573682705653e-13
+    },
+    {
+      "panel": 0,
+      "family": "neural_network",
+      "inner_candidate_fits_checked": 20,
+      "max_inner_error": 0.0,
+      "max_outer_error": 0.0
+    },
+    {
+      "panel": 0,
+      "pure_lasso_augmented_objective_error": 0.0,
+      "nonunique_test_predictions_not_assumed": true
+    },
+    {
+      "panel": 0,
+      "path_candidates_checked": 32,
+      "native_error": 2.801097243043671e-09,
+      "augmented_lasso_error": 1.957063733293296e-09
+    },
+    {
+      "panel": 5,
+      "family": "ridge",
+      "inner_candidate_fits_checked": 85,
+      "max_inner_error": 7.80664421995425e-12,
+      "max_outer_error": 2.220446049250313e-16
+    },
+    {
+      "panel": 5,
+      "family": "elastic_net",
+      "inner_candidate_fits_checked": 5,
+      "max_inner_error": 2.8447244559970386e-12,
+      "max_outer_error": 3.687050664780145e-13
+    },
+    {
+      "panel": 5,
+      "family": "neural_network",
+      "inner_candidate_fits_checked": 20,
+      "max_inner_error": 0.0,
+      "max_outer_error": 0.0
+    },
+    {
+      "panel": 5,
+      "pure_lasso_augmented_objective_error": 5.551115123125783e-17,
+      "nonunique_test_predictions_not_assumed": true
+    },
+    {
+      "panel": 5,
+      "path_candidates_checked": 32,
+      "native_error": 7.867495543933956e-11,
+      "augmented_lasso_error": 1.1683731759859484e-10
+    },
+    {
+      "panel": 64,
+      "family": "ridge",
+      "inner_candidate_fits_checked": 85,
+      "max_inner_error": 6.794564910705958e-12,
+      "max_outer_error": 2.220446049250313e-16
+    },
+    {
+      "panel": 64,
+      "family": "elastic_net",
+      "inner_candidate_fits_checked": 5,
+      "max_inner_error": 1.2314593789142236e-12,
+      "max_outer_error": 7.149836278586008e-13
+    },
+    {
+      "panel": 64,
+      "family": "neural_network",
+      "inner_candidate_fits_checked": 20,
+      "max_inner_error": 0.0,
+      "max_outer_error": 0.0
+    },
+    {
+      "panel": 64,
+      "pure_lasso_augmented_objective_error": 1.1102230246251565e-16,
+      "nonunique_test_predictions_not_assumed": true
+    },
+    {
+      "panel": 64,
+      "path_candidates_checked": 32,
+      "native_error": 3.102573753466231e-11,
+      "augmented_lasso_error": 1.598265964020129e-11
+    }
+  ],
+  "preflight_fits_retained": 9,
+  "elapsed_seconds": 47.76355539201177
+}

@@ -1,0 +1,352 @@
+{
+  "status": "frozen_before_xgboost_fitting",
+  "created_utc": "2026-11-01T21:06:14Z",
+  "script_sha256": "01943e3c7bb670a685b1cbb5d33ad99d49f0c82527f4e0c02999bed7730cc61a",
+  "samples": 745,
+  "identity_groups": 734,
+  "outer_lineages": 24,
+  "repeats": 20,
+  "input": "Same 40-gene log2(TPM+1) panel; target is negative reported CTRP erastin AUC.",
+  "outer_tests": "Exact fixed leave-lineage-out tests from the repeated ridge/NN comparison; related identities excluded.",
+  "inner_folds": "Exact saved five group-disjoint inner folds; represented training lineages are mixed within inner folds.",
+  "inner_split_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "model_seeds": [
+    177239007,
+    344280928,
+    163021274,
+    1404301111,
+    717091204,
+    762532665,
+    192520296,
+    2092557757,
+    1553071104,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    1413513707,
+    150599687,
+    1576819194,
+    1086027190,
+    1379426082,
+    781699641,
+    1068672312
+  ],
+  "seed_rule": "model_seed = int(saved_inner_split_seed) % (2**31 - 1); same seed for every candidate and fit within a repeat",
+  "repeat_variation": "Inner assignments and XGBoost row/column sampling seeds change jointly; outer tests fixed.",
+  "fixed_parameters": {
+    "objective": "reg:squarederror",
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "device": "cpu",
+    "nthread": 1,
+    "eta": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "sampling_method": "uniform",
+    "max_bin": 64,
+    "reg_alpha": 0.0,
+    "gamma": 0.0,
+    "base_score": 0.0,
+    "seed_per_iteration": false,
+    "validate_parameters": true,
+    "verbosity": 1
+  },
+  "grid": [
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 1,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 2,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 5,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 1.0,
+      "num_boost_round": 600
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 100
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 300
+    },
+    {
+      "max_depth": 3,
+      "min_child_weight": 20,
+      "reg_lambda": 20.0,
+      "num_boost_round": 600
+    }
+  ],
+  "tuning": "Minimum equal-weight mean inner-fold RMSE; tie uses first candidate.",
+  "prefixes": "Train 600 trees per structural setting and score fixed 100/300/600 prefixes; selected model refit at chosen length.",
+  "early_stopping": false,
+  "preprocessing": "Features unchanged; response standardized with population mean/SD fit on each current training subset; inverse transform predictions.",
+  "ensemble": "One XGBoost model per outer holdout; saved NN uses its unchanged three-member ensemble.",
+  "baseline": "Reuse exact matching saved ridge and NN predictions, with no averaging across repeats before scoring.",
+  "tuning_budget": "36 XGBoost candidates versus 4 NN candidates; same folds and objective, not equal search budgets.",
+  "workers": 6,
+  "inner_training_paths": 28800,
+  "outer_refits": 480,
+  "uncertainty": {
+    "count": 5000,
+    "pooled_seed": 2026110101,
+    "macro_seed": 2026110102,
+    "unit": "Whole lineage; paired models/repeats; conditional on predictions without refitting."
+  },
+  "metrics": [
+    "spearman",
+    "rmse",
+    "r2"
+  ],
+  "macro": "Equal-weight scores over the same 19 lineages with n>=10.",
+  "restrictions": "No test-score-based grid changes, seed selection, or retry. Prior comparison outcomes already seen; exploratory cohort reuse.",
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "xgboost": "3.4.1"
+  },
+  "xgboost_build": {
+    "BUILTIN_PREFETCH_PRESENT": true,
+    "DEBUG": false,
+    "GCC_VERSION": [
+      14,
+      2,
+      1
+    ],
+    "GLIBC_VERSION": [
+      2,
+      28
+    ],
+    "MM_PREFETCH_PRESENT": true,
+    "USE_CUDA": false,
+    "USE_DLOPEN_NCCL": false,
+    "USE_FEDERATED": false,
+    "USE_NCCL": false,
+    "USE_OPENMP": true,
+    "USE_RMM": false,
+    "libxgboost": "/home/sji/Documents/Codex/2026-10-31/t/work/erastin_xgboost/packages/xgboost/lib/libxgboost.so"
+  },
+  "wheel": {
+    "name": "xgboost_cpu-3.4.1-py3-none-manylinux_2_28_x86_64.whl",
+    "sha256": "1f16331f5c6beb2b40fbd4bf2834333062d93c9eb38b76186a5c206841dc1809"
+  },
+  "documentation": [
+    "https://xgboost.readthedocs.io/en/stable/parameter.html",
+    "https://xgboost.readthedocs.io/en/stable/python/python_api.html"
+  ]
+}

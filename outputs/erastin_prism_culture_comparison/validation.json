@@ -1,0 +1,260 @@
+{
+  "passed": true,
+  "total_outer_models": 300,
+  "new_outer_models": 180,
+  "reused_outer_models": 120,
+  "all_20_lineages_in_both_outer_sets": true,
+  "identity_exclusion_checks": 1800,
+  "candidate_fold_scores_checked": 176500,
+  "training_only_preprocessor_checks": 1080,
+  "prediction_max_error": 2.220446049250313e-16,
+  "inner_rmse_max_error": 1.1102230246251565e-16,
+  "elastic_net_max_kkt_residual": 7.401824977590343e-10,
+  "elastic_net_inner_candidate_solutions_kkt_checked": 164000,
+  "elastic_net_outer_objectives_checked": 100,
+  "neural_objectives_checked": 300,
+  "neural_objective_max_error": 5.551115123125783e-17,
+  "independent_selected_refits": [
+    {
+      "model": "ridge__0__culture",
+      "repeat": 1,
+      "outer_error": 1.1102230246251565e-16,
+      "inner_error": 1.1102230246251565e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__5__culture",
+      "repeat": 1,
+      "outer_error": 1.1102230246251565e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64__culture",
+      "repeat": 1,
+      "outer_error": 2.220446049250313e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__0__culture",
+      "repeat": 1,
+      "outer_error": 1.9148016505710075e-12,
+      "inner_error": 2.048583525038339e-12,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__5__culture",
+      "repeat": 1,
+      "outer_error": 6.151079645633217e-12,
+      "inner_error": 6.537992369715084e-12,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__64__culture",
+      "repeat": 1,
+      "outer_error": 4.6250780982859396e-11,
+      "inner_error": 7.293254888907086e-11,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__0__culture",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__5__culture",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64__culture",
+      "repeat": 1,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__0__culture",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 1.1102230246251565e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__5__culture",
+      "repeat": 20,
+      "outer_error": 1.1102230246251565e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "ridge__64__culture",
+      "repeat": 20,
+      "outer_error": 1.1102230246251565e-16,
+      "inner_error": 2.220446049250313e-16,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__0__culture",
+      "repeat": 20,
+      "outer_error": 1.1102230246251565e-16,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__5__culture",
+      "repeat": 20,
+      "outer_error": 2.7202684549365586e-12,
+      "inner_error": 4.7594150842655836e-12,
+      "inner_refits": 5
+    },
+    {
+      "model": "elastic_net__64__culture",
+      "repeat": 20,
+      "outer_error": 1.3445355939722958e-11,
+      "inner_error": 1.1911915898110692e-11,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__0__culture",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__5__culture",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    },
+    {
+      "model": "neural_network__64__culture",
+      "repeat": 20,
+      "outer_error": 0.0,
+      "inner_error": 0.0,
+      "inner_refits": 5
+    }
+  ],
+  "warning_summary": [
+    {
+      "category": "DeprecationWarning",
+      "message": "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+      "count": 12300
+    }
+  ],
+  "convergence_warning_count": 0,
+  "selected_outer_convergence_warning_count": 0,
+  "bootstrap_validation": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 550,
+    "max_error": 1.700029006457271e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  },
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "66abd0207918ecbd7959d2e34002310fd6797274d5129bc975226925a86309a1",
+    "split_checks": 120,
+    "all_20_lineages_on_both_outer_sides": true,
+    "independent_preprocessor_checks_passed": true,
+    "unseen_missing_category_controls_passed": true,
+    "native_vs_unit_weight_nn_error": 0.0,
+    "checks": [
+      {
+        "panel": 0,
+        "family": "ridge",
+        "inner_candidate_fits_checked": 85,
+        "max_inner_error": 1.318944953254686e-13,
+        "max_outer_error": 1.1102230246251565e-16
+      },
+      {
+        "panel": 0,
+        "family": "elastic_net",
+        "inner_candidate_fits_checked": 5,
+        "max_inner_error": 2.048583525038339e-12,
+        "max_outer_error": 1.9148016505710075e-12
+      },
+      {
+        "panel": 0,
+        "family": "neural_network",
+        "inner_candidate_fits_checked": 40,
+        "max_inner_error": 0.0,
+        "max_outer_error": 0.0
+      },
+      {
+        "panel": 0,
+        "path_candidates_checked": 32,
+        "native_error": 7.629629483751899e-09,
+        "augmented_lasso_error": 4.191276103959751e-09
+      },
+      {
+        "panel": 5,
+        "family": "ridge",
+        "inner_candidate_fits_checked": 85,
+        "max_inner_error": 1.3027356970951587e-12,
+        "max_outer_error": 1.1102230246251565e-16
+      },
+      {
+        "panel": 5,
+        "family": "elastic_net",
+        "inner_candidate_fits_checked": 5,
+        "max_inner_error": 6.537992369715084e-12,
+        "max_outer_error": 6.151079645633217e-12
+      },
+      {
+        "panel": 5,
+        "family": "neural_network",
+        "inner_candidate_fits_checked": 40,
+        "max_inner_error": 0.0,
+        "max_outer_error": 0.0
+      },
+      {
+        "panel": 5,
+        "path_candidates_checked": 32,
+        "native_error": 1.287437045860429e-09,
+        "augmented_lasso_error": 1.0524654481258722e-09
+      },
+      {
+        "panel": 64,
+        "family": "ridge",
+        "inner_candidate_fits_checked": 85,
+        "max_inner_error": 1.219646605932212e-11,
+        "max_outer_error": 2.220446049250313e-16
+      },
+      {
+        "panel": 64,
+        "family": "elastic_net",
+        "inner_candidate_fits_checked": 5,
+        "max_inner_error": 7.293254888907086e-11,
+        "max_outer_error": 4.6250780982859396e-11
+      },
+      {
+        "panel": 64,
+        "family": "neural_network",
+        "inner_candidate_fits_checked": 40,
+        "max_inner_error": 0.0,
+        "max_outer_error": 0.0
+      },
+      {
+        "panel": 64,
+        "path_candidates_checked": 32,
+        "native_error": 2.131484766465519e-09,
+        "augmented_lasso_error": 2.1424417795401496e-09
+      }
+    ],
+    "preflight_fits_retained": 9,
+    "elapsed_seconds": 34.77289839601144
+  },
+  "source_baseline_validation_passed": true,
+  "source_hashes_verified": true,
+  "baseline_models_and_predictions_unchanged": true,
+  "shared_splits_verified": true,
+  "unweighted_training_verified": true
+}

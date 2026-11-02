@@ -1,0 +1,30 @@
+{
+  "status": "fixed_before_lineage_decomposition",
+  "script_sha256": "d121000f0a52d66994d6c981214f3323026bd56ecd08b7ed11906e0ffcc64140",
+  "models": [
+    "ridge__40",
+    "ridge__64",
+    "ridge__80",
+    "neural_network__40",
+    "neural_network__64",
+    "neural_network__80",
+    "xgboost__40",
+    "xgboost__64",
+    "xgboost__80"
+  ],
+  "repeats": 20,
+  "samples": 745,
+  "lineages": 24,
+  "interpretation": "Lineage weighting and influence on SAVED MODEL EVALUATION; no models retrained.",
+  "learned_lineage_coefficients": "None: models use expression only. Lineage labels define split membership.",
+  "training": "Each current training cell has equal explicit loss weight; no inverse-lineage balancing. XGBoost uses uniform row sampling at 0.8.",
+  "pooled_weight": "n_lineage/745 for MSE. Pooled RMSE is sqrt(sum(weight*lineage MSE)), not a weighted average of lineage RMSE.",
+  "macro_weight": "1/19 for each lineage with n>=10, zero for the other five; mean of lineage RMSE and Spearman.",
+  "prior_gene_importance_weight": "n_lineage/721 among the same 19 larger lineages.",
+  "error_share": "Mean across repeats of SSE_lineage/SSE_all; model-dependent difficulty/size contribution, not learned feature importance.",
+  "spearman_decomposition": "Exact global-rank covariance split into within-lineage and between-lineage terms; each normalized by global rank SD product.",
+  "omission": "Recompute pooled scores omitting one lineage from EVALUATION only, without retraining. Does not measure training-data influence.",
+  "skill_baseline": "Training-only mean response separately for each outer holdout. Signed lineage MSE gains sum to the overall gain versus this baseline.",
+  "panel_gain": "Signed lineage contributions (n/745)*(MSE_smaller-MSE_larger); macro Spearman contributions are local rank-correlation differences divided by 19.",
+  "uncertainty": "Descriptive averages over the same 20 repeats. No new p-values or independent biological replications."
+}

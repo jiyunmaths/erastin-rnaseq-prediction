@@ -1,0 +1,3508 @@
+{
+  "passed": true,
+  "no_refitting": true,
+  "saved_models": 40,
+  "checks": [
+    {
+      "repeat": 2,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.3798560384581382e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "b29e182ba50794784be8358be9c2bb00e1b013ddf15cb2f8cbfb9f9fc37c46d4",
+      "seconds": 0.6761431899794843
+    },
+    {
+      "repeat": 3,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.3668488216267427e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "cef23820d9783be43a4079341da5dd8f307af9cbad2ec2ab7024b54255114b0a",
+      "seconds": 0.6902894340164494
+    },
+    {
+      "repeat": 4,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.3558727925133685e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "6fcd545529136966a7f5812029f44fbcd7b934af392dfa3e08ef146d2c1375fd",
+      "seconds": 0.7041518899786752
+    },
+    {
+      "repeat": 7,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.4151687146354147e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 26,
+          "test_groups": 6
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "b071bd67532b5490b13e184344351df50ee2c623a9e5585594cab7ec966cffd5",
+      "seconds": 0.6505277079995722
+    },
+    {
+      "repeat": 8,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.7210114409971222e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "8c7091bf56b04792c516112bfb6ed0a6022d5ac8f49b94f886934c4473de4318",
+      "seconds": 0.6704947290127166
+    },
+    {
+      "repeat": 9,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.67046073154542e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 26,
+          "test_groups": 6
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "c1189c3a80e097a22a0bfb291835faa22eb52f17f37f31446bd8d67ab6b6e4ee",
+      "seconds": 0.6765957910101861
+    },
+    {
+      "repeat": 6,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 3.3306690738754696e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.2796342978294017e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "01a6c26cc1401192ee432b6b8f5f371afdc927ccc82bc0083b01b77c3d1f27e3",
+      "seconds": 1.1650812279840466
+    },
+    {
+      "repeat": 5,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.3895949061565327e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "f225fa58f058f7ddf94e075455e94a85a76d896fb2312b9a4fa9b906bc8d50db",
+      "seconds": 1.166039036004804
+    },
+    {
+      "repeat": 1,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 3.3306690738754696e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.4986937363868635e-11,
+      "exhaustive_small_test_permutation_error": 2.7755575615628914e-17,
+      "full_donor_matrix_error": 3.3306690738754696e-16,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "110bed5827f12b5bfb2fa78870a1862851cbd41de7586b445a4775d3d6edc617",
+      "seconds": 1.5931245779793244
+    },
+    {
+      "repeat": 10,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.3694541160791385e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "909420b8b61b1a0384631015e793575095b46d43cb2ef6b39ce45ab8f685f185",
+      "seconds": 0.6917025189904962
+    },
+    {
+      "repeat": 11,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.548932423295346e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 26,
+          "test_groups": 6
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "9409ee2d7079ff285b77ba255eb640f1e5173e5772da36ef71d882668e5d0881",
+      "seconds": 0.7266345319803804
+    },
+    {
+      "repeat": 12,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.4065648819283627e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "3601c559893859a8ba78267e403f55bd5aecd6dec0abf31219baea64f0033722",
+      "seconds": 0.740828608017182
+    },
+    {
+      "repeat": 15,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 3.3306690738754696e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.6213422965316582e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "d412f84f582f7d56e32d879189eb3dddaab77216d1f726d20a17fecfc2b2652b",
+      "seconds": 0.7166935889981687
+    },
+    {
+      "repeat": 14,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.4259213601541809e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "d70793297bcdb0d5764e0fde85dead1f9edebb5e753407a6d31c4472b4952705",
+      "seconds": 0.9621837490121834
+    },
+    {
+      "repeat": 16,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 3.3306690738754696e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.4269436923296935e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "1eb471fcf04e79fb8c7e8b827ee5941b84116558f6e478407fb15800f868b040",
+      "seconds": 0.653843323001638
+    },
+    {
+      "repeat": 17,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 3.3306690738754696e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.4206434639785215e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "2d2e60122baf477c93ec4cf0260b9ea4418d4e1c13fc40c5d753b91cf3d8cc3a",
+      "seconds": 0.6625931180024054
+    },
+    {
+      "repeat": 13,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.4192948303171776e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "fdf50dc3bd8a731cc6a5f0bb9451502aeb17a270c3cdeb3c158677c07a616451",
+      "seconds": 1.2440407199901529
+    },
+    {
+      "repeat": 18,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 1.1102230246251565e-16,
+      "finite_difference_gradient_error": 1.618324918517544e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 97,
+          "test_groups": 23
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "b68643162f686f64cbdab036487e49e7116434bbd10f4b474df50dcdaf45ca00",
+      "seconds": 0.7733426399936434
+    },
+    {
+      "repeat": 19,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 1.1102230246251565e-16,
+      "finite_difference_gradient_error": 1.4119007395521632e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 0.0,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "509a8008e1d2b8c69cf3e7aa56b2673c6d1d7bc5e592ca06692597773c235b5f",
+      "seconds": 0.6385189809952863
+    },
+    {
+      "repeat": 20,
+      "protocol_sha256": "c343e08bbf60f2850a41b2c0ab8d1bba80593d4de7b29cef5832fb0da16f50ad",
+      "saved_prediction_error": 0.0,
+      "native_replacement_error": 2.220446049250313e-16,
+      "identity_replacement_error": 2.220446049250313e-16,
+      "finite_difference_gradient_error": 1.417391291141934e-11,
+      "exhaustive_small_test_permutation_error": 0.0,
+      "full_donor_matrix_error": 3.3306690738754696e-16,
+      "lineage_checks": [
+        {
+          "lineage": "Ampulla of Vater",
+          "training_donors": 1,
+          "test_receivers": 1,
+          "training_donor_groups": 1,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Biliary Tract",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Bladder/Urinary Tract",
+          "training_donors": 15,
+          "test_receivers": 4,
+          "training_donor_groups": 15,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Bone",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Bowel",
+          "training_donors": 35,
+          "test_receivers": 9,
+          "training_donor_groups": 34,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Breast",
+          "training_donors": 27,
+          "test_receivers": 7,
+          "training_donor_groups": 25,
+          "test_groups": 7
+        },
+        {
+          "lineage": "CNS/Brain",
+          "training_donors": 38,
+          "test_receivers": 9,
+          "training_donor_groups": 38,
+          "test_groups": 9
+        },
+        {
+          "lineage": "Esophagus/Stomach",
+          "training_donors": 44,
+          "test_receivers": 11,
+          "training_donor_groups": 44,
+          "test_groups": 11
+        },
+        {
+          "lineage": "Head and Neck",
+          "training_donors": 23,
+          "test_receivers": 6,
+          "training_donor_groups": 23,
+          "test_groups": 6
+        },
+        {
+          "lineage": "Kidney",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Liver",
+          "training_donors": 18,
+          "test_receivers": 4,
+          "training_donor_groups": 18,
+          "test_groups": 4
+        },
+        {
+          "lineage": "Lung",
+          "training_donors": 97,
+          "test_receivers": 24,
+          "training_donor_groups": 96,
+          "test_groups": 24
+        },
+        {
+          "lineage": "Lymphoid",
+          "training_donors": 76,
+          "test_receivers": 19,
+          "training_donor_groups": 76,
+          "test_groups": 19
+        },
+        {
+          "lineage": "Myeloid",
+          "training_donors": 33,
+          "test_receivers": 8,
+          "training_donor_groups": 32,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Ovary/Fallopian Tube",
+          "training_donors": 30,
+          "test_receivers": 7,
+          "training_donor_groups": 30,
+          "test_groups": 7
+        },
+        {
+          "lineage": "Pancreas",
+          "training_donors": 30,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Peripheral Nervous System",
+          "training_donors": 12,
+          "test_receivers": 3,
+          "training_donor_groups": 12,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Pleura",
+          "training_donors": 7,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Prostate",
+          "training_donors": 5,
+          "test_receivers": 1,
+          "training_donor_groups": 5,
+          "test_groups": 1
+        },
+        {
+          "lineage": "Skin",
+          "training_donors": 32,
+          "test_receivers": 8,
+          "training_donor_groups": 29,
+          "test_groups": 8
+        },
+        {
+          "lineage": "Soft Tissue",
+          "training_donors": 10,
+          "test_receivers": 3,
+          "training_donor_groups": 10,
+          "test_groups": 3
+        },
+        {
+          "lineage": "Thyroid",
+          "training_donors": 8,
+          "test_receivers": 2,
+          "training_donor_groups": 7,
+          "test_groups": 2
+        },
+        {
+          "lineage": "Uterus",
+          "training_donors": 21,
+          "test_receivers": 5,
+          "training_donor_groups": 20,
+          "test_groups": 5
+        }
+      ],
+      "array_sha256": "159d11ad5d5092b1489f26f5e06e56b11b29d8bb6f0f296291c7e0ab3fd6c666",
+      "seconds": 0.6195754649816081
+    }
+  ],
+  "elapsed_seconds": 4.250920791004319
+}

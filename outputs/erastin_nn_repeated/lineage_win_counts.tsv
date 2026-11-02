@@ -1,0 +1,4 @@
+metric	favorable_lineages	eligible_lineages
+spearman	9	19
+rmse	10	19
+r2	10	19

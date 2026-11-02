@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_nn_moderate_weights/inputs.npz",
+      "sha256": "a928b81622625bd4eb70c3b63e053336464de35bd0660cb2e8aded292ff3c31f"
+    },
+    {
+      "path": "outputs/erastin_nn_moderate_weights/shared_splits.npz",
+      "sha256": "f79b759071009fccf506ccaf7a8c1f6ddd20fcab1b02291b079add023b82c959"
+    },
+    {
+      "path": "outputs/erastin_nn_moderate_weights/protocol.json",
+      "sha256": "892fbd8b1cfe99f269b9a0ad7cab5cb0d11410f9dc5496a2cf016a342cb21646"
+    },
+    {
+      "path": "outputs/erastin_nn_moderate_weights/run_moderate.py",
+      "sha256": "e60d88d26e7e95fdc912ba76cf6f5c62f8ba5fb555faf88854ea532fd8b1cf90"
+    },
+    {
+      "path": "outputs/erastin_nn_moderate_weights/weighted_mlp.py",
+      "sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+    },
+    {
+      "path": "outputs/erastin_nn_moderate_weights/lineage_weights.py",
+      "sha256": "45d88f0a63e66854a357bfd3f46fb4391b6fea353c57d99822f563eba332534c"
+    },
+    {
+      "path": "outputs/erastin_nn_moderate_weights/evaluation.py",
+      "sha256": "7bff0b5d1b56c02128168b845a659a907c8a5cf714caa2ecd9816c55a3d34dff"
+    },
+    {
+      "path": "outputs/erastin_nn_moderate_weights/preflight_validation.json",
+      "sha256": "376b1c5759e6162d63d7817d663950b4490817163c7aaf04057b3c9cd5bd190a"
+    }
+  ]
+}

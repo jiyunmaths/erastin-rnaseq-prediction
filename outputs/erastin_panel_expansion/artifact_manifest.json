@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "bb3981b629b8ae806a5b5b99bc5a7ea3ab444f35b36b15f50fb64993f1479554",
+      "bytes": 8983
+    },
+    {
+      "path": "candidate_gene_evidence.json",
+      "sha256": "ebd8afa3f97a4668f414183bb7ccce734634e52534c3746c4658209f4ac47b48",
+      "bytes": 47178
+    },
+    {
+      "path": "candidate_gene_evidence.tsv",
+      "sha256": "7d8a55a08b31adbd3eacc7fa1aec17290a3ba712310dc2e7fa83aa238d6948b5",
+      "bytes": 24306
+    },
+    {
+      "path": "coverage_summary.json",
+      "sha256": "ae7849f0428ca4d4da738620270f9b237acb475be23b420aa27f00276124a903",
+      "bytes": 547
+    },
+    {
+      "path": "panel_definitions.json",
+      "sha256": "2307f4b9296fc976027a146d84bc6042e9e309488f563bbbc5c0e8cc5f08b922",
+      "bytes": 3722
+    },
+    {
+      "path": "references.json",
+      "sha256": "69d855b24bdf84bb3b6799fb7504a644c66cbaf89ebd15b42bdeabf65b1f145d",
+      "bytes": 8462
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "9eac4e7627d9a1a2ac0fc382031cd25fb8d3d76a58f92baab4991bc49f9c2f70",
+      "bytes": 1270
+    }
+  ]
+}

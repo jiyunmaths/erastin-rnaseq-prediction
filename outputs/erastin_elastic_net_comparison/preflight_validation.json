@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "protocol_sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7",
+  "five_genes": [
+    "SLC7A11",
+    "GPX4",
+    "ABCC1",
+    "ACSL4",
+    "AIFM2"
+  ],
+  "five_gene_indices_in_64": [
+    0,
+    9,
+    63,
+    17,
+    11
+  ],
+  "samples": 744,
+  "lineages_in_both_sets": 23,
+  "split_checks": 120,
+  "checks": [
+    {
+      "panel": 5,
+      "repeat": 1,
+      "candidates_native_and_augmented_lasso_checked": 32,
+      "native_path_max_prediction_error": 3.560296502058691e-11,
+      "augmented_lasso_path_max_prediction_error": 3.5170311107890484e-11,
+      "selected_outer_augmented_lasso_error": 2.7674529334831277e-12,
+      "selected_inner_augmented_lasso_error": 1.4983125851131263e-11
+    },
+    {
+      "panel": 64,
+      "repeat": 1,
+      "candidates_native_and_augmented_lasso_checked": 32,
+      "native_path_max_prediction_error": 7.724288986210581e-10,
+      "augmented_lasso_path_max_prediction_error": 4.775390083366915e-10,
+      "selected_outer_augmented_lasso_error": 1.1522538478914157e-10,
+      "selected_inner_augmented_lasso_error": 1.4723811059269565e-10
+    },
+    {
+      "panel": 5,
+      "repeat": 20,
+      "candidates_native_and_augmented_lasso_checked": 32,
+      "native_path_max_prediction_error": 1.4950152227299895e-11,
+      "augmented_lasso_path_max_prediction_error": 1.3712697644052696e-11,
+      "selected_outer_augmented_lasso_error": 3.7623237858497305e-12,
+      "selected_inner_augmented_lasso_error": 1.4309775586696105e-11
+    },
+    {
+      "panel": 64,
+      "repeat": 20,
+      "candidates_native_and_augmented_lasso_checked": 32,
+      "native_path_max_prediction_error": 1.0593932397995331e-09,
+      "augmented_lasso_path_max_prediction_error": 6.654383710724687e-10,
+      "selected_outer_augmented_lasso_error": 7.107581190268775e-11,
+      "selected_inner_augmented_lasso_error": 7.663780721145486e-11
+    }
+  ],
+  "bootstrap_validation": {
+    "passed": true,
+    "expanded_scipy_check_draws": 5,
+    "all_repeats_paired": true,
+    "max_error": 1.1102230246251565e-16
+  },
+  "preflight_fits_retained": 4,
+  "analysis_is_exploratory_due_to_prior_test_informed_gene_selection": true
+}

@@ -1,0 +1,171 @@
+{
+  "status": "complete",
+  "repeats": 20,
+  "samples": 745,
+  "groups": 734,
+  "primary_paired_results": [
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "spearman",
+      "mean_improvement": 0.01632230989692703,
+      "sd_across_seeds": 0.01142662176169624,
+      "min_improvement": -0.0009111547173688561,
+      "max_improvement": 0.03624386303941479,
+      "favorable_seeds": 19,
+      "total_seeds": 20,
+      "conditional_group_bootstrap_ci_low": -0.01945451818215448,
+      "conditional_group_bootstrap_ci_high": 0.05067910550802896
+    },
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "rmse",
+      "mean_improvement": 0.0014250035441315222,
+      "sd_across_seeds": 0.0008232696619280469,
+      "min_improvement": -0.00014367731110873083,
+      "max_improvement": 0.0030702769931048174,
+      "favorable_seeds": 19,
+      "total_seeds": 20,
+      "conditional_group_bootstrap_ci_low": -0.0009801993082093267,
+      "conditional_group_bootstrap_ci_high": 0.003810117686424058
+    },
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "r2",
+      "mean_improvement": 0.019156216655717956,
+      "sd_across_seeds": 0.011042860037119927,
+      "min_improvement": -0.001927721671223348,
+      "max_improvement": 0.04136863368910637,
+      "favorable_seeds": 19,
+      "total_seeds": 20,
+      "conditional_group_bootstrap_ci_low": -0.013340309346391419,
+      "conditional_group_bootstrap_ci_high": 0.05113596603931337
+    }
+  ],
+  "mean_performance": [
+    {
+      "model": "panel_expression",
+      "metric": "spearman",
+      "mean": 0.443514530578449,
+      "std_across_seeds": 0.008540347765923405,
+      "min": 0.42685109161659973,
+      "max": 0.456730134608612,
+      "conditional_group_bootstrap_ci_low": 0.3861026589890844,
+      "conditional_group_bootstrap_ci_high": 0.49840813321427596
+    },
+    {
+      "model": "panel_expression",
+      "metric": "rmse",
+      "mean": 0.11939054267152824,
+      "std_across_seeds": 0.00055965923460863,
+      "min": 0.11830821026482546,
+      "max": 0.12041710932301579,
+      "conditional_group_bootstrap_ci_low": 0.11293872924162378,
+      "conditional_group_bootstrap_ci_high": 0.12584979621472672
+    },
+    {
+      "model": "panel_expression",
+      "metric": "r2",
+      "mean": 0.19221358413343387,
+      "std_across_seeds": 0.007575130066843369,
+      "min": 0.17827968815598383,
+      "max": 0.20680969681854322,
+      "conditional_group_bootstrap_ci_low": 0.13944472113588044,
+      "conditional_group_bootstrap_ci_high": 0.24168870410798582
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "metric": "spearman",
+      "mean": 0.45983684047537593,
+      "std_across_seeds": 0.009827486980174584,
+      "min": 0.4416359122726468,
+      "max": 0.4809856330159802,
+      "conditional_group_bootstrap_ci_low": 0.40073562429328713,
+      "conditional_group_bootstrap_ci_high": 0.5147829130588099
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "metric": "rmse",
+      "mean": 0.11796553912739671,
+      "std_across_seeds": 0.0007221823225269547,
+      "min": 0.11615117492948748,
+      "max": 0.11935532192562993,
+      "conditional_group_bootstrap_ci_low": 0.11143361139463097,
+      "conditional_group_bootstrap_ci_high": 0.1244972611634149
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "metric": "r2",
+      "mean": 0.2113698007891518,
+      "std_across_seeds": 0.009642903689391497,
+      "min": 0.19270696749075156,
+      "max": 0.23546945413651332,
+      "conditional_group_bootstrap_ci_low": 0.15603850035903424,
+      "conditional_group_bootstrap_ci_high": 0.26375335937214095
+    },
+    {
+      "model": "all_gene_contextual_embedding",
+      "metric": "spearman",
+      "mean": 0.4279558044958714,
+      "std_across_seeds": 0.010711356495545407,
+      "min": 0.40177622001449104,
+      "max": 0.45024378566761053,
+      "conditional_group_bootstrap_ci_low": 0.3694061468740011,
+      "conditional_group_bootstrap_ci_high": 0.4842918619363989
+    },
+    {
+      "model": "all_gene_contextual_embedding",
+      "metric": "rmse",
+      "mean": 0.11992108255072183,
+      "std_across_seeds": 0.0007048214130551515,
+      "min": 0.11833641059029675,
+      "max": 0.12172599773769864,
+      "conditional_group_bootstrap_ci_low": 0.11335645427863346,
+      "conditional_group_bootstrap_ci_high": 0.1265739525465602
+    },
+    {
+      "model": "all_gene_contextual_embedding",
+      "metric": "r2",
+      "mean": 0.18500872452570077,
+      "std_across_seeds": 0.009589043561849522,
+      "min": 0.16031902525938957,
+      "max": 0.20643151696878814,
+      "conditional_group_bootstrap_ci_low": 0.13162838548344544,
+      "conditional_group_bootstrap_ci_high": 0.23552174458269903
+    },
+    {
+      "model": "lineage_only",
+      "metric": "spearman",
+      "mean": 0.33966058514236586,
+      "std_across_seeds": 0.007898794451181131,
+      "min": 0.3249276533003539,
+      "max": 0.35479958142270657,
+      "conditional_group_bootstrap_ci_low": 0.27539238664844246,
+      "conditional_group_bootstrap_ci_high": 0.39948595215651517
+    },
+    {
+      "model": "lineage_only",
+      "metric": "rmse",
+      "mean": 0.12474554411764675,
+      "std_across_seeds": 0.000395132570062651,
+      "min": 0.12416516638907835,
+      "max": 0.12536852953782343,
+      "conditional_group_bootstrap_ci_low": 0.11797915884432347,
+      "conditional_group_bootstrap_ci_high": 0.13166379118889973
+    },
+    {
+      "model": "lineage_only",
+      "metric": "r2",
+      "mean": 0.11813552058052398,
+      "std_across_seeds": 0.0055884934739448555,
+      "min": 0.10931386625116668,
+      "max": 0.1263304953962946,
+      "conditional_group_bootstrap_ci_low": 0.07043596431246396,
+      "conditional_group_bootstrap_ci_high": 0.1598573842676051
+    }
+  ],
+  "uncertainty_note": "Repeated splits reuse the same cohort. Bootstrap intervals condition on all fitted OOF predictions; no independent-seed significance test.",
+  "elapsed_seconds": 94.50716066360474
+}

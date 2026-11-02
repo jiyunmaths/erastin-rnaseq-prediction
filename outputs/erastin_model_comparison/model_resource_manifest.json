@@ -1,0 +1,94 @@
+[
+  {
+    "path": "work/bulkformer/assets/G_tcga.pt",
+    "url": "https://zenodo.org/api/records/15744294/files/G_tcga.pt/content",
+    "bytes": 5276395,
+    "md5": "1c4d43a92514a4c5c974006d892a4ef2",
+    "sha256": "f37103436e56798ad542bf9d336a23335c4d780b9fed7cbb422ac9c3b00a12e1"
+  },
+  {
+    "path": "work/bulkformer/assets/esm2_feature_concat.pt",
+    "url": "https://zenodo.org/api/records/15744294/files/esm2_feature_concat.pt/content",
+    "bytes": 102452440,
+    "md5": "ea89dfe710fd0374f59ba8fb7a808819",
+    "sha256": "4994b7757b52aa9e56264e2cbae7035715972614e080e19e95064df039450a36"
+  },
+  {
+    "path": "work/bulkformer/assets/G_tcga_weight.pt",
+    "url": "https://zenodo.org/api/records/15744294/files/G_tcga_weight.pt/content",
+    "bytes": 1319659,
+    "md5": "eebb7f5a75d0049e00fa4d86185a2b52",
+    "sha256": "32ca5904aaa3ffb432256fd46e54d30f6e26f747135c091a460ace6352195cd2"
+  },
+  {
+    "path": "work/bulkformer/source/utils/BulkFormer.py",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/utils/BulkFormer.py",
+    "bytes": 4648,
+    "md5": "fe637840171391b40eab1a7d2a59f6ff",
+    "sha256": "85dabcd2f05db97f5956c9390f5c1c088bc8e782329e5f31426c0a86e745ef9f"
+  },
+  {
+    "path": "work/bulkformer/source/utils/BulkFormer_block.py",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/utils/BulkFormer_block.py",
+    "bytes": 1254,
+    "md5": "aacba2f17029fe245fab6d86638bc4b5",
+    "sha256": "37b606477f95940d06074699dc1bd8053ea71b6a65ec529db128b40055022106"
+  },
+  {
+    "path": "work/bulkformer/source/utils/Rope.py",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/utils/Rope.py",
+    "bytes": 623,
+    "md5": "c98d0ce68ce71a6eb21f69495ea2c690",
+    "sha256": "51e493bf011f28b91cb52f9fe1f18f5c3e4d1c12ef63e5bc400fe637b2f02f63"
+  },
+  {
+    "path": "work/bulkformer/source/model/config.py",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/model/config.py",
+    "bytes": 960,
+    "md5": "cda042a316ad84ee6a87489084908564",
+    "sha256": "34376d3062e725cb6479a00ce162b142ff9b13d2dc2e4d7814a0b0d1f6992a54"
+  },
+  {
+    "path": "work/bulkformer/source/README.md",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/README.md",
+    "bytes": 11033,
+    "md5": "d8d4237d44a4038955934f5b310f2427",
+    "sha256": "e250b7ff0d2c4ffe3f24da290fc126643539f99fc160321ef877d13be1ec2639"
+  },
+  {
+    "path": "work/bulkformer/source/data/README.md",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/data/README.md",
+    "bytes": 5736,
+    "md5": "b52da35b2153859f49f431f567ed1058",
+    "sha256": "ac908f8fcca35e37c0245e4e56b2bf2eaa978f36f9f6f74842cb918d402ef929"
+  },
+  {
+    "path": "work/bulkformer/source/model/README.md",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/model/README.md",
+    "bytes": 1424,
+    "md5": "9d9f732ed6259c1fac9f46f6ff5dcba2",
+    "sha256": "2991384a239e17c2db5a699f70854d6cbc3160bf7a515a3ad752b166b10965ca"
+  },
+  {
+    "path": "work/bulkformer/source/bulkformer.yaml",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/bulkformer.yaml",
+    "bytes": 4970,
+    "md5": "389a8b903858c30d8fc8d367da1e9779",
+    "sha256": "610cc4df4c7524ed9654a1774a39a0367fa6c447c350501d79293546a42bd072"
+  },
+  {
+    "path": "work/bulkformer/source/LICENSE",
+    "url": "https://raw.githubusercontent.com/KangBoming/BulkFormer/6d7f21b513299c7803887a7954a11d2c95039f47/LICENSE",
+    "bytes": 1068,
+    "md5": "a417d2cf971f5ddff17316714e4ba729",
+    "sha256": "b955f944f27e0e350a35312d9838db9b57b1542d8ef3a4c2b77b1a131cbeccaf"
+  },
+  {
+    "path": "work/bulkformer/assets/BulkFormer_147M.pt",
+    "url": "https://drive.google.com/file/d/1UtqN_vCh3669Fs-GU5CTE7F7UnuQCAzN/view",
+    "bytes": 530078608,
+    "sha256": "07b69eed9b74154bf6f98a5632f0b8b685124e90bea32b795f73d9e23d9e9f3f",
+    "author_md5_available": false,
+    "drive_modified_time": "2025-12-17T13:53:47.903Z"
+  }
+]

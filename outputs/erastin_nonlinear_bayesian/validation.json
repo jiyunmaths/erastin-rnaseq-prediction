@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "selected_networks": 960,
+  "candidate_loss_sets": 8640,
+  "prediction_max_error": 0.0,
+  "variance_max_error": 0.0,
+  "logpdf_max_error": 0.0,
+  "inner_rmse_max_error": 0.0,
+  "higher_order_quadrature_prediction_max_error": 1.887379141862766e-15,
+  "higher_order_quadrature_variance_max_error": 2.393918396847994e-16,
+  "all_inner_and_outer_quadratures_converged": true,
+  "inner_and_outer_numerical_diagnostics": 44160,
+  "independent_sklearn_node_regressions": [
+    {
+      "repeat": 1,
+      "model": "linear_cpd",
+      "lineage": "Lung",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 0.0
+    },
+    {
+      "repeat": 1,
+      "model": "spline_cpd",
+      "lineage": "Lung",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 0.0
+    },
+    {
+      "repeat": 1,
+      "model": "linear_cpd",
+      "lineage": "Thyroid",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 1.1102230246251565e-16
+    },
+    {
+      "repeat": 1,
+      "model": "spline_cpd",
+      "lineage": "Thyroid",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 2.220446049250313e-16
+    },
+    {
+      "repeat": 20,
+      "model": "linear_cpd",
+      "lineage": "Lung",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 0.0
+    },
+    {
+      "repeat": 20,
+      "model": "spline_cpd",
+      "lineage": "Lung",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 0.0
+    },
+    {
+      "repeat": 20,
+      "model": "linear_cpd",
+      "lineage": "Thyroid",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 1.1102230246251565e-16
+    },
+    {
+      "repeat": 20,
+      "model": "spline_cpd",
+      "lineage": "Thyroid",
+      "coefficient_error": 0.0,
+      "intercept_error": 0.0,
+      "noise_variance_error": 2.220446049250313e-16
+    }
+  ],
+  "independent_scipy_posterior_integrations": [
+    {
+      "repeat": 1,
+      "lineage": "Lung",
+      "sample_id": "ACH-000012",
+      "prediction_error": 1.1102230246251565e-16,
+      "variance_error": 2.0816681711721685e-17,
+      "log_normalizer_error": 1.1102230246251565e-15,
+      "scipy_integral_error_estimate": 4.98308769784767e-13
+    },
+    {
+      "repeat": 1,
+      "lineage": "Lung",
+      "sample_id": "ACH-000670",
+      "prediction_error": 1.1102230246251565e-16,
+      "variance_error": 2.7755575615628914e-17,
+      "log_normalizer_error": 3.3306690738754696e-15,
+      "scipy_integral_error_estimate": 4.4176518931602934e-13
+    },
+    {
+      "repeat": 1,
+      "lineage": "Lung",
+      "sample_id": "ACH-001113",
+      "prediction_error": 0.0,
+      "variance_error": 3.122502256758253e-17,
+      "log_normalizer_error": 1.0658141036401503e-14,
+      "scipy_integral_error_estimate": 1.3499743051639053e-10
+    },
+    {
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "sample_id": "ACH-000058",
+      "prediction_error": 0.0,
+      "variance_error": 1.734723475976807e-17,
+      "log_normalizer_error": 1.4432899320127035e-15,
+      "scipy_integral_error_estimate": 1.0229691139321098e-11
+    },
+    {
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "sample_id": "ACH-000897",
+      "prediction_error": 0.0,
+      "variance_error": 2.42861286636753e-17,
+      "log_normalizer_error": 2.220446049250313e-15,
+      "scipy_integral_error_estimate": 5.210283213484515e-13
+    },
+    {
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "sample_id": "ACH-001321",
+      "prediction_error": 0.0,
+      "variance_error": 2.42861286636753e-17,
+      "log_normalizer_error": 3.774758283725532e-15,
+      "scipy_integral_error_estimate": 9.797383615955655e-12
+    },
+    {
+      "repeat": 20,
+      "lineage": "Lung",
+      "sample_id": "ACH-000012",
+      "prediction_error": 1.1102230246251565e-16,
+      "variance_error": 2.0816681711721685e-17,
+      "log_normalizer_error": 1.1102230246251565e-15,
+      "scipy_integral_error_estimate": 4.98308769784767e-13
+    },
+    {
+      "repeat": 20,
+      "lineage": "Lung",
+      "sample_id": "ACH-000670",
+      "prediction_error": 1.1102230246251565e-16,
+      "variance_error": 2.7755575615628914e-17,
+      "log_normalizer_error": 3.3306690738754696e-15,
+      "scipy_integral_error_estimate": 4.4176518931602934e-13
+    },
+    {
+      "repeat": 20,
+      "lineage": "Lung",
+      "sample_id": "ACH-001113",
+      "prediction_error": 0.0,
+      "variance_error": 3.122502256758253e-17,
+      "log_normalizer_error": 1.0658141036401503e-14,
+      "scipy_integral_error_estimate": 1.3499743051639053e-10
+    },
+    {
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "sample_id": "ACH-000058",
+      "prediction_error": 0.0,
+      "variance_error": 1.734723475976807e-17,
+      "log_normalizer_error": 1.4432899320127035e-15,
+      "scipy_integral_error_estimate": 1.0229691139321098e-11
+    },
+    {
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "sample_id": "ACH-000897",
+      "prediction_error": 0.0,
+      "variance_error": 2.42861286636753e-17,
+      "log_normalizer_error": 2.220446049250313e-15,
+      "scipy_integral_error_estimate": 5.210283213484515e-13
+    },
+    {
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "sample_id": "ACH-001321",
+      "prediction_error": 0.0,
+      "variance_error": 2.42861286636753e-17,
+      "log_normalizer_error": 3.774758283725532e-15,
+      "scipy_integral_error_estimate": 9.797383615955655e-12
+    }
+  ],
+  "matched_baseline_scores_verified": true,
+  "scalers_knots_group_exclusion_and_acyclic_graphs_verified": true,
+  "mathematical_checks": {
+    "passed": true,
+    "linear_limit_prediction_error": 8.881784197001252e-16,
+    "linear_limit_variance_error": 2.7755575615628914e-16,
+    "quadrature_refinement_prediction_error": 1.3322676295501878e-15,
+    "joint_to_conditional_density_ratio_error": 5.551115123125783e-16,
+    "synthetic_prediction_second_difference": 0.0901943596984599
+  },
+  "audit_export_note": "The reference-check list was overwritten by a later loop label in the first report export. The label collision is fixed; all eight independent node-refit audits were repeated and saved. Predictions and scores were unaffected."
+}

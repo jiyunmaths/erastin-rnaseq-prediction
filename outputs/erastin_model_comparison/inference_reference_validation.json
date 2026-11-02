@@ -1,0 +1,9 @@
+{
+  "panel_max_absolute_error": 0.0,
+  "all_gene_max_absolute_error": 0.0,
+  "observed_gene_max_absolute_error": 0.0,
+  "panel_gene_tokens_max_absolute_error": 0.0,
+  "passed": true,
+  "comparison": "Extraction row 0 versus independent full-token forward call of pinned author code; NumPy pooling exactly reproduced",
+  "ModelID": "ACH-000002"
+}

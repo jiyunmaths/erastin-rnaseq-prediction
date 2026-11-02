@@ -1,0 +1,108 @@
+{
+  "status": "frozen_before_real_heldout_results",
+  "created_utc": "2026-11-01T20:55:57Z",
+  "scripts": {
+    "spline_network.py": "e8107ee01f0c2aaf1e3645c83ef9c386947b13acb48db4eefc1a5327b14de830",
+    "run_comparison.py": "0cc58f9c77ba3182a1073f4d97184068613db42a15dd3a84624e2dbf92b56f4d"
+  },
+  "data": "unchanged 40-gene log2(TPM+1) panel, 745 cancer lines, 734 identity groups",
+  "target": "negative reported erastin AUC, continuous, no clipping or discretization",
+  "outer_holdouts": "same 24 corrected leave-lineage-out tests as saved ridge and NN",
+  "repeats": 20,
+  "inner_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "tuning": "same five saved grouped inner folds; choose minimum equal-weight mean inner RMSE; first candidate wins ties",
+  "families": [
+    "linear_cpd",
+    "spline_cpd"
+  ],
+  "alpha_grid": [
+    0.0,
+    1.0,
+    10.0,
+    100.0,
+    300.0,
+    1000.0,
+    3000.0,
+    10000.0,
+    1000000.0
+  ],
+  "graph": "maximum spanning tree from Gaussian conditional mutual information between genes given response, learned independently in every current training subset; fixed gene root index0 SLC7A11; response parent of every gene",
+  "graph_control": "both new families share the graph-learning rule and identical graph within a training subset; nonlinear structure search is not tested",
+  "spline_cpd": "X_j | Y,X_parent ~ Normal(intercept_j + f_j(Y) + g_j(X_parent), sigma_j^2), with additive cubic B-spline means and constant conditional variance",
+  "linear_cpd": "matched Gaussian CPDs with linear functions of the same parents, same alpha grid, variance estimator and prior",
+  "basis": "four training-quantile knots at 0,1/3,2/3,1; collapse duplicate knots; cubic degree3, include_bias=False; linear extrapolation; each basis column training-standardized",
+  "fitting": "each node uses ridge least squares (unpenalized intercept); one common alpha per network; residual maximum-likelihood variance with floor 1e-6 standardized units",
+  "scaling": "joint response/gene StandardScaler, basis knots and basis scaling all fitted only on each current training subset",
+  "prior": "training response Gaussian; graph/CPD parameters point estimates rather than posterior parameter averaging",
+  "inference": "posterior mean E[Y|all 40 observed genes]; numerical integration over response spline intervals, analytic Gaussian tail moments under linear extrapolation",
+  "quadrature": {
+    "orders": [
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "mean_tolerance_standardized": 1e-08,
+    "variance_tolerance_standardized": 1e-07,
+    "log_normalizer_tolerance": 1e-08,
+    "rule": "double order until all three tolerances pass; fail rather than silently accept unconverged predictions; no finite response truncation"
+  },
+  "references": "saved matched 20-repeat ridge and neural network; previous Gaussian TAN as additional reference; no refitting of these baselines",
+  "primary_contrasts": "spline BN vs expression ridge and expression neural network; spline vs matched linear-CPD BN isolates conditional nonlinearity",
+  "metrics": [
+    "spearman",
+    "rmse",
+    "r2"
+  ],
+  "macro": "same 19 lineages with n>=10; undefined lineage Spearman not silently omitted",
+  "uncertainty": {
+    "bootstrap_count": 5000,
+    "pooled_seed": 2026111001,
+    "macro_seed": 2026111002,
+    "unit": "whole lineage, all arms and repeats paired; conditional on fixed predictions, no bootstrap refits"
+  },
+  "probability_score": "held-out conditional log likelihood using the normalized nonlinear posterior, not a Gaussian approximation to it",
+  "audits": "linear limit matches prior Gaussian BN at zero regularization; synthetic nonlinearity; higher-order integration for every selected nonlinear model; independent CPD Ridge refits and scipy adaptive quadrature on prespecified representative holdouts",
+  "previous_results_seen": true,
+  "exploratory_same_cohort_followup": true,
+  "training_only_pilot": "used inner-training rows only for timing and numerical convergence, no validation or outer performance examined",
+  "workers": 6,
+  "environment": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "sklearn": "1.5.2"
+  },
+  "method_sources": [
+    {
+      "url": "https://arxiv.org/abs/2610.30838",
+      "use": "related nonlinear Gaussian CPDs with spline means; this custom experiment does not reproduce its structure search or smoothing penalty"
+    },
+    {
+      "url": "https://scikit-learn.org/1.6/modules/generated/sklearn.preprocessing.SplineTransformer.html",
+      "use": "cubic B-spline basis and linear extrapolation; local installed version recorded separately"
+    }
+  ]
+}

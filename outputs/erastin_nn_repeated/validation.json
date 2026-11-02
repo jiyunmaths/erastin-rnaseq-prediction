@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "source_and_frozen_script_hashes_verified": true,
+  "matched_ridge_seeds_verified": true,
+  "matched_fixed_outer_lineages_and_identity_exclusion_verified": true,
+  "independent_inner_membership_checks": 9600,
+  "new_ensemble_models_reconstructed": 480,
+  "candidate_validation_sets_audited": 1920,
+  "max_prediction_reconstruction_error": 0.0,
+  "max_recomputed_inner_loss_error": 0.0,
+  "train_only_feature_and_target_scaling_verified": true,
+  "independent_sklearn_refits": [
+    {
+      "repeat": 1,
+      "lineage": "Lung",
+      "neural_max_abs_error": 0.0,
+      "ridge_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "repeat": 1,
+      "lineage": "Thyroid",
+      "neural_max_abs_error": 0.0,
+      "ridge_max_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "repeat": 20,
+      "lineage": "Lung",
+      "neural_max_abs_error": 0.0,
+      "ridge_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "repeat": 20,
+      "lineage": "Thyroid",
+      "neural_max_abs_error": 0.0,
+      "ridge_max_abs_error": 1.1102230246251565e-16
+    }
+  ],
+  "ridge_per_lineage_metrics_reproduced": true,
+  "neural_convergence": {
+    "all_member_fits": 30240,
+    "all_member_fits_with_convergence_warning": 0,
+    "outer_member_fits": 1440,
+    "outer_member_fits_with_convergence_warning": 0
+  },
+  "weighted_midranks_exact_vs_expanded_scipy_ranks": true,
+  "max_rank_error": 0.0,
+  "bootstrap_max_metric_error_vs_expansion": 2.7755575615628914e-16,
+  "identical_predictions_have_exact_zero_paired_difference": true
+}

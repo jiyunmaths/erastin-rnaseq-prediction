@@ -1,0 +1,82 @@
+{
+  "status": "data_prepared_embeddings_not_computed_models_not_trained",
+  "target": "y_sensitivity = -reported_harmonized_CTRP_AUC",
+  "head": "ridge",
+  "ridge_alphas": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "tuning": "4 inner grouped folds within 5 outer grouped folds; minimize validation RMSE",
+  "preprocessing": "Fit mean and standard deviation on training rows only, separately for each fold and representation; no cohort-wide scaling or feature selection.",
+  "primary_metrics": [
+    "out_of_fold_Spearman",
+    "out_of_fold_RMSE",
+    "out_of_fold_R2"
+  ],
+  "uncertainty": "paired bootstrap by group_id across the same out-of-fold rows",
+  "models": [
+    {
+      "name": "panel_expression",
+      "input": "X_panel_log2tpm1",
+      "feature_count": 40
+    },
+    {
+      "name": "panel_contextual_embedding",
+      "input": "X_bulkformer_lntpm1",
+      "pooling": "mean of model output at panel_indices_0based",
+      "expected_feature_count": 643
+    },
+    {
+      "name": "all_gene_contextual_embedding",
+      "input": "X_bulkformer_lntpm1",
+      "pooling": "mean of model output across all 20010 positions, including missing-gene tokens, matching the pinned notebook all-gene protocol",
+      "expected_feature_count": 643
+    }
+  ],
+  "bulkformer": {
+    "family": "original_bulkformer_147M",
+    "repository_commit": "6d7f21b513299c7803887a7954a11d2c95039f47",
+    "checkpoint_filename": "bulkformer_147M.pt",
+    "checkpoint_sha256": null,
+    "checkpoint_status": "not_downloaded_or_loaded",
+    "hidden_dimension": 640,
+    "output_dimension": 643,
+    "additional_channels": [
+      "mask_fraction",
+      "observed_expression_mean",
+      "nonzero_ratio_as_implemented"
+    ],
+    "freeze": true,
+    "eval": true,
+    "additional_random_masking": false,
+    "mask_prob_argument": 0.046226886556721636,
+    "mask_prob_note": "In the pinned forward method this argument appends a scalar feature; it does not randomly mask input. Use the missing-gene fraction as in the notebook.",
+    "missing_value": -10,
+    "observed_zero_value": 0,
+    "normalization": "ln(TPM+1) = source log2(TPM+1) * ln(2); no re-TPM normalization.",
+    "context_warning": "The panel pooling arm sees the full transcriptome and the 3 global summary channels, so it is not a panel-only information model.",
+    "pretraining_overlap": "not_resolved; no claim that evaluation cell lines were absent from foundation-model pretraining"
+  },
+  "robustness_checks": [
+    "modal_dose_range_subset without changing the primary labels",
+    "group-safe leave-lineage-out evaluation",
+    "lineage-only baseline",
+    "640-channel trunk-only pooling for both embedding arms",
+    "observed-gene-only all-gene pooling as a secondary protocol"
+  ]
+}

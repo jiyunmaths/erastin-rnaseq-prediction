@@ -1,0 +1,292 @@
+{
+  "top10_native": {
+    "CTRP": {
+      "ridge": [
+        "SLC7A11",
+        "GPX4",
+        "ABCC1",
+        "ACSL4",
+        "AIFM2",
+        "GOT1",
+        "ACSL3",
+        "FADS1",
+        "LPCAT3",
+        "LRP8"
+      ],
+      "elastic_net": [
+        "SLC7A11",
+        "ACSL4",
+        "GPX4",
+        "AIFM2",
+        "ABCC1",
+        "FADS1",
+        "ACSL3",
+        "LAMP2",
+        "GOT1",
+        "CYB5R1"
+      ],
+      "neural_network": [
+        "SLC7A11",
+        "ACSL4",
+        "GPX4",
+        "AIFM2",
+        "ABCC1",
+        "GOT1",
+        "ACSL3",
+        "LRP8",
+        "GSR",
+        "DHFR"
+      ]
+    },
+    "PRISM": {
+      "ridge": [
+        "AIFM2",
+        "SLC3A2",
+        "SLC40A1",
+        "LRP8",
+        "SLC7A11",
+        "ACSL4",
+        "POR",
+        "GCLC",
+        "NADK",
+        "NFE2L2"
+      ],
+      "elastic_net": [
+        "AIFM2",
+        "SLC3A2",
+        "SLC40A1",
+        "ACSL4",
+        "POR",
+        "GCLC",
+        "LRP8",
+        "SLC7A11",
+        "NFE2L2",
+        "NADK"
+      ],
+      "neural_network": [
+        "AIFM2",
+        "SLC3A2",
+        "LRP8",
+        "SLC7A11",
+        "SLC40A1",
+        "POR",
+        "ACSL4",
+        "GCLC",
+        "CYB5R1",
+        "NFE2L2"
+      ]
+    }
+  },
+  "positive_pointwise_native_intervals": {
+    "CTRP": {
+      "ridge": [
+        "SLC7A11",
+        "GPX4",
+        "ABCC1",
+        "ACSL4",
+        "AIFM2",
+        "GOT1",
+        "LRP8"
+      ],
+      "elastic_net": [
+        "SLC7A11",
+        "ACSL4",
+        "GPX4",
+        "AIFM2",
+        "ABCC1",
+        "GOT1"
+      ],
+      "neural_network": [
+        "SLC7A11",
+        "ACSL4",
+        "GPX4",
+        "AIFM2",
+        "ABCC1",
+        "GOT1",
+        "LRP8"
+      ]
+    },
+    "PRISM": {
+      "ridge": [
+        "AIFM2",
+        "SLC7A11",
+        "ACSL4",
+        "GCLC"
+      ],
+      "elastic_net": [
+        "AIFM2",
+        "ACSL4",
+        "GCLC"
+      ],
+      "neural_network": [
+        "AIFM2",
+        "SLC7A11",
+        "ACSL4",
+        "GCLC",
+        "CYB5R1"
+      ]
+    }
+  },
+  "always_selected_EN": {
+    "CTRP": [
+      "SLC7A11",
+      "ACSL4",
+      "AIFM2",
+      "GPX4",
+      "ACSL3",
+      "ABCC1",
+      "LAMP2",
+      "CYB5R1",
+      "CTSD",
+      "FADS1",
+      "GCLC",
+      "FADS2",
+      "ATF4"
+    ],
+    "PRISM": [
+      "AIFM2",
+      "SLC3A2",
+      "POR",
+      "ACSL4"
+    ]
+  },
+  "cross_assay_rank_correlations": [
+    {
+      "model": "ridge",
+      "scope": "native_pooled",
+      "measure": "predictive_importance",
+      "spearman": 0.17806776556776555
+    },
+    {
+      "model": "elastic_net",
+      "scope": "native_pooled",
+      "measure": "predictive_importance",
+      "spearman": 0.1902014652014652
+    },
+    {
+      "model": "neural_network",
+      "scope": "native_pooled",
+      "measure": "predictive_importance",
+      "spearman": 0.24473443223443223
+    },
+    {
+      "model": "ridge",
+      "scope": "native_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.2786630036630036
+    },
+    {
+      "model": "elastic_net",
+      "scope": "native_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.1711996336996337
+    },
+    {
+      "model": "neural_network",
+      "scope": "native_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.26007326007326004
+    },
+    {
+      "model": "ridge",
+      "scope": "common13_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.4081959706959707
+    },
+    {
+      "model": "elastic_net",
+      "scope": "common13_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.36007326007326007
+    },
+    {
+      "model": "neural_network",
+      "scope": "common13_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.4112179487179487
+    },
+    {
+      "model": "ridge",
+      "scope": "matched_cells_common13_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.31634615384615383
+    },
+    {
+      "model": "elastic_net",
+      "scope": "matched_cells_common13_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.3116300366300366
+    },
+    {
+      "model": "neural_network",
+      "scope": "matched_cells_common13_macro",
+      "measure": "predictive_importance",
+      "spearman": 0.3141025641025641
+    }
+  ],
+  "native_model_agreement": [
+    {
+      "dataset": "CTRP",
+      "scope": "native_pooled",
+      "first_model": "ridge",
+      "reference_model": "elastic_net",
+      "spearman": 0.9164835164835166
+    },
+    {
+      "dataset": "CTRP",
+      "scope": "native_pooled",
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "spearman": 0.9914835164835164
+    },
+    {
+      "dataset": "CTRP",
+      "scope": "native_pooled",
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "spearman": 0.9155219780219779
+    },
+    {
+      "dataset": "PRISM",
+      "scope": "native_pooled",
+      "first_model": "ridge",
+      "reference_model": "elastic_net",
+      "spearman": 0.8000457875457874
+    },
+    {
+      "dataset": "PRISM",
+      "scope": "native_pooled",
+      "first_model": "ridge",
+      "reference_model": "neural_network",
+      "spearman": 0.9424450549450548
+    },
+    {
+      "dataset": "PRISM",
+      "scope": "native_pooled",
+      "first_model": "elastic_net",
+      "reference_model": "neural_network",
+      "spearman": 0.7718406593406593
+    }
+  ],
+  "broad_common13_genes": {
+    "CTRP": {
+      "ridge": [
+        "ABCC1",
+        "AIFM2",
+        "AGPAT3"
+      ],
+      "elastic_net": [
+        "SLC7A11"
+      ],
+      "neural_network": [
+        "AIFM2",
+        "AGPAT3"
+      ]
+    },
+    "PRISM": {
+      "ridge": [],
+      "elastic_net": [],
+      "neural_network": []
+    }
+  }
+}

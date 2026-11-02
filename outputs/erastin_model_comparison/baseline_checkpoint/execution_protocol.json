@@ -1,0 +1,46 @@
+{
+  "seed": 20261031,
+  "input_sha256": "62b83d6cf2e8daeb6e8d78f9091c3db4bb4b8192b9cc3a93d12536e808c26891",
+  "splits_sha256": "e72bf9aa82c51bfec98d773d14f7b1fd7fdc3de6c4fc4a58c39d2b73c413607f",
+  "alpha_grid": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "alpha_selection": "minimum equal-weight mean inner-fold RMSE; ties use first/smallest grid alpha",
+  "standardization": "StandardScaler fit independently on each training subset; no feature selection",
+  "lineage_encoder": "OneHotEncoder fit on each training subset; unknown lineage maps to all-zero vector",
+  "primary_outer_folds": 5,
+  "primary_inner_folds": 4,
+  "bootstrap_group_resamples": 5000,
+  "bootstrap_scope": "fixed OOF predictions; does not account for model-refitting or split-selection uncertainty",
+  "modal_dose_range": "refit and retune on included subset; original inner/outer folds restricted",
+  "leave_lineage_out_tuning": "five saved group folds restricted to non-held-out lineages",
+  "primary_models": [
+    "panel_expression",
+    "panel_contextual_embedding",
+    "all_gene_contextual_embedding"
+  ],
+  "secondary_models": [
+    "lineage_only",
+    "training_mean",
+    "panel_trunk640",
+    "all_gene_trunk640",
+    "observed_gene_pooling"
+  ],
+  "no_posthoc_grid_expansion": true
+}

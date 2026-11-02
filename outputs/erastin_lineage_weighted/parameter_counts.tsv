@@ -1,0 +1,54 @@
+model	panel	alpha	outer_fits	width	max_depth	min_child_weight	reg_lambda	num_boost_round
+weighted__ridge__40	40	100	4					
+weighted__ridge__40	40	316.227766017	476					
+weighted__ridge__64	64	316.227766017	479					
+weighted__ridge__64	64	1000	1					
+weighted__ridge__80	80	316.227766017	426					
+weighted__ridge__80	80	1000	54					
+weighted__neural_network__40	40	100	461	16				
+weighted__neural_network__40	40	100	19	32				
+weighted__neural_network__64	64	100	475	16				
+weighted__neural_network__64	64	100	5	32				
+weighted__neural_network__80	80	100	473	16				
+weighted__neural_network__80	80	100	7	32				
+weighted__xgboost__40	40		1		1	20	1	300
+weighted__xgboost__40	40		1		1	20	20	300
+weighted__xgboost__40	40		16		2	5	1	300
+weighted__xgboost__40	40		22		2	5	20	300
+weighted__xgboost__40	40		1		2	20	1	100
+weighted__xgboost__40	40		5		2	20	1	300
+weighted__xgboost__40	40		25		2	20	20	300
+weighted__xgboost__40	40		79		3	5	1	100
+weighted__xgboost__40	40		41		3	5	1	300
+weighted__xgboost__40	40		60		3	5	20	100
+weighted__xgboost__40	40		77		3	5	20	300
+weighted__xgboost__40	40		71		3	20	1	100
+weighted__xgboost__40	40		6		3	20	1	300
+weighted__xgboost__40	40		19		3	20	20	100
+weighted__xgboost__40	40		56		3	20	20	300
+weighted__xgboost__64	64		1		1	5	1	300
+weighted__xgboost__64	64		2		1	20	1	300
+weighted__xgboost__64	64		7		2	5	1	300
+weighted__xgboost__64	64		22		2	5	20	300
+weighted__xgboost__64	64		4		2	20	1	300
+weighted__xgboost__64	64		36		2	20	20	300
+weighted__xgboost__64	64		77		3	5	1	100
+weighted__xgboost__64	64		20		3	5	1	300
+weighted__xgboost__64	64		33		3	5	20	100
+weighted__xgboost__64	64		122		3	5	20	300
+weighted__xgboost__64	64		43		3	20	1	100
+weighted__xgboost__64	64		13		3	20	20	100
+weighted__xgboost__64	64		100		3	20	20	300
+weighted__xgboost__80	80		1		1	5	20	600
+weighted__xgboost__80	80		3		2	5	1	300
+weighted__xgboost__80	80		16		2	5	20	300
+weighted__xgboost__80	80		2		2	20	1	300
+weighted__xgboost__80	80		21		2	20	20	300
+weighted__xgboost__80	80		55		3	5	1	100
+weighted__xgboost__80	80		23		3	5	1	300
+weighted__xgboost__80	80		12		3	5	20	100
+weighted__xgboost__80	80		162		3	5	20	300
+weighted__xgboost__80	80		46		3	20	1	100
+weighted__xgboost__80	80		11		3	20	1	300
+weighted__xgboost__80	80		2		3	20	20	100
+weighted__xgboost__80	80		126		3	20	20	300

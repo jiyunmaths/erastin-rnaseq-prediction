@@ -1,0 +1,1838 @@
+{
+  "status": "fixed_before_culture_augmented_fits",
+  "created_utc": "2026-11-02T03:33:40Z",
+  "samples": 386,
+  "identity_groups": 379,
+  "lineages": 20,
+  "source_target": "Official Broad DepMap PRISM Repurposing 20Q2 v1, DOI 10.6084/m9.figshare.20564034.v1; erastin BRD-A25004090-001-08-4, HTS002 secondary dose-response AUC.",
+  "target": "Negative reported PRISM AUC, higher=more sensitive. Preserve values above 1 and finite processed curves. No clipping, R2-based response filtering, response imputation or calibration to CTRP.",
+  "panels": {
+    "5": [
+      "SLC7A11",
+      "GPX4",
+      "ABCC1",
+      "ACSL4",
+      "AIFM2"
+    ],
+    "64": [
+      "SLC7A11",
+      "GCLC",
+      "GCLM",
+      "GSS",
+      "GSR",
+      "GGT1",
+      "CNDP2",
+      "CTSD",
+      "CTNS",
+      "GPX4",
+      "LRP8",
+      "AIFM2",
+      "STARD7",
+      "DHFR",
+      "TFRC",
+      "NCOA4",
+      "NFS1",
+      "ACSL4",
+      "LPCAT3",
+      "AGPAT3",
+      "MBOAT7",
+      "ACSL3",
+      "SCD",
+      "MBOAT1",
+      "MBOAT2",
+      "PLA2G6",
+      "ABHD12",
+      "POR",
+      "CYB5R1",
+      "NADK",
+      "HDDC3",
+      "NFE2L2",
+      "NFE2L1",
+      "NGLY1",
+      "SREBF1",
+      "ATF4",
+      "ATF3",
+      "HSPA8",
+      "LAMP2",
+      "CKB",
+      "SLC3A2",
+      "CBS",
+      "CTH",
+      "GLS2",
+      "GOT1",
+      "PRDX6",
+      "SEPHS2",
+      "GCH1",
+      "PTS",
+      "SPR",
+      "IREB2",
+      "FTH1",
+      "SLC40A1",
+      "PROM2",
+      "FADS1",
+      "ELOVL5",
+      "FADS2",
+      "FAR1",
+      "GNPAT",
+      "AGPS",
+      "TMEM164",
+      "BECN1",
+      "BAP1",
+      "ABCC1"
+    ]
+  },
+  "split_design": "20 response-blind lineage-stratified grouped holdouts. Within each lineage, sample intact identity groups uniformly among subsets with nearest feasible sample count to round(0.2*n), requiring at least one group in both training/testing. New masks generated on PRISM cohort, shared by all six arms.",
+  "inner_design": "Same five response-blind group-stratified inner folds per outer split across all six arms. Every inner training fit retains all 20 lineages; rare lineages cannot occur in every inner validation fold. If an outer-training lineage had one group it would remain protected in every inner training fit.",
+  "outer_train_sizes": [
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308,
+    308
+  ],
+  "outer_test_sizes": [
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78,
+    78
+  ],
+  "split_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "inner_split_seeds": [
+    3222237651,
+    4211103832,
+    3387312844,
+    760744323,
+    4025413262,
+    1064357086,
+    208690526,
+    3469505707,
+    2542410094,
+    3924082622,
+    3102039871,
+    2986340925,
+    1856675270,
+    4079919694,
+    1433603754,
+    2646278236,
+    342012659,
+    2242551488,
+    234027037,
+    711790135
+  ],
+  "neural_seed_triplets": [
+    [
+      2893371290,
+      497654881,
+      1975922792
+    ],
+    [
+      3355977667,
+      424493826,
+      1550394385
+    ],
+    [
+      2168687005,
+      1647426202,
+      2688205909
+    ],
+    [
+      42786468,
+      3076077911,
+      273767066
+    ],
+    [
+      1609035048,
+      2851333803,
+      976039955
+    ],
+    [
+      2236401383,
+      2445062483,
+      1129737822
+    ],
+    [
+      3329912852,
+      2638933889,
+      1145265932
+    ],
+    [
+      3422116929,
+      1806768943,
+      1378693510
+    ],
+    [
+      1256998787,
+      700040913,
+      2981348477
+    ],
+    [
+      2517894111,
+      3267202418,
+      2342300164
+    ],
+    [
+      4106300991,
+      1308386135,
+      2273722985
+    ],
+    [
+      1426094152,
+      2803084605,
+      3417373563
+    ],
+    [
+      1122310826,
+      28864576,
+      2615952050
+    ],
+    [
+      2346668660,
+      3452764067,
+      842565008
+    ],
+    [
+      2744930578,
+      3510598388,
+      675723401
+    ],
+    [
+      703156529,
+      4234057440,
+      1500259783
+    ],
+    [
+      3090577113,
+      2300113296,
+      1426115566
+    ],
+    [
+      1178198002,
+      3473816129,
+      1766774902
+    ],
+    [
+      835497170,
+      2416392876,
+      3057713454
+    ],
+    [
+      3712087977,
+      2560194263,
+      1118821988
+    ]
+  ],
+  "ridge_alphas": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "neural_grid": [
+    {
+      "width": 16,
+      "alpha": 1.0
+    },
+    {
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "width": 16,
+      "alpha": 1000.0
+    },
+    {
+      "width": 32,
+      "alpha": 1.0
+    },
+    {
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "width": 32,
+      "alpha": 100.0
+    },
+    {
+      "width": 32,
+      "alpha": 1000.0
+    }
+  ],
+  "neural_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "elastic_net_grid": [
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.01
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.05
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.25
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.5
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.75
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 0.9
+    },
+    {
+      "alpha": 10.0,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 7.498942093324558,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 5.623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 4.216965034285822,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 2.371373705661655,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 1.7782794100389228,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 1.333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.7498942093324559,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.5623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.4216965034285822,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.23713737056616552,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.1778279410038923,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.1333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.07498942093324558,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.05623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.042169650342858224,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.023713737056616554,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.01778279410038923,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.01333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.007498942093324558,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.005623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.004216965034285823,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0023713737056616554,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0017782794100389228,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.001333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0007498942093324559,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0005623413251903491,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00042169650342858224,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00023713737056616554,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.00017782794100389227,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0001333521432163324,
+      "l1_ratio": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "l1_ratio": 1.0
+    }
+  ],
+  "elastic_net_l1_ratios": [
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    1.0
+  ],
+  "elastic_net_alphas": [
+    10.0,
+    7.498942093324558,
+    5.623413251903491,
+    4.216965034285822,
+    3.1622776601683795,
+    2.371373705661655,
+    1.7782794100389228,
+    1.333521432163324,
+    1.0,
+    0.7498942093324559,
+    0.5623413251903491,
+    0.4216965034285822,
+    0.31622776601683794,
+    0.23713737056616552,
+    0.1778279410038923,
+    0.1333521432163324,
+    0.1,
+    0.07498942093324558,
+    0.05623413251903491,
+    0.042169650342858224,
+    0.03162277660168379,
+    0.023713737056616554,
+    0.01778279410038923,
+    0.01333521432163324,
+    0.01,
+    0.007498942093324558,
+    0.005623413251903491,
+    0.004216965034285823,
+    0.0031622776601683794,
+    0.0023713737056616554,
+    0.0017782794100389228,
+    0.001333521432163324,
+    0.001,
+    0.0007498942093324559,
+    0.0005623413251903491,
+    0.00042169650342858224,
+    0.00031622776601683794,
+    0.00023713737056616554,
+    0.00017782794100389227,
+    0.0001333521432163324,
+    0.0001
+  ],
+  "elastic_net_fixed": {
+    "max_iter": 50000,
+    "tol": 1e-09,
+    "selection": "cyclic"
+  },
+  "primary_features": "Fixed 5/64 gene expression + growth pattern + medium code + basal-medium recipe prefix + recorded FBS percentage and its missingness. No response/lineage/identity/source-vendor fields as model inputs.",
+  "condition_fields": "GrowthPattern; observed MF code from OnboardedMedia; recipe from FormulationID. One-to-one code/recipe mapping verified. Serum % extracted by explicit % FBS regex; do not infer unrecorded supplements or basal nutrient concentrations.",
+  "excluded_fields": "PlateCoating is constant None in all 386; SerumFreeMedia has only False among 367 known and 19 missing, redundant with medium missingness. ModelDerivationMaterial, ModelTreatment and CulturedResistanceDrug are entirely empty. Exact full recipe not encoded separately from its one-to-one medium code.",
+  "metadata_limit": "These Model.csv fields describe onboarding, not verified PRISM-screen conditions. Associations may reflect lineage, source or other cell-line properties rather than causal culture effects. The release README description and observed medium columns are reversed; preserve and audit raw field values.",
+  "preprocessing": "Fit separately inside every inner training fold and on outer training for refit. Median-impute serum % using current training values; standardize genes and serum only. Encode growth with training-observed categories; medium code/basal family need >=5 current-training rows to retain separate categories. Other/unseen categories share reserved OTHER; missing is explicit MISSING. One-hot and missingness indicators are centered but never variance-standardized, avoiding rare-category amplification. Training column means center the joint matrix.",
+  "categorical_min_counts": {
+    "growth_pattern": 1,
+    "medium_code": 5,
+    "basal_medium": 5
+  },
+  "weighting": "Unweighted across all arms; tuning equal-mean five-fold RMSE in original PRISM target units. No outer-test selection of categories, imputation values, scalers or hyperparameters.",
+  "controls": "Reuse 120 verified gene-only models, newly fit 120 gene+culture models and 60 culture-only models. Same source targets, RNA values, outer/inner masks and initialization seed triplets. Native unweighted MLP replaces the unit-weight adapter; numerical parity checked independently.",
+  "primary_comparisons": [
+    [
+      "ridge__5__culture",
+      "ridge__5__expression"
+    ],
+    [
+      "ridge__64__culture",
+      "ridge__64__expression"
+    ],
+    [
+      "elastic_net__5__culture",
+      "elastic_net__5__expression"
+    ],
+    [
+      "elastic_net__64__culture",
+      "elastic_net__64__expression"
+    ],
+    [
+      "neural_network__5__culture",
+      "neural_network__5__expression"
+    ],
+    [
+      "neural_network__64__culture",
+      "neural_network__64__expression"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "ridge__5__culture",
+      "ridge__0__culture"
+    ],
+    [
+      "ridge__64__culture",
+      "ridge__0__culture"
+    ],
+    [
+      "elastic_net__5__culture",
+      "elastic_net__0__culture"
+    ],
+    [
+      "elastic_net__64__culture",
+      "elastic_net__0__culture"
+    ],
+    [
+      "neural_network__5__culture",
+      "neural_network__0__culture"
+    ],
+    [
+      "neural_network__64__culture",
+      "neural_network__0__culture"
+    ],
+    [
+      "ridge__5__culture",
+      "ridge__64__culture"
+    ],
+    [
+      "elastic_net__5__culture",
+      "elastic_net__64__culture"
+    ],
+    [
+      "neural_network__5__culture",
+      "neural_network__64__culture"
+    ]
+  ],
+  "primary_metrics": [
+    "pooled_rmse",
+    "macro_all_rmse"
+  ],
+  "secondary_metrics": [
+    "pooled_spearman",
+    "pooled_r2",
+    "pooled_mae",
+    "pooled_pearson",
+    "macro_large_rmse"
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026111401,
+    "unit": "Paired whole-lineage bootstrap shared across arms and all 20 split-specific test sets. Fixed fits, no refitting or correction for model/panel comparisons. Pairwise correlation differences use only repeats where both correlations are defined."
+  },
+  "new_outer_models": 180,
+  "reused_outer_models": 120,
+  "total_outer_models": 300,
+  "workers": 8,
+  "limitations": [
+    "20 repeated holdouts overlap; they are not independent biological replications.",
+    "Lineages are represented in both sets. This design measures new cell-line prediction within represented lineages, not transfer to absent lineages.",
+    "Public processed AUC and STR checks do not establish independent raw-well or replicate-level QC.",
+    "This evaluates the predefined grids, not globally optimal neural architectures.",
+    "Adding culture covariates measures prediction gain under these shared lineage-stratified splits; it does not isolate causal growth-condition effects or demonstrate transfer to unseen media.",
+    "This experiment is exploratory; prior response/model results have informed the ongoing investigation."
+  ],
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  },
+  "data_sha256": {
+    "panel_inputs.npz": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9",
+    "shared_splits.npz": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896",
+    "culture_metadata.tsv": "dd8a2295d0ae1971d33fc2eb58b195f28ae17f57f30ae48308e69754052cd4d4"
+  },
+  "scripts": {
+    "run_comparison.py": "b59a9a06aed62b1af0dd6f5279a7b65af4a97cebc95ba05c2fdb741651d5387f",
+    "culture_features.py": "7376405b12613ea05a91895946be6f10308c66f9ec41e9ac9d07871bcf030ec7",
+    "fit_helpers.py": "d277b6a383794a241e9e40f46b6bc5b6f378e9ed72f7339502238269e72b3b7b",
+    "validate_preflight.py": "2db245628d4d76d634298447fba3335981ce47279ed6ac96b4110e98d3e0763e",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+    "model_helpers.py": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "status": "complete",
+  "primary_seed": 20261031,
+  "inner_seed_repeats": 20,
+  "pooled_results": [
+    {
+      "model": "all_gene_contextual_embedding",
+      "spearman": 0.31726967089792346,
+      "rmse": 0.12612078782721417,
+      "r2": 0.09859289450790931,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "lineage_only",
+      "spearman": -0.3884751600161783,
+      "rmse": 0.1345700630534195,
+      "r2": -0.026229604709374854,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "spearman": 0.36952932982596837,
+      "rmse": 0.12407130462978204,
+      "r2": 0.12765088442173578,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "panel_expression",
+      "spearman": 0.42345251978233184,
+      "rmse": 0.12088091961082723,
+      "r2": 0.1719374612005472,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "training_mean",
+      "spearman": -0.3790678558681974,
+      "rmse": 0.13462658654473553,
+      "r2": -0.027091880627011955,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "all_gene_contextual_embedding",
+      "spearman": 0.3105304664014907,
+      "rmse": 0.12692480230230002,
+      "r2": 0.08702404199870854,
+      "scope": "mean_20_inner_seeds"
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "spearman": 0.36942648155579333,
+      "rmse": 0.12379964359827214,
+      "r2": 0.1314558761733383,
+      "scope": "mean_20_inner_seeds"
+    },
+    {
+      "model": "panel_expression",
+      "spearman": 0.42380182647208836,
+      "rmse": 0.1207500311090979,
+      "r2": 0.1737274444468019,
+      "scope": "mean_20_inner_seeds"
+    }
+  ],
+  "macro_results": [
+    {
+      "model": "all_gene_contextual_embedding",
+      "spearman": 0.18457553931165452,
+      "rmse": 0.12319007212403098,
+      "r2": -0.12637920208882739,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "lineage_only",
+      "spearman": null,
+      "rmse": 0.13291374631198405,
+      "r2": -0.29634574927670293,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "spearman": 0.23054541053151792,
+      "rmse": 0.12277700381502979,
+      "r2": -0.12460167826272169,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "panel_expression",
+      "spearman": 0.23034012861442138,
+      "rmse": 0.12138986583796392,
+      "r2": -0.09043883455523663,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "training_mean",
+      "spearman": null,
+      "rmse": 0.13291677661712126,
+      "r2": -0.2966226253534105,
+      "scope": "corrected_original_seed"
+    },
+    {
+      "model": "all_gene_contextual_embedding",
+      "spearman": 0.18816881294176274,
+      "rmse": 0.12358442081677383,
+      "r2": -0.1407193182831305,
+      "scope": "mean_20_inner_seeds"
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "spearman": 0.23335698368714564,
+      "rmse": 0.12205616158259443,
+      "r2": -0.11298431514680303,
+      "scope": "mean_20_inner_seeds"
+    },
+    {
+      "model": "panel_expression",
+      "spearman": 0.2300750750686073,
+      "rmse": 0.12124997439394417,
+      "r2": -0.08774798988681662,
+      "scope": "mean_20_inner_seeds"
+    }
+  ],
+  "primary_contrast": [
+    {
+      "scope": "original_seed_pooled_745",
+      "repeats": 1,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "spearman",
+      "improvement": -0.05392318995636347,
+      "conditional_lineage_bootstrap_ci_low": -0.16808380742296566,
+      "conditional_lineage_bootstrap_ci_high": 0.04512043377216283
+    },
+    {
+      "scope": "original_seed_pooled_745",
+      "repeats": 1,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "rmse",
+      "improvement": -0.003190385018954814,
+      "conditional_lineage_bootstrap_ci_low": -0.00882625759523925,
+      "conditional_lineage_bootstrap_ci_high": 0.001983943989138385
+    },
+    {
+      "scope": "original_seed_pooled_745",
+      "repeats": 1,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "r2",
+      "improvement": -0.044286576778811426,
+      "conditional_lineage_bootstrap_ci_low": -0.12825889729514434,
+      "conditional_lineage_bootstrap_ci_high": 0.028343442448464453
+    },
+    {
+      "scope": "mean_20_seeds_pooled_745",
+      "repeats": 20,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "spearman",
+      "improvement": -0.05437534491629503,
+      "conditional_lineage_bootstrap_ci_low": -0.1763301641705745,
+      "conditional_lineage_bootstrap_ci_high": 0.04792588040682122
+    },
+    {
+      "scope": "mean_20_seeds_pooled_745",
+      "repeats": 20,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "rmse",
+      "improvement": -0.003049612489174236,
+      "conditional_lineage_bootstrap_ci_low": -0.009281868258038388,
+      "conditional_lineage_bootstrap_ci_high": 0.0024552695588086182
+    },
+    {
+      "scope": "mean_20_seeds_pooled_745",
+      "repeats": 20,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "r2",
+      "improvement": -0.04227156827346362,
+      "conditional_lineage_bootstrap_ci_low": -0.13623687085122357,
+      "conditional_lineage_bootstrap_ci_high": 0.03435268298997438
+    },
+    {
+      "scope": "original_seed_macro_19",
+      "repeats": 1,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "spearman",
+      "improvement": 0.0002052819170965392,
+      "conditional_lineage_bootstrap_ci_low": -0.08721071901905085,
+      "conditional_lineage_bootstrap_ci_high": 0.09228394945846041
+    },
+    {
+      "scope": "original_seed_macro_19",
+      "repeats": 1,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "rmse",
+      "improvement": -0.0013871379770658693,
+      "conditional_lineage_bootstrap_ci_low": -0.007565888346298781,
+      "conditional_lineage_bootstrap_ci_high": 0.004536842525737844
+    },
+    {
+      "scope": "original_seed_macro_19",
+      "repeats": 1,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "r2",
+      "improvement": -0.034162843707485055,
+      "conditional_lineage_bootstrap_ci_low": -0.16370215695650261,
+      "conditional_lineage_bootstrap_ci_high": 0.0857774892877671
+    },
+    {
+      "scope": "mean_20_seeds_macro_19",
+      "repeats": 20,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "spearman",
+      "improvement": 0.0032819086185383317,
+      "conditional_lineage_bootstrap_ci_low": -0.08260992840044573,
+      "conditional_lineage_bootstrap_ci_high": 0.0976027594898916
+    },
+    {
+      "scope": "mean_20_seeds_macro_19",
+      "repeats": 20,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "rmse",
+      "improvement": -0.000806187188650262,
+      "conditional_lineage_bootstrap_ci_low": -0.007159156818136922,
+      "conditional_lineage_bootstrap_ci_high": 0.005152590642742506
+    },
+    {
+      "scope": "mean_20_seeds_macro_19",
+      "repeats": 20,
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "r2",
+      "improvement": -0.02523632525998641,
+      "conditional_lineage_bootstrap_ci_low": -0.16055146824057462,
+      "conditional_lineage_bootstrap_ci_high": 0.09452348552766879
+    }
+  ],
+  "lineage_win_counts": [
+    {
+      "scope": "corrected_original_seed",
+      "metric": "spearman",
+      "favorable_lineages": 10,
+      "eligible_lineages": 19
+    },
+    {
+      "scope": "corrected_original_seed",
+      "metric": "rmse",
+      "favorable_lineages": 9,
+      "eligible_lineages": 19
+    },
+    {
+      "scope": "corrected_original_seed",
+      "metric": "r2",
+      "favorable_lineages": 9,
+      "eligible_lineages": 19
+    },
+    {
+      "scope": "mean_20_inner_seeds",
+      "metric": "spearman",
+      "favorable_lineages": 10,
+      "eligible_lineages": 19
+    },
+    {
+      "scope": "mean_20_inner_seeds",
+      "metric": "rmse",
+      "favorable_lineages": 9,
+      "eligible_lineages": 19
+    },
+    {
+      "scope": "mean_20_inner_seeds",
+      "metric": "r2",
+      "favorable_lineages": 9,
+      "eligible_lineages": 19
+    }
+  ],
+  "elapsed_seconds": 610.0363984107971
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "figures": {
+    "prism_prediction_scatter.png": "43a625da016afb27a72fb3ba4cf9ebd3dd732c4becbc281438956813fc6cb03f",
+    "prism_correlation_comparison.png": "2edf8533edf6e02e25ea67825e224a313b88aa4577f70d0dc3f9db995faf7083",
+    "cross_assay_measurement_agreement.png": "1803fcafb82bf80c8568ecf3eaef893628113bca509e0b3a8ad919aed1aa1236"
+  },
+  "inspection": "All three plots inspected. Counts, correlation points and interval direction checked against TSV outputs. Scatter statistics moved into titles to avoid overlapping points. All labels legible."
+}

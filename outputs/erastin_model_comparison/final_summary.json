@@ -1,0 +1,147 @@
+{
+  "status": "complete",
+  "sample_count": 745,
+  "primary_metrics": [
+    {
+      "model": "panel_expression",
+      "n": 745,
+      "spearman": 0.43860726713503745,
+      "rmse": 0.11977549055297958,
+      "r2": 0.1870131074381982,
+      "spearman_ci_low": 0.3764523470183382,
+      "spearman_ci_high": 0.49888661802939643,
+      "rmse_ci_low": 0.11332577532492731,
+      "rmse_ci_high": 0.12641991246143244,
+      "r2_ci_low": 0.1268603773466939,
+      "r2_ci_high": 0.24124974806678
+    },
+    {
+      "model": "panel_contextual_embedding",
+      "n": 745,
+      "spearman": 0.46350900903809794,
+      "rmse": 0.11741536063918073,
+      "r2": 0.21873663476139116,
+      "spearman_ci_low": 0.40452865369289864,
+      "spearman_ci_high": 0.5201733332576033,
+      "rmse_ci_low": 0.11074392266840416,
+      "rmse_ci_high": 0.12401741479778162,
+      "r2_ci_low": 0.15961402045067064,
+      "r2_ci_high": 0.2740252292733838
+    },
+    {
+      "model": "all_gene_contextual_embedding",
+      "n": 745,
+      "spearman": 0.44012291745235127,
+      "rmse": 0.11921454822357314,
+      "r2": 0.19461016891148253,
+      "spearman_ci_low": 0.37996845711952454,
+      "spearman_ci_high": 0.49709671769731956,
+      "rmse_ci_low": 0.11270019259728592,
+      "rmse_ci_high": 0.12579548436622362,
+      "r2_ci_low": 0.14044654607495793,
+      "r2_ci_high": 0.2437886678394908
+    },
+    {
+      "model": "lineage_only",
+      "n": 745,
+      "spearman": 0.359066967203542,
+      "rmse": 0.12401478763151837,
+      "r2": 0.12844544887707843,
+      "spearman_ci_low": 0.2947194690515759,
+      "spearman_ci_high": 0.4187873757994768,
+      "rmse_ci_low": 0.11716569261779254,
+      "rmse_ci_high": 0.1306015554510805,
+      "r2_ci_low": 0.08393368266517849,
+      "r2_ci_high": 0.16701090831266935
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "spearman",
+      "improvement": 0.024901741903060493,
+      "ci_low": -0.014275287082502733,
+      "ci_high": 0.06345663487083501,
+      "bootstrap_fraction_improved": 0.9024
+    },
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "rmse",
+      "improvement": 0.0023601299137988446,
+      "ci_low": -0.0003454222253810465,
+      "ci_high": 0.00513171648536481,
+      "bootstrap_fraction_improved": 0.9562
+    },
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "r2",
+      "improvement": 0.031723527323192946,
+      "ci_low": -0.004604314097056194,
+      "ci_high": 0.06880157156597307,
+      "bootstrap_fraction_improved": 0.9562
+    },
+    {
+      "first_model": "all_gene_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "spearman",
+      "improvement": 0.0015156503173138214,
+      "ci_low": -0.04475413080463712,
+      "ci_high": 0.04517274306423616,
+      "bootstrap_fraction_improved": 0.5372
+    },
+    {
+      "first_model": "all_gene_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "rmse",
+      "improvement": 0.0005609423294064414,
+      "ci_low": -0.0023951972818704115,
+      "ci_high": 0.003452264195673517,
+      "bootstrap_fraction_improved": 0.6574
+    },
+    {
+      "first_model": "all_gene_contextual_embedding",
+      "reference_model": "panel_expression",
+      "metric": "r2",
+      "improvement": 0.007597061473284317,
+      "ci_low": -0.03270280456560191,
+      "ci_high": 0.04718917995515554,
+      "bootstrap_fraction_improved": 0.6574
+    },
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "all_gene_contextual_embedding",
+      "metric": "spearman",
+      "improvement": 0.02338609158574667,
+      "ci_low": 0.0005807817944937792,
+      "ci_high": 0.046852596821469944,
+      "bootstrap_fraction_improved": 0.9766
+    },
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "all_gene_contextual_embedding",
+      "metric": "rmse",
+      "improvement": 0.0017991875843924032,
+      "ci_low": 0.0003531507912834058,
+      "ci_high": 0.0032610750859347545,
+      "bootstrap_fraction_improved": 0.992
+    },
+    {
+      "first_model": "panel_contextual_embedding",
+      "reference_model": "all_gene_contextual_embedding",
+      "metric": "r2",
+      "improvement": 0.02412646584990863,
+      "ci_low": 0.00476469908451358,
+      "ci_high": 0.04290987910638868,
+      "bootstrap_fraction_improved": 0.992
+    }
+  ],
+  "limits": [
+    "conditional group-bootstrap intervals",
+    "pretraining overlap unresolved",
+    "archived CTRP AUC provenance limitations",
+    "no external-screen validation"
+  ]
+}

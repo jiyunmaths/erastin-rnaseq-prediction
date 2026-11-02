@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "protocol_sha256": "dcefc4ff8ee89198a9680fd05f11edca4110978e9f589c0ccc76f4ca0f65264a",
+  "outer_splits_checked": 20,
+  "inner_splits_checked": 100,
+  "weight_vectors_checked": 480,
+  "all_23_lineages_in_both_outer_sets": true,
+  "all_23_lineages_in_inner_training": true,
+  "inner_validation_lineages": 22,
+  "protected_inner_training_ids_by_repeat": [
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000377"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000182"
+    ],
+    [
+      "ACH-000377"
+    ]
+  ],
+  "identity_group_overlap": 0,
+  "excluded_cervix_sample_ids": [
+    "ACH-001086"
+  ],
+  "unit_weight_nn_prediction_error": 0.0,
+  "training_n": [
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595,
+    595
+  ],
+  "testing_n": [
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149,
+    149
+  ],
+  "test_sample_coverage": {
+    "ever_tested": 724,
+    "never_tested": 20,
+    "minimum_test_repeats": 0,
+    "maximum_test_repeats": 12
+  },
+  "bootstrap_validation": {
+    "passed": true,
+    "expanded_scipy_check_draws": 5,
+    "all_repeats_paired": true,
+    "max_error": 3.3306690738754696e-16
+  },
+  "split_generation_has_no_response_argument": true,
+  "prior_fit_and_weight_implementations_unchanged": true
+}

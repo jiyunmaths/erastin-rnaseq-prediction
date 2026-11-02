@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "original_seed_outer_and_inner_splits_reproduced": true,
+  "original_oof_prediction_max_abs_errors": {
+    "panel_expression": 2.220446049250313e-16,
+    "panel_contextual_embedding": 2.220446049250313e-16,
+    "all_gene_contextual_embedding": 2.220446049250313e-16,
+    "lineage_only": 1.1102230246251565e-16
+  },
+  "all_20_new_partitions_distinct": true,
+  "all_outer_and_inner_identity_groups_disjoint": true,
+  "all_745_oof_predictions_present_per_model_per_seed": true,
+  "independent_sklearn_reference_max_abs_errors": {
+    "1:panel_expression": 4.440892098500626e-16,
+    "1:panel_contextual_embedding": 3.3306690738754696e-16,
+    "1:all_gene_contextual_embedding": 3.3306690738754696e-16,
+    "1:lineage_only": 2.220446049250313e-16,
+    "20:panel_expression": 3.3306690738754696e-16,
+    "20:panel_contextual_embedding": 3.3306690738754696e-16,
+    "20:all_gene_contextual_embedding": 2.220446049250313e-16,
+    "20:lineage_only": 4.440892098500626e-16
+  },
+  "frozen_protocol_sha256": "2de704e2e127e2c091cc9755c9856b7bf821d51cf7aafe6294a2b5844896ae28",
+  "input_and_embedding_hashes_verified": true,
+  "weighted_midranks_exact_vs_expanded_scipy_ranks": true,
+  "max_rank_error": 0.0,
+  "bootstrap_max_metric_error_vs_expansion": 4.440892098500626e-16,
+  "identical_predictions_have_exact_zero_paired_difference": true,
+  "protocol_unchanged_after_results": true,
+  "alpha_boundary_selection_counts": {
+    "all_gene_contextual_embedding": 0,
+    "lineage_only": 0,
+    "panel_contextual_embedding": 0,
+    "panel_expression": 0
+  },
+  "elapsed_seconds": 89.11222386360168
+}

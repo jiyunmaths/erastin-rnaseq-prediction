@@ -1,0 +1,194 @@
+{
+  "status": "frozen_before_followup_fitting",
+  "created_utc": "2026-11-01T13:45:05Z",
+  "script_sha256": "c631a429d961b9b64b4f1581ad778555ebfe6ab5f28a4e1bb5ddf4f0d70ec8db",
+  "samples": 745,
+  "identity_groups": 734,
+  "outer_lineages": 24,
+  "features": "same 40-gene log2(TPM+1) expression panel only",
+  "outer_holdouts": "unchanged from corrected leave-lineage-out evaluation",
+  "repeats": 20,
+  "inner_split_seeds": [
+    2324722654,
+    2491764575,
+    2310504921,
+    3551784758,
+    2864574851,
+    762532665,
+    2340003943,
+    4240041404,
+    3700554751,
+    1500115667,
+    73233171,
+    1648069054,
+    19310328,
+    3560997354,
+    150599687,
+    3724302841,
+    3233510837,
+    1379426082,
+    781699641,
+    3216155959
+  ],
+  "initialization_master_seed": 20261107,
+  "initialization_generator": "numpy.random.SeedSequence(master).generate_state(60).reshape(20,3)",
+  "initialization_seed_triplets": [
+    [
+      2893371290,
+      497654881,
+      1975922792
+    ],
+    [
+      3355977667,
+      424493826,
+      1550394385
+    ],
+    [
+      2168687005,
+      1647426202,
+      2688205909
+    ],
+    [
+      42786468,
+      3076077911,
+      273767066
+    ],
+    [
+      1609035048,
+      2851333803,
+      976039955
+    ],
+    [
+      2236401383,
+      2445062483,
+      1129737822
+    ],
+    [
+      3329912852,
+      2638933889,
+      1145265932
+    ],
+    [
+      3422116929,
+      1806768943,
+      1378693510
+    ],
+    [
+      1256998787,
+      700040913,
+      2981348477
+    ],
+    [
+      2517894111,
+      3267202418,
+      2342300164
+    ],
+    [
+      4106300991,
+      1308386135,
+      2273722985
+    ],
+    [
+      1426094152,
+      2803084605,
+      3417373563
+    ],
+    [
+      1122310826,
+      28864576,
+      2615952050
+    ],
+    [
+      2346668660,
+      3452764067,
+      842565008
+    ],
+    [
+      2744930578,
+      3510598388,
+      675723401
+    ],
+    [
+      703156529,
+      4234057440,
+      1500259783
+    ],
+    [
+      3090577113,
+      2300113296,
+      1426115566
+    ],
+    [
+      1178198002,
+      3473816129,
+      1766774902
+    ],
+    [
+      835497170,
+      2416392876,
+      3057713454
+    ],
+    [
+      3712087977,
+      2560194263,
+      1118821988
+    ]
+  ],
+  "variation": "inner fold assignment and neural initialization trio change jointly; outer lineage tests stay fixed",
+  "nn_fixed_settings": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "initialization_seeds": [
+      20261104,
+      20261105,
+      20261106
+    ],
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "initialization_override": "use this protocol seed triplet for each repeat; other neural settings unchanged",
+  "nn_grid": [
+    {
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "width": 32,
+      "alpha": 100.0
+    }
+  ],
+  "ensemble": "three-member mean in both inner validation and outer prediction",
+  "tuning": "four candidates, minimum equal-weight mean five-fold inner RMSE; X and target scalers fit on current training subset only",
+  "ridge": "reuse saved ridge panel-expression predictions from the identical 20 inner split seeds; no averaging before pairing",
+  "original_seed": "excluded from followup means; replay Lung and Thyroid to verify the unchanged prior neural pipeline",
+  "metrics": [
+    "spearman",
+    "rmse",
+    "r2"
+  ],
+  "macro": "equal-weight within-lineage metrics for the same 19 lineages with n>=10",
+  "bootstrap": {
+    "count": 5000,
+    "pooled_seed": 2026110701,
+    "macro_seed": 2026110702,
+    "unit": "whole held-out lineage, all models/repeats paired",
+    "estimand": "difference of mean per-repeat metrics",
+    "scope": "conditional on fitted predictions; no bootstrap refitting; repeats are not independent datasets"
+  },
+  "reporting": "all 20 repeats, mean/SD/range, paired win count, per-lineage means; no adaptive seed selection",
+  "previous_single_split_results_seen": true,
+  "warnings": "record all warnings; no test-score-based retry or grid expansion",
+  "workers": 6
+}

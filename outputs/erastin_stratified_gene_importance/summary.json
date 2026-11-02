@@ -1,0 +1,269 @@
+{
+  "top10_predictive": {
+    "ridge": [
+      "SLC7A11",
+      "GPX4",
+      "ABCC1",
+      "ACSL4",
+      "AIFM2",
+      "GOT1",
+      "ACSL3",
+      "FADS1",
+      "LPCAT3",
+      "LRP8"
+    ],
+    "neural_network": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "GOT1",
+      "ACSL3",
+      "LRP8",
+      "GSR",
+      "DHFR"
+    ]
+  },
+  "top10_sensitivity": {
+    "ridge": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "ABCC1",
+      "AIFM2",
+      "CYB5R1",
+      "ACSL3",
+      "LAMP2",
+      "FADS1",
+      "GSR"
+    ],
+    "neural_network": [
+      "SLC7A11",
+      "ACSL4",
+      "AIFM2",
+      "GPX4",
+      "ABCC1",
+      "CYB5R1",
+      "ACSL3",
+      "LAMP2",
+      "CTSD",
+      "GSR"
+    ]
+  },
+  "rank_stability": [
+    {
+      "model": "ridge",
+      "measure": "predictive_importance",
+      "unit": "between_splits",
+      "pairs": 190,
+      "median": 0.36897893772893764,
+      "q25": 0.2509157509157509,
+      "q75": 0.49296016483516475
+    },
+    {
+      "model": "ridge",
+      "measure": "prediction_influence",
+      "unit": "between_splits",
+      "pairs": 190,
+      "median": 0.7840201465201464,
+      "q25": 0.7592147435897435,
+      "q75": 0.8110462454212453
+    },
+    {
+      "model": "ridge",
+      "measure": "standardized_sensitivity",
+      "unit": "between_splits",
+      "pairs": 190,
+      "median": 0.7873168498168497,
+      "q25": 0.7639194139194138,
+      "q75": 0.8163690476190475
+    },
+    {
+      "model": "neural_network",
+      "measure": "predictive_importance",
+      "unit": "between_splits",
+      "pairs": 190,
+      "median": 0.3640567765567765,
+      "q25": 0.24024725274725275,
+      "q75": 0.48990384615384613
+    },
+    {
+      "model": "neural_network",
+      "measure": "prediction_influence",
+      "unit": "between_splits",
+      "pairs": 190,
+      "median": 0.7898809523809522,
+      "q25": 0.7612637362637361,
+      "q75": 0.8120421245421245
+    },
+    {
+      "model": "neural_network",
+      "measure": "standardized_sensitivity",
+      "unit": "between_splits",
+      "pairs": 190,
+      "median": 0.7918727106227106,
+      "q25": 0.7621565934065934,
+      "q75": 0.814010989010989
+    },
+    {
+      "model": "ridge",
+      "measure": "predictive_importance",
+      "unit": "between_lineages19",
+      "pairs": 171,
+      "median": 0.03603479853479853,
+      "q25": -0.09590201465201464,
+      "q75": 0.17873168498168496
+    },
+    {
+      "model": "ridge",
+      "measure": "prediction_influence",
+      "unit": "between_lineages19",
+      "pairs": 171,
+      "median": 0.8822344322344321,
+      "q25": 0.8565705128205128,
+      "q75": 0.9131410256410255
+    },
+    {
+      "model": "ridge",
+      "measure": "standardized_sensitivity",
+      "unit": "between_lineages19",
+      "pairs": 171,
+      "median": 0.9999999999999998,
+      "q25": 0.9999999999999998,
+      "q75": 0.9999999999999998
+    },
+    {
+      "model": "ridge",
+      "measure": "predictive_importance",
+      "unit": "between_lineages12",
+      "pairs": 66,
+      "median": 0.05579212454212453,
+      "q25": -0.03889652014652014,
+      "q75": 0.20342261904761905
+    },
+    {
+      "model": "ridge",
+      "measure": "prediction_influence",
+      "unit": "between_lineages12",
+      "pairs": 66,
+      "median": 0.9075320512820512,
+      "q25": 0.8781249999999999,
+      "q75": 0.9278273809523808
+    },
+    {
+      "model": "ridge",
+      "measure": "standardized_sensitivity",
+      "unit": "between_lineages12",
+      "pairs": 66,
+      "median": 0.9999999999999998,
+      "q25": 0.9999999999999998,
+      "q75": 0.9999999999999998
+    },
+    {
+      "model": "neural_network",
+      "measure": "predictive_importance",
+      "unit": "between_lineages19",
+      "pairs": 171,
+      "median": 0.031272893772893766,
+      "q25": -0.1002289377289377,
+      "q75": 0.167032967032967
+    },
+    {
+      "model": "neural_network",
+      "measure": "prediction_influence",
+      "unit": "between_lineages19",
+      "pairs": 171,
+      "median": 0.888003663003663,
+      "q25": 0.8616071428571427,
+      "q75": 0.9169413919413918
+    },
+    {
+      "model": "neural_network",
+      "measure": "standardized_sensitivity",
+      "unit": "between_lineages19",
+      "pairs": 171,
+      "median": 0.9996794871794871,
+      "q25": 0.9995192307692307,
+      "q75": 0.9997710622710622
+    },
+    {
+      "model": "neural_network",
+      "measure": "predictive_importance",
+      "unit": "between_lineages12",
+      "pairs": 66,
+      "median": 0.054258241758241746,
+      "q25": -0.03448946886446886,
+      "q75": 0.2099358974358974
+    },
+    {
+      "model": "neural_network",
+      "measure": "prediction_influence",
+      "unit": "between_lineages12",
+      "pairs": 66,
+      "median": 0.90764652014652,
+      "q25": 0.8772321428571428,
+      "q75": 0.9255036630036628
+    },
+    {
+      "model": "neural_network",
+      "measure": "standardized_sensitivity",
+      "unit": "between_lineages12",
+      "pairs": 66,
+      "median": 0.9996794871794871,
+      "q25": 0.9995993589743589,
+      "q75": 0.9998168498168497
+    }
+  ],
+  "cross_model_correlations": [
+    {
+      "scope": "pooled23",
+      "measure": "predictive_importance",
+      "spearman": 0.9914835164835164
+    },
+    {
+      "scope": "pooled23",
+      "measure": "prediction_influence",
+      "spearman": 0.9905677655677654
+    },
+    {
+      "scope": "pooled23",
+      "measure": "standardized_sensitivity",
+      "spearman": 0.9889194139194138
+    }
+  ],
+  "donor_reference_sensitivity": [
+    {
+      "model": "ridge",
+      "lineages": 20,
+      "rank_correlation": 0.9767399267399265,
+      "top10_overlap": 8
+    },
+    {
+      "model": "neural_network",
+      "lineages": 20,
+      "rank_correlation": 0.978525641025641,
+      "top10_overlap": 9
+    }
+  ],
+  "positive_pointwise_intervals": {
+    "ridge": [
+      "SLC7A11",
+      "GPX4",
+      "ABCC1",
+      "ACSL4",
+      "AIFM2",
+      "GOT1",
+      "LRP8"
+    ],
+    "neural_network": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "GOT1",
+      "LRP8"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+first_model	reference_model	metric	improvement	favorable_repeats	paired_defined_repeats	conditional_ci_low	conditional_ci_high	valid_bootstrap_draws
+ridge__5__culture	ridge__5__expression	pooled_spearman	-0.0211838794117	7	20	-0.0522052944322	0.00587659823807	5000
+ridge__5__culture	ridge__5__expression	pooled_pearson	-0.015036357267	9	20	-0.0455875275377	0.0120915651922	5000
+ridge__5__culture	ridge__5__expression	pooled_rmse	-0.000441523538879	9	20	-0.00173843119435	0.000894361397348	5000
+ridge__5__culture	ridge__5__expression	pooled_mae	0.000139687787257	12	20	-0.00100464219941	0.00111427984967	5000
+ridge__5__culture	ridge__5__expression	pooled_r2	-0.00572778493209	9	20	-0.0231578129146	0.0126536981915	5000
+ridge__5__culture	ridge__5__expression	macro_all_rmse	1.70262861838e-05	11	20	-0.00176362339975	0.00184970640673	5000
+ridge__5__culture	ridge__5__expression	macro_large_rmse	-0.000182365714272	9	20	-0.0016541832082	0.00124829318165	5000
+ridge__64__culture	ridge__64__expression	pooled_spearman	0.00152758633771	13	20	-0.00705947802826	0.00826453301429	5000
+ridge__64__culture	ridge__64__expression	pooled_pearson	0.000716344545308	12	20	-0.00589309294038	0.0063050614703	5000
+ridge__64__culture	ridge__64__expression	pooled_rmse	4.70135003925e-05	12	20	-0.0001828942093	0.000263013641733	5000
+ridge__64__culture	ridge__64__expression	pooled_mae	0.000120746935779	16	20	-8.11769360585e-05	0.000284146100031	5000
+ridge__64__culture	ridge__64__expression	pooled_r2	0.000671724444934	12	20	-0.00252582653084	0.00362207844933	5000
+ridge__64__culture	ridge__64__expression	macro_all_rmse	0.000221325176772	16	20	-8.35277406124e-05	0.000570834152423	5000
+ridge__64__culture	ridge__64__expression	macro_large_rmse	1.67114810088e-05	8	20	-0.000252371654793	0.000262036957145	5000
+elastic_net__5__culture	elastic_net__5__expression	pooled_spearman	-0.013349941198	5	20	-0.0343101800899	0.00552613499138	5000
+elastic_net__5__culture	elastic_net__5__expression	pooled_pearson	-0.0129119321667	6	20	-0.0309471398536	0.00430271581589	5000
+elastic_net__5__culture	elastic_net__5__expression	pooled_rmse	-0.000532291909865	7	20	-0.0013478617876	0.000284518741658	5000
+elastic_net__5__culture	elastic_net__5__expression	pooled_mae	-6.1179975879e-05	8	20	-0.000842087902915	0.000574542742401	5000
+elastic_net__5__culture	elastic_net__5__expression	pooled_r2	-0.00695033714294	7	20	-0.0186301540946	0.00442273100144	5000
+elastic_net__5__culture	elastic_net__5__expression	macro_all_rmse	-0.000616762296578	6	20	-0.0018597048311	0.000615895587876	5000
+elastic_net__5__culture	elastic_net__5__expression	macro_large_rmse	-0.000233281854424	7	20	-0.00112665782553	0.000731403869714	5000
+elastic_net__64__culture	elastic_net__64__expression	pooled_spearman	-0.00142642167959	4	20	-0.00499533515034	0.00424242558575	5000
+elastic_net__64__culture	elastic_net__64__expression	pooled_pearson	-0.0018072380233	10	20	-0.00409978199944	0.001246448122	5000
+elastic_net__64__culture	elastic_net__64__expression	pooled_rmse	-9.62570017645e-05	8	20	-0.00025687765111	5.84787401072e-05	5000
+elastic_net__64__culture	elastic_net__64__expression	pooled_mae	-8.68751043392e-05	8	20	-0.000226665759195	8.29282729306e-05	5000
+elastic_net__64__culture	elastic_net__64__expression	pooled_r2	-0.00125582395277	8	20	-0.00389516283277	0.00088529353737	5000
+elastic_net__64__culture	elastic_net__64__expression	macro_all_rmse	3.55055923662e-05	8	20	-0.000148275934409	0.000218051215567	5000
+elastic_net__64__culture	elastic_net__64__expression	macro_large_rmse	-0.000127330662434	5	20	-0.000336183227496	5.6665965704e-05	5000
+neural_network__5__culture	neural_network__5__expression	pooled_spearman	-0.0367202417835	4	20	-0.0794681712663	0.00251633476251	5000
+neural_network__5__culture	neural_network__5__expression	pooled_pearson	-0.0345937261317	5	20	-0.0758095529199	-0.00093579130418	5000
+neural_network__5__culture	neural_network__5__expression	pooled_rmse	-0.00171126376458	4	20	-0.0037035561107	0.000367425728361	5000
+neural_network__5__culture	neural_network__5__expression	pooled_mae	-0.000765674995277	7	20	-0.0024529336389	0.000914835305547	5000
+neural_network__5__culture	neural_network__5__expression	pooled_r2	-0.0234229081423	4	20	-0.0521246887639	0.00386864640236	5000
+neural_network__5__culture	neural_network__5__expression	macro_all_rmse	-0.000133845691383	11	20	-0.00256449715555	0.00256678653176	5000
+neural_network__5__culture	neural_network__5__expression	macro_large_rmse	-0.00125523562012	7	20	-0.00336661680179	0.000840274155404	5000
+neural_network__64__culture	neural_network__64__expression	pooled_spearman	-0.000441330821078	11	20	-0.00938792265829	0.0109715924703	5000
+neural_network__64__culture	neural_network__64__expression	pooled_pearson	-0.00174981755597	12	20	-0.00866086593919	0.00497423276126	5000
+neural_network__64__culture	neural_network__64__expression	pooled_rmse	-4.40100955091e-05	11	20	-0.000364641911638	0.000251171288179	5000
+neural_network__64__culture	neural_network__64__expression	pooled_mae	2.5668194581e-05	11	20	-0.000200992257774	0.000231950966667	5000
+neural_network__64__culture	neural_network__64__expression	pooled_r2	-0.000460919119579	11	20	-0.00495811909618	0.00333753828656	5000
+neural_network__64__culture	neural_network__64__expression	macro_all_rmse	0.00023335499212	16	20	-0.000165433051076	0.000690464913074	5000
+neural_network__64__culture	neural_network__64__expression	macro_large_rmse	-0.000117532496718	8	20	-0.000456685274513	0.000197834716365	5000
+ridge__5__culture	ridge__0__culture	pooled_spearman	0.260571671519	20	20	0.160216865291	0.369686773784	5000
+ridge__5__culture	ridge__0__culture	pooled_pearson	0.285926577049	20	20	0.189808329394	0.385328490162	5000
+ridge__5__culture	ridge__0__culture	pooled_rmse	0.00721668447964	19	20	0.00399799660043	0.0109491091044	5000
+ridge__5__culture	ridge__0__culture	pooled_mae	0.00543214020675	18	20	0.00208906056346	0.00992961898261	5000
+ridge__5__culture	ridge__0__culture	pooled_r2	0.105224440723	19	20	0.0615146260214	0.165606861844	5000
+ridge__5__culture	ridge__0__culture	macro_all_rmse	0.0120748724703	20	20	0.00694511613034	0.0180133959275	5000
+ridge__5__culture	ridge__0__culture	macro_large_rmse	0.00569540143766	18	20	0.00243042327776	0.0088698273122	5000
+ridge__64__culture	ridge__0__culture	pooled_spearman	0.298426222032	20	20	0.16715531814	0.427588822792	5000
+ridge__64__culture	ridge__0__culture	pooled_pearson	0.276516581597	20	20	0.174425165634	0.379500378306	5000
+ridge__64__culture	ridge__0__culture	pooled_rmse	0.00618613671541	19	20	0.00305148455715	0.00918961093569	5000
+ridge__64__culture	ridge__0__culture	pooled_mae	0.00518581125279	18	20	0.00160358001375	0.00993007524268	5000
+ridge__64__culture	ridge__0__culture	pooled_r2	0.0902501585593	19	20	0.0468696183576	0.142262495491	5000
+ridge__64__culture	ridge__0__culture	macro_all_rmse	0.0107674649328	20	20	0.00534148860555	0.0164671741893	5000
+ridge__64__culture	ridge__0__culture	macro_large_rmse	0.00391700647889	17	20	-0.000283480408528	0.00780432023832	5000
+elastic_net__5__culture	elastic_net__0__culture	pooled_spearman	0.298870164445	10	10	0.185024916018	0.413866668754	5000
+elastic_net__5__culture	elastic_net__0__culture	pooled_pearson	0.334557573263	10	10	0.203567526404	0.445844110565	5000
+elastic_net__5__culture	elastic_net__0__culture	pooled_rmse	0.00674625339789	19	20	0.00384272469974	0.0101851276581	5000
+elastic_net__5__culture	elastic_net__0__culture	pooled_mae	0.00503395952708	18	20	0.00205205459475	0.00920191319519	5000
+elastic_net__5__culture	elastic_net__0__culture	pooled_r2	0.0988034823608	19	20	0.0586783755477	0.156391079893	5000
+elastic_net__5__culture	elastic_net__0__culture	macro_all_rmse	0.0111397159016	20	20	0.00611150269407	0.0170347455473	5000
+elastic_net__5__culture	elastic_net__0__culture	macro_large_rmse	0.00519833528467	18	20	0.00214465976921	0.00820253713382	5000
+elastic_net__64__culture	elastic_net__0__culture	pooled_spearman	0.331326315888	10	10	0.180252333963	0.467143487502	5000
+elastic_net__64__culture	elastic_net__0__culture	pooled_pearson	0.321313721119	10	10	0.184217944006	0.43394789535	5000
+elastic_net__64__culture	elastic_net__0__culture	pooled_rmse	0.0054806075491	19	20	0.00256568495421	0.00843070702352	5000
+elastic_net__64__culture	elastic_net__0__culture	pooled_mae	0.00482247165188	18	20	0.00149132954632	0.00932801818858	5000
+elastic_net__64__culture	elastic_net__0__culture	pooled_r2	0.0807210291415	19	20	0.0394631197953	0.130433022243	5000
+elastic_net__64__culture	elastic_net__0__culture	macro_all_rmse	0.0101358314347	20	20	0.00489256727161	0.0157898254845	5000
+elastic_net__64__culture	elastic_net__0__culture	macro_large_rmse	0.00329392711767	17	20	-0.00040852289611	0.00679771148065	5000
+neural_network__5__culture	neural_network__0__culture	pooled_spearman	0.273999599626	20	20	0.171151686268	0.379617884964	5000
+neural_network__5__culture	neural_network__0__culture	pooled_pearson	0.27396620256	20	20	0.168556157593	0.377736173799	5000
+neural_network__5__culture	neural_network__0__culture	pooled_rmse	0.00579946103149	18	20	0.0014466705079	0.0110013026714	5000
+neural_network__5__culture	neural_network__0__culture	pooled_mae	0.00433597789574	16	20	-0.000132920179562	0.0102778524001	5000
+neural_network__5__culture	neural_network__0__culture	pooled_r2	0.084592016844	18	20	0.0215803852006	0.163429351343	5000
+neural_network__5__culture	neural_network__0__culture	macro_all_rmse	0.0123009639933	20	20	0.00612868085103	0.0190418344515	5000
+neural_network__5__culture	neural_network__0__culture	macro_large_rmse	0.00467517732162	15	20	-1.59153671917e-05	0.00934105831021	5000
+neural_network__64__culture	neural_network__0__culture	pooled_spearman	0.328445154072	20	20	0.200885709471	0.443569258843	5000
+neural_network__64__culture	neural_network__0__culture	pooled_pearson	0.294327436103	20	20	0.188658236164	0.392362846554	5000
+neural_network__64__culture	neural_network__0__culture	pooled_rmse	0.0066561851757	20	20	0.00322276319409	0.00984753861115	5000
+neural_network__64__culture	neural_network__0__culture	pooled_mae	0.00545012586094	19	20	0.00143100711157	0.0106994995234	5000
+neural_network__64__culture	neural_network__0__culture	pooled_r2	0.0961755942377	20	20	0.0482850450088	0.150752249181	5000
+neural_network__64__culture	neural_network__0__culture	macro_all_rmse	0.0116943267193	20	20	0.00577140516428	0.0180241267947	5000
+neural_network__64__culture	neural_network__0__culture	macro_large_rmse	0.0040471332976	17	20	-0.0005356048448	0.00833731644048	5000
+ridge__5__culture	ridge__64__culture	pooled_spearman	-0.0378545505128	3	20	-0.114583866959	0.0483063126101	5000
+ridge__5__culture	ridge__64__culture	pooled_pearson	0.00940999545205	9	20	-0.0557763129915	0.0830570228269	5000
+ridge__5__culture	ridge__64__culture	pooled_rmse	0.00103054776423	14	20	-0.00141319031917	0.00389842198097	5000
+ridge__5__culture	ridge__64__culture	pooled_mae	0.000246328953967	12	20	-0.00155130478246	0.00238588701795	5000
+ridge__5__culture	ridge__64__culture	pooled_r2	0.0149742821638	14	20	-0.0178231762904	0.0565170653193	5000
+ridge__5__culture	ridge__64__culture	macro_all_rmse	0.00130740753751	15	20	-0.00152403013288	0.00393520032266	5000
+ridge__5__culture	ridge__64__culture	macro_large_rmse	0.00177839495877	14	20	-0.00109146684632	0.00464985629755	5000
+elastic_net__5__culture	elastic_net__64__culture	pooled_spearman	-0.0220387207729	4	20	-0.0888396608859	0.052955803563	5000
+elastic_net__5__culture	elastic_net__64__culture	pooled_pearson	0.0186471970573	13	20	-0.0410252663286	0.0859175680589	5000
+elastic_net__5__culture	elastic_net__64__culture	pooled_rmse	0.00126564584879	14	20	-0.000839208566527	0.00380334894471	5000
+elastic_net__5__culture	elastic_net__64__culture	pooled_mae	0.000211487875194	12	20	-0.00155340586735	0.00218219594171	5000
+elastic_net__5__culture	elastic_net__64__culture	pooled_r2	0.0180824532192	14	20	-0.0106378600763	0.0545219085849	5000
+elastic_net__5__culture	elastic_net__64__culture	macro_all_rmse	0.00100388446681	13	20	-0.0017705808314	0.00350572176981	5000
+elastic_net__5__culture	elastic_net__64__culture	macro_large_rmse	0.001904408167	16	20	-0.000678393346827	0.00451905437605	5000
+neural_network__5__culture	neural_network__64__culture	pooled_spearman	-0.0544455544456	2	20	-0.142268605675	0.0420025176444	5000
+neural_network__5__culture	neural_network__64__culture	pooled_pearson	-0.0203612335429	6	20	-0.0922746650346	0.0589569170466	5000
+neural_network__5__culture	neural_network__64__culture	pooled_rmse	-0.000856724144203	7	20	-0.00418337373396	0.00321357545025	5000
+neural_network__5__culture	neural_network__64__culture	pooled_mae	-0.00111414796519	6	20	-0.00338064947705	0.00187906110588	5000
+neural_network__5__culture	neural_network__64__culture	pooled_r2	-0.0115835773937	7	20	-0.0601934216413	0.0461927675502	5000
+neural_network__5__culture	neural_network__64__culture	macro_all_rmse	0.000606637273999	11	20	-0.00217693643781	0.00342199078871	5000
+neural_network__5__culture	neural_network__64__culture	macro_large_rmse	0.000628044024014	12	20	-0.00331702252048	0.00464486101067	5000
+ridge__5__expression	training_mean	pooled_spearman		0	0			0
+ridge__5__expression	training_mean	pooled_pearson		0	0			0
+ridge__5__expression	training_mean	pooled_rmse	0.00693825502536	19	20	0.00377685342667	0.0108104589235	5000
+ridge__5__expression	training_mean	pooled_mae	0.00512483629358	18	20	0.00167403103584	0.0098805383817	5000
+ridge__5__expression	training_mean	pooled_r2	0.101389854505	19	20	0.0564059815057	0.16343186402	5000
+ridge__5__expression	training_mean	macro_all_rmse	0.0118497025268	20	20	0.00645440293037	0.0181069290802	5000
+ridge__5__expression	training_mean	macro_large_rmse	0.00532478585021	18	20	0.00183797096786	0.00866336330564	5000
+ridge__64__expression	training_mean	pooled_spearman		0	0			0
+ridge__64__expression	training_mean	pooled_pearson		0	0			0
+ridge__64__expression	training_mean	pooled_rmse	0.00541917022185	19	20	0.00215648743598	0.00862046088365	5000
+ridge__64__expression	training_mean	pooled_mae	0.00489744819109	18	20	0.00118878647597	0.00982243339907	5000
+ridge__64__expression	training_mean	pooled_r2	0.0800160629643	19	20	0.0351838724034	0.131511171443	5000
+ridge__64__expression	training_mean	macro_all_rmse	0.0103379960987	19	20	0.00484110578513	0.0160257621468	5000
+ridge__64__expression	training_mean	macro_large_rmse	0.00334731369615	16	20	-0.000849964898905	0.00753471820434	5000
+ridge__0__culture	training_mean	pooled_spearman		0	0			0
+ridge__0__culture	training_mean	pooled_pearson		0	0			0
+ridge__0__culture	training_mean	pooled_rmse	-0.000719952993164	8	20	-0.00167474185872	0.00029341240374	5000
+ridge__0__culture	training_mean	pooled_mae	-0.000167616125913	10	20	-0.000926556788187	0.000564696898459	5000
+ridge__0__culture	training_mean	pooled_r2	-0.00956237114999	8	20	-0.0232199117675	0.00422278140925	5000
+ridge__0__culture	training_mean	macro_all_rmse	-0.000208143657332	13	20	-0.00124540274599	0.000793367354237	5000
+ridge__0__culture	training_mean	macro_large_rmse	-0.000552981301727	7	20	-0.00183348647006	0.000591112861945	5000
+ridge__5__culture	training_mean	pooled_spearman		0	0			0
+ridge__5__culture	training_mean	pooled_pearson		0	0			0
+ridge__5__culture	training_mean	pooled_rmse	0.00649673148648	19	20	0.00304112059743	0.0106477423302	5000
+ridge__5__culture	training_mean	pooled_mae	0.00526452408084	18	20	0.00182882575444	0.00985826976248	5000
+ridge__5__culture	training_mean	pooled_r2	0.0956620695731	19	20	0.0502708887181	0.158562544026	5000
+ridge__5__culture	training_mean	macro_all_rmse	0.0118667288129	20	20	0.00660775415477	0.0177698232228	5000
+ridge__5__culture	training_mean	macro_large_rmse	0.00514242013593	18	20	0.00186988889533	0.00852405495022	5000
+ridge__64__culture	training_mean	pooled_spearman		0	0			0
+ridge__64__culture	training_mean	pooled_pearson		0	0			0
+ridge__64__culture	training_mean	pooled_rmse	0.00546618372224	19	20	0.00212026758674	0.00866078612701	5000
+ridge__64__culture	training_mean	pooled_mae	0.00501819512687	18	20	0.00132245744031	0.00994917526483	5000
+ridge__64__culture	training_mean	pooled_r2	0.0806877874093	19	20	0.0352779809304	0.132329419355	5000
+ridge__64__culture	training_mean	macro_all_rmse	0.0105593212754	19	20	0.00496534037769	0.0163719917516	5000
+ridge__64__culture	training_mean	macro_large_rmse	0.00336402517716	16	20	-0.000865564963101	0.00748700603193	5000
+elastic_net__5__expression	training_mean	pooled_spearman		0	0			0
+elastic_net__5__expression	training_mean	pooled_pearson		0	0			0
+elastic_net__5__expression	training_mean	pooled_rmse	0.00664998014382	19	20	0.00357565089996	0.0104651427418	5000
+elastic_net__5__expression	training_mean	pooled_mae	0.00498511127036	19	20	0.00168245123837	0.00960671914411	5000
+elastic_net__5__expression	training_mean	pooled_r2	0.0973812667321	19	20	0.0534592426757	0.16024523995	5000
+elastic_net__5__expression	training_mean	macro_all_rmse	0.0116152465246	20	20	0.00615694281186	0.01799571779	5000
+elastic_net__5__expression	training_mean	macro_large_rmse	0.00499723227995	18	20	0.00164554873465	0.00824893898356	5000
+elastic_net__64__expression	training_mean	pooled_spearman		0	0			0
+elastic_net__64__expression	training_mean	pooled_pearson		0	0			0
+elastic_net__64__expression	training_mean	pooled_rmse	0.00494829938693	19	20	0.00191486725397	0.00801201659035	5000
+elastic_net__64__expression	training_mean	pooled_mae	0.00479931852363	19	20	0.00142623646472	0.00935822612531	5000
+elastic_net__64__expression	training_mean	pooled_r2	0.0736043003227	19	20	0.0320706085217	0.123706062421	5000
+elastic_net__64__expression	training_mean	macro_all_rmse	0.00995909416889	19	20	0.00468234837853	0.0156212642467	5000
+elastic_net__64__expression	training_mean	macro_large_rmse	0.00298687292096	16	20	-0.000654411897639	0.0065781414716	5000
+elastic_net__0__culture	training_mean	pooled_spearman		0	0			0
+elastic_net__0__culture	training_mean	pooled_pearson		0	0			0
+elastic_net__0__culture	training_mean	pooled_rmse	-0.000628565163942	2	20	-0.00145060254394	0.000279645232833	5000
+elastic_net__0__culture	training_mean	pooled_mae	-0.000110028232596	6	20	-0.000757684019469	0.000549283959515	5000
+elastic_net__0__culture	training_mean	pooled_r2	-0.00837255277158	3	20	-0.0202911111855	0.00404844871492	5000
+elastic_net__0__culture	training_mean	macro_all_rmse	-0.000141231673483	8	20	-0.00103331590949	0.000729656071337	5000
+elastic_net__0__culture	training_mean	macro_large_rmse	-0.000434384859148	4	20	-0.00154323600874	0.000555216680144	5000
+elastic_net__5__culture	training_mean	pooled_spearman		0	0			0
+elastic_net__5__culture	training_mean	pooled_pearson		0	0			0
+elastic_net__5__culture	training_mean	pooled_rmse	0.00611768823395	19	20	0.0031381886047	0.00980208499318	5000
+elastic_net__5__culture	training_mean	pooled_mae	0.00492393129448	18	20	0.00183833693741	0.00914329359893	5000
+elastic_net__5__culture	training_mean	pooled_r2	0.0904309295892	19	20	0.0494638849782	0.151098922708	5000
+elastic_net__5__culture	training_mean	macro_all_rmse	0.0109984842281	20	20	0.00598947833692	0.0167786821799	5000
+elastic_net__5__culture	training_mean	macro_large_rmse	0.00476395042552	18	20	0.00184398026669	0.00777391410285	5000
+elastic_net__64__culture	training_mean	pooled_spearman		0	0			0
+elastic_net__64__culture	training_mean	pooled_pearson		0	0			0
+elastic_net__64__culture	training_mean	pooled_rmse	0.00485204238516	19	20	0.00177181782555	0.0079572480043	5000
+elastic_net__64__culture	training_mean	pooled_mae	0.00471244341929	19	20	0.00127282031446	0.0093910005844	5000
+elastic_net__64__culture	training_mean	pooled_r2	0.0723484763699	19	20	0.030056358285	0.122251633605	5000
+elastic_net__64__culture	training_mean	macro_all_rmse	0.00999459976126	19	20	0.00460424525396	0.0157607274481	5000
+elastic_net__64__culture	training_mean	macro_large_rmse	0.00285954225853	16	20	-0.000855770594109	0.00652253462245	5000
+neural_network__5__expression	training_mean	pooled_spearman		0	0			0
+neural_network__5__expression	training_mean	pooled_pearson		0	0			0
+neural_network__5__expression	training_mean	pooled_rmse	0.00663799694339	19	20	0.00301293797606	0.0111282740845	5000
+neural_network__5__expression	training_mean	pooled_mae	0.00485887903759	18	20	0.000727908359593	0.0105234931304	5000
+neural_network__5__expression	training_mean	pooled_r2	0.0968741822155	19	20	0.0441697672346	0.169768893592	5000
+neural_network__5__expression	training_mean	macro_all_rmse	0.0119937341208	20	20	0.00637137816738	0.0183352337865	5000
+neural_network__5__expression	training_mean	macro_large_rmse	0.00532840885059	18	20	0.00113836981884	0.00935025795066	5000
+neural_network__64__expression	training_mean	pooled_spearman		0	0			0
+neural_network__64__expression	training_mean	pooled_pearson		0	0			0
+neural_network__64__expression	training_mean	pooled_rmse	0.00582746741852	19	20	0.00238575792188	0.00926439904723	5000
+neural_network__64__expression	training_mean	pooled_mae	0.00518168381293	18	20	0.00116455628608	0.0105532469554	5000
+neural_network__64__expression	training_mean	pooled_r2	0.0854957705864	19	20	0.0376126078961	0.140629316583	5000
+neural_network__64__expression	training_mean	macro_all_rmse	0.0110198961633	19	20	0.00519394301918	0.0171073612905	5000
+neural_network__64__expression	training_mean	macro_large_rmse	0.00356266170317	17	20	-0.000935107555503	0.0080557168342	5000
+neural_network__0__culture	training_mean	pooled_spearman		0	0			0
+neural_network__0__culture	training_mean	pooled_pearson		0	0			0
+neural_network__0__culture	training_mean	pooled_rmse	-0.000872727852688	4	20	-0.0018386630851	0.00023303809682	5000
+neural_network__0__culture	training_mean	pooled_mae	-0.000242773853427	8	20	-0.00101293049744	0.0005694509109	5000
+neural_network__0__culture	training_mean	pooled_r2	-0.0111407427708	4	20	-0.0239689293714	0.00303067372198	5000
+neural_network__0__culture	training_mean	macro_all_rmse	-0.000441075563796	9	20	-0.0015410845324	0.000677095329687	5000
+neural_network__0__culture	training_mean	macro_large_rmse	-0.000602004091148	7	20	-0.00184904894768	0.000566269162141	5000
+neural_network__5__culture	training_mean	pooled_spearman		0	0			0
+neural_network__5__culture	training_mean	pooled_pearson		0	0			0
+neural_network__5__culture	training_mean	pooled_rmse	0.00492673317881	16	20	0.000258429776943	0.0106029229712	5000
+neural_network__5__culture	training_mean	pooled_mae	0.00409320404232	16	20	-0.000599534625618	0.0102390745146	5000
+neural_network__5__culture	training_mean	pooled_r2	0.0734512740732	16	20	0.00736529558187	0.156253823564	5000
+neural_network__5__culture	training_mean	macro_all_rmse	0.0118598884295	19	20	0.00570673245253	0.0184729110359	5000
+neural_network__5__culture	training_mean	macro_large_rmse	0.00407317323047	15	20	-0.000780594958218	0.00896033712467	5000
+neural_network__64__culture	training_mean	pooled_spearman		0	0			0
+neural_network__64__culture	training_mean	pooled_pearson		0	0			0
+neural_network__64__culture	training_mean	pooled_rmse	0.00578345732301	20	20	0.00217386624077	0.00925934653536	5000
+neural_network__64__culture	training_mean	pooled_mae	0.00520735200751	18	20	0.00113283029196	0.0106398485776	5000
+neural_network__64__culture	training_mean	pooled_r2	0.0850348514669	20	20	0.0359743549223	0.139543179234	5000
+neural_network__64__culture	training_mean	macro_all_rmse	0.0112532511555	19	20	0.0052678916691	0.0175426589293	5000
+neural_network__64__culture	training_mean	macro_large_rmse	0.00344512920646	16	20	-0.00112185070935	0.00796267690985	5000

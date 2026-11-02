@@ -1,0 +1,121 @@
+# Local credentials and Codex session state.
+**/.aws/
+**/.codex/
+**/.agents/
+.env
+.env.*
+*.pem
+*.key
+
+# Python environments, caches, build products and editor/OS state.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Work contains original workflow helpers as well as downloads and environments.
+# Preserve only our small Python helpers at their original, working paths.
+/work/**
+!/work/**/
+!/work/**/*.py
+/work/**/raw/
+/work/**/packages/
+/work/**/source/
+/work/bulkformer/
+/work/**/__pycache__/
+
+# This project keeps reproducibility code next to each experiment's results.
+# Track code, reports, definitions, provenance, validation and compact summaries.
+# Raw expression/response matrices, fitted models, per-fold diagnostics, archives,
+# intermediate arrays and detailed receiver/importance/tuning tables stay local.
+/outputs/**
+!/outputs/**/
+!/outputs/**/*.py
+!/outputs/**/*.md
+!/outputs/**/README.txt
+!/outputs/**/requirements*.txt
+!/outputs/**/protocol.json
+!/outputs/**/execution_protocol.json
+!/outputs/**/comparison_config.json
+!/outputs/**/panel_definition.json
+!/outputs/**/panel_definitions.json
+!/outputs/**/panel_mapping.json
+!/outputs/**/panel_mapping.tsv
+!/outputs/**/gene_mapping.tsv
+!/outputs/**/coverage_summary.json
+!/outputs/**/source_manifest.json
+!/outputs/**/analysis_source_manifest.json
+!/outputs/**/artifact_manifest.json
+!/outputs/**/result_artifact_manifest.json
+!/outputs/**/*validation*.json
+!/outputs/**/environment.json
+!/outputs/**/run_environment.json
+!/outputs/**/runtime_versions.json
+!/outputs/**/references.json
+!/outputs/**/candidate_gene_evidence.json
+!/outputs/**/candidate_gene_evidence.tsv
+!/outputs/**/summary.json
+!/outputs/**/summary.tsv
+!/outputs/**/final_summary.json
+!/outputs/**/paired_comparisons.tsv
+!/outputs/**/lineage_win_counts.tsv
+!/outputs/**/parameter_counts.tsv
+!/outputs/**/visual_qa.json
+!/outputs/**/grid_amendment.json
+!/outputs/**/grid_boundary_audit.json
+!/outputs/**/split_correction_audit.json
+!/outputs/**/helper_sources.json
+!/outputs/**/model_resource_manifest.json
+!/outputs/ferroptosis_paper_gene_panel.json
+!/outputs/retained_64_gene_models/model_registry.json
+!/outputs/**/*.png
+!/outputs/**/*.svg
+
+# Generated model subtrees and downloaded snapshots override the exceptions.
+/outputs/**/folds/
+/outputs/**/source_metadata/
+/outputs/**/source_snapshots/
+/outputs/**/sources/
+/outputs/**/__pycache__/
+
+# Keep the two small, externally defined Hallmark membership lists used in the
+# completed comparison. Full downloaded HTML pages remain local.
+!/outputs/erastin_emt_ddr_panels/sources/
+!/outputs/erastin_emt_ddr_panels/sources/HALLMARK_DNA_REPAIR.json
+!/outputs/erastin_emt_ddr_panels/sources/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json
+!/outputs/erastin_emt_ddr_comparison/sources/
+!/outputs/erastin_emt_ddr_comparison/sources/HALLMARK_DNA_REPAIR.json
+!/outputs/erastin_emt_ddr_comparison/sources/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json
+
+# Never accidentally add fitted parameters, data, downloads or large archives.
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
+*.ubj
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.zip
+*.tar
+*.gz
+*.whl
+*.log

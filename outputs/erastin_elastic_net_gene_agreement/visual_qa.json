@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "figures": {
+    "selection_and_rank_agreement.png": "361184ce6e9ef1467e5de7f474652da78f57f3c438c80cad5d8925913cf59c1f",
+    "matched_predictive_importance.png": "44dae46b9abc82812ea4329d32fab77637431e0396b6581fe4527f1a0f672aeb",
+    "core_lineage_importance.png": "d5d6080874852dc2d3aaa4fb09a99a0a4e40885394ca51514ff48fc7fa888110"
+  },
+  "inspection": "All three rendered figures inspected for legible labels, rank values, interval directions and lineage signs; no clipping or overlaps found.",
+  "always_selected_mean_directions_agree_across_all_three_models": true
+}

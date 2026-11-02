@@ -1,0 +1,5089 @@
+{
+  "files": [
+    {
+      "path": "fit_completion.json",
+      "sha256": "ebe4bb06dec70a658b42faea12b98fb76566595c433b8e8b1e42ceee65a73cf0",
+      "bytes": 169
+    },
+    {
+      "path": "folds/repeat_00__lineage_00.json",
+      "sha256": "356148431cf389acee056b897959c1ea4df98d393a3381935822d7b8b70d9ed8",
+      "bytes": 339389
+    },
+    {
+      "path": "folds/repeat_00__lineage_00.npz",
+      "sha256": "ec9ecaba678bb8a0ad9e0316a393dcdaf833a2623ca84bcccdc0f1488f4e51e4",
+      "bytes": 92123
+    },
+    {
+      "path": "folds/repeat_00__lineage_01.json",
+      "sha256": "e700801af2323d6f26d1d47d7439b46c1c638e3b3430a4cbf4dab57955b755d1",
+      "bytes": 339479
+    },
+    {
+      "path": "folds/repeat_00__lineage_01.npz",
+      "sha256": "abc0d7da6c95ae20c24022bc21a0d6a1536a7f25a2169a04569fa4b3c45e27fc",
+      "bytes": 91789
+    },
+    {
+      "path": "folds/repeat_00__lineage_02.json",
+      "sha256": "9f298c87dfb957cfe8cb9e8ca548e6ad4a2a9e2eb8ba995be07ecee3ec0db41d",
+      "bytes": 339405
+    },
+    {
+      "path": "folds/repeat_00__lineage_02.npz",
+      "sha256": "4df1561e0b0fc460da19d74e5202c15dee9c9b70cf7aeabb2ea390017fb25b73",
+      "bytes": 90886
+    },
+    {
+      "path": "folds/repeat_00__lineage_03.json",
+      "sha256": "2e73de3d054d7974bde7f4f01cfecf458be4bac3a12ada6c7fed2e660433b417",
+      "bytes": 339540
+    },
+    {
+      "path": "folds/repeat_00__lineage_03.npz",
+      "sha256": "4624b8b9ec7b9494d0ccc33a2c756cc84d0eed2608a23cdd318d91c88342d815",
+      "bytes": 91362
+    },
+    {
+      "path": "folds/repeat_00__lineage_04.json",
+      "sha256": "b7e2e5056c04accc1bab45a312d76742be376b8e86ce27c71f5ff91973a7f695",
+      "bytes": 339329
+    },
+    {
+      "path": "folds/repeat_00__lineage_04.npz",
+      "sha256": "3b7f29f30d202dd4ec2fb73e5e0cd7250b18519b32b943b5d92b3ed607f6a46f",
+      "bytes": 88884
+    },
+    {
+      "path": "folds/repeat_00__lineage_05.json",
+      "sha256": "cc7e2a064c3575017353476cc403d8af9fcd7d4b99feb4b6c10a885334582df9",
+      "bytes": 339429
+    },
+    {
+      "path": "folds/repeat_00__lineage_05.npz",
+      "sha256": "1a9f037f76428117dae3986f84e1c753b17c9c75555caf3ec56514978157e0a0",
+      "bytes": 89721
+    },
+    {
+      "path": "folds/repeat_00__lineage_06.json",
+      "sha256": "1e4013f76d542b18945ae0e4bcfeeeccd7452072c29584aa82beec9a4de20568",
+      "bytes": 339344
+    },
+    {
+      "path": "folds/repeat_00__lineage_06.npz",
+      "sha256": "06b323104d56c41fc7043c4c2fd33f0b2d2849799315720e23e03b2f93899c0b",
+      "bytes": 88622
+    },
+    {
+      "path": "folds/repeat_00__lineage_07.json",
+      "sha256": "5c207a2953add717618a0ba7aa702a84ba50f93e4f2e2d2b254cbc62549a90cb",
+      "bytes": 339412
+    },
+    {
+      "path": "folds/repeat_00__lineage_07.npz",
+      "sha256": "a2ccb3034e7518b3c63c3cc0b2b1dd6997e176c0d05bdd8f5d044a0764ce4a91",
+      "bytes": 92143
+    },
+    {
+      "path": "folds/repeat_00__lineage_08.json",
+      "sha256": "c5524bf2ac6a811058d312fe6193a83565b83c4490e6d4b6e839dc9b87918da5",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_00__lineage_08.npz",
+      "sha256": "2dda52b8d72d1a89de184ddc56c83902914be7c13263eaf9fc8c0297785e09cf",
+      "bytes": 87894
+    },
+    {
+      "path": "folds/repeat_00__lineage_09.json",
+      "sha256": "7a48595e4f2d1a18c44c5eebd5d6ac751928e51eec3e09f01df7077dee95f51b",
+      "bytes": 339505
+    },
+    {
+      "path": "folds/repeat_00__lineage_09.npz",
+      "sha256": "2b2765a65f51a2ee76102f58d751a7e5f50935141dc5cfdafd1e839064fb9dd7",
+      "bytes": 90135
+    },
+    {
+      "path": "folds/repeat_00__lineage_10.json",
+      "sha256": "e43519a068538e70d3b83e7b0105e81544fa2884e5668ff5c645aa91f34b1737",
+      "bytes": 339367
+    },
+    {
+      "path": "folds/repeat_00__lineage_10.npz",
+      "sha256": "0dd3f5cf0ac37e2e51c67304dc5d5a1bf52b03b1f2008bf108e475f7a810c0b6",
+      "bytes": 90698
+    },
+    {
+      "path": "folds/repeat_00__lineage_11.json",
+      "sha256": "82de64c3993b3a5ad84943e426e43b836b504fabac02deb8a7cab52311be1e98",
+      "bytes": 339238
+    },
+    {
+      "path": "folds/repeat_00__lineage_11.npz",
+      "sha256": "f55e5ecfeb4439f4d9426ae96d401023b841fffd1a8738e94c61a6749be7969f",
+      "bytes": 90659
+    },
+    {
+      "path": "folds/repeat_00__lineage_12.json",
+      "sha256": "7ac7f853a667834202d1a1bcb9ff63f4009f3ac7d2dbeb1304e9a3e935ce9bc3",
+      "bytes": 339321
+    },
+    {
+      "path": "folds/repeat_00__lineage_12.npz",
+      "sha256": "818ab91f1d42f21e2ad60a8314aac881e42c030963f3141d3fd08022e427d006",
+      "bytes": 81912
+    },
+    {
+      "path": "folds/repeat_00__lineage_13.json",
+      "sha256": "5eddaf7d8fb9e29a20f7ec0033c24c77d21a3f56d92657c4d0ee0dbb9e486420",
+      "bytes": 338864
+    },
+    {
+      "path": "folds/repeat_00__lineage_13.npz",
+      "sha256": "b5c48fab0e5acb2b5f7b98a20fa59409bd86da7992ac54fbf62359549bd3ed74",
+      "bytes": 84125
+    },
+    {
+      "path": "folds/repeat_00__lineage_14.json",
+      "sha256": "cf87dc4639a1f44ee7488cc810de560cae361958612485495588e7090043808c",
+      "bytes": 339091
+    },
+    {
+      "path": "folds/repeat_00__lineage_14.npz",
+      "sha256": "5717254e77e3f48b8648dc87a209c2ebbf43fa57933f1793c18f6cdea6a49626",
+      "bytes": 89150
+    },
+    {
+      "path": "folds/repeat_00__lineage_15.json",
+      "sha256": "2eec1bded0015734dbe591db9a037475bcf85edfdb47a663bc1f2afd9f7a5230",
+      "bytes": 339363
+    },
+    {
+      "path": "folds/repeat_00__lineage_15.npz",
+      "sha256": "292a25cc9aa26a25f9d7d31a184b24dbf5611cc960682b264c865686efdae206",
+      "bytes": 89453
+    },
+    {
+      "path": "folds/repeat_00__lineage_16.json",
+      "sha256": "0cf864269038e28b94e50fdcedf1ca039e0d43c1b796ffd5ed6e967e27f341e1",
+      "bytes": 339602
+    },
+    {
+      "path": "folds/repeat_00__lineage_16.npz",
+      "sha256": "cdb5a8ff6711036c24d3dc2f1fd204a0a41ce1f03ecd62c9d0cbe0410be4f755",
+      "bytes": 89362
+    },
+    {
+      "path": "folds/repeat_00__lineage_17.json",
+      "sha256": "e29112695215eca6f361613088b95af7f1cb56daf9d432d1fb757c39137918d9",
+      "bytes": 339411
+    },
+    {
+      "path": "folds/repeat_00__lineage_17.npz",
+      "sha256": "effd330eec54eb71e896a72d419303f1af0554b2136edfaf26781a3f2052947d",
+      "bytes": 91170
+    },
+    {
+      "path": "folds/repeat_00__lineage_18.json",
+      "sha256": "26c73c9048b2b668768c7d9636ee38ac7c616ca2d50060636c78bd2184728437",
+      "bytes": 339320
+    },
+    {
+      "path": "folds/repeat_00__lineage_18.npz",
+      "sha256": "187e373508779f38fe2b962923fc4f38f2800efa1deae84a04960a9e6dc7a97f",
+      "bytes": 91660
+    },
+    {
+      "path": "folds/repeat_00__lineage_19.json",
+      "sha256": "53366545a58b34ead130f14f01c45c5e3c83f1eb0370fe405e277f7764f14922",
+      "bytes": 339489
+    },
+    {
+      "path": "folds/repeat_00__lineage_19.npz",
+      "sha256": "8da4a60833968d32cd93ea3ff82dce4dc4c34140c3bf2050f61053821c6757bc",
+      "bytes": 91837
+    },
+    {
+      "path": "folds/repeat_00__lineage_20.json",
+      "sha256": "e7b38c2a2fd4a3290b432c9724fcde620ece1615e03c65dee78a220a1c11c0d6",
+      "bytes": 339258
+    },
+    {
+      "path": "folds/repeat_00__lineage_20.npz",
+      "sha256": "c8b6ff156fd70a530cfaf43b99f5fd55feb0c69ef8e70df8876d99c93587d2af",
+      "bytes": 89203
+    },
+    {
+      "path": "folds/repeat_00__lineage_21.json",
+      "sha256": "c8c967116e6c59776ed62785b77f5720ccab7a6d8123893d7901a050cb8c446e",
+      "bytes": 339439
+    },
+    {
+      "path": "folds/repeat_00__lineage_21.npz",
+      "sha256": "e8543ed748795eb6d70d81a913d3d6801f00acc97b4b33ee2d0f220cabf046c0",
+      "bytes": 91323
+    },
+    {
+      "path": "folds/repeat_00__lineage_22.json",
+      "sha256": "cc352cd28dc2460ae6aa8dc834781940700ee22050c5a6a5c853cdacabfd3a0b",
+      "bytes": 339307
+    },
+    {
+      "path": "folds/repeat_00__lineage_22.npz",
+      "sha256": "a52712e8718f9c5792563ec8f1b9b83e549ed68b48cac965836f3835fbb90740",
+      "bytes": 91586
+    },
+    {
+      "path": "folds/repeat_00__lineage_23.json",
+      "sha256": "7e7b707bd6f543def2f75c806542570d67e9192f97ac8371541f6c79e26b9984",
+      "bytes": 339353
+    },
+    {
+      "path": "folds/repeat_00__lineage_23.npz",
+      "sha256": "be75eee30ca78263a92adeafe4794480479f2a15b215d38801b9f086f5607884",
+      "bytes": 90392
+    },
+    {
+      "path": "folds/repeat_01__lineage_00.json",
+      "sha256": "7604ea8ecdab6c7bbb630cc21768f83cf75456e5471a985d28e071b6a2a68438",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_01__lineage_00.npz",
+      "sha256": "dc2226b01e194633b4275dd02017f5d619fd32982eaac8d879f6f5c996df4f53",
+      "bytes": 92146
+    },
+    {
+      "path": "folds/repeat_01__lineage_01.json",
+      "sha256": "f8ea27160a608ed1393d33515f456f19dea01b30d52098a239dc921bde3ae573",
+      "bytes": 339481
+    },
+    {
+      "path": "folds/repeat_01__lineage_01.npz",
+      "sha256": "760277254eb01d1a0f769bce1a79b532e6e511566bbf9f3c1357d12bea9e4129",
+      "bytes": 91863
+    },
+    {
+      "path": "folds/repeat_01__lineage_02.json",
+      "sha256": "a285ff034bf731bf635325d8b1653d5e1506fb415a509dc0e1681a0c28b463b9",
+      "bytes": 339407
+    },
+    {
+      "path": "folds/repeat_01__lineage_02.npz",
+      "sha256": "88dad7a891e943fd5551ea5b05bf35a05fd0e01c6d70f059eb8580a7fd9f4354",
+      "bytes": 90883
+    },
+    {
+      "path": "folds/repeat_01__lineage_03.json",
+      "sha256": "96fe3bf632a7291e67e682ae42d62f80793893fbcf84ae05048c78857c28c795",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_01__lineage_03.npz",
+      "sha256": "c832da23ac0d62a7a335eaccba5c5ced995533bb7a0921c48c913d00afa33929",
+      "bytes": 91353
+    },
+    {
+      "path": "folds/repeat_01__lineage_04.json",
+      "sha256": "6fc093dcddeaeea1286aee518b5cab71f27cd9b05123928e965e90e47fa055b9",
+      "bytes": 339330
+    },
+    {
+      "path": "folds/repeat_01__lineage_04.npz",
+      "sha256": "fc5c1be8df1e6e6843e186b6eb0f7b91ff8fb45d005a7149172a95ddbf71d778",
+      "bytes": 88832
+    },
+    {
+      "path": "folds/repeat_01__lineage_05.json",
+      "sha256": "952309dbff6f9a26ffe47993001e2a91abe0d195a3cbe409a2db8ae2496850e7",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_01__lineage_05.npz",
+      "sha256": "cad694cf6cbf41902e4dd125132966f29b7278e42991fb50d1d52a53ebf746a7",
+      "bytes": 89748
+    },
+    {
+      "path": "folds/repeat_01__lineage_06.json",
+      "sha256": "21ea26a877e609d60dd0c5ca1de1c523c5710068baeecd1c66962b14eaa6a2b5",
+      "bytes": 339348
+    },
+    {
+      "path": "folds/repeat_01__lineage_06.npz",
+      "sha256": "c86bb15ddf97da949fac51a4924d7b11c12d113f6b59d7ae94db2eb0b0bd8baa",
+      "bytes": 88641
+    },
+    {
+      "path": "folds/repeat_01__lineage_07.json",
+      "sha256": "12ef5abcd32f81f6e8ddc713e202e7d6f6b8f3fb176b547cea36a44591f50df5",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_01__lineage_07.npz",
+      "sha256": "da7a1f53d3f51c5cf3e9423e78e6657ad1ee834d35c72782ecf2074f9572fe6f",
+      "bytes": 92208
+    },
+    {
+      "path": "folds/repeat_01__lineage_08.json",
+      "sha256": "424f30d4c6665efc66a77420f5d3892c87b87c82d283d8777f1c36a6d9832147",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_01__lineage_08.npz",
+      "sha256": "57a3217e229cc4b15a7da8e273e4f073e1675b1918f3399eecb819542cdfdf97",
+      "bytes": 87936
+    },
+    {
+      "path": "folds/repeat_01__lineage_09.json",
+      "sha256": "baafdc2702fc7add0166717aa6ca123699016efccdb796671ebe87bd65b8df6a",
+      "bytes": 339506
+    },
+    {
+      "path": "folds/repeat_01__lineage_09.npz",
+      "sha256": "7a79bbe86d14b33ba65d6ebfefd6cf44d30a0dbf76e2e800d207be5e79422aef",
+      "bytes": 90148
+    },
+    {
+      "path": "folds/repeat_01__lineage_10.json",
+      "sha256": "9a44ccab3113906972d81d04cffd37d4212ef8b531a12d6651852e9592c405d0",
+      "bytes": 339370
+    },
+    {
+      "path": "folds/repeat_01__lineage_10.npz",
+      "sha256": "743760a6212f446b82935f3122453c4ca81f42fae83a685d12b25e2155e15627",
+      "bytes": 90691
+    },
+    {
+      "path": "folds/repeat_01__lineage_11.json",
+      "sha256": "cc4f8797cf8f2c40d27724afd267063ac440b9cee6d99a63622890c204fd260a",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_01__lineage_11.npz",
+      "sha256": "de7d64c442a8e1ac21bfd2fdbe062a710b9c5a45a6dc81b53a0570d5636e0ecf",
+      "bytes": 90661
+    },
+    {
+      "path": "folds/repeat_01__lineage_12.json",
+      "sha256": "467f460fb892e9f2bc069bb3e497e05645ae3126f2fa3e76edef999ac91737f5",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_01__lineage_12.npz",
+      "sha256": "1375ea79871894e7f8fe7ef8c84a54a5a0801546e8508be8df958758489721ee",
+      "bytes": 81962
+    },
+    {
+      "path": "folds/repeat_01__lineage_13.json",
+      "sha256": "de031b000d9e0cc446e0134261828133950aee2982206c0c63f9073cea1bc877",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_01__lineage_13.npz",
+      "sha256": "edf7a69ab8d036bf18b3f2e727d3a27576377740bc19a8b2020dcd02f82b6447",
+      "bytes": 84108
+    },
+    {
+      "path": "folds/repeat_01__lineage_14.json",
+      "sha256": "c63eb11fa8fa4935f1678ac9808e1a9f322cb55f5c3ca6348958bdc2fb3301c2",
+      "bytes": 339094
+    },
+    {
+      "path": "folds/repeat_01__lineage_14.npz",
+      "sha256": "3b50e68029e733caaec465827b0b92d58cb1ac8c08dfa20d43ac7c4c01ef7a1a",
+      "bytes": 89159
+    },
+    {
+      "path": "folds/repeat_01__lineage_15.json",
+      "sha256": "c08ed97febecaae3a309e4f5ee14f5b175a59078588279f2e5d028b51f784233",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_01__lineage_15.npz",
+      "sha256": "8985b3de54b86b019f37db37922f578a817ef5534a2ec932274d9497de584b07",
+      "bytes": 89475
+    },
+    {
+      "path": "folds/repeat_01__lineage_16.json",
+      "sha256": "c9cb025a33eab0770a1cb04e2809da6b408a491a9cc29563a881978fb285fa31",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_01__lineage_16.npz",
+      "sha256": "31dff83881be8c5cbb55b09b882cd1e46cc1c4f35011157bb9b3b7f1f58fc447",
+      "bytes": 89314
+    },
+    {
+      "path": "folds/repeat_01__lineage_17.json",
+      "sha256": "2eb4de5bcc804006953c4f73ae27b794328b5a79a8aaebc2a8794ed36a24162f",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_01__lineage_17.npz",
+      "sha256": "12966caff3f3f64790a465ce3bb3aff306d119d4c8205245c42e1b530452a98e",
+      "bytes": 91215
+    },
+    {
+      "path": "folds/repeat_01__lineage_18.json",
+      "sha256": "1211352be24997577f8e53f27e3605b4cf9842c9d1c9e271c878da34dfdc47c4",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_01__lineage_18.npz",
+      "sha256": "f38e23788471ebd408d7dd4bf923b91a725cfd00d4154b0db9c8e66b2ff9ec56",
+      "bytes": 91701
+    },
+    {
+      "path": "folds/repeat_01__lineage_19.json",
+      "sha256": "a8022a7db70934b6e1b7dacf6487a5b405812bcdbc7d7b8a2d1ab19e67ca4ce1",
+      "bytes": 339490
+    },
+    {
+      "path": "folds/repeat_01__lineage_19.npz",
+      "sha256": "46c97e477dc032f0621ad553fedd750f8a8d2635d73b13add67d94f48a1ff4e3",
+      "bytes": 91870
+    },
+    {
+      "path": "folds/repeat_01__lineage_20.json",
+      "sha256": "cebf8cdb2474ad78f813e94ed22e2fd399554066dc45355968ca3a2565bce42e",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_01__lineage_20.npz",
+      "sha256": "6a3d61d4ead63ecf56d4e523d6cbec3b0bd9d04279fa4a1f6fe09c6488d0f96c",
+      "bytes": 89189
+    },
+    {
+      "path": "folds/repeat_01__lineage_21.json",
+      "sha256": "9d87a5b8eab9e67ae2f4bb2af1ba1e7a3e15c94c5ca9484b50854594bd1aac0a",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_01__lineage_21.npz",
+      "sha256": "7c6b71245e9929d467387f1dda7cf5792a2f27ffc5c549aaa9f57276fec1ceb4",
+      "bytes": 91355
+    },
+    {
+      "path": "folds/repeat_01__lineage_22.json",
+      "sha256": "e8e170f3807bd6ae7de241aa68c7ac0b553967558bbe39367b5dd09d21d66617",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_01__lineage_22.npz",
+      "sha256": "ed32aa3c53b8a54c8d7b9b68966a4793b9b24fb78c976add8e9d90586d4e8dfb",
+      "bytes": 91581
+    },
+    {
+      "path": "folds/repeat_01__lineage_23.json",
+      "sha256": "8e7c5e69021c4540ff7e07b5b976f610d5f3f15aabccbd4ffde2d2d563f8bffb",
+      "bytes": 339355
+    },
+    {
+      "path": "folds/repeat_01__lineage_23.npz",
+      "sha256": "ef61fbb1629b6dc9f382b3c21958f9962b107a7094abee902752ab450881540a",
+      "bytes": 90397
+    },
+    {
+      "path": "folds/repeat_02__lineage_00.json",
+      "sha256": "d2cdf94e5e50ca8ee03a37337fc07864a51a1857a0a4e0f4708cc2e472d8dcd5",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_02__lineage_00.npz",
+      "sha256": "d0229a8afa512de12f6860128d47c8a5d0ea1ab9ecf7875940366114892e45c9",
+      "bytes": 92164
+    },
+    {
+      "path": "folds/repeat_02__lineage_01.json",
+      "sha256": "81b45c63404f32fc13dbeba20a1f8860362d9109c8cc97f5afd5f8161716b6e2",
+      "bytes": 339482
+    },
+    {
+      "path": "folds/repeat_02__lineage_01.npz",
+      "sha256": "bc9c46ae93ecc6a7a773d69cb5aaf703c59b3a0acf68c195ed6873dac49d68ca",
+      "bytes": 91804
+    },
+    {
+      "path": "folds/repeat_02__lineage_02.json",
+      "sha256": "9bd748cbb8b58b933c4eb9e864ae19a2b3eb7b91e653ce3711fb3c613c6730db",
+      "bytes": 339407
+    },
+    {
+      "path": "folds/repeat_02__lineage_02.npz",
+      "sha256": "75101bb1e55fecbd56dad1f27b6f69ca311bdccf2e7cccaafc6b1daea1cd7846",
+      "bytes": 90905
+    },
+    {
+      "path": "folds/repeat_02__lineage_03.json",
+      "sha256": "a16825ea102523c137f7815f92db705d00bc39610b703252d124dde32bdf215e",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_02__lineage_03.npz",
+      "sha256": "36b652c680dbbdc9f458ae386ee2badcb427eaf41b991063158c6819d5eec10c",
+      "bytes": 91366
+    },
+    {
+      "path": "folds/repeat_02__lineage_04.json",
+      "sha256": "3aa20f944102ce62a0d5dddc0949a2da22b7767f4c3e053abaec81a9b6b2af38",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_02__lineage_04.npz",
+      "sha256": "44e382f0634f48a250b90d611a38cb96714c8baddc154e583003ae680fdf21d9",
+      "bytes": 88867
+    },
+    {
+      "path": "folds/repeat_02__lineage_05.json",
+      "sha256": "725297df6913f40eb81f86e513f1e290e56ec84c8b35b279bf0f7c3810f338f9",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_02__lineage_05.npz",
+      "sha256": "717d5410a2917024dd3b5693682ad2ff661adc57740c557abff89a5ba5124851",
+      "bytes": 89756
+    },
+    {
+      "path": "folds/repeat_02__lineage_06.json",
+      "sha256": "ed40fe7492236b636cc7e2f570b063199ad845f91fe4818f20f2c766ff215a2e",
+      "bytes": 339348
+    },
+    {
+      "path": "folds/repeat_02__lineage_06.npz",
+      "sha256": "70513299e62ba94b3394c81eec2e992eba18dfa97856a3e3a0d32037f50f0c85",
+      "bytes": 88617
+    },
+    {
+      "path": "folds/repeat_02__lineage_07.json",
+      "sha256": "5829faeb8000511c3c2f203e6d6a931baa21a92b7ffcf7f4478cfc05e3c002e2",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_02__lineage_07.npz",
+      "sha256": "4c0dc8872df6e7345926b0eb7b19fbfa65db5030b6011f0fe241755a097e24c3",
+      "bytes": 92199
+    },
+    {
+      "path": "folds/repeat_02__lineage_08.json",
+      "sha256": "37e51c627b96352e68a6f956063d3fbaa22df63aff4c891f3be5d55dd297f1e3",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_02__lineage_08.npz",
+      "sha256": "3e77d2ee05a0893c81d2488dd08859f1f38c1a7ca8cd2aeb987bfc8738417e52",
+      "bytes": 87921
+    },
+    {
+      "path": "folds/repeat_02__lineage_09.json",
+      "sha256": "e9f06a0431ca6b3b71e92cffbd294d68cbe2edf35fb8aa506799df36e02dc8ba",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_02__lineage_09.npz",
+      "sha256": "89f1bbdbb58d113b243d3b5648e0081e717aabefd0383d18d4f8bca3992709f0",
+      "bytes": 90165
+    },
+    {
+      "path": "folds/repeat_02__lineage_10.json",
+      "sha256": "c822b5e19e76977cff23ec67530da52aac158d344e0de3e08dfa7beb7a337dc7",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_02__lineage_10.npz",
+      "sha256": "c8bd1937e0adcd7ca9c66fb8450e8be5a45cce7d844070b6eb1224cb22ac586c",
+      "bytes": 90642
+    },
+    {
+      "path": "folds/repeat_02__lineage_11.json",
+      "sha256": "9ef8f728f52aa6627a369eb7928dd92152c158c0294ae7c3c42166e1a9df1924",
+      "bytes": 339237
+    },
+    {
+      "path": "folds/repeat_02__lineage_11.npz",
+      "sha256": "ad219085185d021df0728fc487453509bc3c227b90c9974fc4f1084eb5195bee",
+      "bytes": 90662
+    },
+    {
+      "path": "folds/repeat_02__lineage_12.json",
+      "sha256": "e3b3ae3540640b907e2b5b55cde85e3ff420f8409f3a42fa1dfd535d172c21b9",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_02__lineage_12.npz",
+      "sha256": "5627a82181a59affabf99796582ee0ad2a3b5e24c71d5fb8aa3731ea04c5d31d",
+      "bytes": 81951
+    },
+    {
+      "path": "folds/repeat_02__lineage_13.json",
+      "sha256": "3b27d4fb0a1ba06ad8b6c9eeca7b61ff10c1781bc6937207f6dad07344f78762",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_02__lineage_13.npz",
+      "sha256": "cd4cfea28336223fd139d328ecf00b191455fd7cc6ae128ec8d5658938d84a93",
+      "bytes": 84159
+    },
+    {
+      "path": "folds/repeat_02__lineage_14.json",
+      "sha256": "e55454dc76172b11d68de23c869ad17c8e8eff3606cb59420b8df855c32a2368",
+      "bytes": 339090
+    },
+    {
+      "path": "folds/repeat_02__lineage_14.npz",
+      "sha256": "8f62a33e9feab006e40e85c92d5c9b0db307b8fb8bd273ea32761e1991a1338c",
+      "bytes": 89161
+    },
+    {
+      "path": "folds/repeat_02__lineage_15.json",
+      "sha256": "50f01d1e497680b9d8726f8a88db4405d141b907e67b6895b2e979ed02678b5a",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_02__lineage_15.npz",
+      "sha256": "ad3f9e700263e21709935a849b730b8fc92f81935ff38e4b915ed00a78ddde80",
+      "bytes": 89440
+    },
+    {
+      "path": "folds/repeat_02__lineage_16.json",
+      "sha256": "f3adc9672d59153a2dec5f8e60acfe4a26e31317068e9b693c28663fd7bbc369",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_02__lineage_16.npz",
+      "sha256": "d2b8b5fd06e63740c4d6915b8f8e91dc7287300daaf63e0a4eb563620044a1c1",
+      "bytes": 89378
+    },
+    {
+      "path": "folds/repeat_02__lineage_17.json",
+      "sha256": "6080e2056e02e6597482d314a7c4c214313556e785135652b1505970467d2f98",
+      "bytes": 339412
+    },
+    {
+      "path": "folds/repeat_02__lineage_17.npz",
+      "sha256": "a46f7f12379b7b4b29df6b984acad9459911965f0025ab7acbbae25e28255405",
+      "bytes": 91191
+    },
+    {
+      "path": "folds/repeat_02__lineage_18.json",
+      "sha256": "ccb7e66c64b638a671a96ceec4c7827f1558c72d4c8f671b1e67d11a4dc8bb07",
+      "bytes": 339321
+    },
+    {
+      "path": "folds/repeat_02__lineage_18.npz",
+      "sha256": "26094af03037f5e55c8c5ae3b83dd4b06eda99dc49982fa87ba686b9540dcc46",
+      "bytes": 91679
+    },
+    {
+      "path": "folds/repeat_02__lineage_19.json",
+      "sha256": "98736cae45c8ab5241d2bcd2f5cd71fe36b30bc59c4bdb110a642f4f5f6e6137",
+      "bytes": 339490
+    },
+    {
+      "path": "folds/repeat_02__lineage_19.npz",
+      "sha256": "3ee9ddf6069e66d3a01d495d7121f180f5de5ce084bcdefd9538a79d95b8358d",
+      "bytes": 91871
+    },
+    {
+      "path": "folds/repeat_02__lineage_20.json",
+      "sha256": "51228e663d1978360ee4c840802010b99c5d693ef613c3916e2f1df44f7d05f1",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_02__lineage_20.npz",
+      "sha256": "800681059c89efc934c0ab088cbde6ce619310453002ea1ac3ce1ed1a878392d",
+      "bytes": 89214
+    },
+    {
+      "path": "folds/repeat_02__lineage_21.json",
+      "sha256": "117c167fdcc3e0ca1c479af1a569ec90e994586b6b8e56c52af93ead9ab731e6",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_02__lineage_21.npz",
+      "sha256": "dd5dfeb84a197a7532eee4225d489b01503985527fafaeeee646f2e454ebd1cb",
+      "bytes": 91321
+    },
+    {
+      "path": "folds/repeat_02__lineage_22.json",
+      "sha256": "286efc4d0323eb19fa8583af79247012f0a2b0799c80b0d67209de3c70925ead",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_02__lineage_22.npz",
+      "sha256": "4abebc665336851172f1fe56770451c91f06c1288a92412ccefc83be24e021ae",
+      "bytes": 91618
+    },
+    {
+      "path": "folds/repeat_02__lineage_23.json",
+      "sha256": "ba1807cd76fcab9064b150d5a5906808670e530167dd26b075bdeef3d06124a3",
+      "bytes": 339354
+    },
+    {
+      "path": "folds/repeat_02__lineage_23.npz",
+      "sha256": "598f503037d57b400cbf520e5053e34bd89b8118f75ff290400bbc09b1a88c21",
+      "bytes": 90356
+    },
+    {
+      "path": "folds/repeat_03__lineage_00.json",
+      "sha256": "c9ceb801a96aed970d6f798e86a72ae1223b9aebdf0833401457c7eee5460804",
+      "bytes": 339391
+    },
+    {
+      "path": "folds/repeat_03__lineage_00.npz",
+      "sha256": "96d015a54697fd68bbba288448cf54e22c8a0f162b7b4a4bee619dbcb9612027",
+      "bytes": 92138
+    },
+    {
+      "path": "folds/repeat_03__lineage_01.json",
+      "sha256": "9b944705f686f1fc3e321a5fc511904cccb1eeb7e69e8c88954f40a173ebcf0e",
+      "bytes": 339481
+    },
+    {
+      "path": "folds/repeat_03__lineage_01.npz",
+      "sha256": "327b4f3c15663e481913ff1fcede66d1701edbe4bb733a672801618d428efc19",
+      "bytes": 91852
+    },
+    {
+      "path": "folds/repeat_03__lineage_02.json",
+      "sha256": "2f00fdd7d3e1ee185557958b7a6773ca6d4eea44dfe604c2273904e73330caf6",
+      "bytes": 339406
+    },
+    {
+      "path": "folds/repeat_03__lineage_02.npz",
+      "sha256": "2531ab3c7a8580187f96be6f7b604839aca07ef2485eb388406bc68bdf08fe9f",
+      "bytes": 90922
+    },
+    {
+      "path": "folds/repeat_03__lineage_03.json",
+      "sha256": "eba7576fe1b879523dde3b467a404ea509cbf6a27c373aa5ed989ab08e3576b1",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_03__lineage_03.npz",
+      "sha256": "de4bdb16c9f55638239cb1ff2426592a7404d899d5d9699fe51d547ede7bdd22",
+      "bytes": 91361
+    },
+    {
+      "path": "folds/repeat_03__lineage_04.json",
+      "sha256": "e248a7f2830c2f7e50470915dfb6bd44878cc07c3009bf640a2b00f0c89eaf55",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_03__lineage_04.npz",
+      "sha256": "c46707d5e436f048f753d12514a06b8bcb9996dfd70ab73ea911028824837226",
+      "bytes": 88893
+    },
+    {
+      "path": "folds/repeat_03__lineage_05.json",
+      "sha256": "06cf84a7df064f6c010cdcc1feb6deaf86a830378338190fa8cb82f089750638",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_03__lineage_05.npz",
+      "sha256": "96b674c86b0361affc0bed09907c342f4120075888a5472254d5637d4f342e75",
+      "bytes": 89684
+    },
+    {
+      "path": "folds/repeat_03__lineage_06.json",
+      "sha256": "cb3c10a16a4c6eb3660aea6590bfd212187bb1d2377fd22ded64811443e362cc",
+      "bytes": 339348
+    },
+    {
+      "path": "folds/repeat_03__lineage_06.npz",
+      "sha256": "310015f4af5e96d5388d47784733ce4105840423f467f89c315d3e27fde0e76a",
+      "bytes": 88653
+    },
+    {
+      "path": "folds/repeat_03__lineage_07.json",
+      "sha256": "add535acc9e23e10fefa46bf85eca1f886573ad8fcdc7d4261312428c1ba69e5",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_03__lineage_07.npz",
+      "sha256": "bfb03c9a03d49208f70e49c6138f8e1616d64891eb9d58a6edbd1a564187a2bf",
+      "bytes": 92174
+    },
+    {
+      "path": "folds/repeat_03__lineage_08.json",
+      "sha256": "d38c65d2f34cb1b0882c7fae773060c7bc1ab6f93440e7d6b5906b2450b8401f",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_03__lineage_08.npz",
+      "sha256": "fddc15d6b27b9e7fe96cdcbe2e0360da9eaeeed6b8d824673aebec3c09eb26bd",
+      "bytes": 87933
+    },
+    {
+      "path": "folds/repeat_03__lineage_09.json",
+      "sha256": "016a6bca81e8f37cd4b7d948847b4076be452e1a23e755bcb76c7fc9eec370b2",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_03__lineage_09.npz",
+      "sha256": "2603e19f7019883cfc56cec239834fe8633a643e7f346993d3b571602de8a5f4",
+      "bytes": 90220
+    },
+    {
+      "path": "folds/repeat_03__lineage_10.json",
+      "sha256": "009693c384d99a4c121acea61493edb7176ae4bded794e47569f65295d59c573",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_03__lineage_10.npz",
+      "sha256": "8c76275ec4a1eb7f2cd78c8bcb95df85637a9fe6f864d45de3bfd5959657bb56",
+      "bytes": 90692
+    },
+    {
+      "path": "folds/repeat_03__lineage_11.json",
+      "sha256": "ce172d2b05482748419293e41e4b81969f116b05211ae1f25b9e41a474767443",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_03__lineage_11.npz",
+      "sha256": "238494cda080cb23402a0c7a31a8fbb5377de74595e6c232ab5615fc321b85e2",
+      "bytes": 90678
+    },
+    {
+      "path": "folds/repeat_03__lineage_12.json",
+      "sha256": "dd71fc7faae87e29a760edcf1b7cb8e67c4859112b086c7121afe6f19c541fdb",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_03__lineage_12.npz",
+      "sha256": "6486b79eaf4ce9fa6dcbd9266d369407faf5529f7276516f49cd265fcf7ff24e",
+      "bytes": 81917
+    },
+    {
+      "path": "folds/repeat_03__lineage_13.json",
+      "sha256": "006dc84ded43b223bdf770244fa4a1b55ae8d79a701e94ed7fedf6f9f1aea00e",
+      "bytes": 338865
+    },
+    {
+      "path": "folds/repeat_03__lineage_13.npz",
+      "sha256": "d48de39a05ed92b94bc3879b1926c74ed13c9d8dbd4cc60493e65538553fbe3f",
+      "bytes": 84148
+    },
+    {
+      "path": "folds/repeat_03__lineage_14.json",
+      "sha256": "8322921cb5bc6175c26e80a2db8e1e1104573fb255735935943c7db52b4f894f",
+      "bytes": 339094
+    },
+    {
+      "path": "folds/repeat_03__lineage_14.npz",
+      "sha256": "ad91e53cbd4ed64d3bb6add32bb48b536d3fafcbc487377ced616991e8685e60",
+      "bytes": 89127
+    },
+    {
+      "path": "folds/repeat_03__lineage_15.json",
+      "sha256": "a587a09fce13864647aea0c2495fe56c4eff96eff75806483ec7e55fe30e405f",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_03__lineage_15.npz",
+      "sha256": "5bc26e82970c6924bd5f154b780f69fe881eb42765553f21e0c3a9983b1a63c5",
+      "bytes": 89454
+    },
+    {
+      "path": "folds/repeat_03__lineage_16.json",
+      "sha256": "a63c5f0014f24fcc264d6ca9cea904d13d6644f982e22bbb99c059001089fd0f",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_03__lineage_16.npz",
+      "sha256": "2987c26fb6574f7a92b5cffc322a4c5eaf7ac11bad0d20ac43e068656b81f418",
+      "bytes": 89392
+    },
+    {
+      "path": "folds/repeat_03__lineage_17.json",
+      "sha256": "cb2c6c9bc5217b35524375dbeeedc3e32cfbe33620b625f259ba563390df56db",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_03__lineage_17.npz",
+      "sha256": "d9eb171aea914189af98b8963749d6e049d6543a781b0a43f0f92c6c897cf27f",
+      "bytes": 91180
+    },
+    {
+      "path": "folds/repeat_03__lineage_18.json",
+      "sha256": "d70f12523a345651613a849a949310700b3541fa80b22dad71459751443b0fbb",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_03__lineage_18.npz",
+      "sha256": "2302591e00218ee23c229918c202518f1c675b9b7d8af3a39fe57c67f345a653",
+      "bytes": 91657
+    },
+    {
+      "path": "folds/repeat_03__lineage_19.json",
+      "sha256": "6ba27b7f854e9ff494d77b757e7918311fdb106fededa1c13a20b24e0ea4af58",
+      "bytes": 339491
+    },
+    {
+      "path": "folds/repeat_03__lineage_19.npz",
+      "sha256": "c1e547d0fd4692969aa41a9c7232bf7e8ed210d127758705bbf5ce30c63b0f24",
+      "bytes": 91852
+    },
+    {
+      "path": "folds/repeat_03__lineage_20.json",
+      "sha256": "b63fddf5efd89ba9c031228247e5e10715a47647da077e7d76a16cd0cd61f0bc",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_03__lineage_20.npz",
+      "sha256": "65384dd45437e6b1339360680e27381683521331a4dfb5bcd0aeae97f4355af4",
+      "bytes": 89222
+    },
+    {
+      "path": "folds/repeat_03__lineage_21.json",
+      "sha256": "4d8d07cdb31a36aee50d026502e625b0f5dba75be059ffd17e9ee74b4661406c",
+      "bytes": 339441
+    },
+    {
+      "path": "folds/repeat_03__lineage_21.npz",
+      "sha256": "06c2a47f098b4e281456114b967822162975b01aa82832a1e34a61a431a7dbb2",
+      "bytes": 91385
+    },
+    {
+      "path": "folds/repeat_03__lineage_22.json",
+      "sha256": "0dd2bcaa1d9575f9d917f4a33746a15fd66814f97c0c8c366553d24316dc45b5",
+      "bytes": 339308
+    },
+    {
+      "path": "folds/repeat_03__lineage_22.npz",
+      "sha256": "f027a5f402703bafa35645bb9bea5bf67a7233e4e4cde0dca64877991468ad54",
+      "bytes": 91580
+    },
+    {
+      "path": "folds/repeat_03__lineage_23.json",
+      "sha256": "9a73ee2f0b10dd3b6fd4a0b1deeadef439efd5dcb04f32ea39b7a3dc1a54ff8a",
+      "bytes": 339355
+    },
+    {
+      "path": "folds/repeat_03__lineage_23.npz",
+      "sha256": "22b1591fba12fc8c109baa678d34d1d06e751e5403f533487deee383618a84fd",
+      "bytes": 90399
+    },
+    {
+      "path": "folds/repeat_04__lineage_00.json",
+      "sha256": "48e28ec83388870003b84004c14fc9363d07f3cf78a452cc5af065b3ddc516fa",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_04__lineage_00.npz",
+      "sha256": "cc845a241e442fa3692b6908dc61f1db2d37bdb43b0b01914f6c57aed5723d78",
+      "bytes": 92096
+    },
+    {
+      "path": "folds/repeat_04__lineage_01.json",
+      "sha256": "e60f4345bf5cac514c80273590fc5e6edc87141da8a9f0fbfd251eff17e4df14",
+      "bytes": 339482
+    },
+    {
+      "path": "folds/repeat_04__lineage_01.npz",
+      "sha256": "8027e6ca95f5f756cc97e6ecf2462ecc1c3c930ebc91067519f374070fec6d41",
+      "bytes": 91837
+    },
+    {
+      "path": "folds/repeat_04__lineage_02.json",
+      "sha256": "2b35e0aea4d3b9e0e886da4640d8ecac8e12adc0197dd185824e6a8fceb0763d",
+      "bytes": 339406
+    },
+    {
+      "path": "folds/repeat_04__lineage_02.npz",
+      "sha256": "d67b1f93e1b21ba894a514f6b66d39a79cd4d02d0f2c3483c87629aff187c870",
+      "bytes": 90889
+    },
+    {
+      "path": "folds/repeat_04__lineage_03.json",
+      "sha256": "2aeb8017733b497cd4289f5c3ec1991e302dae1785d02a2c1085b51432c77bee",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_04__lineage_03.npz",
+      "sha256": "dcd52313392ec920f0f81b10cc51145bf43321c4342a1dcab747a61b3b05cff9",
+      "bytes": 91344
+    },
+    {
+      "path": "folds/repeat_04__lineage_04.json",
+      "sha256": "f28c7e0c4236219b3c5c5c59bb703e8f117061444acf3f87e4aa457d4266bd55",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_04__lineage_04.npz",
+      "sha256": "7274d2312bb85c66c630c4f5482ceaa92c4c011fa89e2ea6df50aa4f85509a62",
+      "bytes": 88845
+    },
+    {
+      "path": "folds/repeat_04__lineage_05.json",
+      "sha256": "5053737eea9f4a25ac9e95a6aa4e999563c38e63b86ab68dc35739cc1d9a4be1",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_04__lineage_05.npz",
+      "sha256": "652c00abbf84578e4fbf8a38085753d7cf6b46807dd8de2497b4da3e87077a5f",
+      "bytes": 89728
+    },
+    {
+      "path": "folds/repeat_04__lineage_06.json",
+      "sha256": "4f6d0ef16c9bc80aab129cc323d059fd7a332e39edfbcdd05fedd3c6f0a24ad4",
+      "bytes": 339348
+    },
+    {
+      "path": "folds/repeat_04__lineage_06.npz",
+      "sha256": "b3a2523aadf34e355593379fe5fe989aae4dce2ea563a8b99cfddef15a856cf2",
+      "bytes": 88640
+    },
+    {
+      "path": "folds/repeat_04__lineage_07.json",
+      "sha256": "31d34347d47067ae0858fe3359a265e4226c1ccc20d88bc04b20aa121d4feec1",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_04__lineage_07.npz",
+      "sha256": "01e7d86ba587abdbf87ca92418cb7c4b4c1d0bd01540bedd701e917c51f2dbc0",
+      "bytes": 92132
+    },
+    {
+      "path": "folds/repeat_04__lineage_08.json",
+      "sha256": "35e49bef4950ea4c8afc824ec8866de7742c75949860957c58ea4d696479bdff",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_04__lineage_08.npz",
+      "sha256": "c7e93b5c983fc76e76a07cbd164f6956ae9ef43fcf6c1408274f38959eedd7e3",
+      "bytes": 87891
+    },
+    {
+      "path": "folds/repeat_04__lineage_09.json",
+      "sha256": "8deb756f4c8fa3d66d02595b4849b20aa4a7c03b40668c101c56d61e91a9965f",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_04__lineage_09.npz",
+      "sha256": "8a276fef897db6792cff72e68a7badeeb18320699fc2bb6b1a76a9060508866d",
+      "bytes": 90155
+    },
+    {
+      "path": "folds/repeat_04__lineage_10.json",
+      "sha256": "5e1e78cecd417a9eef05cbd913ec62214deaf59fc7318e826ea48d427b8018be",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_04__lineage_10.npz",
+      "sha256": "4f955b0f12b4bfdcb42d0c57c91172aa3aa1fe4c6afeafd5daf67cbdb6309774",
+      "bytes": 90677
+    },
+    {
+      "path": "folds/repeat_04__lineage_11.json",
+      "sha256": "3a8be95d696208525ffd699aa03bc17a9c2666d0dc16953ab203f849b30e388f",
+      "bytes": 339239
+    },
+    {
+      "path": "folds/repeat_04__lineage_11.npz",
+      "sha256": "44ecacc935f0fe1c6099b77bface0002e2c21c37c4d4a646092779a0358d891d",
+      "bytes": 90663
+    },
+    {
+      "path": "folds/repeat_04__lineage_12.json",
+      "sha256": "4db826ea68482432cab147f9cc2c5fffb0ff4886d755a02e06e7eff7d8bb1012",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_04__lineage_12.npz",
+      "sha256": "d3196ca6586818e400f099f12772a6806662a466248bd73e1e3a5361ef3872f1",
+      "bytes": 81911
+    },
+    {
+      "path": "folds/repeat_04__lineage_13.json",
+      "sha256": "78a2c219c27a23073bb626a89d6a0b1018ea15a4093e200a26b49bdb3e267434",
+      "bytes": 338865
+    },
+    {
+      "path": "folds/repeat_04__lineage_13.npz",
+      "sha256": "2d779b09db85558a0a0b4e0ff029deabe72c35ba1f042173a51ff105a61a4d98",
+      "bytes": 84155
+    },
+    {
+      "path": "folds/repeat_04__lineage_14.json",
+      "sha256": "16beac015d6d9db83663a57a74781787d3d4fcebe8cb48efc7dbeccb695d3d36",
+      "bytes": 339093
+    },
+    {
+      "path": "folds/repeat_04__lineage_14.npz",
+      "sha256": "7ad5b48bd329101cca5f215906cd9f0b5429126599b05a23820bffaef7a0ba68",
+      "bytes": 89122
+    },
+    {
+      "path": "folds/repeat_04__lineage_15.json",
+      "sha256": "bae324ad3936614a8f9db38ef6339191131a6387e9672743b2a576a4eb6b9a3f",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_04__lineage_15.npz",
+      "sha256": "c05540bb87feddf6095b48cf14c95c2d23cbe7bdb878ee793bc6e16553955229",
+      "bytes": 89465
+    },
+    {
+      "path": "folds/repeat_04__lineage_16.json",
+      "sha256": "8db1a32b99cef111669b5e731143a898d2817b49a9a5f4f7d1cbf4821fe27d34",
+      "bytes": 339603
+    },
+    {
+      "path": "folds/repeat_04__lineage_16.npz",
+      "sha256": "8774e41819d22b39a1409ec4c5be77cc269fb9263b20ac377820397213a9c39f",
+      "bytes": 89391
+    },
+    {
+      "path": "folds/repeat_04__lineage_17.json",
+      "sha256": "a41565ad128ac3b7b03029734a23adf6507aa1d39e4c410b32c05b20d94a3d20",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_04__lineage_17.npz",
+      "sha256": "4c8d6f4447214562f36693a311885838480ec5c96d07ce7272e066a9f12dc0e7",
+      "bytes": 91181
+    },
+    {
+      "path": "folds/repeat_04__lineage_18.json",
+      "sha256": "39f4ba8044ac19aec2ced32bfb345d4a31037f41f51cd62c0febddc550fb1386",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_04__lineage_18.npz",
+      "sha256": "fcb155e0a653bd77a0722c2404bdcc676d3b7bf57c3da8314d5de51c6bfa7bd9",
+      "bytes": 91656
+    },
+    {
+      "path": "folds/repeat_04__lineage_19.json",
+      "sha256": "bd7a57513cdf7782d4a14c1e2d8f0d2e33b5446d5d1486cc60bdeab006f3f3c1",
+      "bytes": 339490
+    },
+    {
+      "path": "folds/repeat_04__lineage_19.npz",
+      "sha256": "055db82aa3e69bb72ae7cb12992701a9b7b1e9f91c96edb50f53e471e5e54c31",
+      "bytes": 91855
+    },
+    {
+      "path": "folds/repeat_04__lineage_20.json",
+      "sha256": "fcc4e56325e64a60afd52320e2a1064bd6d87d304b4bd9e45f3fb80ad8d6d118",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_04__lineage_20.npz",
+      "sha256": "f4566136579beb4335cdf88ce78024e4d98bbdc454caf4b78f891d99aeaffb92",
+      "bytes": 89188
+    },
+    {
+      "path": "folds/repeat_04__lineage_21.json",
+      "sha256": "bba2ed2ac79144e9ab52739762eb3889cd1a7523278a84147b865596fc9a60e9",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_04__lineage_21.npz",
+      "sha256": "c45b38a1e9fcd434e0f2842b2e2670934a4af6ff2ab4a1b066bad7a116b671a3",
+      "bytes": 91361
+    },
+    {
+      "path": "folds/repeat_04__lineage_22.json",
+      "sha256": "7029fafb476a9e6f82ab12f0ca24c6e9a9e3f991db877bd7283671e4a990380d",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_04__lineage_22.npz",
+      "sha256": "8261f8d811410b17fc60077e5b598975beb6aa719b80b1cd85a4cb0dd09ffeec",
+      "bytes": 91579
+    },
+    {
+      "path": "folds/repeat_04__lineage_23.json",
+      "sha256": "a54a81c55f69695ccb4cd4cb3c37998232f6b5154738526eb207ffd9359657fa",
+      "bytes": 339355
+    },
+    {
+      "path": "folds/repeat_04__lineage_23.npz",
+      "sha256": "878138131db5741488424eaa4c80ae8022e21bd48649d382fe2668d756926299",
+      "bytes": 90372
+    },
+    {
+      "path": "folds/repeat_05__lineage_00.json",
+      "sha256": "06205eae0bc8659a77c925280f00b236e53e60947b6c4b3fe37f6c690b0fff4c",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_05__lineage_00.npz",
+      "sha256": "b24b0272a8a6eceb21edbcda9026347a509e32d72464c81be9117076bf64d930",
+      "bytes": 92094
+    },
+    {
+      "path": "folds/repeat_05__lineage_01.json",
+      "sha256": "692e6f52dc8759f244a063ad9b29729f33b5d110f81cc07220d657c2651279d5",
+      "bytes": 339482
+    },
+    {
+      "path": "folds/repeat_05__lineage_01.npz",
+      "sha256": "62b9b592a94716b29891ede017644f20c570290c7cfca557dc7f6b9f90267419",
+      "bytes": 91853
+    },
+    {
+      "path": "folds/repeat_05__lineage_02.json",
+      "sha256": "16ad59d92a3f96667961926dea4dc5faa81811fb3024ecc249d531e02b996a42",
+      "bytes": 339407
+    },
+    {
+      "path": "folds/repeat_05__lineage_02.npz",
+      "sha256": "9caeba12f86e5072ca9b4be4d9c91aecb18992ba8852b3178f141a5bf7fce305",
+      "bytes": 90893
+    },
+    {
+      "path": "folds/repeat_05__lineage_03.json",
+      "sha256": "bbd190745047ace8f6afde32abd85e212a0db951efdea042e1f2db4e760ca9fa",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_05__lineage_03.npz",
+      "sha256": "e25c7f2d731e63547e3126d232e63ba73eadce1643c5c27cc80cbe38f4b49405",
+      "bytes": 91341
+    },
+    {
+      "path": "folds/repeat_05__lineage_04.json",
+      "sha256": "c56f260f210e5a25ec5fd6af86c5333f534d60d95d4cef5c7854c494806e727c",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_05__lineage_04.npz",
+      "sha256": "e216198eba1156cdfe480dfbd9a1f2fb223f0769defca144a247c5ed4333837a",
+      "bytes": 88839
+    },
+    {
+      "path": "folds/repeat_05__lineage_05.json",
+      "sha256": "6cc8e43d8343a1835e36b13fc360553fc421a5aa32410af0e0f8f913ee7775f0",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_05__lineage_05.npz",
+      "sha256": "25dc09887e90893289e3bcc71b08038df61edf70146310cf1503885d96d96d0e",
+      "bytes": 89766
+    },
+    {
+      "path": "folds/repeat_05__lineage_06.json",
+      "sha256": "c6a11564e8e90350c3c17e178bec8c11422e553ef34d77aee93020c3a0a21352",
+      "bytes": 339348
+    },
+    {
+      "path": "folds/repeat_05__lineage_06.npz",
+      "sha256": "da6b57597bacc3d4c430d4892a374b11c2b9f262919d62fb04a055bdcc4b3ab7",
+      "bytes": 88658
+    },
+    {
+      "path": "folds/repeat_05__lineage_07.json",
+      "sha256": "256fee143860eb290d5de859e414a31c425e6c78126587b2b9d8dce563778be3",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_05__lineage_07.npz",
+      "sha256": "82baeec569f6d4d36914978fae80dae0db99a7db55c36c3db6a62b1ea15c3605",
+      "bytes": 92212
+    },
+    {
+      "path": "folds/repeat_05__lineage_08.json",
+      "sha256": "22c28c1a7abe11e1a3fcbdd71e952d398d3e8634ef7c44d5b9673cee528ae8cc",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_05__lineage_08.npz",
+      "sha256": "3e3975a049dc64a9d5f0303cc0a5a2718342f3a824cda37eed7336576d0e28ab",
+      "bytes": 87893
+    },
+    {
+      "path": "folds/repeat_05__lineage_09.json",
+      "sha256": "60c77e60ee0e3f785b354305bb8b7494a1dcc8bf4e4ab4f7ed9a4c0b95654eae",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_05__lineage_09.npz",
+      "sha256": "35b8cc48a34a5e4c2f8c9c46d5317923cb15bc775cfd2c53916e816f4b33727a",
+      "bytes": 90163
+    },
+    {
+      "path": "folds/repeat_05__lineage_10.json",
+      "sha256": "a1d52aeb12ddd3363504fb596df7a986ae6d194c91cc77ae27b170d5beb06f59",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_05__lineage_10.npz",
+      "sha256": "96d1d66d85d4081755193106595bf36c4de6b988416a381a681ca492a904cb90",
+      "bytes": 90689
+    },
+    {
+      "path": "folds/repeat_05__lineage_11.json",
+      "sha256": "4af222f4cc90ba67c2aa649984d0fdd73b3113bdeef576dadec170f6cfc4474b",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_05__lineage_11.npz",
+      "sha256": "e3a8130326d147e549149ec6c57530a7c55ccdfc2fc0b51f0f2861865654ebbf",
+      "bytes": 90659
+    },
+    {
+      "path": "folds/repeat_05__lineage_12.json",
+      "sha256": "b44b370f3d9842a30f350977270988cdc1e4a63b0349371f0d33733559a9dc64",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_05__lineage_12.npz",
+      "sha256": "cd010b0a538772a9208f5e85ee9f47be094dfab5e8c3ff0dd6016d8938f26fc7",
+      "bytes": 81914
+    },
+    {
+      "path": "folds/repeat_05__lineage_13.json",
+      "sha256": "bcadf133ca0a6d01652dba207d95146bcb26ecbbd815324f45aff94a5fbef0ab",
+      "bytes": 338864
+    },
+    {
+      "path": "folds/repeat_05__lineage_13.npz",
+      "sha256": "37cba6d16ac011dc6bda10d59f51579dad5ef4961f95ad0ac8485295fcc555c8",
+      "bytes": 84173
+    },
+    {
+      "path": "folds/repeat_05__lineage_14.json",
+      "sha256": "ab9ee422a9f9ca69e7def619237d2a4c17d4534f1cc3fa9d7c9466b91129f675",
+      "bytes": 339094
+    },
+    {
+      "path": "folds/repeat_05__lineage_14.npz",
+      "sha256": "5d6ff7577aca298647a74cc5153a53835e192ff0e9fc2ed2b3d98b6d541d6a33",
+      "bytes": 89115
+    },
+    {
+      "path": "folds/repeat_05__lineage_15.json",
+      "sha256": "8cc7c1f7296cda2ab964868cffd897dca322df07745e97826b52eef9d1cc9e61",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_05__lineage_15.npz",
+      "sha256": "0bf14eabb782daa3f8ae77a2c0068241b784ca0a9a55edeed8367b2e6fa296b7",
+      "bytes": 89439
+    },
+    {
+      "path": "folds/repeat_05__lineage_16.json",
+      "sha256": "83eb196ddbe88657bf8e8351a57558f860a04b7536016b4ff608061fa9e4f3e5",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_05__lineage_16.npz",
+      "sha256": "6f18f5df9236ba3d39b13044bed158e9c46adbc8d3647caee293d504e36abc2a",
+      "bytes": 89331
+    },
+    {
+      "path": "folds/repeat_05__lineage_17.json",
+      "sha256": "e371d2bc8f3d2bd2b260f775554a78dd87ab078fdb33a2afc4aa8e760fb31376",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_05__lineage_17.npz",
+      "sha256": "72d2b44f2678e86a39488bf78d1d72fa94d0406b6173c40e5bb01cb17058b70d",
+      "bytes": 91194
+    },
+    {
+      "path": "folds/repeat_05__lineage_18.json",
+      "sha256": "c1687c66a031bf292450929340e275c641abe596078e51e5519434f7f978123f",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_05__lineage_18.npz",
+      "sha256": "e8d968afe20593985f0fbb1fc002af5ef2f6ccedbda651691267c84d65a5517b",
+      "bytes": 91676
+    },
+    {
+      "path": "folds/repeat_05__lineage_19.json",
+      "sha256": "94d8974381d127025993f257caf5c9252136fdb540b809ce97a7264e7f451ee0",
+      "bytes": 339490
+    },
+    {
+      "path": "folds/repeat_05__lineage_19.npz",
+      "sha256": "9ea5912f4af9bd9ecc023963bb0bd7a19a3c1e69a734acddfbbe484f8c3d85e0",
+      "bytes": 91857
+    },
+    {
+      "path": "folds/repeat_05__lineage_20.json",
+      "sha256": "731ab7611bae95c3d206da5fbc6a1a93dfcf33519c5e063f69a4cf20335ecbe6",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_05__lineage_20.npz",
+      "sha256": "005488aeff7ccbb7f681697b693d3db4ecfd151d7f2755182235e3170f592c43",
+      "bytes": 89168
+    },
+    {
+      "path": "folds/repeat_05__lineage_21.json",
+      "sha256": "c45058f624ea6b2d7a1e22001d76c09b4ca468675b64d7efefad43facf376980",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_05__lineage_21.npz",
+      "sha256": "6836a30b931966a3e23b101abcc21da244fbda94f9fb56cf2a4f5f7c3c7f3185",
+      "bytes": 91321
+    },
+    {
+      "path": "folds/repeat_05__lineage_22.json",
+      "sha256": "457d4c4149f95dc1c38daa9cecb4dc50718aee9a807b75df55783bb793da71c8",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_05__lineage_22.npz",
+      "sha256": "793cc29e1300e6d24868fa86d4696ed39e49f5a43ba1ed9d03c67c31c49af915",
+      "bytes": 91606
+    },
+    {
+      "path": "folds/repeat_05__lineage_23.json",
+      "sha256": "42a57131901e22a6be17572a826fcedb70607668a3f798189fe71e1049d3b819",
+      "bytes": 339354
+    },
+    {
+      "path": "folds/repeat_05__lineage_23.npz",
+      "sha256": "3ded1c68c3f8fac0594d2a33f801100479b495effcf53e9b4b3d2351587cd6f7",
+      "bytes": 90366
+    },
+    {
+      "path": "folds/repeat_06__lineage_00.json",
+      "sha256": "4b1ca2b3834a271af909b087f1ff61d16b7ba26fbe467e466bc7338c06510cc0",
+      "bytes": 339391
+    },
+    {
+      "path": "folds/repeat_06__lineage_00.npz",
+      "sha256": "8263420e9d63fceab9df1c46ee29ae5f666eb3bbb5a858ba80acab80d3c9abcb",
+      "bytes": 92103
+    },
+    {
+      "path": "folds/repeat_06__lineage_01.json",
+      "sha256": "19286118a810b811da0ad1d6cbb0f8ba6067b19fb17d2486011a3f1d25abcf75",
+      "bytes": 339480
+    },
+    {
+      "path": "folds/repeat_06__lineage_01.npz",
+      "sha256": "5e212c3c95167dd8b64c23cfd9f4b4fab3a0f03435635f738562c459dace5224",
+      "bytes": 91820
+    },
+    {
+      "path": "folds/repeat_06__lineage_02.json",
+      "sha256": "54217ec42b2ad4e6977bdf263879d28425925d7fe6fddc1d3a4ae51e1675573a",
+      "bytes": 339406
+    },
+    {
+      "path": "folds/repeat_06__lineage_02.npz",
+      "sha256": "fbf4b1e7c2309f544e819f9707fb69ef1a1d22b35c5d9f6299a70c4ef4d2da22",
+      "bytes": 90900
+    },
+    {
+      "path": "folds/repeat_06__lineage_03.json",
+      "sha256": "5549f9063ae2b2a2c7b19d3eb13e8f88b6e8f09054ade1165caf5322973410e4",
+      "bytes": 339542
+    },
+    {
+      "path": "folds/repeat_06__lineage_03.npz",
+      "sha256": "ab72799284081b279d87ccbedcae59455e9f83ad891787bf8a43bb2d88624079",
+      "bytes": 91404
+    },
+    {
+      "path": "folds/repeat_06__lineage_04.json",
+      "sha256": "b6ae10824af8a7112ed17fbdf803eff4316a68d83ae2a7e3013c06d4232d7ee6",
+      "bytes": 339330
+    },
+    {
+      "path": "folds/repeat_06__lineage_04.npz",
+      "sha256": "0934eb283825b57ae56f3612257ace442e7f13f9675ceb85727a69a0862f1945",
+      "bytes": 88871
+    },
+    {
+      "path": "folds/repeat_06__lineage_05.json",
+      "sha256": "3d78cc89bbbbd01916b4721d2902c2c3a40505fe566f392b95a58a9ea0ef79ff",
+      "bytes": 339430
+    },
+    {
+      "path": "folds/repeat_06__lineage_05.npz",
+      "sha256": "02ea7a94af2e66cc588839b15a565133307add8e2acbf4830676421270ffda14",
+      "bytes": 89747
+    },
+    {
+      "path": "folds/repeat_06__lineage_06.json",
+      "sha256": "eea4f844972efd23d28c46d00df05be4fb5e2abafff6376ee30c17eb6f106203",
+      "bytes": 339346
+    },
+    {
+      "path": "folds/repeat_06__lineage_06.npz",
+      "sha256": "85ff887b2d9cb4c4ed5c054338144b4e20618d9f599713c38316e6a808721ed7",
+      "bytes": 88657
+    },
+    {
+      "path": "folds/repeat_06__lineage_07.json",
+      "sha256": "5cf14105668daf5344b2f3bf2be9bac76acb9a77fda7fe22756656c8a3d2608b",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_06__lineage_07.npz",
+      "sha256": "f5861ddc2542becf01c9bbb93cbbe4a7d87f889172db2260c0784c464d831d9e",
+      "bytes": 92205
+    },
+    {
+      "path": "folds/repeat_06__lineage_08.json",
+      "sha256": "c588f6d0d5b2e113b73078f737f614c40a372698e7913f5f8acc235bf1170ad7",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_06__lineage_08.npz",
+      "sha256": "c356b0bceaae9dd16b6878cba689ef2a1c40c77c226f9d845e50155e5e129981",
+      "bytes": 87940
+    },
+    {
+      "path": "folds/repeat_06__lineage_09.json",
+      "sha256": "da891ee4a0e5331ea681d4e806f3429eda9450fad460dc92905fd34cd4fad49b",
+      "bytes": 339506
+    },
+    {
+      "path": "folds/repeat_06__lineage_09.npz",
+      "sha256": "7f72ecba29c744a5a9d20460b0a41208a51a24fa86c2bf5b66ea7b7d5729874a",
+      "bytes": 90176
+    },
+    {
+      "path": "folds/repeat_06__lineage_10.json",
+      "sha256": "9050940180c21d3a276d5cd6b6e02210e75db800e6e0a561f1e9ff6f80bf8c1c",
+      "bytes": 339368
+    },
+    {
+      "path": "folds/repeat_06__lineage_10.npz",
+      "sha256": "f403192a2c06cde455ea8694a5d92f57050dbf480976bde5b5aa7e567fde3240",
+      "bytes": 90698
+    },
+    {
+      "path": "folds/repeat_06__lineage_11.json",
+      "sha256": "1e8c1cc487d33733700c4b1761cd08624dafd680be69b55bbad10cc622dbd9de",
+      "bytes": 339239
+    },
+    {
+      "path": "folds/repeat_06__lineage_11.npz",
+      "sha256": "b774b42422441db3bb41f2531588eef7aa2840c190e1e988efb027b159af99cc",
+      "bytes": 90708
+    },
+    {
+      "path": "folds/repeat_06__lineage_12.json",
+      "sha256": "167ee00dd62e35d7a9e7aaad27bad1c6748807fc76e6a6156e27ff6252020ebd",
+      "bytes": 339321
+    },
+    {
+      "path": "folds/repeat_06__lineage_12.npz",
+      "sha256": "dccf03658af72582eff93204dd4bebbfffb6fa29f1aa644fedfc728a285bf4d7",
+      "bytes": 81978
+    },
+    {
+      "path": "folds/repeat_06__lineage_13.json",
+      "sha256": "ef541cdb9b12cb184d19bf1fe9077cbcd93c407b7abe4864dae20244744631b2",
+      "bytes": 338865
+    },
+    {
+      "path": "folds/repeat_06__lineage_13.npz",
+      "sha256": "3a9f1cc4b4158982ceff6fc39638172b8ea128bf203cac6f3c04b30d3910e239",
+      "bytes": 84172
+    },
+    {
+      "path": "folds/repeat_06__lineage_14.json",
+      "sha256": "51af6928ea16d2f6e73c4a519ff438c736a0d039a211a926e77b456b59f8cd2a",
+      "bytes": 339092
+    },
+    {
+      "path": "folds/repeat_06__lineage_14.npz",
+      "sha256": "9e60cfd907b8891fe6c8feb76d26ff995b20ca5d277a288ed31416d2fe7afdd4",
+      "bytes": 89112
+    },
+    {
+      "path": "folds/repeat_06__lineage_15.json",
+      "sha256": "69fa6784bf2ea651701feeb2c1a134b4ba126326a153dfdd3bdb0f8260f9c205",
+      "bytes": 339363
+    },
+    {
+      "path": "folds/repeat_06__lineage_15.npz",
+      "sha256": "d354e3190e6eac3b9185c56bdc4d36bd8e1f31c1f52cb87cd068a9d05dd69cef",
+      "bytes": 89458
+    },
+    {
+      "path": "folds/repeat_06__lineage_16.json",
+      "sha256": "ba242c95d905818d5dabc6b276e2aea2a0fe35b5766e144d12c9541c34fee137",
+      "bytes": 339603
+    },
+    {
+      "path": "folds/repeat_06__lineage_16.npz",
+      "sha256": "e37374d34580af6a37584539b8e77863d15369163602e0225ae58af63d036ce3",
+      "bytes": 89381
+    },
+    {
+      "path": "folds/repeat_06__lineage_17.json",
+      "sha256": "3d596450fe08c7659bd48b1a07c9841b2b9571169dca071ceaf24b79a90527c2",
+      "bytes": 339411
+    },
+    {
+      "path": "folds/repeat_06__lineage_17.npz",
+      "sha256": "4c0039efc68287e306556228fe77a289a86aa6b4eda4818c173f297cdd2451be",
+      "bytes": 91180
+    },
+    {
+      "path": "folds/repeat_06__lineage_18.json",
+      "sha256": "f93d89a3e45d9038d1129e00a87d6cc91ce8e6f95797382ce02f0d6e562e7bcf",
+      "bytes": 339320
+    },
+    {
+      "path": "folds/repeat_06__lineage_18.npz",
+      "sha256": "fc9cd400f675bc8da71d8c2fd385fc8952e27edc39b7f5a69c936db5767443df",
+      "bytes": 91658
+    },
+    {
+      "path": "folds/repeat_06__lineage_19.json",
+      "sha256": "c4309f5ab3207b1a81ea477182e986d8305fc61a70df95851c035a62d8b7a79c",
+      "bytes": 339489
+    },
+    {
+      "path": "folds/repeat_06__lineage_19.npz",
+      "sha256": "a7780c84bd31395d0fd5a3a99cf5447cafcc4c89b51a8fdae2133c90dc2b3821",
+      "bytes": 91884
+    },
+    {
+      "path": "folds/repeat_06__lineage_20.json",
+      "sha256": "20d3ed62ad3d8249d3b6eeefeb5a6894ea3dff797c76811ddaf194c62a17fb03",
+      "bytes": 339258
+    },
+    {
+      "path": "folds/repeat_06__lineage_20.npz",
+      "sha256": "d4ec538bd553778f0a4ca745031909588ec5f4e34c363ae23ee073a6f4082ae3",
+      "bytes": 89184
+    },
+    {
+      "path": "folds/repeat_06__lineage_21.json",
+      "sha256": "3e442baa700507c172fe1705eb07a83565c06d5832cc68830a812d09f8781cd3",
+      "bytes": 339440
+    },
+    {
+      "path": "folds/repeat_06__lineage_21.npz",
+      "sha256": "c85cff45a47c0aacc00b467643f5cbf4f978547223cdd4169af55954e865fbfe",
+      "bytes": 91394
+    },
+    {
+      "path": "folds/repeat_06__lineage_22.json",
+      "sha256": "87996cdbad26599538b8ad5c0f3f4e8d2d1bd879dc093211f49aa718e15f773f",
+      "bytes": 339308
+    },
+    {
+      "path": "folds/repeat_06__lineage_22.npz",
+      "sha256": "40a612a7248591f7e73a763421531de41a1698e05d1c3792f795a2e84498efe9",
+      "bytes": 91565
+    },
+    {
+      "path": "folds/repeat_06__lineage_23.json",
+      "sha256": "a834d1156b38da3ff5b42713e107f23f39168dde3e77aa7a518b4631845c2708",
+      "bytes": 339354
+    },
+    {
+      "path": "folds/repeat_06__lineage_23.npz",
+      "sha256": "bc8fe3143f8df90a6163c7abde104278f003820b04c36875638d7917cc0124bd",
+      "bytes": 90384
+    },
+    {
+      "path": "folds/repeat_07__lineage_00.json",
+      "sha256": "914632cfb735b3a3bff8552e1a4f32e4c133cd6f068fe579a2c4d19ccb4dcd4b",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_07__lineage_00.npz",
+      "sha256": "bef43bee860d7944690e992d3e4a1c8a89bbaef8367096c3e8cca08292a0dad1",
+      "bytes": 92102
+    },
+    {
+      "path": "folds/repeat_07__lineage_01.json",
+      "sha256": "c14537d219acbacd6c94979f30b754712754e0fb8987a3089e49349c70baa319",
+      "bytes": 339482
+    },
+    {
+      "path": "folds/repeat_07__lineage_01.npz",
+      "sha256": "5261d1282f266c382f0014e9c64a269e94731c5ad5a89fe1f3ffd4c0b9bc7ad8",
+      "bytes": 91836
+    },
+    {
+      "path": "folds/repeat_07__lineage_02.json",
+      "sha256": "b0edee59e8b8a36340b5f854045e3d723124f42527ac027be334ecfe6aa73eb8",
+      "bytes": 339407
+    },
+    {
+      "path": "folds/repeat_07__lineage_02.npz",
+      "sha256": "5304fe0e60bebe78deb3d26aa9a39c45e4d0c218c3c43c722919640e307c66b3",
+      "bytes": 90871
+    },
+    {
+      "path": "folds/repeat_07__lineage_03.json",
+      "sha256": "42b34714780f0cbbdf8d3980e671e5eb279e134e69983cbe826aa9ad1908043d",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_07__lineage_03.npz",
+      "sha256": "ccd85dafa3e713f026a89fc9a5f190d3eff8d3ff4ac9d33a042a54981b0dc94a",
+      "bytes": 91374
+    },
+    {
+      "path": "folds/repeat_07__lineage_04.json",
+      "sha256": "83ccde295054a4b0f36fecba37fd556582202eba00b5173fac4372880127b7e3",
+      "bytes": 339330
+    },
+    {
+      "path": "folds/repeat_07__lineage_04.npz",
+      "sha256": "8ddf3df2ca80029372abbb7355d9c9c1b2c108517081be13e953c20ac6130da1",
+      "bytes": 88881
+    },
+    {
+      "path": "folds/repeat_07__lineage_05.json",
+      "sha256": "28f3dab4fc8f7f1ec1508fb972ef56b2101c4057ea9258e519e13c7f5934d1ec",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_07__lineage_05.npz",
+      "sha256": "04bc0ac9d0acc50ae2ca79ded40e22b577659c450f970a04c8decfbd5db65fa2",
+      "bytes": 89703
+    },
+    {
+      "path": "folds/repeat_07__lineage_06.json",
+      "sha256": "6e1fc983e8264c55a39c9b38cde959a4a7b865034232b5c6b43bdabe130159a7",
+      "bytes": 339347
+    },
+    {
+      "path": "folds/repeat_07__lineage_06.npz",
+      "sha256": "bcd591efa964d880f7abeb3fba437b5b892664844bbdabf98986a62fc1257ab9",
+      "bytes": 88646
+    },
+    {
+      "path": "folds/repeat_07__lineage_07.json",
+      "sha256": "382edfed575cd295ca74304ad42f31cb408d370caf48220f6d06180cc3d93fa1",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_07__lineage_07.npz",
+      "sha256": "120a3c4f11d12a8750a36ff929d3acf6e3f1b60c6ad56afe114f57d352b66228",
+      "bytes": 92180
+    },
+    {
+      "path": "folds/repeat_07__lineage_08.json",
+      "sha256": "19cb106b3ac8e9cfb2a4fe91bd9177072bb8b6f2ffe51ce6a8436756dd633b8c",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_07__lineage_08.npz",
+      "sha256": "4b3dea261d15d87dc799067400dd199c5bfcadfc049bdfec910d507e67d05224",
+      "bytes": 87959
+    },
+    {
+      "path": "folds/repeat_07__lineage_09.json",
+      "sha256": "29dc67b6ab734d583559969099916235d90ad4ad3c30fb70cb5bac49f74acda9",
+      "bytes": 339504
+    },
+    {
+      "path": "folds/repeat_07__lineage_09.npz",
+      "sha256": "1a0f2ec36296fc0e009bcb62254fd81ce2f0f1d2a66823525775d21d7d93e300",
+      "bytes": 90134
+    },
+    {
+      "path": "folds/repeat_07__lineage_10.json",
+      "sha256": "0f131d8af790909a5345763ece802429c9a8b6878fd1c91881c8ee0537f36b16",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_07__lineage_10.npz",
+      "sha256": "ace74e436208d48b156be66ff5f40b6245b3044fe7fe264d62c67d6981d9e373",
+      "bytes": 90636
+    },
+    {
+      "path": "folds/repeat_07__lineage_11.json",
+      "sha256": "5247d85a53b05f2d357880f7396c7977ae91589d57b9b6eadafecb7ae0434582",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_07__lineage_11.npz",
+      "sha256": "8f2896be57b18733aeae318b6cc38a28c0c566b9913780281b756c018a9b528c",
+      "bytes": 90689
+    },
+    {
+      "path": "folds/repeat_07__lineage_12.json",
+      "sha256": "aa8d660c87586ae60720738d281ebab3ac493ff17d960ffd148a34215bdc9453",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_07__lineage_12.npz",
+      "sha256": "ad98e37ceacc45bda59753a7b5f3bb4fb3c92181c46d2469b7817a528028e455",
+      "bytes": 81931
+    },
+    {
+      "path": "folds/repeat_07__lineage_13.json",
+      "sha256": "057107792b45b4a5c8e33852cb60abe4d59321d346a465cab760741e2a4d1a73",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_07__lineage_13.npz",
+      "sha256": "142ba4dba5635e0eb7e97c5caa56b8a4c230b3361a2da0707252a71c8d00d3ae",
+      "bytes": 84135
+    },
+    {
+      "path": "folds/repeat_07__lineage_14.json",
+      "sha256": "f46f8628bee2f9298753f89e6de49a9aa25b15e1ac430eb16ec06f67ea29cf8f",
+      "bytes": 339094
+    },
+    {
+      "path": "folds/repeat_07__lineage_14.npz",
+      "sha256": "edd3e72108bac99b385d74c27fa8954a4993fe486be74376723af0d9f4c53248",
+      "bytes": 89132
+    },
+    {
+      "path": "folds/repeat_07__lineage_15.json",
+      "sha256": "cf28dbd163760cb2055b38cd64274ac7eb6facfcca6864c25b45fae0cb05aec1",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_07__lineage_15.npz",
+      "sha256": "8d657b7bcc721f74395b584b1ccb9d03d1da63e8ebbf71697348e31ae11e406a",
+      "bytes": 89431
+    },
+    {
+      "path": "folds/repeat_07__lineage_16.json",
+      "sha256": "d7469048361678c07ce57e128396c2e00cd89fdb9a811f93a83c2b3ad5aa22a5",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_07__lineage_16.npz",
+      "sha256": "469ee701b61460bc0de74f17e830f30dd6e2a2aee010b2b0b3a71eefa517ebf4",
+      "bytes": 89349
+    },
+    {
+      "path": "folds/repeat_07__lineage_17.json",
+      "sha256": "d0cc6dede1bb3eb9e084238fb1be901fa796777b517cb2784992c80fa051e8e3",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_07__lineage_17.npz",
+      "sha256": "685d2b50dfda43dcdbe14b7fe49cd568f1dd223fb9a9ac39eabfa9927ed704b1",
+      "bytes": 91218
+    },
+    {
+      "path": "folds/repeat_07__lineage_18.json",
+      "sha256": "f346320a11757bb1f2f59561c91f642ffcf7b3dd33df545301d8d8e394ed9ea6",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_07__lineage_18.npz",
+      "sha256": "7a6038cba9852dc36693b3d25b9bab5b857c64a9486157e6f1494386d0648728",
+      "bytes": 91650
+    },
+    {
+      "path": "folds/repeat_07__lineage_19.json",
+      "sha256": "5b5cd6c763c08f55423dff0a47343f5365872b820ca2e0e65cc6a0dfabf8250b",
+      "bytes": 339491
+    },
+    {
+      "path": "folds/repeat_07__lineage_19.npz",
+      "sha256": "cc047ac676ca0884cea3f9dab36107a431311f57ae2cf23788a3de3cb2bc6f86",
+      "bytes": 91869
+    },
+    {
+      "path": "folds/repeat_07__lineage_20.json",
+      "sha256": "fecdad1800098b6810010b99d767c38b5f9b8def001cb818f1e8aab4bf74ec84",
+      "bytes": 339260
+    },
+    {
+      "path": "folds/repeat_07__lineage_20.npz",
+      "sha256": "15cc3838136c895c2c4262c27065b9415a788f1f018158b5b153ce9f6b5e0716",
+      "bytes": 89192
+    },
+    {
+      "path": "folds/repeat_07__lineage_21.json",
+      "sha256": "62ada6d33c3e9e5ebee048a92c6c2678840e6075f927460241a57744bcbf6730",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_07__lineage_21.npz",
+      "sha256": "547889bdce2b64d69c94a2c9748e84e1f97b6d544a02e84bf865f7cc5f2e355e",
+      "bytes": 91365
+    },
+    {
+      "path": "folds/repeat_07__lineage_22.json",
+      "sha256": "ffd009f789a591498eecc4d284da514f4c8177920d170fee64ca9bf7993e7bd8",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_07__lineage_22.npz",
+      "sha256": "3d66b89172d33f0e332e7a114f9134717442667bf5f7ce8911df4e3915b4a8bc",
+      "bytes": 91593
+    },
+    {
+      "path": "folds/repeat_07__lineage_23.json",
+      "sha256": "56926812be58ea6662d08a800f0e07ef18169bd1a07acb06606741708b661ad3",
+      "bytes": 339355
+    },
+    {
+      "path": "folds/repeat_07__lineage_23.npz",
+      "sha256": "110039fe3056ace9d9fee8ff7769912798177729a5d37a4a792a018dfc87d432",
+      "bytes": 90380
+    },
+    {
+      "path": "folds/repeat_08__lineage_00.json",
+      "sha256": "c90dfb856cf09e6a333573de27c4eba571c206cb5486a9129a7718ae5f9bf5d8",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_08__lineage_00.npz",
+      "sha256": "852911702d12f5da66b0271976191df0216a21439b4504ef9a0767bfcb5fb380",
+      "bytes": 92155
+    },
+    {
+      "path": "folds/repeat_08__lineage_01.json",
+      "sha256": "b60dc13f9017faf2b9754e53f8881d0849db6f8c5864052d577847c920b2f3cc",
+      "bytes": 339481
+    },
+    {
+      "path": "folds/repeat_08__lineage_01.npz",
+      "sha256": "336677e6115bdc83d1bf0c4cb7f09adfc9e416b801d2c8dcfc13c8bd53b89675",
+      "bytes": 91814
+    },
+    {
+      "path": "folds/repeat_08__lineage_02.json",
+      "sha256": "28d5030e3008d98c434c39767376d30ca4edefbe33d9ad5e84a4f0f781c4a3e1",
+      "bytes": 339407
+    },
+    {
+      "path": "folds/repeat_08__lineage_02.npz",
+      "sha256": "001eb09a609c186c7264d28c15eebe89367f2291914c13d42bb46ff4286e673a",
+      "bytes": 90891
+    },
+    {
+      "path": "folds/repeat_08__lineage_03.json",
+      "sha256": "80e94fac70bcd02a3f4ee97f326c5a863c24736e2098732abcd2769999496a1e",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_08__lineage_03.npz",
+      "sha256": "8d751242efe8fd5472b93e7d741d8cecd35c61913453ea6a034361fb09749032",
+      "bytes": 91377
+    },
+    {
+      "path": "folds/repeat_08__lineage_04.json",
+      "sha256": "5367bd5239b4871209b337138f4f6704c763857e09816224258642404acae209",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_08__lineage_04.npz",
+      "sha256": "d23a95392eba607ad6e1a60cb23c51f555a7dcd0f9ba84fc9b5099ee0a4021b5",
+      "bytes": 88813
+    },
+    {
+      "path": "folds/repeat_08__lineage_05.json",
+      "sha256": "49612eafbff3ef987071bc27b9f275ec1e442f4390a16c0546f88472a77997bc",
+      "bytes": 339430
+    },
+    {
+      "path": "folds/repeat_08__lineage_05.npz",
+      "sha256": "40715da1298dc39b37d5156f2da91e732a4191eb731122890ff96e5bf53f36d8",
+      "bytes": 89725
+    },
+    {
+      "path": "folds/repeat_08__lineage_06.json",
+      "sha256": "42afb36fb28c90a32cff72549c9634535e883826fef22efa7e94540feade082a",
+      "bytes": 339347
+    },
+    {
+      "path": "folds/repeat_08__lineage_06.npz",
+      "sha256": "0092e522bff93a86010c1d9b51f28e64375bbe44624cfc27d51b334cf4469dcb",
+      "bytes": 88656
+    },
+    {
+      "path": "folds/repeat_08__lineage_07.json",
+      "sha256": "e27ed660351d728dc42b22301bed28c8390535b9884ac9b5f143d8cf8cf4942a",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_08__lineage_07.npz",
+      "sha256": "628cbc59017b97a1d99148b82d71ab0c3480cbf2622a1b4f1d382eb799e39272",
+      "bytes": 92178
+    },
+    {
+      "path": "folds/repeat_08__lineage_08.json",
+      "sha256": "0c51d61221351681a73efa09caed4dbed51a1f76ff0b0b9b5e3e9d614114183a",
+      "bytes": 338868
+    },
+    {
+      "path": "folds/repeat_08__lineage_08.npz",
+      "sha256": "2dface44c02a8f2e6c38f540db702038227307d9936ff48841dcfba2943059ff",
+      "bytes": 87883
+    },
+    {
+      "path": "folds/repeat_08__lineage_09.json",
+      "sha256": "411943ceac13111cd44277e02ac08c16332343ce20da23fcfde483c74b5dadda",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_08__lineage_09.npz",
+      "sha256": "81f90dfcb77adf711de81bb4791b32baa6279f5fe66dbfe86eace3dae2577ed2",
+      "bytes": 90151
+    },
+    {
+      "path": "folds/repeat_08__lineage_10.json",
+      "sha256": "94c4e8145803625fe5ff110e90dd0236396b573e474ff82d5c8a65f6802df37c",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_08__lineage_10.npz",
+      "sha256": "77133c4b547f0d640b7430d2c12f84d51931c2539947318ed8868cc29bcb1db5",
+      "bytes": 90703
+    },
+    {
+      "path": "folds/repeat_08__lineage_11.json",
+      "sha256": "b8e70ea6e5427bca37559ee0b4d56b74dc803368100833cc7004a708aa4e4328",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_08__lineage_11.npz",
+      "sha256": "90f39997e9afeb88d3300b6df9873b994bdec3d306ac67d152758e4c06745edc",
+      "bytes": 90714
+    },
+    {
+      "path": "folds/repeat_08__lineage_12.json",
+      "sha256": "7facb6191081adb21f3fc152568ba0e7b9636922e36ad934cabac519b765ae0c",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_08__lineage_12.npz",
+      "sha256": "f2526167198def122d2d88de83eecd33c51129adec4bf9939a040c47d8497ece",
+      "bytes": 81925
+    },
+    {
+      "path": "folds/repeat_08__lineage_13.json",
+      "sha256": "406b1655da58343f9186754d9e421ae35df216114b9fafec5b5cdca79e9ac369",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_08__lineage_13.npz",
+      "sha256": "7ff00f4c461d0b402f1da3f9d49d3d93cfd143daa24cc7c277090d1d3fd656f7",
+      "bytes": 84136
+    },
+    {
+      "path": "folds/repeat_08__lineage_14.json",
+      "sha256": "d16ce9fc7035ce99324d7acd2e41da0e65ca3f604aa5e8b295829827faeb10de",
+      "bytes": 339092
+    },
+    {
+      "path": "folds/repeat_08__lineage_14.npz",
+      "sha256": "65fef97d83d95a544c97391748f4a51971f24245bb94e02c040517ed0a3a7af2",
+      "bytes": 89145
+    },
+    {
+      "path": "folds/repeat_08__lineage_15.json",
+      "sha256": "04db77f2ec8f6e6b349aefc696e7de42ef8ff02735eb6dad8d60d9c063531b2b",
+      "bytes": 339363
+    },
+    {
+      "path": "folds/repeat_08__lineage_15.npz",
+      "sha256": "ca9d48f2ee9225585814a242d8837bf614bcf97b3aca0bcf8b63a3ec24388472",
+      "bytes": 89460
+    },
+    {
+      "path": "folds/repeat_08__lineage_16.json",
+      "sha256": "81afa7f813f7985a0bcc0441d72bb24e49a51b7aafa0e0ea3d52370eae7a1ca8",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_08__lineage_16.npz",
+      "sha256": "fe350f7d73bb4833e3142dfadc460f4ceea0b8556562d587df195969b0efac3d",
+      "bytes": 89371
+    },
+    {
+      "path": "folds/repeat_08__lineage_17.json",
+      "sha256": "f3176ceca3db1d70d9bc0c2dddde008118a18c9beb5e98984578582be2dc2710",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_08__lineage_17.npz",
+      "sha256": "214d1c4b6dfb5b932e2b6212346526f66835997c55f5bcaf6bbbd87c6f0d2062",
+      "bytes": 91171
+    },
+    {
+      "path": "folds/repeat_08__lineage_18.json",
+      "sha256": "f4d3d7cfe2cf7b6ff763b9d4e1919cd7a3c0cf67b531c883426be5a46f88dfd7",
+      "bytes": 339320
+    },
+    {
+      "path": "folds/repeat_08__lineage_18.npz",
+      "sha256": "b676132a45f2a52b1c9d10c326da2546fd9fe4638f32ffb5de77f4620f04d75a",
+      "bytes": 91633
+    },
+    {
+      "path": "folds/repeat_08__lineage_19.json",
+      "sha256": "7b36f767ef97e85160ce9dbc69975e10986bfd779e58598a1c3b4d996fb8651a",
+      "bytes": 339490
+    },
+    {
+      "path": "folds/repeat_08__lineage_19.npz",
+      "sha256": "59d9f4857918ef80e97f22f9882a4d85422b5b4b1769f3dfc57e32885faaa376",
+      "bytes": 91874
+    },
+    {
+      "path": "folds/repeat_08__lineage_20.json",
+      "sha256": "3a3f7db2eb45bbeeda6f2fd2f1c7c028a61bbd3a8270c473803530ed2499dbb7",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_08__lineage_20.npz",
+      "sha256": "849ad1052e034cc4656e478f1e8924d16d239ec2c34d3710835f869845e38b33",
+      "bytes": 89194
+    },
+    {
+      "path": "folds/repeat_08__lineage_21.json",
+      "sha256": "5c3bb2ecee3e4f340c2f4ecf5cff6fe97510ecbedacb09cee160f0d3099cec2f",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_08__lineage_21.npz",
+      "sha256": "07c117915e328c4f2ca0597acfa84fd3a9356cd8135645bc8b77fc7fe6a7a4f0",
+      "bytes": 91330
+    },
+    {
+      "path": "folds/repeat_08__lineage_22.json",
+      "sha256": "f9041f0fa0e5b5312bc5d58fa92a9fa6fe63e692a605f5efe245b4b5288d3dd4",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_08__lineage_22.npz",
+      "sha256": "8e618ccfd17f88a344ab89a9abd94ecc54a6ef2bbfb95ce8758496fd627304a1",
+      "bytes": 91581
+    },
+    {
+      "path": "folds/repeat_08__lineage_23.json",
+      "sha256": "beff9f84148d490c4e473bcd4e22c4bcea2ffadff65cbeb3e1f07753d36ade1d",
+      "bytes": 339352
+    },
+    {
+      "path": "folds/repeat_08__lineage_23.npz",
+      "sha256": "1e718009863ab40a48cc8b9bccb1705eda3d1d2886b6353e272f4cfd9dcd6b03",
+      "bytes": 90389
+    },
+    {
+      "path": "folds/repeat_09__lineage_00.json",
+      "sha256": "e734460adad72c11064625f61bde79ce8a25f20870b1111d12aea925e34052c7",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_09__lineage_00.npz",
+      "sha256": "44d618f015341363c7cd1837839e28fdc8602f09d59b1894b85bfed69e51f601",
+      "bytes": 92159
+    },
+    {
+      "path": "folds/repeat_09__lineage_01.json",
+      "sha256": "88ab542d1b6d77579ce1289ce636126b0f2a0ca5b4f1dff3dab46ea207a3e424",
+      "bytes": 339481
+    },
+    {
+      "path": "folds/repeat_09__lineage_01.npz",
+      "sha256": "e956fde10bd3111636d1ee13c81245b53715426f19001f548025ba7bae41567e",
+      "bytes": 91847
+    },
+    {
+      "path": "folds/repeat_09__lineage_02.json",
+      "sha256": "a535ddf8de13d428dfbaff2b43955d3fde462e0188ab041a12b9ec3dd8b53f9c",
+      "bytes": 339407
+    },
+    {
+      "path": "folds/repeat_09__lineage_02.npz",
+      "sha256": "64069ddfb312435563dede118ba6bfc52df452ef6a3d43922528af9e369e9290",
+      "bytes": 90870
+    },
+    {
+      "path": "folds/repeat_09__lineage_03.json",
+      "sha256": "2cc909fce65d77a5d25987593b274c655eb4c5a850add255060c48f69f748513",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_09__lineage_03.npz",
+      "sha256": "ae966a401243305c58ebb656bbbfbcc3d3fe330b77386d873e5982b7be0833df",
+      "bytes": 91333
+    },
+    {
+      "path": "folds/repeat_09__lineage_04.json",
+      "sha256": "6b4c01eca4341376b0bfdaf3b62ea49cfa933574d498a15cc5f8593612d8dcff",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_09__lineage_04.npz",
+      "sha256": "d85dd54727031cbb1a50df86a9e2f1452ea4a4b9c7eacb4352c5741ea974bca6",
+      "bytes": 88834
+    },
+    {
+      "path": "folds/repeat_09__lineage_05.json",
+      "sha256": "006acfb614eca7d6cda7f5f9d90461f44ce53196ba47812811127ebf015e75a4",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_09__lineage_05.npz",
+      "sha256": "7734dcd6f71843523dabe4b454884de1cae00c045354d01f8c6087e9601b374b",
+      "bytes": 89730
+    },
+    {
+      "path": "folds/repeat_09__lineage_06.json",
+      "sha256": "2bc56e5f5c030a3e9b29a4aef8d815681b25b282e11ce6b68ada9a5fdeb48862",
+      "bytes": 339348
+    },
+    {
+      "path": "folds/repeat_09__lineage_06.npz",
+      "sha256": "4daeef01914e804088a4ccc16134d4ea0ec71bfa056cb1283a016c25e7fa09a8",
+      "bytes": 88648
+    },
+    {
+      "path": "folds/repeat_09__lineage_07.json",
+      "sha256": "3a6fb4dbfff550f09e56ecc44d0a202831ac67081227706b982f89b31bd0e572",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_09__lineage_07.npz",
+      "sha256": "eb22693fa2d65a3338ccca34f0fc63bd7a2fcc23b42c73c2e0521d4b63f3e0c5",
+      "bytes": 92159
+    },
+    {
+      "path": "folds/repeat_09__lineage_08.json",
+      "sha256": "cb2adf4819336ee19ec03a88007479b2348dbc5939804b6a6e1f5c9c6c9e598b",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_09__lineage_08.npz",
+      "sha256": "626c3ba03e72fd6823001fe9559f9e64cdf6b9437ea3db32eee8623b8de29a0a",
+      "bytes": 87911
+    },
+    {
+      "path": "folds/repeat_09__lineage_09.json",
+      "sha256": "a4a759e0bd6c45f02521f32734097ec1a003855b1e39af40d962dff94b9d7ba3",
+      "bytes": 339506
+    },
+    {
+      "path": "folds/repeat_09__lineage_09.npz",
+      "sha256": "8901342da8f8bc28ecd16279d1291e69c9af39bd7b75fc7026a0531135ed0a99",
+      "bytes": 90148
+    },
+    {
+      "path": "folds/repeat_09__lineage_10.json",
+      "sha256": "5d27703805ddc4b0e373c85c40b731e5b8677843f4a72f766cba204d0972f735",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_09__lineage_10.npz",
+      "sha256": "0e3a8cf16d4a1a8a783f0b3c530af54db3df749bc1901948d458b24ad750b6bb",
+      "bytes": 90657
+    },
+    {
+      "path": "folds/repeat_09__lineage_11.json",
+      "sha256": "b337e2dc75cd5f03b1fd5407c6224b0934311e4eb0efd9db3a093244ed9a14ec",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_09__lineage_11.npz",
+      "sha256": "ec82e6881a4663f70d454ce228808192e76ffc5ed0b8db54a0a0efe5463e9eca",
+      "bytes": 90650
+    },
+    {
+      "path": "folds/repeat_09__lineage_12.json",
+      "sha256": "44b02e57331ea34802b737eba45c1aa3b783f4e928e60a7c2f7fa264c0e38c12",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_09__lineage_12.npz",
+      "sha256": "a17bf37aec17fa1fea3933adea6ac7ed94cabe2bde19e0f157c35eb27b0923f6",
+      "bytes": 81939
+    },
+    {
+      "path": "folds/repeat_09__lineage_13.json",
+      "sha256": "01db7be9a9c054b20a7eb0389454b374cf1b4ba42448768d1cdd869b3c06c6bd",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_09__lineage_13.npz",
+      "sha256": "ee595acc2649f095e5e7ec036f08c2e8ce333c3201837b4f0d50895266dbe47c",
+      "bytes": 84117
+    },
+    {
+      "path": "folds/repeat_09__lineage_14.json",
+      "sha256": "a8be0b6549fe4c9ae60ee14759675152aa1e1828bb79a6611cd94e8e8399c279",
+      "bytes": 339094
+    },
+    {
+      "path": "folds/repeat_09__lineage_14.npz",
+      "sha256": "4ad78febfbe2fc9e2c8fdf8f6286dc2a2871ca63d13d2013276838e2f8b87157",
+      "bytes": 89114
+    },
+    {
+      "path": "folds/repeat_09__lineage_15.json",
+      "sha256": "a6a79d1202ba2f7a752be145a47e1be43301bb7a5cb2205766543561bf6b5a78",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_09__lineage_15.npz",
+      "sha256": "994f042c7be588fcdd10fa798865a7b57efa27735f8669dc3d6d8189bb8975c4",
+      "bytes": 89453
+    },
+    {
+      "path": "folds/repeat_09__lineage_16.json",
+      "sha256": "82ca36b0f035ad283bedb57a0a1fc079fd82073991d14746ded11beb91ff911a",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_09__lineage_16.npz",
+      "sha256": "ef38567edf56bdc79910d420fdbbad674336b4799872942cd6a15b2bb18eef73",
+      "bytes": 89369
+    },
+    {
+      "path": "folds/repeat_09__lineage_17.json",
+      "sha256": "544b8570f9395ed61626aa5cdfadeb6ce44c0966aab1a6dd32ceb381e1fc722b",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_09__lineage_17.npz",
+      "sha256": "f1a9d5c0d5594e85b25e7877183ce54560725e3a930fa5d569ebda7806a5f3ca",
+      "bytes": 91166
+    },
+    {
+      "path": "folds/repeat_09__lineage_18.json",
+      "sha256": "d6f358ebdd1426c81eb7f56f82df71e3007e2e3d9223dc5fbff02744773d490f",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_09__lineage_18.npz",
+      "sha256": "44fa35e6bab5d449ccece7e46b6751ffe3d3144856c7085efe5aa992a94b4403",
+      "bytes": 91672
+    },
+    {
+      "path": "folds/repeat_09__lineage_19.json",
+      "sha256": "31f4b7ecb874767f6a2f9d43bb8a65843d2b602e403443ce948732ddbc7555fe",
+      "bytes": 339491
+    },
+    {
+      "path": "folds/repeat_09__lineage_19.npz",
+      "sha256": "582251337df12547eae36a481974f3e1ce10b7eba8b2ca1b6f279055297fce97",
+      "bytes": 91831
+    },
+    {
+      "path": "folds/repeat_09__lineage_20.json",
+      "sha256": "c54702352bcceb64422eb556d744d4e49365a0a94bfe2fd1cb5ee7e1945ee16f",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_09__lineage_20.npz",
+      "sha256": "d2cbd3d06a95639ead59b432bc3f82056a3236cd442c17e6194d75e3e9e06b06",
+      "bytes": 89186
+    },
+    {
+      "path": "folds/repeat_09__lineage_21.json",
+      "sha256": "dc11f999636c12f7dde57181eedd8d2039140044ffda6d54ba69e61bd6344291",
+      "bytes": 339440
+    },
+    {
+      "path": "folds/repeat_09__lineage_21.npz",
+      "sha256": "fe27273c0c673d9d70f70143560592e36bf02f54be29399a6cf03e32718c2e0a",
+      "bytes": 91374
+    },
+    {
+      "path": "folds/repeat_09__lineage_22.json",
+      "sha256": "c8a23969d3232a75790057c344baf8d917d4e400cf9dcb6e1158b76d3ff87449",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_09__lineage_22.npz",
+      "sha256": "feb936b9257d3bfcf6dbde2dc67689ed8c71f13ef1f4ab3acdf13e6efa46fafe",
+      "bytes": 91584
+    },
+    {
+      "path": "folds/repeat_09__lineage_23.json",
+      "sha256": "48f4650a336eb48ea4eb2ec9fb22495369a86ee8e2402213f39003858886f929",
+      "bytes": 339355
+    },
+    {
+      "path": "folds/repeat_09__lineage_23.npz",
+      "sha256": "7b9aca27d8fa98541d5ee62b80ac6695c559c7b93618ba453f80b462d1445392",
+      "bytes": 90389
+    },
+    {
+      "path": "folds/repeat_10__lineage_00.json",
+      "sha256": "719142e2ca7bf2947db146b925ddc8bc37cf9b49bbe3a8f00b995cbd763d0700",
+      "bytes": 339391
+    },
+    {
+      "path": "folds/repeat_10__lineage_00.npz",
+      "sha256": "e6ed844cb25b87786009eccdc1098f803e1b6377432214d34225684b122fd7ff",
+      "bytes": 92100
+    },
+    {
+      "path": "folds/repeat_10__lineage_01.json",
+      "sha256": "524f13b809d01e2676d8580dd57207dbf5542977a667bec756fc0cb314d414c6",
+      "bytes": 339483
+    },
+    {
+      "path": "folds/repeat_10__lineage_01.npz",
+      "sha256": "efa91ff6cde8d5c6efda132b8fa9c44aa9aeb8f7ac911b35042194cb1546f2e0",
+      "bytes": 91880
+    },
+    {
+      "path": "folds/repeat_10__lineage_02.json",
+      "sha256": "9fea850e8ffcc260120f87ce062b2ce154f03dd4e425ad3257f7df6647247953",
+      "bytes": 339406
+    },
+    {
+      "path": "folds/repeat_10__lineage_02.npz",
+      "sha256": "3e0439ea6593821455dc15792e94dc337f1dfb322c8f7228f91d812b860adc50",
+      "bytes": 90874
+    },
+    {
+      "path": "folds/repeat_10__lineage_03.json",
+      "sha256": "6136df90238ed40a52e51a770093726f4ca5f09667b6cf11a15f1fc600e597d3",
+      "bytes": 339544
+    },
+    {
+      "path": "folds/repeat_10__lineage_03.npz",
+      "sha256": "737f23858a98186f8fe73d267494f13262488701e8413ad7d3c84ed4f6945a37",
+      "bytes": 91400
+    },
+    {
+      "path": "folds/repeat_10__lineage_04.json",
+      "sha256": "e1be839041f7048b4daf2aa23a6094e831748dcb1f7f54875caa3a29c4a05d53",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_10__lineage_04.npz",
+      "sha256": "af33ab92d8f3b2c12b69664f3958ca7e9f2f9be245c6826b9b83d1dc0955cac7",
+      "bytes": 88866
+    },
+    {
+      "path": "folds/repeat_10__lineage_05.json",
+      "sha256": "e9b02181206ca30ecffa3326781dbe2ddc8fcedce3ce3702f27bac27fe91bb2e",
+      "bytes": 339433
+    },
+    {
+      "path": "folds/repeat_10__lineage_05.npz",
+      "sha256": "8a60f236848491f90d15415fe9c986e741aef10bd801a0d767d1a548bc46b1a8",
+      "bytes": 89775
+    },
+    {
+      "path": "folds/repeat_10__lineage_06.json",
+      "sha256": "9ded8a737982f79f0c9d89b520407e813bfe7f0db30d08a9162fef18ca56a2c9",
+      "bytes": 339349
+    },
+    {
+      "path": "folds/repeat_10__lineage_06.npz",
+      "sha256": "065695fcdbb1833712f4b8219d39c2f1cd75c0654a97d0a5f0c5a528096b7028",
+      "bytes": 88647
+    },
+    {
+      "path": "folds/repeat_10__lineage_07.json",
+      "sha256": "f3db3c8781872d3d9cd360fa5b21e4120c56852737247178382be6fa7f2ef8ef",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_10__lineage_07.npz",
+      "sha256": "0bac6e7d2d5197a06eb7ddbb9470dbfe36f1887861a685db4ba43d1fa4207143",
+      "bytes": 92213
+    },
+    {
+      "path": "folds/repeat_10__lineage_08.json",
+      "sha256": "6fae6b5dd1858c3e5cc56a1bae409753ffe430c41c182c28bed138b0470b0419",
+      "bytes": 338870
+    },
+    {
+      "path": "folds/repeat_10__lineage_08.npz",
+      "sha256": "830cb3020a1ca10bbb984acd2553c59d76c5886dc5a5e4dcf3945549f2d16915",
+      "bytes": 87905
+    },
+    {
+      "path": "folds/repeat_10__lineage_09.json",
+      "sha256": "5fb08d914dc593bf4d480eda064770a89699f75b61a7549b9dcc82f7102b8799",
+      "bytes": 339508
+    },
+    {
+      "path": "folds/repeat_10__lineage_09.npz",
+      "sha256": "dd755d0c66278e89a4b51c86dcb488cc2f34d380f0f3209616657916a2cb9b4e",
+      "bytes": 90126
+    },
+    {
+      "path": "folds/repeat_10__lineage_10.json",
+      "sha256": "3246097d7cf892e1aa3bb09414d3ee3b09e0bc4a581960b15bf342b21dade3e8",
+      "bytes": 339372
+    },
+    {
+      "path": "folds/repeat_10__lineage_10.npz",
+      "sha256": "54a1645ddd0ff6426aa48d450b6423533ea52785d2679354e261dc8b13f5d868",
+      "bytes": 90674
+    },
+    {
+      "path": "folds/repeat_10__lineage_11.json",
+      "sha256": "c82622b26c65fb084e859388041db28a15f4301c959661ff43e02ae05ff252a4",
+      "bytes": 339241
+    },
+    {
+      "path": "folds/repeat_10__lineage_11.npz",
+      "sha256": "d1a719931c588c2fe4fb18074296801f3e73803bc0d63361dcfc68e5067eba2e",
+      "bytes": 90705
+    },
+    {
+      "path": "folds/repeat_10__lineage_12.json",
+      "sha256": "c000abcc925379c88f09fce504ad44c2a0d0300bb9a9a151bd0a9d8bc5393b69",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_10__lineage_12.npz",
+      "sha256": "f95ca7da95af7fd8e68033f1c2d505493f1df1f4922f0c489cdce829105fe8f1",
+      "bytes": 81917
+    },
+    {
+      "path": "folds/repeat_10__lineage_13.json",
+      "sha256": "18fdc1032832a29807f2f86ad0a6f5c6db350221f9e75f81f93cfddf4a1d90ac",
+      "bytes": 338867
+    },
+    {
+      "path": "folds/repeat_10__lineage_13.npz",
+      "sha256": "68dc43f9430be5cf555b8809c57f5e660cb8e3319b6d6f76c951afc49a6d6cef",
+      "bytes": 84118
+    },
+    {
+      "path": "folds/repeat_10__lineage_14.json",
+      "sha256": "b92a8c2dab8d091e015738223eaed15e26e4763bb6ec9e66697564ac1c3be0d8",
+      "bytes": 339095
+    },
+    {
+      "path": "folds/repeat_10__lineage_14.npz",
+      "sha256": "e78e170b6e98c7817d8ce2534a4cff378a12e1b280a73a345b6b2123113119c5",
+      "bytes": 89127
+    },
+    {
+      "path": "folds/repeat_10__lineage_15.json",
+      "sha256": "4a0e2290ce320dcafb80d24db1cef0ff7d1dad9ea58b1260d1c7a750714e66e6",
+      "bytes": 339366
+    },
+    {
+      "path": "folds/repeat_10__lineage_15.npz",
+      "sha256": "52f1848c01199de474663d558f7c36aac9c387596e85493965640977f0f87146",
+      "bytes": 89445
+    },
+    {
+      "path": "folds/repeat_10__lineage_16.json",
+      "sha256": "986df5ffcfc3970e32fc2c456553f2179b6cb36bd4ad3e11c71e44f04c7b6a7b",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_10__lineage_16.npz",
+      "sha256": "5ffc4477e6b0896f22a677e8d9de568062a6cccc4156a12ea4087c89a72c9bd1",
+      "bytes": 89349
+    },
+    {
+      "path": "folds/repeat_10__lineage_17.json",
+      "sha256": "7f1eb5afabea186b7f177db10481ccdaa4eec86ba3864cb636b215a4ca2c3c64",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_10__lineage_17.npz",
+      "sha256": "fced43ede007c94b6fae0bdfe8e887444bd69c7473e1416fd0db9ed83f5b07dc",
+      "bytes": 91163
+    },
+    {
+      "path": "folds/repeat_10__lineage_18.json",
+      "sha256": "67d995dc5f22d9a9f058bb92debce248257cd369d06496dea4044611b5a60c74",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_10__lineage_18.npz",
+      "sha256": "54a454cd76330da335be778a482e6aa3a4d2b1e4ffdb9af4567ed7765053bfea",
+      "bytes": 91695
+    },
+    {
+      "path": "folds/repeat_10__lineage_19.json",
+      "sha256": "60bbc47fdb2e8530c4e3cc56f90b91de45f5d0e84f7d87d965080595b80a76c4",
+      "bytes": 339492
+    },
+    {
+      "path": "folds/repeat_10__lineage_19.npz",
+      "sha256": "535657c14e3015f9107436eff0af947d95a4790eda4837002e7c78c5fe9a5b50",
+      "bytes": 91852
+    },
+    {
+      "path": "folds/repeat_10__lineage_20.json",
+      "sha256": "109ff8bfd326b5da779f1543d0264830b3f631c8219ec4b0c2f160079ee51102",
+      "bytes": 339262
+    },
+    {
+      "path": "folds/repeat_10__lineage_20.npz",
+      "sha256": "2c410af0a73172968e389110a3475397d0e175fca220152db18c1a2f752cbed2",
+      "bytes": 89197
+    },
+    {
+      "path": "folds/repeat_10__lineage_21.json",
+      "sha256": "3d5c4f442745465fc5b93fcbab0c17582887fa3ca159598b7970bde6cbfe9150",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_10__lineage_21.npz",
+      "sha256": "5f03dbba9531fb461d4501cd831676da1db9ccfc2576a33a31e290ca142db440",
+      "bytes": 91376
+    },
+    {
+      "path": "folds/repeat_10__lineage_22.json",
+      "sha256": "5c9912b12195ca3e463bfbdb6b0dad58a4465493027e1635e55004a131896c0d",
+      "bytes": 339310
+    },
+    {
+      "path": "folds/repeat_10__lineage_22.npz",
+      "sha256": "6afe53a7491e7494b6da043e10caf47bc086cb085b7ff128ae062c979b7a68e2",
+      "bytes": 91547
+    },
+    {
+      "path": "folds/repeat_10__lineage_23.json",
+      "sha256": "034a172dbb23e9287c10b8bd9f9815f63cc1f16623939e4cd88fd8a80f824edc",
+      "bytes": 339356
+    },
+    {
+      "path": "folds/repeat_10__lineage_23.npz",
+      "sha256": "8d8b7c7de42fc9a47f7f29e5d26449baec57d934379488ea187136065a02f64a",
+      "bytes": 90341
+    },
+    {
+      "path": "folds/repeat_11__lineage_00.json",
+      "sha256": "004aaa0bf799e118955cdfdb9505d30b82593eb1ad65e137a93eaa6a800cc36e",
+      "bytes": 339390
+    },
+    {
+      "path": "folds/repeat_11__lineage_00.npz",
+      "sha256": "7e29f3f32579b3635a078d7f522bc81ffb5783c68c20c46e07ec25d536c1b9a3",
+      "bytes": 92102
+    },
+    {
+      "path": "folds/repeat_11__lineage_01.json",
+      "sha256": "08bd785c97ff9782e36c8150ad48678e174a4ab24e6a95320675438ccea8cfa8",
+      "bytes": 339481
+    },
+    {
+      "path": "folds/repeat_11__lineage_01.npz",
+      "sha256": "8b55b92e2af36b7f15d48a9b8df9617d942e0d3d0fb30682f920de4408c81630",
+      "bytes": 91824
+    },
+    {
+      "path": "folds/repeat_11__lineage_02.json",
+      "sha256": "0df8da9929468be0bbc13d5cc03b5901f22f6969294594115317b6ec35184f50",
+      "bytes": 339406
+    },
+    {
+      "path": "folds/repeat_11__lineage_02.npz",
+      "sha256": "ad4ab9ca4b263617a9c8c535804f9466787e85226e285b5c40e508e35cf87d83",
+      "bytes": 90919
+    },
+    {
+      "path": "folds/repeat_11__lineage_03.json",
+      "sha256": "09ca36a59faf546aa28f96558eb91303836cbe295023da022eb4b2b8fc529e04",
+      "bytes": 339542
+    },
+    {
+      "path": "folds/repeat_11__lineage_03.npz",
+      "sha256": "8e26c197811eced45aecfe2b90668df803ff5bc0e861cce5138d2e1c2bfee8c0",
+      "bytes": 91368
+    },
+    {
+      "path": "folds/repeat_11__lineage_04.json",
+      "sha256": "451f8dea6409eba83a99fcf90a99a04b2f589007939e28b85e71f06e603e7f1e",
+      "bytes": 339329
+    },
+    {
+      "path": "folds/repeat_11__lineage_04.npz",
+      "sha256": "10fd6262a41b459822787211f7b2865db4faf84d722394a295e2052d918c5874",
+      "bytes": 88874
+    },
+    {
+      "path": "folds/repeat_11__lineage_05.json",
+      "sha256": "3630c55fdd0d4599a5466f5d0d64f0657b748aae07df75dd3ee2ce4accf42456",
+      "bytes": 339430
+    },
+    {
+      "path": "folds/repeat_11__lineage_05.npz",
+      "sha256": "892ad7b04d79b909d1b9903335f05d4a6d52581c4ed25d26ba879c13e2c9f91d",
+      "bytes": 89714
+    },
+    {
+      "path": "folds/repeat_11__lineage_06.json",
+      "sha256": "9ccb0f75ec7c0a1a31c50ac0fa30add38b10748eaa30a40212bd20a6171f1e58",
+      "bytes": 339346
+    },
+    {
+      "path": "folds/repeat_11__lineage_06.npz",
+      "sha256": "e233115fc724270c001dd78cc02e8a80e94bbfea7f3c5cd3c743cad24b3baf8e",
+      "bytes": 88670
+    },
+    {
+      "path": "folds/repeat_11__lineage_07.json",
+      "sha256": "f31882749923b2eb2dd021e5826309a4999977b6f92e96638adbf92a6a9af221",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_11__lineage_07.npz",
+      "sha256": "9882cf63dd81e5cf9af29afe1bc607c2bd928795ec736b212c1eb2968002cdd5",
+      "bytes": 92155
+    },
+    {
+      "path": "folds/repeat_11__lineage_08.json",
+      "sha256": "1dc576b08c811d803cb5f83b29f630d34fe1b9c09ce6389f9bfb873104745d1e",
+      "bytes": 338868
+    },
+    {
+      "path": "folds/repeat_11__lineage_08.npz",
+      "sha256": "85ba387a84773a6ec79dbd39cda4ece2f64beab5e04104aec3b4505d3cde5f9a",
+      "bytes": 87907
+    },
+    {
+      "path": "folds/repeat_11__lineage_09.json",
+      "sha256": "ccf332fc2b99add21bb50e46f2ece7e3619441613fc80712549a742275deb25d",
+      "bytes": 339506
+    },
+    {
+      "path": "folds/repeat_11__lineage_09.npz",
+      "sha256": "8eebfaf01f1c5cbf2b1eccd483c48d643ce834910f8707938e6055180f544284",
+      "bytes": 90136
+    },
+    {
+      "path": "folds/repeat_11__lineage_10.json",
+      "sha256": "594b77658a58138193c661c81f9cb705b3c562297a9e38b1c21e986c8bf36e4a",
+      "bytes": 339369
+    },
+    {
+      "path": "folds/repeat_11__lineage_10.npz",
+      "sha256": "d21433ea8e04db2f753fc35dcb7a2d4d51cf64c71151d6dc40620fb06c886d5c",
+      "bytes": 90675
+    },
+    {
+      "path": "folds/repeat_11__lineage_11.json",
+      "sha256": "65cab105172d99df9705d0f9a22a2b87189fba8653af2f414991ea45c45ef01e",
+      "bytes": 339239
+    },
+    {
+      "path": "folds/repeat_11__lineage_11.npz",
+      "sha256": "126617ba0dafe43ba38cabc7ed81ae3bc488fe7879d3a31e396f196385090abd",
+      "bytes": 90671
+    },
+    {
+      "path": "folds/repeat_11__lineage_12.json",
+      "sha256": "98d0e0c739e82d5c8bd61cc6fcfec429e9dd1807e9332f5d80a88d5a986ea7d7",
+      "bytes": 339321
+    },
+    {
+      "path": "folds/repeat_11__lineage_12.npz",
+      "sha256": "0a5feaafdc895dfdb6fed8fce4b096681a2adead3850af4ad1fe2822deeb05c0",
+      "bytes": 81935
+    },
+    {
+      "path": "folds/repeat_11__lineage_13.json",
+      "sha256": "75828f369a38d6f16482753fd3a2d92ce79c8ddcc61890ba575e04bbf2702b59",
+      "bytes": 338865
+    },
+    {
+      "path": "folds/repeat_11__lineage_13.npz",
+      "sha256": "f785034dc879ace3a22b336e6dd17fa2c26afed5b3d99867afb696ef98ea0327",
+      "bytes": 84126
+    },
+    {
+      "path": "folds/repeat_11__lineage_14.json",
+      "sha256": "953fd1705974d65409ba708412e7058c65266641764de05f67a2f6833d194327",
+      "bytes": 339093
+    },
+    {
+      "path": "folds/repeat_11__lineage_14.npz",
+      "sha256": "7773e46a9c6fbe82597fbb2c0f6be3267d8c17bf0b30c704a71eef1f50e5ab64",
+      "bytes": 89127
+    },
+    {
+      "path": "folds/repeat_11__lineage_15.json",
+      "sha256": "2b12f94204ac0c40a727fea7f9d0640b8300cf66958f9c4c9554b321ff7851aa",
+      "bytes": 339363
+    },
+    {
+      "path": "folds/repeat_11__lineage_15.npz",
+      "sha256": "58d27fce4d30f8315c664bec5be19b683aeada011a2fc36dba3972e0da96d624",
+      "bytes": 89470
+    },
+    {
+      "path": "folds/repeat_11__lineage_16.json",
+      "sha256": "4897e8f638876649a81d898decda00b586b75abcc86264d4c81e8a341cbbaf24",
+      "bytes": 339602
+    },
+    {
+      "path": "folds/repeat_11__lineage_16.npz",
+      "sha256": "c6e8fd44e85153781ca04d4cab1234100225b56bd40b0b8148b3ceaa7b16ef0e",
+      "bytes": 89355
+    },
+    {
+      "path": "folds/repeat_11__lineage_17.json",
+      "sha256": "8d6cdc54d52d163942c7210de2ee22434c6102a4d9c6b1fcf73ee1219a5f1e79",
+      "bytes": 339412
+    },
+    {
+      "path": "folds/repeat_11__lineage_17.npz",
+      "sha256": "776bfd4c1b31cbd23facc787ecb0487be17d502f5d3e6bb933242b72a3b30205",
+      "bytes": 91188
+    },
+    {
+      "path": "folds/repeat_11__lineage_18.json",
+      "sha256": "9eee12b156b6835b74a81b77de6dc74cdf97b10a873ebc39610c985ffc8dcd49",
+      "bytes": 339321
+    },
+    {
+      "path": "folds/repeat_11__lineage_18.npz",
+      "sha256": "d535dde655fc11d46c42eb03af48750baf9bc85a2aab57b75472b8ce56dcccf0",
+      "bytes": 91665
+    },
+    {
+      "path": "folds/repeat_11__lineage_19.json",
+      "sha256": "744824c32587593b3e96a5ccbac54e2a2e36a3c69f8395d86cbd61897936c438",
+      "bytes": 339490
+    },
+    {
+      "path": "folds/repeat_11__lineage_19.npz",
+      "sha256": "de67258655e5b513ff33cf2b4061b4e204aa10ee75bb0edbe7d1ed58609d5047",
+      "bytes": 91871
+    },
+    {
+      "path": "folds/repeat_11__lineage_20.json",
+      "sha256": "c16deef33eb6bcac6c5062f36144b8c8c3f440072a1ad1e231c3fdf8f806a33c",
+      "bytes": 339259
+    },
+    {
+      "path": "folds/repeat_11__lineage_20.npz",
+      "sha256": "9eeb3fccf686158e8715cfd2ffe3e130ec3538c349b4742f33a0b8b979e71445",
+      "bytes": 89195
+    },
+    {
+      "path": "folds/repeat_11__lineage_21.json",
+      "sha256": "01ce405a880afc9ff2d905c32549869e65f6ae787d5a947252ca38fb1f35d25e",
+      "bytes": 339441
+    },
+    {
+      "path": "folds/repeat_11__lineage_21.npz",
+      "sha256": "d000bb58d7ab8d1a33ad749854943fee863c0317e74686ed80c77ab8603d1b04",
+      "bytes": 91381
+    },
+    {
+      "path": "folds/repeat_11__lineage_22.json",
+      "sha256": "efa91d44cf5188817128997075217fe54b37d5704512cfed4d83a5cfab969e4f",
+      "bytes": 339308
+    },
+    {
+      "path": "folds/repeat_11__lineage_22.npz",
+      "sha256": "72fdfb7e0cf87b79078e5c4ea7ef94fae3ff1cbb2fa0c4bd69123212ee675ec2",
+      "bytes": 91579
+    },
+    {
+      "path": "folds/repeat_11__lineage_23.json",
+      "sha256": "5777a8ee9eae46eed1ea7efd01b5a770f92c6a46b209a98393b893a804fc41e3",
+      "bytes": 339354
+    },
+    {
+      "path": "folds/repeat_11__lineage_23.npz",
+      "sha256": "fcd69ee89057ef935d97a07c7ffca6d43d5010d473356b07813591479dd79ed6",
+      "bytes": 90388
+    },
+    {
+      "path": "folds/repeat_12__lineage_00.json",
+      "sha256": "9fd134717b11221b13947a14f26a17fc41c9ab7a5b823959e08fd3cc549a65ed",
+      "bytes": 339393
+    },
+    {
+      "path": "folds/repeat_12__lineage_00.npz",
+      "sha256": "95d9c23ee54d1cf7a42cbb26b46635d25b347f8c8677a9d73dfb56c7cce415aa",
+      "bytes": 92120
+    },
+    {
+      "path": "folds/repeat_12__lineage_01.json",
+      "sha256": "b5f1a790ec3149ab581da2237a3af887e0c48fb81434e85676245b492d49dfbf",
+      "bytes": 339483
+    },
+    {
+      "path": "folds/repeat_12__lineage_01.npz",
+      "sha256": "bb7a49c841565af6421c152c5694f4dab8472269547bff073f2a92b985cfc53a",
+      "bytes": 91864
+    },
+    {
+      "path": "folds/repeat_12__lineage_02.json",
+      "sha256": "0f306d4905904b64e2983d782596f1168ca5977abd3b895fb14af6085c5846c1",
+      "bytes": 339408
+    },
+    {
+      "path": "folds/repeat_12__lineage_02.npz",
+      "sha256": "3d36e7c9ba8966026da5775394d666d604c3b46a27aa6eca1c26ab6bf8ff6bca",
+      "bytes": 90861
+    },
+    {
+      "path": "folds/repeat_12__lineage_03.json",
+      "sha256": "3dc9b0ef5ec086244f1eeca99dd68e2b427d03643ff0bbaf9da6d04ece5f1fed",
+      "bytes": 339544
+    },
+    {
+      "path": "folds/repeat_12__lineage_03.npz",
+      "sha256": "ddf00ecd4841926725a0b4fbc92b36e30da8ae3af64bf8a0ef0ed7186bd59f38",
+      "bytes": 91352
+    },
+    {
+      "path": "folds/repeat_12__lineage_04.json",
+      "sha256": "08e70458f863c665e413963045b379e571e8c52738d5778aac4023cf67e698bb",
+      "bytes": 339332
+    },
+    {
+      "path": "folds/repeat_12__lineage_04.npz",
+      "sha256": "8cd5daa5a7324f7f2de2f15bdfad4edc8c02da20935b31d75b8206b1ddc19f27",
+      "bytes": 88832
+    },
+    {
+      "path": "folds/repeat_12__lineage_05.json",
+      "sha256": "c563d23f9db555f12100d24a3dfbb886c6dcee1d2b5feb001f9322d913dc1bdd",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_12__lineage_05.npz",
+      "sha256": "c04dda1af9832bd7fd996620cf960ddad460be53c303fc9b3180050b749117e8",
+      "bytes": 89710
+    },
+    {
+      "path": "folds/repeat_12__lineage_06.json",
+      "sha256": "d1e5bdf1a0c9fbf2f8e9322fb879b8bae9466af6e3aa223130e52cb5aa8b71c0",
+      "bytes": 339349
+    },
+    {
+      "path": "folds/repeat_12__lineage_06.npz",
+      "sha256": "80b558b5137d0f38c4d28b282f71f144b2687ada9d804c403f1bc447529bb19b",
+      "bytes": 88645
+    },
+    {
+      "path": "folds/repeat_12__lineage_07.json",
+      "sha256": "37a9082c5a2d2a84fcee241743acba0fc383427a9ac101b0b9605d1ca4f87e84",
+      "bytes": 339416
+    },
+    {
+      "path": "folds/repeat_12__lineage_07.npz",
+      "sha256": "4ccd881bf2ef3b60f14cdd0319957b7f336d3cf1a7711b629bfda827641839fa",
+      "bytes": 92184
+    },
+    {
+      "path": "folds/repeat_12__lineage_08.json",
+      "sha256": "1ee24f642d1fa1bd1eaae11fd1ff939587d40b95a16f03373e4075f987d0daca",
+      "bytes": 338870
+    },
+    {
+      "path": "folds/repeat_12__lineage_08.npz",
+      "sha256": "fdb0ce93d8b4f3bb3e2048fc9bc5c60bd455515caeec436d52766a6a44949555",
+      "bytes": 87882
+    },
+    {
+      "path": "folds/repeat_12__lineage_09.json",
+      "sha256": "ad2d7e10aee4b75588f1b5a6cc61b1f501f5824446969432a9cbc131b1ed6fcd",
+      "bytes": 339508
+    },
+    {
+      "path": "folds/repeat_12__lineage_09.npz",
+      "sha256": "bce40a69111b6b205077e610b16d0ccaa18e6b770123eafb3214cd321c866e77",
+      "bytes": 90142
+    },
+    {
+      "path": "folds/repeat_12__lineage_10.json",
+      "sha256": "43b3f0fc0fe5c69e195e2a2c202007df82bdc3f0d450ab179e618672d7640a0c",
+      "bytes": 339372
+    },
+    {
+      "path": "folds/repeat_12__lineage_10.npz",
+      "sha256": "30c790d554712a6ea5c7eb3ddd040dbe7f745673ab3e854f95fd6b33589301a8",
+      "bytes": 90667
+    },
+    {
+      "path": "folds/repeat_12__lineage_11.json",
+      "sha256": "d8ae6894f426a06b93a7440ad1915e127c5750f7c8f32d10708eeb4c8524659b",
+      "bytes": 339241
+    },
+    {
+      "path": "folds/repeat_12__lineage_11.npz",
+      "sha256": "d8a098bd932633384505fc8dc2c0510788374b83ec313d9e944f42d0f5b4639e",
+      "bytes": 90661
+    },
+    {
+      "path": "folds/repeat_12__lineage_12.json",
+      "sha256": "9c741bcf6ffb7dde8e4df4e3e484738f81fabfa2c1c30146986b1b3c9669d80c",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_12__lineage_12.npz",
+      "sha256": "47a975c7e8e456937512a7e1bae01b4a427ce18e9da5d1fe75d872f2740b8952",
+      "bytes": 81942
+    },
+    {
+      "path": "folds/repeat_12__lineage_13.json",
+      "sha256": "99394b48069f4a2eddb1171f9a16140a8eb6ac3b7a525d7fb96027e37797181d",
+      "bytes": 338867
+    },
+    {
+      "path": "folds/repeat_12__lineage_13.npz",
+      "sha256": "e2651e1fd3c38fbd2b289aac2149286c2731066f6ac684e594d9bb8e02432a10",
+      "bytes": 84109
+    },
+    {
+      "path": "folds/repeat_12__lineage_14.json",
+      "sha256": "6f41bb03ac1f6888c20ebb91c01645508e483f1d42132b4a6e8f49e2ced6b6c0",
+      "bytes": 339095
+    },
+    {
+      "path": "folds/repeat_12__lineage_14.npz",
+      "sha256": "117b0ad0a2077da59ce9835b87b33130096f6e34009971240518256f1ccac3f0",
+      "bytes": 89087
+    },
+    {
+      "path": "folds/repeat_12__lineage_15.json",
+      "sha256": "63878914090afd41d6bd09d7f659bdffc314bcb60b78f35c0acbae7cebd4946e",
+      "bytes": 339366
+    },
+    {
+      "path": "folds/repeat_12__lineage_15.npz",
+      "sha256": "3885a127e6a5b40ce19da3b58778c3312fc6dcf18b15c3b074166fba2a227b59",
+      "bytes": 89451
+    },
+    {
+      "path": "folds/repeat_12__lineage_16.json",
+      "sha256": "0336d373d6cdbcf32d7a2729b30305abf3fadd71fcaf2ee49024e9497857b286",
+      "bytes": 339605
+    },
+    {
+      "path": "folds/repeat_12__lineage_16.npz",
+      "sha256": "18b80da76df18de355b455343ddc250160423488ca9a70321cc531f5699d3303",
+      "bytes": 89371
+    },
+    {
+      "path": "folds/repeat_12__lineage_17.json",
+      "sha256": "e50ddaaca6797531447269bbc4177e10dcb71c68b20f8d1afa5a7db9be82fd66",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_12__lineage_17.npz",
+      "sha256": "1b155d5694ee69e8367bf533400cd505985e2eaebf0ff8f1e529b5f1280b55f1",
+      "bytes": 91150
+    },
+    {
+      "path": "folds/repeat_12__lineage_18.json",
+      "sha256": "5326fddb599b6df99ae3131c2cc42df07fc56f0009cac79778b1051b0711b238",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_12__lineage_18.npz",
+      "sha256": "0620c2b11c516136ad628ba143530268ed346eadb7902d138cc62fe28184bed5",
+      "bytes": 91665
+    },
+    {
+      "path": "folds/repeat_12__lineage_19.json",
+      "sha256": "0f1883ede0cf2f5986bbedf65fa5950aa4e6696b779183dc38df66d53f0037aa",
+      "bytes": 339492
+    },
+    {
+      "path": "folds/repeat_12__lineage_19.npz",
+      "sha256": "63e1d02abf76accbd985ea45e62af3b1adace75d404ab68b8a16878a3dde5845",
+      "bytes": 91855
+    },
+    {
+      "path": "folds/repeat_12__lineage_20.json",
+      "sha256": "1dba50a08a254a2f4e3e6c925a678cde4b45e72d6a74110875caf1deb2b8afd1",
+      "bytes": 339262
+    },
+    {
+      "path": "folds/repeat_12__lineage_20.npz",
+      "sha256": "661fe97b74d478f821c2f61e22bbb6c83b9fdd9e1fc870a4386d025699fbb86c",
+      "bytes": 89163
+    },
+    {
+      "path": "folds/repeat_12__lineage_21.json",
+      "sha256": "e92c62bd7fff685fc0300d321b2ad61e25da42e3feca699c05b0c904070a8e53",
+      "bytes": 339443
+    },
+    {
+      "path": "folds/repeat_12__lineage_21.npz",
+      "sha256": "0fa34c3ebbefa6fda406865992dd0765d220946a7e391525e074ea9cd3e6f01f",
+      "bytes": 91358
+    },
+    {
+      "path": "folds/repeat_12__lineage_22.json",
+      "sha256": "f14c66dece75026f5c99671a43aa4231c35480ab6c7a0ffb510e8f266e3f328a",
+      "bytes": 339310
+    },
+    {
+      "path": "folds/repeat_12__lineage_22.npz",
+      "sha256": "5c20f8ff3d9ebaba68115bf73d4c111fc3224ad2043f3a931afa5b99d745afda",
+      "bytes": 91554
+    },
+    {
+      "path": "folds/repeat_12__lineage_23.json",
+      "sha256": "a832c2d527c6f89d8207d9ef69ca2ad27b5556a754ee419c40a1e67f105b38ca",
+      "bytes": 339356
+    },
+    {
+      "path": "folds/repeat_12__lineage_23.npz",
+      "sha256": "47e87ad59381bab02e58071e1c8053add426e56ebb83ac8d3b4818e94a2b170a",
+      "bytes": 90343
+    },
+    {
+      "path": "folds/repeat_13__lineage_00.json",
+      "sha256": "ef31b9b7a9bdcd9b344555595e3e44827fed170127147dccb745fabc387504d1",
+      "bytes": 339390
+    },
+    {
+      "path": "folds/repeat_13__lineage_00.npz",
+      "sha256": "2d1551aaa02a55ef76397d4bbbafe7c6e0d2cc936c6cdd9f988b1b2b2725091b",
+      "bytes": 92092
+    },
+    {
+      "path": "folds/repeat_13__lineage_01.json",
+      "sha256": "748da8d54336c04098bc43efd0affbacd5e91aa492433b9665a01134dd174d8e",
+      "bytes": 339481
+    },
+    {
+      "path": "folds/repeat_13__lineage_01.npz",
+      "sha256": "d467d32780c4cf49ba8fe56b6c29a0163177fa6cb25641e319317aea0922c904",
+      "bytes": 91845
+    },
+    {
+      "path": "folds/repeat_13__lineage_02.json",
+      "sha256": "126d4a00b1f854f436f0b8e1566dfae5d314fef5764238999b580e530afaebf4",
+      "bytes": 339404
+    },
+    {
+      "path": "folds/repeat_13__lineage_02.npz",
+      "sha256": "68bdaebb2bd54013c22864120439765fa1a9af47f2439c18bd57101da6776615",
+      "bytes": 90894
+    },
+    {
+      "path": "folds/repeat_13__lineage_03.json",
+      "sha256": "4f8fd445bc1abf24330d1c9d7110bcacdef882b3de09df36840665246ab80f02",
+      "bytes": 339542
+    },
+    {
+      "path": "folds/repeat_13__lineage_03.npz",
+      "sha256": "5c610f523c8ff3392e7a659fd8c04bb5714fa7a8cf9b48234973baa8936af50e",
+      "bytes": 91398
+    },
+    {
+      "path": "folds/repeat_13__lineage_04.json",
+      "sha256": "4fe75ffa779881717f19b4167e616b1e58c82689b65b1e8eddf3077133af784e",
+      "bytes": 339329
+    },
+    {
+      "path": "folds/repeat_13__lineage_04.npz",
+      "sha256": "8a9ae4812dceba4e238b63b12a09dbdd5d7265f63ce3c9f21dc432f93d8b6b7b",
+      "bytes": 88825
+    },
+    {
+      "path": "folds/repeat_13__lineage_05.json",
+      "sha256": "831bc0ab47a422bac46603bbd4e2544c93b4aaa344499959951598b906a4ca08",
+      "bytes": 339431
+    },
+    {
+      "path": "folds/repeat_13__lineage_05.npz",
+      "sha256": "b7b9ad219425ecd9a0e3744c025baf1373589d0510d1007127e411f7824f05cd",
+      "bytes": 89714
+    },
+    {
+      "path": "folds/repeat_13__lineage_06.json",
+      "sha256": "6e8dd7f6e9fd9aafa6b10172952f01beb9d1ffc16869698538e9a67b2a195feb",
+      "bytes": 339347
+    },
+    {
+      "path": "folds/repeat_13__lineage_06.npz",
+      "sha256": "ba8009e7a48321506f7a01e6e2a5bdde199c949f0d2afe0bf6af40e607cac601",
+      "bytes": 88637
+    },
+    {
+      "path": "folds/repeat_13__lineage_07.json",
+      "sha256": "eb1f7c6f844aa220a1492dc5c1b2d6c67bc99911a1ce976e7cc31fc526529eba",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_13__lineage_07.npz",
+      "sha256": "84851a66d521004199c983c76a8decb4ba962224e390942b8b213a99acbbfacd",
+      "bytes": 92164
+    },
+    {
+      "path": "folds/repeat_13__lineage_08.json",
+      "sha256": "4c3ccac733200ca8311c2b6b9d862c40b7cdde5245777748e01d9fb7240ee709",
+      "bytes": 338868
+    },
+    {
+      "path": "folds/repeat_13__lineage_08.npz",
+      "sha256": "700a375bb423c982b51d0ac13c136caae18c5d3ba85c9e89ecb6764d2b2002ee",
+      "bytes": 87910
+    },
+    {
+      "path": "folds/repeat_13__lineage_09.json",
+      "sha256": "e471e7b32731c8bd88c1be2c50a8950024d5866375234f1d845593fd7d54d8f3",
+      "bytes": 339506
+    },
+    {
+      "path": "folds/repeat_13__lineage_09.npz",
+      "sha256": "056caa36c15097f326dfbe8dca23bfe07f6a8e10c089ee7f7802ad4ba761c5d0",
+      "bytes": 90141
+    },
+    {
+      "path": "folds/repeat_13__lineage_10.json",
+      "sha256": "55a43befff963a87091f8b907fcbb416ad98f38a0ac01a4d6882fdac9d662ebc",
+      "bytes": 339370
+    },
+    {
+      "path": "folds/repeat_13__lineage_10.npz",
+      "sha256": "58bf798dd58815ab6df2c09899c7e01ffc87944ceb2a3f2a85f5b6f5df3e7981",
+      "bytes": 90734
+    },
+    {
+      "path": "folds/repeat_13__lineage_11.json",
+      "sha256": "832084c33e1c41c1da8613911e6b7b11bdbf1e362a58b035fb4932aee97759eb",
+      "bytes": 339239
+    },
+    {
+      "path": "folds/repeat_13__lineage_11.npz",
+      "sha256": "9fdeac17b060288ab9bb7cb1f6b5ac2ea6be41f084c02a0c6876e4e854ae0cc7",
+      "bytes": 90678
+    },
+    {
+      "path": "folds/repeat_13__lineage_12.json",
+      "sha256": "d5efd0883dbecb9f0acba7a2e653b787c8480b3244f505c3f36efd0ba16fc217",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_13__lineage_12.npz",
+      "sha256": "fb16f056b1865dedfdd3ce6d9ef9044db1453827620aa96f15aa0429490a06a6",
+      "bytes": 81909
+    },
+    {
+      "path": "folds/repeat_13__lineage_13.json",
+      "sha256": "dee409123ac7390695103f08aec02b23c23c83f0e190cdc0cd35dcffc8100a75",
+      "bytes": 338865
+    },
+    {
+      "path": "folds/repeat_13__lineage_13.npz",
+      "sha256": "06dec441bdcbfb87567be50a78e37ee2ec0365718fc83d6caee7f2c6e3e0517d",
+      "bytes": 84143
+    },
+    {
+      "path": "folds/repeat_13__lineage_14.json",
+      "sha256": "89e0e4a133ab7de7fb761ff8ae68abcac03e2a4e8bde0fd272699bdd8194f01f",
+      "bytes": 339093
+    },
+    {
+      "path": "folds/repeat_13__lineage_14.npz",
+      "sha256": "93825cace614f910b8d05d94bb2692d025e03c0ad6c58122700a4e80d6c17e8c",
+      "bytes": 89147
+    },
+    {
+      "path": "folds/repeat_13__lineage_15.json",
+      "sha256": "33430947f43fe282f15f97c1d29a3e54ad1b0fe68db781761dc0b674d05af3c8",
+      "bytes": 339364
+    },
+    {
+      "path": "folds/repeat_13__lineage_15.npz",
+      "sha256": "3eb8fbf54be865b58010186265bd8c7b5c54cb35c646fa718900c0b87c009ef6",
+      "bytes": 89445
+    },
+    {
+      "path": "folds/repeat_13__lineage_16.json",
+      "sha256": "8e1550e01fc18eec96c66b5ba30a1d5f69c9776f36e6338749a26c08bb9db773",
+      "bytes": 339603
+    },
+    {
+      "path": "folds/repeat_13__lineage_16.npz",
+      "sha256": "c1a9f4a508c4fa7310bdd879e0ed1a788eb2ae06e0b29eb1116b339904609adf",
+      "bytes": 89370
+    },
+    {
+      "path": "folds/repeat_13__lineage_17.json",
+      "sha256": "c271c13f1a8f7ef1e248bda3493524828442db5cc2b1467592ef1f7f40d0066b",
+      "bytes": 339412
+    },
+    {
+      "path": "folds/repeat_13__lineage_17.npz",
+      "sha256": "c548516986592414b04891e23068e2cb3afb2cdcab3072797f31207987787c3a",
+      "bytes": 91139
+    },
+    {
+      "path": "folds/repeat_13__lineage_18.json",
+      "sha256": "303cd075d07d44a5c67c0d95e894d3e2d7e418262b5cfc96e0b73c0cf58e1f71",
+      "bytes": 339321
+    },
+    {
+      "path": "folds/repeat_13__lineage_18.npz",
+      "sha256": "80c49052dd7e6c98e610028b895d363aab4005eb5c206b5b40dc0d186013cfda",
+      "bytes": 91650
+    },
+    {
+      "path": "folds/repeat_13__lineage_19.json",
+      "sha256": "af199c81bce51c46c2fad6d831da140baee974f257679d54f81d984b6769bb86",
+      "bytes": 339490
+    },
+    {
+      "path": "folds/repeat_13__lineage_19.npz",
+      "sha256": "4a22477494bdb66b1eb7ed4fae819aab119c60b90ce0915cab8da89cc254afc6",
+      "bytes": 91860
+    },
+    {
+      "path": "folds/repeat_13__lineage_20.json",
+      "sha256": "4a94cc15ca35023e684e3ac68e109d052d18d97eeb6d1b9deeb539bd9770e449",
+      "bytes": 339259
+    },
+    {
+      "path": "folds/repeat_13__lineage_20.npz",
+      "sha256": "918dd2b28a6b6de174e782dd80a9a65fe8b756a634ce760f046c3d12009b3ac5",
+      "bytes": 89183
+    },
+    {
+      "path": "folds/repeat_13__lineage_21.json",
+      "sha256": "8ac0129e9361637e091a04db2070b436e96cd85898c7ca9b7f76662e37f2c67c",
+      "bytes": 339441
+    },
+    {
+      "path": "folds/repeat_13__lineage_21.npz",
+      "sha256": "b2093ad8501bb91303c465928b7250ce763400e7fa57b0283cb008cc445d44d3",
+      "bytes": 91343
+    },
+    {
+      "path": "folds/repeat_13__lineage_22.json",
+      "sha256": "d64a90fb9b902337e67d980f8ce9c399f58f3f135a7d1f8e96eadb33e08f461b",
+      "bytes": 339308
+    },
+    {
+      "path": "folds/repeat_13__lineage_22.npz",
+      "sha256": "ae006903bc770165e46ba02971b06ea98becb3ab1d7635aa8d91a6735aaa9153",
+      "bytes": 91583
+    },
+    {
+      "path": "folds/repeat_13__lineage_23.json",
+      "sha256": "f0195a7de7a30071d7365acba4ad34b3c5549d53cac93e018a9e8b905e8d1cfc",
+      "bytes": 339354
+    },
+    {
+      "path": "folds/repeat_13__lineage_23.npz",
+      "sha256": "b722a58d39225f86f8e8f5f484590b868d50196d097975159506403530b88f72",
+      "bytes": 90405
+    },
+    {
+      "path": "folds/repeat_14__lineage_00.json",
+      "sha256": "8764dfa205dc595890aad60ec3afaf894a0d37edfa2dc4b5bdcbc070e4e42f93",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_14__lineage_00.npz",
+      "sha256": "8b606fb3e7b2db1be16f8d0792929cd1f314233e06e79cdec6e1e3a0bb326d14",
+      "bytes": 92086
+    },
+    {
+      "path": "folds/repeat_14__lineage_01.json",
+      "sha256": "f0bca5b6f8764017fcdf9b49cbf8eb9aac0d723006b62de9e7f5e75c34497174",
+      "bytes": 339483
+    },
+    {
+      "path": "folds/repeat_14__lineage_01.npz",
+      "sha256": "d414254ba5dcef5c9cea17d43fcb00c1a1b6ed0970132be32e65cf5efa9eb53b",
+      "bytes": 91843
+    },
+    {
+      "path": "folds/repeat_14__lineage_02.json",
+      "sha256": "3c75b3f05873719fb1058149c5db7e94a39f00dc26fc9c46eec49a0207bd6435",
+      "bytes": 339408
+    },
+    {
+      "path": "folds/repeat_14__lineage_02.npz",
+      "sha256": "67eafe5bab8c293483ff3322dfcfb1a7617e41bc8bdf99b9c63f2c1e34056838",
+      "bytes": 90868
+    },
+    {
+      "path": "folds/repeat_14__lineage_03.json",
+      "sha256": "68c88c6002560db1c5b79c89a5952cd7a8da3fadadef3821ef16e74e6d2ebd0e",
+      "bytes": 339544
+    },
+    {
+      "path": "folds/repeat_14__lineage_03.npz",
+      "sha256": "d45acef12f5fd3161164a7610ea40806371cb493557d9821541adafe7680f741",
+      "bytes": 91313
+    },
+    {
+      "path": "folds/repeat_14__lineage_04.json",
+      "sha256": "6ef24e3fed71451e950f88330913a6bb84504bc1b4ecf7be37b4a7fc30d93261",
+      "bytes": 339332
+    },
+    {
+      "path": "folds/repeat_14__lineage_04.npz",
+      "sha256": "91da91e52db42beebe2e8069cee48d105032241e4a94ac1069fbeb80755ea55e",
+      "bytes": 88837
+    },
+    {
+      "path": "folds/repeat_14__lineage_05.json",
+      "sha256": "9991bf3721d30b5404bf7a211345c9fbfb81ca14d6d1f65ad4c56fb52768e130",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_14__lineage_05.npz",
+      "sha256": "81c29be7b3dc6081dc76d9eb8b360fbfb3baf970722924310948ef616e5f3e6d",
+      "bytes": 89710
+    },
+    {
+      "path": "folds/repeat_14__lineage_06.json",
+      "sha256": "19463fd2ce0397a94a032e31a7e46538680ef659f16ecdc7ddccf7bac6afaec7",
+      "bytes": 339349
+    },
+    {
+      "path": "folds/repeat_14__lineage_06.npz",
+      "sha256": "102824a22b9a606d09ddc534e1fa17cc8849972af8673e97e875badcfb90ff54",
+      "bytes": 88631
+    },
+    {
+      "path": "folds/repeat_14__lineage_07.json",
+      "sha256": "66416fd3e92d4f0350737783adb9b54d0dd8ff79afbf280a8836f6527429a099",
+      "bytes": 339416
+    },
+    {
+      "path": "folds/repeat_14__lineage_07.npz",
+      "sha256": "5f806eecddf0b30f910819375e35574f97a0e8b882d213446a1827ee83ba721a",
+      "bytes": 92188
+    },
+    {
+      "path": "folds/repeat_14__lineage_08.json",
+      "sha256": "844b41a31dff4eaa744eb1914ec49ba0de57a183d339f14976efa73b44687eb4",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_14__lineage_08.npz",
+      "sha256": "853611e362210f4f9da09a194faa55f7a332c6ac4b418a615843dbeb1f10e985",
+      "bytes": 87902
+    },
+    {
+      "path": "folds/repeat_14__lineage_09.json",
+      "sha256": "243f045a2f341625a3ae8f76455408a1741b1a983006ddda83be8bb6910ae43a",
+      "bytes": 339508
+    },
+    {
+      "path": "folds/repeat_14__lineage_09.npz",
+      "sha256": "d0ccddcee4ca8e5e829bc3d7de22127eb27df941f9172640c02c49a9d3a213b1",
+      "bytes": 90139
+    },
+    {
+      "path": "folds/repeat_14__lineage_10.json",
+      "sha256": "459b06744e9d1e4b98b5bb8575bbf12398565dbf608a735135a002b5b765f26e",
+      "bytes": 339372
+    },
+    {
+      "path": "folds/repeat_14__lineage_10.npz",
+      "sha256": "2dea87c3a6f93760ecd7d3b8cbb60fbe3a1171117365dd15f715bcf277ba8070",
+      "bytes": 90656
+    },
+    {
+      "path": "folds/repeat_14__lineage_11.json",
+      "sha256": "3ee09b8bbac7d7b22a29b351751a4878e83e500bcfaa2748ce707b0c9ebb302c",
+      "bytes": 339241
+    },
+    {
+      "path": "folds/repeat_14__lineage_11.npz",
+      "sha256": "db10eecf86fbaa75a87a4dba05d2b93d29918d712f0bd36efbb4e743cf1ed73b",
+      "bytes": 90672
+    },
+    {
+      "path": "folds/repeat_14__lineage_12.json",
+      "sha256": "ba7f10a6ad7d4d21b1f4c21efe583c03691dab84a0d82022bd46255fc290548c",
+      "bytes": 339324
+    },
+    {
+      "path": "folds/repeat_14__lineage_12.npz",
+      "sha256": "3c4c02032af7bba96b9131dc515f71b87bd612ec962678033dfb58b06bd90e07",
+      "bytes": 81913
+    },
+    {
+      "path": "folds/repeat_14__lineage_13.json",
+      "sha256": "bbc55a288af70bcee80bc0c76ee7bfc0fde94c63955e03e53ec40055b577e836",
+      "bytes": 338867
+    },
+    {
+      "path": "folds/repeat_14__lineage_13.npz",
+      "sha256": "d25b6d179cbc32f80a7155ab927565affa941fe8b489e2d9e872b8bf73fc78c4",
+      "bytes": 84148
+    },
+    {
+      "path": "folds/repeat_14__lineage_14.json",
+      "sha256": "17561afc1de4e89ec3190f8667dfee354d11fa4865a006779a1dc2d96871e0d7",
+      "bytes": 339094
+    },
+    {
+      "path": "folds/repeat_14__lineage_14.npz",
+      "sha256": "3ba6057b9947a592b6e95f1267f949c30a6bdda740d052531a8bf041a064d01e",
+      "bytes": 89111
+    },
+    {
+      "path": "folds/repeat_14__lineage_15.json",
+      "sha256": "9b0a3495dd612a13f44655c0a344ff1131ccc58744e9658fc75cac6e0b0315df",
+      "bytes": 339366
+    },
+    {
+      "path": "folds/repeat_14__lineage_15.npz",
+      "sha256": "9b11720094f2f2bd3205c5050452bfa8e2ad48d160e7b001d2e9626767c383f9",
+      "bytes": 89452
+    },
+    {
+      "path": "folds/repeat_14__lineage_16.json",
+      "sha256": "d66b56a49342815b3ff0878a0af8d372ddc91ded15eeb2030c64b9a6eba92852",
+      "bytes": 339605
+    },
+    {
+      "path": "folds/repeat_14__lineage_16.npz",
+      "sha256": "0bb309061f42cb15e78cb7b51212ebfec547c19d87b7f85f0d1165696ac9297c",
+      "bytes": 89362
+    },
+    {
+      "path": "folds/repeat_14__lineage_17.json",
+      "sha256": "6eb3ea9c708977758f64595d750160c91bb2eafaa9d7d4f3f9d6c37d0af75c55",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_14__lineage_17.npz",
+      "sha256": "42a359985694a5275d0a2b8a70306765e3ac76259def1b84468dcd10477e97e8",
+      "bytes": 91152
+    },
+    {
+      "path": "folds/repeat_14__lineage_18.json",
+      "sha256": "1b2607af7ccd8e8e3d03699e6b79505d81425e3e877701ee53e3ecf644eef092",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_14__lineage_18.npz",
+      "sha256": "7a559c80ad2ae97ea6f4862b5c432c2b72c6a3a31a0243486f9628c4dffc73ef",
+      "bytes": 91674
+    },
+    {
+      "path": "folds/repeat_14__lineage_19.json",
+      "sha256": "959baf2fe874cdb374bef85bffd85970f48cc134c88ca3108f6d80d610466cbf",
+      "bytes": 339491
+    },
+    {
+      "path": "folds/repeat_14__lineage_19.npz",
+      "sha256": "119009a61061537121824e72c1ba5871749b0acc5913e6ff6937c692347c9dce",
+      "bytes": 91865
+    },
+    {
+      "path": "folds/repeat_14__lineage_20.json",
+      "sha256": "ee503ef1163ef08cc29bedd9ce17070440b087c6ab13b25e4daf9ca10102b68d",
+      "bytes": 339262
+    },
+    {
+      "path": "folds/repeat_14__lineage_20.npz",
+      "sha256": "93ae7ae2effd306775fdfbb9d645af37926c2472694375a5801a6dd9e5db6a14",
+      "bytes": 89184
+    },
+    {
+      "path": "folds/repeat_14__lineage_21.json",
+      "sha256": "a25842655aa95cc1a885ffd6c5b52e41823fe157fc30e58182e9ac0b58fe5067",
+      "bytes": 339443
+    },
+    {
+      "path": "folds/repeat_14__lineage_21.npz",
+      "sha256": "ec0aa5e1061298df3776fc92cd98047a5386da937bc6c93e12bc1d8bbda09728",
+      "bytes": 91352
+    },
+    {
+      "path": "folds/repeat_14__lineage_22.json",
+      "sha256": "ba71c77e4284aa702df8c57d3d08ef6e5e819a15fdd2576a025ff951e54e79db",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_14__lineage_22.npz",
+      "sha256": "57749a956573723b368cd0e3b76a68ef07d7cee8312e60e754e645d7df66f45a",
+      "bytes": 91547
+    },
+    {
+      "path": "folds/repeat_14__lineage_23.json",
+      "sha256": "d8136967d66de44ad103567565d88f9b61c7e1b873160783470541c9b29f3e47",
+      "bytes": 339356
+    },
+    {
+      "path": "folds/repeat_14__lineage_23.npz",
+      "sha256": "4dbe3dc04044168a55c00b52c6ad4e52109ab4e1b222c3ef32d6d752cd7bfe23",
+      "bytes": 90372
+    },
+    {
+      "path": "folds/repeat_15__lineage_00.json",
+      "sha256": "296d5b076d24d076d50aaba665d87f0272aa27f62d20a912c0953a9ab361661a",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_15__lineage_00.npz",
+      "sha256": "1bdefd51807cf46a9d11df24da98e6cc8485922251c205d55a95b8085dd56b18",
+      "bytes": 92143
+    },
+    {
+      "path": "folds/repeat_15__lineage_01.json",
+      "sha256": "64dc5df53c3398f3b931b232bfb5f2ff84ac7624d06f06c0ca775b78ada307d2",
+      "bytes": 339482
+    },
+    {
+      "path": "folds/repeat_15__lineage_01.npz",
+      "sha256": "2190403a1a0f489cdf6389eef8a4bd6e3a3f3b076808bd3e2ab38c782e364dbe",
+      "bytes": 91839
+    },
+    {
+      "path": "folds/repeat_15__lineage_02.json",
+      "sha256": "e21f3c55b84dfece352a4a2c59eaa58b6fd41c7a7c691d1c4bb9d73015b835fe",
+      "bytes": 339407
+    },
+    {
+      "path": "folds/repeat_15__lineage_02.npz",
+      "sha256": "0041569a05b52abd9cf75014e8a9fb2bf74b0db273aec9736b622d51b91520d1",
+      "bytes": 90872
+    },
+    {
+      "path": "folds/repeat_15__lineage_03.json",
+      "sha256": "7402a6602f3800b72e314e1b4c879ac6020e9e7f6ff937a36957b3ae4a9ff674",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_15__lineage_03.npz",
+      "sha256": "06029df4d84f7f7c770acec267be505214a1c2f02281364666625ef3422f9f2f",
+      "bytes": 91366
+    },
+    {
+      "path": "folds/repeat_15__lineage_04.json",
+      "sha256": "e0952506a2cc54cbe484603131d8c43466675647b67ade61f1d0642191754fd5",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_15__lineage_04.npz",
+      "sha256": "b28204062e6acc9c5b4b7361594bd5e5334299f7676ea5399e345c879bdaf112",
+      "bytes": 88902
+    },
+    {
+      "path": "folds/repeat_15__lineage_05.json",
+      "sha256": "0ceeae6873734a48ad2c51647dbe2603528f83e0ef930d5ca5a85fbbb9c49d4b",
+      "bytes": 339431
+    },
+    {
+      "path": "folds/repeat_15__lineage_05.npz",
+      "sha256": "cfe5ee44c486e1d3e3e2b97dc6cfe3b5d1bcba81645371e892e3e4eb4a0b7acd",
+      "bytes": 89737
+    },
+    {
+      "path": "folds/repeat_15__lineage_06.json",
+      "sha256": "85163756ff2950435c1daace1a7fe31c43696c988feaef73b1381d2ed6f076e0",
+      "bytes": 339348
+    },
+    {
+      "path": "folds/repeat_15__lineage_06.npz",
+      "sha256": "1713bc6cb85641a2e44a3f1c01ae667c6b5fc99eee68c8e8a29c6b108af993e7",
+      "bytes": 88641
+    },
+    {
+      "path": "folds/repeat_15__lineage_07.json",
+      "sha256": "a9366c6a20999e778ea3c10ad60714c3b40da8355880ba67f6afadcce9a16c43",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_15__lineage_07.npz",
+      "sha256": "f008555044b2aaa5c485cd18263775a97be03537bca89c2dc1600a15851175fc",
+      "bytes": 92165
+    },
+    {
+      "path": "folds/repeat_15__lineage_08.json",
+      "sha256": "f6f88b5d7491800e9865fa19b579212fc415de11ba6bd8c4cedf7a118510ce03",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_15__lineage_08.npz",
+      "sha256": "d29996d5eeba691623e573b8e79b7b39bf89e7ae1e227598f9a0271dfabceb03",
+      "bytes": 87925
+    },
+    {
+      "path": "folds/repeat_15__lineage_09.json",
+      "sha256": "131e8ffaca5c2c1adbee5d87918932e3da1c36b0209f2d122444a6353364bff3",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_15__lineage_09.npz",
+      "sha256": "63aa40dbe1e918ebba51245f466560168442eef66d559efda11fddb33f7c1f3d",
+      "bytes": 90154
+    },
+    {
+      "path": "folds/repeat_15__lineage_10.json",
+      "sha256": "55224f767f3421a850a174fdf2f6b42b086b1eb328dc813a5b7643bcd36117b0",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_15__lineage_10.npz",
+      "sha256": "be663fd836d50df627d501c913f98409a8f1b2f4eaf0ea32c212c9f45e9f158c",
+      "bytes": 90723
+    },
+    {
+      "path": "folds/repeat_15__lineage_11.json",
+      "sha256": "27ae34e6477f1a323229cc036324f76bd9dcbffecfe4036a9981ac84193ec506",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_15__lineage_11.npz",
+      "sha256": "adbc0cb045f43f9aa1ec291b62c4a7611fd1c656cefbdbeb4d6fc09b8558c622",
+      "bytes": 90667
+    },
+    {
+      "path": "folds/repeat_15__lineage_12.json",
+      "sha256": "f3dcb86091c5aabbe0427d8235c8a622a35ef86020c0489a81b581df08e0fdb5",
+      "bytes": 339321
+    },
+    {
+      "path": "folds/repeat_15__lineage_12.npz",
+      "sha256": "0153ac06d9fe4517cdf8e38b78f521a1b4011b261a149967b33a4b09989cb396",
+      "bytes": 81922
+    },
+    {
+      "path": "folds/repeat_15__lineage_13.json",
+      "sha256": "436f46f5f44d01ee2292e2ac889b2059c5ad6f82124f33e3ac8b4d83261924a5",
+      "bytes": 338866
+    },
+    {
+      "path": "folds/repeat_15__lineage_13.npz",
+      "sha256": "63db01ecd08c883f8542a2a82be0813769a046dcd4537c0dcdac67a904ccc9ad",
+      "bytes": 84180
+    },
+    {
+      "path": "folds/repeat_15__lineage_14.json",
+      "sha256": "a593cc500fb68f179549ce1768602b4fc8f5fe2e7279bc6d81158818eabc7b7a",
+      "bytes": 339093
+    },
+    {
+      "path": "folds/repeat_15__lineage_14.npz",
+      "sha256": "a704e4e3635299dbd4bf9dde42795570d115697eb3533db62ecfd63a49f337b2",
+      "bytes": 89117
+    },
+    {
+      "path": "folds/repeat_15__lineage_15.json",
+      "sha256": "5cab04c1b36db7b70936d2944957abf2a8a830c3564806af327569198767a8f8",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_15__lineage_15.npz",
+      "sha256": "7f5ee1c71e71927b45196efbf319418a10d4641c6f05d64226855a84a63ec6ec",
+      "bytes": 89462
+    },
+    {
+      "path": "folds/repeat_15__lineage_16.json",
+      "sha256": "ba9402799a3d831a16d39f427fbc82894aa46e944e67d0a960aacbc957b858d4",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_15__lineage_16.npz",
+      "sha256": "2314d326fa629985346c98941b8b67ab5faedd88657ae700dd5ceaae42c44db5",
+      "bytes": 89342
+    },
+    {
+      "path": "folds/repeat_15__lineage_17.json",
+      "sha256": "098fe900b1b17ee709dfef3de33522dcf0d612da9aa0ce2ee7f870eb9b639ad8",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_15__lineage_17.npz",
+      "sha256": "6e5d1299fc8aee2e22f1d5b3616ddf7eafb7ccdaf3c84afd7b1a4a7d21058de5",
+      "bytes": 91195
+    },
+    {
+      "path": "folds/repeat_15__lineage_18.json",
+      "sha256": "20fd9946947f52aee474f9744006edaf2bb19e7d9f5ef2e1291bde068346099f",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_15__lineage_18.npz",
+      "sha256": "75e47332f6b908a401ef77bfc007ba1c9d5ff0e2b40351c1931a2f27b7f87eda",
+      "bytes": 91705
+    },
+    {
+      "path": "folds/repeat_15__lineage_19.json",
+      "sha256": "dfd5fbbce92157e777806547fc4a4e569bc7dc0e0b93d609d4e24205a4aa94c7",
+      "bytes": 339491
+    },
+    {
+      "path": "folds/repeat_15__lineage_19.npz",
+      "sha256": "8e5be3c4653f987eaf1c1f7d5716ba6f696ad73b962c794883db5e6f0096c6f5",
+      "bytes": 91914
+    },
+    {
+      "path": "folds/repeat_15__lineage_20.json",
+      "sha256": "bebf23ded7d701c582c00330f22f41a83c019050970def33d0fb4da6ab5dfbad",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_15__lineage_20.npz",
+      "sha256": "15199f290df0198105b1e2e62532c36cf843bd66b06317996a9e3b6cb91743a1",
+      "bytes": 89192
+    },
+    {
+      "path": "folds/repeat_15__lineage_21.json",
+      "sha256": "c50e79ecb93eaa8c7412a365c3012544ea5844c1b4fefb40dc3abdbd61c53bcd",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_15__lineage_21.npz",
+      "sha256": "6c6d08bf90d000a5601c5a7d00472b1d570e82d53fe9375c6f857c36bb35f4be",
+      "bytes": 91366
+    },
+    {
+      "path": "folds/repeat_15__lineage_22.json",
+      "sha256": "0476f3afac41e4b5210ce1e37ccd200ce943d7040954f2a22a2c47783c9bfd57",
+      "bytes": 339308
+    },
+    {
+      "path": "folds/repeat_15__lineage_22.npz",
+      "sha256": "503fcb8e4a5eee3606c9ded0f322f1e3292324d419da5ea6ccf749f09fa945ad",
+      "bytes": 91631
+    },
+    {
+      "path": "folds/repeat_15__lineage_23.json",
+      "sha256": "2546fa4935baf2643159cf9e9b38559b01fc112a681b1ce97dc6c2253e3b177f",
+      "bytes": 339355
+    },
+    {
+      "path": "folds/repeat_15__lineage_23.npz",
+      "sha256": "89a87fc4a70192068f28ae4f5617dcbdac1a46aa9e34a7d417742c2cd932dcf1",
+      "bytes": 90330
+    },
+    {
+      "path": "folds/repeat_16__lineage_00.json",
+      "sha256": "6c87bde63bc234bfbaddc3b00bf425d81bf102d8bdfe17505d13d01e3128ea33",
+      "bytes": 339393
+    },
+    {
+      "path": "folds/repeat_16__lineage_00.npz",
+      "sha256": "27b8c2dba0f697e99187cce0e5b7bde24cc0931b1ac03e91cf295f7aa0e3678b",
+      "bytes": 92093
+    },
+    {
+      "path": "folds/repeat_16__lineage_01.json",
+      "sha256": "a7901afe777a41d844f9d1f0caf535d19efef535c0e828d65469648b6ae17631",
+      "bytes": 339483
+    },
+    {
+      "path": "folds/repeat_16__lineage_01.npz",
+      "sha256": "f16ab8646988cfd7230fe4418d98a4636c0c5108b6938c940a403d6978f01e96",
+      "bytes": 91862
+    },
+    {
+      "path": "folds/repeat_16__lineage_02.json",
+      "sha256": "71b9e1dc0eeb713e8f992143c969ea6276032321e04a40404d1ffb951b8db2a9",
+      "bytes": 339408
+    },
+    {
+      "path": "folds/repeat_16__lineage_02.npz",
+      "sha256": "59eecf44b3061e1309b12f0384065c413b6109969c58fe0caee8c766b905f49c",
+      "bytes": 90903
+    },
+    {
+      "path": "folds/repeat_16__lineage_03.json",
+      "sha256": "a62f5f614757698938ef42e189e3ffb6bcec270c6cf7458dc495a70264c88925",
+      "bytes": 339544
+    },
+    {
+      "path": "folds/repeat_16__lineage_03.npz",
+      "sha256": "03ed36921523e83ca8af2d17696fb62a6c52313fd12db1e2c3e742e03edefffc",
+      "bytes": 91345
+    },
+    {
+      "path": "folds/repeat_16__lineage_04.json",
+      "sha256": "e4ae3eddfb2254a476c8571f453b6f7bbfeb26bc691041d07346b866ac3b88d4",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_16__lineage_04.npz",
+      "sha256": "5e341f78b4473686a4fa5bf2711b37483fad3f6b7d866d591327d22660d61145",
+      "bytes": 88876
+    },
+    {
+      "path": "folds/repeat_16__lineage_05.json",
+      "sha256": "efde012332abcd61f2c9d8b662a8368f7fdcbc091fab1c44e9f530c786524684",
+      "bytes": 339433
+    },
+    {
+      "path": "folds/repeat_16__lineage_05.npz",
+      "sha256": "6e3d9fa509a7d848932431457a80f6883b62422cd364fe122152c7e511550952",
+      "bytes": 89733
+    },
+    {
+      "path": "folds/repeat_16__lineage_06.json",
+      "sha256": "68ccc79b60dba4f8cc99a4cab89a60ee6aac7849b2d5afcb256b6ff6b7062ea7",
+      "bytes": 339349
+    },
+    {
+      "path": "folds/repeat_16__lineage_06.npz",
+      "sha256": "9d628b79d4b2087bf93ebf096ca351788a8bd86265ee56a9f6164399e04bd35c",
+      "bytes": 88621
+    },
+    {
+      "path": "folds/repeat_16__lineage_07.json",
+      "sha256": "7e83787d8966271d14e93585a2af20b90118115ab476197ea7793449d3399196",
+      "bytes": 339416
+    },
+    {
+      "path": "folds/repeat_16__lineage_07.npz",
+      "sha256": "8cb3ad650cbe83930d8bd455dfe2a18b8ec18d4415e7f208c4416075afc27548",
+      "bytes": 92189
+    },
+    {
+      "path": "folds/repeat_16__lineage_08.json",
+      "sha256": "52803f4adabb3dccb0c855f5452c0b566e3f9e9af7c8d165a785cb0e34fbfbf0",
+      "bytes": 338870
+    },
+    {
+      "path": "folds/repeat_16__lineage_08.npz",
+      "sha256": "2d915355eecd352d6af24b982962e459740d17f610d2595086738a8853913b71",
+      "bytes": 87874
+    },
+    {
+      "path": "folds/repeat_16__lineage_09.json",
+      "sha256": "5ec9ffa1cb1f72b791bf6416fa9c7cb244c9f3c58a7dd4a556a110960665a8cd",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_16__lineage_09.npz",
+      "sha256": "6280f7bf4f667498f1aa9266ad34644805d62a048daed215932f4cae09d4c51b",
+      "bytes": 90117
+    },
+    {
+      "path": "folds/repeat_16__lineage_10.json",
+      "sha256": "04250f0f1b3636e8db7b6f8a31628ade6fb4de3ca398ad71598a9abf996430b8",
+      "bytes": 339372
+    },
+    {
+      "path": "folds/repeat_16__lineage_10.npz",
+      "sha256": "c5af42fb9bd17de2ccfaa1afec9a4a5248c69715d715b1c51c6434b2af020f66",
+      "bytes": 90700
+    },
+    {
+      "path": "folds/repeat_16__lineage_11.json",
+      "sha256": "4765eec942e322a1cd60b7bdbf974cb4db9b9c1aeaf18bc7d2c3eaedb31aac3e",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_16__lineage_11.npz",
+      "sha256": "576117788e5b7ef704ebfd3b7eec383c4841fb2622ad357d68caeb2a99bd7b3b",
+      "bytes": 90660
+    },
+    {
+      "path": "folds/repeat_16__lineage_12.json",
+      "sha256": "e866968ff7d06767aa8a13cf1a86115eb367ae0489b0b7655a8ad47aa72ad803",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_16__lineage_12.npz",
+      "sha256": "9eb940891a45ced52071ec619c70a5cdd0a13932d6ed48aa867a9ef16a94991d",
+      "bytes": 81938
+    },
+    {
+      "path": "folds/repeat_16__lineage_13.json",
+      "sha256": "6097bd83b83074e906cabf9c577b1dbf20df279afddedb8d15fa9c49e26374c7",
+      "bytes": 338867
+    },
+    {
+      "path": "folds/repeat_16__lineage_13.npz",
+      "sha256": "a1e4bcdd57f20aa01a8230a755d177a8189bb247112bdce2ef26bb9f3faf9a51",
+      "bytes": 84128
+    },
+    {
+      "path": "folds/repeat_16__lineage_14.json",
+      "sha256": "cb34e5cfa53e5f92528e4e03657bc162a97a5d9136e208692b8ee292df94c727",
+      "bytes": 339095
+    },
+    {
+      "path": "folds/repeat_16__lineage_14.npz",
+      "sha256": "e72d697f6a7a1b4f2b4ea99eb799e50e208ae2ffdc740428803c6011ebc809b6",
+      "bytes": 89105
+    },
+    {
+      "path": "folds/repeat_16__lineage_15.json",
+      "sha256": "1d515bc7cf714877bac34c043b238c4da96becb52284a9b3e8699aff1e66a797",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_16__lineage_15.npz",
+      "sha256": "4fef4b2b42d1617d3d5be7dea4d1e13eea959cf475acd8cdb6327b633ae92526",
+      "bytes": 89439
+    },
+    {
+      "path": "folds/repeat_16__lineage_16.json",
+      "sha256": "70218a120c88f49affd6f22252eb46a07dcd4b1e8f6de171a76d742d5544b429",
+      "bytes": 339605
+    },
+    {
+      "path": "folds/repeat_16__lineage_16.npz",
+      "sha256": "059a59936957260da79a87013a6072c23c3b41008ae5297bd7dfefb5c4ff5661",
+      "bytes": 89375
+    },
+    {
+      "path": "folds/repeat_16__lineage_17.json",
+      "sha256": "be9b078862deb5303225fac3d35cb7dc393c979f42007f4cd38bb1b839d72034",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_16__lineage_17.npz",
+      "sha256": "c7e7edbb8f5a040ce39abaa5ab8221923b5c8beee992b98e3b7882ec67d0b4da",
+      "bytes": 91201
+    },
+    {
+      "path": "folds/repeat_16__lineage_18.json",
+      "sha256": "c38095b585a146281fe30fde4f8103064b00c0c01018f63db72f3154a37fa26b",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_16__lineage_18.npz",
+      "sha256": "a8496949830ad98b2468e9ae2aaae1bdda3ac3785553c81829d10330aa03ac03",
+      "bytes": 91663
+    },
+    {
+      "path": "folds/repeat_16__lineage_19.json",
+      "sha256": "18afd3b7fc4f001205c9ebba0b0d41de26c00d90ff62d437b5be70f6bda4fa3f",
+      "bytes": 339492
+    },
+    {
+      "path": "folds/repeat_16__lineage_19.npz",
+      "sha256": "21225d13d41bc6d06d4820aa03f64915ee53e56dd89d8a7f402b4a8112436343",
+      "bytes": 91862
+    },
+    {
+      "path": "folds/repeat_16__lineage_20.json",
+      "sha256": "fb86671caf58d637fc346990af070d2474d418d75c318af19022af612745d6a5",
+      "bytes": 339262
+    },
+    {
+      "path": "folds/repeat_16__lineage_20.npz",
+      "sha256": "b82ef74be0f24a69875065b3f144d9e435e3ecc3ac095854c4f76f6caae84699",
+      "bytes": 89180
+    },
+    {
+      "path": "folds/repeat_16__lineage_21.json",
+      "sha256": "dd5f371e6878d2345e503351a7038f3d2aee7d971e99aa6f6718c130dd1dca3f",
+      "bytes": 339441
+    },
+    {
+      "path": "folds/repeat_16__lineage_21.npz",
+      "sha256": "fc7d5684853392f6e775948019d88d0cb1b9785986dce6b62e5bf5df833744b4",
+      "bytes": 91338
+    },
+    {
+      "path": "folds/repeat_16__lineage_22.json",
+      "sha256": "9a4f28432f63a1a23690a455aec0e8e907aceb862f85c84350ba8da0251c5f74",
+      "bytes": 339310
+    },
+    {
+      "path": "folds/repeat_16__lineage_22.npz",
+      "sha256": "b50cb225aca1720159837ba6fb1092250ec1096088a1f7129234c13231cfeb67",
+      "bytes": 91623
+    },
+    {
+      "path": "folds/repeat_16__lineage_23.json",
+      "sha256": "d31ca89aaaa452afaa4be32f23a538aaac7323e45913b307dac41e4dfd62619a",
+      "bytes": 339351
+    },
+    {
+      "path": "folds/repeat_16__lineage_23.npz",
+      "sha256": "b970547ca18f9b84cf2aa519dd5aa86f8eafc388f30f89c3e63c32ebe8c3e0c6",
+      "bytes": 90404
+    },
+    {
+      "path": "folds/repeat_17__lineage_00.json",
+      "sha256": "22f313774fd3ee321d09f94b2f6c5b377417fbc0aea90cb23eea8cf0a7d60f65",
+      "bytes": 339393
+    },
+    {
+      "path": "folds/repeat_17__lineage_00.npz",
+      "sha256": "c510c1d1e24b53a004ce3965d56b19a37a470e3bc1e0f9ba78d42a966c8be6bb",
+      "bytes": 92151
+    },
+    {
+      "path": "folds/repeat_17__lineage_01.json",
+      "sha256": "b9723ea158c3d8b63fb7a2c5c639ac587683ef6d872496d1172994b3f15067d7",
+      "bytes": 339483
+    },
+    {
+      "path": "folds/repeat_17__lineage_01.npz",
+      "sha256": "82e1e3539ea1d1a9e644dcdbe19b368af2302f66edb638a2682e36e8a86f6cc0",
+      "bytes": 91825
+    },
+    {
+      "path": "folds/repeat_17__lineage_02.json",
+      "sha256": "8566d1d4a733de6775d627942ea44ff29aed8220472573a85572cb8b9ca5d4b3",
+      "bytes": 339408
+    },
+    {
+      "path": "folds/repeat_17__lineage_02.npz",
+      "sha256": "11d5f6bf8a5fb9e1303047cb0abab4ac2e8ea47a316f8ec2035c71875ba70ed8",
+      "bytes": 90897
+    },
+    {
+      "path": "folds/repeat_17__lineage_03.json",
+      "sha256": "890a62c12c29c9c7e198cb299669b20cdcb6d3b2b4ddbc8728bab7a69156b977",
+      "bytes": 339544
+    },
+    {
+      "path": "folds/repeat_17__lineage_03.npz",
+      "sha256": "c55850f3b711b0f02cd9331e68629d3c06dce10f00b6cdda3b69f5ed064a5fc9",
+      "bytes": 91372
+    },
+    {
+      "path": "folds/repeat_17__lineage_04.json",
+      "sha256": "d7b39c82031c8b60525f62bb65a18163e072c43a33dcad29fba42cb37768148b",
+      "bytes": 339331
+    },
+    {
+      "path": "folds/repeat_17__lineage_04.npz",
+      "sha256": "b19c698cb646b0a67252ba97a01faae361423f10a55f88a8243d5b6eee821fad",
+      "bytes": 88845
+    },
+    {
+      "path": "folds/repeat_17__lineage_05.json",
+      "sha256": "876e21c3b6e2d10d3bb304af72dda6302c29d119775b17b8f686f828cad6b684",
+      "bytes": 339433
+    },
+    {
+      "path": "folds/repeat_17__lineage_05.npz",
+      "sha256": "4331a7268c8d2906652e7102b0cb84552fd6f0d7a585a02430a1c422cc7316a6",
+      "bytes": 89723
+    },
+    {
+      "path": "folds/repeat_17__lineage_06.json",
+      "sha256": "1fdc25ce14863b0a088171aa588ff19dd3ef3ae0ed1819209b8e5fc180fd1ec5",
+      "bytes": 339349
+    },
+    {
+      "path": "folds/repeat_17__lineage_06.npz",
+      "sha256": "973f273f10507f904aa2c217020af999154a8dc998f104c0d7f85fb46b348621",
+      "bytes": 88655
+    },
+    {
+      "path": "folds/repeat_17__lineage_07.json",
+      "sha256": "234692ddd59ce5162370489f2683a846e82c40a422512ca91c98a59e1c712c8e",
+      "bytes": 339416
+    },
+    {
+      "path": "folds/repeat_17__lineage_07.npz",
+      "sha256": "699800f2a24640837db1e633ae24e5d5749e0059524901de52f7e14fdce1a70b",
+      "bytes": 92190
+    },
+    {
+      "path": "folds/repeat_17__lineage_08.json",
+      "sha256": "1b9467f2829b85998dd008555ac8d0591847ced6e78cef9563506bf20cfe3e04",
+      "bytes": 338870
+    },
+    {
+      "path": "folds/repeat_17__lineage_08.npz",
+      "sha256": "8e574a0c482459d95ab32174517bfa8407332af758ed66648c5ed8edb7ee6a65",
+      "bytes": 87906
+    },
+    {
+      "path": "folds/repeat_17__lineage_09.json",
+      "sha256": "10c890cb755bedea9dc0443b34803c82c84c14ada89ae17f3731e73881ecba11",
+      "bytes": 339508
+    },
+    {
+      "path": "folds/repeat_17__lineage_09.npz",
+      "sha256": "3e964b03da4cb22209f5fe1b9537d219f2fe0ef02d7f0ab4686ced3a091587ec",
+      "bytes": 90110
+    },
+    {
+      "path": "folds/repeat_17__lineage_10.json",
+      "sha256": "491efa1806989edb6e2478214d7b2d4664fa92001694306c766c8caf30801355",
+      "bytes": 339372
+    },
+    {
+      "path": "folds/repeat_17__lineage_10.npz",
+      "sha256": "3fa4f9cc358f2e3fcb4296d1da17d9bc30f204a982204300479b1c0e0c3a9a0d",
+      "bytes": 90688
+    },
+    {
+      "path": "folds/repeat_17__lineage_11.json",
+      "sha256": "d84d3256f2c980f08142fb04b86b3c2060cfd3cb1db2448e66f992fe00fb896a",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_17__lineage_11.npz",
+      "sha256": "862424dcf6bcbb5567769d347da760a5c15238b0d9091397bdad558e802f6f8f",
+      "bytes": 90687
+    },
+    {
+      "path": "folds/repeat_17__lineage_12.json",
+      "sha256": "108f76f58415ae814dc46a647d7ff809d18c5e37ab342864357cbada53fbfd45",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_17__lineage_12.npz",
+      "sha256": "eaea432fc0a73cff51a3d19242e6c87982735291a7147ad92ac0a8f72a107571",
+      "bytes": 81919
+    },
+    {
+      "path": "folds/repeat_17__lineage_13.json",
+      "sha256": "5dd64ed5460bf13092569207d819abf6eeab26df233f7496e940a0183e621b83",
+      "bytes": 338867
+    },
+    {
+      "path": "folds/repeat_17__lineage_13.npz",
+      "sha256": "36bce13db7a9cb237c859913c6ec3b769641d128b802f544fd0debcd89d68640",
+      "bytes": 84108
+    },
+    {
+      "path": "folds/repeat_17__lineage_14.json",
+      "sha256": "da9f6b0f9e383c8552d3f7d2589ec36f89e2d15a1527d79c4a9d6c41f4b564f5",
+      "bytes": 339093
+    },
+    {
+      "path": "folds/repeat_17__lineage_14.npz",
+      "sha256": "ed22291bc7dedf42c204d549cfb040cb2ccc5fb1102b874464c71200c27ed892",
+      "bytes": 89147
+    },
+    {
+      "path": "folds/repeat_17__lineage_15.json",
+      "sha256": "2aa4cabb342f9eb4950be3ab31947cbb38e63ee480cef44820691423863477c1",
+      "bytes": 339366
+    },
+    {
+      "path": "folds/repeat_17__lineage_15.npz",
+      "sha256": "0b1a2e4a24adb9b2649395ce927dbb7bfabd8ccd4c25984d192843f4a142faf0",
+      "bytes": 89434
+    },
+    {
+      "path": "folds/repeat_17__lineage_16.json",
+      "sha256": "fdd46cc10ad380d90672764b65228e51dc221e522eddd9174f42f2c1dd1a5f57",
+      "bytes": 339605
+    },
+    {
+      "path": "folds/repeat_17__lineage_16.npz",
+      "sha256": "7c71787865eae27c2547be3a3e21bc00d297ea457bf4aa50e9c7b62026b79ae7",
+      "bytes": 89364
+    },
+    {
+      "path": "folds/repeat_17__lineage_17.json",
+      "sha256": "03a42108de1f270f36c5b01b29679c755679009dd0871974f767b16de61b13c0",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_17__lineage_17.npz",
+      "sha256": "1d07a4190145e7e40f0eeac943095eafa91a593dc5d1c31598b21ed302ab29c5",
+      "bytes": 91207
+    },
+    {
+      "path": "folds/repeat_17__lineage_18.json",
+      "sha256": "8e383da43c840c5651a7985362bc48b9099e2147950c8eb0a1326b21b28d3555",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_17__lineage_18.npz",
+      "sha256": "ad0b6723b0a53691e970bdb60dd4f86717f42ba7c58b331798d8a4f054a579c0",
+      "bytes": 91673
+    },
+    {
+      "path": "folds/repeat_17__lineage_19.json",
+      "sha256": "0aefe18f9a336b68a5d9850d3d8c9c7a5f5b2b0e406c40a08154f16db42fc114",
+      "bytes": 339492
+    },
+    {
+      "path": "folds/repeat_17__lineage_19.npz",
+      "sha256": "4c5020c907721543d3b97c0834da954558b0ff9bdc293618d28dd34e16c42454",
+      "bytes": 91875
+    },
+    {
+      "path": "folds/repeat_17__lineage_20.json",
+      "sha256": "58159953d23f48125710156befb8d36b09355d8c2cb0928e63382c9e62b56d83",
+      "bytes": 339262
+    },
+    {
+      "path": "folds/repeat_17__lineage_20.npz",
+      "sha256": "d06b01f2333f0a4e1703a27d249b50fa39a1cdce39709cd0a9dc0d5147c37df3",
+      "bytes": 89268
+    },
+    {
+      "path": "folds/repeat_17__lineage_21.json",
+      "sha256": "eb62d376ef08d71c1b5353070bbd7aab235ab6632c8a551b0efed22ac67c3838",
+      "bytes": 339443
+    },
+    {
+      "path": "folds/repeat_17__lineage_21.npz",
+      "sha256": "a20edb490da14f8b6b78db823ed59b1ddbe513e4ea2dcc84218879f9eaf293a2",
+      "bytes": 91355
+    },
+    {
+      "path": "folds/repeat_17__lineage_22.json",
+      "sha256": "1b2196639b079a229109c801d1717d7c72435511efbb12a2e53cf691dc5f3b23",
+      "bytes": 339310
+    },
+    {
+      "path": "folds/repeat_17__lineage_22.npz",
+      "sha256": "aa4da244fe187765a374b15a06835605adcd5d2437636d74aecf027aba1cfe37",
+      "bytes": 91573
+    },
+    {
+      "path": "folds/repeat_17__lineage_23.json",
+      "sha256": "ff7850328f20f1f0e005c4e9728960da414fb49a81deb4604d0112c53b432c44",
+      "bytes": 339356
+    },
+    {
+      "path": "folds/repeat_17__lineage_23.npz",
+      "sha256": "c4b5af7932e4f883dbd1791a88b933140402f64ff7fc48d3b30f3f039be3dabe",
+      "bytes": 90352
+    },
+    {
+      "path": "folds/repeat_18__lineage_00.json",
+      "sha256": "e3fbbf69d04ddda24d66d87b7afcd29c1291290e9bd53db96c3d5798d05de568",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_18__lineage_00.npz",
+      "sha256": "e80c8d94e8962847244dc6a0b9cb49c99681b0be17eb363864a42da614b61131",
+      "bytes": 92131
+    },
+    {
+      "path": "folds/repeat_18__lineage_01.json",
+      "sha256": "573e6e6a8d2ab59d5d0c9f942e59ff4a5fd824317406627a70808a187a68df0e",
+      "bytes": 339482
+    },
+    {
+      "path": "folds/repeat_18__lineage_01.npz",
+      "sha256": "b8c60088672e595bc49e3d47870772e7e3fd85dad317a1b500f1a788fe985887",
+      "bytes": 91889
+    },
+    {
+      "path": "folds/repeat_18__lineage_02.json",
+      "sha256": "5adb4ac2175fd815dbed9ff0c87e392e86ea869e666b601fc3c93aceee17ff1b",
+      "bytes": 339408
+    },
+    {
+      "path": "folds/repeat_18__lineage_02.npz",
+      "sha256": "8b874f13cdb82a182a5382ee733a3f91c36dc56eec41dc44615ff255d362abc9",
+      "bytes": 90886
+    },
+    {
+      "path": "folds/repeat_18__lineage_03.json",
+      "sha256": "54c15688aa55e082f78072f0ec9c5894ab37ed7aa8172cbf15de7aa0e5502c7e",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_18__lineage_03.npz",
+      "sha256": "5c84e1550e9ffa392d11934dbee0d420892e081c5ec67839be97a01f38e71ca8",
+      "bytes": 91387
+    },
+    {
+      "path": "folds/repeat_18__lineage_04.json",
+      "sha256": "57f44f4f97477979fff7c963cf767bc3509ea99e376a0cc8eedaa5a7f8b841ac",
+      "bytes": 339332
+    },
+    {
+      "path": "folds/repeat_18__lineage_04.npz",
+      "sha256": "a40249e1fbeab882f97ae200d742b8edc246fcb393191b2e34bc37deaee07cc3",
+      "bytes": 88866
+    },
+    {
+      "path": "folds/repeat_18__lineage_05.json",
+      "sha256": "47531ea2c1d8356672abf5ad1c62389f2e456eafa22112300a27ff7d7c4f9e21",
+      "bytes": 339433
+    },
+    {
+      "path": "folds/repeat_18__lineage_05.npz",
+      "sha256": "3b29482192ee6dbb0c9b5c1f4227e9a291f08d5a56a80dc0baef746bf60651c0",
+      "bytes": 89740
+    },
+    {
+      "path": "folds/repeat_18__lineage_06.json",
+      "sha256": "88959c14360c6027b77f58c6a35ad79d8b53f7e51807eb8f3a37e93a20391783",
+      "bytes": 339349
+    },
+    {
+      "path": "folds/repeat_18__lineage_06.npz",
+      "sha256": "3581f118ef0737993fe692ddd49cf64a7dc3ab317a107189cb4c26895d26d6d1",
+      "bytes": 88661
+    },
+    {
+      "path": "folds/repeat_18__lineage_07.json",
+      "sha256": "a3645a81d5feecf27ab415c9c1637d91531da226efacabb6124f32b34129a7d3",
+      "bytes": 339416
+    },
+    {
+      "path": "folds/repeat_18__lineage_07.npz",
+      "sha256": "6b89a29ae51e891cdc7ac6fc7c4b086825f4d4188b567675c1dc3353941b6b8c",
+      "bytes": 92186
+    },
+    {
+      "path": "folds/repeat_18__lineage_08.json",
+      "sha256": "df98765ca2d9763bb2eccae14f9c3b1a88f438115761a8474d811bd7dc5d8397",
+      "bytes": 338870
+    },
+    {
+      "path": "folds/repeat_18__lineage_08.npz",
+      "sha256": "306d07ee2ecc74f668ad3504a310289e39c1cd9cddb083972aca9b43a6c04c11",
+      "bytes": 87933
+    },
+    {
+      "path": "folds/repeat_18__lineage_09.json",
+      "sha256": "b01726de2a7a6af82a1828c04f16692469145e42cfa8c1bac758c383e6984b57",
+      "bytes": 339508
+    },
+    {
+      "path": "folds/repeat_18__lineage_09.npz",
+      "sha256": "59dfddabaed7e549e154ca3157e76b80df67be008872c167cd03df43a5bad0d5",
+      "bytes": 90135
+    },
+    {
+      "path": "folds/repeat_18__lineage_10.json",
+      "sha256": "d9b2386df2d368a88e98702f9d9b3018bc9dd4e89c2d3679bc3f58d8d81d4e3d",
+      "bytes": 339372
+    },
+    {
+      "path": "folds/repeat_18__lineage_10.npz",
+      "sha256": "0d68a12fb06e120dd2b7ed0554ab3dd08a646b3a3b8e33fb123f9851881cbb6c",
+      "bytes": 90677
+    },
+    {
+      "path": "folds/repeat_18__lineage_11.json",
+      "sha256": "6530fb124e85dbfbbaa32d17d096dd55d867b291e7302c598ff605dc974d2464",
+      "bytes": 339241
+    },
+    {
+      "path": "folds/repeat_18__lineage_11.npz",
+      "sha256": "3a052034629c5ac5ddfadc9d707f87a609453a3f40b96fdf7884231f0bc7e3ed",
+      "bytes": 90692
+    },
+    {
+      "path": "folds/repeat_18__lineage_12.json",
+      "sha256": "28095379490d3aa0881db85fd0d39dd45b745e985a4faf77350b71cf44b75108",
+      "bytes": 339324
+    },
+    {
+      "path": "folds/repeat_18__lineage_12.npz",
+      "sha256": "280081b00ff8d2320a62647259779e54623a3b24a9e7ad837c1c5011cc8cad71",
+      "bytes": 81912
+    },
+    {
+      "path": "folds/repeat_18__lineage_13.json",
+      "sha256": "103998bc7f611e4a35940c2456f7a207889d5347fd29eff532a8ce268818d9dc",
+      "bytes": 338867
+    },
+    {
+      "path": "folds/repeat_18__lineage_13.npz",
+      "sha256": "bedaed37cc049635fd3a9e73e6e4b149cb48b13aeb4fa1a15db95741cc4c1d99",
+      "bytes": 84147
+    },
+    {
+      "path": "folds/repeat_18__lineage_14.json",
+      "sha256": "084d29f3b9a21366932b024b7f7beba777332878e57efdb4b63bedc8dbacef14",
+      "bytes": 339095
+    },
+    {
+      "path": "folds/repeat_18__lineage_14.npz",
+      "sha256": "f584003f80bae9d2f8dff5583767f7b47b4258f162eebd7ae61b68b8f0be876c",
+      "bytes": 89135
+    },
+    {
+      "path": "folds/repeat_18__lineage_15.json",
+      "sha256": "8bfe24e5746a57c00000ef9edb5d3a1df2fb023aabf36f03a408189624ead406",
+      "bytes": 339366
+    },
+    {
+      "path": "folds/repeat_18__lineage_15.npz",
+      "sha256": "04434a621589200818cd101a08b40993267e781084730f32e71ae48c28a94ba4",
+      "bytes": 89450
+    },
+    {
+      "path": "folds/repeat_18__lineage_16.json",
+      "sha256": "b73c825c7a47a25d9884ec97fc4913286dadeae01824e8f5ab6f0e058947aa56",
+      "bytes": 339605
+    },
+    {
+      "path": "folds/repeat_18__lineage_16.npz",
+      "sha256": "f0138a66cbae0834593a407cac4ac8287dcb7d8b7a373dd14c2818be2c26305a",
+      "bytes": 89344
+    },
+    {
+      "path": "folds/repeat_18__lineage_17.json",
+      "sha256": "e17a3bc61023fc241ca5799b0b7fe628c3c0520edee26de545ec105258842401",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_18__lineage_17.npz",
+      "sha256": "18c96986985c31060272b1f9dd21adddd8653e1401fc5444f8e98d5b75bf3dc8",
+      "bytes": 91225
+    },
+    {
+      "path": "folds/repeat_18__lineage_18.json",
+      "sha256": "16a67eafb46a6945fd7c8c098eb9c4119cd18447d60d80f8030ac7026a52f5ca",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_18__lineage_18.npz",
+      "sha256": "a4e18f84e1130f4c0364ed035e73783a5a216c1532867d86960d233d20bad37e",
+      "bytes": 91706
+    },
+    {
+      "path": "folds/repeat_18__lineage_19.json",
+      "sha256": "0c02468cb31117d2d068aff8a6e3f1b7990be79e36755dbc962a37e7bad1309d",
+      "bytes": 339492
+    },
+    {
+      "path": "folds/repeat_18__lineage_19.npz",
+      "sha256": "7f05145bf51a03cf83dd739ede5c0d85d96e1d9d05044fec326697a21eb3e860",
+      "bytes": 91877
+    },
+    {
+      "path": "folds/repeat_18__lineage_20.json",
+      "sha256": "37bedd187d1f20974d86fc57ed5304f960f9922c023ac9af303acdb3a516d3f2",
+      "bytes": 339262
+    },
+    {
+      "path": "folds/repeat_18__lineage_20.npz",
+      "sha256": "b623d90fe8e12e211e06a27dbc5ed5cc58c6e83f317562eaa433ebc01e9c4dce",
+      "bytes": 89186
+    },
+    {
+      "path": "folds/repeat_18__lineage_21.json",
+      "sha256": "0b951d235bb49c0b20d990482bde84e87a10f929aeef24a2ad6347c77c8cfaf7",
+      "bytes": 339443
+    },
+    {
+      "path": "folds/repeat_18__lineage_21.npz",
+      "sha256": "cdd188940e6291312096d05c69971537589c480ebfbb052f20ed38d1b111b62a",
+      "bytes": 91344
+    },
+    {
+      "path": "folds/repeat_18__lineage_22.json",
+      "sha256": "b10dae6680d78201d7117158db485c9546d88efdafde34ca31a77c1dc5a58d0f",
+      "bytes": 339310
+    },
+    {
+      "path": "folds/repeat_18__lineage_22.npz",
+      "sha256": "3d038caa6eacc26d0a68eebf42263d22349932dde21f8c4f358d2f4ec67d2aad",
+      "bytes": 91573
+    },
+    {
+      "path": "folds/repeat_18__lineage_23.json",
+      "sha256": "5eada2214a7dc0e9de16eceb9d82be56ed333868ee2d79de368a25c518d650f9",
+      "bytes": 339356
+    },
+    {
+      "path": "folds/repeat_18__lineage_23.npz",
+      "sha256": "be5e4121480ba4efa0d220415e557d6e5c744f78c462e47a918488bd1cbace57",
+      "bytes": 90355
+    },
+    {
+      "path": "folds/repeat_19__lineage_00.json",
+      "sha256": "8a9c76fe14c50bb29d7d8af06b8384a85ecf3bfd6c535ced3493e43c558fecd5",
+      "bytes": 339392
+    },
+    {
+      "path": "folds/repeat_19__lineage_00.npz",
+      "sha256": "d10066bec4cc884da2dbd5942fc89feb5daa8b8ec55b780e3deced8269aaa6e4",
+      "bytes": 92141
+    },
+    {
+      "path": "folds/repeat_19__lineage_01.json",
+      "sha256": "37ecce2e9a2f811a470e273e2a2744f50b299be7f47befc76da62dc656a448c8",
+      "bytes": 339482
+    },
+    {
+      "path": "folds/repeat_19__lineage_01.npz",
+      "sha256": "4d052b5b5f43db51494c2f61e545aa76578d4cd42125f27be308dbd12eef20a4",
+      "bytes": 91852
+    },
+    {
+      "path": "folds/repeat_19__lineage_02.json",
+      "sha256": "afd11500c4864cbda5f6b2690414832e25da68b94fd53b4195138e8f39db3551",
+      "bytes": 339406
+    },
+    {
+      "path": "folds/repeat_19__lineage_02.npz",
+      "sha256": "7c47eeca8e1ca7d1cde54f8ee7073426534ae230e5a6a35b98932fa07985559f",
+      "bytes": 90924
+    },
+    {
+      "path": "folds/repeat_19__lineage_03.json",
+      "sha256": "d51f6b53fb1447c024a3e2d96e8313c811b26accf609bff962205a745011aca2",
+      "bytes": 339543
+    },
+    {
+      "path": "folds/repeat_19__lineage_03.npz",
+      "sha256": "ea35dc375b5d4f25db1821639df52c4e3da75b807a4b855a26a04b616bf939c8",
+      "bytes": 91386
+    },
+    {
+      "path": "folds/repeat_19__lineage_04.json",
+      "sha256": "9befca5f800cbbd13a6ce22fb9af4bc6f3cbade3b6cab895088f96ec4490fb8b",
+      "bytes": 339330
+    },
+    {
+      "path": "folds/repeat_19__lineage_04.npz",
+      "sha256": "0cdcd9e9d480ddc74712a3f5753a6d33993b35498d36bfd56dabefe2b1c9a947",
+      "bytes": 88868
+    },
+    {
+      "path": "folds/repeat_19__lineage_05.json",
+      "sha256": "ab74a795b85fc1d6b48ba06a8229ca0c8ec4554329eb93661e83e1573790aa7b",
+      "bytes": 339432
+    },
+    {
+      "path": "folds/repeat_19__lineage_05.npz",
+      "sha256": "068e7e94877d5c3034e325944189c41c64440a79a882482988fcf1548e673b4d",
+      "bytes": 89713
+    },
+    {
+      "path": "folds/repeat_19__lineage_06.json",
+      "sha256": "bfc5463b5cb2df13af3bab1b2089ea07107ee60276760907dbaff6164d8c8c22",
+      "bytes": 339347
+    },
+    {
+      "path": "folds/repeat_19__lineage_06.npz",
+      "sha256": "f814d334ff7d31398d6b6dd5bc368d69a7016bb2e28af748d9606a27f3758ccf",
+      "bytes": 88667
+    },
+    {
+      "path": "folds/repeat_19__lineage_07.json",
+      "sha256": "56defe317f141f892c47c6a35dadefd5bbdaed25dc7203d6abea01d6745c1f85",
+      "bytes": 339415
+    },
+    {
+      "path": "folds/repeat_19__lineage_07.npz",
+      "sha256": "97aff7df5e722f987137092092f324d6aa2391bc85faa9bfb85bc72b94e3528e",
+      "bytes": 92162
+    },
+    {
+      "path": "folds/repeat_19__lineage_08.json",
+      "sha256": "e63deba754b616392073da6802581ed6f669e05157a5eac6a83827e4666a23fa",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_19__lineage_08.npz",
+      "sha256": "bc23c35e8e9ed1dd9d6e5fb74e92fbcc20265846ee8f44386c24d56015e30857",
+      "bytes": 87894
+    },
+    {
+      "path": "folds/repeat_19__lineage_09.json",
+      "sha256": "6d1ace1b38d6d80c37ec62e4419a0976c614f6d481057794b95de9d786799c28",
+      "bytes": 339507
+    },
+    {
+      "path": "folds/repeat_19__lineage_09.npz",
+      "sha256": "72a35f8499dd2bb7a667b06737aa0065ba0af69e2322958fe85622d52160b48a",
+      "bytes": 90097
+    },
+    {
+      "path": "folds/repeat_19__lineage_10.json",
+      "sha256": "e357ffdc14e054c80dc484138ee19a0e575180fff5b1542b5ff4c4742fd127af",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_19__lineage_10.npz",
+      "sha256": "09c9600a147e873d9c76f9b2e69d0d33d241c1d1dab0a712ad5d10cf2a349ca3",
+      "bytes": 90663
+    },
+    {
+      "path": "folds/repeat_19__lineage_11.json",
+      "sha256": "1e8bd20a4459345eb395157f6ac12bd1fce58970997c0d3d73823ebf24a9726e",
+      "bytes": 339240
+    },
+    {
+      "path": "folds/repeat_19__lineage_11.npz",
+      "sha256": "6ebb6b0357c35ee6bc3a4d40e990328c2869faf062c4b7ff174081b120c39676",
+      "bytes": 90653
+    },
+    {
+      "path": "folds/repeat_19__lineage_12.json",
+      "sha256": "dc6985959f558aa723f6a632f40f10341e0971f595c2e9b083b05b8ee42e5246",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_19__lineage_12.npz",
+      "sha256": "da7f66d68ee08bed0ce41f49aa9d140861e01b72b0f90aa1f3bdc3dd9950694b",
+      "bytes": 81977
+    },
+    {
+      "path": "folds/repeat_19__lineage_13.json",
+      "sha256": "e698fef310590c9b5bde9f7c2ee937a6560d7f122a2ddece3240c95c8f7e8e40",
+      "bytes": 338865
+    },
+    {
+      "path": "folds/repeat_19__lineage_13.npz",
+      "sha256": "f068815c657ecc5e200550f6b992f187f510b3589e986b257587fbf7ae808788",
+      "bytes": 84167
+    },
+    {
+      "path": "folds/repeat_19__lineage_14.json",
+      "sha256": "430a18f004e3c62add75d8c331d60a2867fe90e1a781bf0b6e771ae2e3cf81e7",
+      "bytes": 339092
+    },
+    {
+      "path": "folds/repeat_19__lineage_14.npz",
+      "sha256": "5d280f00f274591b377122cacd666ca7bbf9065a36b2fc1bae3c562c2ddc4811",
+      "bytes": 89119
+    },
+    {
+      "path": "folds/repeat_19__lineage_15.json",
+      "sha256": "bb5bfe7e37af227bcc153ae18c7e5dbd74cc33a3061c90fa0624c16877ca4a32",
+      "bytes": 339365
+    },
+    {
+      "path": "folds/repeat_19__lineage_15.npz",
+      "sha256": "c0ad82a386f84e759403885624d4bfb09b38d172e6368fd57054f33ec37d3612",
+      "bytes": 89420
+    },
+    {
+      "path": "folds/repeat_19__lineage_16.json",
+      "sha256": "794b7ff1449d93bff03f2deb75bbb9e4a40f47ddbb63c58d37e0ca2b7f42289a",
+      "bytes": 339604
+    },
+    {
+      "path": "folds/repeat_19__lineage_16.npz",
+      "sha256": "fb780f25ec0279bcc916888da7c10f0cb80f14215d91929971e2c8df37add4b5",
+      "bytes": 89399
+    },
+    {
+      "path": "folds/repeat_19__lineage_17.json",
+      "sha256": "67a4971d0e16213738c2947643c8674f170a39d6b61324ceb56c2162fa24078d",
+      "bytes": 339413
+    },
+    {
+      "path": "folds/repeat_19__lineage_17.npz",
+      "sha256": "9c38e230e30cd4e07cf4911c1a11b545b58c5c6d8091d1ca2e08a43ca4f85509",
+      "bytes": 91176
+    },
+    {
+      "path": "folds/repeat_19__lineage_18.json",
+      "sha256": "75f41181cc6ce72c46e91237a23267b7305f8cb9aaff9120933b3f96bf325740",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_19__lineage_18.npz",
+      "sha256": "cc1611a366ff9ad20970b00a20da7dd8d35f7c57cfd583a0368732b75bbde5d7",
+      "bytes": 91659
+    },
+    {
+      "path": "folds/repeat_19__lineage_19.json",
+      "sha256": "d3e04c6574f7ef255d89253ee82e39f27d637ac1d0a63fdad0ed67e2a762c421",
+      "bytes": 339491
+    },
+    {
+      "path": "folds/repeat_19__lineage_19.npz",
+      "sha256": "82325ce71093102ce402ca581f203f284c0560d35fca468e0f7d15fa7af74177",
+      "bytes": 91837
+    },
+    {
+      "path": "folds/repeat_19__lineage_20.json",
+      "sha256": "d15a5c6dbb320aa93cc3aa9be74fd69ec8bb3e7bdf50df8c45f841f755a48d45",
+      "bytes": 339260
+    },
+    {
+      "path": "folds/repeat_19__lineage_20.npz",
+      "sha256": "4fa32a4ab8b583232d34585c6e45e1a5fba11d7c001bf6690027b48666d988b9",
+      "bytes": 89209
+    },
+    {
+      "path": "folds/repeat_19__lineage_21.json",
+      "sha256": "9b3293190da248228277ae9fb7aebd114edbb925219df13fb432d9e94d4cd7db",
+      "bytes": 339442
+    },
+    {
+      "path": "folds/repeat_19__lineage_21.npz",
+      "sha256": "d7ad85a047f2a44f49150afeff09c3fa33c5ad61c29824a91442a31749d63aa6",
+      "bytes": 91369
+    },
+    {
+      "path": "folds/repeat_19__lineage_22.json",
+      "sha256": "6b714ea90c22237a70e3cfbf821c401024c8e71fd644cfbb9c786ffb058aff6f",
+      "bytes": 339309
+    },
+    {
+      "path": "folds/repeat_19__lineage_22.npz",
+      "sha256": "b2e730097c96b264da056d0ad32e3655bdd30d592be2a3943e00823f735512a7",
+      "bytes": 91554
+    },
+    {
+      "path": "folds/repeat_19__lineage_23.json",
+      "sha256": "8f3ef42fcfe07945a470804eea23c2429d17cfa67551fec0c4b4bebcf784a2b3",
+      "bytes": 339354
+    },
+    {
+      "path": "folds/repeat_19__lineage_23.npz",
+      "sha256": "1333c4f23da3cc66fab0cb0d613d927f0b9769e716229d9c854c2f9528cca71e",
+      "bytes": 90398
+    },
+    {
+      "path": "folds/repeat_20__lineage_00.json",
+      "sha256": "833a8f536506ff48b87665098aeeff1f3e79058dd4aad4ec6463127e0e430c39",
+      "bytes": 339393
+    },
+    {
+      "path": "folds/repeat_20__lineage_00.npz",
+      "sha256": "de6e351f9592c4cc632f71f4b62753204bb5bda356afde879b9810db38db97b4",
+      "bytes": 92119
+    },
+    {
+      "path": "folds/repeat_20__lineage_01.json",
+      "sha256": "6b3d97e08b8916626c783448cf677a6057e0ad1df1880da003c939b0c890c5ca",
+      "bytes": 339483
+    },
+    {
+      "path": "folds/repeat_20__lineage_01.npz",
+      "sha256": "ac72f8568c5554d8e1f29e1154ec3c394ba66ba9c996253d103749ee112adc8f",
+      "bytes": 91856
+    },
+    {
+      "path": "folds/repeat_20__lineage_02.json",
+      "sha256": "23cf31f1b59fcca19c4d4defe58e1210beabb127dada59da174b33362476feb7",
+      "bytes": 339408
+    },
+    {
+      "path": "folds/repeat_20__lineage_02.npz",
+      "sha256": "896500f130b01bd1f52cfac0bb5da6a66755314d7a452789f87a90dfabf56045",
+      "bytes": 90923
+    },
+    {
+      "path": "folds/repeat_20__lineage_03.json",
+      "sha256": "95501423236838fad09e038f8dc914173c6979f1f6d06e9a141cfbf786e16356",
+      "bytes": 339541
+    },
+    {
+      "path": "folds/repeat_20__lineage_03.npz",
+      "sha256": "8f4c60c079d6ebd9a4f71e2857944bcd9e90f83e893dbb51bf9b52d891f216e8",
+      "bytes": 91344
+    },
+    {
+      "path": "folds/repeat_20__lineage_04.json",
+      "sha256": "94f12b6e75fb6b867ab03c4d56c90bf583270b705eb3196d1295d39f9c21d457",
+      "bytes": 339332
+    },
+    {
+      "path": "folds/repeat_20__lineage_04.npz",
+      "sha256": "dab147e56871a2a6e54223345a887eae302d630b60d7397450939b70887959e6",
+      "bytes": 88849
+    },
+    {
+      "path": "folds/repeat_20__lineage_05.json",
+      "sha256": "443ccdae7d699a584e54e9b638e8abf75d10165d6111b0b2f0913c5c48b6f925",
+      "bytes": 339433
+    },
+    {
+      "path": "folds/repeat_20__lineage_05.npz",
+      "sha256": "62204cb73b6a531d9217f8f6668ffeb3f97005bdb2e59de976656cfe812ea0be",
+      "bytes": 89723
+    },
+    {
+      "path": "folds/repeat_20__lineage_06.json",
+      "sha256": "b6ac5491aa0337401c58034a878bfc92f6393089bdca2ce9b9668bc474586265",
+      "bytes": 339349
+    },
+    {
+      "path": "folds/repeat_20__lineage_06.npz",
+      "sha256": "68d71fcb598bf2a24d050ef53a7b4364b231e5069300458e8f6cd011011b561f",
+      "bytes": 88648
+    },
+    {
+      "path": "folds/repeat_20__lineage_07.json",
+      "sha256": "ed02f4cf13cec6b33ebb4e7dbeac208e7539d35a599533ce133b4015fc87f9fb",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_20__lineage_07.npz",
+      "sha256": "ce4ba1965df6eef5136afad4f1f6af1a987cb6decf6570fe876f295db55adbc2",
+      "bytes": 92173
+    },
+    {
+      "path": "folds/repeat_20__lineage_08.json",
+      "sha256": "7e3400ac9e1eb4288dae26c2002b6e4f44b29fd187070df7066342768958e122",
+      "bytes": 338869
+    },
+    {
+      "path": "folds/repeat_20__lineage_08.npz",
+      "sha256": "d67135a4b4265c582e7d338d1fad417882267f14c59cc2ff4a381c9e1302fe15",
+      "bytes": 87902
+    },
+    {
+      "path": "folds/repeat_20__lineage_09.json",
+      "sha256": "54178a17b4081fc3a63146e025535567e15728f54f63746594b7cf71f0988f06",
+      "bytes": 339508
+    },
+    {
+      "path": "folds/repeat_20__lineage_09.npz",
+      "sha256": "49ecb0ce22fc0f198b1fa1a1f740cbd27a31f4761febd4824e55d8a424c7bb04",
+      "bytes": 90157
+    },
+    {
+      "path": "folds/repeat_20__lineage_10.json",
+      "sha256": "99bb64a6312641a5a34a12c167d7c18bb297daad3adb3a0502970e2ec64c7642",
+      "bytes": 339371
+    },
+    {
+      "path": "folds/repeat_20__lineage_10.npz",
+      "sha256": "bd85c2b33babf2e9c94b633306b8b3facb1e3c00af8633271fc0b5ca0b7290ae",
+      "bytes": 90680
+    },
+    {
+      "path": "folds/repeat_20__lineage_11.json",
+      "sha256": "54c6c63fac3279fd79b700bad05bad6af84b0d278cf73309a48c6648ee22bb41",
+      "bytes": 339241
+    },
+    {
+      "path": "folds/repeat_20__lineage_11.npz",
+      "sha256": "f2d3b90bd0d53645585b40623397a15ac9e2e13d7aeb4aa018366eeeb886ac13",
+      "bytes": 90689
+    },
+    {
+      "path": "folds/repeat_20__lineage_12.json",
+      "sha256": "10038c2bcd057e0981085bbc2594f2ad38d5b18574320ae196ed70e6a2350f35",
+      "bytes": 339323
+    },
+    {
+      "path": "folds/repeat_20__lineage_12.npz",
+      "sha256": "30dea0ad7ceb2e7ea08734923faa2cbcb26a1377ba8a4cd9e2b9e137ff75d3d4",
+      "bytes": 81890
+    },
+    {
+      "path": "folds/repeat_20__lineage_13.json",
+      "sha256": "7e189ed0ca696637d43cebeb91d1b399063afca15f284c1e8dbbd36040a1c7e0",
+      "bytes": 338867
+    },
+    {
+      "path": "folds/repeat_20__lineage_13.npz",
+      "sha256": "66f94cdf3e4742920a845b54e097cf1f2b55ee9b26ad01408c46bd616ef6665a",
+      "bytes": 84138
+    },
+    {
+      "path": "folds/repeat_20__lineage_14.json",
+      "sha256": "b9c8a9890ccc388d8921f56a411121c1cfb2ffad0578fb1035a9cfb986f794e7",
+      "bytes": 339095
+    },
+    {
+      "path": "folds/repeat_20__lineage_14.npz",
+      "sha256": "654612277f2e27a36b6149a539a9dbe6076d8d46c2faccf7aea008bbaa08bacc",
+      "bytes": 89112
+    },
+    {
+      "path": "folds/repeat_20__lineage_15.json",
+      "sha256": "d7974c427670297c91f96dad36a5b7079a879c4f6ea009b2661c657b460efaea",
+      "bytes": 339366
+    },
+    {
+      "path": "folds/repeat_20__lineage_15.npz",
+      "sha256": "607c4e7500dc1aea9e8900b1ea50e2f97fba8ec722fd9e50ebf7e724aec75c4e",
+      "bytes": 89457
+    },
+    {
+      "path": "folds/repeat_20__lineage_16.json",
+      "sha256": "6b425a587d83b134b9586b007674b27b3cf2674873c28e9eb53e3332f2e58473",
+      "bytes": 339605
+    },
+    {
+      "path": "folds/repeat_20__lineage_16.npz",
+      "sha256": "6b1e361f293638697da4bc45482a5174e93e6c664c85e56830e95daa91557efd",
+      "bytes": 89394
+    },
+    {
+      "path": "folds/repeat_20__lineage_17.json",
+      "sha256": "461e18aa1be3295646c23c9e34e4dba0422a73d5026916f5540e2066ba3ffe05",
+      "bytes": 339414
+    },
+    {
+      "path": "folds/repeat_20__lineage_17.npz",
+      "sha256": "81dc532b8acfd5daea748d3671887121b35aa17296d2efd19f1b1f0f8b9a8dfb",
+      "bytes": 91209
+    },
+    {
+      "path": "folds/repeat_20__lineage_18.json",
+      "sha256": "e4b5550f175eded2fb76b2cc270186f35dc12d5df28e8b6202d2a9801b8e04c6",
+      "bytes": 339322
+    },
+    {
+      "path": "folds/repeat_20__lineage_18.npz",
+      "sha256": "f60d9ed1bc8899dbaa18c3e387d57afa6ad25dd7c5740bc088f1599b4b6dea34",
+      "bytes": 91652
+    },
+    {
+      "path": "folds/repeat_20__lineage_19.json",
+      "sha256": "00825c495afa247647abba5d32eb61044378e1ade9157ba6d9770dcee4ac319d",
+      "bytes": 339492
+    },
+    {
+      "path": "folds/repeat_20__lineage_19.npz",
+      "sha256": "94a6896bf28d1710a3a280abf4adcc9f2de531b2209a87831e97d52f8dc57ce0",
+      "bytes": 91840
+    },
+    {
+      "path": "folds/repeat_20__lineage_20.json",
+      "sha256": "db9ecff43fd3b20d86b2c622d331a98eda95ffd6bff31bd76f6042a958413373",
+      "bytes": 339261
+    },
+    {
+      "path": "folds/repeat_20__lineage_20.npz",
+      "sha256": "742fd8d7f080faf56e782f12dac9edb2ea1e2ade12bd42c12832ad68231fb2d5",
+      "bytes": 89217
+    },
+    {
+      "path": "folds/repeat_20__lineage_21.json",
+      "sha256": "0b3011d7a18846a239a804791ece824ee70069b6fe6fe6eb0bdfe7a3b2288339",
+      "bytes": 339443
+    },
+    {
+      "path": "folds/repeat_20__lineage_21.npz",
+      "sha256": "6a2726f345160af00a8d5b59e2530a65528d83b0be6537a577c46cb9239e20be",
+      "bytes": 91343
+    },
+    {
+      "path": "folds/repeat_20__lineage_22.json",
+      "sha256": "a1362d8de91e4d766af2705a70582ce788dac78e1dd14f835453f8344aaad79f",
+      "bytes": 339310
+    },
+    {
+      "path": "folds/repeat_20__lineage_22.npz",
+      "sha256": "ddee7a53c6bb234558773ec259590e16fbb63a9932db217615f1d6df7dae1974",
+      "bytes": 91568
+    },
+    {
+      "path": "folds/repeat_20__lineage_23.json",
+      "sha256": "ccc1249d9be09cc24ad549b86da67371d5eeb3ae118cbb1041264425e1f6960e",
+      "bytes": 339356
+    },
+    {
+      "path": "folds/repeat_20__lineage_23.npz",
+      "sha256": "1911d7e0b6557b2d5b2cef4fabe426ff5d009da5550db031fdea00e8cfeb1e87",
+      "bytes": 90334
+    },
+    {
+      "path": "gaussian_network.py",
+      "sha256": "17b69a5c6cb6c536d591227fca326b2e33e8bf9a9192db08ad9ad859ff35da99",
+      "bytes": 5463
+    },
+    {
+      "path": "grid_boundary_audit.json",
+      "sha256": "1881f80a8c29fd9c4bd926a2508f2caa1ebb9cfd91d0ae7edb7eba6b00eceb1f",
+      "bytes": 673
+    },
+    {
+      "path": "mathematical_validation.json",
+      "sha256": "cabb06abc34282c23c6ce13ccea68ffb93f117e18ac541056e54945214b1e169",
+      "bytes": 366
+    },
+    {
+      "path": "progress.json",
+      "sha256": "9b514f2d8691ceccdc04151c2c810f8453ac281404fc680ca338ddc5544e3b1d",
+      "bytes": 93
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "a3f6a5f11b3c79e23c74ff81ebca2878d28f2d76d356d520de36fc4092d33f98",
+      "bytes": 4402
+    },
+    {
+      "path": "run_bayesian.py",
+      "sha256": "6c268e07cfaada5e89792b9c1d886c6aa6ae91e1ad28848bacbcf94d913b9a4f",
+      "bytes": 10694
+    },
+    {
+      "path": "shared_splits.npz",
+      "sha256": "7a9a6066af3f8788419b2baa572a5664321f340b07ff749c5bcc0b9621ee8604",
+      "bytes": 51465
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "8a24b30fb42acdf97a8b99de6a890d1d015f72fa4ee72d2935d7aaa108f59572",
+      "bytes": 1654
+    }
+  ]
+}

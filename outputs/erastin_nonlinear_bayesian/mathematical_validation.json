@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "linear_limit_prediction_error": 8.881784197001252e-16,
+  "linear_limit_variance_error": 2.7755575615628914e-16,
+  "quadrature_refinement_prediction_error": 1.3322676295501878e-15,
+  "joint_to_conditional_density_ratio_error": 5.551115123125783e-16,
+  "synthetic_prediction_second_difference": 0.0901943596984599
+}
