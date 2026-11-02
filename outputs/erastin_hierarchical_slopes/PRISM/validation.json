@@ -1,0 +1,62 @@
+{
+  "assay": "PRISM",
+  "passed": true,
+  "new_arm_bundles": 60,
+  "unique_selected_outer_fits": 40,
+  "reused_outer_models": 140,
+  "group_exclusion_checks": 120,
+  "candidate_fold_scores_checked": 42500,
+  "all_outer_lineages_on_both_sides": true,
+  "same_identity_groups_and_splits": true,
+  "training_only_scalers_and_lineage_centers": true,
+  "singleton_training_lineages_have_zero_slope_deviations": true,
+  "prediction_max_error": 2.220446049250313e-16,
+  "inner_rmse_max_error": 1.1102230246251565e-16,
+  "normal_equation_max_residual": 4.569677969357144e-13,
+  "independent_explicit_feature_selected_checks": [
+    {
+      "model": "matched_intercept",
+      "repeat": 1,
+      "outer_error": 4.440892098500626e-16,
+      "inner_error": 1.3322676295501878e-15
+    },
+    {
+      "model": "hierarchical_slopes",
+      "repeat": 1,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 1.6653345369377348e-15
+    },
+    {
+      "model": "positive_slopes",
+      "repeat": 1,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 1.6653345369377348e-15
+    },
+    {
+      "model": "matched_intercept",
+      "repeat": 20,
+      "outer_error": 3.3306690738754696e-16,
+      "inner_error": 2.886579864025407e-15
+    },
+    {
+      "model": "hierarchical_slopes",
+      "repeat": 20,
+      "outer_error": 1.7763568394002505e-15,
+      "inner_error": 1.2212453270876722e-14
+    },
+    {
+      "model": "positive_slopes",
+      "repeat": 20,
+      "outer_error": 1.7763568394002505e-15,
+      "inner_error": 1.2212453270876722e-14
+    }
+  ],
+  "bootstrap_arithmetic": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 375,
+    "max_error": 2.1510571102112408e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  },
+  "original_models_and_predictions_reproduced": true
+}

@@ -1,0 +1,9 @@
+model	candidate	outer_fits
+matched_single_nn	1	20
+multitask_linear	30	1
+multitask_linear	47	16
+multitask_linear	63	1
+multitask_linear	64	2
+multitask_nn	1	17
+multitask_nn	5	3
+positive_aux_nn	5	20

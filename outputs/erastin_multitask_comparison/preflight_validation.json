@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "protocol_sha256": "4fbe3fbc9d5b19d662093e14e26521d13227c30e97cf4021bbe59021e9638673",
+  "split_checks": 120,
+  "independent_linear_settings": 12,
+  "linear_reference_max_error": 9.992007221626409e-16,
+  "zero_coupling_ridge_max_error": 6.661338147750939e-16,
+  "neural_gradient_checks": [
+    {
+      "candidate": 0,
+      "autograd_max_error": 3.885780586188048e-16,
+      "finite_difference_max_error": 2.1591353704941696e-11
+    },
+    {
+      "candidate": 3,
+      "autograd_max_error": 1.6653345369377348e-16,
+      "finite_difference_max_error": 7.787847450257956e-11
+    },
+    {
+      "candidate": 4,
+      "autograd_max_error": 2.7755575615628914e-16,
+      "finite_difference_max_error": 2.1973764821603403e-11
+    },
+    {
+      "candidate": 7,
+      "autograd_max_error": 1.1102230246251565e-16,
+      "finite_difference_max_error": 7.599307988437332e-11
+    },
+    {
+      "candidate": 8,
+      "autograd_max_error": 1.1102230246251565e-16,
+      "finite_difference_max_error": 1.8475062625589178e-11
+    },
+    {
+      "candidate": 11,
+      "autograd_max_error": 8.326672684688674e-17,
+      "finite_difference_max_error": 9.498266756446938e-11
+    }
+  ],
+  "all_validation_task_label_invariance": true,
+  "zero_auxiliary_control_invariance": true,
+  "one_inner_fold_neural_pilot_seconds": 8.480264752986841,
+  "estimated_full_serial_neural_seconds": 848.0264752986841,
+  "seconds": 14.7250607740134
+}

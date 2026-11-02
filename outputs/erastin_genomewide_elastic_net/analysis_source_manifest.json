@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "review_comparison.py": "c4b5bd1cad7014dbc472662a8c40d8a919a367853a74448cc631bcb42e19acbb",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+  },
+  "report_only_revision": {
+    "previous_scripts": {
+      "review_comparison.py": "8e0528a022622fdb1ed78718edb55fec3df98e5af11011e2bbea695393642a91",
+      "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+      "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+    },
+    "changes": "Add validation bookkeeping for recorded solver refinements/warnings, clarify primary versus equal-lineage findings and improve figure tick spacing. Re-rendered saved tables; no fits, feature selections, scores or intervals changed."
+  }
+}

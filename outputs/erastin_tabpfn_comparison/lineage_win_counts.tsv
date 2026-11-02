@@ -1,0 +1,17 @@
+assay	first_model	reference_model	favorable_lineages	lineages
+CTRP	tabpfn35_fast	ridge	13	23
+CTRP	tabpfn35_fast	neural_network	13	23
+CTRP	tabpfn35_fast	svr	16	23
+CTRP	tabpfn35_fast	kernel_ridge	15	23
+CTRP	tabpfn35_fast	elastic_net	14	23
+CTRP	tabpfn35_fast	hierarchical_ridge	14	23
+CTRP	tabpfn35_fast	matched_intercept	11	23
+CTRP	tabpfn35_fast	hierarchical_slopes	13	23
+PRISM	tabpfn35_fast	ridge	13	20
+PRISM	tabpfn35_fast	neural_network	12	20
+PRISM	tabpfn35_fast	svr	8	20
+PRISM	tabpfn35_fast	kernel_ridge	12	20
+PRISM	tabpfn35_fast	elastic_net	12	20
+PRISM	tabpfn35_fast	hierarchical_ridge	13	20
+PRISM	tabpfn35_fast	matched_intercept	13	20
+PRISM	tabpfn35_fast	hierarchical_slopes	13	20

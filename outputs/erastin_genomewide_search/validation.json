@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "assays": [
+    {
+      "assay": "CTRP",
+      "passed": true,
+      "group_checks": 120,
+      "inner_candidate_fold_scores_checked": 21200,
+      "all_outer_training_rankings_reproduced": true,
+      "first_last_inner_rankings_reproduced": true,
+      "every_added_gene_selected_without_its_outer_test_response": true,
+      "ridge_prediction_max_error": 5.551115123125783e-16,
+      "inner_rmse_max_error": 0.0,
+      "baseline_core64_predictions_unchanged": true,
+      "native_context_archive_checks_passed": true,
+      "native_first_last_reloads": [
+        {
+          "model": "tab_ridge_screen32",
+          "repeat": 1,
+          "restored_prediction_error": 0.0
+        },
+        {
+          "model": "tab_conditional32",
+          "repeat": 1,
+          "restored_prediction_error": 0.0
+        },
+        {
+          "model": "tab_ridge_screen32",
+          "repeat": 20,
+          "restored_prediction_error": 0.0
+        },
+        {
+          "model": "tab_conditional32",
+          "repeat": 20,
+          "restored_prediction_error": 0.0
+        }
+      ],
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 340,
+        "max_error": 2.220446049250313e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      }
+    },
+    {
+      "assay": "PRISM",
+      "passed": true,
+      "group_checks": 120,
+      "inner_candidate_fold_scores_checked": 21200,
+      "all_outer_training_rankings_reproduced": true,
+      "first_last_inner_rankings_reproduced": true,
+      "every_added_gene_selected_without_its_outer_test_response": true,
+      "ridge_prediction_max_error": 6.661338147750939e-16,
+      "inner_rmse_max_error": 0.0,
+      "baseline_core64_predictions_unchanged": true,
+      "native_context_archive_checks_passed": true,
+      "native_first_last_reloads": [
+        {
+          "model": "tab_conditional32",
+          "repeat": 1,
+          "restored_prediction_error": 0.0
+        },
+        {
+          "model": "tab_conditional32",
+          "repeat": 20,
+          "restored_prediction_error": 0.0
+        }
+      ],
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 340,
+        "max_error": 1.6653345369377348e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      }
+    }
+  ],
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "db5867a5f1a6e59e7c84cd2042b20fa6a9117262921def5869b9c7674aed257d",
+    "split_checks": 240,
+    "checks": [
+      {
+        "assay": "CTRP",
+        "marginal_score_max_error": 2.220446049250313e-16,
+        "partial_score_max_error": 1.6653345369377348e-15,
+        "independent_compact_candidates": 187,
+        "compact_prediction_max_error": 7.882583474838611e-15,
+        "independent_genome_alphas": 5,
+        "full_prediction_max_error": 1.9761969838327786e-14,
+        "first_repeat_retained": true,
+        "first_repeat_seconds": 2.8839884379995055
+      },
+      {
+        "assay": "PRISM",
+        "marginal_score_max_error": 7.216449660063518e-16,
+        "partial_score_max_error": 1.4432899320127035e-15,
+        "independent_compact_candidates": 187,
+        "compact_prediction_max_error": 3.818279026290838e-12,
+        "independent_genome_alphas": 5,
+        "full_prediction_max_error": 1.199040866595169e-14,
+        "first_repeat_retained": true,
+        "first_repeat_seconds": 1.3262002190458588
+      }
+    ],
+    "validation_only_decoy_not_selected": true,
+    "screen_function_receives_training_rows_only": true,
+    "all_core64_inner_predictions_match_saved_ridge": true,
+    "seconds": 10.637488225998823
+  },
+  "core64_retained": true,
+  "no_test_response_based_feature_selection": true,
+  "datasets_and_splits_unchanged": true,
+  "source_hashes_verified": true
+}

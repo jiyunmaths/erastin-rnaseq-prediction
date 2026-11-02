@@ -1,0 +1,162 @@
+{
+  "CTRP": {
+    "positive_slope_selected_fits": 20,
+    "full_model_zero_intercept_fits": 0,
+    "positive_slope_arm_lower_boundary_fits": 0,
+    "post_result_grid_expansion": false,
+    "parameter_boundaries": [
+      {
+        "model": "matched_intercept",
+        "parameter": "alpha",
+        "lower": 0.0001,
+        "upper": 10000.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "matched_intercept",
+        "parameter": "intercept_weight",
+        "lower": 0.0,
+        "upper": 100.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 1
+      },
+      {
+        "model": "matched_intercept",
+        "parameter": "slope_weight",
+        "lower": 0.0,
+        "upper": 0.0,
+        "lower_boundary_fits": 20,
+        "upper_boundary_fits": 20
+      },
+      {
+        "model": "hierarchical_slopes",
+        "parameter": "alpha",
+        "lower": 0.0001,
+        "upper": 10000.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "hierarchical_slopes",
+        "parameter": "intercept_weight",
+        "lower": 0.0,
+        "upper": 100.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "hierarchical_slopes",
+        "parameter": "slope_weight",
+        "lower": 0.0,
+        "upper": 10.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "positive_slopes",
+        "parameter": "alpha",
+        "lower": 0.0001,
+        "upper": 10000.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "positive_slopes",
+        "parameter": "intercept_weight",
+        "lower": 0.0,
+        "upper": 100.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "positive_slopes",
+        "parameter": "slope_weight",
+        "lower": 0.01,
+        "upper": 10.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      }
+    ]
+  },
+  "PRISM": {
+    "positive_slope_selected_fits": 20,
+    "full_model_zero_intercept_fits": 8,
+    "positive_slope_arm_lower_boundary_fits": 0,
+    "post_result_grid_expansion": false,
+    "parameter_boundaries": [
+      {
+        "model": "matched_intercept",
+        "parameter": "alpha",
+        "lower": 0.0001,
+        "upper": 10000.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "matched_intercept",
+        "parameter": "intercept_weight",
+        "lower": 0.0,
+        "upper": 100.0,
+        "lower_boundary_fits": 7,
+        "upper_boundary_fits": 1
+      },
+      {
+        "model": "matched_intercept",
+        "parameter": "slope_weight",
+        "lower": 0.0,
+        "upper": 0.0,
+        "lower_boundary_fits": 20,
+        "upper_boundary_fits": 20
+      },
+      {
+        "model": "hierarchical_slopes",
+        "parameter": "alpha",
+        "lower": 0.0001,
+        "upper": 10000.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "hierarchical_slopes",
+        "parameter": "intercept_weight",
+        "lower": 0.0,
+        "upper": 100.0,
+        "lower_boundary_fits": 8,
+        "upper_boundary_fits": 3
+      },
+      {
+        "model": "hierarchical_slopes",
+        "parameter": "slope_weight",
+        "lower": 0.0,
+        "upper": 10.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 5
+      },
+      {
+        "model": "positive_slopes",
+        "parameter": "alpha",
+        "lower": 0.0001,
+        "upper": 10000.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 0
+      },
+      {
+        "model": "positive_slopes",
+        "parameter": "intercept_weight",
+        "lower": 0.0,
+        "upper": 100.0,
+        "lower_boundary_fits": 8,
+        "upper_boundary_fits": 3
+      },
+      {
+        "model": "positive_slopes",
+        "parameter": "slope_weight",
+        "lower": 0.01,
+        "upper": 10.0,
+        "lower_boundary_fits": 0,
+        "upper_boundary_fits": 5
+      }
+    ]
+  }
+}

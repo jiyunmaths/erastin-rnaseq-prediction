@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-02T16:21:30Z",
+  "original_review_sha256": "e826c0edf8a5f2bc72414087b2be8aacd91643d519f00e9b4ae4a536034f5157",
+  "finalized_review_sha256": "ba11a2fe496d4db5ba50ff3e2991dada5ed9f9cd73e5269a3218b3d5a1956bb2",
+  "amendment": "Analysis-only exact-constant evaluation of lineage-only controls. No refits, grid changes, split changes or gene-model prediction changes.",
+  "max_lineage_control_roundoff_removed": 1.1102230246251565e-16,
+  "affected_control_outer_batches": 1,
+  "reason": "Dense BLAS evaluation produced sub-1e-15 differences between identical one-hot lineage rows. A control with no within-lineage variation must have undefined within-lineage correlations.",
+  "fitted_artifacts_unchanged": true
+}

@@ -1,0 +1,9 @@
+# Original analysis environment; Python 3.12.
+numpy==2.4.0
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.5.2
+joblib==1.5.2
+matplotlib==3.10.5
+# Native TabPFN stage reuses work/tabpfn/venv and the dependency lock recorded in
+# outputs/erastin_tabpfn_comparison/requirements-tabpfn.txt.

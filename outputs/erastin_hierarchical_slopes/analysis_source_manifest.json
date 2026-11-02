@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "review_benchmark.py": "d86e871754e1d72781cef25fa01e8bc19f6ca33dd7f0c6e6b1ca9a12b7f849d6",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+  },
+  "report_revision": "Expanded boundary-count diagnostics from saved selected parameters. No fits, tuning choices or prediction metrics changed."
+}

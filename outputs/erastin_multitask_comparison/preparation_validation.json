@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "genes_and_expression_exactly_match_retained_inputs": true,
+  "erastin_response_exactly_matches_retained_target": true,
+  "same_744_lines_no_auxiliary_only_additions": true,
+  "task_counts": [
+    744,
+    721,
+    721,
+    690
+  ],
+  "response_rank_correlations": [
+    [
+      1.0,
+      0.6077566839871975,
+      0.5385458398429379,
+      0.6021783365870415
+    ],
+    [
+      0.6077566839871975,
+      1.0,
+      0.8783145466455395,
+      0.9167407265343095
+    ],
+    [
+      0.5385458398429379,
+      0.8783145466455395,
+      1.0,
+      0.8740630008052522
+    ],
+    [
+      0.6021783365870415,
+      0.9167407265343095,
+      0.8740630008052522,
+      1.0
+    ]
+  ],
+  "no_infinite_values": true,
+  "missing_labels_masked_not_imputed": true
+}

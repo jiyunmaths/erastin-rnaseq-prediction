@@ -1,0 +1,490 @@
+{
+  "status": "frozen_before_multitask_fits",
+  "created_utc": "2026-11-02T16:29:50Z",
+  "assay": "CTRP",
+  "samples": 744,
+  "identity_groups": 733,
+  "lineages": 23,
+  "gene_count": 64,
+  "tasks": [
+    {
+      "task": "erastin",
+      "compound_id": "DPC-002562",
+      "original_name": "ERASTIN",
+      "original_sample_ids": "BRD:BRD-A25004090-001-08-4;CTRP:63578",
+      "observed_lines": 744
+    },
+    {
+      "task": "RSL3",
+      "compound_id": "DPC-000040",
+      "original_name": "1S,3R-RSL-3",
+      "original_sample_ids": "CTRP:609060",
+      "observed_lines": 721
+    },
+    {
+      "task": "ML162",
+      "compound_id": "DPC-004290",
+      "original_name": "ML162",
+      "original_sample_ids": "CTRP:154846",
+      "observed_lines": 721
+    },
+    {
+      "task": "ML210",
+      "compound_id": "DPC-004294",
+      "original_name": "ML210",
+      "original_sample_ids": "CTRP:609110",
+      "observed_lines": 690
+    }
+  ],
+  "targets": "Negative original harmonized CTRP AUC for every drug; higher means more sensitive. Erastin values exactly match the retained benchmark.",
+  "training_cohort": "Same 744 erastin-labelled lines only; no additional auxiliary-only cells.",
+  "missing_values": "Mask missing task labels, without response imputation. Each task center/scale uses observed current-training responses only.",
+  "split_design": "20 response-blind lineage-stratified identity-group holdouts. Approximately 80/20 per lineage, nearest feasible rounded sample count, at least one identity group on each side. Uniform random group subsets conditional on each sample-count target.",
+  "inner_design": "Five identity-group-stratified validation folds within outer training. A lineage represented by one training identity group is always inner training (-2) and never inner validation. Thus all 23 lineages remain in every inner training set; validation has 22 lineages because Ampulla has only one outer-training line.",
+  "ampulla_handling": "Two total lines: one outer train and one outer test in every repeat. Outer-training Ampulla is present in every inner fit but not inner validation; outer test is never used for tuning.",
+  "exclusion": "All outer-test identity groups excluded from every task. All inner-validation identity groups excluded from every task in their inner fit. No auxiliary measurements are inputs at prediction time.",
+  "weighting": "Unweighted cell contributions within each task; per-task losses normalize by observed label count. Neural task-loss weights are separately tuned, not lineage weights.",
+  "culture_covariates": false,
+  "lineage_covariates": false,
+  "gene_selection": false,
+  "pooled_assays": false,
+  "linear_grid": [
+    {
+      "alpha": 0.0001,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.01,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.1,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 10.0,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 100.0,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 1000.0,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 10000.0,
+      "coupling_ratio": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 31.622776601683793,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 100.0,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 316.22776601683796,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 1000.0,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 10000.0,
+      "coupling_ratio": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 10.0,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 100.0,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 1000.0,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 10000.0,
+      "coupling_ratio": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 0.001,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 0.01,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 0.1,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 1.0,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 10.0,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 100.0,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 1000.0,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "coupling_ratio": 10.0
+    },
+    {
+      "alpha": 10000.0,
+      "coupling_ratio": 10.0
+    }
+  ],
+  "neural_grid": [
+    {
+      "auxiliary_weight": 0.0,
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "auxiliary_weight": 0.0,
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "auxiliary_weight": 0.0,
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "auxiliary_weight": 0.0,
+      "width": 32,
+      "alpha": 100.0
+    },
+    {
+      "auxiliary_weight": 0.25,
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "auxiliary_weight": 0.25,
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "auxiliary_weight": 0.25,
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "auxiliary_weight": 0.25,
+      "width": 32,
+      "alpha": 100.0
+    },
+    {
+      "auxiliary_weight": 1.0,
+      "width": 16,
+      "alpha": 10.0
+    },
+    {
+      "auxiliary_weight": 1.0,
+      "width": 16,
+      "alpha": 100.0
+    },
+    {
+      "auxiliary_weight": 1.0,
+      "width": 32,
+      "alpha": 10.0
+    },
+    {
+      "auxiliary_weight": 1.0,
+      "width": 32,
+      "alpha": 100.0
+    }
+  ],
+  "linear_objective": "0.5*sum_t[(n/n_t)*||Z_t beta_t + c_t - y_t||^2] + 0.5*alpha*sum_t||beta_t||^2 + 0.5*alpha*coupling_ratio*sum_t||beta_t-mean_s(beta_s)||^2. Intercepts unpenalized. Standardized X/y; n=current training line count.",
+  "neural_objective": "0.5*sum_t[w_t/n_t*sum_observed(error_t^2)] + 0.5*alpha/n*(||W_hidden||^2+||W_output||^2). w=[1,aux/3,aux/3,aux/3]/(1+aux). One tanh hidden layer; separate linear output heads. Biases unpenalized.",
+  "neural_control": "Auxiliary weight zero fits a one-head network with the same hidden/primary initialization, objective and optimizer. Primary and shared initialization identical across task-weight choices per seed.",
+  "neural_optimizer": {
+    "method": "float64 analytic-gradient L-BFGS-B",
+    "max_iter": 3000,
+    "max_fun": 50000,
+    "gtol": 1e-05,
+    "ftol": 1e-12,
+    "maxls": 40,
+    "ensemble": "Average three independent initializations using original saved seed triplets."
+  },
+  "arms": {
+    "multitask_linear": "All 68 coupled-linear candidates including zero coupling.",
+    "matched_single_nn": "Four auxiliary-weight-zero neural candidates.",
+    "multitask_nn": "All 12 neural candidates including zero-auxiliary fallback.",
+    "positive_aux_nn": "Eight strictly positive auxiliary-weight candidates; prespecified sensitivity analysis."
+  },
+  "tuning": "Select by arithmetic mean of five erastin-only inner-fold RMSEs in original units; first fixed candidate wins ties. Auxiliary validation responses never tune settings.",
+  "primary_comparisons": [
+    [
+      "multitask_linear",
+      "ridge"
+    ],
+    [
+      "multitask_nn",
+      "matched_single_nn"
+    ],
+    [
+      "multitask_nn",
+      "neural_network"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "positive_aux_nn",
+      "matched_single_nn"
+    ],
+    [
+      "positive_aux_nn",
+      "neural_network"
+    ],
+    [
+      "multitask_linear",
+      "neural_network"
+    ],
+    [
+      "matched_single_nn",
+      "neural_network"
+    ],
+    [
+      "multitask_nn",
+      "kernel_ridge"
+    ],
+    [
+      "multitask_nn",
+      "svr"
+    ]
+  ],
+  "primary_metric": "pooled_rmse",
+  "secondary_metrics": [
+    "pooled_spearman",
+    "pooled_r2",
+    "macro_all_rmse"
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026111901,
+    "unit": "Paired bootstrap of entire lineage blocks, preserving all repeats and models; conditional exploratory intervals, not independent repeat tests."
+  },
+  "limitations": [
+    "This repeatedly inspected cohort is exploratory and requires new-data confirmation.",
+    "Same-assay CTRP only. Downloaded PRISM secondary treatments contain none of the three auxiliary drugs.",
+    "GPX4-inhibitor vulnerabilities can differ from erastin; responses remain distinct tasks.",
+    "Original harmonized CTRP AUC recipe remains unverified; all existing target values remain unchanged.",
+    "All evaluated lineages appear in training and testing; no unseen-lineage claim.",
+    "Observed cross-drug correlations motivated task choice; they are not independent validation evidence."
+  ],
+  "references": [
+    "https://academic.oup.com/bioinformatics/article/30/17/i556/200902",
+    "https://pubmed.ncbi.nlm.nih.gov/38552003/"
+  ],
+  "new_outer_model_bundles": 80,
+  "reused_outer_models": 100,
+  "workers": 6,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  },
+  "data_sha256": {
+    "multitask_inputs.npz": "438a07551a7d950f5be25c82dbe740c861b6b8a8290ebee906569b10ffa99aa8",
+    "shared_splits.npz": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+    "task_mapping.json": "629194354aaf177e0753ad9e7cd6c998466676e3d199dc8d17c4023a28460d14"
+  },
+  "scripts": {
+    "models.py": "d1a27a42f876692afccd448010600fbd553c89f75bddf9155424616a72ced90b",
+    "run_benchmark.py": "33bbf57454961d10865e8f058d992bff63ff098a53d8211f41ef7f051addb596",
+    "validate_preflight.py": "d1f44fafa2c8c86340d51856c8d352e98bfdf42905568093cc27ed835ca226e3",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+  }
+}

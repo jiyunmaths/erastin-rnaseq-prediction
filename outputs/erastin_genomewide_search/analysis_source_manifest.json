@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "review_search.py": "dc03260684f42513c6255b89c29658ddb0047a4a7ba381a7ef68f0445f9be3f9",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+  },
+  "report_only_revision": {
+    "previous_review_script_sha256": "37d4f4405ec50d10ddde6a2fc02e3b7d304c8e3565ecca28637a6caf4b56a948",
+    "changes": "Clarify exploratory interpretation, report paired intervals and assay-specific top candidates, label unselected correlations, document addition-grid limit. Regenerated from saved tables; no fits or scores changed."
+  }
+}

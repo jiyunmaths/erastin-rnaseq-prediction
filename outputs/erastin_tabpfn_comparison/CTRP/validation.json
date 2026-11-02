@@ -1,0 +1,32 @@
+{
+  "assay": "CTRP",
+  "passed": true,
+  "contexts": 20,
+  "reused_baseline_models": 160,
+  "split_checks": 120,
+  "all_lineages_on_both_outer_sides": true,
+  "fixed_config_no_inner_tuning": true,
+  "training_only_native_y_statistics_verified": true,
+  "all_64_input_features_covered": true,
+  "archive_checksums_and_crc_verified": 20,
+  "native_first_last_serialization_checks": [
+    {
+      "repeat": 1,
+      "error": 0.0
+    },
+    {
+      "repeat": 20,
+      "error": 0.0
+    }
+  ],
+  "native_reload_checks_not_repeated_for_other_contexts": true,
+  "baseline_predictions_reused_from_verified_unchanged_source": true,
+  "bootstrap_arithmetic": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 340,
+    "max_error": 1.6653345369377348e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  },
+  "warning_summary": []
+}

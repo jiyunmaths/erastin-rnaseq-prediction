@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "inspected_figure": "model_comparison.png",
+  "figure_sha256": "f90f6189253a81a409dcf37fdfde407e4494c9c70fdb2e979c655c86f0ce7e54",
+  "checks": [
+    "All four panels and labels readable without overlap.",
+    "Zero-reference lines, positive-improvement directions and exploratory conditional intervals correctly labeled.",
+    "CTRP and PRISM displayed separately; interval values checked against paired_comparisons.tsv."
+  ],
+  "constant_control_correlations_undefined": true,
+  "retained_registry_matches_git_HEAD": true
+}

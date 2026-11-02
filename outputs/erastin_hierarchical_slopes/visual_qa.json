@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "figure": "model_comparison.png",
+  "figure_sha256": "24ff056839f9e76f1f45095752710cb2fece820703a02d27fcc25f4bc5fac9cc",
+  "checks": [
+    "Four assay/metric panels are readable, with no overlapping ticks or labels.",
+    "All comparison labels and zero-reference lines are visible.",
+    "Positive improvement direction and conditional exploratory uncertainty are explicit.",
+    "Intervals and mean effects match paired_comparisons.tsv."
+  ],
+  "retained_registry_unchanged": true
+}

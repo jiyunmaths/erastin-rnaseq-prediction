@@ -1,0 +1,8 @@
+{
+  "neural_positive_auxiliary_selected_fits": 3,
+  "linear_positive_coupling_selected_fits": 20,
+  "positive_aux_nn_auxiliary_weights": {
+    "0.25": 20
+  },
+  "post_result_grid_expansion": false
+}

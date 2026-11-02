@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "protocol_sha256": "cfb67dcc20127572a47daf7c6af88ae7542537690eb8274745d8ca2f87401b82",
+  "split_checks": 240,
+  "independent_checks": [
+    {
+      "assay": "CTRP",
+      "family": "svr",
+      "candidates_independently_checked": 24,
+      "inner_max_error": 9.14823772291129e-14,
+      "selected_outer_max_error": 5.551115123125783e-16,
+      "heldout_label_invariance": true
+    },
+    {
+      "assay": "CTRP",
+      "family": "kernel_ridge",
+      "candidates_independently_checked": 91,
+      "inner_max_error": 2.508326879535616e-12,
+      "selected_outer_max_error": 4.9960036108132044e-15,
+      "heldout_label_invariance": true
+    },
+    {
+      "assay": "CTRP",
+      "family": "hierarchical_ridge",
+      "candidates_independently_checked": 102,
+      "inner_max_error": 1.2212453270876722e-15,
+      "selected_outer_max_error": 2.220446049250313e-16,
+      "heldout_label_invariance": true
+    },
+    {
+      "assay": "CTRP",
+      "family": "lineage_only",
+      "candidates_independently_checked": 6,
+      "inner_max_error": 6.661338147750939e-16,
+      "selected_outer_max_error": 3.3306690738754696e-16,
+      "heldout_label_invariance": true
+    },
+    {
+      "assay": "PRISM",
+      "family": "svr",
+      "candidates_independently_checked": 24,
+      "inner_max_error": 7.382983113757291e-14,
+      "selected_outer_max_error": 3.3306690738754696e-16,
+      "heldout_label_invariance": true
+    },
+    {
+      "assay": "PRISM",
+      "family": "kernel_ridge",
+      "candidates_independently_checked": 91,
+      "inner_max_error": 8.819611707622244e-13,
+      "selected_outer_max_error": 2.1094237467877974e-15,
+      "heldout_label_invariance": true
+    },
+    {
+      "assay": "PRISM",
+      "family": "hierarchical_ridge",
+      "candidates_independently_checked": 102,
+      "inner_max_error": 1.9984014443252818e-15,
+      "selected_outer_max_error": 2.220446049250313e-16,
+      "heldout_label_invariance": true
+    },
+    {
+      "assay": "PRISM",
+      "family": "lineage_only",
+      "candidates_independently_checked": 6,
+      "inner_max_error": 5.551115123125783e-16,
+      "selected_outer_max_error": 1.1102230246251565e-16,
+      "heldout_label_invariance": true
+    }
+  ],
+  "outer_fits_retained": 8,
+  "seconds": 9.536308475973783,
+  "split_arrays_reproduced": true,
+  "all_lineages_on_both_outer_sides": true
+}

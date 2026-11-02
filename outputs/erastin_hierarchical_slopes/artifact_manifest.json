@@ -1,0 +1,2629 @@
+{
+  "files": [
+    {
+      "path": "CTRP/bootstrap_draws.npz",
+      "sha256": "fad8e476dbad6744a990267cff610c8fe4aa8d8a00a74b82eecab46bc4c4905d",
+      "bytes": 2780188
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r01.joblib",
+      "sha256": "fcf8cc8aff3d9fc19ed03659f7ace5af3ab94e4a4acd424b5da86729d02bfb1d",
+      "bytes": 31390
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r01.json",
+      "sha256": "1100c138d096a12da22abc42224ce16e917c55976ce5e621ad199b90a5cdf531",
+      "bytes": 47569
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r01.npz",
+      "sha256": "d1b5ae7c195370c0dbf869db8ec257f52339ea2e54a64edaa7edcea8b5cc886b",
+      "bytes": 3036
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r02.joblib",
+      "sha256": "a85ae667214d7bc17bdd2708b45db34c45f74ecf06b2d07df2736019711b5661",
+      "bytes": 31398
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r02.json",
+      "sha256": "e0b4ea3c0d691a43dbe86e376edeb1fdbc1117b198182824f39500931425482f",
+      "bytes": 47601
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r02.npz",
+      "sha256": "d6e7142924b79db9bff130771f283713371b5ce22203a131a07aad2cf16830a6",
+      "bytes": 3034
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r03.joblib",
+      "sha256": "c4a5f422948096f264dee88424616fdbced4988312aeda9e311ef53d2f85e37f",
+      "bytes": 31370
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r03.json",
+      "sha256": "a86c3b9be43f74fef5022eac91963f6ec34e20c249a403044e67769c7a985736",
+      "bytes": 47550
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r03.npz",
+      "sha256": "c2b8435813530f3b6fcc52262de2bcb65357484a3231d34a9b62b8cc33f6f657",
+      "bytes": 3032
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r04.joblib",
+      "sha256": "2561e1069c903c0d0a862623e3dd5a17ab1367d3966fe07943279e7ea9820e60",
+      "bytes": 31392
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r04.json",
+      "sha256": "3944021624fe2cf63047c04c9140e76434e524817c5c9d23e1b5bfc34eb0e3a8",
+      "bytes": 47557
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r04.npz",
+      "sha256": "76d57d6dd6bab50f4648d20fedffb0d2357cff24204ce2a02612ac25210ec983",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r05.joblib",
+      "sha256": "91b338bfa0290bb255ddef5e892b21aaa0b1ec9efb53b80478e5019fd11c8e3f",
+      "bytes": 31422
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r05.json",
+      "sha256": "3c9b061cb84f36509d8bc20f68317cc2a6090d4b59a9628e7a8c1ff0dfc0b72b",
+      "bytes": 47575
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r05.npz",
+      "sha256": "6ced0a93ff860fa8288a04856386f90ccaac4d76d5ac52b903080681df23e944",
+      "bytes": 3038
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r06.joblib",
+      "sha256": "592914370889d9af8e1c967244269cc5c374330c851fbcfb30d1dc3630a00b15",
+      "bytes": 31399
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r06.json",
+      "sha256": "4c2eccaeef96d4461bcc9ae9fcb60337316fc6868c93c9d9d585b416aaf45f18",
+      "bytes": 47604
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r06.npz",
+      "sha256": "528c24ee642787a2cbab6ad0fbc2a7484720e361269b16f1ee45a53426a731aa",
+      "bytes": 3029
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r07.joblib",
+      "sha256": "47fc091ac7bfb34df01d15fcb71da927117d3d43d425bf6f551c699040177492",
+      "bytes": 31406
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r07.json",
+      "sha256": "eb83a31223570c6aa3d2a1956049d63c8b2a00a91f2fed76e21e8d2bb202e1df",
+      "bytes": 47624
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r07.npz",
+      "sha256": "1eb446dfc25c27e9b3db1bc18713722df42ef3225f8b74d5c0d6a5100799ea0e",
+      "bytes": 3031
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r08.joblib",
+      "sha256": "d203da4e3e208e4577edb4a7c6bd34732da2257bb741e039b4f9ed01cd7a696b",
+      "bytes": 31394
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r08.json",
+      "sha256": "cc64886de859a8b44351d3be29951931abf5003ab108e1732fd2f97ec20a192d",
+      "bytes": 47556
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r08.npz",
+      "sha256": "53fa093afb7d44e7362184a49bc6966203c23e7eadedeed71101d0972824a28d",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r09.joblib",
+      "sha256": "5c58ec63771fb6b478f1fbeeec250a18d72251f5985803b5284d95b150bd447c",
+      "bytes": 31366
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r09.json",
+      "sha256": "b0b13edec9dbbf7ad475b3980069871e75dd2149c6d7ffce7589c6c7c563f35f",
+      "bytes": 47627
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r09.npz",
+      "sha256": "90b5de7664da6e4b355b10ecab8040d5acc71c8b96a619ac2f9cfcdba1f6cbc5",
+      "bytes": 3042
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r10.joblib",
+      "sha256": "ad53327c4ebf5ffc1e14de24052ecefbbb43acde308f26f2db109c5ce442757a",
+      "bytes": 31390
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r10.json",
+      "sha256": "83bc01a5d64e8911de3ffe867059a8dc62e466344c8b47820c188f45c0f017fc",
+      "bytes": 47558
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r10.npz",
+      "sha256": "b7f7fffd6e50c1d55d8a645d4066538aee027eca13d8d7a64896080ef0e7e54a",
+      "bytes": 3027
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r11.joblib",
+      "sha256": "b45530d3f5b7a162008fd96a53b46e52b4e53147fd2e097144067822a8455822",
+      "bytes": 31411
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r11.json",
+      "sha256": "36c6c86ec3246c3016dc3f8e644ae30bc2106f058067db9f0ccc6ffc64369983",
+      "bytes": 47600
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r11.npz",
+      "sha256": "5a105918ef4dc6f82852fa9291bb0ffba98db632fec60acd9359ecb6f0903a70",
+      "bytes": 3040
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r12.joblib",
+      "sha256": "a17f4ee4571b01256ef0881013acec70eea6bf249d8729c406ffc2fea3a3e2c9",
+      "bytes": 31360
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r12.json",
+      "sha256": "50c9d325aee1fbd230bf666406ba0480ff0368e1bed37f054765164cf9386fdd",
+      "bytes": 47591
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r12.npz",
+      "sha256": "64bc05bba1c8be48161d1702643baa4c192f6448622805f608eca4d4bc8022cd",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r13.joblib",
+      "sha256": "907ff6d9c6593d4d11e158e5a58a7c58864b0dea7741eb9b1fc89eea88b7ba5c",
+      "bytes": 31387
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r13.json",
+      "sha256": "d24fd315dfbdf7b1bc309717831f19cbb33af9186945428ecbe41b7c8e96f736",
+      "bytes": 47620
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r13.npz",
+      "sha256": "1e9cfab7b64a2fcb5a4b0a124b8ec5c88e58c3045dec67b9be8b04830c323117",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r14.joblib",
+      "sha256": "69b371c2e44158a6dca87a171c86c247c60a33084f6e216751ff50ae7690dd9a",
+      "bytes": 31407
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r14.json",
+      "sha256": "17ef5031fdeb66f443a015fcc39f89b971eb05fb1e868a217fca8c393a4009cb",
+      "bytes": 47590
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r14.npz",
+      "sha256": "b04d25a07b02d62ce948f7cff3c6cbee08d921f2b677c61ab675aa265da027dd",
+      "bytes": 3038
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r15.joblib",
+      "sha256": "750ac9bd8e4571617133a42907624aee693bd2813cb9a1d9137a432962e055e2",
+      "bytes": 31396
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r15.json",
+      "sha256": "9d2df910c57095e7a3836a778239dc46b3497c4caba040bf40fc4add1eb1ff0d",
+      "bytes": 47593
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r15.npz",
+      "sha256": "d759b7cc7176f9f50a84c4319507719fce6409ebec2ad073f21e965f7540a34b",
+      "bytes": 3026
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r16.joblib",
+      "sha256": "085f928367f54ab301f9df0de595acc95bde781256bfd4364d614131728fde2a",
+      "bytes": 31383
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r16.json",
+      "sha256": "cc5f7c5fe1f3b05c090bdff05cf622c0dfc0950d461c2ea1062e29563decfcf7",
+      "bytes": 47594
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r16.npz",
+      "sha256": "a3e6019e2bb053a3ea0d255d68661fcb204f10a5ef549177baa1cf96138d3ba6",
+      "bytes": 3033
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r17.joblib",
+      "sha256": "82e7fda53a1783e1e8c74e64378f400c17b6394f29e65685028a977111391496",
+      "bytes": 31410
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r17.json",
+      "sha256": "1f3bdedb2873e546ab78986fa9cdbe83919d79c1e65f16e991a5f7bfdc8552c9",
+      "bytes": 47642
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r17.npz",
+      "sha256": "eb8a1e7b964d063acdb5f4cbf48e99a266f89683f3e5aea94773610f5356ee99",
+      "bytes": 3031
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r18.joblib",
+      "sha256": "e6c04200bac73dd1dcf1b03fe1b8636245458260705af56c9be445afbc1bb0a4",
+      "bytes": 31400
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r18.json",
+      "sha256": "01545d982b07df9021e33579b70a9572501a585c8168efbee9e4771acb1b18c3",
+      "bytes": 47616
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r18.npz",
+      "sha256": "6884ba860ba5fddffb5d82fe4d3858e9ff0b46e5fc3ad3d0ee23481618aa5a17",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r19.joblib",
+      "sha256": "e221ec2be6a1236fbc029a2028031f1859673ee05a2ba06a187fca485ef816e3",
+      "bytes": 31400
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r19.json",
+      "sha256": "3eaac79232138774a9cc5756d3084dd1fa85b164e3c77e7b1261863f2930beaf",
+      "bytes": 47606
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r19.npz",
+      "sha256": "5857a4fc368e0e2088348b91bb474dee3f1a5dedbfb0c70e9a97e16cf676e462",
+      "bytes": 3043
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r20.joblib",
+      "sha256": "860f57a1354877239611ab89f5738aa0afa762dc25adc7558b9a5a011c6c3e2f",
+      "bytes": 31398
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r20.json",
+      "sha256": "c30ae1c011aa7653b9ce9190e464252a390f2b2dc6e3c2d65de4b8db22bd2d7e",
+      "bytes": 47594
+    },
+    {
+      "path": "CTRP/folds/hierarchical_slopes__p64__r20.npz",
+      "sha256": "ef9fd1b50ac515173d89188f084607d27dfb03ea4f3e04304fadb6900e623949",
+      "bytes": 3035
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r01.joblib",
+      "sha256": "01a7c822811071f2490aa0fd221aa8af044ddacba4c56865c072a6d69fc1a99b",
+      "bytes": 21383
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r01.json",
+      "sha256": "6a647b2a3828f32380916af08ec57749ac82284d24770dfe4c929d26b1c5cbdc",
+      "bytes": 47566
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r01.npz",
+      "sha256": "4f7c3098d2af1a315eadca42adbc3600bd3b24f3cd156b291c13c6c4cac7756b",
+      "bytes": 3033
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r02.joblib",
+      "sha256": "736da53d53097a7cf7621083aa65a0ec82f01d13373abb34b7672a76b8c7dd0b",
+      "bytes": 21343
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r02.json",
+      "sha256": "5c116ee3a90da1f4527532d27077093fa885655c91b362f4ac81ca3498c3fd5b",
+      "bytes": 47599
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r02.npz",
+      "sha256": "d8cce513a63cc0e9daeab464184f0ffc55b430ce94c93919f4babc8d52b8d0cf",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r03.joblib",
+      "sha256": "5589818af65ba5e3a56bdbf1c0936567b57f41582ab994d6306a3c65f19f180a",
+      "bytes": 21317
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r03.json",
+      "sha256": "48cdb1a7755d802486052ca8d73294d832bb12a18e11c6b8cdedc41cae1288fb",
+      "bytes": 47547
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r03.npz",
+      "sha256": "69d346a0507d873c369d1cbda0ff0f02d631e9bc410063a81367d4679f9adc88",
+      "bytes": 3031
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r04.joblib",
+      "sha256": "478633dbcdccd99cd2f4245486525dee118307bc690c715dc046a200a3bcd021",
+      "bytes": 21355
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r04.json",
+      "sha256": "33753d30df1933382d14c406a2945e021f15e2bd70d0cd508b1255be88f7861f",
+      "bytes": 47554
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r04.npz",
+      "sha256": "ccfb79c9167e401c87b1824aa2f764b1e7fdb864c99fcf2d1a3149483b043a35",
+      "bytes": 3029
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r05.joblib",
+      "sha256": "c774710180024555dd6099034ed5a1592cdf9524902f3c3cd0948e85416c7573",
+      "bytes": 21368
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r05.json",
+      "sha256": "8d7ab01328868e599f102703c65cc71dbebd87ee02bfd0f0a213f628fd1556f5",
+      "bytes": 47573
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r05.npz",
+      "sha256": "10225bf69fd69169a78461d23b44a66a0a95fe1388d5273b494f99df48cb2933",
+      "bytes": 3035
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r06.joblib",
+      "sha256": "600366accf09dbffff16b9e16bb772bdaf0a555db968cea3aba60761bd378819",
+      "bytes": 21333
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r06.json",
+      "sha256": "b83ebfacc7203e0dde59c7605e7e77f405780b906038cb00273f39bcd5382619",
+      "bytes": 47601
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r06.npz",
+      "sha256": "ab59a93df45f509b6f8b4992a908a43406af06df171af201fb9c8742e794526f",
+      "bytes": 3033
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r07.joblib",
+      "sha256": "6f3d7608c440b75bbd2529b081fcfe5be4d555e9ddc3cc56fbede0fe7af3301e",
+      "bytes": 21368
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r07.json",
+      "sha256": "5b7324ab974c786977ef26e8c26df49b882ce18c6f4568586e168fb0b8644ce5",
+      "bytes": 47621
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r07.npz",
+      "sha256": "c88fe5320622d1b556be7929530409e157066ab044932072872412678185caea",
+      "bytes": 3033
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r08.joblib",
+      "sha256": "574a79ef3b51908dddaa888ae941e8259f7329882b88474b106585a6cbd9f00d",
+      "bytes": 21357
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r08.json",
+      "sha256": "a6d0c30e3ce22b6b5e499fc9a90b66a9edf275e96f4c075313a599e8d0ff4f7a",
+      "bytes": 47553
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r08.npz",
+      "sha256": "269098a5f4d8670a25ebede7757f47b3cc03f90c9a193c07bb86fce6f7e736ca",
+      "bytes": 3029
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r09.joblib",
+      "sha256": "c0a3b0810f35e5ae4cc9a64f6c73dd807a0c0ac81f7925cc37219fe0c11eca2b",
+      "bytes": 21355
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r09.json",
+      "sha256": "f7cce30a742861c550366ef7ca43016a5fba26d33a1b8be1bbffbc7bb865f1c2",
+      "bytes": 47624
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r09.npz",
+      "sha256": "08e61668e8896732ed2a56dcf2b1fa31ef4b68bbefb40982ae80ef318ea0156e",
+      "bytes": 3036
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r10.joblib",
+      "sha256": "6f3aa42beffa0833591f57eb989a9a2eebd16adbfd523224793522b9243be624",
+      "bytes": 21345
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r10.json",
+      "sha256": "47ce2aa3b1041e2b6715f0af53c62e67601d40270048d7f67309ddf100ab55ec",
+      "bytes": 47557
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r10.npz",
+      "sha256": "5cf8871efff7ee6434f7730718ce54d70ac8a4adb8d8949e6ef392817f1ab0a4",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r11.joblib",
+      "sha256": "b98508e8921f2e9dcc6f0e5c3bf5d4fd063b3ddd0b8ee3774bb6b2f6cd803f37",
+      "bytes": 21378
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r11.json",
+      "sha256": "7b55db614d7fc5749dd76777f4c1fa556c6bc7a6e41ef5b6f18cd2adb08cd071",
+      "bytes": 47598
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r11.npz",
+      "sha256": "e80521532d297e0e4d9b27716cd4aaab4c4b7672c40d50f75306ba3fb1afc4fc",
+      "bytes": 3041
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r12.joblib",
+      "sha256": "b806f33e1e567739530aed9765ed98129a44f6e1639ac39043eed17b09f7d338",
+      "bytes": 21343
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r12.json",
+      "sha256": "83b3f0e02b435850a3a7948b48e18655505661e3fe17e1c4d0248bb0af2f9a15",
+      "bytes": 47588
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r12.npz",
+      "sha256": "8f6b4e3bc445fbcb375333e29a63bb9f85d476f8186b1bdb3222109d219eea37",
+      "bytes": 3032
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r13.joblib",
+      "sha256": "a399b1723434aa5614b3631164fc29652ed965127106285e2de93a82460676e0",
+      "bytes": 21355
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r13.json",
+      "sha256": "e2e7ee0808de9fe2cfc6058ccb35b0fe8d513b825eb2bdc3ff51f6628f983421",
+      "bytes": 47617
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r13.npz",
+      "sha256": "423f0d86afd35a353a2e91689610959b31338b90c60ca89ccc0513a0952d8d7a",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r14.joblib",
+      "sha256": "6d78cead0baea0da99230c96573c059acc6c6a7b0c0c16cea9b34ce24d2bb074",
+      "bytes": 21384
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r14.json",
+      "sha256": "09b5a76ee8f29ac01d1bf3a26cf0e07308c585afc02c60a2f762cbf7acde1ae0",
+      "bytes": 47586
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r14.npz",
+      "sha256": "0bfebf2559948ac50d9afa5cd416496de5507772a798bed3dd68bb34a97f1fb0",
+      "bytes": 3026
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r15.joblib",
+      "sha256": "54189f42516948adedafafb7ddb04ece353bdde13dcd5c4ac451b9eadfb375cd",
+      "bytes": 21335
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r15.json",
+      "sha256": "73a3241d41eba6ad087912b50a7c52d05169f4f1adf5d01e9f19e99edbe1ca6c",
+      "bytes": 47591
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r15.npz",
+      "sha256": "c56532788ba1c4d165c01b1aaa5123394f2e6b918806757078b32d838c32715d",
+      "bytes": 3026
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r16.joblib",
+      "sha256": "8ddbd18c3393da5acadaef09361fd2c07c8a293f248923cdea6d0d711a3d0dd7",
+      "bytes": 21355
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r16.json",
+      "sha256": "d878be037b18cfa23054c4539068f38b9d51b95bb84e7c9b67ba1b4d8027070f",
+      "bytes": 47592
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r16.npz",
+      "sha256": "daa5069e2480dd86442f9990259f6e1207ccec5d7cce787bb08cc252740506ec",
+      "bytes": 3031
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r17.joblib",
+      "sha256": "af8c31e1339211b52e313a94e792570df6d51759cec7ff86f98f7a7af703daeb",
+      "bytes": 21366
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r17.json",
+      "sha256": "be15f85e28b902d04c0633ff5becc12d4167e2268fb7fbad2d29bd50e8eb8463",
+      "bytes": 47639
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r17.npz",
+      "sha256": "4ddb66c42ec5f10bb29fd2b726f564849ba8c00fe9e3040b1892b0350bc38787",
+      "bytes": 3035
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r18.joblib",
+      "sha256": "66faef32177c501a75c9571817704b1362ec6a3bdde7bf8d80e432aee69fd6b2",
+      "bytes": 21364
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r18.json",
+      "sha256": "88e004bbd0c89756ce93484039a1bad3b932ba739a631a5aff6a44d92837093a",
+      "bytes": 47613
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r18.npz",
+      "sha256": "da028c4dea31a422490ed319ee623a8e060ffa9151bd9824829ae3a7adbbed5e",
+      "bytes": 3036
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r19.joblib",
+      "sha256": "23ba988b91b5a3021406a9c8ae14f722dae778f1568bad62cf72c7d19f68468e",
+      "bytes": 21353
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r19.json",
+      "sha256": "d9f331a2d657ace16beb1e3155edca8b358c6c6772e390c43fc726741c70b726",
+      "bytes": 47603
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r19.npz",
+      "sha256": "49c3aea75abfbe5fdddd7ffe3a0118fa8fed5fa0ac7f4e53e0edfadb229c57a9",
+      "bytes": 3044
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r20.joblib",
+      "sha256": "e8ca5d222e42dff480f196e47396edf0619f6d8afc78d2fae4122dec1754af64",
+      "bytes": 21378
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r20.json",
+      "sha256": "ff81458b1dd43386153c2b08c5a5dfa3b860099de2f246e26b4129e14dbdbe01",
+      "bytes": 47590
+    },
+    {
+      "path": "CTRP/folds/matched_intercept__p64__r20.npz",
+      "sha256": "e10f25f5e4c778f2a2aae5cd8b3f4da7081e82684473c2826508a55c417317ef",
+      "bytes": 3037
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r01.joblib",
+      "sha256": "fcf8cc8aff3d9fc19ed03659f7ace5af3ab94e4a4acd424b5da86729d02bfb1d",
+      "bytes": 31390
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r01.json",
+      "sha256": "d20123180404a52da9c13d8905ca705033493eaef120835cf05d073f243c66b8",
+      "bytes": 47565
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r01.npz",
+      "sha256": "d1b5ae7c195370c0dbf869db8ec257f52339ea2e54a64edaa7edcea8b5cc886b",
+      "bytes": 3036
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r02.joblib",
+      "sha256": "a85ae667214d7bc17bdd2708b45db34c45f74ecf06b2d07df2736019711b5661",
+      "bytes": 31398
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r02.json",
+      "sha256": "85bbe472259be6cee6916551206a5fb61ff11ddacc37976398af975c72b04ec8",
+      "bytes": 47597
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r02.npz",
+      "sha256": "d6e7142924b79db9bff130771f283713371b5ce22203a131a07aad2cf16830a6",
+      "bytes": 3034
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r03.joblib",
+      "sha256": "c4a5f422948096f264dee88424616fdbced4988312aeda9e311ef53d2f85e37f",
+      "bytes": 31370
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r03.json",
+      "sha256": "139bc01c7185dbfa360dc0fd2fab09bd430b523ef7cc00554bce9f6eb58153b6",
+      "bytes": 47546
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r03.npz",
+      "sha256": "c2b8435813530f3b6fcc52262de2bcb65357484a3231d34a9b62b8cc33f6f657",
+      "bytes": 3032
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r04.joblib",
+      "sha256": "2561e1069c903c0d0a862623e3dd5a17ab1367d3966fe07943279e7ea9820e60",
+      "bytes": 31392
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r04.json",
+      "sha256": "7a7b0bd9e33f4d4d39366ba95f6098c0774d511732a1a94143310774f53af0f2",
+      "bytes": 47553
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r04.npz",
+      "sha256": "76d57d6dd6bab50f4648d20fedffb0d2357cff24204ce2a02612ac25210ec983",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r05.joblib",
+      "sha256": "91b338bfa0290bb255ddef5e892b21aaa0b1ec9efb53b80478e5019fd11c8e3f",
+      "bytes": 31422
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r05.json",
+      "sha256": "23d6745b8be228cc63ba557658a4ee954c33f31687923ed9cf3bd109a521a388",
+      "bytes": 47571
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r05.npz",
+      "sha256": "6ced0a93ff860fa8288a04856386f90ccaac4d76d5ac52b903080681df23e944",
+      "bytes": 3038
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r06.joblib",
+      "sha256": "592914370889d9af8e1c967244269cc5c374330c851fbcfb30d1dc3630a00b15",
+      "bytes": 31399
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r06.json",
+      "sha256": "852cf2813001cdc67856d085c23f98461f2e782e9a6b08a7d0a007cc9a495af4",
+      "bytes": 47600
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r06.npz",
+      "sha256": "528c24ee642787a2cbab6ad0fbc2a7484720e361269b16f1ee45a53426a731aa",
+      "bytes": 3029
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r07.joblib",
+      "sha256": "47fc091ac7bfb34df01d15fcb71da927117d3d43d425bf6f551c699040177492",
+      "bytes": 31406
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r07.json",
+      "sha256": "50114dfefd53688d987c8682951842abae470a2a6e3822b0244b4b459e618ab8",
+      "bytes": 47620
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r07.npz",
+      "sha256": "1eb446dfc25c27e9b3db1bc18713722df42ef3225f8b74d5c0d6a5100799ea0e",
+      "bytes": 3031
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r08.joblib",
+      "sha256": "d203da4e3e208e4577edb4a7c6bd34732da2257bb741e039b4f9ed01cd7a696b",
+      "bytes": 31394
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r08.json",
+      "sha256": "35ff75f1d37f0e7ec272167a1b074d47f13300900920bcc0ff02e32df08a7ef0",
+      "bytes": 47552
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r08.npz",
+      "sha256": "53fa093afb7d44e7362184a49bc6966203c23e7eadedeed71101d0972824a28d",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r09.joblib",
+      "sha256": "5c58ec63771fb6b478f1fbeeec250a18d72251f5985803b5284d95b150bd447c",
+      "bytes": 31366
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r09.json",
+      "sha256": "3deb419f9a837b1cc27e3fad41d1b665e95c7075c7066cbb1ad5d727401ccc8a",
+      "bytes": 47623
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r09.npz",
+      "sha256": "90b5de7664da6e4b355b10ecab8040d5acc71c8b96a619ac2f9cfcdba1f6cbc5",
+      "bytes": 3042
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r10.joblib",
+      "sha256": "ad53327c4ebf5ffc1e14de24052ecefbbb43acde308f26f2db109c5ce442757a",
+      "bytes": 31390
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r10.json",
+      "sha256": "195f332ce6fd491506053f540b77836c3f3adea39ca2d591f5a37399f5cd7113",
+      "bytes": 47554
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r10.npz",
+      "sha256": "b7f7fffd6e50c1d55d8a645d4066538aee027eca13d8d7a64896080ef0e7e54a",
+      "bytes": 3027
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r11.joblib",
+      "sha256": "b45530d3f5b7a162008fd96a53b46e52b4e53147fd2e097144067822a8455822",
+      "bytes": 31411
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r11.json",
+      "sha256": "f1edde904f5513fee0b35ed5388543fdeed1af6cb30bf1caa74682700d351a9d",
+      "bytes": 47596
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r11.npz",
+      "sha256": "5a105918ef4dc6f82852fa9291bb0ffba98db632fec60acd9359ecb6f0903a70",
+      "bytes": 3040
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r12.joblib",
+      "sha256": "a17f4ee4571b01256ef0881013acec70eea6bf249d8729c406ffc2fea3a3e2c9",
+      "bytes": 31360
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r12.json",
+      "sha256": "279d7413ed441db46dc2853e7a855c5b097a5e4a6b2ae4f0ece34956d47d30aa",
+      "bytes": 47587
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r12.npz",
+      "sha256": "64bc05bba1c8be48161d1702643baa4c192f6448622805f608eca4d4bc8022cd",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r13.joblib",
+      "sha256": "907ff6d9c6593d4d11e158e5a58a7c58864b0dea7741eb9b1fc89eea88b7ba5c",
+      "bytes": 31387
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r13.json",
+      "sha256": "abf4f8d566e7be53323c908b77e130e3227ff51686f2dd5480e45cf01ddf9a20",
+      "bytes": 47616
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r13.npz",
+      "sha256": "1e9cfab7b64a2fcb5a4b0a124b8ec5c88e58c3045dec67b9be8b04830c323117",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r14.joblib",
+      "sha256": "69b371c2e44158a6dca87a171c86c247c60a33084f6e216751ff50ae7690dd9a",
+      "bytes": 31407
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r14.json",
+      "sha256": "f3c0316d3b1c60d5d22b63f9ba40ab96ba7a503d4a731a12a2e8b5e58b696089",
+      "bytes": 47586
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r14.npz",
+      "sha256": "b04d25a07b02d62ce948f7cff3c6cbee08d921f2b677c61ab675aa265da027dd",
+      "bytes": 3038
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r15.joblib",
+      "sha256": "750ac9bd8e4571617133a42907624aee693bd2813cb9a1d9137a432962e055e2",
+      "bytes": 31396
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r15.json",
+      "sha256": "8e61554fef15835c2e946b5bc4bf476e9c7a020400ca558e16bb0b494f8bc292",
+      "bytes": 47589
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r15.npz",
+      "sha256": "d759b7cc7176f9f50a84c4319507719fce6409ebec2ad073f21e965f7540a34b",
+      "bytes": 3026
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r16.joblib",
+      "sha256": "085f928367f54ab301f9df0de595acc95bde781256bfd4364d614131728fde2a",
+      "bytes": 31383
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r16.json",
+      "sha256": "6ebb64958d91451f1c49fd901055b99ee9bba6586aac620c7daf7c46842a4068",
+      "bytes": 47590
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r16.npz",
+      "sha256": "a3e6019e2bb053a3ea0d255d68661fcb204f10a5ef549177baa1cf96138d3ba6",
+      "bytes": 3033
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r17.joblib",
+      "sha256": "82e7fda53a1783e1e8c74e64378f400c17b6394f29e65685028a977111391496",
+      "bytes": 31410
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r17.json",
+      "sha256": "1d366a6d2e4cf31cf203ea0b98f15e334269e4dfaa7d8c92421994e9b30c5ea9",
+      "bytes": 47638
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r17.npz",
+      "sha256": "eb8a1e7b964d063acdb5f4cbf48e99a266f89683f3e5aea94773610f5356ee99",
+      "bytes": 3031
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r18.joblib",
+      "sha256": "e6c04200bac73dd1dcf1b03fe1b8636245458260705af56c9be445afbc1bb0a4",
+      "bytes": 31400
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r18.json",
+      "sha256": "f39bdd15e7672a0a857e230ff2abe9d4ec8c3ea67699001031f092f1a946f323",
+      "bytes": 47612
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r18.npz",
+      "sha256": "6884ba860ba5fddffb5d82fe4d3858e9ff0b46e5fc3ad3d0ee23481618aa5a17",
+      "bytes": 3030
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r19.joblib",
+      "sha256": "e221ec2be6a1236fbc029a2028031f1859673ee05a2ba06a187fca485ef816e3",
+      "bytes": 31400
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r19.json",
+      "sha256": "40955c9067e3ea7d1756a770d72e0e2906ac08837a93e8216ab1552788bb78f9",
+      "bytes": 47602
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r19.npz",
+      "sha256": "5857a4fc368e0e2088348b91bb474dee3f1a5dedbfb0c70e9a97e16cf676e462",
+      "bytes": 3043
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r20.joblib",
+      "sha256": "860f57a1354877239611ab89f5738aa0afa762dc25adc7558b9a5a011c6c3e2f",
+      "bytes": 31398
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r20.json",
+      "sha256": "49f5d795945f9c019f8b57839b8a2c28cf8f2eb303569689f98e1b6672a0df5c",
+      "bytes": 47590
+    },
+    {
+      "path": "CTRP/folds/positive_slopes__p64__r20.npz",
+      "sha256": "ef9fd1b50ac515173d89188f084607d27dfb03ea4f3e04304fadb6900e623949",
+      "bytes": 3035
+    },
+    {
+      "path": "CTRP/folds/repeat_01_complete.json",
+      "sha256": "6d53dbb1ccf0b3b1a0aad6af512c3470ef335cb1aaccfca308523599d4fc91a1",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_02_complete.json",
+      "sha256": "37d1ed55890b97095fee104b447af2dacf6eb4e501b6499ed7cf53b7d020d75f",
+      "bytes": 2020
+    },
+    {
+      "path": "CTRP/folds/repeat_03_complete.json",
+      "sha256": "c0138d898772b4aadfff63250de74c53ae98f0a40453ed0c68389be968a8b58c",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_04_complete.json",
+      "sha256": "f3511d1740c55edd104889a5c8e8060d1becc5b37efcea710d34c68e9d7e1af0",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_05_complete.json",
+      "sha256": "5db8732d9ba38b8fe3edcb7d60a212fcc3ea4dc5e055fe53776259711ee5f5fd",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_06_complete.json",
+      "sha256": "57eb15042feb75aad6385c99b8a7b4cb1f41feda2da266daf216f89a67cd3e73",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_07_complete.json",
+      "sha256": "3e2c8abc0775ffb111a6245f48b51877dfca0f2fa71a415088628500bba178bc",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_08_complete.json",
+      "sha256": "80032a68767b56d70860612464fd2b10434e764a6a841ccc1070d125f9933a82",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_09_complete.json",
+      "sha256": "202ef6d0484d706ff6c6b9655f10151b3608d4c7511d1688f6208c142acdb01e",
+      "bytes": 2021
+    },
+    {
+      "path": "CTRP/folds/repeat_10_complete.json",
+      "sha256": "b37798206a0a14ae6431cf9cc4388c2c8a28c174897e89c228debf473be6635a",
+      "bytes": 2023
+    },
+    {
+      "path": "CTRP/folds/repeat_11_complete.json",
+      "sha256": "d46e951e7b8544a4691a398a992f281ebef2059201b2ecbe137fa0ea5c17a4b6",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_12_complete.json",
+      "sha256": "e7ec271088498406e14aa934f06ebde10bff53ebea5793867452ac308f8149fe",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_13_complete.json",
+      "sha256": "55a6e6370942ce9c6b4b3099edebe0690682ddc589456d008a44bcc1d7fd02a9",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_14_complete.json",
+      "sha256": "619ce40bbfef41403618c6772491ec6759dcf24ddaafe44748648798b6634630",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_15_complete.json",
+      "sha256": "922aa9164c0a6d9d6d70c47ba5a7e3d0a3e1b01d292ced4a73b5ef877c2a7a05",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_16_complete.json",
+      "sha256": "3bdc912ada2997e299dc655f175623e31b07a31f4c76d755c205a688be045db6",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_17_complete.json",
+      "sha256": "1f2e0bf36ae632b38fe191d4bf85832a61707805ade79df744a5f961b48f4b00",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_18_complete.json",
+      "sha256": "9c8cf28048a6d1b8b38594a3288397edf06eeb714a06923aa6e6894d314c5892",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_19_complete.json",
+      "sha256": "9214af19f5ef09303c99da3d4600f9459962fcd2bfb64f9094ab3e3f53c42031",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/repeat_20_complete.json",
+      "sha256": "badf857b913a9cf07b070e62a5f68a564874b4011e1dea7883cf0fd4612d81cd",
+      "bytes": 2022
+    },
+    {
+      "path": "CTRP/folds/tuning__r01.json",
+      "sha256": "39d182f3deba5de9cd80330f4283a3e05802016da3a105161d58cca2df814032",
+      "bytes": 251713
+    },
+    {
+      "path": "CTRP/folds/tuning__r01.npz",
+      "sha256": "d0ea5521b2fe18ccea4fd23722dceb40bc69dfe577c5dda72caa8f3b109f89af",
+      "bytes": 1960078
+    },
+    {
+      "path": "CTRP/folds/tuning__r02.json",
+      "sha256": "1e508828670a6ff6a0d60d9f45ea46879f264d8ef0147f5ea528a1eb08d561ee",
+      "bytes": 251758
+    },
+    {
+      "path": "CTRP/folds/tuning__r02.npz",
+      "sha256": "f3029ce40b70fb5aa6080a5e4bce23061a0b5bc9076f005045feb92d6198ddb0",
+      "bytes": 1961137
+    },
+    {
+      "path": "CTRP/folds/tuning__r03.json",
+      "sha256": "fb8c7cd1fc6aef2196cbd400aac4c1c9d91a856296bbab314c8be24070498be4",
+      "bytes": 251703
+    },
+    {
+      "path": "CTRP/folds/tuning__r03.npz",
+      "sha256": "051eccb3bedf9ed24ad93a45107f488454fa63b44acd89b603089f2eb6446b10",
+      "bytes": 1961035
+    },
+    {
+      "path": "CTRP/folds/tuning__r04.json",
+      "sha256": "eec6268860613c9eca308854df876a0a6092f6dd8019b041883631806f2a95d1",
+      "bytes": 251755
+    },
+    {
+      "path": "CTRP/folds/tuning__r04.npz",
+      "sha256": "580c9f0cb14f75ec3a1e0991939f72e2958f2ef7558b583600f7f5b83dd1de66",
+      "bytes": 1959313
+    },
+    {
+      "path": "CTRP/folds/tuning__r05.json",
+      "sha256": "f6725b3b47e3be253b97e58564228a135522293ba056e6a5b01fd6e0c9dcc152",
+      "bytes": 251632
+    },
+    {
+      "path": "CTRP/folds/tuning__r05.npz",
+      "sha256": "babf8936b0a737fff6589091a109449cc8edcf27f8b586fec817a6c98ffd3e0e",
+      "bytes": 1960399
+    },
+    {
+      "path": "CTRP/folds/tuning__r06.json",
+      "sha256": "804249165537dc1dbf4ad299649549e8851b264419b1f2422fa5e071a844b48f",
+      "bytes": 251629
+    },
+    {
+      "path": "CTRP/folds/tuning__r06.npz",
+      "sha256": "7f3b1608ce38a8b83807e12145defc546b6614144c0d571614848d08371f7d5e",
+      "bytes": 1960424
+    },
+    {
+      "path": "CTRP/folds/tuning__r07.json",
+      "sha256": "e705fae052db89145db228a923275be9001d3be3a81b661e72554a30e57fb572",
+      "bytes": 251715
+    },
+    {
+      "path": "CTRP/folds/tuning__r07.npz",
+      "sha256": "75d635e53a988563400480a45bd25be8a2949d5c945c12434ca0f5e9d567a851",
+      "bytes": 1961445
+    },
+    {
+      "path": "CTRP/folds/tuning__r08.json",
+      "sha256": "7f9c620ab7d219088e0d8eeac99ca5419631b1151366df5f09f19587a9e4b051",
+      "bytes": 251778
+    },
+    {
+      "path": "CTRP/folds/tuning__r08.npz",
+      "sha256": "028da4216df8264d55b422ba1e3256009669a9ccfe943477a9ade4f28c606808",
+      "bytes": 1963657
+    },
+    {
+      "path": "CTRP/folds/tuning__r09.json",
+      "sha256": "a85ffa042fd220f8822a050f8836a1944575f7ee8392934588728778debc75ef",
+      "bytes": 251837
+    },
+    {
+      "path": "CTRP/folds/tuning__r09.npz",
+      "sha256": "3c752c979e1e9d2f26240fb96747a6abd63e34d43232d8a0bf0b4a4105c9abc7",
+      "bytes": 1960277
+    },
+    {
+      "path": "CTRP/folds/tuning__r10.json",
+      "sha256": "b3b4bf9ed3d54c56b1bff9547f4f0b32a96cea9ccdf1e927190dfa8a486b3ef4",
+      "bytes": 251576
+    },
+    {
+      "path": "CTRP/folds/tuning__r10.npz",
+      "sha256": "83c03aa8c7e5c5a3082e862f9aa571c537cd81e0f75f1b00ca4c676786a14f7c",
+      "bytes": 1960890
+    },
+    {
+      "path": "CTRP/folds/tuning__r11.json",
+      "sha256": "cea9686781a37d18ec166d07ef8456e10b3c8d5611533f9c13988ad8cef45b1b",
+      "bytes": 251832
+    },
+    {
+      "path": "CTRP/folds/tuning__r11.npz",
+      "sha256": "4aff6a8740b89f155065c8953049b74896da6b66cf1e6a0151388318d6f78335",
+      "bytes": 1961645
+    },
+    {
+      "path": "CTRP/folds/tuning__r12.json",
+      "sha256": "9aefacfeddb4ea34edd85f8bf3ce55819441ea39126e786dfd8f2a4608f968bb",
+      "bytes": 251797
+    },
+    {
+      "path": "CTRP/folds/tuning__r12.npz",
+      "sha256": "6e1c0bd8be4cd24fa86345ad9a2d5d5456c336ba51270bb33af82015afaf6b37",
+      "bytes": 1963641
+    },
+    {
+      "path": "CTRP/folds/tuning__r13.json",
+      "sha256": "595a661a21d74ab3b63b2a20120f2b5fa91711f3609ea40e4104accbb0e717a4",
+      "bytes": 251734
+    },
+    {
+      "path": "CTRP/folds/tuning__r13.npz",
+      "sha256": "90f2c60a1c2b0eec9ddcd8920393fab6bcb1fe0363b6ba7b4db58e40688ab5e6",
+      "bytes": 1959821
+    },
+    {
+      "path": "CTRP/folds/tuning__r14.json",
+      "sha256": "a5e667b770e76066a5414bd2787c81be1f7e819e48a4ae3a7b4f81ac5772d2bb",
+      "bytes": 251726
+    },
+    {
+      "path": "CTRP/folds/tuning__r14.npz",
+      "sha256": "589290c921bb640cc699839b97a695a6840b12b9c6d7fe26808ea66ea1b09870",
+      "bytes": 1960947
+    },
+    {
+      "path": "CTRP/folds/tuning__r15.json",
+      "sha256": "e81196c9638cda4e8ab584b98b6aae6b26a4682ff47576547ae9c10c07660c24",
+      "bytes": 251664
+    },
+    {
+      "path": "CTRP/folds/tuning__r15.npz",
+      "sha256": "c6f89b9d7fbcb98783bfaf13ce62766d27075c143352ddbfc8461ea3eb058c78",
+      "bytes": 1962069
+    },
+    {
+      "path": "CTRP/folds/tuning__r16.json",
+      "sha256": "249036d04b4765dae2e85c1fa7547ae42c0b5f5090e128402130d4a5d55a9f7d",
+      "bytes": 251680
+    },
+    {
+      "path": "CTRP/folds/tuning__r16.npz",
+      "sha256": "e2198165eb114c5e898bf9144d64ede84959d3b56ed48efba0e86b2a87e6c498",
+      "bytes": 1960614
+    },
+    {
+      "path": "CTRP/folds/tuning__r17.json",
+      "sha256": "7a9da21b1c40a64667fb106d59a12c13771528e8cd532af5fb07084b71ba8188",
+      "bytes": 251787
+    },
+    {
+      "path": "CTRP/folds/tuning__r17.npz",
+      "sha256": "691286dcfdd72a8c16faa06586dab511335514a333837c8218031562f864abf0",
+      "bytes": 1961670
+    },
+    {
+      "path": "CTRP/folds/tuning__r18.json",
+      "sha256": "a610117dc7b5664f0ffbda6ea9c6c17f863779669d0bc27922c269ac7bdcc969",
+      "bytes": 251722
+    },
+    {
+      "path": "CTRP/folds/tuning__r18.npz",
+      "sha256": "3dc80f90e4b5af75913a2807175058645dd479334a32d0d67a89629f92561e42",
+      "bytes": 1961219
+    },
+    {
+      "path": "CTRP/folds/tuning__r19.json",
+      "sha256": "d489e46b814dbc21ecf4e16ae6ca0dd2209a8d36fc1215e51bbea5738dfdaf80",
+      "bytes": 251736
+    },
+    {
+      "path": "CTRP/folds/tuning__r19.npz",
+      "sha256": "a4b56eaa2667c98ac18166ddf0e7bbcd87c6052bb7ded41831c9e7a725880a8d",
+      "bytes": 1962634
+    },
+    {
+      "path": "CTRP/folds/tuning__r20.json",
+      "sha256": "9d9f324ac5b2f110155dd7ba7f4f2914d514785c7282cc410d71ec724c59f022",
+      "bytes": 251714
+    },
+    {
+      "path": "CTRP/folds/tuning__r20.npz",
+      "sha256": "78397523c067b13192b288c272b77b633534b32d6990e21f69481d77d69d5988",
+      "bytes": 1960892
+    },
+    {
+      "path": "CTRP/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421",
+      "bytes": 206544
+    },
+    {
+      "path": "CTRP/predictions.npz",
+      "sha256": "ca5f0f1780923be50e27da649febb4d5033439ebd428fa5c98b8d907a26b4e3b",
+      "bytes": 264131
+    },
+    {
+      "path": "CTRP/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+      "bytes": 16057
+    },
+    {
+      "path": "CTRP/validation.json",
+      "sha256": "43f8cb321c90f8be6c0a333eb89d5d7c08972c7a3a648fa1eff8c1d08eb4da3f",
+      "bytes": 1831
+    },
+    {
+      "path": "PRISM/bootstrap_draws.npz",
+      "sha256": "3de94fe76457d52a1bfd39771fb98b3828e79a8a95adde5c92a303685bde513f",
+      "bytes": 2803779
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r01.joblib",
+      "sha256": "377e85a01dac3f2cf9e0f3ae29cfe1eb9c4e8f6534c539b02036b3e39a0af6ff",
+      "bytes": 26203
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r01.json",
+      "sha256": "8f682da9972f9acec1f440f05c16b4647e88f06a5d76511233898619fed51e37",
+      "bytes": 41917
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r01.npz",
+      "sha256": "f729c03e795bb69cf77054b5dbf94962e13fa79ac82fb45256da784b52d13cfc",
+      "bytes": 1961
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r02.joblib",
+      "sha256": "35959da4b649827faf4a069289d1d65ec746d309c03a1d58c9b618274b8bb002",
+      "bytes": 26180
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r02.json",
+      "sha256": "c8fc84709e99818f1342040d9d3bff1d03c7924fcf820dc86e7d3fb09a1fd392",
+      "bytes": 41971
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r02.npz",
+      "sha256": "eb93eed33a5e531600da9ac0a033bf961e468df39abe6adde29369468fcc206d",
+      "bytes": 1950
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r03.joblib",
+      "sha256": "81c29bb5f77045f2256856b85a6d84704b029039a347b1308b849df85c47c6ff",
+      "bytes": 26176
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r03.json",
+      "sha256": "572f0843870b9b9346b49444554f32ab0e0133afecaa09bb5058800324c7437e",
+      "bytes": 41905
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r03.npz",
+      "sha256": "023cc0395b07d7be0d7468ccd0208fb430ec8c551cd8e4f6980ab84037415e90",
+      "bytes": 1938
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r04.joblib",
+      "sha256": "7cacf10fe16de3a949f961dc0373e1d879b5b56eea9677f91d828abebd6254d8",
+      "bytes": 26035
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r04.json",
+      "sha256": "bf7fe6bc9f90d5f0ee0ce480641e890436e304f0244f8f4112ab0ce2fc9c6ff9",
+      "bytes": 41977
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r04.npz",
+      "sha256": "68a28484dfb1c42378fae2c4eec4c0e834af3aeb49c0fbf7a1852f873617b7f8",
+      "bytes": 1959
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r05.joblib",
+      "sha256": "94fe8a310c5a3eb15cb0a62f523e9f1819c7c73dc9eb1e90124c4983f0a0d57e",
+      "bytes": 26179
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r05.json",
+      "sha256": "51ddc54f0620e89eff09044f1047bb0cc2d311431e0eec2c1ed183570ea3cb35",
+      "bytes": 41972
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r05.npz",
+      "sha256": "6b4e48a965cd07a40f839695281120fffd50cd27592aba185ad1a7841ed6194d",
+      "bytes": 1955
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r06.joblib",
+      "sha256": "d8fbe83d1ecb8710ff949e4f793a04d84c6bf108623a0dcb8fe3bca4cb7d54b9",
+      "bytes": 26062
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r06.json",
+      "sha256": "8b4417f2f63bbf630c4c01f88c056d0bd332196d1d4e663f5738653081175dce",
+      "bytes": 41946
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r06.npz",
+      "sha256": "c05a0a2cade081b42ba6e1b0f5de0a213e8066bd2993e255e6d319c206dfdaac",
+      "bytes": 1948
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r07.joblib",
+      "sha256": "a0fc2ae76a9108b0e9ab7bf82ae2f9416a129d6074914d7f5c73754291b53343",
+      "bytes": 26182
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r07.json",
+      "sha256": "2211298bee2365dce0250d940a946a11b95f10f463426a8aa88f3bef976809cc",
+      "bytes": 41923
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r07.npz",
+      "sha256": "02aad10cc58b4c1a4c510080d54cab987121ba55a31693e5cb5a28c3c98dca38",
+      "bytes": 1960
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r08.joblib",
+      "sha256": "2a6992fe448b73c9867e1cb8224c611104caafa7bbafaad0bfbd3f20d3c35636",
+      "bytes": 26187
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r08.json",
+      "sha256": "65bc058973fcd66765f64a8a333ede744fa61ebfbe61a0f039fc1e747a73fe60",
+      "bytes": 41961
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r08.npz",
+      "sha256": "6babfbf701255d937c875e98b9acb9a64f3f32846c0dc538ae75f4c2eebcec3a",
+      "bytes": 1959
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r09.joblib",
+      "sha256": "1c89e53b46be1cee273627889615e96636716556bc6f9329fd343bca2de7181f",
+      "bytes": 26175
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r09.json",
+      "sha256": "05762ca8624deb8461db727f73f31729f6184a3881ad962a1eca92aa767ebd9f",
+      "bytes": 41975
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r09.npz",
+      "sha256": "c4247134b3a4b64c8567785204ab832b5a248fb60a3476412af97d7ee19a6f05",
+      "bytes": 1958
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r10.joblib",
+      "sha256": "107b2bc964fd1f8cd5f2f9575624d6be21a41e5372258f46955d0a37715db3e0",
+      "bytes": 26039
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r10.json",
+      "sha256": "97e8870ed9572fd33f6ff94447684045117cc88725f505d956fa9b52a8461778",
+      "bytes": 41922
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r10.npz",
+      "sha256": "a1ebfa8a6ffce1015dd170f34bd1fc1a3ccb4f9e10b533ad557202f66f50eb95",
+      "bytes": 1958
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r11.joblib",
+      "sha256": "75e781e9266f3d8366f860cb152dae4cdc7d09f2411a2b40aead7fa3563e80b4",
+      "bytes": 26175
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r11.json",
+      "sha256": "d5e3dd0a385479b31b3bb72b53b4ef8a6d33db28e807e8d32257002b7da74d69",
+      "bytes": 41911
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r11.npz",
+      "sha256": "cdc609f4e649957266211e89b72aeb8c3ef49f3e7a7002bc49b78e23c408152d",
+      "bytes": 1950
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r12.joblib",
+      "sha256": "195c6fc5ff6ce4c6f24a021e22718a64bfbba024c2f568fe3bc0bb7830972a14",
+      "bytes": 26067
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r12.json",
+      "sha256": "ec0ae60f3487520807d3a23c43baeffdc913948d0bcf8d2011504a7f0f0703c5",
+      "bytes": 41888
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r12.npz",
+      "sha256": "8f24ab90213ffc14d9a83ae693ecc334bdc4aa9a6a99b6ec7b349ece17bda2a8",
+      "bytes": 1957
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r13.joblib",
+      "sha256": "0ec1d4aa0931d7059710157e128a9ca6b5303ee5a017b98229349b8e7e0a457a",
+      "bytes": 26161
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r13.json",
+      "sha256": "41a2bfb95f68bd6c1bd5fe70b74cb7206c3d44f926e5748def9300c20f35b8c2",
+      "bytes": 41902
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r13.npz",
+      "sha256": "be8883360956d8dcfc938debd6fdaefafc0d4df1f7784c7cfac3b2dd7a9a430f",
+      "bytes": 1959
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r14.joblib",
+      "sha256": "71ff3b02f1f9ae9f925050418d63c061bf9b946f98d90da1b7bc10b0648c523a",
+      "bytes": 26071
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r14.json",
+      "sha256": "1be40a5d3d267be09ceb63a55167ee59c89a12e11d62bcedd5e6e42d9d7c0022",
+      "bytes": 41941
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r14.npz",
+      "sha256": "47fa61415361b0f6e02c6c4539f78ee52e708d70fd84a750c4f1faedafe44e7a",
+      "bytes": 1952
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r15.joblib",
+      "sha256": "8ddec21f2ddb741ed51cc995cc768e2271fc55851addbabbe551c0f734725abf",
+      "bytes": 26167
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r15.json",
+      "sha256": "4ed47ba9883187a8949ff4488015b9c6a7691ee1d01c1adddafc3960e7111b6e",
+      "bytes": 41952
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r15.npz",
+      "sha256": "e57790f28e05c3a61f6467871bc888be2ccba7d7388134824a3dcb5615a1605f",
+      "bytes": 1951
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r16.joblib",
+      "sha256": "6a29de5bd182feb83a51ceee895faaf3d0ff4902e8b1a3768feb6a13e344514b",
+      "bytes": 26037
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r16.json",
+      "sha256": "c8606aace3e14f31a740ebb3856482e2d3f839a960e53f660397dbd386a271a7",
+      "bytes": 41942
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r16.npz",
+      "sha256": "3bc70e79e990f74c195622bd18e0a421cca970c4326740109950d5f4c9c85e5a",
+      "bytes": 1965
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r17.joblib",
+      "sha256": "d545f31463a9da206827acc8c82b23f9bef36ff49767bede5d52bfaeafc84965",
+      "bytes": 26177
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r17.json",
+      "sha256": "6f77c206b66543baee361900793111d9f77f602cc38b6bb14d1edfd163586dd4",
+      "bytes": 41959
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r17.npz",
+      "sha256": "e05c36bf2954fee065326b83e94db88d07bde4a72d891020d3f31e132d0825a8",
+      "bytes": 1957
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r18.joblib",
+      "sha256": "9de3379eadb3870564edeb451f740da6954042ed396801dffa7e207b5477eb3c",
+      "bytes": 26065
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r18.json",
+      "sha256": "e2a698fe890b5b48e3469e918a59fb0fe9b3b7b47f2060c80ef2cef9f466ee99",
+      "bytes": 41983
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r18.npz",
+      "sha256": "139e20fe379b091713d7bfe365c3838eff45f2d7307c8590f1e0232b336493de",
+      "bytes": 1953
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r19.joblib",
+      "sha256": "515f8ffff56c494bf37a828a7b393dea534aaf51687e70171f0f1b690a0fe659",
+      "bytes": 26172
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r19.json",
+      "sha256": "0e42550c767a0c0dc133007aebed4d3035b9552a6fd359f7b89c4228a193a252",
+      "bytes": 41942
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r19.npz",
+      "sha256": "b79ea863df782e3f07caaac5584219e376b47f1f468dfac0f4d1ced7e9b3d64a",
+      "bytes": 1952
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r20.joblib",
+      "sha256": "7bb8c48fe41093c75d47956249b6bd3d9e472ef9fcf93e3a4afefd980ceb6873",
+      "bytes": 26069
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r20.json",
+      "sha256": "a697634f02e115bbba41006264a56fa51b538edd7a2c7508c5515ffb04aa1def",
+      "bytes": 41916
+    },
+    {
+      "path": "PRISM/folds/hierarchical_slopes__p64__r20.npz",
+      "sha256": "24730d16be7c32136ce57055a2eb1bbf1d900adee9294bf20802592af1c5c461",
+      "bytes": 1955
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r01.joblib",
+      "sha256": "99a53c17a7e8d555b43aeaf038e501063e6a7fa814ff63be4f4bd6f55776abc7",
+      "bytes": 17083
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r01.json",
+      "sha256": "8352ba5ca28a5ca84f044389c1050dd0acb562633e77a09c27a8fe99b274d1f6",
+      "bytes": 41915
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r01.npz",
+      "sha256": "199bd6cd81c4f1c06a902c605af011c6defe0ea6a0ab0cef07fee58fd7bb60a4",
+      "bytes": 1953
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r02.joblib",
+      "sha256": "221264efa695a23cd5cdbd74bb153c6d6943c03c76205e5d0a9a026267b098f8",
+      "bytes": 17046
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r02.json",
+      "sha256": "58f3ff3f5ad8602e4c6a79a1746ab446a1d311cfd7186ba5f79689adc6b466f5",
+      "bytes": 41954
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r02.npz",
+      "sha256": "ef609cbc6cc03c038b351d3a888bef0c35da4a7e7f551541d7fd77dd20846785",
+      "bytes": 1949
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r03.joblib",
+      "sha256": "913e619ca6eaa58a4a9135a44bb4353a029bb74f34c22e50800ffbbd19a78f6e",
+      "bytes": 17046
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r03.json",
+      "sha256": "01e32420fadafb4cc2ce2adfd04a34ed3612d6ed300d402e8cd2f154d3e04a6e",
+      "bytes": 41902
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r03.npz",
+      "sha256": "75668432e1db8e93245dfdc4fb24680bd2c40043b120a1a67c0b0cfe8fbea78a",
+      "bytes": 1940
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r04.joblib",
+      "sha256": "21f7f03fe7badace75cf25c49bf7d9035f26948333c86debf47981f6214be9b7",
+      "bytes": 16913
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r04.json",
+      "sha256": "94a5f245dc3552776a8ac0baa501abcc40f348638156b1967632cd2410e04cd7",
+      "bytes": 41973
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r04.npz",
+      "sha256": "974104f722fcaa3456649256156d0f250d9d2c47c4a715b4788f38f345c374db",
+      "bytes": 1949
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r05.joblib",
+      "sha256": "7bb142567a3cff980a35350a695e09b7a301ce2cb8606fc6eb892fcafe4aa89f",
+      "bytes": 17075
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r05.json",
+      "sha256": "a9885e6256077157ebdedaa6064b34a50d36afe6e927965a183909a29d32369d",
+      "bytes": 41968
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r05.npz",
+      "sha256": "6d0f278ead4e1508140a0235c7bcb1c97ff4318c4ab6e32151d8ecd4c9754a22",
+      "bytes": 1953
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r06.joblib",
+      "sha256": "49f9be9aeefe06bfee40840a25346295470c9dca24335bebe52677464e8c7c9c",
+      "bytes": 16943
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r06.json",
+      "sha256": "9c742f0edaf3bc8ec12a1ad544ae71642babf289fa7bc67b5e479c9ea422cf12",
+      "bytes": 41944
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r06.npz",
+      "sha256": "e5e5a7bc30f63ac34794fa62815433ea1fdf642bc8cd96feae77a839de257b49",
+      "bytes": 1948
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r07.joblib",
+      "sha256": "9c90d53a401a2de38c1c34ae20a6989fa2e6ad083ca03344d2179141ba3608ec",
+      "bytes": 17079
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r07.json",
+      "sha256": "e54f6552b508b55e209c45504c96d6000ffcc72046a385d02ced7a8358a31e77",
+      "bytes": 41921
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r07.npz",
+      "sha256": "81266c4356b096b17ca47de9be712349cc1940dbfe596fb1a22dc8c6848fccbc",
+      "bytes": 1961
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r08.joblib",
+      "sha256": "69b85731b319f3718e494ef5974d638841c285715402b4265fc4c1205e6771a6",
+      "bytes": 17087
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r08.json",
+      "sha256": "794cca242fadb7c18eca3913d787e9fb5b811467799ada1c0d4e4f3d0f025bae",
+      "bytes": 41946
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r08.npz",
+      "sha256": "a51cc93f941f3fab3a0e038c7b08ca132469d7e0f0162350e6daf31d0f34420c",
+      "bytes": 1956
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r09.joblib",
+      "sha256": "76d5aa470e7a8aa24ce1042a675af0046c842b8c409283499520723bfc8fd550",
+      "bytes": 17083
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r09.json",
+      "sha256": "539f37d307b7167593fe79ec94ba2a9ac34bcdc8ef7cbf8258f3dc8dcb469e77",
+      "bytes": 41971
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r09.npz",
+      "sha256": "ec5bf71c23821fe0f67a7d9685eeb59d31127a700121b64c9e540717bace63dd",
+      "bytes": 1959
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r10.joblib",
+      "sha256": "c88d6b96682d7a552cd05b3a167ab0b34de66c5edd68322ba7a737166ba0a0a8",
+      "bytes": 16912
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r10.json",
+      "sha256": "658eea4227314fc303c17296fd4216c4a12dba37f716a9c0e5ffdd73bd58a04d",
+      "bytes": 41918
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r10.npz",
+      "sha256": "1b5380e541c36aaed8af54ad76b6c406c553dab8c4704fd59569cdd1e9883ac3",
+      "bytes": 1961
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r11.joblib",
+      "sha256": "78e2b8da54b81755d09b95ed8600b3b63b7239a4af8ddea6b178223b6aad8fed",
+      "bytes": 17062
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r11.json",
+      "sha256": "92b541a2999b963293ed03c7b660e66a26426f7e0e930fb94787acb1ec41854c",
+      "bytes": 41907
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r11.npz",
+      "sha256": "95dda7c6ef7dbe5db06e4278ed57baf54632c1f9382b579348cd9317c560d817",
+      "bytes": 1946
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r12.joblib",
+      "sha256": "c59460030f312f3683dcfa15584d495137881d28cbbd9f9055ad9fcf805f89ad",
+      "bytes": 16957
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r12.json",
+      "sha256": "b413353141b3fbe6c320a5428feccc6624fe6469aba51cac2bd298b9cce91ac6",
+      "bytes": 41887
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r12.npz",
+      "sha256": "5a9c76eb8dac132b2e7e0148374e7ddee9ccb531a1d82ba2476968eea1c61fd9",
+      "bytes": 1961
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r13.joblib",
+      "sha256": "5beaf49c2eaa217197e2f74c0561e82b5f26c3f546d81349fa0badd52c6465a7",
+      "bytes": 17045
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r13.json",
+      "sha256": "5749c5d4ff6fc24dffe5f0d854fa706dee9f945ed2ec3a18d59e3da7956bd78f",
+      "bytes": 41885
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r13.npz",
+      "sha256": "6a6cae9af8c7ccf598c521a33a47dad03d36167d4a33f25e9f68c0666bb5393e",
+      "bytes": 1956
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r14.joblib",
+      "sha256": "98de147a997bb830c52443c2c4ad9833041035b5a3e4bfb1650961e9ee8b42e1",
+      "bytes": 16943
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r14.json",
+      "sha256": "fa63f5ae9fcc1d95d4965fae5fbbaa4359abb2e003be8f3bb494595df13aa773",
+      "bytes": 41938
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r14.npz",
+      "sha256": "e64198d651b6f05d71cc01dbfed4ad2751a8a2f0420b11d4d9b7795b13baf811",
+      "bytes": 1951
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r15.joblib",
+      "sha256": "0e025e6f36da71a5471fe2bd2e6bfc33c26007bd99a8a69b85734e160c326930",
+      "bytes": 17075
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r15.json",
+      "sha256": "373ff71f47d182ea4952841c87051f1ca06ee86104d69ec1be679dba775ccdcf",
+      "bytes": 41950
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r15.npz",
+      "sha256": "1abecd9ff0e1702e106057c90664306db8a8339732942ba3ae13e59278c0535b",
+      "bytes": 1955
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r16.joblib",
+      "sha256": "29feef2722b1620829e02e418fe4e4c18ce6765bb5559f08ac28a6f75e138b68",
+      "bytes": 16903
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r16.json",
+      "sha256": "ab58e50eeaa44e548e04f9800143fe72949bec90f7edaa636cdcd99acc301eaf",
+      "bytes": 41938
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r16.npz",
+      "sha256": "98a655ad864aa463577d7e3aba04950034d25aa3314315912401839eff84a31c",
+      "bytes": 1958
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r17.joblib",
+      "sha256": "c33b9866b202b1b806c0254ce38a175f1a7ae4064666a2351873135b3fecfff4",
+      "bytes": 17064
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r17.json",
+      "sha256": "bfc26ee56bbee1b57de3a3affb1ec195c4434eeb44f5fc8f42c889710e179c48",
+      "bytes": 41942
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r17.npz",
+      "sha256": "393cfbb251b74504cf13b5c00c2378810cfd65711e45034f27b3457f6ca29e51",
+      "bytes": 1953
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r18.joblib",
+      "sha256": "d35977198fc233e58c0019864fcab352b34ea63efb2dd33c3c02fd3170eac368",
+      "bytes": 16953
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r18.json",
+      "sha256": "90b0aec4dc5457196943ed9c14fd930ff55853c978e14ecbcd52b7dbe216091f",
+      "bytes": 41981
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r18.npz",
+      "sha256": "743d239c0065a013288e475b083ff479f42cf3903e85ebdad50b8bd5f42796ba",
+      "bytes": 1956
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r19.joblib",
+      "sha256": "09707d24a914a067c7b1a5a259cfddfae9b522ef08724cd083aa0d743ac38ae4",
+      "bytes": 17073
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r19.json",
+      "sha256": "eb70ae0127515b87845484b8495b5224cc3d2612e0176c5225ceed787f05c134",
+      "bytes": 41939
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r19.npz",
+      "sha256": "8f409ecd4afdfa6767d016ef6ada12d4819d6725b54fb0b105d64c2e2b3b08ec",
+      "bytes": 1953
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r20.joblib",
+      "sha256": "b9da891f6def4f5948d961b84321c952517370dd896ae7016637fbea77478f63",
+      "bytes": 17079
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r20.json",
+      "sha256": "12efe59e0b25eed124af51a8b28cd9cd47e74a42e6a5236b16c597a175f9809f",
+      "bytes": 41901
+    },
+    {
+      "path": "PRISM/folds/matched_intercept__p64__r20.npz",
+      "sha256": "7247118439aa2eab7406ff1bb58f4930ac3e5800807110bc1edd0a6fba6d7e40",
+      "bytes": 1957
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r01.joblib",
+      "sha256": "377e85a01dac3f2cf9e0f3ae29cfe1eb9c4e8f6534c539b02036b3e39a0af6ff",
+      "bytes": 26203
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r01.json",
+      "sha256": "744dd9a15773e987dcca71523d87e79cf7bb9fd76baa304435b20274db05bbba",
+      "bytes": 41913
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r01.npz",
+      "sha256": "f729c03e795bb69cf77054b5dbf94962e13fa79ac82fb45256da784b52d13cfc",
+      "bytes": 1961
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r02.joblib",
+      "sha256": "35959da4b649827faf4a069289d1d65ec746d309c03a1d58c9b618274b8bb002",
+      "bytes": 26180
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r02.json",
+      "sha256": "72f2dcb90ed7151942d07a2abeb6a856cdaf0c13324bf56bf492d1869b8e8073",
+      "bytes": 41967
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r02.npz",
+      "sha256": "eb93eed33a5e531600da9ac0a033bf961e468df39abe6adde29369468fcc206d",
+      "bytes": 1950
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r03.joblib",
+      "sha256": "81c29bb5f77045f2256856b85a6d84704b029039a347b1308b849df85c47c6ff",
+      "bytes": 26176
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r03.json",
+      "sha256": "6d0b8088fd7e6c0d51851df63d6d531ad1e6dc2cece07a419ab5857a1ff72772",
+      "bytes": 41901
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r03.npz",
+      "sha256": "023cc0395b07d7be0d7468ccd0208fb430ec8c551cd8e4f6980ab84037415e90",
+      "bytes": 1938
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r04.joblib",
+      "sha256": "7cacf10fe16de3a949f961dc0373e1d879b5b56eea9677f91d828abebd6254d8",
+      "bytes": 26035
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r04.json",
+      "sha256": "ff4748402cf37e53512957db90e32affe2bcc60b939772a9808a24d57a4c7e4c",
+      "bytes": 41973
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r04.npz",
+      "sha256": "68a28484dfb1c42378fae2c4eec4c0e834af3aeb49c0fbf7a1852f873617b7f8",
+      "bytes": 1959
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r05.joblib",
+      "sha256": "94fe8a310c5a3eb15cb0a62f523e9f1819c7c73dc9eb1e90124c4983f0a0d57e",
+      "bytes": 26179
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r05.json",
+      "sha256": "9ff95be5403a68a3dba17937172a999ac9ad701a68204e19614ee85c52810a0c",
+      "bytes": 41968
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r05.npz",
+      "sha256": "6b4e48a965cd07a40f839695281120fffd50cd27592aba185ad1a7841ed6194d",
+      "bytes": 1955
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r06.joblib",
+      "sha256": "d8fbe83d1ecb8710ff949e4f793a04d84c6bf108623a0dcb8fe3bca4cb7d54b9",
+      "bytes": 26062
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r06.json",
+      "sha256": "68177515215d68afad32f0e9aa79369054702f35ed5851544704751cec78f997",
+      "bytes": 41942
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r06.npz",
+      "sha256": "c05a0a2cade081b42ba6e1b0f5de0a213e8066bd2993e255e6d319c206dfdaac",
+      "bytes": 1948
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r07.joblib",
+      "sha256": "a0fc2ae76a9108b0e9ab7bf82ae2f9416a129d6074914d7f5c73754291b53343",
+      "bytes": 26182
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r07.json",
+      "sha256": "46e49071138443c3d2d494018f17071438d454a2e8f1f5afbde64f16c7fc2208",
+      "bytes": 41919
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r07.npz",
+      "sha256": "02aad10cc58b4c1a4c510080d54cab987121ba55a31693e5cb5a28c3c98dca38",
+      "bytes": 1960
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r08.joblib",
+      "sha256": "2a6992fe448b73c9867e1cb8224c611104caafa7bbafaad0bfbd3f20d3c35636",
+      "bytes": 26187
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r08.json",
+      "sha256": "ec74143e6d10081bc73c09025982c4ccd391a7a6982a82825a78b2b74b727fd0",
+      "bytes": 41957
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r08.npz",
+      "sha256": "6babfbf701255d937c875e98b9acb9a64f3f32846c0dc538ae75f4c2eebcec3a",
+      "bytes": 1959
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r09.joblib",
+      "sha256": "1c89e53b46be1cee273627889615e96636716556bc6f9329fd343bca2de7181f",
+      "bytes": 26175
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r09.json",
+      "sha256": "454af0af5bf27ff8c1eaa07cea97ca8663664f4bcc72ab4b8fed846c6d9abdcb",
+      "bytes": 41971
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r09.npz",
+      "sha256": "c4247134b3a4b64c8567785204ab832b5a248fb60a3476412af97d7ee19a6f05",
+      "bytes": 1958
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r10.joblib",
+      "sha256": "107b2bc964fd1f8cd5f2f9575624d6be21a41e5372258f46955d0a37715db3e0",
+      "bytes": 26039
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r10.json",
+      "sha256": "9231193e12418cb6ca1f7aad45f3da10f50163dd58cb770356d8a6d6fed213e5",
+      "bytes": 41918
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r10.npz",
+      "sha256": "a1ebfa8a6ffce1015dd170f34bd1fc1a3ccb4f9e10b533ad557202f66f50eb95",
+      "bytes": 1958
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r11.joblib",
+      "sha256": "75e781e9266f3d8366f860cb152dae4cdc7d09f2411a2b40aead7fa3563e80b4",
+      "bytes": 26175
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r11.json",
+      "sha256": "368e7506906e46ac3df60a929f31fa52f4b0c7391a135a3d6aedcf2a07ad2577",
+      "bytes": 41907
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r11.npz",
+      "sha256": "cdc609f4e649957266211e89b72aeb8c3ef49f3e7a7002bc49b78e23c408152d",
+      "bytes": 1950
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r12.joblib",
+      "sha256": "195c6fc5ff6ce4c6f24a021e22718a64bfbba024c2f568fe3bc0bb7830972a14",
+      "bytes": 26067
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r12.json",
+      "sha256": "318f565cd5d6d656672b2c08c545c590fe19c932c477072b1ed6a9a22c4073aa",
+      "bytes": 41884
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r12.npz",
+      "sha256": "8f24ab90213ffc14d9a83ae693ecc334bdc4aa9a6a99b6ec7b349ece17bda2a8",
+      "bytes": 1957
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r13.joblib",
+      "sha256": "0ec1d4aa0931d7059710157e128a9ca6b5303ee5a017b98229349b8e7e0a457a",
+      "bytes": 26161
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r13.json",
+      "sha256": "9cf5b5ce374ed5c25d41d64c6f5207d30374768937e81ab69b3dc17b4cb05aae",
+      "bytes": 41898
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r13.npz",
+      "sha256": "be8883360956d8dcfc938debd6fdaefafc0d4df1f7784c7cfac3b2dd7a9a430f",
+      "bytes": 1959
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r14.joblib",
+      "sha256": "71ff3b02f1f9ae9f925050418d63c061bf9b946f98d90da1b7bc10b0648c523a",
+      "bytes": 26071
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r14.json",
+      "sha256": "92668bb785267eadb21ef1b0c87cc6d93cd94c38a9236b90dee373b709ce5ef4",
+      "bytes": 41937
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r14.npz",
+      "sha256": "47fa61415361b0f6e02c6c4539f78ee52e708d70fd84a750c4f1faedafe44e7a",
+      "bytes": 1952
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r15.joblib",
+      "sha256": "8ddec21f2ddb741ed51cc995cc768e2271fc55851addbabbe551c0f734725abf",
+      "bytes": 26167
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r15.json",
+      "sha256": "50e88226d1ad33fe809a4978b2b85c1c390536c519b378a90e60738fbcec4620",
+      "bytes": 41948
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r15.npz",
+      "sha256": "e57790f28e05c3a61f6467871bc888be2ccba7d7388134824a3dcb5615a1605f",
+      "bytes": 1951
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r16.joblib",
+      "sha256": "6a29de5bd182feb83a51ceee895faaf3d0ff4902e8b1a3768feb6a13e344514b",
+      "bytes": 26037
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r16.json",
+      "sha256": "ac803d95b97db3c40f168db1fcda08dda7d211797153ae01cd3b9f75e6d9a54c",
+      "bytes": 41938
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r16.npz",
+      "sha256": "3bc70e79e990f74c195622bd18e0a421cca970c4326740109950d5f4c9c85e5a",
+      "bytes": 1965
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r17.joblib",
+      "sha256": "d545f31463a9da206827acc8c82b23f9bef36ff49767bede5d52bfaeafc84965",
+      "bytes": 26177
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r17.json",
+      "sha256": "c53ab3de1a8d243d9bbf1380ba56cdad01f4c86d489df0617a50559a864c4425",
+      "bytes": 41955
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r17.npz",
+      "sha256": "e05c36bf2954fee065326b83e94db88d07bde4a72d891020d3f31e132d0825a8",
+      "bytes": 1957
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r18.joblib",
+      "sha256": "9de3379eadb3870564edeb451f740da6954042ed396801dffa7e207b5477eb3c",
+      "bytes": 26065
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r18.json",
+      "sha256": "5e5cdf1d0b6409eae17a749ec5b04f726d14e6040503ed4aa21c8042d18e08e0",
+      "bytes": 41979
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r18.npz",
+      "sha256": "139e20fe379b091713d7bfe365c3838eff45f2d7307c8590f1e0232b336493de",
+      "bytes": 1953
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r19.joblib",
+      "sha256": "515f8ffff56c494bf37a828a7b393dea534aaf51687e70171f0f1b690a0fe659",
+      "bytes": 26172
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r19.json",
+      "sha256": "dae5515ee497fa760995e0faaa69c9a8c9be21874157bda6205e65dfc7570937",
+      "bytes": 41938
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r19.npz",
+      "sha256": "b79ea863df782e3f07caaac5584219e376b47f1f468dfac0f4d1ced7e9b3d64a",
+      "bytes": 1952
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r20.joblib",
+      "sha256": "7bb8c48fe41093c75d47956249b6bd3d9e472ef9fcf93e3a4afefd980ceb6873",
+      "bytes": 26069
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r20.json",
+      "sha256": "d2338f0b258444f393538841a07558bf67e1a10203caa3fe04d72f04bf0675b0",
+      "bytes": 41912
+    },
+    {
+      "path": "PRISM/folds/positive_slopes__p64__r20.npz",
+      "sha256": "24730d16be7c32136ce57055a2eb1bbf1d900adee9294bf20802592af1c5c461",
+      "bytes": 1955
+    },
+    {
+      "path": "PRISM/folds/repeat_01_complete.json",
+      "sha256": "0c13c02c75b553a0ad472bd9d5baaae2579772d1e71c2119112c186ce0dcac6d",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_02_complete.json",
+      "sha256": "badcdc2e94633a65becc4675af8ba84c069066e922ab2f94793c1c0d661535de",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_03_complete.json",
+      "sha256": "3409d664d2d3bfe6d0ab17626cdbb9439a99f28f11db1e1b2f6f8702ece49f18",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_04_complete.json",
+      "sha256": "facf9aefcf948803c8b5222f2f0a18cb1ae2ba23020b447669fc2aacabc109c2",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_05_complete.json",
+      "sha256": "596f1dcb323e9ed409b32bda7c60bf794e1079afc02b2479282ddd0e85db4b83",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_06_complete.json",
+      "sha256": "a7ef04b6815ab44cfc599643f3c392945bcba9dc867d84892a57e3a9fec07725",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_07_complete.json",
+      "sha256": "479e5a3f6429c6a232ee05a1815942db7fe68c76472bed45700f95f644b2318d",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_08_complete.json",
+      "sha256": "9b9ed11685e4068483057bc1b04a881eff06ee578395a431d3203ab6e017d4be",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_09_complete.json",
+      "sha256": "b26bc4edba0b3593498145ac435c54c43244e7f1703718157030e65d0963151d",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_10_complete.json",
+      "sha256": "06fb9001b7a0623851c1b77b5ec91bb20a7edb6d818749475b3933417b0fed80",
+      "bytes": 2033
+    },
+    {
+      "path": "PRISM/folds/repeat_11_complete.json",
+      "sha256": "763642934b3f792d814f0266808e230e6fbf127e7df297e99c87dbc402abb899",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_12_complete.json",
+      "sha256": "5176bf06ef1317f70ed4eb64fa43e4701efd151a60ea1f58efef43912f8e2f48",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_13_complete.json",
+      "sha256": "d213ce885f28c48cdc81893e3f7d3c6ba4515503cc6221e6c4ff7fbc89404f64",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_14_complete.json",
+      "sha256": "1840770ff99ea4012f8ef8257f3d7810f2704f576b8ffbfc2798be5fb40b8182",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_15_complete.json",
+      "sha256": "d163b3df4e974d0ec4131efc8928bcbc7df465aab3afa0b1aed7bec0e682cdcd",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_16_complete.json",
+      "sha256": "442dc8160d479a98c334a04c92fee9eeefa08b6ac28d6d2bc096c645539460db",
+      "bytes": 2034
+    },
+    {
+      "path": "PRISM/folds/repeat_17_complete.json",
+      "sha256": "2fe04b293fae286d6445bccdcb39966e2e633aab6bca8e6a7dcd8137eaee95ff",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_18_complete.json",
+      "sha256": "328ceaa4a993c75ff10a36b4778758ba115ae7c27fbffed4b15211407f3d22c6",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_19_complete.json",
+      "sha256": "1db0d256225f67fdf67ed1a8e3c90ca5b064aee48d5334dc54c69a46b541e9a3",
+      "bytes": 2035
+    },
+    {
+      "path": "PRISM/folds/repeat_20_complete.json",
+      "sha256": "4539786baf2751c271efeb4e1b16c355dd3b9709ac577bee379d0fd8c6a81f95",
+      "bytes": 2033
+    },
+    {
+      "path": "PRISM/folds/tuning__r01.json",
+      "sha256": "d98dba0bee97803f06e6017c534923f877a7e5d105cec28320e6908c1debebdc",
+      "bytes": 221437
+    },
+    {
+      "path": "PRISM/folds/tuning__r01.npz",
+      "sha256": "d4cf4aade2edbcbf4ebf0fe560b1dd3218edd83b65cfd9df55317f1ba2d60599",
+      "bytes": 1014656
+    },
+    {
+      "path": "PRISM/folds/tuning__r02.json",
+      "sha256": "04ef529a34e26ed0db99a02f9276484170193782cb734d417b8e62343c42d543",
+      "bytes": 221665
+    },
+    {
+      "path": "PRISM/folds/tuning__r02.npz",
+      "sha256": "f5cc6d16db4ee1175adea1b95a1e80411a90df68b7e507f4c9fa3ac75d073f9f",
+      "bytes": 1011660
+    },
+    {
+      "path": "PRISM/folds/tuning__r03.json",
+      "sha256": "42f61968a8bb83b541289e490da06f1b0b245a37fc3323e9c3398348c7af9a37",
+      "bytes": 221572
+    },
+    {
+      "path": "PRISM/folds/tuning__r03.npz",
+      "sha256": "3df7c343cc6ea8f72fae76e98bdd1e7f663331d3cdc1a96af284a62a05acdbd4",
+      "bytes": 1014354
+    },
+    {
+      "path": "PRISM/folds/tuning__r04.json",
+      "sha256": "ba8b38b8ac9ee46f87485e0446f4231af00bfac2f79fc8d424b0d53198b54bdf",
+      "bytes": 221629
+    },
+    {
+      "path": "PRISM/folds/tuning__r04.npz",
+      "sha256": "85d6dd8d18d973a00e1abae9768996d315115574ab0435605b5997b6f1c60cc7",
+      "bytes": 1013383
+    },
+    {
+      "path": "PRISM/folds/tuning__r05.json",
+      "sha256": "881c4610260a80ee8d67ebd3fc781606cfaa8225a87354006cf30f4515fd5059",
+      "bytes": 221472
+    },
+    {
+      "path": "PRISM/folds/tuning__r05.npz",
+      "sha256": "40cc377a34a390aee1c0a44b367cd3be73e43a482a8da26f2c3bdf7841c17698",
+      "bytes": 1013615
+    },
+    {
+      "path": "PRISM/folds/tuning__r06.json",
+      "sha256": "3b7fca09cfe73f7427ca524a88d3dac96b539d040ad042707e8371ee54adb104",
+      "bytes": 221475
+    },
+    {
+      "path": "PRISM/folds/tuning__r06.npz",
+      "sha256": "97a3c8068e67df222166518a3c459daa63310df9c96f503cb2e77241d2bc964a",
+      "bytes": 1013259
+    },
+    {
+      "path": "PRISM/folds/tuning__r07.json",
+      "sha256": "e16361d3c5a349ae8195dfd5e32d12320da7f62f64c7fac43f58a5f00cbad91b",
+      "bytes": 221336
+    },
+    {
+      "path": "PRISM/folds/tuning__r07.npz",
+      "sha256": "0f0c3edec438c77d9b7b8ade2a69e196e374a56500b1fe857f0e2437ff6fd1f8",
+      "bytes": 1012369
+    },
+    {
+      "path": "PRISM/folds/tuning__r08.json",
+      "sha256": "75881e7590d8315ef60bdf5240ec6d7811eb4f97fe20efd6f146576098adde32",
+      "bytes": 221502
+    },
+    {
+      "path": "PRISM/folds/tuning__r08.npz",
+      "sha256": "e9be730e9bfa78fbb47637f1ceaccae9b7e27af36b6e696229bff9a1658c87df",
+      "bytes": 1013486
+    },
+    {
+      "path": "PRISM/folds/tuning__r09.json",
+      "sha256": "353f7ebd1e532127d6c5079754034bc65fdbb94267b903ad954212823ece43b1",
+      "bytes": 221528
+    },
+    {
+      "path": "PRISM/folds/tuning__r09.npz",
+      "sha256": "314604c1c5019968953f67b9e73dfac95071547526ab0ca17688260f6a5aa518",
+      "bytes": 1013841
+    },
+    {
+      "path": "PRISM/folds/tuning__r10.json",
+      "sha256": "827bee7939d0794b408a8991ff61a7f7aca63a02cf948278809d6363dc0a9f93",
+      "bytes": 221455
+    },
+    {
+      "path": "PRISM/folds/tuning__r10.npz",
+      "sha256": "faf9a7847bc3eb7a3bdc1c4aa5a6497961f7dc1e3ac637d3d1eb85af500b9be6",
+      "bytes": 1010589
+    },
+    {
+      "path": "PRISM/folds/tuning__r11.json",
+      "sha256": "f809dcfcb09536b8d41e2a0e1946005c318419542247ec4cea3ff4203db13749",
+      "bytes": 221556
+    },
+    {
+      "path": "PRISM/folds/tuning__r11.npz",
+      "sha256": "7ccbe739b2934e972ba01d6739ca74708b4e5a3db25bba7aacdc14263217384c",
+      "bytes": 1012281
+    },
+    {
+      "path": "PRISM/folds/tuning__r12.json",
+      "sha256": "15702edb58990acd4e0506b8ffd00b7e26d33a45a4b3ca509f8f22674fbef02d",
+      "bytes": 221391
+    },
+    {
+      "path": "PRISM/folds/tuning__r12.npz",
+      "sha256": "92d9923e5da4e177b54f34ce0a5fd1f329e15e903539d07790ad45c2ca9ad713",
+      "bytes": 1013484
+    },
+    {
+      "path": "PRISM/folds/tuning__r13.json",
+      "sha256": "eec99865769d16a3d2b545ee63e2e77f08cc828453b3272272411c0e7420366f",
+      "bytes": 221549
+    },
+    {
+      "path": "PRISM/folds/tuning__r13.npz",
+      "sha256": "58a6a5e48fdd5c1d422e050004d9f6375130aeb2b855de6273bf4127734d8c14",
+      "bytes": 1014257
+    },
+    {
+      "path": "PRISM/folds/tuning__r14.json",
+      "sha256": "7c498e869178b65f37154048bd1e1d25a0e9d2c19aff7456925ade605c8f36db",
+      "bytes": 221453
+    },
+    {
+      "path": "PRISM/folds/tuning__r14.npz",
+      "sha256": "558fc6efe4608f91d6d51c32736ec6194b237a871f28623223842350b234f22e",
+      "bytes": 1012886
+    },
+    {
+      "path": "PRISM/folds/tuning__r15.json",
+      "sha256": "1999051fa8ad31aeb461d3dedf4bff4fc5fe74c39651762e44086097c2633604",
+      "bytes": 221559
+    },
+    {
+      "path": "PRISM/folds/tuning__r15.npz",
+      "sha256": "207ef2dfd19750695780a5e955f44b2e9736eeec5eb56bff77a3eb2a91b46b37",
+      "bytes": 1012473
+    },
+    {
+      "path": "PRISM/folds/tuning__r16.json",
+      "sha256": "6ee5b63dd5c85c6cfe9d04a2c6eaff5492722404597eac815a16b7474e7534e3",
+      "bytes": 221491
+    },
+    {
+      "path": "PRISM/folds/tuning__r16.npz",
+      "sha256": "d8ad11d8ea07537be930f3d84339d9f63f0cb71bf81f1401f2a096a7545faf04",
+      "bytes": 1014041
+    },
+    {
+      "path": "PRISM/folds/tuning__r17.json",
+      "sha256": "3011be14b1fdd731611e12e1bca6d7859aa84ece8c86d27f24d90948beca8845",
+      "bytes": 221465
+    },
+    {
+      "path": "PRISM/folds/tuning__r17.npz",
+      "sha256": "1c6dbfdb47229d40dce1948cce4a984d44c3ffe7d0498945059c9c66f8acc893",
+      "bytes": 1012873
+    },
+    {
+      "path": "PRISM/folds/tuning__r18.json",
+      "sha256": "eb639e53dbe24a9ba254822d4725bfdc3ea822557d72fe505384d490fdb7761a",
+      "bytes": 221494
+    },
+    {
+      "path": "PRISM/folds/tuning__r18.npz",
+      "sha256": "57f8ea7c293e830a095bb28e307ffb15849a821eca7697829777fda4cd33c6a0",
+      "bytes": 1013103
+    },
+    {
+      "path": "PRISM/folds/tuning__r19.json",
+      "sha256": "05bf330b0f29fba632e3cc93e9d06d80713c493c9964b165dcfdac98d7492137",
+      "bytes": 221507
+    },
+    {
+      "path": "PRISM/folds/tuning__r19.npz",
+      "sha256": "750956c38bbd00194dbd1effa68eb8301111afb44d52af25fb1ec70bf92269a9",
+      "bytes": 1014288
+    },
+    {
+      "path": "PRISM/folds/tuning__r20.json",
+      "sha256": "02237b039a9d7b47ae8f67637c5b83e85375942a25dd3ff7be5706e9fa5c7c5e",
+      "bytes": 221499
+    },
+    {
+      "path": "PRISM/folds/tuning__r20.npz",
+      "sha256": "093381dcd3c261d5ddb6bcc58101fdbdbad7c466c04e17233bd6905fbef89291",
+      "bytes": 1011804
+    },
+    {
+      "path": "PRISM/panel_inputs.npz",
+      "sha256": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9",
+      "bytes": 110781
+    },
+    {
+      "path": "PRISM/predictions.npz",
+      "sha256": "624877e41579325981572bd987ba909763a46f6ee77832d31f27418397ddd5f2",
+      "bytes": 140092
+    },
+    {
+      "path": "PRISM/shared_splits.npz",
+      "sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896",
+      "bytes": 9791
+    },
+    {
+      "path": "PRISM/validation.json",
+      "sha256": "44b492edf4f637ed33c04c6113a68d1aaf96f31bcbbc672a2f90bd2aca930290",
+      "bytes": 1834
+    },
+    {
+      "path": "README.md",
+      "sha256": "0db51cb9c595a3bcaa30616530ae9819cce384fb78c3a9d7233cc6418985b176",
+      "bytes": 3389
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "3d20806ef01163b45901aa5890883302e87025e45eb3b1143c884e4f13fee082",
+      "bytes": 8248
+    },
+    {
+      "path": "analysis_source_manifest.json",
+      "sha256": "4cb6e245cfe253eb49dbbd368a7a0620adf52f1d82bc8f41a8738d177167b0b1",
+      "bytes": 535
+    },
+    {
+      "path": "evaluate.py",
+      "sha256": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+      "bytes": 5635
+    },
+    {
+      "path": "final_summary.json",
+      "sha256": "51520b84c752169e6a04d995f4fa25545367bed148a20b9a8d03d1cbaee57dba",
+      "bytes": 29372
+    },
+    {
+      "path": "fit_completion.json",
+      "sha256": "10be02bcf29b94153f3c64cbb674373abb18eed69e01a92c4e69f6d6a4758e33",
+      "bytes": 107
+    },
+    {
+      "path": "grid_boundary_audit.json",
+      "sha256": "50709c13dbaa716011f2960eabdb4517622a7fb42e1be5f08efb81b5c7289b41",
+      "bytes": 4150
+    },
+    {
+      "path": "lineage_effect_norms.tsv",
+      "sha256": "bf66c630ab57946cdd14c3bd2ca3dd56ac7ad0598ff342261e29515224965b95",
+      "bytes": 216443
+    },
+    {
+      "path": "lineage_paired_effects.tsv",
+      "sha256": "24647766d122ffc881f7fad58b6e667526fb7fa520204173e7d7d3e4ae970813",
+      "bytes": 28903
+    },
+    {
+      "path": "lineage_win_counts.tsv",
+      "sha256": "9cbc98521d2719f39809217775e456c0d6800da3088041d4cf2378781cf6a750",
+      "bytes": 855
+    },
+    {
+      "path": "make_splits.py",
+      "sha256": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4",
+      "bytes": 3377
+    },
+    {
+      "path": "metric_helpers.py",
+      "sha256": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+      "bytes": 1168
+    },
+    {
+      "path": "model_comparison.png",
+      "sha256": "24ff056839f9e76f1f45095752710cb2fece820703a02d27fcc25f4bc5fac9cc",
+      "bytes": 152087
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "e83b7fb61ead08a3f375082487f0adac2289ec3154908619c2ffb6a326e4f20d",
+      "bytes": 96804
+    },
+    {
+      "path": "models.py",
+      "sha256": "d452172b88ee6e8b3238a3d2b4d6c725d950cfe09505cbf5a31e04ffbc8204db",
+      "bytes": 5406
+    },
+    {
+      "path": "paired_comparisons.tsv",
+      "sha256": "a187f8b889541fe41b35b40fe08717937f179ecc69e0c902d3032edc8ede0d0f",
+      "bytes": 14558
+    },
+    {
+      "path": "parameter_counts.tsv",
+      "sha256": "df3afb24e2514c5be03979011a03f0804de521a8244c37a714e73401689b9e78",
+      "bytes": 1126
+    },
+    {
+      "path": "per_lineage_metrics.tsv",
+      "sha256": "b370e57cb2546b9c53a422aa08c399ac3e015d0b490884139391f8ce060e6705",
+      "bytes": 911197
+    },
+    {
+      "path": "per_repeat_macro_metrics.tsv",
+      "sha256": "9d0069c13c78cf9fcd8dfbed9717e999023c66ade349fec34a06d88426998245",
+      "bytes": 22791
+    },
+    {
+      "path": "per_repeat_pooled_metrics.tsv",
+      "sha256": "65b329f453f0f143c7455298e08bc5ed406b620910aaa89ee34246e95ad6cf80",
+      "bytes": 43340
+    },
+    {
+      "path": "preflight_validation.json",
+      "sha256": "9a2605908970e42b4d85960573ca14c79257aeea1400056bba522a9c5c8accb2",
+      "bytes": 1060
+    },
+    {
+      "path": "progress.json",
+      "sha256": "4a37eeb4e70f5dff2cdc2d35f5ab88f5a77c3ed5d2988bc9d9ba6bb10da1e0d8",
+      "bytes": 113
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "f15c9d559cf3374049494768b1aa7c70fbf387204323d09498b2ba2dd9b415de",
+      "bytes": 49747
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "81b40c3c427c1a8f8cced9f4de9855ac2c417f452f1943947e99bdab2189acba",
+      "bytes": 152
+    },
+    {
+      "path": "review_benchmark.py",
+      "sha256": "d86e871754e1d72781cef25fa01e8bc19f6ca33dd7f0c6e6b1ca9a12b7f849d6",
+      "bytes": 27542
+    },
+    {
+      "path": "run_benchmark.py",
+      "sha256": "55ddca1ca96900e6afaa947b21add43b6a7f82a472de2bb10173664291667eac",
+      "bytes": 13676
+    },
+    {
+      "path": "selected_parameters.tsv",
+      "sha256": "b269df30adc79605dafad746a8d10c7945a2ae85c22c38af917681ae8ddef6ce",
+      "bytes": 9025
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "02e511b211ca0d5822dea8db456602ed4c1cd0e0fed3637e0ff9ba4f7fb09ebf",
+      "bytes": 163345
+    },
+    {
+      "path": "summary.tsv",
+      "sha256": "531159149f96dbfa924202f38bd2370666285083c038151fc608f81ce9b0d3a3",
+      "bytes": 6645
+    },
+    {
+      "path": "tuning_scores.tsv",
+      "sha256": "6e54fd45872da65d1f2b82a188821647cde4916acedecacfe86687f7396eaced",
+      "bytes": 723068
+    },
+    {
+      "path": "validate_preflight.py",
+      "sha256": "99241be799da059fe52c2ec8b55d823e4d08a985220f43dd48f578846f08f11f",
+      "bytes": 5163
+    },
+    {
+      "path": "validation.json",
+      "sha256": "db96d43e2de56fe9734c3b7062e4148a144cf14ad194f4578dc591fd780fda6d",
+      "bytes": 5533
+    },
+    {
+      "path": "visual_qa.json",
+      "sha256": "14d3ed6ab67b44761abd999513516b78335e795028e98837b8ba909fbd31f517",
+      "bytes": 507
+    },
+    {
+      "path": "weighted_mlp.py",
+      "sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+      "bytes": 2493
+    },
+    {
+      "path": "within_lineage_metrics.tsv",
+      "sha256": "d88a326e3e475122d8f10964d9854ac89b8e4519216fd62ba779bd752c8059d8",
+      "bytes": 20507
+    }
+  ]
+}

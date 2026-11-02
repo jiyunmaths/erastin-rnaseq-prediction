@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "3d1447e142bea3b27171a22485a348e39cbf5f082f50db0b8d40d36f30b7fcea"
+    },
+    {
+      "path": "candidate_gene_stability.png",
+      "sha256": "3ae83c5b8a666110db13369ed1caf9b460e9dc8612f8c8bb2d299274c0e4825c"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "04c04b0b9994a2071c43d72b273cd5f590b955249b640b9155d54668bc619657"
+    }
+  ],
+  "checks": [
+    "Inspected both PNG figures at full display size: labels, intervals, axes, legends and annotations legible; no clipping.",
+    "Positive RMSE reduction and Spearman increase favor the augmented models. Both assays and all four primary comparisons displayed.",
+    "Candidate counts match saved tables and distinguish the two assays; title labels training-only overlapping splits.",
+    "PNG hashes unchanged after report-only rerender.",
+    "Retained core64 model registry exactly matches Git HEAD."
+  ]
+}

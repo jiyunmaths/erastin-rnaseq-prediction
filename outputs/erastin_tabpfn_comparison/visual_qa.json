@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "figure": "model_comparison.png",
+  "figure_sha256": "4f34cee68e24bc19d9122bd1411d5ff6f36994ba9c474841012c4795af970bf7",
+  "checks": [
+    "Four panels, reference labels and numeric ticks are readable.",
+    "Zero-reference lines and positive-improvement directions are explicit.",
+    "Every plotted interval and mean effect matches paired_comparisons.tsv.",
+    "CTRP and PRISM are separate and all repeats are described as overlapping exploratory holdouts."
+  ],
+  "retained_registry_unchanged": true
+}

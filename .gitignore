@@ -32,6 +32,8 @@ Thumbs.db
 !/work/**/*.py
 /work/**/raw/
 /work/**/packages/
+/work/**/venv/
+/work/tabpfn/pip_cache/
 /work/**/source/
 /work/bulkformer/
 /work/**/__pycache__/
@@ -110,6 +112,8 @@ Thumbs.db
 *.pth
 *.ckpt
 *.onnx
+*.safetensors
+*.tabpfn_fit
 *.h5
 *.hdf5
 *.parquet

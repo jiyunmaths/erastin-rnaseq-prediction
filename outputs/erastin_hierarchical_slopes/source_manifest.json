@@ -1,0 +1,3448 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/protocol.json",
+      "sha256": "cfb67dcc20127572a47daf7c6af88ae7542537690eb8274745d8ca2f87401b82"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/validation.json",
+      "sha256": "6112b6b0d3df3d5fc4de53d7629d2307f929a5d547cf01b11b867d5ad8450a38"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/summary.tsv",
+      "sha256": "c097f17315f6ca2903d214cb27aab9952af15bdeb3981e7e06a7ab8906c48fad"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/analysis_source_manifest.json",
+      "sha256": "62b88352d46d1ceb1a8317f8f9a05255e2c6512e6f90db1837b2099cd3a806ba"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/predictions.npz",
+      "sha256": "070cf7c110b250ece8a88a24806451531eacfd5b6a6eadbe29f3841c31ef7cb0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/validation.json",
+      "sha256": "b33c869a1e67a4ddb2aefb1db17a03202d71c00fd9e9c441ae76f0b25df2f426"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r01.json",
+      "sha256": "c58b1d6fdab8f95946364bf44cd5a68c42010617ccf5a7c158a311e6222a18f8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r01.npz",
+      "sha256": "7982486faad755012e4dc0ed0e21605b1bb03a1a3fa3724c2862e83ce078f1a9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r01.joblib",
+      "sha256": "cc80e6946c4fb7660b5e971ba49cb5c3d5640fff1a00bf58a38a9b4b14d84f7d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r02.json",
+      "sha256": "9645700746bd388c20d0fb6ce3ec1e392063ffcf1e5dca2f73b30738ba13927a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r02.npz",
+      "sha256": "490af2d721030a0310c773c7645f487b98e752abf41d3f059d6e6c0fc4ea5213"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r02.joblib",
+      "sha256": "aacfd6cdca01fd9acbb60d8763b83a4c7c1911b46495384c9ab3eeb129d605a4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r03.json",
+      "sha256": "34b953376f25dfa75d617e30d7a78b2aea23a5be7a34e9c3cfe12cee22b44fdb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r03.npz",
+      "sha256": "780efa5c49317dd303a6417a6f50d79082b4b9afba3aa6f8fac1632d264a1be3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r03.joblib",
+      "sha256": "7d9f7178bab006becf408f4b21ee0afbe2a65477431c31a289dd3203d711a9be"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r04.json",
+      "sha256": "7311da8fba3a12e015c3a78f8bd6fac1d9ed6e88a03772e619785ef6b43d1d73"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r04.npz",
+      "sha256": "1cfbbcd0864b6a8c5f7ae3dd0f643d6949863199aff19844c43079af1bd17cf2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r04.joblib",
+      "sha256": "ef73cd6a27c7f7c23ab3a32c44c110e6f2203aef6cb3cdcbfabb0bd7ddbf475f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r05.json",
+      "sha256": "32ef8bb9dd4e5b59f5d8f541d413d5e8570acdf5e85d4c1e0f2ea9635bc6417a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r05.npz",
+      "sha256": "1aa3b445b2562e118a72083d91f54bf53539c86f601b9aed1638714f272c8042"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r05.joblib",
+      "sha256": "ad5de7feb4f7d3500b2357142ce08c9c08496ccc54386ae731717ba225918bf4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r06.json",
+      "sha256": "849711fa62c87d7b5ae77e18574fb0f7e8fbd59815da5cb9a45d8743c29590c5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r06.npz",
+      "sha256": "b7a3bc007409016ebcd59fec6be3902fbbb4aad6bd14794edf324934c74bb603"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r06.joblib",
+      "sha256": "3d949a1d8ce26d48746a82390a16c64f5659a3648cddced8d59084e320951776"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r07.json",
+      "sha256": "de26c583cc304680b47a8457305c0f94c2341668b5a843808448340bbbf1978c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r07.npz",
+      "sha256": "ee7c61208bcd54233b26e398fa53373528beea5b4e2cdcaf1187d8ed884f2e2b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r07.joblib",
+      "sha256": "787998b6cc90f8a769e371b723aaab4bfed65f9ed685952de5f4c5db262dc8d5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r08.json",
+      "sha256": "160e290fd7f993a7a585f471982176ea501e91f173cae3e89beff36a40c6ba2f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r08.npz",
+      "sha256": "e59d968b10dd24d853b9448a25deb9389e745e4239e23ff2a151efc7308b31cd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r08.joblib",
+      "sha256": "b524e65ebad0d8a23320198c499768564e25a793aaaed9511c7dbd2337ab1df2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r09.json",
+      "sha256": "2f28bc0e4e4e2c6f79fc1ca043860cb73e62f99cfc15147657eea18456018e17"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r09.npz",
+      "sha256": "a356fcf13c9d5b1c41295113678ca97ee90686c5d3298a8d573a3fa47dc92431"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r09.joblib",
+      "sha256": "5c35191c7a0fc8c3d2c262d3746b9e655c77231b28d9417f88f177d58c103902"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r10.json",
+      "sha256": "071e6c95437c2f4d255864ca09243291bd4a070801a0dbf0948a0946e99d120f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r10.npz",
+      "sha256": "b1fce0e38d36710058a2b1b9c8d3c2184dd53cf113b683295c3487160def2224"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r10.joblib",
+      "sha256": "56dfd3cbbd6bf6300c90b4f6e5b91feb0fba9ad87998cf7a28e42fc1f696c1bd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r11.json",
+      "sha256": "6895c8c287eca59ec8ea6d12b23afc07795a8f4a56fadcf9c7eedda0fb5f79c4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r11.npz",
+      "sha256": "420f79da6971203af0048f0bce0d02a3e236fe444e8273c8031098eea804276d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r11.joblib",
+      "sha256": "414e23f64e8a76baaade319d3d0382503072680d47f6c79bdb7975d1dbf388a0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r12.json",
+      "sha256": "fd9cf164382d6a03aa4c343058366e9322ec16fe7508a1057e9930d80fa06bc9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r12.npz",
+      "sha256": "ec7597a995c41fb0719b41911395346c95494010d3d734b4b9e8ed1734027ef9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r12.joblib",
+      "sha256": "199ca908953489b52e49e7432432186add5dc5126b325daffa62f0856d38beec"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r13.json",
+      "sha256": "23ad9f8e5fe2b8923c655cb0331d0eb42df786e7fa26a026fa1875208c9ab533"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r13.npz",
+      "sha256": "445a393562f40f167f0151e95924c6bc0675c14f16dd8457fcda60ec0171cc28"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r13.joblib",
+      "sha256": "96d1e0ed0dc484a42d7288bc67aa905d674afb63ab83279458bd7b4c2105c1ff"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r14.json",
+      "sha256": "fd6b22fc64648b3b22f1b8eb86665839322177d36f3da043e8937c9b18417ec5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r14.npz",
+      "sha256": "9ac948d75467e57855b75d2dfc60612b425a93791c35e5a46ba0dcad363faf01"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r14.joblib",
+      "sha256": "1d2f6e21003b90c1d122e5c2522b0e9ddd00b6ccbc844975bd6508e23820d291"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r15.json",
+      "sha256": "5820f086198324ce7cd7fd9f987914b4dd15548e7ba7ef8e8e28f9e48bbb0a92"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r15.npz",
+      "sha256": "97924fd5280adaf31a32bdbfd38c141401f9b85f1e601239718fbdeeb7fd5fa3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r15.joblib",
+      "sha256": "b19b96cc17a95bfc1f34b3057bb1ddf3a61bc762a8d08de222045a2dfbffcfc8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r16.json",
+      "sha256": "94deb2b103a7be1a61ae92ee32733efc0a57ef14c1b47acd86ad42453313b018"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r16.npz",
+      "sha256": "0dd8c71dc231faa1032b51804339dde37e4f047e4e33197ddc046e755edd3550"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r16.joblib",
+      "sha256": "b8b2e27f003afbc753e4ae4f28ff7834768c1318ec383a9802da8257e9584bd1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r17.json",
+      "sha256": "fbea68bbc7baa636ca50410cb309dd55db152d5a6a935dcd64ca572e1f2402af"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r17.npz",
+      "sha256": "6a41e84c8eaaf03325f18d0401f67771aeb03f0e5161fef9f8ec581cc206774e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r17.joblib",
+      "sha256": "360ed081cd3e01e3de116022273cc99a2f51fb5a26c5fb42aa203bb57c3b1785"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r18.json",
+      "sha256": "d5412e170b3c238301ebe348d52778eea5c40409a0c3cf5823f4b4b5f69134a8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r18.npz",
+      "sha256": "e7148bc2aa1b1437b2cba99db6231f54c253e148032eddb388c26dfb24497b9d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r18.joblib",
+      "sha256": "58dc8b071d01b3d0a23cdfbbd709cb7c6c7706d84bfefbf0b58f8549468c18f4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r19.json",
+      "sha256": "15d458e084af055b131fdf5eaed44a1cb42d81b2fb122fbb99fbe731914c9dd5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r19.npz",
+      "sha256": "3b064765dd0edffe33a73338ab9f114aed33ffbaf888c0c7d25c6e44b7265a14"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r19.joblib",
+      "sha256": "517e1c5261e5092cbb118ea7b264f23514888ee47b4ece84a1f5e885aad479bd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r20.json",
+      "sha256": "60233f87052b3372f83bc6802ac690c73e8ac83433c079e4936b4d32f644f752"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r20.npz",
+      "sha256": "e0c1fccd9bb0dc6e6f04a798d0bea9ad25f7d659dacb17b93c4d7b954e99e468"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/svr__p64__r20.joblib",
+      "sha256": "006788a79b84e8dabb48143021ef05d67544917ecab36483ec1351f8ab5e70af"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r01.json",
+      "sha256": "078df41356352f94cc8ca6dcd460e6c60eb203ce1d17c96053ebfd7108fadaad"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r01.npz",
+      "sha256": "65133d8661620c5f9268116458bee40e22134f1b8c76b78b44ca85125a609fcf"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r01.joblib",
+      "sha256": "4a3345402e575b7a1b88859d9b90fee88dd8102af427865671cec37029075ff8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r02.json",
+      "sha256": "ec92bbfcba614c9efb45a12052fba20765ee48799be7e32429d6dfe7b30c23b2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r02.npz",
+      "sha256": "a23b8a31efae7f9675c73b3e6c5cec999d8f625e895ddb5690ef64f7bfc5c770"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r02.joblib",
+      "sha256": "c33aeff513ad0a8dab52e753cee56890fc336ff8e18c9e4a4bd0d2facd199c48"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r03.json",
+      "sha256": "9ada9b8bf7e5cc1684b0e9a6ef6166bd7385e1691a7465e64359553e54cd65d8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r03.npz",
+      "sha256": "02d55ccaae45b006069de41d4a6ae05ce304a9a06221dd35759fbc40df9d6b5c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r03.joblib",
+      "sha256": "c0213d6369b56c87d98530c059e6807aba79c17fe19a7a103206561775f9c419"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r04.json",
+      "sha256": "2f442fc3ac37bebc7dfe3d4698efb758d63388fef37016020285c405847e4a6a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r04.npz",
+      "sha256": "e66de866fee97612c8a185a37cdd6a2361591fa89d15840ebd6a8a7a2693d661"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r04.joblib",
+      "sha256": "20ee94568579ec2e262383d6269c0cc30d502a905b44c6c3edfba99ab6c9c46c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r05.json",
+      "sha256": "aa2df4fd1cd323ba4ca6d2d7973ac45eecf3cdbb7e4455b5013d03e6af3011be"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r05.npz",
+      "sha256": "5f2b9dae3ee772fbb67a72dc75677294e80a26927fef2ca9ed962523af9c5c7a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r05.joblib",
+      "sha256": "87e08bd114e6ce641d8959fbbfe29c41878b9462476d27e8c1386dbfa0c8b384"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r06.json",
+      "sha256": "96208d986ff3df47edaf3cf997eddd7ea4947564cbc3288d849aaa3ad19b655d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r06.npz",
+      "sha256": "c3e742ac0d7f05b2e9ca8d5d9452756471f8fefd42399c2e3119dd7bbabab9c1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r06.joblib",
+      "sha256": "80374fb96dd7114df1bf4938130ca55f055dc90e28af43b54cc3dbac1feb2184"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r07.json",
+      "sha256": "b1df018c8e24670a0a0750f87bb85f5b53664f9180c129b71e039c9546cee9b5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r07.npz",
+      "sha256": "69557411b22d12b96819ef3e1b6624335c3ff5920ef324b2132d136cc91df525"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r07.joblib",
+      "sha256": "a2c7e809755ae436878f2775b56bcbbfdc2228eb866dbc00be7817f97b696ab1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r08.json",
+      "sha256": "69efb5cef96f56638337b1199d5dcad191d8ff5fb1c78bdb98858981f54dbfe8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r08.npz",
+      "sha256": "e6e8eaa267417b1e8eeab5ad17eb363b499178c5370ba77c30e39d069e7c1b74"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r08.joblib",
+      "sha256": "0754925d74c91f13271debf6ec3c1b504f5dc4391e3705e375e9d4a66bb4ecc8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r09.json",
+      "sha256": "769479d279d738cd3594ac2ae4b59af7f7b5ba5a3c4cfe17136b89e14e3627cc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r09.npz",
+      "sha256": "8bc0098939e78a1efdf208dde71f2f151f36d86b12ab3abb6e290efaaf6a5bd8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r09.joblib",
+      "sha256": "72c530e56dc4edb7d21732e43bfeaa221a085ac236c50fe7fbd0ed706513e80e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r10.json",
+      "sha256": "335a45557515faf80f0aecf9facb2262d036bf0d8f8effb92de243259c37e499"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r10.npz",
+      "sha256": "f388ba30114275f73d6e4827dded8232cc7be348293563c3d774ae619662502b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r10.joblib",
+      "sha256": "1454ce0cc545b6805841c9d179483c8b456b5688aa974df17c3aafbd4778f56c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r11.json",
+      "sha256": "65436f76ecbb69527a5a2ab1a0f9e150b90db9490465877df6c162f7d9381dcd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r11.npz",
+      "sha256": "722d678f982fd14a3c04af2dbf23cfea70cb9653133a6d79a9257cec1b493144"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r11.joblib",
+      "sha256": "0412ff50ec94cfbbf3311b847d8579d8fe51dba99da0decdf79c8e4dd468767d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r12.json",
+      "sha256": "3a508f670d89602072437ee2e2519d1d24ed4738f1870a03b154c712c0148b7e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r12.npz",
+      "sha256": "68fde848589e6c73448ec2e8080faf85db7596f9e3beee5108082e35dd1946ba"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r12.joblib",
+      "sha256": "c441ec9fe36565bd90ab24cc240aed9fccaf8bda58971723df55a00fbe1a54bf"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r13.json",
+      "sha256": "68fae66f9c7cc488bc437eb74665546651bbb12c79a001a5518dc86cf6aa5699"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r13.npz",
+      "sha256": "b6f72a4360da0fadb5b4d51f36989874c37115053226d487cc2cdf8982e3061f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r13.joblib",
+      "sha256": "802045dcde651c47a008fe841230e32423944b3c1cc56b41dc6fad65db64b6f1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r14.json",
+      "sha256": "69276c3f8c561ab01086b58293bb45a323c5eb2defc0937fa3655b43333a0f47"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r14.npz",
+      "sha256": "c3691a2454f06a68bb72206458cfc0b4356d9a7177e5dc209e86cea323b93d35"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r14.joblib",
+      "sha256": "1aae66b17c06430bce3ec8546ddef5a68c33fcee658946c51de693b020919806"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r15.json",
+      "sha256": "f2c7584e0db4c22ba1b817411f4134a67bacbb4c4b07804531f16376e6b7e030"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r15.npz",
+      "sha256": "bfb3616c98c46362f2f40cab44151aaa5902081e592f2e1cbc09a40c551bd8fb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r15.joblib",
+      "sha256": "68bd963907d697a54f6dbf05b37bc7a23e017e007264d5febdb6d47b72788ca3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r16.json",
+      "sha256": "56110dc9d50582982c8f103bdc437ef8b076899355af3a006bc11c723141d34c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r16.npz",
+      "sha256": "a43401d3875fea56f58d8faad62c533d11bcdc3c4b0ac024c5bde38ee8f1b6dc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r16.joblib",
+      "sha256": "71bff19ea261caeeba71fe10c199bdb4c4b0b36ffac3b58a827d661e76aa1bcb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r17.json",
+      "sha256": "20cf21a11d7aa9cec8d396546a9318b8ebd8a1313a3bf023099e1d01c241d80c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r17.npz",
+      "sha256": "96759e14131ef7f44bd168c49f845e49c07154216114041154e455784c932f84"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r17.joblib",
+      "sha256": "807222082a4ed333bc54f6c43150f817735e8764fece6d8fb7a89795710837f8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r18.json",
+      "sha256": "57b4e4569c29e853abeeb79cd3b9f4390b794cd62d5e5007762d08584b08dc64"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r18.npz",
+      "sha256": "f71e13b2efc6c8541332c47b0f23ff082acab6cf1d93a7dc04617cce1c2bbb12"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r18.joblib",
+      "sha256": "2547168527fdbc28b0e73f6a02508649ad47f57ba133b0cf8480b0a144b8559b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r19.json",
+      "sha256": "997b5f68b08187cc125baac24e7aac2d272549ad66cd2bc8c1d5874f9e41295a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r19.npz",
+      "sha256": "3c4b5ebca7eb554bc6f665add45c97de8096ac994ff4e97f1fbde11ebaf0fd51"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r19.joblib",
+      "sha256": "0e5f1184695d346cc4d2534de774ae2f0a4fcd686448416cc6198348795c5191"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r20.json",
+      "sha256": "cb03c9ddecdf44c6885902df654fd9490a589424abfd2ce5a3616ad2c9d6bc53"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r20.npz",
+      "sha256": "4e54d482f52f0e9d58d55ebf54f1201af3dba013e1e36cb556fc726677533478"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/kernel_ridge__p64__r20.joblib",
+      "sha256": "a6c70d9aeb3d01f735b192cda9aba11c3cecc08c2c0a72f58f74a1ee924ec1a2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r01.json",
+      "sha256": "953d6b0d0e1006f9494d5da1655a5fd1393cef0390513a95aa1218a315968f6f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r01.npz",
+      "sha256": "8fa4a24764eab3f5601e412d097492b6d230bd5e33c8c29b95398ba7b9b31c4e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r01.joblib",
+      "sha256": "8a6559f62a465bd5f52626c4d3269cc36e05defc2ae8518bb316aa0687df316f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r02.json",
+      "sha256": "33c2d1ae3a0e5254fc18b0deccfefe9c18f26104f0f96e8d5b2dabe19945ed9f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r02.npz",
+      "sha256": "81842e138b4cfe61322732eea447fcb62c7719281ce0af783742bb9f32c98395"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r02.joblib",
+      "sha256": "a19d9443dbc4295e544a53e6b9ad47aa7354908eeaa40ce1cd2b78ccc43d1b70"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r03.json",
+      "sha256": "6818ea371cda4bd1b8e93dd9b89f1ca73f9f1f416dc973c5e37c9bb5c2b8d201"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r03.npz",
+      "sha256": "b3892c623ac7f17e757f4b7c7e53eb1eba0285d8b6dedc2e5dfedd7842010fc1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r03.joblib",
+      "sha256": "22f369ad0ffcf1c7384b4be51b56d003cc6fed400e80b1b3c9b120f60ee33d7e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r04.json",
+      "sha256": "6099e28d8724cdbde5f5b9f98f1cbb423c56e9da3d49a7fda6ca043f6e8f04c2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r04.npz",
+      "sha256": "4affccd0862c91c761f4a5db6ace5e304d70d5e92e37fc161bd16a3f3a8c22b3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r04.joblib",
+      "sha256": "0c39ffab2064dce4e306d94c1f8015b59257fbbe303f3ac1f52add02b41a8bd5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r05.json",
+      "sha256": "1f08b8cab2a4b494909e9d8191d47f5c3125c1ad187fa41c6ca8e8ea2fa890f0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r05.npz",
+      "sha256": "ae61d63c106393a693b7c5512c67806f7230d9d39edb4ecc264ba4f07984d28e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r05.joblib",
+      "sha256": "437712a5d6134d5807f26760a0236c5ea0b6361a9d151e712b71e475f866f60e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r06.json",
+      "sha256": "23a769f3ab00ead86e576e255222372c3b66ef617370e7b437af1a14005bb343"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r06.npz",
+      "sha256": "e31202d7bf0138252f46dc14c6f9b67ea3ce97d60f59b26d5db643094aea259b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r06.joblib",
+      "sha256": "08fcab571cf955724e69e165d77c319201be7cf0f8217fa5743316ffe19539bc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r07.json",
+      "sha256": "fd3d7c981f0817a29e3ee22f0506324e025f2007ce150b530e70df8a8b75fc1f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r07.npz",
+      "sha256": "49adcb714d371d8b6c20a7411b34bacfd10df563d804f86f31eb2c8758b5e4f0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r07.joblib",
+      "sha256": "a0748736731b068d5193194a99eefba656bd20e51520f9c44e5ecec9fb8d9c13"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r08.json",
+      "sha256": "6741c536875e7f8cf2719984ebe9694c89c22cc14120e4cac0e0e7db1f7bb8db"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r08.npz",
+      "sha256": "2620ebf0be8157066ff2a01774f645396bbb5ad5648768d7672c20256afdaa4a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r08.joblib",
+      "sha256": "bdc0dcfbbf4907e07b458b4a5b140c764e1e736918d7570db74d5846cf7c5576"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r09.json",
+      "sha256": "d041df19ac711edd3d69a5bae5976fb68710821e9ac72c32923ea59442bd6b71"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r09.npz",
+      "sha256": "4f08cf9aee5c37ab542ce9ce14913bbdfb741de97f310de0c2c7268fb5934bef"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r09.joblib",
+      "sha256": "468a2107f29ef154c8b2590d0e0f0bbdfaf4ef9951a37989b98fa1139f5732d9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r10.json",
+      "sha256": "7d4ea69b7e318f478b8fa2197a8fe5e5d67d15ba33103391da0e9f0241c6881c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r10.npz",
+      "sha256": "b9f188f35b9833ace813f294eb0df5fd80e71011864fb8ea3f8cc9532cfacaa5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r10.joblib",
+      "sha256": "eaf57606c1b162330098279e5184ea706b665fc416e9e2d855630767725154c4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r11.json",
+      "sha256": "5f16680868ce05d33a6f8d744f335a51dee1f3d54c6afc5edac4862d383312a2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r11.npz",
+      "sha256": "4473d2be8f32ba644845db2a8495ff966b24f3c7cdc10e38d263dab413af1e00"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r11.joblib",
+      "sha256": "bc08445ea1475a04ecd4e0a6801c93e8bb0d278cfc98f31be8cca747847b99cd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r12.json",
+      "sha256": "14c7041330b193bd9e347c7000d95c560390791085b72a7743a074e5f74434d0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r12.npz",
+      "sha256": "a1b1cb78547dc599a7a0e4ab840b8f22d8eea74f9b2221fc0f2230f19bae4a01"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r12.joblib",
+      "sha256": "6fbfc80e923d0492356800606f2ed6140f2386cc74e45b76082dcc6ac0971d18"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r13.json",
+      "sha256": "fc74b60328cd339b922be2e10e2f22a71f6504e4528d15b9914edde1ad1fdcb6"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r13.npz",
+      "sha256": "6755412e5515a8f599e8e0dedc3fcd6b822fca6b525fba7a2232551557dcad5d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r13.joblib",
+      "sha256": "57f0d4cf32235f2816439793ebcfda2b80366decc41fb9fd37cc36bbd1cd1e8b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r14.json",
+      "sha256": "4266e4253519f6156b3133682cf32ae9d1c9e5395d33b8cbe5a033f9d0f74e62"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r14.npz",
+      "sha256": "d408b887cb5c43f4de9487ae2ab6d709e1551989a49bb4ec9d5693e0cc61a212"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r14.joblib",
+      "sha256": "f72895376f74408c5087d26191d507dcec3c1096e1fe7e8d893b2eac088f35d4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r15.json",
+      "sha256": "0fffc0cb586f8b0a773221ee16fe9089a5aaecf9ed5b38dbcb8895c9dc25546f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r15.npz",
+      "sha256": "8c647e253e741c3f2d40d3b9d0a41af63c3ab485cb724661d322c9ba5485ab3d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r15.joblib",
+      "sha256": "3825f2b4ecf46f37ef8550314263ee9b2105b2ca194d7e22b6530d279591419f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r16.json",
+      "sha256": "626f92d914878f9fd6f94fea089757f6ec1ac810f39e44f77bfef5af611bc971"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r16.npz",
+      "sha256": "44aaf6983197f3cad782067bd836bff6ba28ecd1d666b5b555706d2d354421bd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r16.joblib",
+      "sha256": "3dc84089fd7bf697dd4084a12d38d958dc5ed3dec960abd932169454eea9ca56"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r17.json",
+      "sha256": "80a0eac73fb88a0f89d2b64e78ad97bf3d8b82741348f2f220640b06510792dc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r17.npz",
+      "sha256": "d4ee6e47e6ff2dca5224a3c26601a1930793b05b0fbfdacfbc8ba347f14b0448"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r17.joblib",
+      "sha256": "179f2bd44d7db2682b48fae1e528da9fa73c13a420b7293a8e855e3282122890"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r18.json",
+      "sha256": "77f3f9e2d4d4d610c0ccfb57c464b31bd5c30fe36f8fe9a2f0346ae37eef4427"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r18.npz",
+      "sha256": "d460a22e700740f5a00fad05ad6bc7619966f7d57c4f91c4af66b205b495282c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r18.joblib",
+      "sha256": "aecb774b98baa0ed9c412abf7f9700f78a3578f9634a2726abb2779b5611dbb7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r19.json",
+      "sha256": "59cb40a65c2b789a2b9d730129a31375f2df6e24c9ce2fda8e0d73ef022b6506"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r19.npz",
+      "sha256": "eb63aa04aeb6e1bd5fc8db876270ef873297cbee02c51cace26d01ac4801e760"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r19.joblib",
+      "sha256": "7c93faf192c0463443e7d4690899c3325da424660195784bad7b7dafded20046"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r20.json",
+      "sha256": "d305837a1a10c9c8f0a183b0e6bdf4ae044915a4a1098d55cfc78a4b4e0bb87e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r20.npz",
+      "sha256": "16f392ef46be94b71cedbdd8e52fd94d24a6bf7231e7cfdea99e1f5f65b7e2e8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/hierarchical_ridge__p64__r20.joblib",
+      "sha256": "7353497c88194b1b6759e7a76efc065c34872715804bfb564a35fb0e6232d325"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r01.json",
+      "sha256": "18e834b14b08f50022756b327e1d3203a09d09e3ca5d9e2852d963d8d54463f8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r01.npz",
+      "sha256": "86e10be6e838007317f13514c39584b87f5be4e7790529edaa039f0edeeef1ec"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r01.joblib",
+      "sha256": "334fc2e3669550499f9fdbd5796c577f3af1637fda5c38655de458ddbede67af"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r02.json",
+      "sha256": "ed13662d78762a1a8c8557b86a3f63140dbc8381190cb4e582a962b5a301c57c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r02.npz",
+      "sha256": "baddc40b6832105a817e2e037262651dd4809cf3f7e30c18689865b8eab4d92d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r02.joblib",
+      "sha256": "fa29e209dbf301f453e64977db587424ad010d595348716341e3b4bef1aa4c3b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r03.json",
+      "sha256": "937ec1be32f547f3209319470dbacd35c92c972995d71b4819474a83137c8a75"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r03.npz",
+      "sha256": "bbb822976bd11d9acb6643d8c276486b0b245ae3a8cfe8459bbeae0e994f0c17"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r03.joblib",
+      "sha256": "077f6c366088df44ebb7b9ff055ebc4e3f2686f11e7220287263093aa6e2ea4a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r04.json",
+      "sha256": "e86b8adbf861f1ba6525ba71d50aac2d9f8dd9f167651de20dbf597ca09b28f3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r04.npz",
+      "sha256": "306cdcc1d69ab5d26127194d05276aeb1426bed95037d83f15530427066c5d80"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r04.joblib",
+      "sha256": "14376b924cfd941a7d89f0aebe591a13c3ca2b6620f21c3bbcc4fbd6fd3f2777"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r05.json",
+      "sha256": "52d5d6ba63427ec86be5aa714b3237cf731c0fcce9c5d20e9693711fadca1a5a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r05.npz",
+      "sha256": "a45109272efe40008acf8e991a72126fef247ea84fd5ba76e83e80bf13c6767d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r05.joblib",
+      "sha256": "3595a1181730fb25bc358405fad9fbd56d606e61e19ca7fe281ef2a1832d5c43"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r06.json",
+      "sha256": "01cc0c9b8e618ad511720516ebd1878b5aede880d2132135dab0d0857b9805c1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r06.npz",
+      "sha256": "a5cda3e7e2560209e7c7cbfd5497310c31630e4b8ced1ac210da8407e1c25ec3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r06.joblib",
+      "sha256": "4279028790c9f75c6a0ad95ee663d32dfce1e55106a74aeb414ac29e982b4053"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r07.json",
+      "sha256": "bb8c22340ffd777f26d1432ac136d4f42a8fb57d727ce10efa06fe7eee68b9b3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r07.npz",
+      "sha256": "07cca09531b63951d4a9926ed753660df511cc87a9508834bf823a406bd028d4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r07.joblib",
+      "sha256": "d3518aabfd495b9339159bfe590e3f3235185eb2e8d4f8a6bdbc467037973a7c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r08.json",
+      "sha256": "2c3c75df181ef8121e7f1976ad3d45c0c0b126ae6df51823f6712c7c06fdcd2e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r08.npz",
+      "sha256": "a782cf833a96a3d9a96c37bb76aadb29805e0c07cca5b14bad7f01de8fc4b5f4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r08.joblib",
+      "sha256": "8931053df568324b6c75d34fec5597ec44a7275ffba7170a0c2db66051a8af47"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r09.json",
+      "sha256": "a33660df2bef77dbb52ac9a67d51da693af3fee8bac4f6ad49c896c6914ed095"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r09.npz",
+      "sha256": "9bb2eabc3ef0e6ffbfb6ec78578aa21605dd4d6d4f5efd7aefabfe9262118e9a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r09.joblib",
+      "sha256": "3e205cc8b29594b3e8a8bf277f992a540cd8e12acbf5e9858ecf5d749b4afb05"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r10.json",
+      "sha256": "e6796c372a21fcca5866e7e0ba5cdc3a78cc8dc5419895610329c8177be270a4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r10.npz",
+      "sha256": "a289e1c999392abc2ea20d233eacb2ab4bd8bcacf7884609ef6a8f5adf1b3759"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r10.joblib",
+      "sha256": "b1dc5c9752d79b494efd942b3344fc3c706dc698b2964ea0cc32df7def78e9c4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r11.json",
+      "sha256": "95af63782fdbb9c24c2ea8ed69affc7b30e789cbb3b9467513c32ed07d644dcc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r11.npz",
+      "sha256": "b692bad4651a0524f32df533bff927c4d8ffb1bcacd93bc36fd8fae3b799518f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r11.joblib",
+      "sha256": "f9b058fc53f5b11b95bfcb255956932affb115b9d390c10e2b83eaf22ea7d727"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r12.json",
+      "sha256": "66cb9d0edc3201dda335a5c993993a58385ebcdd295f3ef57aa165415904fd25"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r12.npz",
+      "sha256": "07fe04beb9ae3d54f34fc93f6c06557bad9842dea5e23bd5abc2bad99f6155b9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r12.joblib",
+      "sha256": "9fb042c6982ca79c4e19e7306f05aa397fcff0593e22d76168ae6de336e01de8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r13.json",
+      "sha256": "d79a7e64161cfe074e6a547cd8274779622526ea46efb13baffed06c2ac4efbb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r13.npz",
+      "sha256": "c8142a8d07f2f3dcb0b9e9a39a8581485043bba661cbbe13ccf577eaae038132"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r13.joblib",
+      "sha256": "c56679d43d597dbad92a80a547abf1e0e7afcaff52b3fab888566e326d8a691c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r14.json",
+      "sha256": "61b97042bb77ebf28e25c3754cba2547c4f797fcc1ad7a1e5a9c585a04f239d6"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r14.npz",
+      "sha256": "53de41d4429004ac891ef6180d5e766646b97b0733b610549a5a973e56413f29"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r14.joblib",
+      "sha256": "7db5b85f4b07066953712393aa080a802d42b61083d0413be20832b979c65559"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r15.json",
+      "sha256": "ac551d2783f3a288f532e962937934e96c89ab8a9b087a1859653df39d4e6e79"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r15.npz",
+      "sha256": "de2e431723367d5a79f18e93e364c68da3d5dd592c94895df2721dd7d9714a28"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r15.joblib",
+      "sha256": "48bb376f124ef7f00bec52ca7f38ef5683414eda80aaf0bf3329fc949b72be54"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r16.json",
+      "sha256": "187ab68ef60358ae82b2d57d28a6bf4292576c5af7b09cc25492fa3b5bb71f95"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r16.npz",
+      "sha256": "2253db7143ce7c2a3b97fd545375dbb5d48f277f1de0234ef8cf55d88c938265"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r16.joblib",
+      "sha256": "5df37c7a41e8ed2da61c9d9cff17e6756688f79767333434dd61db8cb596204f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r17.json",
+      "sha256": "62e692eb9fda907a7e2c68732f5f79960caa90dcebb3a3b7fc7c5a18d0ed1e11"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r17.npz",
+      "sha256": "cdb1c5524d244ad534bd8419452b0c03991760f4edf50c3d329eb2507760d93a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r17.joblib",
+      "sha256": "0b1e53ec429a2e8f4528abfd106895e0e1da442e47aaca8fa0da62d36f5778cc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r18.json",
+      "sha256": "524233c82d7b36d6b50970e3d69ae06c8d9057c1943d0f93c4aa609ecd7cb8de"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r18.npz",
+      "sha256": "3dafda9bba0169a0b66fc8f6fe015fcf75b2e585a239041a006a065e41f17c54"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r18.joblib",
+      "sha256": "90021fe1da36fa2f85a97f56e133e5532765589d0e57942f36f137617cba7890"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r19.json",
+      "sha256": "2fd015fc3d68383ee9f8c19aa7f5177d1f8d1932e8ed4a95881d7a6cc3ad3cef"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r19.npz",
+      "sha256": "a459b9c29941fc0b2b7fb78c56022df8ce8ec3e09e5d74f3b5991c8aec094c08"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r19.joblib",
+      "sha256": "7db8874ca3561c9c0e06f6644af666fe412237299909c4e4d8bd9db695473e4e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r20.json",
+      "sha256": "815c6f64dbb7391f356a2105e2c9141fd9fb784f55eb9f9efbb38eaa99daac18"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r20.npz",
+      "sha256": "7b37641b7e7e4bd0fa961c5735f47844b9ff86de451bba86ad7f98940808889e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/CTRP/folds/lineage_only__p64__r20.joblib",
+      "sha256": "4606edcf194d1ecf5e1b92bc9cf3ddbc4013bdd578a198b24a74dff972544a8b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/validation.json",
+      "sha256": "aa510f475cbe23544c82e5a3a5f90316df73cffc5b74842530ce9640697e038a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.json",
+      "sha256": "4db8d34e0b51755a21ce6ad833327b3e3f071965caf0c2de6e97f525cfab9af5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.npz",
+      "sha256": "ff043a8aa05c738aef3dd124d142316ac603e332f3ecc4fa17bafc36958ad5fa"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r01.joblib",
+      "sha256": "ea9ebe3c1c6633485a5ba652c3911a4ee11ca53339381c519cfed43919fe5e2c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.json",
+      "sha256": "23b9eccbe16c43e857b1533ef7e513145e2d75999a6d29552f2036147ea39e93"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.npz",
+      "sha256": "5714235c0f23a0c3c0250343d00ba1798b0a0810f9e1943db01a475642e6e76a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r02.joblib",
+      "sha256": "26501ede4879ed620b51c2ab112f2b2e6793c5dbca5cb8bb2921316424e948dd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.json",
+      "sha256": "a9496ddc57d55f8b1770460da45813e1318252aed877d277e66fc4436bdbdf0e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.npz",
+      "sha256": "f4da95dc6f9656cc5f3cba1e603cf9b9cbcb1483564d87e377f5e0ceb43f4554"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r03.joblib",
+      "sha256": "2434aa4228ca7f8043df83092e3848e626cf813b384e49381e6cf97d90c5b1de"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.json",
+      "sha256": "afa39e1f21c36c6246c003106fee3aa37ac27e785638be3eebd3eca7726482a7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.npz",
+      "sha256": "efdb737f9cbcdad0b7ee6996e72f3a7bfc73cae306d106579fe56918abb0570d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r04.joblib",
+      "sha256": "b522c2eaf6a127c647b13372aee4c7caac75830dce7ee18971fa55dc54547614"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.json",
+      "sha256": "ed06ad7eabfcaa6312a872551f69156c67a704693f6edef7cedc4d16aaad8735"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.npz",
+      "sha256": "1a2fefe3236b92541f100fdde851848bf77a5b5aef5c24d01035a0ebf2e48f81"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r05.joblib",
+      "sha256": "c2c732b1ada2fae8ef823431000866bbef644e560fd62e1ad7704bd053e3884d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.json",
+      "sha256": "43840314c125aa753953b4eed3446e413c6d9fcdcde9b928e279ff7ca8032b42"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.npz",
+      "sha256": "9af44fd679d5fcd9a9e6c1465798051f7c4816f2a8b31306034217210dd7f72d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r06.joblib",
+      "sha256": "b91cf57479618da05dfb92cde4a4ad14c1353359426e145a5e3888ccbe68c1f2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.json",
+      "sha256": "36f707f368d9e1c7b6dd7deeba88ceb87f90a7d9938e12ae7427f5ab54ac148d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.npz",
+      "sha256": "6a01bb507becedcb2bae90e69daab10ae44f3845408f083a42295fd7e2ed7d08"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r07.joblib",
+      "sha256": "a41e9bd3223f1ede09c15bbb42d8384894819fcff3c3ce8dcd150a17567bc4e0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.json",
+      "sha256": "5a47ec61a9700feb2493afdfb288e25aa2e552c5dca6437159de389eae92740a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.npz",
+      "sha256": "ace613faaef2bf75f4b6f6465e7778cc9f73f711f2c00aee2358cdd1d2a8bb90"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r08.joblib",
+      "sha256": "8fe8ce353763fc9be0fbadd3e2a0635a00d2751e19d33d8f19951c8e32551381"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.json",
+      "sha256": "3bf1ebeb51f1c6936209e6d6556df1d8c7a8a1eddfb040df058b02930df900ac"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.npz",
+      "sha256": "4c6dd1e4d9df3960cad6e89307de74da874b8f53e55fbbb27a20dc9f2a6b5f2f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r09.joblib",
+      "sha256": "025aaaeded7108745154743cd4b5c29cdc05c3f783b46e4f0c11605c0c216044"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.json",
+      "sha256": "ce05ba56bd083c5ac5f2c6b9b032d7d3ffa485d41dcf57cc2c891e59a521153b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.npz",
+      "sha256": "0ed63af7f6a0793cc8fb98952df16bfe15627aaf941736c3f4cecb4865bd8e40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r10.joblib",
+      "sha256": "c601d0fa075944caeac04b40ac620a72281b025697b5f4622657438bd82047dd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.json",
+      "sha256": "ad787fef09458fc39eca4fb308dd49ad066fd9a9af80c06866a6c4639a478ccc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.npz",
+      "sha256": "5166cff909c6abd4916b66f4b6224af14a02be8a1f81f34d8a5f66cfebfd8f07"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r11.joblib",
+      "sha256": "f858f1c18a16aee0892b642a86624ac0233ddce924b484aa6355d65c92f6892d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.json",
+      "sha256": "58282dbe5c230c2898f637d99c5b557194614422adbca1872d2b0295029a747f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.npz",
+      "sha256": "1dbee2b3fe74384ad2156de65d82da6ab65a552c5686013cf134d4a15dfbf36f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r12.joblib",
+      "sha256": "f1fac2ebde80b4a4cdae2a6e5415f3f95e67c3a447c99d7739e6ea6605d22418"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.json",
+      "sha256": "722aaaa88f79ccf9e4dbf0e488e6654eaf1c056d38cbec2c839d83ee3f586b45"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.npz",
+      "sha256": "28c738d051415d9579552014900a0580b5e7b550ea3d78f63d34b01752ac6b3c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r13.joblib",
+      "sha256": "5572ee0d1a4eeb1abfb85835db4c4423908d91a05c0437bcc074f75a9fad6a71"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.json",
+      "sha256": "1e8b13f81015b2620b3bf29b3e263aae53c45bc158cb62f0ed5dfdd62aeb56ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.npz",
+      "sha256": "ae988244c10e203c1cbbe3383605d5f76795f9410e0e2b37e97b14b60a8978ea"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r14.joblib",
+      "sha256": "f98b0cc2f4bbdbb60b2dbd9cb481f7801dce0fddaae364ac19be7d1982eb9187"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.json",
+      "sha256": "bbfe6f8e4bfc84673a4d628780c9d172357c1b2055bf27be980711cd81e4f937"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.npz",
+      "sha256": "444ec934e2728a9ff9b23adfa365464ebcd23f3e83c5e540ee0c0c582cc229f3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r15.joblib",
+      "sha256": "ffc3218cc25c1ecd14bdaeb413f945782c595e267ed34e2725a9c4e35550d00d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.json",
+      "sha256": "b680f557a30eb70c261164fd4629e53509cceb88b752e2fe435be837c7d8ed5d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.npz",
+      "sha256": "8f90b4890f8bbc3bfbb4f01ea1b7bfe0260f613679faac6572d1ac1d44447aa4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r16.joblib",
+      "sha256": "9c4d7c3a1fdd533c6da0bafca94853aa7bf7e3c9b8267599aa26f3db132a4c31"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.json",
+      "sha256": "d6f8eeac3f01118493c1bb80385979bf9fc42cefe66aa312ec3b35315cb7f30f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.npz",
+      "sha256": "969df90b7afc814fccbe4c84b5dac8e4e9eb77982be78f5e519ca292b0da5e83"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r17.joblib",
+      "sha256": "67e4dc18e57625e596ed9bcf04499c7beef2481f4b5b482f4f5577ce99496fcd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.json",
+      "sha256": "eebdf02c8f9e682a42bee74f9537481ec71d3427a7541642fb4bed9cbf162351"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.npz",
+      "sha256": "258524c208b57717c901fd445393f5d1ba275f8058abc6aa24da506b9f19858e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r18.joblib",
+      "sha256": "b5731e3d65fbc4d385041688fc7bc46cc4589355d8ea94143f529ec26bd29279"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.json",
+      "sha256": "82962b2f47a345893aa29dfbab246a1da13b0678b71850a2294d73a16e93e10f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.npz",
+      "sha256": "2d368bcde7b6c58a08fb5a857522aab33670658ef838f9f331e158980c140695"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r19.joblib",
+      "sha256": "33a943b5dbdb062fcc102c203c4a653197be5f92a27e284f05b4ef0847f8f5cb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.json",
+      "sha256": "dc1d828d1464fee341275d1add592b6f3ba3913b01012c7d503ace75794735b9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.npz",
+      "sha256": "aaf81527a9a176ec11119c2ae176cad2e01c93a4242edc37fe9d192019ad9b16"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/ridge__p64__r20.joblib",
+      "sha256": "e3c71e275130db3ef46dfc414422a1e1ce4fc49bfb252d67337ba7e0ffca06eb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.json",
+      "sha256": "89f9fe65a4b0f85950029ed9510dd2e0c82b24100e39d7dcc0741bd2a3ca7dd5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.npz",
+      "sha256": "0be79d9262ff9fc6a582ab11d54c6072b07806c54cd7b100ea3dd4850720a58a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r01.joblib",
+      "sha256": "551be4b00eb58fa385e27661be26efa9ef6210534e3cac9e3e5f22648d034b28"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.json",
+      "sha256": "eafacc7979dc8e8504d1cf52f3c8706ed981712c7c6a91dbd37e2c530cc17666"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.npz",
+      "sha256": "a50be1d850e9f96c63aa61ba764ef841c39c6d7a5d65a5e82ba26d07e5ce579f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r02.joblib",
+      "sha256": "a35d9cd9914481292a1ec935d415dbf9ac4c67bce299ece97a2ed19336b15685"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.json",
+      "sha256": "ab96468aac1079c7014c0972b63a5f9432db9c31504663fe3f4f6a9a71fe821a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.npz",
+      "sha256": "cef2871242942e9ce030ef3d4e3776e490f5815411c9279f528e30fb71a05f95"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r03.joblib",
+      "sha256": "ac4b75ba3bf0cdbd5138b39cd9ab95fce5802e7d9538e589f0ceaefad3a7a7b0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.json",
+      "sha256": "7697baf639133761b26eaa6371d59246317424a9d3dc8f8ad563dfb083c82fd9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.npz",
+      "sha256": "16918d73120788b7f5b6c9fa6be454093c526459d2b1639dfc37a41218ee544c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r04.joblib",
+      "sha256": "c8429afe975ba7262edaf237e55d9bc81e80d05d4de9fce9754b86dc345803a0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.json",
+      "sha256": "39c2e3a6967d71bf558af18aec2e15555033230c9d07dcad053a0c1c7f6b0e73"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.npz",
+      "sha256": "65892e6a61702b096944374c5a895a55753472dd78c483e27d3de8da919811b2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r05.joblib",
+      "sha256": "d9bb705d5d8f295dc6347853533a3208173a32df53300923d295049539d7397b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.json",
+      "sha256": "4c6415cdaafd4ef11369f6941977486a39faa96576a4d3ed2ab81332a5f34acf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.npz",
+      "sha256": "2c47dee48a0044b029e01604c1168fbdd4bb69f3b374848cab82e4b1e4d97441"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r06.joblib",
+      "sha256": "ffee0aae56a3951425cb2ac498a845ffd35f1e1207eae7db9be2b8bad1ed8812"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.json",
+      "sha256": "adcfa9e91b710cce11cdf2c79d84301ff7c1deb180a32d8fb3d18efb60de4ddd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.npz",
+      "sha256": "e94aa2900bd42f9a7334cab194578ff1f72fdb3126e6a5676b03190941ffbd2e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r07.joblib",
+      "sha256": "24459cf4bf57a3d457ba835c231b14aec4664c41fa6869d835eeb73f00469a96"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.json",
+      "sha256": "d65ae29df95ae2d7dab630d4a6933ac6591b0703ceb7d0457bddfe7e02297a19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.npz",
+      "sha256": "abba058bc21a9338b677fbbb0a4c5790d2926b7e039c603c531c283b9fce6d1b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r08.joblib",
+      "sha256": "830bdf3da13fed0f03f7ef309378b2761934105c894318ec0d8046566f1f82cd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.json",
+      "sha256": "ab414a105a766ae31e7f80a23be2e9737c970b168fb549cb3de46ac0c366fff4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.npz",
+      "sha256": "2e40c07e6f71e9030a1d3ebc8a18700fea7c1b7a49c4557d4fc251754ab19583"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r09.joblib",
+      "sha256": "2c3f9739a9fe9e3b8f871bfbd9004f96278dbdb75ac3787284e2de510e921d55"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.json",
+      "sha256": "97c13ead7f6319fbdd62f83bf8262ff1f4141be390e8f87d947da813fe8e922f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.npz",
+      "sha256": "ba97063a6cff9caa9058006110cf9d0999c520c50f88db2e2fed50288b1b8dd3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r10.joblib",
+      "sha256": "787e7c207ccbbd9787499db33c9f5500736da53130d5d208b729627cbc3f1406"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.json",
+      "sha256": "4d6e4d339711a75c8cdc6ab3da59ddb616d7a977dc9be408b55c7a0cc722fb9b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.npz",
+      "sha256": "4b02b8323a7a89b30ca1054a86441d76af50810e7f2ce349382cc9e68c6545fa"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r11.joblib",
+      "sha256": "0edaf4a0c7eaad6c0d1e0613863ff8cbde09c746e8f818c2611cc61fbe9044e7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.json",
+      "sha256": "8d534832609a50a63f930e9ce1efc3c4e3c714382a0212488a511b18283f21c2"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.npz",
+      "sha256": "121c5b508ffec9b90c5907f96abb072f5cac0ba419dca8c68e8518143e748dba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r12.joblib",
+      "sha256": "4eae09df2415227d5a0292a5251dac07bfc8abdfe3e07b9257c392c1d5bd0ab9"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.json",
+      "sha256": "f5017e5fb4aff787bececddfcb3c6971572691018b54ffc662392e290fde6d4a"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.npz",
+      "sha256": "b1d65b7783e33f15e52043b36806dbb0b9713a626d847d1f0b30fccfb187479e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r13.joblib",
+      "sha256": "3549417d8b00a73865376b8339712d1f17cc13f9e0c097956ab17b4e3a58de7f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.json",
+      "sha256": "c9f8c0c786a4bd8abf78e6c828863a9544ccffd7248cc5a2d784ff7a4e3f17ba"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.npz",
+      "sha256": "1f3396bad2911284b4620b29075682a659d73a845c2442d505371ae87d8b7ddf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r14.joblib",
+      "sha256": "8f87832f5e960fda35c77bf74d3a79b6d65b217d34790b77e27591e3857bd5b1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.json",
+      "sha256": "ccfe0d36ecc2775ff327ab647d069135f7dec3fa4992056ad35c9c58f240c1ea"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.npz",
+      "sha256": "627f6959f1b67447f1bdcb68a0dae8a43030dde5cb419391227a8d5f551dc256"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r15.joblib",
+      "sha256": "c6617aca74bd351aca3dde72a0b73cdec6dc27f4ff88a7f2a9423340a8fe2e49"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.json",
+      "sha256": "f21ac47e8c7f9a035b3d76a7e311bc2c685ef84c51835e62c130ece2ebc3d454"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.npz",
+      "sha256": "f11cff10026b480b8d7685abbd7af50524b65383c8b596b85020cf195c51c290"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r16.joblib",
+      "sha256": "1fe0317c073e0d7602a6f4e32916b1e17c3435ad04d3d8ea34f971ceaa16ba51"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.json",
+      "sha256": "b2501b33d986143613383cf79b2dd2b02bd3ee879330c1a35f3404da0d826f42"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.npz",
+      "sha256": "deb1892144e0e4c0b13a1c5e8c3c241aa3f93fb910dbcf0ee873bc25c8ade5a0"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r17.joblib",
+      "sha256": "6e1b7ec9533fcdd290a0d0a40c25db15bd5ccb7427b53f097ccab80a81b63d23"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.json",
+      "sha256": "1d4f3c025eeb973c434132d6a451ce1ea41cb41317e1786d21101bb226aa8d77"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.npz",
+      "sha256": "85cc525544910a76b40ecfad12f20c6afe07a9865074dfd41ed677f3bfabaeed"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r18.joblib",
+      "sha256": "0cd7ac585526a0977209669f8452ac439c53648e2e4f5a12d1869303a37fddef"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.json",
+      "sha256": "58bb2d4540b75c2473a1fbf3afbfbd6e771e54fef3bcf97347617360abfe0a26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.npz",
+      "sha256": "0d8e1afdfc7003b0250bc6d60a94e5c845e3a05ff777b7a0330429a8cf6359ef"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r19.joblib",
+      "sha256": "41921ec051b3f51ddd2072171ff9f165b0d24d46d8d48cc6c66e6ce8db898367"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.json",
+      "sha256": "8ca8b5784f9abf80ea8844de3704c6133625f751eede324bbf85a860fb91aec8"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.npz",
+      "sha256": "46b6b45529753b3f655ff30491520303c5e4e6f2dbd0f81e3e65cc71c42ad1bf"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/elastic_net__p64__r20.joblib",
+      "sha256": "9a93704b8c39ea215a25692fc45b40d0f8966d897c16fc9016e30d3c4fdbccd5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "e3f72f65915e4d798f789269cb768e7247e2c784bd70ed61382c2a756d340722"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "97c05b000e0d249c5865937e7b5334165923f706157f8600f87cc9123db4cf8d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "bdd4506582adfd6e27b5c3737991daab3e716db568255bcbf6e0cafa508f2b72"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "28d185c1174e304829482859d7de597cebc69a42fa2f514d02f2a1004fb14416"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "5559c6682a5d071c196a8d9926513329b95d93ca352a89797327dba2d4ade207"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "742af7e888e5a43188d6e3e3d7675073e489a6a4f846cee6e9eb3fc64a082e86"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "79f475f79de988cf262797b4311194f9ec5d838f87b20fcd8f7301b093be06bd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "4736acc742bbb7833fdef7b2913fe9f09ab00aa063e5bcf5ea3c328d3df0e9c3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "cafd58996c06a0c39269d9c0bf315af64f6ca9cfb00beee6a23bb8acf92ac2eb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "66dd8d0d942151c49bcd38b3a8f722a3065cb8c150fa4760a9b300b7973f4006"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "35f9b56aca1b9eefe46cb3d2db61c8f97b89f88716d46e1127ffd287268af884"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "e26428d87ffe46c5a6ac3bee16e4e6b329bde325ab9cdb1287348a9bdc698a31"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "6878c61b35f602abd5d3d503e20ecb5e64e5c64e691e580251c296a23dd53ff4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "178227b85b2a830447e01152b6e6ff4986b2652f4944312777be359653bf7aa4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "29853b0aafb24b3a06a3e3822036ca02cff770ae8a85a853e530ed74571a827d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "fbd46dddc5c9aaacbd9028ef408797a1e53d71f65783e5b7a29454c9d7c6636b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "3f7dc0aabdc6fad15d3d6d0c07eb91cfec599296cc171f3be991c061650793d1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "00e5f34e1c0f43cd56a68419505a32db4aa39a7f3211ba2fc6340286eaefeaa7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "b5554135a9a57849789a9b69ad07896dc2c4de719b8d81f0a40c635986cc8d41"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "3913f6e970491102d9be415a9f811da7288c73e1996f838d9c517d6bea442056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "edf1911bd5879b9c796f402ef5792dea2d37d27260d0b6ee55ef0e162b0284b4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "5952068d0de048d4dc32906cbe0c00c119a574d580858b479520e7f5ff5f3599"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "b1bf62b48dc986c855244ab40d7c814b1c82413d92cb8013d6a09d38126ac071"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "66d99a4a5c3062dc761d6c8754f1fe4cac575e6ee5fa1914a016ddf4aaab453b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "e5c52f516396f7b0426ad1003b4847dec9e242cf929e5eb12502e5f75692dc15"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "d870c8b6f171a514fc9a744287aed03eb6fbc46ab9df1231838f79c8b97aa6ee"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "0fdb62f2fe065ebfbb442c3a9a9694a240f964a262f86e636a52632e1d214cb4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "ea1b3c8c2aef5aca151f6115321d6e4f167c65c564e11090a24f5c9e1b6e9387"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "392b13aa2f394acdc4ace0e4744674013e466cd155195fdfd263e0bb6de1069c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "a9c2b3a39ae0a2b5f79df3c582ea918aaa64b1cf6b39d687a40c5ed635f3d3e6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "8917a7481aa54247c653b91bbb71d5b0bdaa5bfb63b4ba2abc9ab678725e4512"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "628b9ce0d71bba2cc20a8f2a7b3299f4e90743f3ec76dc776b8d6473e7d0b6e4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "ae7bc785e67514248b36dab8f77f4f5a5d1d47ae309eeb8729c06b20502b1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "0f6ac0120d5241eb6af24b67a6edf61413914f80e6ba1b49f18ee827a955c201"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "54a367cdfa31170bba96af20c82f69860668657bf38b01133c5ac2b59b308f5c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "9dcedcc6a110758ae416736105ce6858874145696c09b8c097837a84809486a7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "db808cc09b7fcc9d8bf56a2dc343fab96dad3ed378a5c4d162925fd8e7b979a5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "eeb684e7c8eb4835b14026f34e4b63013a4dff835c7184305e9cf024cecb9a40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "b00cadbb25a712395876545a923d5f35e19884401d1a96b1b26a517d607fb680"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "34af9d116011ba050895628f6a0e6dafe78cf6ff347b7047fcaa6fb17fe8d883"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "462385fb494cf52891bd6b60c40d2f7c0b04f7b09ad0d48a16d1a95a8f7fb7c7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "389327b41a64b3ad1ec12892a7377e54aaa98f712071431ee4845afcd1853903"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "3f21be3910b91c09d2c14efba722d3d10f05057d7295fdfa92fd57cf9fa3315c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "e582ee835090e97c1206215e0af0236513bd4f946d18c7782e56762f23edabcc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "ee4e33ed5aa1a688adf56f323fb11da6190f603ed461769e48ed4674b8648305"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "1146c791584bb8274fffcb6bc51af6b3bc9987a23fe12b71aba601bd4200bce5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "127fb40ba1b4f443300138c03c5bd76c0860980f43466518e3f49cb1083f977f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "4271af71400faf9475f0b935f095aac2224fcd4ef7c691e3639f8b9e80349dd6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "d086ddc8d31516e88f8cb95e44993218ddda378a640d7acf9aa7b8c98239b4dc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "13c3cec77aee6b44e4d02b681f0b4ba7e42280acf6f0cd533d1bfd7ffdf2fe2b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "a9f6853892717ba6a4bde68939889fb83617deb72df8ac03f4e0c3c3cc6d354e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "80ebd0435f3be6fa27ddd2bd3497ccb2b5e2e7563796b9a3f2d37bc4a2a102e5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "5245477002ff1282ba085138af88fbf10cb49f8792c85a3e7fdc5525336eb056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "d522e3b59269f113ff9fa466531329ae0d86e11cc885bcf7997b568698167fe7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "f35e06e18be414643b042ccc65bb9aea96ce794d819c7cd6b060c814f3c8bc26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "33774f16c3299d30872546ee744ee5862d1f4dae3517ff8b359154a2cbda6bc6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "bc5dc3fbe19e85f1f639bb594a75156fc0f952ecb8e6301653e9ecd25a5d4428"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "032127712278d1a47237d78012ad331b0b093b72ec5cec3ffe98323307db2d12"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "e41a1dc11361668104b47ee48e907efb0e06e2dacdeea3e28776fd35809e7f0c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d9a4ce4c0d40bc211d384c1d6b9285a538bdddf6b8899bba373dcbb44adbb509"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/panel_inputs.npz",
+      "sha256": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/shared_splits.npz",
+      "sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/predictions.npz",
+      "sha256": "40a046ce84efa09434c613143bf0ba4e39612b4cbc493454e0b22dc6d7d21694"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/validation.json",
+      "sha256": "7f14965925e907d9cc925efd835cdcdb2d0b11072df1c47b6c2d154e802daab9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r01.json",
+      "sha256": "a3aaedb612fae3ee5d612634ab9c4b02eda2aa287b754f25815edab1ad5902da"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r01.npz",
+      "sha256": "a6b6423f555fd9d29b400847a9f5ee7eb7f22576c1d4d44eeefe1a4332f9f5ed"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r01.joblib",
+      "sha256": "dbf1da9fbba1d7b3ea2a40a9cdd077f5a57d85b2ac497a6a6dcc8294567e3081"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r02.json",
+      "sha256": "3338b0b35911ffed6bddaab77f2f7ee7daa7af39509c403d863732e30bfde7ad"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r02.npz",
+      "sha256": "f48a8fd27cd8e49b245e18ec20f360a05b3aee6af381e1d3941ea95e44aa01b9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r02.joblib",
+      "sha256": "0297f55c08016edffd1b17754ea2f2f967ba4d4a7b2fdbf818e17e8caad59fc5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r03.json",
+      "sha256": "46ac1625a6e7cb9da36be6996976968b6790aec2b8286c4c200824e292e24b18"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r03.npz",
+      "sha256": "f352d4ba9495afc9f3cd541113f007f9ffddc8d26a3601ddb40b489669e37468"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r03.joblib",
+      "sha256": "79aba51f1c029208e390fd3ee0b90ad067eac93ca519c2a5162ef98dfed275d8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r04.json",
+      "sha256": "0e3f363b4a602c10b649b23886b5ed0319de35106791d30c2ba2705995d18473"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r04.npz",
+      "sha256": "97580f415ec4f8a51eb987f5e8b3bf3920718a8d97a3472720d8ebe6259036e5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r04.joblib",
+      "sha256": "2dce8f4db450b55ae0335beda0194e7ccc84430c0bf9921f27f380a776454d8d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r05.json",
+      "sha256": "eff90e352886f664e0526dfd129f9ed43f5de66426a9221809aedfe08df6e9fb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r05.npz",
+      "sha256": "35f6331016a955f581b6705de774ddfffb8a46740a30d3e5bf6db6e74205b3d2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r05.joblib",
+      "sha256": "c71711b9a2f4c1daa2bc0c6a455547f5dc351ea773e79451a8000faad62d4bca"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r06.json",
+      "sha256": "7dfa1fc1f8a05ec42492cb04ae7468eb2d2b33a6363d9ff4cb141de492862276"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r06.npz",
+      "sha256": "280456c7bb4fdeecedc062d19326227af7dd053c8696a0a0cec04a74d9423953"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r06.joblib",
+      "sha256": "a1602ef791713b2f1efcda4149e33791b7ced923ebc3e4d2170d47e5e1d1decf"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r07.json",
+      "sha256": "027d7523db01265419c2948f8dd459765dc5198f15c7362f4287ae06a0ebc387"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r07.npz",
+      "sha256": "1d30b540af34cc37ef3b7ca69d904b9e7d9f128cbf921ff4755e0c0db878165a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r07.joblib",
+      "sha256": "0b376d486a3245fd72fa2349dd4f122ecfd2532927b51452528a4eba9877250d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r08.json",
+      "sha256": "b9d907b55d6c128202e57f13162d9a98e74f3fe598f0042d407fb3f2a59e620e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r08.npz",
+      "sha256": "ebc5daec7365d8dadde3b094cf92470696801e552133244398328a4269ea3fef"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r08.joblib",
+      "sha256": "faf9a6ffc7fd6e6dfc23f09906b49a6a57245e31afc58e11837bf502f17f5fa9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r09.json",
+      "sha256": "a84020064122e94366c13164dc64ccc5aea449bd1b801832856a566154c98d86"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r09.npz",
+      "sha256": "2f8dd249d01d2745a87a9786154e3a7824612f205126791720fc906798d119cc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r09.joblib",
+      "sha256": "a43eee0f7d84b9aaace3556cdd1b4ce575b5dc95b71454223acef4ec4a9e799f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r10.json",
+      "sha256": "166c433cab721400be6c978743086b0c7c9c004b782a65cc598dbd05de4b9894"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r10.npz",
+      "sha256": "d9b001cabdf6b9a4829e559cf746bc5eb5d97bd8ee2e740b7c45f39ee9ddf80a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r10.joblib",
+      "sha256": "36747c3b6f346e96ccb0eaf362676891b4b80f7acd66bfeb3ca10e0490d9c01c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r11.json",
+      "sha256": "79deed123b9abd26aba1ac2dd0005284342130ed74dbd47ad11001e3d70b0ede"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r11.npz",
+      "sha256": "dac32d7c328d343637404df6e2775a622e908a616524650f7cb161b447e25efa"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r11.joblib",
+      "sha256": "9b9c4a8250396361883df6a3fd222be969972defed53f02407217bd5c95c7e0b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r12.json",
+      "sha256": "1254a6a94c21f364fd9a1799bfdd5dc1e39fd819068e2efd88587139ac5a5c20"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r12.npz",
+      "sha256": "e4fc53f4a00b69146bb9cf6c75c238ea87b5f4cd668c09ab60305f96db398081"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r12.joblib",
+      "sha256": "da7bd92649918a07104bf2f795c74bd90a12cd6a2a24e94e2fb07015b18b0fd4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r13.json",
+      "sha256": "288af410aeb49716cea53245fc3a17c55418a924eb5d87ab5144f930b81b6c7e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r13.npz",
+      "sha256": "23b050565a1168649371aca69dfafcdcdd1c6da013726282e1ad57269426d060"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r13.joblib",
+      "sha256": "1765f64ce6152f2e5ea2988f87352c5edf1990c86447ba63822d3477e106b885"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r14.json",
+      "sha256": "328f3a7918585e66d050b460f116fa45b431d1ad97cd2013c7675943d78cee6a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r14.npz",
+      "sha256": "cb6a5322cfd29f7db7027c7ffc7f83b95b233a32e7f61524257993b291612030"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r14.joblib",
+      "sha256": "c6024a782b5f30a2a3c3f8dd579d1bd51102fb04c6c0cbd9be4cced8bdecdd9f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r15.json",
+      "sha256": "2fbea324ad467bd627bd7b60609b11a132922ac4939f18c84fa237efd8b6656c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r15.npz",
+      "sha256": "916fc6d3eba9a642e15abbe925ddc3cf7b9496942af8e5179bb1247a87271247"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r15.joblib",
+      "sha256": "578db6693126b4c6ea5b9b48474cafef8be53bc15f81dd7fd2834622f58e48c0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r16.json",
+      "sha256": "8e02f15f673051834119377b1606b57c321b9f63341110202e8a77b67bbcc000"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r16.npz",
+      "sha256": "35ad54505819510fb88a4053e71a4e8b568d4eeb9e0f4326b1acd71ed3d40827"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r16.joblib",
+      "sha256": "134528db1bd5ac4a60e1fa38868cfb7352b21267cc977da69fccf67a265a337a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r17.json",
+      "sha256": "41f7abe81ae6650a06117bfbe8d6f36c7ff3644735dd132ac72b07ee5751f806"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r17.npz",
+      "sha256": "dd399a396ff077ba47449620637ab5443e22d845e68262ea22f4830d674380b4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r17.joblib",
+      "sha256": "f8e6202ce700644df0adf2bce2582cfb355e32eec8416ba6a3095dbf3d1b6764"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r18.json",
+      "sha256": "d77122b9ae95ce718341b968213d2297c18576d37061a574616cc92189b7aa4e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r18.npz",
+      "sha256": "36bb0a9807f01ba3cf11bb60e077f3a075fcc8401906cf455346b8e7cbc7af8e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r18.joblib",
+      "sha256": "e7db2a21b883f1914849aa8b0ca57f0bec2d71996946d0b5b2add181e5da7b3b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r19.json",
+      "sha256": "7d4139c0a09e3a811f28c7d23261023b989e7226626de3575f641360b5c4ada0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r19.npz",
+      "sha256": "5aa0349749e59bbb52e080237313b3103a29723a21105e2b88a0b453d3da39d9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r19.joblib",
+      "sha256": "c3b3c4f3993b3617dcace344f3004aeef2c22d473e7dd7d51ceef608045b6274"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r20.json",
+      "sha256": "7cb46113c3d8f0f2ae88375bdc09d04e6a4a143e2e57fb02c355d0b2f11f4152"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r20.npz",
+      "sha256": "6edbb01ae43fd03fb4963d69cb11a03d27b3f709cebac29066c0a1291724a48c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/svr__p64__r20.joblib",
+      "sha256": "c9e642d92367d2a7503085cbb2237d6a81b4a021dfaa5ff60e078f8e0613e238"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r01.json",
+      "sha256": "246b8eef5ef8cbd711c30ba9f4663e648a79b6561b89a83b8de3c1a946d4473a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r01.npz",
+      "sha256": "cfbdf8afa00c071a75b2b80f13cec53951c87b2d698dc1d18402487f70317435"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r01.joblib",
+      "sha256": "502c38a1a9ecf59675c7339ffb485413baa35f7f550747e30bc7173adbb4fcfe"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r02.json",
+      "sha256": "e352f36d26617822065a18ad5a9d9c4a1273616b5375ab076e7688d17e4a9b1d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r02.npz",
+      "sha256": "08de24690f125a77c96f74bd2df80d655cf44c76f3c9db38df72bda440f01de5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r02.joblib",
+      "sha256": "f4b2b741f4998c9cee3be908f26c0024be8ea53f99c1b456d9d957ea501c99de"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r03.json",
+      "sha256": "e67c00e1a5935d1ca15368fcc43b0b2c9a155d3590864ed84e4b278c5c787fde"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r03.npz",
+      "sha256": "fae7d454b45211e8112c555a4b73536547e03ed3f2992d7d4482705d42390f8f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r03.joblib",
+      "sha256": "066bce9a3be338daf2d6b2f19f62d564dec62f75e32143009a973ff70e47805b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r04.json",
+      "sha256": "84eb0e62009649ce5d7b540ace2cb4a543ae32215b657aa11e294065b041c3df"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r04.npz",
+      "sha256": "f2818633b9fa858b966f9db8208610ba7159ce69023ab68201c620d0bb0945c0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r04.joblib",
+      "sha256": "d913901e01fb71b8c42575055ccabe0969cc18d781d86014c3fb03480bd9660c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r05.json",
+      "sha256": "86f3da9fda0855cacd12ca4848978b2dcf2f8927985c91ed66ca5c72d32598c6"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r05.npz",
+      "sha256": "375b3091587cfd1057d49ea178fb7a4ec6daa161c702187c23fcfb15fe38f0d2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r05.joblib",
+      "sha256": "4a1fa26953ea6451d5ed80b5da3b687767cb92b23c33e282ef1409a1de2e9aa1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r06.json",
+      "sha256": "60b61d9755fa78f4b60f6eb4f83f22462475060402c3ae173839d0af6fb77b18"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r06.npz",
+      "sha256": "e2bf3087f802cdde186c7c86ee34ce0716bb23fa26f2d74fdee88df06e0cbead"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r06.joblib",
+      "sha256": "93c40365f4f80b37615d5feaff6b3c31bdc63ffabcb3070d92d8cb0ec89b2dbd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r07.json",
+      "sha256": "6acf811aae3fe9c9b32de8271f734b97cc59f5705014b3eddd1db9e91eb9cbd5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r07.npz",
+      "sha256": "78fad1393dd57be076f2d959cd9e749b229c3e14efd68c2ba448a2c724cc7a8e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r07.joblib",
+      "sha256": "920f29ad3c219db0061bee52d1d2eee3d103d9464bcd3244e45714f23066fd7b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r08.json",
+      "sha256": "2a6bdffc512e7cd87c852d28b407ee2f8ea595375f94f123513d7682ee08b4b3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r08.npz",
+      "sha256": "f879a50cf57aa802deb5161d01bd8b56f72ab3e1e2a4563be3c7ae3767f537a3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r08.joblib",
+      "sha256": "fe5d962d850079b8097102af34f241a716feda162332f7255c6d00c8bdc6d558"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r09.json",
+      "sha256": "32726178e2787b1b9ebee3508e7d477f63811400825e84b6c3dc12dd98b8a707"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r09.npz",
+      "sha256": "883c144764699c86f1e1340e07525d7a0f1c2fe3db2a1fa02864e50d81195237"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r09.joblib",
+      "sha256": "e52da47a84c10513713ab033aa7b5c94e899da1b97c4822e8296fcc4ba61bb93"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r10.json",
+      "sha256": "1f1fb71e1e435ad1c3179b4feb8f927070e86c58957baeb09514af8c71722e02"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r10.npz",
+      "sha256": "bffd9f31001b61a7819298b49a21dba0661d1273cec1131dcc24281512c97df7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r10.joblib",
+      "sha256": "0e7e8441e33df13fdd263a93588670c6c4ef93a03552bce04a2a28c22d765589"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r11.json",
+      "sha256": "56d389259721bb97127c7c41fa92bf2ca7dc3a939eb8e0abe3c6e0d8c98e4e94"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r11.npz",
+      "sha256": "b2e3046f0f8a06ed1486d674e40bf89a900a05f681dc06f051da03850efef6e0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r11.joblib",
+      "sha256": "fb8bf6006863dff91b1fed171f2cf3b30046e39316d78ab32db34908a1c093ed"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r12.json",
+      "sha256": "4dfb6fe5129b770d2127b87aa74ebf0cf59fe66ef95da2b2c6e97dbd72493e40"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r12.npz",
+      "sha256": "09a997f7a6d426a00e6c6f185ef9614d80bf31cbbd428b9cd5cd01f4e7f298e0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r12.joblib",
+      "sha256": "a7cc8711cf3fdc457b376fdb57c1fee4881aa5d308f711d7b1b99a0c2de944cd"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r13.json",
+      "sha256": "744c06104b79965b6c70289e32968ad7553ae830821c9d0180171c8680da0c34"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r13.npz",
+      "sha256": "00f282091738498610aaaa82db94a08f67c097cdc93b641382f92071be654484"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r13.joblib",
+      "sha256": "9320a1d15ce2c53766129aa7760e0d58c2e7fe46614839a9b3307d2d9dd940da"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r14.json",
+      "sha256": "cd6c1a99a58c52f914e125ec906f0011b8bef25667dbaaae191860d06115c31d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r14.npz",
+      "sha256": "714adff58a170e7bf2cd019a835065fabd4f0a8a6ea605a2e019f9801f04747f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r14.joblib",
+      "sha256": "0f39f988c3d980973e005a381d1b3d2b75e58c4209b54a761586b2c573dcdbcc"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r15.json",
+      "sha256": "2496bead80e5e6567b408ff12ba38a0118d2bae59b75c7ba87f14ae4321195fb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r15.npz",
+      "sha256": "61d16cf17d0f7554c64ad7627940e0c533285c503ba3a94adb4198d48d1a988a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r15.joblib",
+      "sha256": "33e5e5ae1dd3838a5c914b37e5eed5fc39f514fe04e3877d2ed4a8a0d00e05ec"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r16.json",
+      "sha256": "897dd030e885289fade51e7b8d328f85debe569060638dd825450e23b8e026b5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r16.npz",
+      "sha256": "978bfc7fe58ac6ad6c81f9fe56f39c62f955372bb77aa21165f406408c14c7ff"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r16.joblib",
+      "sha256": "363a3d1381f1792781d343cd0e61fa2e9cffd09e7fd117f12acbbcb04ee0e651"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r17.json",
+      "sha256": "426ae187f18e054a47360172df2ff5b647671b64b1ed6fbe7d9120c98f767258"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r17.npz",
+      "sha256": "f774fa46eaa8e2dc08a0a091777824b347a641c05fcdf90639d86e26a7a2f237"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r17.joblib",
+      "sha256": "3ac8e8dd96b3b7ba6960e58cdbcb24d944758a0b86d9b542462a7da21df4482e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r18.json",
+      "sha256": "672e8b9278969efc6f16df19f962643a0b95f6956ac02721b8f9840f03858866"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r18.npz",
+      "sha256": "6c76973f477d38339fd931d8bfd641f84b4447f864cfc7afe161f2d4e4d0b0f4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r18.joblib",
+      "sha256": "7b05984397e5399ff5d2b4e6b124ac0a99b2dc118d69a93997306343ac67e15b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r19.json",
+      "sha256": "c65283071867556da005c3240cebafffee6e03b8cf6c8c58657c5eea2b652ec7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r19.npz",
+      "sha256": "2f7371c4bce60978942d56978aa1e6ecdad12d9c07363de8efbeb03ecf84d1a0"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r19.joblib",
+      "sha256": "61dd64d1a8f66cae0d330453501013edc5c64e84fb3052a2c7e5186e4fc294fb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r20.json",
+      "sha256": "1ca4fd325af18e5484ce394d8e20505b905d8b4319c45afe87ca2fa7ac479d0a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r20.npz",
+      "sha256": "10366d862dacc987c2441251a939b86cb1092e84f6a6a6e2098f550f3437db06"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/kernel_ridge__p64__r20.joblib",
+      "sha256": "3fc9dc7ded8b40100864cbd7031a6fbf54eb9df569a6be552820f7c2b46fde21"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r01.json",
+      "sha256": "f57dc82555b797115be705c10536d09181907a8fb54b64236a376f4aa8dab4e5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r01.npz",
+      "sha256": "c4b12c467b712b571fa3917af0333d2d62f58166c246b362e8c1c3da777a7001"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r01.joblib",
+      "sha256": "aea32f104534d2767f3c7ab71c2bf34e48789e3d8c258eb34d90b0c1ff640798"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r02.json",
+      "sha256": "c2f4e204c4b7b2740bea93af62df81be83609ee166dce02523c25b6594980648"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r02.npz",
+      "sha256": "3bef8f8465a841bdc6929b8d446fbca0666f0604d2d1d0bd166c6bd69fb9b66a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r02.joblib",
+      "sha256": "43801ee1a9f0d0a78825dfcc6c5320d1c3e7da27403f0509fc26d5414c6c88e4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r03.json",
+      "sha256": "aa736d3bd4b33618be8960354cbacdab0cd277aa8000b81b54e1c34f8696401b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r03.npz",
+      "sha256": "346b4f8e344bf16b962c975102e59b59e7fd7c46eab3daec1ac0752e16ab40da"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r03.joblib",
+      "sha256": "a1776793706c149b0e6a7c5b31bedc16dba7ea81d6420d5e7e0b0cb926edb24e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r04.json",
+      "sha256": "74b60ef6e7b7c1c9d751535bd7afa13b2de969a61403b3967e99234982426f87"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r04.npz",
+      "sha256": "b0cff5686bf9a377a6288e36341937dc442cbc977f0938dcf96c5a442cc78fd6"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r04.joblib",
+      "sha256": "84a741b1bfe6f64a230ac680ddbde166b4f93407ed553692fb723bee3f724ee8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r05.json",
+      "sha256": "d3d405adf56102da657cd4b329e7259e8fa3ced27ff634113c57c7fea3edb314"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r05.npz",
+      "sha256": "4e3fe373af634fc99a1f749bbb0846352d9addfd891eee554d69da04f97a3b9e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r05.joblib",
+      "sha256": "5e7cc458edbf8502748ffe2a10b6ff217b1085cab482059d968a482c2432d27f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r06.json",
+      "sha256": "294b4efbe1500123cf445f1206c7677077d6bd0a8d289d104363a99dadad06f9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r06.npz",
+      "sha256": "d53a9211e224b476876be8992f316640411047cbc748ff00f5d7009d818e0e20"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r06.joblib",
+      "sha256": "f37178d7209fd5c433c827a9b391b2aff139495dbe43556d18305664fced7c75"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r07.json",
+      "sha256": "7e7d05dd15ae23fdba2afba93ef2f9704aa5fc1276e2caa51a2651ccfdbecd17"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r07.npz",
+      "sha256": "19d55c9f9585fd37cb24e9e393b89c2e0e1514df58b36183e934f2e33f7fc875"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r07.joblib",
+      "sha256": "b2752a1dead13aadd3ec887d90ef0ad15b609fee0ee0e461f35e62dee647bfc9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r08.json",
+      "sha256": "5fc5f5caf23b7ff44a0d4d8dff15b15451369d4ee9d26798fb2640fe5820abb1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r08.npz",
+      "sha256": "2aba947a6fcb05b7945b77c3ae46dfd4dea046bb732d4314cd2f04a4cbe08b69"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r08.joblib",
+      "sha256": "c56d7de97a278590c8ebfd87d56f87dcbe5f9ba0f64e5fdab68d50e790b84c01"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r09.json",
+      "sha256": "f088a27f3dcdb840d489d575bcfb0b29abaabb8c62ba33d53e1ac1e0d9a8e6c1"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r09.npz",
+      "sha256": "0b9f77f42a56c54130893bb1fba174255c157a892cacf338100c5140b36e0e64"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r09.joblib",
+      "sha256": "0206451eb49dbf2dc5d40630ffe209a34ecd1d8aa9934184b787909f7b5cc413"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r10.json",
+      "sha256": "1be60e009ff7b71bcbf341ef89a5c9c7910902486cf7b4881015012fa8315d56"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r10.npz",
+      "sha256": "a81acca80ad2464bd0f03f5016290a51a1440aee08fb19b6475652fb3a7e5b5d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r10.joblib",
+      "sha256": "2d712a3f1b60fe5d9f0be943005e5a402b068efdcac0dca3ce0175a642d603a9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r11.json",
+      "sha256": "68ca9b0c46ba73212bf32d10b75343fc061aa07b66fbb4a8bd08aa4074572123"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r11.npz",
+      "sha256": "476a3a68c3e592565785fb18edc1f7586ed7fd2ccccfa0c4b9c48aa4c4f7782e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r11.joblib",
+      "sha256": "31bc73d653de9c8359cb62f9f9f1d9f0dc93225a677dc2b2bc874ab49912e1c9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r12.json",
+      "sha256": "fa70d909409986a49efaa21f08c6ceed0a1eec442fa1da54755483df5918970f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r12.npz",
+      "sha256": "41b02bda9a1d89aff3d2a4356fb0681e696aae1406b6ab2367e4651e953b26c4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r12.joblib",
+      "sha256": "ff549f0d3a63237108856acdb552f81da4fa941b9cb78efcd8a6d7001cf89c5d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r13.json",
+      "sha256": "aa34e7c8a7130bf2e0ec8b53b45e0ec63ba595757012e61caf31c49503aeba55"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r13.npz",
+      "sha256": "11f0e66738fa93215ed132d07d2762f890d10eb446190d989a5feff1279c83ad"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r13.joblib",
+      "sha256": "9bb42fca6e649b3564ccb039194e3d32f87075fb7610f23f47cd7f22b5a4b6a4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r14.json",
+      "sha256": "ca2465d0a51cb2db8c973031d0a13bad32f62dd0b262fe8df32f33618b66ce62"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r14.npz",
+      "sha256": "a2bcc19285960fbe5796c947a7bf4979cfed32c19bb6e0308e3aff29f64ba3a6"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r14.joblib",
+      "sha256": "30b101108b82d28ffbf4f736b1300d4a13e0e942dec3bcb778cbe0baf7ef7b5c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r15.json",
+      "sha256": "3359c603e8d3a0057782c3e1ebf397a3d078d35767c519be630e60e55da9a9f7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r15.npz",
+      "sha256": "a46bb62c9cf9db838d7740674f85ec90b07e0964dc218a151cabfd82acd0c227"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r15.joblib",
+      "sha256": "16de58efbd2aeb5a559e88ca584de4ae738b9b39b56e3f429ade11aa7e8af1a4"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r16.json",
+      "sha256": "bdfa81c822b728dfc75078f7dce87ad81d93fbe53883300e166f987f1dea204d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r16.npz",
+      "sha256": "6a3da564a94127a910aad099670207f4fb3ca598938b193b8f1ec9ef9d129810"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r16.joblib",
+      "sha256": "2a8f2e8227fa6dca66ee09ab599fde14c7791bd396428215d9484f9d5c1422d7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r17.json",
+      "sha256": "7cfeb409d0a058f2f5ae0d42db3beb06f0d1046b6095a8cb77f76e8e41c98478"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r17.npz",
+      "sha256": "9210f7516a5b2a72d94cf789fef68b01473ed51cd06355db7d7461fca3e76022"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r17.joblib",
+      "sha256": "f545abaf2b35289eefb08e7c8bfb29593a47c1591726065d33bd56335e80ec27"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r18.json",
+      "sha256": "c8c97a25a8700eb83f1bf007cc91dd38522eec18ecb83bc820004b92457e0dba"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r18.npz",
+      "sha256": "732da90c9de286acef7e413f8bea9209014461901be4c4b016336c4fdc640ce9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r18.joblib",
+      "sha256": "5713f82ced667bdd14399c8209d8a273a3bc15401536b2de2c971c8f0973b771"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r19.json",
+      "sha256": "db4733c937b2da7affe68422cdba2c2d65233ddbc79e21bd2ab218c8faf988f8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r19.npz",
+      "sha256": "b7583fd1dc04c66dc002b497d1dfe173ae44a825b71cf2478c6acc41e0653e00"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r19.joblib",
+      "sha256": "d9aba7aff289df3d83071eaa8d31fe545112a6547f7373c252a78b4a465e891f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r20.json",
+      "sha256": "664ba4b8c74d7d850697841520b97c69b1ab64128fb5a30747c8762ff244cff6"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r20.npz",
+      "sha256": "51e20cc929a0e0b5bcc061c67cc3f272f7db3dab891e0b6af7be46e5acf27428"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/hierarchical_ridge__p64__r20.joblib",
+      "sha256": "c97a46c0ac6b96cc325dabecc1f173c4f3acf4cc33e551eeae462e0dc0804c7f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r01.json",
+      "sha256": "de74e9deb3f4a4a12a5f1961b5e1a5d2607d4418d8e15699f78b4c371f1c2c56"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r01.npz",
+      "sha256": "2518b5428e7136ff8e558209216e1e3ffc6bedf6e7d1d4ce1c4b01c07c355b8f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r01.joblib",
+      "sha256": "89ea1ea3968132499338980fb71f9e61cfcfe6f357038a46cb62a42b9cd508de"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r02.json",
+      "sha256": "a27ef55aacbfb37406cc208d68264e2192d9149c282f72a0271f50cfe67d43d8"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r02.npz",
+      "sha256": "d4f340a91242a6bcaf3ca22167b005e36893d571763fe11c0e1eb080c4a73111"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r02.joblib",
+      "sha256": "a0c30f966aeb793d9e58ca3a2fac1a3b3212db07911f92adcbcde01dc84fee16"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r03.json",
+      "sha256": "b2450fc1d8ff6065895bb0eb0786952a66480e995ad5bdead8db1040ef6ac10c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r03.npz",
+      "sha256": "8ffd35878495d1570876dd92bf023bc98c17b2ebce4d7c80970d09dbe8561791"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r03.joblib",
+      "sha256": "416e422d88288d1965da9e1465b5115e6293eb965d2a69fa7f76eaa0eb8b2a05"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r04.json",
+      "sha256": "40bc7a0de4e11d6db5555cfce44a059adabe1bafa8ee609e56e5f2ac713d7841"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r04.npz",
+      "sha256": "b53f482f5c47d64a5f845368e10978389c33caafac9b87dbcaed17a5e0e6404d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r04.joblib",
+      "sha256": "75c49c872d6c8b714b6cf2f00fd15de078d9f8deddcdac0acb8ffac17969404a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r05.json",
+      "sha256": "374108203666ae4d53343a0801996e57e75bdb1b61ced13c005b2f28adbd7ee3"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r05.npz",
+      "sha256": "4c8097657ba187d863bd182efb89332cd04defd1852a2673f3cf1212fdda7dfb"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r05.joblib",
+      "sha256": "f7be1006a0ff042a486fc880e370b24377ad9a1976709d9bd9f0dd6bc0d21b9c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r06.json",
+      "sha256": "ef457baa68dc22a2d383b00b7f8ff87f7a79b0958003056171ffb6a9fe952886"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r06.npz",
+      "sha256": "a242dd50e92af6508d77b359e8acbf7a6d097d14dcc032024df5a8593461680b"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r06.joblib",
+      "sha256": "fe1181aea4c0052c8f0c108cba0a1786a476123fb71933b90fe4dc57998c2395"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r07.json",
+      "sha256": "7e05eb35705894ac0c205886a9cef11b9cb9390c533042cf049ec29a7fc12405"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r07.npz",
+      "sha256": "eed3d67a3109f8d1fd74ab267fb271d888b01bf657a0b529fac30cc10678040d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r07.joblib",
+      "sha256": "c06389a1fc04078290e310f643fba7dc3a84c3d2b1bc99a92097bbccce99d64d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r08.json",
+      "sha256": "9cebe8d5fe6cad051216d709bd7237a31c1bebe2cf6671d8ba6a24de709f8293"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r08.npz",
+      "sha256": "48c0266a43ec748a3e8844000996c73142409e1beeaa95d07e4a29ab3ef84786"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r08.joblib",
+      "sha256": "00d9119b84671844b1be05e938acde8ec7193b4dd9f514ce7166840616f86b49"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r09.json",
+      "sha256": "85786489742168adbe43710e4c977ae13e8a82545a13b212f7a72cc8f3f9a62e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r09.npz",
+      "sha256": "becfcc3ab2dc66fadd9551083ff1a6b6f185dd21e7ee11637226f252f7504f4d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r09.joblib",
+      "sha256": "a9bb06e61156e2656eec6a41870ad57a0aa56d3e8490714b06e4a58e435f75ee"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r10.json",
+      "sha256": "16609bb185544981a4e435acd9fe1a1ef23dcd70ff9b825cc29e28b4cdb38617"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r10.npz",
+      "sha256": "03cbc49d77ee99e1938db1dc64b9d9e4981d8689244f44489350ac46e90bdf8f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r10.joblib",
+      "sha256": "83655ea36712b6b71686afda81832b016dd8072a7a829360519fdc4d61585f1c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r11.json",
+      "sha256": "4814ac4a3c6318c084f3de9bf2ac43a520e6f81e0a2ef2120059785510ac929a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r11.npz",
+      "sha256": "9adc1362de78a39e2cf2c73000b989ca3db7f2169bbaa33ba16dce1e4e1e3f4e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r11.joblib",
+      "sha256": "de4d2d03c101db2fb4da92d53df39372001b11961dbc9007b0a66f84906f47b7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r12.json",
+      "sha256": "c09bf13e3a35d78cb16e7bf9f5812bd6209d581d2dc076eb837ffe1607f66e9a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r12.npz",
+      "sha256": "ba08b1592141367fab16d97cc7cebaacc7bb2ae1d417d8b0af9b51cace727578"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r12.joblib",
+      "sha256": "b9a2eab9dd34a2276918c8ef44c75a5ff4386852b54ce0df119e7c866875d26c"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r13.json",
+      "sha256": "552bde07f5d7f644015b48a6274eeafc3a3e147a8021ee1e962be565303eba9a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r13.npz",
+      "sha256": "e9916c4b0ff0f2e65aa984c828431ad18fc0f390111e013642b47a3b563f1846"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r13.joblib",
+      "sha256": "cb4c2a7fe6c12dd7c971cf31f7a50860c34790fa4dfa4f819685f1af94687e81"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r14.json",
+      "sha256": "84427947f9e911daa23de97839e30aa45faaddb8513ca19a36b85a4a8c88835a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r14.npz",
+      "sha256": "e6937c7895a2c09c946b31a3782ec6c2e3855a40e4f83bcc1c4fd4fff8cd6b8d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r14.joblib",
+      "sha256": "5d2db67b0c1e25cdaa0a07b44ae16f08e118cef60e608c5558c1dcb7c54e92ab"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r15.json",
+      "sha256": "0a578578eab4597d8418783b46370822db611f5d5378e87be4ee9f975a8ad377"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r15.npz",
+      "sha256": "3c9353b7186a29cb764e5f8b5dd7a6c90b8da916122343884321900ca0d216c7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r15.joblib",
+      "sha256": "f29fb67204e65b5a031760843db69eb642e20bea4bf7816b450c53d0134d942a"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r16.json",
+      "sha256": "eae6f7102ec1c89fd37c8aa9b55c5996b899293058b3d1c23f2b0ade0ae80b3f"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r16.npz",
+      "sha256": "24c4358421a8650b6d321b86d369c92c7abab289ed37297e90a751f8173abdea"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r16.joblib",
+      "sha256": "9f615b523fa4ebf3700893876cac856bff422f635ff600588ef94e375f40411d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r17.json",
+      "sha256": "4bf078bfcda1f070a86e5fdbbecc97726899f63fe2872a2c6801d7adaf56d21d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r17.npz",
+      "sha256": "7f897947a412d17df0cf72c96c7b6ed11f8111d36f7a700a65a6fb7d3c5591b6"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r17.joblib",
+      "sha256": "6f83ff5246f4956252d6d0e366be85471a0d7688ed95c5d6c3b92044ea766c93"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r18.json",
+      "sha256": "a7680924c9d10d17174ef07f5653d2b3d0cf47944afa252e174e4ea48039e4a2"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r18.npz",
+      "sha256": "10b9992d417031172f178c32b5561712f084608b7942c09827de6b404183bd0d"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r18.joblib",
+      "sha256": "6dc6df6df026b2f4086beffece6fb05f37f3318622fbbf88052191db4401763e"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r19.json",
+      "sha256": "1e2d2c8c8772a6285d7e9ad3726511a3c887ee000b5c302bd05c48f1329046f5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r19.npz",
+      "sha256": "f0f3f5df8df3ef6425f573e0b6a9eeb38635b1dc1322570ea95f8c7feb9179e9"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r19.joblib",
+      "sha256": "7afa12d0e3899599d5d29913ae2c1ed3638c020ed45fb7e5b1eb1f17d5d9baf7"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r20.json",
+      "sha256": "47d6b773ae5cae2f3ceb1670be6636c8792858d245a124d1be9233372046c2d5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r20.npz",
+      "sha256": "f08c96582cf077db9539736bea217e407a5ba29012b87522aa14ef8d587ee7d5"
+    },
+    {
+      "path": "outputs/erastin_kernel_lineage_comparison/PRISM/folds/lineage_only__p64__r20.joblib",
+      "sha256": "cf6cc844c7fe8b2f95c2809f11426273a83b088de2729cf00b37e8e12b1fb29e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/protocol.json",
+      "sha256": "b3f978e3d659b0fe223353bd946b26b2f3e1f0c064830aee735316afc91ff84b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/validation.json",
+      "sha256": "236f5e57c6a102cc83246b62f541a44951be681583ee7835c7f64ad445c3b194"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/panel_inputs.npz",
+      "sha256": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/shared_splits.npz",
+      "sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r01.json",
+      "sha256": "c4bfb58ba12cfd68c95cffe5c5ada003bca86b939b4cb9d2a311564a99c5bc03"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r01.npz",
+      "sha256": "947bca8b126e1d4c3837bb2d4c11078737018bf28ff94eb3eab66ffe574e117f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r01.joblib",
+      "sha256": "267318a402c074cd3f67a360c4b6898daf4ab9f123e0f176d1a9ffcc753104ac"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r02.json",
+      "sha256": "876ec7aabfdef14a12c7b69c2e495f8ceee6a97e02562902671eb07e2cff44b1"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r02.npz",
+      "sha256": "e18a8d84034fc927761736773444346c73768083f6c5bf54167fd436d6e08905"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r02.joblib",
+      "sha256": "b5964642dccdcbf3776c4c9c193502f59498048d9bf64ead96e54dd7fa10339c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r03.json",
+      "sha256": "ae23a7fd24e14bc73c2079c29dd8904237d9675987a61ff13c75f880bdebf5fe"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r03.npz",
+      "sha256": "ea61ff23a008c513b53b51e0017dfaf1d15f811cdb0808d52b781c184014631f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r03.joblib",
+      "sha256": "27291159b214580a86ef009c52f1f8a1a93434ce90e14e79642a39fccd23e2b1"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r04.json",
+      "sha256": "6f0c6626aa1f9c97ae4ee4f3120e6c47b4b82906436419fdb2c1802c295d3602"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r04.npz",
+      "sha256": "72c4a2695972262191bbcac1945a69c1271d54ee4f88c181c1cf238e077ff430"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r04.joblib",
+      "sha256": "a5ea1da52dc07632a0126e4e289dbb9fc816b95d794718e39542422e7deb1ec7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r05.json",
+      "sha256": "2a03bca18f231141e734c7626165707eb9ffb270e43100a4bc116e77213ee1cf"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r05.npz",
+      "sha256": "08aa678bbfd8de3539fb730b09d92b5724f5bb1e0eb8f576883a2b2402fbe133"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r05.joblib",
+      "sha256": "2382251a251872b3087f67fec68af2cb173d47df6dbde7166338221b4df3e68a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r06.json",
+      "sha256": "8da2f9f0acb2e0139e89e18e27a9096fd03fb641a3c2860182d63f8a1bbe62b7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r06.npz",
+      "sha256": "3ceb6bfc75083e572a3e5c46aae2f68fbe93aa61417b076fcd06651c605a6cbd"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r06.joblib",
+      "sha256": "d0406383eda08b2693da65e7f95434ddb48b02b2abb2d812cfa48dff564344e2"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r07.json",
+      "sha256": "439016cad747fff1060796904f700b2bcefb9e58ac8f5e822cfb73c57e4c89d7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r07.npz",
+      "sha256": "91b6bbf26a5277cbfd543f4d714a5485623dd33cd9457d4d672299c17bcc8fd9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r07.joblib",
+      "sha256": "e299fac5a58541e5b93d9cbf3c4aeef079e4776c489934d155a0caa7c0272427"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r08.json",
+      "sha256": "d9b235489f6474147fb1d4b0ae8dae5c2a8f91611de8ae4c9038cc1e8861f890"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r08.npz",
+      "sha256": "7836468ac181669ffe37d768d5cb7a8e29258c5427b447b7775bf91024e0e3bf"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r08.joblib",
+      "sha256": "40665386ff00a60a9688c4204d2d80a90ab0d6e81276ee56c56a58ea0eab32b8"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r09.json",
+      "sha256": "d408dddf3b4db229ea4f727e1e0182550e61b4a0d8a2a92cd5834167028a58b6"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r09.npz",
+      "sha256": "4b06adf16fc3a2490ee3dd0b3c8dceca62d35344d4e2d4300e05447294597cf0"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r09.joblib",
+      "sha256": "b80d31dd98aaa8cdee4519ab7bf386e89f42eb22519c8c26382d68151808181a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r10.json",
+      "sha256": "bffa0ad24911065525bde351b49d52f80b4b8e2da731c08db5794fe5b6af9b3f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r10.npz",
+      "sha256": "e659bda9324a8dd92fc202b6b6c48af7c5c399a39a192db3c33736d1397d34ee"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r10.joblib",
+      "sha256": "4169053977b4080e44b1fbb0d36543c05a3f3bdbeb78d5df34c9e1f05a9758c9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r11.json",
+      "sha256": "8860321addfe77fe48f23d8a902ce4142306070150b4f9d0642691db98e7e266"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r11.npz",
+      "sha256": "6a8191fdf1aaffe4e755b5acb7d78540ac8b12dc9bc59d49b4cb5e9e85baf9b5"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r11.joblib",
+      "sha256": "1da41dd50318263b9b0fa7c4ef949bd6e2fc1d8a1681ff20d9f7b6ee62e907da"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r12.json",
+      "sha256": "97c7338ab6c668d00c1c6bcda7bb838440e17b038d48d83006ca0a2b171a4806"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r12.npz",
+      "sha256": "933bc26e7eab11905d9714169da3f19e3adbb6cf14e904bf321258636f4fe6ea"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r12.joblib",
+      "sha256": "69c561de108644f7e2ec90f8476b6601764f80c491fba9cd9086be80afa00327"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r13.json",
+      "sha256": "483781488ec6c7be8016be8f981ef6ac401cecb9d03ed5c1e7f1b9e0159488d8"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r13.npz",
+      "sha256": "b1247db608469a4dc00d2683706f23de00291a63ef384186c87e548de8d44b09"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r13.joblib",
+      "sha256": "6f874646696f2b29c38058025c2bf90951af0e2a74b7f64087876c90fe5fda2d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r14.json",
+      "sha256": "b9177f0291a29fde8bf8654c7eea2c0f1f2bbe92d71bc8040ad7c5bc13533b78"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r14.npz",
+      "sha256": "296603f0291aea58c7a74475b99719c6c97817638fe1822c72833dab026da74e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r14.joblib",
+      "sha256": "fde4d34035cef26afbc588ed3ba3ab8d7c402e580288b6c9ed79e12cbd88caf7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r15.json",
+      "sha256": "15c9b0a17d621054836318b64e7fd71476eec14e9b0ac6764db6a8f3a22396ae"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r15.npz",
+      "sha256": "74cf32bd7e8c78acd8a90ff172a47f083268fea0a41ec3d99231047c851fc574"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r15.joblib",
+      "sha256": "b633e112568489fb005ef263b2712cf6d4b8c507be7401a90fd885dc3ceff540"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r16.json",
+      "sha256": "4bd57654e186680c900ec3e92afc37966fd7c4b64fd6c1ddebdf9cd3a95ee80e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r16.npz",
+      "sha256": "10cc28053b411be9b12c22827dd89d8fbd5044f9193330b009b20f41ba41f66b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r16.joblib",
+      "sha256": "ccf6ad9ad98eb4f592331aaf29c85021496eb9abb432a12880f44814aebe126a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r17.json",
+      "sha256": "c5f2299fa3078aa558e0a9243ff32460cc9e1629ae18970e789c88b0da96d535"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r17.npz",
+      "sha256": "7279acbc6f27145eda687d3be2cae705c0e4b2a45cb30ecb6441316e8799722f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r17.joblib",
+      "sha256": "2b7d67702b0c701537ba459e4c26771626ac4cc7ec48eb7a53a14523e78bd532"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r18.json",
+      "sha256": "8ded4a1322af499db002f1e18c29a5b4a7e183c8285a370be9086ce06ed7690e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r18.npz",
+      "sha256": "9aec07a10f19bd30ac967ac9ad2e1063396e399f957ff729de41c4e56d03ae62"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r18.joblib",
+      "sha256": "c5fc41d25ec25b00eab6339dbb763673ba8edd9ea793a4bb84331a402b6ca261"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r19.json",
+      "sha256": "9a162034b927fb2a9b2d3f49e0247fc47420f3bc5024267a5d74e9587a42fd38"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r19.npz",
+      "sha256": "165a6fd69ae38b984eba0386a64a5ee342e2146593675cd64c189012a7efb08a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r19.joblib",
+      "sha256": "9712c19dd918e39d24b79398bfda9a5030889d12977ba9bd856e21f69af7d790"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r20.json",
+      "sha256": "f6f6a4b6a60634ca1f24b0f3a65864a26762b206a9e54651519b652142272192"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r20.npz",
+      "sha256": "c53ba711649e125c55117070efd7d180de915ecba6334e608d9564c0b9e8946b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/ridge__p64__r20.joblib",
+      "sha256": "3b1c42cdca4a722cc9fbd068b2b08406c58732eb757aa762ac2af11adef0d3d0"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r01.json",
+      "sha256": "1f6780eb08e2ddac55b1d5d7e6a772734b13260717a197f5440c079383a1397c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r01.npz",
+      "sha256": "6596ee4672d74536588b6c8f1aec383008dd12e3e27e8315b47c5388cb5f73c5"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r01.joblib",
+      "sha256": "60dcaa765e083ce6ac8e832c8a4c46bce49e9bd74fd380f8e1902be9aa99a272"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r02.json",
+      "sha256": "a1ac7be35e7a53b71d9d016076f520da88e6f9c5936e1ce410757f7dfe975b60"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r02.npz",
+      "sha256": "e1c84846da9de2e1e0f23d3bba62c9c5a278f22049b5532a4f0c7b491eab8bc6"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r02.joblib",
+      "sha256": "9fbcd15f2bb259807b2fed8d8876fcab40319c504ea729017b79e732be43d974"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r03.json",
+      "sha256": "61e3a343e050ddcb0053a22feac23940ff846e8dc1f5bf1a6544a66969867fbd"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r03.npz",
+      "sha256": "007a66c439f06333809e5291cab89e074e1023240326b31d49368c871cf1c954"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r03.joblib",
+      "sha256": "16a0f09f897b83123bb11771d7d2abf3b1b5825fda9ba3c7cb673d5e2edb7448"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r04.json",
+      "sha256": "8ba1dc95f48cc1a548f38db9a83c8a89bcc033049d018a6e028d665af12a9709"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r04.npz",
+      "sha256": "9de29ec2cdbd89752e9e7827945056a8c475f51843c5b88d7007b5f2fc226602"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r04.joblib",
+      "sha256": "412fa14fcc0e5d63ee207e531bfe60c3828aae04234406089d9e944c618c1146"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r05.json",
+      "sha256": "3fa225fb7e276f2c5f1863f7c506069de79f9c36dc991d6fdfed9fd363257e2c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r05.npz",
+      "sha256": "76b5565a187835646a186ab812e561c18f459df21588f38122b00defa9aa306d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r05.joblib",
+      "sha256": "71503a395d5d3721b808a60a6bbd876ef24b04588f725ed12f7b0ecf88498d02"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r06.json",
+      "sha256": "2e814f5be620feeeed52d34153f8e493ae3959885795e2893092124ffecc2a72"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r06.npz",
+      "sha256": "dbbaa14c30c95a9105b113771047e40b8b405e4971fb1f418434225deab3f339"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r06.joblib",
+      "sha256": "81858106118cb5456e38ef07627fb8d2f5bd74d2654fe584665e2bd796fed367"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r07.json",
+      "sha256": "c210020a5cc8447e9cd13bd62c20bd1283507692e94a9fde81d18647a3a3a6d4"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r07.npz",
+      "sha256": "abe324ff3f7493cdc4f543cef2060d6cd736b2ff296fdea634a1801473f711d7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r07.joblib",
+      "sha256": "2252baacdce8a888dab650ed9e594c52c8169aa75530cc7cb851e6a970bf4965"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r08.json",
+      "sha256": "61b87552d54724a5f8a2b02880af74eec544f50bd83ca2a1bfd27abe7760c6a8"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r08.npz",
+      "sha256": "2b0171da011d9fae7c959d885375ea1e5d83bffcd931797478f8b17785873aae"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r08.joblib",
+      "sha256": "ba205407ab5c86b25b5ecd6efd62a3c005604506609234f19f25ffeb2dcb2211"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r09.json",
+      "sha256": "d34f9c13a2092ce643acf4b79c05efbad745d8a967ffa3bc6433b64eea31d874"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r09.npz",
+      "sha256": "e3acd4945373c35c7e19fd18c44404f03d583cffe8c2aea10cb9554ef8f6950a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r09.joblib",
+      "sha256": "49d2c3bdf004d2345af00ed398e7b327b2751050b9338e3c422c52f990f5ff50"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r10.json",
+      "sha256": "c3a1397303d48ec2698cf3761365b4a790edccca49791c5e84505ca313011320"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r10.npz",
+      "sha256": "ef54612a45bf7abe4a26fd7eff6dc449b14e9856134e33e31539900c17e1e923"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r10.joblib",
+      "sha256": "158c908471647191be15a06cf33597872c6958041b8fbf4e33a99d079f858949"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r11.json",
+      "sha256": "ed32069b80999a6d330394b2f3660d514182ed0e25dd1490b34d0564ad2aa206"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r11.npz",
+      "sha256": "2e3b180374a564a73ca18c37c79686fe9d31c1f0d8fcfa6d134beafb4582a2ac"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r11.joblib",
+      "sha256": "e9fd1eb6be7c8cab618424a1f84503c04da82ee576d7285baadf06633eb9920a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r12.json",
+      "sha256": "fed120215b3caee899772a21268444f0816057d566490504f1c496375b314676"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r12.npz",
+      "sha256": "388718753d3adb4bbb3d090aceff88d2d2b641b30e089298294f42ebc626ae2d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r12.joblib",
+      "sha256": "79a7e728861576d88dd314813df1a926e763b099e0fc13fcc046194563085d1e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r13.json",
+      "sha256": "4eb1ecc8c3e65f047056be04b21e4b36502538cc446e3bf2d8d3e5042135a941"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r13.npz",
+      "sha256": "8bed0efe672ad11af1a6f110a9733239ed32961a092720fb33ff95b98130b6b0"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r13.joblib",
+      "sha256": "e0853a076784d0e7a4b2efbc2873c4f10b6989d504b6b2494d7c121aaddaae3e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r14.json",
+      "sha256": "d37168538964f1daf8e8513ab987e6592eddf8fc3f9addc4b5907107010b6d39"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r14.npz",
+      "sha256": "66210f407f13518c702f55280fbd693c005551cdfa30b90b7f87c2f25f183d01"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r14.joblib",
+      "sha256": "3dc190db5f0561f3db173e6a1299180bfe94a4a7ddbe4ff13326707d961e05b0"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r15.json",
+      "sha256": "4ac50eeb04ed2259ad95f77982ca1cc4c96c2e5ec594c86a46fe46d9ca40148b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r15.npz",
+      "sha256": "583f8f70aab48d06de2ef2e33388cf7cc7eb29d8e2d95ddccdd75904a06926da"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r15.joblib",
+      "sha256": "0d567e93fcedd563eaddf88d37b3fdf8533550dccd8ac1257700e56f2acccee7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r16.json",
+      "sha256": "29814f06178404e1ca6c4645312fab45db19cf12695d69bd14d69a0e4d00d38d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r16.npz",
+      "sha256": "8402cce9a5316cce185ede9328531106a2e83062ac5cd470f312253f13361b0c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r16.joblib",
+      "sha256": "cd973b5c52faf1ad0a50fd05c613f9ccd02f9c30a4fd0b865cb91ce9e0f14c95"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r17.json",
+      "sha256": "78a2c54d320c311a0e229a9a3cc740d88b6f329e2e9d7c689faca186d56677ee"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r17.npz",
+      "sha256": "a0c4d5ef002e9891c544420bd84d84747151a91ea6d55aabfdec0129f80329e5"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r17.joblib",
+      "sha256": "57e606eaa07eb51c60110d6cba2d907a6fa226894bd489aa5373ff5156e714a7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r18.json",
+      "sha256": "c48294a43d6cc645f7695d39d54d1bb97590620b1508e62fc6ccae7d8cc5f44a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r18.npz",
+      "sha256": "f7f26f18f6e7872d4b65737f1ce36065f83ae08dab3647b915a7d6b9cb9f9f69"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r18.joblib",
+      "sha256": "92d9beb51f5ea3168f7b29e0da05657c299e03912e150ea43ab944b3a72ad492"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r19.json",
+      "sha256": "2c13d21bfd95cbf3f2242ad633d78be2eeb708550ca56355415cecf2d337537d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r19.npz",
+      "sha256": "f2b107ea980c5d6e3116cdf4d55869503fb21461c72b518f8e333aa531a36cd7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r19.joblib",
+      "sha256": "635245e157b157ec62cfe7ae99baa8a2f8ec647b2a4a4406c24805094312f64c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r20.json",
+      "sha256": "6eb4769a11f571ffd12eb44a30e95e9ef11b27ade5c442d99ea4cae779c5843a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r20.npz",
+      "sha256": "0ade2a584a6390f8dd41a8ce3f56ae3d39a38157716e28dbabcd927d661d30e7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/elastic_net__p64__r20.joblib",
+      "sha256": "b76645e6b3eb66f3983e969ff045746a441e20628bee757a253808d970e7ea47"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "a8087857f56d6467ab7298860ba2439d494be827e688944370917c83b527e60d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "c398e64bec4d0f684d2a0425b94a71d6973705f1e80240570747c068edc86fbb"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "701ba3a68acde22307c35641801406eb691c6fa7fbff147f1b81031f076ac8a6"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "4e578d78468f90310dc831dad3d42edb63c80cbd2867d8d7fc15432be07f00df"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "60d5850c3e87223c7fb8ee81765a0b2dac61547e36d74c348cf39104d978de26"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "1a89f047a5e45f4ff3021e9720705d69f3ece65a4bd4eea8a7ccaac3ad7c6b6d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "9eb1b6ee04c580bfde31f9163616201c16ef03fdc12dffaefbda56dc0651648b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "7514980e48b915611ef36d86a5613a2c6f7026f0a605b6aa1eb219cd8ab6bd63"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "a5c4c589ff1f278ec84d265dc7f10f9d3115a299e5ce530bb7a4236a93c1a70c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "e45a847ff43126da14e64c446a0218188e06c9988e0c10e6156765dc51a4f476"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "c9449608a0173ed63fd7b415c653170148e1497f29d8cad20dba558e9fd35a32"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "6e29bb0e0863e56228261ff520c8b96564cb6dc40d5f9244c045245a9771929f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "c84ffba82f553732b8d427f0df8f4e79a37549eca1f4cf47b2a67c5128c76220"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "c6158eb82d9685e7d99adb1081456251e8e862b74dfcb20f5cde85d919c2e83f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "015397619fbce9c6d1bfd7832c2667d0598696acf52bd9578cee55f399eff262"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "5fecd2c9ba87c3fd041dcf1cd1ef08f077dde3a62720aa2c396cb7534003a19e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "a47c0a9217a1845e4bab903e0550b4252835bd727e8d11314689af967c2eea92"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "59b85d80722ae16a90b7c35fa5d25462317395aa5f963a8e59c56b5c1c19990d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "80900eb8e3db7b34274c19e641823ab9e5870edec45472bc7bff1fb4c60a3d9c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "29461d165f0b4505391f7630fdd95ab2f059d7a470c96f1bb3a789a2cc338858"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "dd349a6c4b91d625561bff9733a3e29e4b195ac57bd3c38d9ec00ad429b1fd28"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "b34ffb319201dbd4a3d83a2c8579f56ec874a7441206e6196ab84660a5555bde"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "48e44d12305e652561276435d31db8ea6de455c93292e3f59336d35c3e343a9b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "0442aaa24ce8fa5c3727e0fe85267d182c33b52dd651691d260d328c2fa11252"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "4bc00cb94b81ddd2f0b45cad69d0a4094453650c714414ed6b67f1dd977665b9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "2571d1410467d5f75ed5c4dffc08dbe387b6c4f60fb1f5b7706c55e7eff6273c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "ec598d44b5600bed532030ccba571edb4cf4497a5dca38c2cc9562fdbc96ef36"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "2c3f3628da8c703db3190cb3424106e67312e04765bcf1e83b3d1d787996ad90"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "dca638b346a3ebbb50e740fd39c833db2d7759b3889505d2aef3b430d725819c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "0ef4219b0ad9f4e8d014f00d8711707795f4d7173c49673372b883554de1bf82"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "39478e78b1dfc2984ca61c0eca3ff82bf86e36cd556456136b09b7cbdccc5714"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "d3524f4c39462007a337b7bb35bb0eaa8af7cc0275112215cd0cfa1604993d37"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "555882d1cf94103927467c1b268d1f4699278e2864b1658c87651351421166dd"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "54f9129bdc80267cd436f93e2f54e7e40711edd3281f3bcf5a1a87784f7eb3d7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "2568e2347841c4f6701fc5c48e7ea18d3c6d9d13d6dada70d52bcdedc2ed9c03"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "200f52b35b8f1c716dd7d3caf052809021e4105b3e324faec729520f687c4b3b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "c85242d41b95d05373cc000580d3de75d81ba1bb99725134dda6c602d14a8e2d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "7a16df429afbdfba68910259f8d4b992066c7cdf5f3432c1fb2c78a0cd2d732c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "dbc690e53610ea5837d9406ffa09546ec0578feabeed90d8bb8d6c457d668503"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "5efef626672e1d142e9dfc24017bfadce38b9359410eafe7376fe3b77175f0f3"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "dc0e6b0d8e680e84a8f4feded9ab3a85c1fcdfb7c439c319995c49c058c5d53d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "1184ff2a439c03bec206341022bf98dbb5ec11d7dad7604c169f7ed56be2a04d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "c4f4587dbb505ef65cf67a5a802805155654a4ba592bbf85a7b6d386603b3e5a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "c8fd83def2e9c93baef6f5d59c1fbb6d2e0363f40c3913ba29138113d6563a12"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "88416c1b7a04606abe98406ae90f641f279eef23c25a82ef7c4d8ce7acfcc892"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "061274519aadc62f9cc60ea68c29ec60605beeeb5849ad8053d190e4f77c0de9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "b018c6e33ff9e2686447d75ab96ab51f6edf479a91103bfab278e72ad54f50e3"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "78074389833f659c0699e7cb269fe28d7fa0ddce831057dfad562f1d7f467bba"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "00c29dab6f854f59cb77c4a1aa8b8f6e99475ff1ba7964b84b66d548fc18fc38"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "f0e6f9eb038c56fb891d103dd095ebfcf24a20406b20966c3039824adf3ddad9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "f6b97d418cae8eed3c059eeba1f9a1770e5e7146d9dff58e097b2ccce7aa3e46"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "9ae0d7bc1d30994aa1fef778c31e1cbaa85ab3dd9313170b4a3f6f27ab4f5792"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "b3e5eee622d13cba86e613c29da9dd2913837d08b5f298d76a839c4d5218374e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "8c610ca64bcab441d829bde715f8fb196e23a9c5ff133ede51a41ed6d81bb926"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "fd752e90562a2745ef16f5598e7115f4c0e2016fc1e37aa46231ab616519b71d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "34f8203f6dc3199a9cd8874c0cb92dd43f55f6d60267b14cc331e24d1c3e41e5"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "6675646897a827a22dacce692621706a54d32f2f7a08130ee98d5880360117b6"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "e67f2bf49621dc88861c6fa76a0f7cf714759d12b938ffe0199458b0c6e2b024"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "98cd7bf2c3cf49580a184cd6928e0fe1697fc7611efb73a248ab19dba220f08a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d0dfa10a081cb2308a48dfe92125ce080f1dfeed3f81c8a7774487c94410b304"
+    },
+    {
+      "path": "outputs/retained_64_gene_models/model_registry.json",
+      "sha256": "0c1c9781638e235e7f26d14a8707326d45109d412900d338604506fff39d37e5"
+    }
+  ]
+}

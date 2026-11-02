@@ -1,0 +1,2335 @@
+{
+  "status": "frozen_before_random_slope_fits",
+  "created_utc": "2026-11-02T16:43:52Z",
+  "cohorts": {
+    "CTRP": {
+      "samples": 744,
+      "identity_groups": 733,
+      "lineages": 23,
+      "outer_train_sizes": [
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595
+      ],
+      "outer_test_sizes": [
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149
+      ],
+      "split_design": "20 response-blind lineage-stratified identity-group holdouts. Approximately 80/20 per lineage, nearest feasible rounded sample count, at least one identity group on each side. Uniform random group subsets conditional on each sample-count target.",
+      "inner_design": "Five identity-group-stratified validation folds within outer training. A lineage represented by one training identity group is always inner training (-2) and never inner validation. Thus all 23 lineages remain in every inner training set; validation has 22 lineages because Ampulla has only one outer-training line.",
+      "target": "Unchanged negative harmonized CTRP AUC"
+    },
+    "PRISM": {
+      "samples": 386,
+      "identity_groups": 379,
+      "lineages": 20,
+      "outer_train_sizes": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "outer_test_sizes": [
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78
+      ],
+      "split_design": "20 response-blind lineage-stratified grouped holdouts. Within each lineage, sample intact identity groups uniformly among subsets with nearest feasible sample count to round(0.2*n), requiring at least one group in both training/testing. New masks generated on PRISM cohort, shared by all six arms.",
+      "inner_design": "Same five response-blind group-stratified inner folds per outer split across all six arms. Every inner training fit retains all 20 lineages; rare lineages cannot occur in every inner validation fold. If an outer-training lineage had one group it would remain protected in every inner training fit.",
+      "target": "Unchanged negative reported PRISM erastin AUC"
+    }
+  },
+  "genes": 64,
+  "weighting": "Unweighted observations; equal-mean five inner-fold RMSE.",
+  "culture_covariates": false,
+  "expanded_genes": false,
+  "pooled_assays": false,
+  "model": "y = global_intercept + Z beta + lineage_offset + (Z - training_lineage_mean_Z) u_lineage + error.",
+  "objective": "SSE + alpha*||beta||^2 + alpha/intercept_weight*sum(a_lineage^2) + alpha/slope_weight*sum(||u_lineage||^2). Global intercept unpenalized. A zero variance weight removes that random term.",
+  "interpretation": "Gaussian random-intercept and independent isotropic random-slope MAP estimates with inner-CV prior/noise ratios; not MCMC posterior sampling or estimated biological interaction significance.",
+  "centering": "All X/y standardization and within-lineage X means use only the current training subset. Local slopes use the same global gene-SD scale; no per-lineage response scaling. Singleton training lineages have zero local design and exactly zero slope deviation.",
+  "kernel": "K = ZZt + intercept_weight*same_lineage + slope_weight*(QQt)*same_lineage; Q is training-lineage-centered Z. Training-centered kernel plus alpha*I fits a free global intercept.",
+  "grid": [
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.01
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 0.1
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 1.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 0.1,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 1.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 10.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0001,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.00031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.001,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.0031622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.01,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.03162277660168379,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.1,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 0.31622776601683794,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3.1622776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 31.622776601683793,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 100.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 316.22776601683796,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 1000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 3162.2776601683795,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    },
+    {
+      "alpha": 10000.0,
+      "intercept_weight": 100.0,
+      "slope_weight": 10.0
+    }
+  ],
+  "grid_order": "Slope variance first (zero first), intercept variance next (zero first), then ascending global penalty. First lowest mean inner RMSE wins ties.",
+  "arms": {
+    "matched_intercept": "85 candidates with slope_weight=0 under the same variance-ratio parameterization.",
+    "hierarchical_slopes": "All 425 candidates, including zero-slope and global-ridge fallbacks.",
+    "positive_slopes": "340 candidates requiring positive slope variance; prespecified sensitivity analysis."
+  },
+  "baseline": "Reuse original ridge/Elastic Net/NN and prior SVR/kernel-ridge/random-intercept/lineage-only models. The previous random-intercept model uses an independent intercept-penalty grid, so the newly matched intercept arm isolates slope flexibility.",
+  "tuning": "Five erastin-only inner-fold RMSEs in original units. Same 20 outer splits/inner assignments; no new gene selection or test-informed grid expansion.",
+  "primary_comparisons": [
+    [
+      "hierarchical_slopes",
+      "matched_intercept"
+    ],
+    [
+      "hierarchical_slopes",
+      "ridge"
+    ],
+    [
+      "hierarchical_slopes",
+      "neural_network"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "positive_slopes",
+      "matched_intercept"
+    ],
+    [
+      "positive_slopes",
+      "neural_network"
+    ],
+    [
+      "hierarchical_slopes",
+      "hierarchical_ridge"
+    ],
+    [
+      "hierarchical_slopes",
+      "kernel_ridge"
+    ],
+    [
+      "hierarchical_slopes",
+      "svr"
+    ],
+    [
+      "matched_intercept",
+      "hierarchical_ridge"
+    ]
+  ],
+  "primary_metric": "pooled_rmse",
+  "secondary_metrics": [
+    "pooled_spearman",
+    "pooled_r2",
+    "macro_all_rmse",
+    "within_lineage_centered_spearman"
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026112001,
+    "unit": "Paired whole-lineage bootstrap preserving all models and all overlapping repeats; conditional exploratory intervals, not independent seed tests."
+  },
+  "limitations": [
+    "All evaluated lineages are represented on both sides; no unseen-lineage performance claim.",
+    "These repeatedly inspected cohorts are exploratory and require new-data confirmation.",
+    "Tiny lineages have little information for local slopes; isotropic partial pooling does not establish gene-specific causal differences.",
+    "CTRP AUC recipe provenance remains incomplete; outcomes and assays are unchanged and separate."
+  ],
+  "new_outer_bundles": 120,
+  "reused_outer_models": 280,
+  "workers": 6,
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  },
+  "data_sha256": {
+    "CTRP/panel_inputs.npz": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421",
+    "CTRP/shared_splits.npz": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+    "PRISM/panel_inputs.npz": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9",
+    "PRISM/shared_splits.npz": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+  },
+  "scripts": {
+    "models.py": "d452172b88ee6e8b3238a3d2b4d6c725d950cfe09505cbf5a31e04ffbc8204db",
+    "run_benchmark.py": "55ddca1ca96900e6afaa947b21add43b6a7f82a472de2bb10173664291667eac",
+    "validate_preflight.py": "99241be799da059fe52c2ec8b55d823e4d08a985220f43dd48f578846f08f11f",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+  }
+}

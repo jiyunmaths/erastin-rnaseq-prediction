@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "figure": "model_comparison.png",
+  "figure_sha256": "8a0a13812e248e70f17cfecbc616cc04fdba958a8b2ab565c4f1393cc68a6791",
+  "checks": [
+    "Both panels and every comparison label are readable.",
+    "Tick spacing corrected and zero-reference lines visible.",
+    "Positive direction and conditional exploratory uncertainty clearly identified.",
+    "Intervals and mean effects match paired_comparisons.tsv.",
+    "Tied repeat counts explicitly distinguish zero-auxiliary fallbacks from negative transfer."
+  ],
+  "retained_registry_unchanged": true
+}

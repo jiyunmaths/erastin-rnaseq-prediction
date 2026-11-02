@@ -1,0 +1,1230 @@
+{
+  "status": "frozen_before_new_model_fits",
+  "created_utc": "2026-11-02T16:17:52Z",
+  "cohorts": {
+    "CTRP": {
+      "samples": 744,
+      "identity_groups": 733,
+      "lineages": 23,
+      "outer_train_sizes": [
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595
+      ],
+      "outer_test_sizes": [
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149
+      ],
+      "source": "outputs/erastin_elastic_net_comparison",
+      "split_design": "20 response-blind lineage-stratified identity-group holdouts. Approximately 80/20 per lineage, nearest feasible rounded sample count, at least one identity group on each side. Uniform random group subsets conditional on each sample-count target.",
+      "inner_design": "Five identity-group-stratified validation folds within outer training. A lineage represented by one training identity group is always inner training (-2) and never inner validation. Thus all 23 lineages remain in every inner training set; validation has 22 lineages because Ampulla has only one outer-training line.",
+      "target": "Negative harmonized CTRP AUC",
+      "input_sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421",
+      "split_sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    "PRISM": {
+      "samples": 386,
+      "identity_groups": 379,
+      "lineages": 20,
+      "outer_train_sizes": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "outer_test_sizes": [
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78
+      ],
+      "source": "outputs/erastin_prism_direct_comparison",
+      "split_design": "20 response-blind lineage-stratified grouped holdouts. Within each lineage, sample intact identity groups uniformly among subsets with nearest feasible sample count to round(0.2*n), requiring at least one group in both training/testing. New masks generated on PRISM cohort, shared by all six arms.",
+      "inner_design": "Same five response-blind group-stratified inner folds per outer split across all six arms. Every inner training fit retains all 20 lineages; rare lineages cannot occur in every inner validation fold. If an outer-training lineage had one group it would remain protected in every inner training fit.",
+      "target": "Negative reported PRISM erastin AUC",
+      "input_sha256": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9",
+      "split_sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+    }
+  },
+  "gene_count": 64,
+  "weighting": "Unweighted training and equal-mean five inner-fold RMSE.",
+  "preprocessing": "X and y StandardScaler fitted only on the current training subset. No feature selection.",
+  "culture_covariates": false,
+  "pooled_assays": false,
+  "grids": {
+    "svr": [
+      {
+        "C": 0.1,
+        "epsilon": 0.05,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 0.1,
+        "epsilon": 0.2,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 1.0,
+        "epsilon": 0.05,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 1.0,
+        "epsilon": 0.2,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 10.0,
+        "epsilon": 0.05,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 10.0,
+        "epsilon": 0.2,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 100.0,
+        "epsilon": 0.05,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 100.0,
+        "epsilon": 0.2,
+        "gamma": 0.0015625
+      },
+      {
+        "C": 0.1,
+        "epsilon": 0.05,
+        "gamma": 0.015625
+      },
+      {
+        "C": 0.1,
+        "epsilon": 0.2,
+        "gamma": 0.015625
+      },
+      {
+        "C": 1.0,
+        "epsilon": 0.05,
+        "gamma": 0.015625
+      },
+      {
+        "C": 1.0,
+        "epsilon": 0.2,
+        "gamma": 0.015625
+      },
+      {
+        "C": 10.0,
+        "epsilon": 0.05,
+        "gamma": 0.015625
+      },
+      {
+        "C": 10.0,
+        "epsilon": 0.2,
+        "gamma": 0.015625
+      },
+      {
+        "C": 100.0,
+        "epsilon": 0.05,
+        "gamma": 0.015625
+      },
+      {
+        "C": 100.0,
+        "epsilon": 0.2,
+        "gamma": 0.015625
+      },
+      {
+        "C": 0.1,
+        "epsilon": 0.05,
+        "gamma": 0.15625
+      },
+      {
+        "C": 0.1,
+        "epsilon": 0.2,
+        "gamma": 0.15625
+      },
+      {
+        "C": 1.0,
+        "epsilon": 0.05,
+        "gamma": 0.15625
+      },
+      {
+        "C": 1.0,
+        "epsilon": 0.2,
+        "gamma": 0.15625
+      },
+      {
+        "C": 10.0,
+        "epsilon": 0.05,
+        "gamma": 0.15625
+      },
+      {
+        "C": 10.0,
+        "epsilon": 0.2,
+        "gamma": 0.15625
+      },
+      {
+        "C": 100.0,
+        "epsilon": 0.05,
+        "gamma": 0.15625
+      },
+      {
+        "C": 100.0,
+        "epsilon": 0.2,
+        "gamma": 0.15625
+      }
+    ],
+    "kernel_ridge": [
+      {
+        "alpha": 0.001,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.0031622776601683794,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.01,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.03162277660168379,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.1,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.31622776601683794,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 1.0,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 3.1622776601683795,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 10.0,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 31.622776601683793,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 100.0,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 316.22776601683796,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 1000.0,
+        "rbf_weight": 0.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.001,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.0031622776601683794,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.01,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.03162277660168379,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.1,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.31622776601683794,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 1.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 3.1622776601683795,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 10.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 31.622776601683793,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 100.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 316.22776601683796,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 1000.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.001,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.0031622776601683794,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.01,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.03162277660168379,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.1,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.31622776601683794,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 1.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 3.1622776601683795,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 10.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 31.622776601683793,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 100.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 316.22776601683796,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 1000.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.001,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.0031622776601683794,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.01,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.03162277660168379,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.1,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.31622776601683794,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 1.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 3.1622776601683795,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 10.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 31.622776601683793,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 100.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 316.22776601683796,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 1000.0,
+        "rbf_weight": 0.5,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.001,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.0031622776601683794,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.01,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.03162277660168379,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.1,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.31622776601683794,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 1.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 3.1622776601683795,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 10.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 31.622776601683793,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 100.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 316.22776601683796,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 1000.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.0015625
+      },
+      {
+        "alpha": 0.001,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.0031622776601683794,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.01,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.03162277660168379,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.1,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.31622776601683794,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 1.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 3.1622776601683795,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 10.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 31.622776601683793,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 100.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 316.22776601683796,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 1000.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.015625
+      },
+      {
+        "alpha": 0.001,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.0031622776601683794,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.01,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.03162277660168379,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.1,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 0.31622776601683794,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 1.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 3.1622776601683795,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 10.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 31.622776601683793,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 100.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 316.22776601683796,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      },
+      {
+        "alpha": 1000.0,
+        "rbf_weight": 1.0,
+        "gamma": 0.15625
+      }
+    ],
+    "hierarchical_ridge": [
+      {
+        "gene_alpha": 0.0001,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.00031622776601683794,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.001,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.0031622776601683794,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.01,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.03162277660168379,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.1,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.31622776601683794,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 1.0,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 3.1622776601683795,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 10.0,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 31.622776601683793,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 100.0,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 316.22776601683796,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 1000.0,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 3162.2776601683795,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 10000.0,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": 0.0001,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.00031622776601683794,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.001,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.0031622776601683794,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.01,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.03162277660168379,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.1,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.31622776601683794,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 1.0,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 3.1622776601683795,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 10.0,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 31.622776601683793,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 100.0,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 316.22776601683796,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 1000.0,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 3162.2776601683795,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 10000.0,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": 0.0001,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.00031622776601683794,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.001,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.0031622776601683794,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.01,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.03162277660168379,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.1,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.31622776601683794,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 1.0,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 3.1622776601683795,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 10.0,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 31.622776601683793,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 100.0,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 316.22776601683796,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 1000.0,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 3162.2776601683795,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 10000.0,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": 0.0001,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.00031622776601683794,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.001,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.0031622776601683794,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.01,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.03162277660168379,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.1,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.31622776601683794,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 1.0,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 3.1622776601683795,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 10.0,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 31.622776601683793,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 100.0,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 316.22776601683796,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 1000.0,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 3162.2776601683795,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 10000.0,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": 0.0001,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.00031622776601683794,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.001,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.0031622776601683794,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.01,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.03162277660168379,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.1,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.31622776601683794,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 1.0,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 3.1622776601683795,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 10.0,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 31.622776601683793,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 100.0,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 316.22776601683796,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 1000.0,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 3162.2776601683795,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 10000.0,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": 0.0001,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 0.00031622776601683794,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 0.001,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 0.0031622776601683794,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 0.01,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 0.03162277660168379,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 0.1,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 0.31622776601683794,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 1.0,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 3.1622776601683795,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 10.0,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 31.622776601683793,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 100.0,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 316.22776601683796,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 1000.0,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 3162.2776601683795,
+        "lineage_alpha": null
+      },
+      {
+        "gene_alpha": 10000.0,
+        "lineage_alpha": null
+      }
+    ],
+    "lineage_only": [
+      {
+        "gene_alpha": null,
+        "lineage_alpha": 0.1
+      },
+      {
+        "gene_alpha": null,
+        "lineage_alpha": 1.0
+      },
+      {
+        "gene_alpha": null,
+        "lineage_alpha": 10.0
+      },
+      {
+        "gene_alpha": null,
+        "lineage_alpha": 100.0
+      },
+      {
+        "gene_alpha": null,
+        "lineage_alpha": 1000.0
+      },
+      {
+        "gene_alpha": null,
+        "lineage_alpha": null
+      }
+    ]
+  },
+  "svr": "RBF SVR on standardized X/y; tol=1e-6, max_iter=200000; precomputed kernels reused only within the same training fold.",
+  "kernel_ridge": "Training-centered kernel, unpenalized intercept, K=(1-w)*ZZt/64+w*RBF; squared-error sum plus alpha RKHS penalty. Linear-only fallback included.",
+  "hierarchical_ridge": "Unpenalized global intercept and shared standardized-gene slopes plus unscaled one-hot lineage offsets. Minimize SSE + gene_alpha*||beta||^2 + lineage_alpha*||b||^2. Gaussian random-intercept MAP / partial pooling, not lineage-specific slopes. None lineage_alpha sets all offsets to zero.",
+  "lineage_only": "Same partially pooled lineage offsets, without gene effects; None lineage_alpha is training-mean prediction.",
+  "tuning": "First candidate minimizing arithmetic mean of five inner-fold RMSEs in original response units. Existing inner assignments including -2 always-training CTRP Ampulla retained exactly.",
+  "primary_comparisons": [
+    [
+      "svr",
+      "ridge"
+    ],
+    [
+      "svr",
+      "neural_network"
+    ],
+    [
+      "kernel_ridge",
+      "ridge"
+    ],
+    [
+      "kernel_ridge",
+      "neural_network"
+    ],
+    [
+      "hierarchical_ridge",
+      "ridge"
+    ],
+    [
+      "hierarchical_ridge",
+      "neural_network"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "svr",
+      "elastic_net"
+    ],
+    [
+      "kernel_ridge",
+      "elastic_net"
+    ],
+    [
+      "hierarchical_ridge",
+      "elastic_net"
+    ],
+    [
+      "hierarchical_ridge",
+      "lineage_only"
+    ],
+    [
+      "lineage_only",
+      "training_mean"
+    ]
+  ],
+  "primary_metric": "pooled_rmse",
+  "secondary_metrics": [
+    "pooled_spearman",
+    "pooled_r2",
+    "macro_all_rmse",
+    "within_lineage_centered_spearman"
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026111801,
+    "unit": "Paired resampling of entire lineage blocks, preserving all repeats and models together. Conditional on saved cohort/fits; no independent-repeat t test; unadjusted exploratory intervals."
+  },
+  "new_outer_models": 160,
+  "reused_outer_models": 120,
+  "workers": 6,
+  "limitations": [
+    "Repeatedly inspected cohort and overlapping holdouts; exploratory model comparison, not confirmatory external validation.",
+    "All lineages represented in training and testing; does not test unseen-lineage generalization.",
+    "Original harmonized CTRP AUC generation provenance remains unresolved; CTRP/PRISM outcomes remain distinct.",
+    "Sparse lineage test subsets may have undefined correlations; macro RMSE retains every lineage.",
+    "No post-result grid expansion; boundary selections are reported. Retained model registry remains unchanged."
+  ],
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  },
+  "scripts": {
+    "models.py": "4590c649bda6e56ffd15ed3ff4dab6d224912ae58edec3e7df6a0128d3744af1",
+    "run_benchmark.py": "8fce6c1cc7ce47ffc5ce16952689d7df76083f58dc4cc253f788e10afe3a6013",
+    "validate_preflight.py": "4b056b0ebbce7f5f2b54550407e6b0c1b0ec55e0558a7d04e8086d0f768066f6",
+    "review_benchmark.py": "e826c0edf8a5f2bc72414087b2be8aacd91643d519f00e9b4ae4a536034f5157",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "passed": true,
+  "assays": [
+    {
+      "assay": "CTRP",
+      "passed": true,
+      "new_arm_bundles": 60,
+      "unique_selected_outer_fits": 40,
+      "reused_outer_models": 140,
+      "group_exclusion_checks": 120,
+      "candidate_fold_scores_checked": 42500,
+      "all_outer_lineages_on_both_sides": true,
+      "same_identity_groups_and_splits": true,
+      "training_only_scalers_and_lineage_centers": true,
+      "singleton_training_lineages_have_zero_slope_deviations": true,
+      "prediction_max_error": 4.440892098500626e-16,
+      "inner_rmse_max_error": 2.220446049250313e-16,
+      "normal_equation_max_residual": 3.8535841184739184e-13,
+      "independent_explicit_feature_selected_checks": [
+        {
+          "model": "matched_intercept",
+          "repeat": 1,
+          "outer_error": 8.881784197001252e-16,
+          "inner_error": 3.4416913763379853e-15
+        },
+        {
+          "model": "hierarchical_slopes",
+          "repeat": 1,
+          "outer_error": 1.6653345369377348e-15,
+          "inner_error": 2.6645352591003757e-15
+        },
+        {
+          "model": "positive_slopes",
+          "repeat": 1,
+          "outer_error": 1.6653345369377348e-15,
+          "inner_error": 2.6645352591003757e-15
+        },
+        {
+          "model": "matched_intercept",
+          "repeat": 20,
+          "outer_error": 1.6653345369377348e-15,
+          "inner_error": 1.1102230246251565e-15
+        },
+        {
+          "model": "hierarchical_slopes",
+          "repeat": 20,
+          "outer_error": 2.3314683517128287e-15,
+          "inner_error": 1.887379141862766e-15
+        },
+        {
+          "model": "positive_slopes",
+          "repeat": 20,
+          "outer_error": 2.3314683517128287e-15,
+          "inner_error": 1.887379141862766e-15
+        }
+      ],
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 375,
+        "max_error": 2.220446049250313e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      },
+      "original_models_and_predictions_reproduced": true
+    },
+    {
+      "assay": "PRISM",
+      "passed": true,
+      "new_arm_bundles": 60,
+      "unique_selected_outer_fits": 40,
+      "reused_outer_models": 140,
+      "group_exclusion_checks": 120,
+      "candidate_fold_scores_checked": 42500,
+      "all_outer_lineages_on_both_sides": true,
+      "same_identity_groups_and_splits": true,
+      "training_only_scalers_and_lineage_centers": true,
+      "singleton_training_lineages_have_zero_slope_deviations": true,
+      "prediction_max_error": 2.220446049250313e-16,
+      "inner_rmse_max_error": 1.1102230246251565e-16,
+      "normal_equation_max_residual": 4.569677969357144e-13,
+      "independent_explicit_feature_selected_checks": [
+        {
+          "model": "matched_intercept",
+          "repeat": 1,
+          "outer_error": 4.440892098500626e-16,
+          "inner_error": 1.3322676295501878e-15
+        },
+        {
+          "model": "hierarchical_slopes",
+          "repeat": 1,
+          "outer_error": 3.3306690738754696e-16,
+          "inner_error": 1.6653345369377348e-15
+        },
+        {
+          "model": "positive_slopes",
+          "repeat": 1,
+          "outer_error": 3.3306690738754696e-16,
+          "inner_error": 1.6653345369377348e-15
+        },
+        {
+          "model": "matched_intercept",
+          "repeat": 20,
+          "outer_error": 3.3306690738754696e-16,
+          "inner_error": 2.886579864025407e-15
+        },
+        {
+          "model": "hierarchical_slopes",
+          "repeat": 20,
+          "outer_error": 1.7763568394002505e-15,
+          "inner_error": 1.2212453270876722e-14
+        },
+        {
+          "model": "positive_slopes",
+          "repeat": 20,
+          "outer_error": 1.7763568394002505e-15,
+          "inner_error": 1.2212453270876722e-14
+        }
+      ],
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 375,
+        "max_error": 2.1510571102112408e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      },
+      "original_models_and_predictions_reproduced": true
+    }
+  ],
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "f15c9d559cf3374049494768b1aa7c70fbf387204323d09498b2ba2dd9b415de",
+    "split_checks": 240,
+    "checks": [
+      {
+        "assay": "CTRP",
+        "independent_explicit_feature_candidates": 425,
+        "prediction_max_error": 2.9511793009362464e-09,
+        "ridge_corner_max_error": 1.346306177651968e-09,
+        "heldout_response_invariance": true,
+        "heldout_feature_invariance_of_fitted_effects": true,
+        "singleton_local_slopes_exactly_zero": [
+          "Ampulla of Vater"
+        ],
+        "one_inner_fold_pilot_seconds": 0.724390941002639
+      },
+      {
+        "assay": "PRISM",
+        "independent_explicit_feature_candidates": 425,
+        "prediction_max_error": 1.3600454096263093e-09,
+        "ridge_corner_max_error": 5.51737211473835e-10,
+        "heldout_response_invariance": true,
+        "heldout_feature_invariance_of_fitted_effects": true,
+        "singleton_local_slopes_exactly_zero": [
+          "Prostate"
+        ],
+        "one_inner_fold_pilot_seconds": 0.17924915501498617
+      }
+    ],
+    "seconds": 13.520255505980458
+  },
+  "new_outer_bundles": 120,
+  "reused_outer_models": 280,
+  "unweighted_training": true,
+  "culture_covariates": false,
+  "source_hashes_verified": true,
+  "retained_registry_unchanged": true
+}

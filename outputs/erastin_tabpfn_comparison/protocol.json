@@ -1,0 +1,217 @@
+{
+  "status": "frozen_before_TabPFN_benchmark_fits",
+  "created_utc": "2026-11-02T17:40:39Z",
+  "cohorts": {
+    "CTRP": {
+      "samples": 744,
+      "identity_groups": 733,
+      "lineages": 23,
+      "outer_train_sizes": [
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595,
+        595
+      ],
+      "outer_test_sizes": [
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149,
+        149
+      ],
+      "split_design": "20 response-blind lineage-stratified identity-group holdouts. Approximately 80/20 per lineage, nearest feasible rounded sample count, at least one identity group on each side. Uniform random group subsets conditional on each sample-count target.",
+      "inner_design": "Five identity-group-stratified validation folds within outer training. A lineage represented by one training identity group is always inner training (-2) and never inner validation. Thus all 23 lineages remain in every inner training set; validation has 22 lineages because Ampulla has only one outer-training line.",
+      "target": "Unchanged negative harmonized CTRP AUC"
+    },
+    "PRISM": {
+      "samples": 386,
+      "identity_groups": 379,
+      "lineages": 20,
+      "outer_train_sizes": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "outer_test_sizes": [
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78,
+        78
+      ],
+      "split_design": "20 response-blind lineage-stratified grouped holdouts. Within each lineage, sample intact identity groups uniformly among subsets with nearest feasible sample count to round(0.2*n), requiring at least one group in both training/testing. New masks generated on PRISM cohort, shared by all six arms.",
+      "inner_design": "Same five response-blind group-stratified inner folds per outer split across all six arms. Every inner training fit retains all 20 lineages; rare lineages cannot occur in every inner validation fold. If an outer-training lineage had one group it would remain protected in every inner training fit.",
+      "target": "Unchanged negative reported PRISM erastin AUC"
+    }
+  },
+  "genes": 64,
+  "culture_covariates": false,
+  "lineage_predictor": false,
+  "weighting": "Unweighted training. Fixed pretrained TabPFN configuration; no local gradient training.",
+  "model": "TabPFN-3.5-Fast regression, TabPFN package 9.0.0",
+  "checkpoint": {
+    "repo": "Prior-Labs/tabpfn_3_5",
+    "revision": "06bf2ba35c80a92a3b9abb436b99cf49e7a0365e",
+    "filename": "tabpfn-v3.5-fast-20260909.safetensors",
+    "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5/resolve/06bf2ba35c80a92a3b9abb436b99cf49e7a0365e/tabpfn-v3.5-fast-20260909.safetensors",
+    "bytes": 334181708,
+    "sha256": "14e0b81285bca7a6d1ef121169f27f651f76dff49cad6c0b8779d5c836018550",
+    "expected_sha256": "14e0b81285bca7a6d1ef121169f27f651f76dff49cad6c0b8779d5c836018550",
+    "seconds": 9.074533155013341
+  },
+  "settings": {
+    "n_estimators": 8,
+    "device": "cpu",
+    "inference_precision": "torch.float32",
+    "n_preprocessing_jobs": 1,
+    "categorical_features_indices": [],
+    "fit_mode": "fit_preprocessors",
+    "memory_saving_mode": "auto",
+    "softmax_temperature": "auto",
+    "tuning_config": null,
+    "predict_output": "mean",
+    "random_state": "Original outer-split seed for each repeat"
+  },
+  "preprocessing": "Input is unchanged 64-gene log RNA. No all-cohort scaling. Native feature/target preprocessing fit on outer-training rows only; predict transforms held-out features without fitting. Backbone train-context statistics exclude query rows, checked by query-neighbor invariance.",
+  "tuning": "No study-specific hyperparameter, checkpoint, calibration or ensemble-weight tuning. Original inner-fold assignments are retained and audited but are not used for selection of this fixed model. Baseline nested tuning remains unchanged.",
+  "selection": "CPU timing only selected 3.5-Fast over the slower v2 pilot. No pilot accuracy computed. Eight passes fixed before benchmark fits; no test-informed checkpoint or setting selection.",
+  "isolation": "Separate venv for new dependencies; existing baseline analysis environment unchanged. Local checkpoint paths, offline HF mode, and network disabled during fit/predict.",
+  "primary_comparisons": [
+    [
+      "tabpfn35_fast",
+      "ridge"
+    ],
+    [
+      "tabpfn35_fast",
+      "neural_network"
+    ],
+    [
+      "tabpfn35_fast",
+      "svr"
+    ],
+    [
+      "tabpfn35_fast",
+      "kernel_ridge"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "tabpfn35_fast",
+      "elastic_net"
+    ],
+    [
+      "tabpfn35_fast",
+      "hierarchical_ridge"
+    ],
+    [
+      "tabpfn35_fast",
+      "matched_intercept"
+    ],
+    [
+      "tabpfn35_fast",
+      "hierarchical_slopes"
+    ]
+  ],
+  "primary_metric": "pooled_rmse",
+  "secondary_metrics": [
+    "pooled_spearman",
+    "pooled_r2",
+    "macro_all_rmse"
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026112101,
+    "unit": "Paired bootstrap of whole lineages, retaining all models and overlapping repeats together. Conditional exploratory intervals; no independent-repeat test."
+  },
+  "new_fitted_contexts": 40,
+  "reused_baseline_models": 320,
+  "workers": 2,
+  "threads_per_worker": 3,
+  "limitations": [
+    "Repeatedly inspected cohorts/splits remain exploratory; confirmation on new data is required.",
+    "All evaluated lineages represented in training/testing; no unseen-lineage or patient claim.",
+    "Results apply to 3.5-Fast, this checkpoint and eight passes; not every TabPFN version or tuning strategy.",
+    "Pretraining-corpus overlap with these pharmacogenomic data has not been independently audited.",
+    "Original harmonized CTRP AUC generation provenance remains unresolved; no assay pooling or target changes."
+  ],
+  "references": [
+    "https://github.com/PriorLabs/TabPFN",
+    "https://huggingface.co/Prior-Labs/tabpfn_3_5",
+    "https://www.nature.com/articles/s41586-024-08328-6"
+  ],
+  "data_sha256": {
+    "CTRP/panel_inputs.npz": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421",
+    "CTRP/shared_splits.npz": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+    "PRISM/panel_inputs.npz": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9",
+    "PRISM/shared_splits.npz": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+  },
+  "scripts": {
+    "common.py": "ea9aa8dc53df73700735f6ef231f07ff581181a0dbe1f5a6999eb61bffbc6e30",
+    "run_tabpfn.py": "b09db0edc48e4409253ac5fae9c3b7e62a84e8ef531f6abee2f3b0acfd7d3f68",
+    "validate_preflight.py": "00b48962b45baa66be04466244e6c443003fb48ef2ffb3eff98ef2a90bae47fc",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+  }
+}

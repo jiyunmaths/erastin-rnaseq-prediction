@@ -1,0 +1,1550 @@
+{
+  "status": "frozen_before_nested_fits",
+  "created_utc": "2026-11-02T18:38:22Z",
+  "retained_core": 64,
+  "universe": 19176,
+  "candidates_outside_core": 19112,
+  "assays": [
+    "CTRP",
+    "PRISM"
+  ],
+  "split_design": "Unchanged 20 lineage-stratified identity-group 80/20 outer holdouts and all five saved inner folds. Every evaluated lineage in both outer sets; singleton inner-training lineage handling unchanged.",
+  "selection": "All eligible outside genes jointly enter conditional Elastic Net. Regress each candidate and y on standardized core64 plus training-lineage indicators and intercept, using training-only SVD projection. Standardize residual predictors/target using current-training values only. Exclude only constants and numerical aliases; no marginal-response prefilter.",
+  "selector_l1_ratios": [
+    0.1,
+    0.5,
+    0.9,
+    0.99
+  ],
+  "alpha_fractions": [
+    0.5,
+    0.2,
+    0.1,
+    0.05,
+    0.02
+  ],
+  "alpha_definition": "alpha=fraction*max(abs(Z.T@residual_standardized_y))/n/l1_ratio, computed anew on current training only.",
+  "objective": "||target-Z beta||^2/(2n) + alpha*l1_ratio*||beta||_1 + alpha*(1-l1_ratio)*||beta||^2/2",
+  "nonzero_threshold": 1e-08,
+  "constant_filter": "raw centered SS>1e-12 and residual SS>max(1e-12,raw SS*1e-8)",
+  "solver": {
+    "tol": 1e-08,
+    "max_iter": 20000,
+    "selection": "cyclic",
+    "precompute": "Working-set Gram only at <=2500 active columns; never allocate full-genome Gram.",
+    "kkt_limit": 2e-06,
+    "working_set": "Warm-start restricted ElasticNet; expand by globally largest inactive KKT violations. Every gene checked after every solve; stop only when complete genome-wide KKT residual <= declared limit. No permanent feature exclusion.",
+    "refinement": "On restricted convergence warning or restricted KKT excess, refine at tol=1e-10,max_iter=50000; abort if still invalid. Global dual gap also checked."
+  },
+  "ridge_alphas": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "grid": [
+    {
+      "selector": -1,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": -1,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 0,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 1,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 2,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 3,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 4,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 5,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 6,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 7,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 8,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 9,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 10,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 11,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 12,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 13,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 14,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 15,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 16,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 17,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 18,
+      "ridge_alpha": 10000.0
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.0001
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.00031622776601683794
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.001
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.0031622776601683794
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.01
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.03162277660168379
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.1
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 0.31622776601683794
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 1.0
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 3.1622776601683795
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 10.0
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 31.622776601683793
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 100.0
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 316.22776601683796
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 1000.0
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 3162.2776601683795
+    },
+    {
+      "selector": 19,
+      "ridge_alpha": 10000.0
+    }
+  ],
+  "tuning": "Independently select genes inside every inner-training fold. Jointly tune Elastic Net mixing/alpha fraction and downstream ridge penalty using mean five-fold RMSE in original response units. First grid index breaks ties. Zero-addition ridge candidates come first. Refit selector on outer training only after hyperparameter choice.",
+  "retention": "All original 64 genes are mandatory downstream ridge inputs, regardless of their selector associations. Selected outside genes are appended; no fixed top-K cap. Model predicts from RNA only; lineage is a selector control, with no culture predictors or sample weighting.",
+  "primary_comparisons": [
+    [
+      "enet_selected_ridge",
+      "ridge64"
+    ],
+    [
+      "enet_selected_ridge",
+      "enet64"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "enet_selected_ridge",
+      "nn64"
+    ],
+    [
+      "enet_selected_ridge",
+      "tab64"
+    ],
+    [
+      "enet_selected_ridge",
+      "ridge_genome"
+    ],
+    [
+      "enet_selected_ridge",
+      "ridge_screened"
+    ]
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026112301,
+    "unit": "Paired whole-lineage bootstrap retaining all overlapping repeats and all models together; conditional on fits, not retraining."
+  },
+  "scope": "Elastic Net is the feature selector; downstream ridge isolates added-gene value against retained ridge. This is not a directly fitted genome-wide Elastic Net predictor or a TabPFN/NN refit.",
+  "limitations": [
+    "Previously inspected cohorts; exploratory discovery estimates despite nested selection controls.",
+    "Fold-specific selection procedure is evaluated. A consensus list assembled across folds is not a separately validated fixed panel.",
+    "Measured protein-coding RNA only; noncoding transcripts/DNA variants outside scope.",
+    "Associations and overlapping-fold selection frequencies do not establish causality, independent replication or each gene incremental value.",
+    "Original harmonized CTRP endpoint provenance limitations remain."
+  ],
+  "references": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.enet_path.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC124442/"
+  ],
+  "scripts": {
+    "common.py": "2657cc3d8b4a7abcdb5466c415deee59fe3c42de8185e78117a51c3e0528ec27",
+    "models.py": "19c82f6695143997bedcfb6425b06532a4884cb9c3859b42197383376c1b75db",
+    "ridge_helpers.py": "b88d7e9ae2818159d080bdfd2e4a4cd332142918e08d8a8e771242da71cd8b2d",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4",
+    "run_comparison.py": "be0e62b20a2e862c9287db0de065dfbad29b583b0bdaa63a0480ec1ee19158d5",
+    "validate_preflight.py": "3685aaa3610bb3ac9be3697099a0d4c11c5aa0d02066876fbc7f8978cab1bf07"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  }
+}

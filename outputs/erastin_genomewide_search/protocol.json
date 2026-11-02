@@ -1,0 +1,1091 @@
+{
+  "status": "frozen_before_genomewide_screening",
+  "created_utc": "2026-11-02T18:09:12Z",
+  "core_panel": 64,
+  "user_numbering": "User said 60; interpreted as the existing unchanged 64-gene panel.",
+  "universe": {
+    "raw_protein_coding_columns": 19193,
+    "unique_Entrez_features": 19176,
+    "candidate_genes": 19112,
+    "raw_duplicate_Entrez_ids": 17
+  },
+  "scope": "Hypothesis-agnostic search over all unique measured protein-coding genes outside the core. No pathway whitelist. Noncoding transcripts and unmeasured DNA loci are outside this RNA file.",
+  "cohorts": {
+    "CTRP": {
+      "samples": 744,
+      "groups": 733,
+      "lineages": 23
+    },
+    "PRISM": {
+      "samples": 386,
+      "groups": 379,
+      "lineages": 20
+    }
+  },
+  "split_design": "Same response-blind 20 lineage-stratified identity-group holdouts and five saved inner folds per assay; all evaluated lineages in both outer sets. Cervix excluded and Ampulla handling unchanged.",
+  "selectors": {
+    "marginal": "Absolute training-only Pearson correlation with erastin response.",
+    "conditional": "Absolute training-only partial Pearson correlation after projecting gene and response onto the orthogonal complement of the 64 core genes plus training-lineage indicators and intercept. Controls use an exact SVD column-space projection, without response-tuned penalties."
+  },
+  "filters": "Training-constant candidate genes excluded (centered SS <=1e-12). Conditional screen additionally excludes residual SS <=max(1e-12, raw SS*1e-8) to avoid numerical core aliases. No all-cohort variance/expression selection.",
+  "augmentation_grid": [
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.0001
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.001
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.01
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.1
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 1.0
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 10.0
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 100.0
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 1000.0
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "core_only",
+      "added": 0,
+      "alpha": 10000.0
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.0001
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.001
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.01
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.1
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 1.0
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 10.0
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 100.0
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 1000.0
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 8,
+      "alpha": 10000.0
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.0001
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.001
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.01
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.1
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 1.0
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 10.0
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 100.0
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 1000.0
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 16,
+      "alpha": 10000.0
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.0001
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.001
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.01
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.1
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 1.0
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 10.0
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 100.0
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 1000.0
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 32,
+      "alpha": 10000.0
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.0001
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.001
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.01
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.1
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 1.0
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 10.0
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 100.0
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 1000.0
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 64,
+      "alpha": 10000.0
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.0001
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.001
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.01
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.1
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 1.0
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 10.0
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 100.0
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 1000.0
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "marginal",
+      "added": 128,
+      "alpha": 10000.0
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.0001
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.001
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.01
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.1
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 1.0
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 10.0
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 100.0
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 1000.0
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 8,
+      "alpha": 10000.0
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.0001
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.001
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.01
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.1
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 1.0
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 10.0
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 100.0
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 1000.0
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 16,
+      "alpha": 10000.0
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.0001
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.001
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.01
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.1
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 1.0
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 10.0
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 100.0
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 1000.0
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 32,
+      "alpha": 10000.0
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.0001
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.001
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.01
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.1
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 1.0
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 10.0
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 100.0
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 1000.0
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 64,
+      "alpha": 10000.0
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.0001
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.00031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.001
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.0031622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.01
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.03162277660168379
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.1
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 0.31622776601683794
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 1.0
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 3.1622776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 10.0
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 31.622776601683793
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 100.0
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 316.22776601683796
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 1000.0
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 3162.2776601683795
+    },
+    {
+      "method": "conditional",
+      "added": 128,
+      "alpha": 10000.0
+    }
+  ],
+  "full_genome_ridge_alphas": [
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0,
+    31622.776601683792,
+    100000.0,
+    316227.7660168379,
+    1000000.0,
+    3162277.6601683795,
+    10000000.0,
+    31622776.60168379,
+    100000000.0
+  ],
+  "selection": "Screening is repeated separately inside every inner-training fold. Choose selector, added-gene count and ridge penalty by equal-mean five-fold RMSE in original units. Re-screen on outer training only at selected refit. Core64 always retained; zero-addition fallback included.",
+  "full_genome_control": "Ridge on all measured unique genes, with training-only StandardScaler and nested penalty selection. A separate dense-transcriptome control, not a sparse discovered panel.",
+  "tabpfn": {
+    "checkpoint": {
+      "repo": "Prior-Labs/tabpfn_3_5",
+      "revision": "06bf2ba35c80a92a3b9abb436b99cf49e7a0365e",
+      "filename": "tabpfn-v3.5-fast-20260909.safetensors",
+      "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5/resolve/06bf2ba35c80a92a3b9abb436b99cf49e7a0365e/tabpfn-v3.5-fast-20260909.safetensors",
+      "bytes": 334181708,
+      "sha256": "14e0b81285bca7a6d1ef121169f27f651f76dff49cad6c0b8779d5c836018550",
+      "expected_sha256": "14e0b81285bca7a6d1ef121169f27f651f76dff49cad6c0b8779d5c836018550",
+      "seconds": 9.074533155013341
+    },
+    "package": "9.0.0",
+    "n_estimators": 8,
+    "device": "cpu",
+    "inference_precision": "float32",
+    "tuning_config": null,
+    "ridge_screen": "Use the outer-training ridge-selected selector and min(selected added count,32); zero addition reuses exact saved core64 TabPFN prediction.",
+    "conditional32": "Prespecified 32 highest conditional-ranked genes from outer training; fixed size without TabPFN outcome tuning.",
+    "max_added": 32,
+    "inference": "Same fixed checkpoint/preset and split seed as prior core64 model. No TabPFN-based selection using test data. Identical panels can reuse one context."
+  },
+  "weighting": "Unweighted training; no culture or lineage predictors. Lineage is used only in the conditional screening control.",
+  "primary_comparisons": [
+    [
+      "ridge_augmented",
+      "ridge64"
+    ],
+    [
+      "ridge_genome",
+      "ridge64"
+    ],
+    [
+      "tab_ridge_screen32",
+      "tab64"
+    ],
+    [
+      "tab_conditional32",
+      "tab64"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "ridge_augmented",
+      "tab64"
+    ],
+    [
+      "tab_ridge_screen32",
+      "svr64"
+    ],
+    [
+      "tab_conditional32",
+      "svr64"
+    ]
+  ],
+  "primary_metric": "pooled_rmse",
+  "secondary_metrics": [
+    "pooled_spearman",
+    "pooled_r2",
+    "macro_all_rmse"
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026112201,
+    "unit": "Whole-lineage paired bootstrap retaining all models and repeats; conditional exploratory intervals."
+  },
+  "gene_reporting": "Outer-training selection frequency, ranking and standardized ridge coefficient stability. Overlapping repetitions are not independent confirmations. No test-response-based shortlist is fed back into prediction models.",
+  "limitations": [
+    "Selection is protected against direct validation-label leakage, but this previously inspected cohort is not a fresh confirmatory dataset.",
+    "Performance belongs to the training-fold gene-selection procedure; a consolidated final gene list is not thereby independently validated.",
+    "Training-only univariate screens can miss nonlinear interaction-only signals. TabPFN additions are CPU-capped at 32 and selected without TabPFN-specific tuning.",
+    "Lineages are represented in training/testing. Candidate associations are predictive, not causal ferroptosis mechanisms.",
+    "Original CTRP harmonized AUC recipe remains incompletely verified; both assays/endpoints remain separate."
+  ],
+  "references": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC124442/"
+  ],
+  "data_sha256": {
+    "expression.npy": "47e295068fd9c8df2c315ace4987376c052dbde0011f14ada547fb7a8988ab78",
+    "expression_index.npz": "08ee8c0608009f5a38a2e2eab2d724d52b1a722fa8368cb5af0b40a76e361632",
+    "gene_mapping.tsv": "b39c48e4260cafc3c6c276a9409dab259454ef3a6de16d4d9aeaf62e15d23669",
+    "CTRP/inputs.npz": "612cd52308de179746de3191b83f06bd549e9ad2d87163b059f6339afbd720c9",
+    "CTRP/shared_splits.npz": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+    "PRISM/inputs.npz": "c9b271909299e4f9b98838106a78a60e97668bca13e2c8dd312b22f43579bfd7",
+    "PRISM/shared_splits.npz": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+  },
+  "fitting_scripts": {
+    "prepare_data.py": "5c2c951ec8e342bb4656af2bcec2cc4b953bff60a719bf6d20d87fdf491478ea",
+    "models.py": "b88d7e9ae2818159d080bdfd2e4a4cd332142918e08d8a8e771242da71cd8b2d",
+    "common.py": "4feb31f3b5ffc6bb3deed288d3ae00413894235b2c53af0411b01b4c2aeda32b",
+    "run_ridge.py": "2c3315c566ac8211902d50e4d82cb1fe0e1caed9786db0e2bbf69c3f27015a70",
+    "run_tabpfn.py": "7146f5175bca77fed2024e6ea2dc6e85f5c9deaacac214441c9b07979669d015",
+    "validate_preflight.py": "29d9cdcf07a141e23db2fea96c4a13ab9d703217789feefde9b33493c9846eb2",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+  }
+}

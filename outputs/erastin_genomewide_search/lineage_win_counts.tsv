@@ -1,0 +1,15 @@
+assay	first_model	reference_model	favorable_lineages	lineages
+CTRP	ridge_augmented	ridge64	12	23
+CTRP	ridge_genome	ridge64	15	23
+CTRP	tab_ridge_screen32	tab64	11	23
+CTRP	tab_conditional32	tab64	12	23
+CTRP	ridge_augmented	tab64	7	23
+CTRP	tab_ridge_screen32	svr64	13	23
+CTRP	tab_conditional32	svr64	12	23
+PRISM	ridge_augmented	ridge64	11	20
+PRISM	ridge_genome	ridge64	9	20
+PRISM	tab_ridge_screen32	tab64	7	20
+PRISM	tab_conditional32	tab64	7	20
+PRISM	ridge_augmented	tab64	7	20
+PRISM	tab_ridge_screen32	svr64	5	20
+PRISM	tab_conditional32	svr64	6	20

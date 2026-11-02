@@ -1,0 +1,244 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_genomewide_search/expression.npy",
+      "sha256": "47e295068fd9c8df2c315ace4987376c052dbde0011f14ada547fb7a8988ab78"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/expression_index.npz",
+      "sha256": "08ee8c0608009f5a38a2e2eab2d724d52b1a722fa8368cb5af0b40a76e361632"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/gene_mapping.tsv",
+      "sha256": "b39c48e4260cafc3c6c276a9409dab259454ef3a6de16d4d9aeaf62e15d23669"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/protocol.json",
+      "sha256": "db5867a5f1a6e59e7c84cd2042b20fa6a9117262921def5869b9c7674aed257d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/validation.json",
+      "sha256": "7f2ee2b24a0b1391393be2734c0469ca8df37774ffecd5a0e75ee39358b10313"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/source_manifest.json",
+      "sha256": "697c62848b50bd00966b7afba5b267f4ace4f7b048a44834c88686835afc133b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/preparation_validation.json",
+      "sha256": "9c639b62f5a30cde60678eccdd61313599963eef4af983a58fb9a69c4afbc44f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/inputs.npz",
+      "sha256": "612cd52308de179746de3191b83f06bd549e9ad2d87163b059f6339afbd720c9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/predictions.npz",
+      "sha256": "f9273f649db297d13040f370a12f35bdb4a716a50d5f92f7f94d5bdc682c3a87"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/inputs.npz",
+      "sha256": "c9b271909299e4f9b98838106a78a60e97668bca13e2c8dd312b22f43579bfd7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/shared_splits.npz",
+      "sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/predictions.npz",
+      "sha256": "5e217a8159ac487022333b6224646042c21dcb17e353f5e880b2a2961e6c60c5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r01.npz",
+      "sha256": "55417b40a95784f143fd40cce13898a1d8e20915b79ce11cdc2e16189210b66f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r02.npz",
+      "sha256": "17feca3f60b8fba366908a1158f6eaa08faf4731f52e529cfb5cc03c9597acb1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r03.npz",
+      "sha256": "ec953aaac372c1f9ebe2324a8730674f43133b7e3d6363b15b57ceceee89d45f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r04.npz",
+      "sha256": "bf2fed61960800d0e7fc4d93b74617a8f5e14e8ff5490ac7b5c2c0f33154d2cc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r05.npz",
+      "sha256": "02c7040e872192c58e74e269ac6c07aea75c52a5ab5e2b7a7ee6390e54a95dd2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r06.npz",
+      "sha256": "1bc442f17154f6b7d741d20687010c72789c8416024f643d7a9fa3451c113785"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r07.npz",
+      "sha256": "84cddc34f39179de060e18595e4fe87a0b2f84e79723269dfa19417c9cfed5cf"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r08.npz",
+      "sha256": "47ddb9518b3cf3a98ea21090bec902cb5257c9ba01937f14bd0692dfc832840d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r09.npz",
+      "sha256": "f8cd8b3bb0b4aeca44299f1f8729612745cdac410ddd26a254318b88ab242e48"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r10.npz",
+      "sha256": "15816833008cbc88be1a2c4a2c831ef7f34351975884d75f050717b44ad2c213"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r11.npz",
+      "sha256": "0bb3d5cff8363b190c7eb4af658b12d1b3a471e89cd5cf7316b41baf7dc993b2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r12.npz",
+      "sha256": "c62a246b71d3462fb285455f88ec7453e60ef64cbdddad2f1df429fc9ed093fe"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r13.npz",
+      "sha256": "62030f04080a542147cbbf3df760e1615f57568ebd473941a4fa82f44209a0a5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r14.npz",
+      "sha256": "af3d2d4281078619aecc138678b108a3236eb2171dc7cc94ed38ca72bb8b9c35"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r15.npz",
+      "sha256": "79849586ef0ed50e66349226c0c08a1eb6fb11cc7841cc750663981e781a60c0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r16.npz",
+      "sha256": "0e2b2b259eef64d67b2580354291bd10077486c59546793815af37f9ab117636"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r17.npz",
+      "sha256": "e22203dadc8d31e23a0db9db6c3f618a3657b83b4cea99f0877105420dc75012"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r18.npz",
+      "sha256": "e64d1184567e30252f37508655213b5221cf67888e0a9a51014a8220d757f374"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r19.npz",
+      "sha256": "47cc7bafe9c44620ff82d102ceec9125cd176c07b39d7befdeee6c6300f5ad2c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/folds/screening__r20.npz",
+      "sha256": "9885b139b5ffd55012474c3828df320ca99879b93edcd42cf2cdac47ab37b46c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r01.npz",
+      "sha256": "6fca861df3de78d21e39ab3fc6a0dd32983aeeca8be1a0b6b39b3ffee8ff3065"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r02.npz",
+      "sha256": "6bc830b47befd20691b7f429be0a30fe1eb43ef4706e32052cc4298060edb48f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r03.npz",
+      "sha256": "a7eb28935e1cd22702ebd57c7f731594d5adbf60f573f98254dd487a84e61f24"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r04.npz",
+      "sha256": "caf5e7dae009de06b3219023c05da0c168de1eec6c2ab00235d1f67354909df4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r05.npz",
+      "sha256": "3e6033881ebb7814216504d92dcee213e175eceadac6af86346eead9dc548010"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r06.npz",
+      "sha256": "4ad6451060d257ae1f587541e0b8df46af63c7b1278ee2802a8e653a9622dcf8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r07.npz",
+      "sha256": "f9d99394bbc1178fee8cb0bb97a255f4bbbac61fa8d8cc0e382f77fba10487ed"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r08.npz",
+      "sha256": "2b67ab444f2fa2758312e31097a67f46eb9686d7f59e623f4614c6523cba67c8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r09.npz",
+      "sha256": "13b79ae65d52fc8e274db823258528413d74b47593d40cda57b0e0df2e424cbb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r10.npz",
+      "sha256": "79a5abd0ea46eebc3b8587d05ae719496cdad4dd03f7ae900bf15a1150a38852"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r11.npz",
+      "sha256": "fa9352c6735899a09b2cf08cf36f1e4839d082df7bab633692f0f2f63050aa6d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r12.npz",
+      "sha256": "b2bcb4ade02fe852fb34992a0ecbcf53b597a29dd9f4fe829f18f2b8adca4b88"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r13.npz",
+      "sha256": "cd91cdd8ae2013dc85fa2ad8d0a1c8960dda96ac4c92a8178be20c2a463ded8f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r14.npz",
+      "sha256": "5b324b93a9e4b266c412270d4c8004b613840513a1b499e5b0c64a63a9d7ed98"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r15.npz",
+      "sha256": "6e29fa1b55c73005b9b946accd991320475691e049f2cd12bb08e39425814d8f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r16.npz",
+      "sha256": "d6e1f78379dee32dfdf71b39e58a9a723545c52cb37337ea91703f16b96dc6b0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r17.npz",
+      "sha256": "ad2634a3a340a818ced85f8358774cf7798fe5e8e63d99dd3fb2326edfcbcc62"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r18.npz",
+      "sha256": "f2810c8fa021fd93f7d71e6d8d9970145cb77f0ae897d15806ff69da86d193d6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r19.npz",
+      "sha256": "33d6e0d4143c0605dbbbac1469a6a5b81e6f9467c6d4605e3bab27dd347f8b69"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/folds/screening__r20.npz",
+      "sha256": "429c5403bed47e12dd80172f579ab9a695378e42a74b1ee6f37bef174b37f995"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/predictions.npz",
+      "sha256": "d1c72c296fe42229dbe1d9a38090ec48a214f8b51d5ddca22ea6c5a79b7c1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/summary.tsv",
+      "sha256": "ea499e84d4a5c170778b92c4ed6c6f7c57406820179a15f2cad49b9941e74b2b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/predictions.npz",
+      "sha256": "fc3ffc274b08a559baf8952a1047130da36068895facf244c325d86fc76bd45c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/summary.tsv",
+      "sha256": "b2655d2890574ac76f3dd6c528ec42d3bb718b78338f70c98841061db4244a2a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/protocol.json",
+      "sha256": "b3f978e3d659b0fe223353bd946b26b2f3e1f0c064830aee735316afc91ff84b"
+    },
+    {
+      "path": "outputs/retained_64_gene_models/model_registry.json",
+      "sha256": "0c1c9781638e235e7f26d14a8707326d45109d412900d338604506fff39d37e5"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "assay": "PRISM",
+  "group_split_checks": 120,
+  "inner_candidate_fold_scores_checked": 35700,
+  "recorded_inner_enet_solutions_checked": 2000,
+  "independent_outer_enet_kkt_checks": 400,
+  "outer_kkt_max": 6.403225466869444e-07,
+  "inner_rmse_max_error": 0.0,
+  "ridge_prediction_max_error": 2.220446049250313e-16,
+  "replayed_training_only_inner_selections": [
+    {
+      "repeat": 1,
+      "fold": 0,
+      "selector_gene_sets_checked": 20,
+      "identical": true
+    },
+    {
+      "repeat": 1,
+      "fold": 4,
+      "selector_gene_sets_checked": 20,
+      "identical": true
+    }
+  ],
+  "all_core64_inputs_retained": true,
+  "all_baseline_predictions_unchanged": true,
+  "bootstrap_arithmetic": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 270,
+    "max_error": 1.3357370765021415e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  },
+  "solver_solutions": 2400,
+  "solver_refinements": 100,
+  "recovered_solver_warnings": 100,
+  "max_recorded_dual_gap": 7.76418574606e-06
+}

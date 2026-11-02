@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "protocol_sha256": "119b97bdb1a55c6358ca4e9dbbff86642e7f4064a804e831d22a0ac770adee60",
+  "split_checks": 240,
+  "checks": [
+    {
+      "assay": "CTRP",
+      "first_context_retained": true,
+      "serialization_max_error": 0.0,
+      "query_subset_max_error": 7.152557373046875e-07,
+      "changed_query_neighbors_max_error": 0.0,
+      "feature_coverage": 64,
+      "predict_seconds": 14.791560615994968,
+      "peak_process_rss_kib": 2007056
+    },
+    {
+      "assay": "PRISM",
+      "first_context_retained": true,
+      "serialization_max_error": 0.0,
+      "query_subset_max_error": 8.344650268554688e-07,
+      "changed_query_neighbors_max_error": 0.0,
+      "feature_coverage": 64,
+      "predict_seconds": 8.286068674002308,
+      "peak_process_rss_kib": 2155708
+    }
+  ],
+  "fixed_config_no_study_specific_tuning": true,
+  "offline_cpu_inference": true,
+  "no_validation_targets_passed_to_fit_or_predict": true,
+  "training_only_native_preprocessing_source_checked": true,
+  "code_pointers": [
+    "tabpfn.preprocessing.transform.fit_preprocessing_one",
+    "tabpfn.preprocessing.ensemble.TabPFNEnsembleMember.transform_X_test"
+  ],
+  "seconds": 90.23767547501484
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "protocol_sha256": "f15c9d559cf3374049494768b1aa7c70fbf387204323d09498b2ba2dd9b415de",
+  "split_checks": 240,
+  "checks": [
+    {
+      "assay": "CTRP",
+      "independent_explicit_feature_candidates": 425,
+      "prediction_max_error": 2.9511793009362464e-09,
+      "ridge_corner_max_error": 1.346306177651968e-09,
+      "heldout_response_invariance": true,
+      "heldout_feature_invariance_of_fitted_effects": true,
+      "singleton_local_slopes_exactly_zero": [
+        "Ampulla of Vater"
+      ],
+      "one_inner_fold_pilot_seconds": 0.724390941002639
+    },
+    {
+      "assay": "PRISM",
+      "independent_explicit_feature_candidates": 425,
+      "prediction_max_error": 1.3600454096263093e-09,
+      "ridge_corner_max_error": 5.51737211473835e-10,
+      "heldout_response_invariance": true,
+      "heldout_feature_invariance_of_fitted_effects": true,
+      "singleton_local_slopes_exactly_zero": [
+        "Prostate"
+      ],
+      "one_inner_fold_pilot_seconds": 0.17924915501498617
+    }
+  ],
+  "seconds": 13.520255505980458
+}

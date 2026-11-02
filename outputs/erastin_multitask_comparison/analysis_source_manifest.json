@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "review_benchmark.py": "0cc4637e53bd4a8be1d1bfec95aefbc7930e203a3c0f25142c7b70c759da7a91",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+  },
+  "report_revision": "Add explicit ties/worse counts and improve tick spacing. No model, split, tuning choice, prediction, bootstrap draw or effect estimate changed.",
+  "counting_note": "Unique outer neural ensembles counted separately from duplicated reported arm bundles."
+}

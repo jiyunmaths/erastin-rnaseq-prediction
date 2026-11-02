@@ -1,0 +1,42 @@
+{
+  "records": [
+    {
+      "assay": "CTRP",
+      "model": "ridge_augmented",
+      "repeats": 20,
+      "zero_additions": 1,
+      "max_128_additions": 12,
+      "penalty_at_lower_bound": 0,
+      "penalty_at_upper_bound": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "ridge_genome",
+      "repeats": 20,
+      "zero_additions": 0,
+      "max_128_additions": null,
+      "penalty_at_lower_bound": 0,
+      "penalty_at_upper_bound": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "ridge_augmented",
+      "repeats": 20,
+      "zero_additions": 9,
+      "max_128_additions": 2,
+      "penalty_at_lower_bound": 0,
+      "penalty_at_upper_bound": 2
+    },
+    {
+      "assay": "PRISM",
+      "model": "ridge_genome",
+      "repeats": 20,
+      "zero_additions": 0,
+      "max_128_additions": null,
+      "penalty_at_lower_bound": 0,
+      "penalty_at_upper_bound": 0
+    }
+  ],
+  "post_test_grid_expansion": false,
+  "interpretation": "CTRP selects the 128-addition upper limit in 12/20 fits. Compact-panel size is not established as optimal; the frozen search grid is retained."
+}

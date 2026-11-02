@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "created_utc": "2026-11-02T18:02:46Z",
+  "raw_protein_coding_columns": 19193,
+  "unique_Entrez_features": 19176,
+  "core_genes": 64,
+  "candidate_genes": 19112,
+  "raw_duplicate_Entrez_ids": 17,
+  "ambiguous_excluded_ids": [],
+  "union_lines": 789,
+  "all_expression_finite": true,
+  "scope": "All measured protein-coding expression features, deduplicated by stable Entrez ID; no pathway restrictions. This is not a noncoding-transcript or whole-DNA-genome scan.",
+  "response_independent_mapping": true,
+  "core64_expression_exact": true,
+  "original_CTRP_full_expression_entries_checked": 14266944,
+  "files": {
+    "expression.npy": "47e295068fd9c8df2c315ace4987376c052dbde0011f14ada547fb7a8988ab78",
+    "expression_index.npz": "08ee8c0608009f5a38a2e2eab2d724d52b1a722fa8368cb5af0b40a76e361632",
+    "gene_mapping.tsv": "b39c48e4260cafc3c6c276a9409dab259454ef3a6de16d4d9aeaf62e15d23669",
+    "CTRP/inputs.npz": "612cd52308de179746de3191b83f06bd549e9ad2d87163b059f6339afbd720c9",
+    "CTRP/shared_splits.npz": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+    "PRISM/inputs.npz": "c9b271909299e4f9b98838106a78a60e97668bca13e2c8dd312b22f43579bfd7",
+    "PRISM/shared_splits.npz": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+  }
+}

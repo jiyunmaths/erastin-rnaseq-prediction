@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "assay": "CTRP",
+      "core_only": 8,
+      "min_fraction": 3,
+      "max_fraction": 3,
+      "min_l1": 8,
+      "max_l1": 2,
+      "min_ridge_alpha": 0,
+      "max_ridge_alpha": 0
+    },
+    {
+      "assay": "PRISM",
+      "core_only": 15,
+      "min_fraction": 2,
+      "max_fraction": 1,
+      "min_l1": 4,
+      "max_l1": 0,
+      "min_ridge_alpha": 0,
+      "max_ridge_alpha": 0
+    }
+  ],
+  "post_test_grid_expansion": false
+}

@@ -1,0 +1,189 @@
+{
+  "post_result_grid_expansion": false,
+  "notes": [
+    "PRISM SVR epsilon=0.2 is at the largest tested value in all 20 fits.",
+    "RBF weight endpoints are legitimate model options, not numerical convergence failures."
+  ],
+  "parameters": [
+    {
+      "assay": "CTRP",
+      "model": "svr",
+      "parameter": "C",
+      "minimum": 0.1,
+      "maximum": 100.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "svr",
+      "parameter": "epsilon",
+      "minimum": 0.05,
+      "maximum": 0.2,
+      "lower_boundary_fits": 4,
+      "upper_boundary_fits": 16,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "svr",
+      "parameter": "gamma",
+      "minimum": 0.0015625,
+      "maximum": 0.15625,
+      "lower_boundary_fits": 8,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "kernel_ridge",
+      "parameter": "alpha",
+      "minimum": 0.001,
+      "maximum": 1000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "kernel_ridge",
+      "parameter": "rbf_weight",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 10,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "kernel_ridge",
+      "parameter": "gamma",
+      "minimum": 0.0015625,
+      "maximum": 0.15625,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "hierarchical_ridge",
+      "parameter": "gene_alpha",
+      "minimum": 0.0001,
+      "maximum": 10000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "hierarchical_ridge",
+      "parameter": "lineage_alpha",
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 1,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "lineage_only",
+      "parameter": "lineage_alpha",
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "svr",
+      "parameter": "C",
+      "minimum": 0.1,
+      "maximum": 100.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "svr",
+      "parameter": "epsilon",
+      "minimum": 0.05,
+      "maximum": 0.2,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 20,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "svr",
+      "parameter": "gamma",
+      "minimum": 0.0015625,
+      "maximum": 0.15625,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "kernel_ridge",
+      "parameter": "alpha",
+      "minimum": 0.001,
+      "maximum": 1000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "kernel_ridge",
+      "parameter": "rbf_weight",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 20,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "kernel_ridge",
+      "parameter": "gamma",
+      "minimum": 0.0015625,
+      "maximum": 0.15625,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "hierarchical_ridge",
+      "parameter": "gene_alpha",
+      "minimum": 0.0001,
+      "maximum": 10000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "hierarchical_ridge",
+      "parameter": "lineage_alpha",
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 4,
+      "null_fallback_fits": 7
+    },
+    {
+      "assay": "PRISM",
+      "model": "lineage_only",
+      "parameter": "lineage_alpha",
+      "minimum": 0.1,
+      "maximum": 1000.0,
+      "lower_boundary_fits": 0,
+      "upper_boundary_fits": 0,
+      "null_fallback_fits": 4
+    }
+  ]
+}

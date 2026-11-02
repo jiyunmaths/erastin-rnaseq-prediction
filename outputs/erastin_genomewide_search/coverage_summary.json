@@ -1,0 +1,14 @@
+{
+  "raw_protein_coding_columns": 19193,
+  "unique_Entrez_features": 19176,
+  "core_genes": 64,
+  "candidate_genes": 19112,
+  "raw_duplicate_Entrez_ids": 17,
+  "ambiguous_excluded_ids": [],
+  "union_lines": 789,
+  "all_expression_finite": true,
+  "scope": "All measured protein-coding expression features, deduplicated by stable Entrez ID; no pathway restrictions. This is not a noncoding-transcript or whole-DNA-genome scan.",
+  "response_independent_mapping": true,
+  "core64_expression_exact": true,
+  "original_CTRP_full_expression_entries_checked": 14266944
+}

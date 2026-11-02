@@ -1,0 +1,26 @@
+{
+  "tabpfn_context_environment": {
+    "tabpfn": "9.0.0",
+    "torch": "2.7.1+cu118",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0",
+    "joblib": "1.6.0"
+  },
+  "tabpfn_python": "3.12.10",
+  "analysis_environment": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2",
+    "matplotlib": "3.10.5"
+  },
+  "context_interpreter": "work/tabpfn/venv/bin/python",
+  "analysis_interpreter": "/home/sji/miniforge3/envs/deeplearning/bin/python",
+  "separate_environments": true,
+  "inference_device": "cpu",
+  "outbound_connections_blocked_during_inference": true
+}

@@ -67,6 +67,12 @@ Useful study reports:
 - [Direct PRISM training](outputs/erastin_prism_direct_comparison/REVIEW.md)
 - [EMT/DNA-repair comparison](outputs/erastin_emt_ddr_comparison/REVIEW.md)
 - [PRISM versus CTRP gene importance](outputs/erastin_prism_ctrp_gene_importance/REVIEW.md)
+- [64-gene kernel and hierarchical lineage benchmark](outputs/erastin_kernel_lineage_comparison/REVIEW.md)
+- [Multi-task learning across ferroptosis inducers](outputs/erastin_multitask_comparison/REVIEW.md)
+- [Hierarchical lineage-specific gene effects](outputs/erastin_hierarchical_slopes/REVIEW.md)
+- [TabPFN regression on the 64-gene panel](outputs/erastin_tabpfn_comparison/REVIEW.md)
+- [Genome-wide search for additions to the core64 panel](outputs/erastin_genomewide_search/REVIEW.md)
+- [Genome-wide Elastic Net selection beyond the core64 panel](outputs/erastin_genomewide_elastic_net/REVIEW.md)
 
 ## Version-control scope
 

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "b71060d230bb9da7d8f723236fb05c39f3eee8dd08c656289203e6021e825ea0"
+    },
+    {
+      "path": "gene_selection_stability.png",
+      "sha256": "471681a592d34627902f853636aba6941c638192da570c0c00096d76829f16b7"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "b6a18166054f012c7a66bdb4199757ab81182658afa04345db20858451740e5f"
+    }
+  ],
+  "checks": [
+    "Inspected both scientific figures: all labels, titles, axes, intervals and gene names legible without clipping.",
+    "Sparse x-axis tick spacing corrected in comparison figure and re-inspected.",
+    "Comparison signs and intervals match paired tables; positive values favor Elastic Net additions over each labeled reference.",
+    "Gene figure uses denominator 20 and labels training-only overlapping fits; selected genes match tables.",
+    "Final report-only rerender leaves inspected PNG hashes unchanged.",
+    "Retained model registry byte-identical to Git HEAD; 64-gene inputs and all shared split checks passed."
+  ]
+}

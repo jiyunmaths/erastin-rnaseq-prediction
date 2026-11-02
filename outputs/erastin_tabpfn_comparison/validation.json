@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "assays": [
+    {
+      "assay": "CTRP",
+      "passed": true,
+      "contexts": 20,
+      "reused_baseline_models": 160,
+      "split_checks": 120,
+      "all_lineages_on_both_outer_sides": true,
+      "fixed_config_no_inner_tuning": true,
+      "training_only_native_y_statistics_verified": true,
+      "all_64_input_features_covered": true,
+      "archive_checksums_and_crc_verified": 20,
+      "native_first_last_serialization_checks": [
+        {
+          "repeat": 1,
+          "error": 0.0
+        },
+        {
+          "repeat": 20,
+          "error": 0.0
+        }
+      ],
+      "native_reload_checks_not_repeated_for_other_contexts": true,
+      "baseline_predictions_reused_from_verified_unchanged_source": true,
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 340,
+        "max_error": 1.6653345369377348e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      },
+      "warning_summary": []
+    },
+    {
+      "assay": "PRISM",
+      "passed": true,
+      "contexts": 20,
+      "reused_baseline_models": 160,
+      "split_checks": 120,
+      "all_lineages_on_both_outer_sides": true,
+      "fixed_config_no_inner_tuning": true,
+      "training_only_native_y_statistics_verified": true,
+      "all_64_input_features_covered": true,
+      "archive_checksums_and_crc_verified": 20,
+      "native_first_last_serialization_checks": [
+        {
+          "repeat": 1,
+          "error": 0.0
+        },
+        {
+          "repeat": 20,
+          "error": 0.0
+        }
+      ],
+      "native_reload_checks_not_repeated_for_other_contexts": true,
+      "baseline_predictions_reused_from_verified_unchanged_source": true,
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 340,
+        "max_error": 1.5265566588595902e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      },
+      "warning_summary": []
+    }
+  ],
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "119b97bdb1a55c6358ca4e9dbbff86642e7f4064a804e831d22a0ac770adee60",
+    "split_checks": 240,
+    "checks": [
+      {
+        "assay": "CTRP",
+        "first_context_retained": true,
+        "serialization_max_error": 0.0,
+        "query_subset_max_error": 7.152557373046875e-07,
+        "changed_query_neighbors_max_error": 0.0,
+        "feature_coverage": 64,
+        "predict_seconds": 14.791560615994968,
+        "peak_process_rss_kib": 2007056
+      },
+      {
+        "assay": "PRISM",
+        "first_context_retained": true,
+        "serialization_max_error": 0.0,
+        "query_subset_max_error": 8.344650268554688e-07,
+        "changed_query_neighbors_max_error": 0.0,
+        "feature_coverage": 64,
+        "predict_seconds": 8.286068674002308,
+        "peak_process_rss_kib": 2155708
+      }
+    ],
+    "fixed_config_no_study_specific_tuning": true,
+    "offline_cpu_inference": true,
+    "no_validation_targets_passed_to_fit_or_predict": true,
+    "training_only_native_preprocessing_source_checked": true,
+    "code_pointers": [
+      "tabpfn.preprocessing.transform.fit_preprocessing_one",
+      "tabpfn.preprocessing.ensemble.TabPFNEnsembleMember.transform_X_test"
+    ],
+    "seconds": 90.23767547501484
+  },
+  "contexts": 40,
+  "baseline_models": 320,
+  "checkpoint_sha256_verified": true,
+  "source_hashes_verified": true,
+  "fixed_configuration_no_tuning": true,
+  "retained_registry_unchanged": true
+}
