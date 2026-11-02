@@ -1,0 +1,53 @@
+{
+  "records": [
+    {
+      "assay": "CTRP",
+      "model": "core_extended",
+      "zero_additions": 20,
+      "min_nn_alpha": 0,
+      "max_nn_alpha": 0,
+      "stronger_than_old_max": 0
+    },
+    {
+      "assay": "CTRP",
+      "model": "optional_extended",
+      "zero_additions": 11,
+      "min_nn_alpha": 0,
+      "max_nn_alpha": 0,
+      "stronger_than_old_max": 9
+    },
+    {
+      "assay": "CTRP",
+      "model": "forced_extended",
+      "zero_additions": 0,
+      "min_nn_alpha": 0,
+      "max_nn_alpha": 0,
+      "stronger_than_old_max": 20
+    },
+    {
+      "assay": "PRISM",
+      "model": "core_extended",
+      "zero_additions": 20,
+      "min_nn_alpha": 0,
+      "max_nn_alpha": 0,
+      "stronger_than_old_max": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "optional_extended",
+      "zero_additions": 15,
+      "min_nn_alpha": 0,
+      "max_nn_alpha": 0,
+      "stronger_than_old_max": 0
+    },
+    {
+      "assay": "PRISM",
+      "model": "forced_extended",
+      "zero_additions": 0,
+      "min_nn_alpha": 0,
+      "max_nn_alpha": 0,
+      "stronger_than_old_max": 0
+    }
+  ],
+  "post_result_grid_expansion": false
+}

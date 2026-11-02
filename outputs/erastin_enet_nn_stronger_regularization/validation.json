@@ -1,0 +1,133 @@
+{
+  "passed": true,
+  "assays": [
+    {
+      "passed": true,
+      "assay": "CTRP",
+      "group_split_checks": 120,
+      "candidate_fold_scores_checked": 29400,
+      "reused_candidate_fold_scores": 8400,
+      "new_inner_ensembles": 21000,
+      "new_inner_networks": 63000,
+      "outer_training_objectives_checked": 180,
+      "prediction_max_error": 0.0,
+      "inner_rmse_max_error": 1.1102230246251565e-16,
+      "training_objective_max_error": 5.551115123125783e-17,
+      "warning_counts": {
+        "DeprecationWarning": 63060
+      },
+      "convergence_warning_count": 0,
+      "all_prior_candidates_reused_exactly": true,
+      "all_core64_inputs_retained": true,
+      "matched_extended_control_verified": true,
+      "all_selected_inner_losses_at_most_old_grid_minimum": true,
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 270,
+        "max_error": 2.220446049250313e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      }
+    },
+    {
+      "passed": true,
+      "assay": "PRISM",
+      "group_split_checks": 120,
+      "candidate_fold_scores_checked": 33600,
+      "reused_candidate_fold_scores": 16800,
+      "new_inner_ensembles": 16800,
+      "new_inner_networks": 50400,
+      "outer_training_objectives_checked": 180,
+      "prediction_max_error": 0.0,
+      "inner_rmse_max_error": 1.1102230246251565e-16,
+      "training_objective_max_error": 1.1102230246251565e-16,
+      "warning_counts": {
+        "DeprecationWarning": 50460
+      },
+      "convergence_warning_count": 0,
+      "all_prior_candidates_reused_exactly": true,
+      "all_core64_inputs_retained": true,
+      "matched_extended_control_verified": true,
+      "all_selected_inner_losses_at_most_old_grid_minimum": true,
+      "bootstrap_arithmetic": {
+        "passed": true,
+        "expanded_scipy_draws": 5,
+        "metric_checks": 270,
+        "max_error": 2.220446049250313e-16,
+        "constant_predictions_keep_undefined_correlations": true
+      }
+    }
+  ],
+  "preflight": {
+    "passed": true,
+    "protocol_sha256": "d30d570bb1b1f870de0bbedfcd26acd510b9982d5c478baab0771727bef60d4f",
+    "split_checks": 240,
+    "exact_reuse_grid_mapping": true,
+    "replayed_selectors": [
+      {
+        "assay": "CTRP",
+        "repeat": 1,
+        "fold": 0,
+        "identical_gene_sets": 20
+      },
+      {
+        "assay": "PRISM",
+        "repeat": 1,
+        "fold": 0,
+        "identical_gene_sets": 20
+      }
+    ],
+    "original_candidate_prediction_max_error": 0.0,
+    "native_mlp_strong_penalty_prediction_max_error": 0.0,
+    "training_objectives_verified": true,
+    "training_only_scaling": true,
+    "computational_pilot": [
+      {
+        "assay": "CTRP",
+        "alpha": 300.0,
+        "genes": 875,
+        "seconds": 0.3719055579858832,
+        "max_iterations": 52
+      },
+      {
+        "assay": "CTRP",
+        "alpha": 3000.0,
+        "genes": 875,
+        "seconds": 0.0836788319866173,
+        "max_iterations": 14
+      },
+      {
+        "assay": "CTRP",
+        "alpha": 30000.0,
+        "genes": 875,
+        "seconds": 0.07864202099153772,
+        "max_iterations": 11
+      },
+      {
+        "assay": "PRISM",
+        "alpha": 300.0,
+        "genes": 504,
+        "seconds": 0.11900376400444657,
+        "max_iterations": 43
+      },
+      {
+        "assay": "PRISM",
+        "alpha": 3000.0,
+        "genes": 504,
+        "seconds": 0.029116770019754767,
+        "max_iterations": 10
+      },
+      {
+        "assay": "PRISM",
+        "alpha": 30000.0,
+        "genes": 504,
+        "seconds": 0.036135000991635025,
+        "max_iterations": 11
+      }
+    ],
+    "seconds": 10.31509448698489
+  },
+  "all_core64_retained": true,
+  "sources_verified": true,
+  "training_only_selection": true
+}

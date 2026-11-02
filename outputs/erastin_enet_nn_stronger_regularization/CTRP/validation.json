@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "assay": "CTRP",
+  "group_split_checks": 120,
+  "candidate_fold_scores_checked": 29400,
+  "reused_candidate_fold_scores": 8400,
+  "new_inner_ensembles": 21000,
+  "new_inner_networks": 63000,
+  "outer_training_objectives_checked": 180,
+  "prediction_max_error": 0.0,
+  "inner_rmse_max_error": 1.1102230246251565e-16,
+  "training_objective_max_error": 5.551115123125783e-17,
+  "warning_counts": {
+    "DeprecationWarning": 63060
+  },
+  "convergence_warning_count": 0,
+  "all_prior_candidates_reused_exactly": true,
+  "all_core64_inputs_retained": true,
+  "matched_extended_control_verified": true,
+  "all_selected_inner_losses_at_most_old_grid_minimum": true,
+  "bootstrap_arithmetic": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 270,
+    "max_error": 2.220446049250313e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  }
+}

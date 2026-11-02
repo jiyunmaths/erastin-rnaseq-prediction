@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "protocol_sha256": "485707ed6bbd61664347280b30d46aa985e3b74d7a69a93cead8a9938e529c66",
+  "split_checks": 240,
+  "replayed_fold_local_selectors": [
+    {
+      "assay": "CTRP",
+      "repeat": 1,
+      "fold": 0,
+      "settings": 20,
+      "identical": true
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 1,
+      "fold": 4,
+      "settings": 20,
+      "identical": true
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 1,
+      "fold": -1,
+      "settings": 20,
+      "identical": true
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 1,
+      "fold": 0,
+      "settings": 20,
+      "identical": true
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 1,
+      "fold": 4,
+      "settings": 20,
+      "identical": true
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 1,
+      "fold": -1,
+      "settings": 20,
+      "identical": true
+    }
+  ],
+  "cached_selector_gene_sets_checked": 120,
+  "original_core_nn_prediction_max_error": 0.0,
+  "native_unweighted_adapter_prediction_max_error": 0.0,
+  "training_only_scaling_verified": true,
+  "augmented_training_objectives_verified": true,
+  "exact_three_seed_ensembles_verified": true,
+  "no_top_k_cap": true,
+  "seconds": 42.76572345197201
+}

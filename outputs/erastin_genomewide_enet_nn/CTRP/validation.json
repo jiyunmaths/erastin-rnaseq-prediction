@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "assay": "CTRP",
+  "group_split_checks": 120,
+  "candidate_fold_scores_checked": 8400,
+  "new_inner_ensembles": 8000,
+  "new_inner_networks": 24000,
+  "outer_network_objectives_checked": 60,
+  "prediction_max_error": 0.0,
+  "inner_rmse_max_error": 1.1102230246251565e-16,
+  "training_objective_max_error": 5.551115123125783e-17,
+  "warning_counts": {
+    "DeprecationWarning": 24003
+  },
+  "convergence_warning_count": 0,
+  "source_fold_selection_hashes_verified": true,
+  "all_gene_counts_match_fold_local_masks": true,
+  "all_core64_inputs_retained": true,
+  "exact_original_nn_seeds": true,
+  "exact_core_only_fallback": true,
+  "bootstrap_arithmetic": {
+    "passed": true,
+    "expanded_scipy_draws": 5,
+    "metric_checks": 270,
+    "max_error": 1.6653345369377348e-16,
+    "constant_predictions_keep_undefined_correlations": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "52e9f3f4f4fe50cfc1c8bf4bb59025c516b96847f8d884b445c84ec63b558896"
+    },
+    {
+      "path": "selected_regularization.png",
+      "sha256": "821103d78b30700ea24274b395eb8009acdfd47201c1c5405181b6bd4abf94d6"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "1b5222559558ed5ad044f42de9b0c9a0ed4b4871e2b9be8ea75b9e86b4aa0034"
+    }
+  ],
+  "checks": [
+    "Inspected comparison figure: four paired comparisons, both assays, RMSE/Spearman intervals and reference labels are legible without clipping.",
+    "Inspected selected-penalty figure: core always selects 100, forced always 300, optional switches between these; seed ticks and legends legible.",
+    "Report distinguishes improvement over prior expanded models from added-gene value against the matched extended-grid core64 control.",
+    "Lineage-average point improvements and uncertainty are reported separately from pooled RMSE.",
+    "Report-only rerender preserves inspected PNG hashes.",
+    "Retained model registry matches Git HEAD; all 63,000 scores, 113,400 new inner networks and 360 outer member objectives passed audit."
+  ]
+}

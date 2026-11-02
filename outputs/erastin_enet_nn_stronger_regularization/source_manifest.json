@@ -1,0 +1,3480 @@
+{
+  "files": [
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/protocol.json",
+      "sha256": "485707ed6bbd61664347280b30d46aa985e3b74d7a69a93cead8a9938e529c66"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/validation.json",
+      "sha256": "cd60365b2e0e33d6c1d06cc28acaabead3a4890e327e1959040a4567137ab998"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/model_helpers.py",
+      "sha256": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/weighted_mlp.py",
+      "sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/selection_helpers.py",
+      "sha256": "19c82f6695143997bedcfb6425b06532a4884cb9c3859b42197383376c1b75db"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/ridge_helpers.py",
+      "sha256": "b88d7e9ae2818159d080bdfd2e4a4cd332142918e08d8a8e771242da71cd8b2d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f0.npz",
+      "sha256": "7ca4d6e0c7b9d83afc60a31462d471d3c0183b525430ad717d2ba4cfc2200287"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f0.json",
+      "sha256": "ca286d8510795369390707e77b577a1a9d791b3e785f92aba32bb77dbb7bb4c1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f1.npz",
+      "sha256": "bb2910fe7473a72e8527451f36657b8c9d8f037bec601a6e91d66be88b6925ff"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f1.json",
+      "sha256": "bb8d4f782d49fa4cee857a73c2ed6e8fd7d38d6ffa7e2182d796a88f8e797e6a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f2.npz",
+      "sha256": "6f7c11fde6caa7082da5952a0d2581a39047e3551180c4821c292135f272ba0e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f2.json",
+      "sha256": "660ae213e2ed6b417f043377d20b155aa2eaef120cc4fc3243d30d1270db0c9d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f3.npz",
+      "sha256": "1e17b7374e1470758d86c171d01b647426a2d0b269511466d853316535dd9cb1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f3.json",
+      "sha256": "becb8923b3bdc29ea026d9cbbb0875b5580568ade6397b9f40101b41d182496b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f4.npz",
+      "sha256": "78507668fdd93e144841f5cc68997505827578154f2cac24e18d7076a6f27257"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r01__f4.json",
+      "sha256": "14f646d3b4eff6368e0f32e3beae40ad84919648dbfaa073743fa3510c5af250"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f0.npz",
+      "sha256": "5b0298feadf39ec53e80c3ef83efb87f5ff432243d4d7b6bb1a189daad6418af"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f0.json",
+      "sha256": "2e956c3bea25e7f8195b7c04723c4c100fc9fd7c567aa24a98d6237416204d9b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f1.npz",
+      "sha256": "9f326fa90e70cee9e624493b2d2dd764b3cad4ad65995116b63343c581ff718a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f1.json",
+      "sha256": "e162ed90de1c925479d3c0ac161d663080eddb3c48d0af549271e8614b00101d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f2.npz",
+      "sha256": "46c1a0248a6847cca492848d062b385e73fdbff951fc3f64124217c3375e6a34"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f2.json",
+      "sha256": "0604d2f0e07dcc42a010e67dd9d5fbd2146f16364a795c024f1115be91b8a0b8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f3.npz",
+      "sha256": "10951ddf130f149b45de54299fbf16f92721e1e5913fbd7f73c8b36eaebad6a7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f3.json",
+      "sha256": "baa4c7cefa44f7b3fb1639fba0e33b787d976c5782fb0934f3ab523dee5c86c2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f4.npz",
+      "sha256": "8fb58fe81f520ea89e55d3e3ab6b8a72daa0c71b84826bd5c6f68d40ef0553f4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r02__f4.json",
+      "sha256": "e0f37060ae33647268c0ba9a683eada0d260f90167a11dc8b09ac259ef055ec2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f0.npz",
+      "sha256": "e4b2a8fa404c1480a1ab4735fd5710fe696cfa9bb5b2e85ab19fcb03ab349e11"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f0.json",
+      "sha256": "b02389c76b1e70816ca01ef5f0c194c5d89bd424156a0c13447555907ced675e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f1.npz",
+      "sha256": "55707a9935cf30a299cf2e1986a5d2bd5e76c1d8bcaa31ac600236ec8f1568cc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f1.json",
+      "sha256": "8cde456886d90c72022bc028e6b33207a5dfd90808bf1c1262110ef0e8cd1215"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f2.npz",
+      "sha256": "9b3ae7279fe3956727e03925a4970a98120cbb11de98baa3193af9d0e5623309"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f2.json",
+      "sha256": "77ad91a2e0dd149feae1f6d628fb764c640c741808081492e0428b081e0d9f3d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f3.npz",
+      "sha256": "a34f049c1feced50daa938f0cb881bb8a0368dce848be32274d3962f55722b1a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f3.json",
+      "sha256": "74ec71169c1764f96403c1b4e41a65c6ce848fed656a1e55f8a86ebb905e309a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f4.npz",
+      "sha256": "f7472dc7bb8b46c807fcdd83bfa2fbdc1c84123defb643e29d9456b18fa90023"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r03__f4.json",
+      "sha256": "c61e4cb5af757d860dc8d4b5aa426b7f243837367054d76c334ccf91b1e96152"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f0.npz",
+      "sha256": "86d5d38853d142d61f2f39f19950a1f768950ecd4a2ca711447477988ed1b25c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f0.json",
+      "sha256": "4289a3204ae7b5415e07aa45dda49b317ac69530d64c87f8b08d7fa1b4e50036"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f1.npz",
+      "sha256": "49ec5eb4a0afd7c8b887aa84621a9daa91e87e1c6777605fc116d6fbdc743d1e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f1.json",
+      "sha256": "53b6f4d0c8ad49df0ff80e48aaa6c34c50db934322e752c714f4632d21e4f1f9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f2.npz",
+      "sha256": "1c878fe7b9b68a8f3607620494a5020b0649dc35a051fc7f09be50679dcc68ae"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f2.json",
+      "sha256": "69a829597df96527d15b44bc5b0ff0049f9fd7b15ea83a8ac2ad4f1728150f8b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f3.npz",
+      "sha256": "d6d8cd3b6c4738757562395c05d5e3f0e8a76da75b63d48d02cfc7f233ec279b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f3.json",
+      "sha256": "5caffc010ddad33860cc2d98f0ec7c3f5331077340881557d9fb2a49c092ca07"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f4.npz",
+      "sha256": "da8904010f21efbbd82ac88d02500c6805f5469d8faadb12abd40ac308c9f8bc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r04__f4.json",
+      "sha256": "75e787e4ad567e12babdff8b75126cc2c39fab0f4ca95523a662636180dd4ecf"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f0.npz",
+      "sha256": "cb33ee48cdae006e7cb5b45baf10b31928ab8f1bf7b627f83329857fd612a1e2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f0.json",
+      "sha256": "dc0b907dd813be143b92cc3c1424814ffab06069e7dd8b6c8e77e1162b264691"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f1.npz",
+      "sha256": "50c906e05260635999e6e201bf83375c9458a2b07900946765ae8b34140a1599"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f1.json",
+      "sha256": "1f39d918bfffe12511b9f89242e71c9eb0473e7af40896abe9f040b9406a40cb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f2.npz",
+      "sha256": "8f324d19669a9d8e5dd2c7d1b0c6c1647299b45139038432beaf56ee61728dfe"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f2.json",
+      "sha256": "37e721604f309bf2cf2dc734abd6919ab2a68ca45ad594d232dc1cb0e4378e62"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f3.npz",
+      "sha256": "26de4deaa99cce284026996a94c8aa71c2edf53b61416ed0217e49eb5bd6fff5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f3.json",
+      "sha256": "151e9da4e03639cabdceb3357c7f461ce1c9ac325765144e2bc68e0bfdc3c265"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f4.npz",
+      "sha256": "6ea8885d53faccbe2b9090c6a584f9fbadcdff5f19bd92e548f21661640ca7fa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r05__f4.json",
+      "sha256": "54edf98778409457be8c34d9c317b1f1ee335fd33d7f421940fa0c7838187877"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f0.npz",
+      "sha256": "b0ecd23f20799cfd82479d4a12680c1971da57a67e1c6b4ca42bfda9e807f662"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f0.json",
+      "sha256": "ff06142ce117331427a81b6b6cf2d7e1c22c32c4ad31feab3e15fc43773d90ee"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f1.npz",
+      "sha256": "55ae2c96c8171a40c9df947c3cdfa77694ba959e163d8a359fd24ef1a36442c9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f1.json",
+      "sha256": "5f3b6fc59dd08e56e67944d04282cfcbb623fa9fd9f89c5b304698d54525b930"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f2.npz",
+      "sha256": "1167b7c9f16c7aba9922e8661747d15fdb3eda41bf5f8ade09335c91da09341b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f2.json",
+      "sha256": "e4ed438892427b4c78a0696b8b7ae034ce3725968a90cb535f0adc08e0700fcc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f3.npz",
+      "sha256": "46caf1e44d7deff15d270f097c2064c6d1aebb83ff68cecf6a839e4fd712de96"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f3.json",
+      "sha256": "6349a11e1f3e3fa3c1f99e197815a75b045e8a3e57fc7aad2a1e7f0f40a3442c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f4.npz",
+      "sha256": "e7f19c81735d3a0a9d8030bfe98b4cbde21e586404c9f5a20c85bc7bc7a9792a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r06__f4.json",
+      "sha256": "c974c960baf352ef31f470a5f47dd18e1a8305d6f5ff809a067a9737419e8542"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f0.npz",
+      "sha256": "07af264a7bc3ea8d15b6f81c253a0806871b862c2868a8628ae96d5ba5621ce1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f0.json",
+      "sha256": "218b5cdc50776724bdf8b500fff670b9b4ec4aa81a714c0f9f371a4f3b75cbaf"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f1.npz",
+      "sha256": "a360273e8cef27d552d29d236c4bdc452540ed85b6331bb9297d2e8db22f2a02"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f1.json",
+      "sha256": "ff32cd143ae14c429d701f551a3074e154d24d5bb856faa7a5d1a6be9808b705"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f2.npz",
+      "sha256": "2bff3d792a3e5aaac0281c05a8a7168a3e7e43596a5bd6a3c53ec24466cac0ff"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f2.json",
+      "sha256": "a526277b265d2453943e438779f6972c9f3beb975f96daabd646e17c81f18174"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f3.npz",
+      "sha256": "b744d7136154b67637c3248f0dcb956b5aa9fea4b9cced2c296bf6ceaf38eeb9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f3.json",
+      "sha256": "5f4bb89925963d2b57da664aa8ac636221be552fd7db68702432505b80572b29"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f4.npz",
+      "sha256": "982d9d8e533ac0bb8068c13aa4504f5fc2bd811077236e16d2e79e27cfc830ef"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r07__f4.json",
+      "sha256": "0f9f23a9be52ae6f65b2b43c760ff68b66ad66e6d1bc96732f8c68a79539bef3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f0.npz",
+      "sha256": "07471127ae49b10ef9ecd3cd7ba38ee1ba2b54724dc6b4c655982783be4d240a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f0.json",
+      "sha256": "6524b4adb6a610f15887be69ef182e8c34f8a1593ed3bdfaf005c92cb26a0bde"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f1.npz",
+      "sha256": "b909d860756b4a90138ae1a9ba7436ab3b2b36011ba84b2b7ca6bc678e80748d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f1.json",
+      "sha256": "548dadc552e5a00e3821738105afb28ffaef1d4c38a7e29eec529dc99fed9f57"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f2.npz",
+      "sha256": "38fd5823a2e186bf726cb0a013bc83d37bad0abc76073df7dc68da33d89f09bb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f2.json",
+      "sha256": "ad3fa1bf386781100ad6ede628872fafad0da1cb4d77e2859d7ada6deb1935a5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f3.npz",
+      "sha256": "ee2b0391c2dac164a874bb1e496110fb1c691aa10e50956c13758960ab133709"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f3.json",
+      "sha256": "bb39b54637ee6a84fac2081a3012006cfc275482d416e60bfbd5d4b349fb817b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f4.npz",
+      "sha256": "3e73379206ad92e75a6796eb0390fc10f8256e4ed5b3b73a158697b22750556b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r08__f4.json",
+      "sha256": "95588ff2ea6c1fc7d054e26a48ac09810d4b6743b96502d671a10b09147b59e8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f0.npz",
+      "sha256": "55ba9bc8eb55e45a4b3e465901e9c8be112787a158cb73a99df9561b80d667f9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f0.json",
+      "sha256": "0aec63f0c85d254a8b0bfd887d117518ae72acd03d6218425ac2d65bd43cfec6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f1.npz",
+      "sha256": "24954b6e443e7ff627f2374901c5dc239aa21981026b5808fc6633215cddb185"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f1.json",
+      "sha256": "01a44726a89b20ba3ae308d4a38b3a75f9acf5b23e7e21eabb23612ceb3fabea"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f2.npz",
+      "sha256": "3880af502e176a06d556f97d26eae5cce62c7cf34fa2ca8b6770819b9179fa9c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f2.json",
+      "sha256": "11f153a69724214af278040d7f377c81998bdab77700f3879382fb11d03a38bb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f3.npz",
+      "sha256": "a749f5c6fb3bf25341c32241540d0f1dbda16903397ef1656a7aa460db880f69"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f3.json",
+      "sha256": "2e1d31a7d97bf14f0e2bdb95ef398e1d0be9c10a426c9ac06b6854f1277f751d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f4.npz",
+      "sha256": "6da94d5f2609ea91b31b682bbe61aef295a2096b78be69cfe20a8e3a814b620a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r09__f4.json",
+      "sha256": "a76cb4c28cf50d82dfaff4620c3353dddae83358b80bcc28c809f5f70748f2e5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f0.npz",
+      "sha256": "8a1e202501e71c252ba8e286457b14c265119a16368f4392f7505a70627c6cd9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f0.json",
+      "sha256": "5f365d6950a0e2dc39b890fae187bd883096b9a8f076a5ae00b97abfca49f984"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f1.npz",
+      "sha256": "11d8c252f3cef824eb09bb436879151b19dae0b11e40bf50a201f1f75775d9e8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f1.json",
+      "sha256": "9dfb3e7f4531a012dd58662f9971048dceedee4d2dc910490c209eedcd8ab29f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f2.npz",
+      "sha256": "12ef1c6e0ca00af634494b7542ecd551d896ce0ffa2ce7fc5d709f7110bf3ea7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f2.json",
+      "sha256": "e306ead8ba8d2f6f341715fc6364bd85d961894f547501288cd4f59407009b24"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f3.npz",
+      "sha256": "43e53610a6fc7b42f39d49872ba633982520fd4fd71267f9dc07b3aac4be7ef6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f3.json",
+      "sha256": "564d2573b6adb4ed1cd2f3b843a425617e3262dc91715465febc29ddb2fa3237"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f4.npz",
+      "sha256": "202d88dc983f5ee80cec1f1c57138428134521e321b3668edea242e50dde3eab"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r10__f4.json",
+      "sha256": "b3ec15655a7f59b25a13df9d170d31d7b7fb76c8c0f3aae846d21840fccb9194"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f0.npz",
+      "sha256": "790e39b65dea199e2f5269521bae4a94002c91d7233ecf1fdc5340ec9c74e35e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f0.json",
+      "sha256": "4a9068ee9d1d8671f39fb2fb8a03a0a7dad3b3a71a4dc02f8f66d49b30ffbd51"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f1.npz",
+      "sha256": "5dd4e54020fa6aeadda924139fc08ce94846107a48034e058db52245414f0402"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f1.json",
+      "sha256": "3640f81b2d4a68e4739f705e1dbfcfd2234cc5dc36a5f08a37191022d7ef3650"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f2.npz",
+      "sha256": "16372a70598b29cf380f3d18a00b41976073bb6f8cfe4036ab35e3ff0048957b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f2.json",
+      "sha256": "61a140e48bd92b838bded46e3b2b26a7f8ccd6a5cc75c32f48b2a94f67752732"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f3.npz",
+      "sha256": "0f866f684dbb423393975629534c05ec3bda376cda3b008fa4e00dd34242826e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f3.json",
+      "sha256": "8626a762e8caa78440e5a7691e98d1da617cc1b28fadcb6d6520ae308d03b858"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f4.npz",
+      "sha256": "ae7bf9b6532be567904a9abaa487420e119692572274e2a1f2581f35fa54dde7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r11__f4.json",
+      "sha256": "677697057847ab4627596227ddfc36cdde884f4dfe87ba95704353245876b7a2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f0.npz",
+      "sha256": "0c7a385ede90081274cae7e146685e45c328355cc725d8238747e878bd1037d0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f0.json",
+      "sha256": "4ed664147412e57440614925fd006ad493bae83f1a24587573edf66de0303755"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f1.npz",
+      "sha256": "76362e36e49b8e04b2959960dc7daa4de89168be754249e963a82fe99a51771d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f1.json",
+      "sha256": "f87e52ed2c5ce09f0590a5f7fd5855d285b85c2057f36a14139084c98f0718d4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f2.npz",
+      "sha256": "7542bf0e594d62fa132ea693bafd60c381e1445ece8d34d269c0f9ec5c1af549"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f2.json",
+      "sha256": "c6aeec029c852e769790681306b1f4cad48f217f12c39a33d74cf7798618f369"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f3.npz",
+      "sha256": "548448214317f957862935b358663cbdb4f97ae20a72c5f20e0cbf63349bbb39"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f3.json",
+      "sha256": "fe1fe308595bdba892525dd5e5aa9e77a0fd648fd2c6c0369f64f38613141be0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f4.npz",
+      "sha256": "66a566f238b3a5b767e9b850bcd06fffec70249bda93d2177475cf11b310d6eb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r12__f4.json",
+      "sha256": "9161b949fed0b057b7090c0221239742d99fd42273c8844637dcb61ada71db52"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f0.npz",
+      "sha256": "f8093b89733cdc9a4baffe73f4e2a78340d2abc17d979e7e8917355db3889aed"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f0.json",
+      "sha256": "fb603ed9a80d16f8eb1a33886d6355cc9b96d5e6fcc994142ddbf7f8942f3117"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f1.npz",
+      "sha256": "9d37505cfa9374905e94f2c9fd13d2232a56547624128f292ad72b62593e730d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f1.json",
+      "sha256": "20c6cfd8b7f75f989790479140e8b4bd95317d6bec8fa32f3451a4b9f9f5d9d0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f2.npz",
+      "sha256": "ddea5a73f41eae92d931c614314efdaf7fa3b3bc4f95445cfca5010d7833c68d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f2.json",
+      "sha256": "8d9ec5e32ea3ab1387dee33030edcc42c091d2edb7733b7b0086e9b598c8b302"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f3.npz",
+      "sha256": "d22a37bd7b1b323a267b381e2f906d75980b2e562a01ca6c4821e859142945c7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f3.json",
+      "sha256": "7b2a3a993aba9a3098dd08a1015fbecd1d799b7d134f5da4843ccc98a4d73103"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f4.npz",
+      "sha256": "d5c9242278b3d60a51dfaf28d69367c498f56797a975f469b5c13aeaf95343e7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r13__f4.json",
+      "sha256": "4314f8729dac02f7197895d8797c41fe18c1a2f5a1dcac24451deafa60e93ab8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f0.npz",
+      "sha256": "535fd29f7ff31f708a1d8f76d4cb92a5b40bab7cb3ab61cae2d0c94a14784aec"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f0.json",
+      "sha256": "708bb767b74cac0f83317f593c4e76f15d61b185a5b50d25ee38e8bc5073b2d0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f1.npz",
+      "sha256": "55173e5e0f34b68e635be597d17413acb096b2a0f78a2f0f4662d1bdd5111a91"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f1.json",
+      "sha256": "db253fe26d8d9233c5924cb10a350c45cbe271237011de4868299ce5537a3b41"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f2.npz",
+      "sha256": "19095331504a185e1eb8987fed2fbd73c8c171d74442924c1445fd28b2ea5334"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f2.json",
+      "sha256": "c314bde830ec87fca2d63a41e00bfc6def3cd59588a53456ef14e1293fe159e2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f3.npz",
+      "sha256": "1eaba0395b75da623703ea5b4d038f304f8bd132f696af9877772a90c8ba55f5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f3.json",
+      "sha256": "7fbe296871efa668af1a59ccdccd7132be089b41a454778fd98c141d45df8405"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f4.npz",
+      "sha256": "1756abec21e08bc8aed260174490edfd7b29b7547f98133fa7379a91cc6428db"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r14__f4.json",
+      "sha256": "0b365912a63532fe0a56d29c5a11692569efdc4ea471970acbb13c7ee34daef8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f0.npz",
+      "sha256": "bcf3ba6559cb4414869b43bca87f3dc5b195fab37e8097578ea91e3d96c339a1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f0.json",
+      "sha256": "a750ad14a4ce0204141a405d6bf625845d4320d128cdaec49d6cf634359ceb21"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f1.npz",
+      "sha256": "458512fc6e463fbb2a88222efeed44246e1f109d6b8e141302c47556e9572ff4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f1.json",
+      "sha256": "4295f62e74e48cd64826fd53664b0280fbb2aaa3c1c53e52d1e0058d8bae57f4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f2.npz",
+      "sha256": "6ade654da1c4a2b6c858b6ecfb7010f9dc1049a132605636850820dac97e9e21"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f2.json",
+      "sha256": "23e5368f8c2a4326b8a3940ebecc7f28992e835e82581a859102265296b1ed3e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f3.npz",
+      "sha256": "a30d0ca4aa409e5bd140c2aa31af4822df2f8aeb773e300761cf85459b5d1587"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f3.json",
+      "sha256": "be911e8d18b0cdea52a344956b11e9157e39091ee19eb3614052689cb7cc105d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f4.npz",
+      "sha256": "bc12655f1423c842bb4fe8045d7e1b8d133148e78b20cb1e8782a22b6e32eb1d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r15__f4.json",
+      "sha256": "2bff2c4376a061309921f177c17627903cc321fb6b0461d11c87cb27032ced97"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f0.npz",
+      "sha256": "ef3d618819c43b2f509286ddb057082cf7965e0987365dec97014e8c68f9d8b4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f0.json",
+      "sha256": "39a87dd55bd1eeda2f065331e8ee21fcf8b1a957baf162ea4add7b28ad7e31ef"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f1.npz",
+      "sha256": "f1a95f5e6441501cf997dc521745f75078041e6435197b0978a7087f84c313e9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f1.json",
+      "sha256": "e301c5873bf128f8e1a6307f78a1e454d877286d5baf7a4c59157380a4e7cfa4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f2.npz",
+      "sha256": "373893d57ff7ecad594984ae84a747dc7f2253e289747199b0798d5228a420d8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f2.json",
+      "sha256": "a09faa52b8f691df5cce186169f9b7fb924ecc989fce24fb0a68fafcdb4e2dd7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f3.npz",
+      "sha256": "0d866d136104c402a677afb209918a424370fb5c2ccdae6a771c4dbf42720352"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f3.json",
+      "sha256": "39db615b60466ffdaada542e13113994ba2791cfcf68be0fdc1580955c83daba"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f4.npz",
+      "sha256": "789ba7ef47be71df1a818d36221064943ab2db485b8be8496df179b2f9d73f59"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r16__f4.json",
+      "sha256": "5652ffd032dc4383e8134650cedc7c50dc3d52091c8230eb71bf7b52e40e21cc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f0.npz",
+      "sha256": "13747c0db413310f15ffe958c63753031f148ab10a7a0c261baeab0b9f1c2c25"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f0.json",
+      "sha256": "79b78dd1e076046354122c455d33c2bede2dff4abab466f7b0108445e1e5687c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f1.npz",
+      "sha256": "66d22c9d3807bfe0e5d07f2e910ebfa187ef8c558075bcbee56f5ade86b56a28"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f1.json",
+      "sha256": "e47cb55ed7de3a39418d5ddf4258617276488f3b966a9fea1de9daceaf01e478"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f2.npz",
+      "sha256": "4955fd2c6279e68d14f60dbdd190ee1183f869c914d724e61f777d35300349e8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f2.json",
+      "sha256": "aee97fce96c62d184f07783012d5a60127b525eb0e7dd4544b3c6635920b3117"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f3.npz",
+      "sha256": "6f663f41b23640e63c8cc3480e129c0a9ce8805304d52e8bb9f7af34941e1823"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f3.json",
+      "sha256": "180af931450dea02cd182cb0c505c7cee9791b6502a5e7a1633ceee699811d98"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f4.npz",
+      "sha256": "0b4838b494e361b2a2e572e29a934a0c68d44f09b327b9c66c1bf2209bd5812b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r17__f4.json",
+      "sha256": "9acb38bf867e34afe6901ddf65cede8faf1aa955ea0061a3b094f50d76fd94a4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f0.npz",
+      "sha256": "0c76abcdcb3d5b278cdfe5f679efa9632f453f2d56b55b0d405159c80c4a0dd1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f0.json",
+      "sha256": "46b059d370a3c07d8d83a940993a38d1941993a17594a993dd9b009d80dc9b8c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f1.npz",
+      "sha256": "b066f0cdd3b8ad79cca85589e7395b7b42acd242fed72dd5b88b620810dd4845"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f1.json",
+      "sha256": "b540762fa1787100c228920c750f74b10a456d1479c92238d66789cf0df6f8a0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f2.npz",
+      "sha256": "6b01eb49cb34112f6e980322438598b4c408012eedd0049f0a9d0e3ae68df53c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f2.json",
+      "sha256": "47f4baa9a71fd4ee598c5a11cd90c7ba847b27e5ff8f2b51792879664b28ad02"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f3.npz",
+      "sha256": "ad8eafcf49c44ee3cb5c12994415592013ad5c9096f05b650c1671d968216fb8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f3.json",
+      "sha256": "86b38b6317a5a2e4472aa585179adb3734922ffd32e0948beee0b2d38123bac6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f4.npz",
+      "sha256": "fd1dfbb1c962a3ae299bb1b9ac26c5610b840060f8d042758821dee73a31a5cf"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r18__f4.json",
+      "sha256": "6bbd6e12eb9226b819895d06f2bde29ec7efc00316ce9da08a1cd096fb1a2678"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f0.npz",
+      "sha256": "4acd6df1fcea149bee3ffb318e68d3f2599e6fc78c8026425ab336e4cb07b7d6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f0.json",
+      "sha256": "592b168309e910cea4fb2c91ff09e9b6fc1621104953516ff8ed2c03a83e445d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f1.npz",
+      "sha256": "b351a1539516514a6ba205fbeaf7c61d9cd0445ffbdeb3d3f6c76177f0cb7009"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f1.json",
+      "sha256": "9615b014baab07e9d3fbcbcae2b808a3aa6680300abf39d00400aad802048958"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f2.npz",
+      "sha256": "b119561cbd726e9e95235caf75340706b31e9f123009198af8545625a2c4274c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f2.json",
+      "sha256": "26d6eaacc09c090b3a9d74dc2e032767e151e6ca7fc39cf796a3c998c5b68c36"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f3.npz",
+      "sha256": "22454fe64ac0decfc00aa3e2e2e33b6eae6ec81e4c54eb954948a85c5fe8473f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f3.json",
+      "sha256": "92429088a08537387e7f5106c1354e89f402c02f6dfe23c93a8e1ac3eb836e0c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f4.npz",
+      "sha256": "9bb93ea9bf08cdfb8cae25b76b4bab09b1d002d094cb95ea1f84ca1dde10fc3f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r19__f4.json",
+      "sha256": "86c364a0231bf0f8ca196048a74f40552833c439740c7f6dbdb6889a7b511b23"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f0.npz",
+      "sha256": "fc0ce34e747de5d2b7344a96d6cec53a51f302aed6ad6a3253bff540e7a461d5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f0.json",
+      "sha256": "24b111db4015d1bc8c52d4a50a441230cc8d847a316fda440fd413cee984ec23"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f1.npz",
+      "sha256": "837968e487c496d7e03afab47fe5f94ab1a5f92665f186701f4ce75fcb80a233"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f1.json",
+      "sha256": "7749d819abe81b2bfadc2e1f6539695c45363372f30e34103d533ccd34f89cc9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f2.npz",
+      "sha256": "d6051163536dae6ff4ac27d26a4b07026a7487048b0937cbff023751a51733a2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f2.json",
+      "sha256": "11296f5e0093aa0d4d0a2ca068679297d55c649247f3deaa0df87b9f70c4a883"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f3.npz",
+      "sha256": "2d13d7daf47511362084ad4bd56f0c4bd948ad10a185cef72dcbf6cd361762d5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f3.json",
+      "sha256": "aacf6a94083472511881f890a10756223ce231512ede671168801babe0cf30e2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f4.npz",
+      "sha256": "a5d1ffb8d6a27bb5689938a48ad98a62eba5f6864be7028e3e2c55173c613208"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/inner__r20__f4.json",
+      "sha256": "984ff16cfbfcf5543589d0abc9c81513675ad6c71fe6c37319c2198fc2640a81"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f0.npz",
+      "sha256": "fdbcb76875fab586ea6c5569b6fcad8decf81b864a434517e3770216a69158e0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f0.json",
+      "sha256": "3192c7e585f8b294c8dc3dceaa5612bca391fcd2fc315c5754e69bcf7c8d1ffc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f1.npz",
+      "sha256": "0b827988ac100d1d2b17015bfd9fa467f9e08a2ad33a20a57ca8f2dc0cbab40f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f1.json",
+      "sha256": "df89b49e443bb82c789d6152988bdf238e9085dbffc4d1fb551595da8a135ec5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f2.npz",
+      "sha256": "ec000c1d272e622d1330ae9633287504f43233eb53337c359385dafcfe947545"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f2.json",
+      "sha256": "7fb119458ac0fea8fb6fd56d108f056bec99a8e93ecd3da1cc200f0082996be2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f3.npz",
+      "sha256": "5d4e06e333cefe0fbec2fb88ddf92773de9bad2ed056c513aaf122dd2afaac70"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f3.json",
+      "sha256": "9165e9fa43166675e8680a38734cfb9e8d35f4b34e047e691b7acac117f33748"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f4.npz",
+      "sha256": "24aa7a677e2b7d4abd4ac329273ee581deb9d21643545be9a1f1b3bb88d2b246"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r01__f4.json",
+      "sha256": "34ae741c2c0cac51c059f9a5dd5dc9e399283caea01d13b30207f681993e6d33"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f0.npz",
+      "sha256": "349f97cff25f4fad165b912fd1f375ef09fb107f7b32213a273c831fb03152c4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f0.json",
+      "sha256": "b7ed44c72c3889da184e54a7d6dafc3ef19b76b6eec6e79f2ac17b06bcdfc863"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f1.npz",
+      "sha256": "7a69bafd7dc45d6f2220b5879b21c0d0dc64867b278fe2c6db347bb265c67873"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f1.json",
+      "sha256": "42a5a0ba61c0511d6954e0ff5a4509570b5764d51892362a3a66fcf3059ed72f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f2.npz",
+      "sha256": "68fbbcb8f3a498bdea14392d61406cf5e2d437655cde10677f89c971f7048b1e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f2.json",
+      "sha256": "9361634cc9f7825dff8489a2ceffe2521cf283d669bb6882aa8d14da829ce053"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f3.npz",
+      "sha256": "3129c53ba32b46168470ae922dd2243b74b5be7c7d360d41b8a1027a9e179feb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f3.json",
+      "sha256": "7817d506ef5e9e1898de7df270bf6d717873d6fc29287dd6bb9f2062d9292c66"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f4.npz",
+      "sha256": "94871b0195049dc34ba86643c601d16b34b500353ed0b9bdfb1a6420c3fcccd1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r02__f4.json",
+      "sha256": "834149d70eb13923b0f327d433c81698e76f3c65b7399f588527929211dee4d8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f0.npz",
+      "sha256": "5e65154539e67997fea8c7483016cc08ea20e2db50fe3e10b1d6d4ff52e044d6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f0.json",
+      "sha256": "79e448dd91079b731f4b9b09c4543af85b3708e5fc58ee4cd36d46c0ad58b90d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f1.npz",
+      "sha256": "9d5e1d7be195c01d5f5a41208538cc72d1b0b4717ffe9c2214357033d4fb6a96"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f1.json",
+      "sha256": "2fb2093ef321d3b2655a809fcb91bda1bec36a2dc735517afe51cb3fbe325793"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f2.npz",
+      "sha256": "82798cb33e6bd2622e265d2b33a7817c8910c70893c2fbcebd71d39f004d6943"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f2.json",
+      "sha256": "d10a994067d3b1da30a9ef073fcf9a73bcdfd46a51c5f45914beb9c5cf29629b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f3.npz",
+      "sha256": "4ca7c412e4ea941283222aec90aaf89a17e0e6381dbe04953230292a2c373339"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f3.json",
+      "sha256": "fd1ff10ce81bf3d738e5deaf97b41cc659eddf07003c2e4dfcb3b0f6596015cc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f4.npz",
+      "sha256": "a8a7294396664548d4711cc21e9cad9747fef68e84bc3e86ededa589351c7acc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r03__f4.json",
+      "sha256": "111a2330f27e05c41a5863dab1cda10052d1eb3b72783ce31abc9b9cd8786c4f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f0.npz",
+      "sha256": "9af448af7a4b7e6aab055d3d43ad80ec49006a101d53649a8a1cd5196337cb70"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f0.json",
+      "sha256": "a483c474e83728e000cef3ddaa547aba6c4d935bbdee0c9789c48700a08b6e57"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f1.npz",
+      "sha256": "3a21c8f67f43a4d170c572e0b28de94b6876946a7ed690f51c2dd7d814b78c6e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f1.json",
+      "sha256": "cd1978ea1c785c8523c717c7242fc7df18aed862e80703165ad919beae84d786"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f2.npz",
+      "sha256": "c78f8425faeb27ee2e3b862b6d31db6f26e38d64a1cc41f3e85806c0d76795c4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f2.json",
+      "sha256": "86c43bb4c76f7f3826634071ae72cf5b39f513677996a4f09f4b9233e6ddcfad"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f3.npz",
+      "sha256": "6ef8670b21dfae9cff1dda2bc0691d20a4b95654e32e04aee489bd560ce6bd17"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f3.json",
+      "sha256": "ed6b1ad9f241ab3ecce4ce953acd76392cef83247559c42fd1ade55cb0e52771"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f4.npz",
+      "sha256": "649f462cb635cfaa7e1350240c077b7d10336624f5f4ae55ad95cc3814007630"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r04__f4.json",
+      "sha256": "ca511e19182deff6473c8cdf86999217bc2d1e6a56c4b4f09cbe2840f4f01554"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f0.npz",
+      "sha256": "5a832832039e30ee7b7e9ee506107fab608ada0efe29b82fa6398415c70b4b91"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f0.json",
+      "sha256": "7dc06dc28a47ee8fe59127ca9eb7403388de9e7c654a42fb406c75313366909f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f1.npz",
+      "sha256": "850d72c8913e0db06fc6188551fb5fb3ba95043eb67acef5e24830ab172f80e9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f1.json",
+      "sha256": "2bde09ae87bbc653004badc19c4c486b9386d6b15f7099328a977d6cdb804fb7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f2.npz",
+      "sha256": "481e8c085656dda9f889c86739a44a32a8f64aa4043f00d8bfe7b3fe52c918aa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f2.json",
+      "sha256": "380aa39e27568f7feb0800cfa561d2f7abccf5cb68b40851f742d14486207ff5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f3.npz",
+      "sha256": "cb93c2b796acb7df7bf05c0a73207620596701a4f80bef06e5371cf33d0f6650"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f3.json",
+      "sha256": "b62b84acba3b5569438a15794c9f6ffe8b2a2f9dbd1cbf3ff8f094eb37f8ce85"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f4.npz",
+      "sha256": "e17d37dcd8b4ca9be2be5417d789107372ae811ac96e12439e136f887211aab7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r05__f4.json",
+      "sha256": "d2304a0df0e82b04e59aaa636f291afc915413c683d556118bea35c8fa671ff2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f0.npz",
+      "sha256": "2d7169617d39d3941c45eb4e44430bdd66eb2f748f4a2b196c7e1c99cc804c9a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f0.json",
+      "sha256": "384d3b061c75ea982ac1527db31e2f284cdd1af947647c594ae2092a151fcb70"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f1.npz",
+      "sha256": "91cfa9e034d9e7b6c06dc07e5ce0674ddb4f4d0a976cf5a3d93f3a75ad2a2290"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f1.json",
+      "sha256": "e30c2cbc6478d28910a94bfbfca67c58f1750b13106852f33d126df4116785b3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f2.npz",
+      "sha256": "c645331cf3e0056044b6703c50921bf84d4abb583fc518f808b9be7884c19af6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f2.json",
+      "sha256": "1a4f00a67c5f73fb6aee2ced80edd0535c1a8773fa691b76cfbf6e979fd3123f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f3.npz",
+      "sha256": "b4f38f5615e35122b3e60390ce7df80960c80bd2b58f1cceaf39bb1619879dfb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f3.json",
+      "sha256": "d33a5a3a2fab6be0876bdf39ef7aaf58e1b449cc70f859b26ea1a24387177916"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f4.npz",
+      "sha256": "f008b02a038ef9bb4502aa058d5b4952462cc1109b9f712e437b9ff650e34837"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r06__f4.json",
+      "sha256": "fc9d8efadf18d454acb8800f0f96c3e3c95af9db6fdbd836ea5a9f34a5dd298c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f0.npz",
+      "sha256": "f8b6610f19429cabd2fa3bcc0015e6b73ef41c92bbe04d65c127a09fca8f5677"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f0.json",
+      "sha256": "c9c613ff45eded2b919f35131bc810f6b11cb0ffe152a869f0c9a262bc85a8db"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f1.npz",
+      "sha256": "fcae47a332963519d88bbbbe8a4a55095c746d5bbdde8471e576d1feef33f2d4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f1.json",
+      "sha256": "0811a1fef18811e2a60183a197b470f2ee7ce5466cee4e21d836e61ae5a4e7cd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f2.npz",
+      "sha256": "c85dfcc13223d80032f311159a07cd9c5017d26ef420735fabefb3dc79d798ae"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f2.json",
+      "sha256": "6a6ad688fb9c99a71125600c99dd0974c5017b8d1f8e98149136b1eec54d16f6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f3.npz",
+      "sha256": "b783e31f7c600669705dd53a9d14b55c359a5fff66e67d26c6767f1fcd8dfd7b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f3.json",
+      "sha256": "747c896856977c48114d7ca50d7891c34b9238e4df83332c41e3bc89caa5af1d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f4.npz",
+      "sha256": "b1fbd41ca21faec55a3dad16d0f5f65bdb87bec67e31201388574e992852cace"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r07__f4.json",
+      "sha256": "f1897fea7898ebb4f0e56496b63ead848900e6c35c6c9da3ef7f4ed4fd1b193d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f0.npz",
+      "sha256": "829e0f97ab8d93a2e837055f9ef4a4201b09ba66b04ee43cdd620563237352d5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f0.json",
+      "sha256": "a7d3f26260e6d4d2c4c83b3d38e459da5567048037b3cdf1d6cb189fae484fe6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f1.npz",
+      "sha256": "91a3eb9c4b70443e14a34baa52890997817b8bb9dc4f8a6b1b114a79433a291d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f1.json",
+      "sha256": "85e24698a5e24bace0a5bd62ef3dab41e7f3e977ea51bd90f098fc591a2ccf08"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f2.npz",
+      "sha256": "14aa464f12d8af673ccb7b88d38809b2b70df670855522d95dc42b78d320b17d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f2.json",
+      "sha256": "aaf8655b6021e3358756166490f6972ce9178de922b914d40429e2f0b8871dc4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f3.npz",
+      "sha256": "caf65ebb5e414cc8013bbbe2635757769182b7bad47eccf2d82af1ca713a9daa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f3.json",
+      "sha256": "414b908f3fa34d44fe553030e8bc1992673720c529158d0958bdece253b6e365"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f4.npz",
+      "sha256": "33e597f869ef3720ecc5b26d88f3837461fdbf1de91e8db67191d93ff7c5acf8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r08__f4.json",
+      "sha256": "f7b615719e7818703e30396c6a789b7b82452ecd20406519d4c74493f8fb001c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f0.npz",
+      "sha256": "a91ab204040e2fe5b3bd1393fcdc05e20881078898dc57816e09876ec701de31"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f0.json",
+      "sha256": "508b56fd37371b92c796ddf878ad7e48546fa447da6b9601b54b9d640b12bb3c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f1.npz",
+      "sha256": "c351965392170772e8098c42cadb16e6ace976ac5c7a16fd768fc77afbd1aed8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f1.json",
+      "sha256": "e0cdc4093599170816624d9b20d6e579d1ef34b62e5c039dde83a0c06bbeb9c3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f2.npz",
+      "sha256": "65c79299ad2e8113ea9326001f2e9464c8dae8513267a41d9fb5a41bd79d8664"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f2.json",
+      "sha256": "e3247e5c2b87f06be336b774104bd2f093afa1a4f2336b4eb2de3553c29a9905"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f3.npz",
+      "sha256": "e1b1a96d83a7fcd57195adf785346abb0374db9e5434e20d1277510b7828c8a4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f3.json",
+      "sha256": "fa8eb66f74ac7bc906cfc4387ed6c0a77b691f685c1821a5852056084392262f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f4.npz",
+      "sha256": "b2e5e73653c3711e91935cc53162acbaef758eaa8bd768a712f74e09e43ed18b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r09__f4.json",
+      "sha256": "dba072ade88c7de65610032abafe13f0208d622da6ac81e44d0d0b20442f8b89"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f0.npz",
+      "sha256": "a29597022ff564b93b9511ed692ee09628030fc59200cecaaaa0f9cae04ed84a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f0.json",
+      "sha256": "90bdcba27d28ad1876ab942a225e28c887b662266f9ae21a597578e0fbd46e41"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f1.npz",
+      "sha256": "b3096a0ddf439062a0d42f39ec2c2b8a1b836a26212870a936fb2d11616d0dcd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f1.json",
+      "sha256": "b1c06450a2670adb223ae1a69d2da6e0521ab5c5e1304828fb7f011a80474ef1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f2.npz",
+      "sha256": "c6d69e1c67f7e7c3c1f5013fe2b5aff1eeb460c0eb0ce7dc14043d137397932c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f2.json",
+      "sha256": "3d04dba8a096599b3670696f811b85512a0f3e330a29187d9cffb8e7e85fbd7a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f3.npz",
+      "sha256": "9f424375f7675504c0b5741c6e69094c54163a40300cf61938a787def348fa86"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f3.json",
+      "sha256": "f7df3cd1afaf0cc956407f69771dd47326ee4d4b70fd4b07a8105579a649466b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f4.npz",
+      "sha256": "06a557114ef227df174cd55a77ed70064b120aec8992dbe0fdea0d0c75716710"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r10__f4.json",
+      "sha256": "e8178cbde58b199054201e5bca1f0b38cfab25fd65a5c237b8aa6f48fc09f161"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f0.npz",
+      "sha256": "a378965161ec7dcdebbccb1b20bee6ba29a4ff3cb80a15e7b4420d0b0d99a3f4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f0.json",
+      "sha256": "df58486b5b56e5d4fbafc5bec96293f31f85e7fbc2a10f054bad4b51e060498a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f1.npz",
+      "sha256": "8877114ad515523caede1c982dfb8272612cc0ac9091b6154c40706e149e593a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f1.json",
+      "sha256": "a0ffd7923b0c8c9425e1be5e0e5c1f8e472fc009943027635fea0ab5da6c6dc9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f2.npz",
+      "sha256": "5ea5dce40f8fd112d9bf0d174515822054825593bb10aa3901a2500872dee88c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f2.json",
+      "sha256": "deb6bd8cb559cbe5693958482ba46be00c1d11c0e450d92f717c4743e0cd3a23"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f3.npz",
+      "sha256": "13ac6c5568243b98c03255ec976e6090716df9c0a16771585f42c2df02584458"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f3.json",
+      "sha256": "823cf814d5f575a7f7e049a3b80e426403ae8b08eb1f38ecca601bfef676d428"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f4.npz",
+      "sha256": "9c7eb8e645769f2e8ec46131c8650be47a7a37523fbe40a39544187fc480fd63"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r11__f4.json",
+      "sha256": "b15d3ceb5b1af32f3e64e7f5a015e46f34a0b7547c029d7f93e5cdbecc00cfb5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f0.npz",
+      "sha256": "bed662535ebb13b3969c21e56de4f926348f4139fbe0239f05fcd875d59e3e7c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f0.json",
+      "sha256": "6d0f037fd930c62609b0a32777cba15068e31c3d75747a8a695581960aa0a4a8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f1.npz",
+      "sha256": "03749b7859fe8113a79bfe213f9df7844c1ae36fa7dc4554eee4b570178afb2e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f1.json",
+      "sha256": "115a7794cf9e37f837bdffbc4f5c87f3c382e51a17c1df766379cd5af805126c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f2.npz",
+      "sha256": "3cb1e910fb7a12f4240c586a36ea6d684b469cef013e581006fab5d0ed41c69f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f2.json",
+      "sha256": "dcf13f1b64d6761901afff65075a76d2820c13e5f736444373076e8302942f87"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f3.npz",
+      "sha256": "a272698c93749ca4bcb0bd985d77bdff3f0313ecd18e3da3091a16a4fa89abe0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f3.json",
+      "sha256": "b352d27158206b09fb2d72a4f8cc9fdab1bc93d13099b4ce3edba719acd64ba7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f4.npz",
+      "sha256": "4271c266aeaf7fa5aa355b661a3d226c832d765d0107317e072f73e5c4468464"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r12__f4.json",
+      "sha256": "b814c0509cf8f4097214857d61cda813b4a2b5cd7019c3c3c9f6a07c4209b60b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f0.npz",
+      "sha256": "be57f52f30cba5df7f7ef3aa2f5d2c32ddaeff3f93bc3f79a4cd6e35c6eb2950"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f0.json",
+      "sha256": "bcdafe981d3e0c553562133c8d6f79131ca97c6fa1235a8ba3dca247e2267861"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f1.npz",
+      "sha256": "2c3d2cb1faf95a84762c5be36aa126f5963207ba1c0ffbdf8aeec02f2b5935ce"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f1.json",
+      "sha256": "e733e9afb9c59c35e790011ff38999cefeb0c2e433ab4a0faf3613a1ce62b944"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f2.npz",
+      "sha256": "4edeea9dca31a2143e8aacef327df07a4ecfa8939b4da82a75a778f2a54adc03"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f2.json",
+      "sha256": "96256353e97227db6059ecd9197f9bb524ee0da9328cd750528f4e34c218cc80"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f3.npz",
+      "sha256": "6c6206f3f7c4408de36cc952576acedaf4d8ebee6896f1eaf8e339bd74b18633"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f3.json",
+      "sha256": "ecb85520bc63a51b3fb401abb087c4146ef8d2f5bb1abacc12f462e8225248ad"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f4.npz",
+      "sha256": "02f49d93ac1e506f6f55288b0dc29cde1627b1984ef2a642af65a22478d25c77"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r13__f4.json",
+      "sha256": "21a5950f958d72c6964e058b5b9293c56a6612223d9ec7147be55cb9f27a614f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f0.npz",
+      "sha256": "7011bbc5cbbcf412ea32f89b984da6b6595c59795b79ef21314c7faf6e34945c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f0.json",
+      "sha256": "bc9a3ee5d89485a8c7f6a3796ec09dd48bfaebeb22beb8d54a6159f297af7a24"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f1.npz",
+      "sha256": "6d3aa05ba5de577c4c48da6d7d09545c59e12756b5d892249e82d58c45c921a6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f1.json",
+      "sha256": "5ec4c720385df7dffd339f2625a1bcf37b269cea4230e41e60f82c8d8281deda"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f2.npz",
+      "sha256": "a19c14c3ab5ba9eaf079e135365a0bde9d18addaaabd67774b189232bb8962c1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f2.json",
+      "sha256": "a86e78609bc7d70f9d567ae8b88402131bf6c4cf6450ab095f2af71944fd3cdc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f3.npz",
+      "sha256": "baa13db2d58c79cfbb83ce6efe1513af052e8be9967c1bbef4d10afda2e7c8b9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f3.json",
+      "sha256": "58023f0f8bb0b06ec4e39e811fef36385dad40e8b7fc316f319738926ae56f57"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f4.npz",
+      "sha256": "383d8cc4053ba0cf397dafefb36ec4de278580e4d6d55c1f5cdd4fe0e1d61e4c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r14__f4.json",
+      "sha256": "e1e7db260a388b9827c258754eb1d57ed24a547424ad99ed774ba31676305d74"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f0.npz",
+      "sha256": "6e7cf74f8a7417a5ff3f9554a7e8d9786fa7db294647fc83491b8e9ba9804b60"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f0.json",
+      "sha256": "5951e9447c4d2fc362b462d851c767cd20fbf9bb7c933366ca612560f0ca56dd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f1.npz",
+      "sha256": "8a0bfb3b1604f157aaa16bdf484313bf235d0b4ee5bea4546d6cae81c9142489"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f1.json",
+      "sha256": "dba3dcad7b0d4ac660e88c69c5a13b209de8caa9e6b05530f23b00dcd87c3cfd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f2.npz",
+      "sha256": "2eca79bfac5e24702ccad23fea06efca97631e393935fd1d9198f67cb4c19956"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f2.json",
+      "sha256": "c6f7de51863b3088e08b30b54021a8e79776f35088d143ed2daf851ea1cf4c47"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f3.npz",
+      "sha256": "370fb2682ec9132779982854aeae13b6d56b0f0c31100c27885ba54c5cc91bf7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f3.json",
+      "sha256": "4eddd8688419c22226c815869e05e0b6d7f6ebed55d1454b609d84bf79265808"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f4.npz",
+      "sha256": "cd8f5d9efba3398ee1a469fd929fbf63199c7f8d0efece4ce5eaecfe2d367166"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r15__f4.json",
+      "sha256": "3c8e46e8d329a0fb8f962ff17f1c42c1689d56f855efc43e070f3ea52c1ec775"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f0.npz",
+      "sha256": "17b66dd31d10f2148b56f60b2a92a443dd0f8bb4a050ac84e844ea337b959703"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f0.json",
+      "sha256": "2a5f7739f25a47b7ba2ef48b9f055fe62ede22614d7bb2ce879b348b65d95748"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f1.npz",
+      "sha256": "17d30a0fff3bc86361d28dcd81167963ef8b0de61f83830120a5f13a92901079"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f1.json",
+      "sha256": "26dc3c2c1c3f78853a717cde97af982779403df36316eccd18b05be27abbdff1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f2.npz",
+      "sha256": "c96a84318f1e08a2b7f82f00ae4e70524142e1ef109d1a64fcacf8cb82c500e8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f2.json",
+      "sha256": "872c38839aeb6a81b39254d18942c1834b0257fb97ed96a29b736e194004a7db"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f3.npz",
+      "sha256": "4ee5f85432a6a21f0d36f80384e6876eb8fe546e5efa366d391e8df168c1b3a2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f3.json",
+      "sha256": "b2bce5336e9623b388c7236bb56e0e2491fd86248fcd9c3d8653dc33ec9e697d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f4.npz",
+      "sha256": "d07be60cedff7a1a22d1fe6f5635ebc4133281a4ef61d755f3c9c748f6108632"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r16__f4.json",
+      "sha256": "80a8247f51ef5e97caa6f7831052b79f1bd5fb2e944864f31ae806b4418b0e28"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f0.npz",
+      "sha256": "46a5ef730fba41dcc07da0174471bf23295c1a0afe960f98e9b5f49cb8329629"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f0.json",
+      "sha256": "5d4b606b09f6a5ea38269ad95ca3edc8fe5f2f590ef6a82bf61b66c4690f666a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f1.npz",
+      "sha256": "63c14c3e24957752d48a8549fb7664c84f5e821e2aebb08f76c63a095f3c339f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f1.json",
+      "sha256": "0a21d49307b25371076e4ec1fdf1fe8df2c2a20e4fd63e98ec828f53e542f65f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f2.npz",
+      "sha256": "b92a778f3b788e850a781f5ae9eda5f18303065bbe9b3e20b959778e0f4d3843"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f2.json",
+      "sha256": "5c7245dc7ecb0b6449b72e4dcee3ead597fb0ff2a50fec3ff80b67331b865ea0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f3.npz",
+      "sha256": "6ccf80223c92e71e4f8d30286888709690a4369be5c5f087ad7b0c65c70b04b4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f3.json",
+      "sha256": "fb26b1c1aeca0426daff49a9d28701b9e004b8122e247b1748b13d74bcc8042d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f4.npz",
+      "sha256": "62c425ebbf845fe8ae0351ce3f337bebc152be3454340f7f42d96f044e4339df"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r17__f4.json",
+      "sha256": "c7e691f49e9c94df6984a89520a3bccc9e4e1662d1bb63ba52f92e278c6c72bf"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f0.npz",
+      "sha256": "afe1caf85998131047b2121527120dbd6e77d3d113bbdc6a0e531eb0719d4b8a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f0.json",
+      "sha256": "3b7c5621ecda29a4b0a619f53413015f0844b63a3fcf97051188f91bfaf4682d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f1.npz",
+      "sha256": "25390d8ff62ac7fa39fc452d621639b888a54ee2e30d5349d09dd62fe6ede751"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f1.json",
+      "sha256": "ca34b8fe26c477dec64314d93c4180af86d1cc40833614a568c741a1cb6e978c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f2.npz",
+      "sha256": "046d052055607ca576e7ec3f442480430d800fa139d55a74d469b7e089d43688"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f2.json",
+      "sha256": "4857228427b46041baaaea75d3436c551abf2db27c94ecb973beb5fb3b145cfa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f3.npz",
+      "sha256": "0fc5f56059ca76b4b1c1684e158ad79b6f221060febb5f7f6cb5bf1f6ef3d978"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f3.json",
+      "sha256": "b57567d41fd353f5281eb6c03ef63f679e644d41276e8719c7d9fd570e56ffc7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f4.npz",
+      "sha256": "dc2796025f190c261321780facff56f64fe4bffadecfcc87088acaadf4bab8cd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r18__f4.json",
+      "sha256": "83a7dfc72412e376d473cfffaa434f21a8cbf1fa72462b506c4748044c318786"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f0.npz",
+      "sha256": "89128e9af8272b8d24f81dc7eef4603ff0c7e724677f223fe7233f604419065c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f0.json",
+      "sha256": "8064891d430924bbee34cbd9003fc8ced60fa0639cf67d3e8f19c245bec308e5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f1.npz",
+      "sha256": "f53199ee329685fe74e92d3ff9df31ca3573c6d0d98ef03da027520de9b8c249"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f1.json",
+      "sha256": "085d40e4ab88897bb69c0cbda3b405e3c894dcef266dd80ca39bc553d81900eb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f2.npz",
+      "sha256": "ac9bc27e62ac480cec34423f6a16453c6a1dff20ab0de50d707584f507cad263"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f2.json",
+      "sha256": "d91e31579d0271777191ad71f8a78ce89c85092b5bec806006dcae99e6f26e56"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f3.npz",
+      "sha256": "edada0da53b565307c310e4486a0f3f87e4df34f6e3f33213f61aa8dfbc80632"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f3.json",
+      "sha256": "7c0ab374b9c914dc5d7fbcd7e3ffe7a06188b4c14505457eeb3dd9ecbd3286b7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f4.npz",
+      "sha256": "2f6c52626b2b281397b506b551efdf8f83e0178deadc6214761d883b8bac669b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r19__f4.json",
+      "sha256": "afec45dc45717fc1a8642e9b3861107e9869dd62a9bff7984ec6b400a4f18d23"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f0.npz",
+      "sha256": "e226e1439aaab64c7b4c0dda459414181fd483fc47d881429b80eac7fc6abb4d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f0.json",
+      "sha256": "41f7b4b40f62815f9eab17b008f87bbeaafc08fc14f071d5d8e2a88a27b04b11"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f1.npz",
+      "sha256": "d7949710534c501fe00809f0a94cae2470cd8600ed93e37c4c962d3e3f7ba059"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f1.json",
+      "sha256": "e4d824fd3a67f606fa0d4b0d8afdd55719019f3323690af11504d7af5c937afe"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f2.npz",
+      "sha256": "3a6113dabe1c7f70bcd7a829453f977f7dbb95133a2687ae49d82029d165a6e8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f2.json",
+      "sha256": "dbb42be585ffa425a87f9fb02117e0a0440c07e4315fca7350c0172593dee465"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f3.npz",
+      "sha256": "61f1b3434d666dfa5d31ccb019cdcfc92dad1507b601318448ec4c45c05d30a0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f3.json",
+      "sha256": "38ca56f3b039a151148e86007c0897bc284e07d33ed043bf339ab981e7c8a48c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f4.npz",
+      "sha256": "c9fe8eace3c44e202a160ba17eda506b37776b1659982cb87d89e9e1eff7a7a5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/inner__r20__f4.json",
+      "sha256": "3e23a91de9161ce55879b3beecbcdefabbf0c3c79eec935ae5c8c3dcefac29e4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r01.npz",
+      "sha256": "174dd861a158ee321de4a0878c3f7f1c8ed6812a6db448b58980bf5b51c7e562"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r01.json",
+      "sha256": "36506b9a6851631da462c8344e5f4262ebd461998b7313cbc9cebe9681ed4be3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r01.joblib",
+      "sha256": "f736b60f40f43851efdfd2e835b5b2f62663179096dc5bd1f4e8a136acaba0fa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r02.npz",
+      "sha256": "62bc01f4c682e4d238f52c7638fc7836823252dea1fab12e4cbc15a680eaf6a8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r02.json",
+      "sha256": "b9b52e977a87a11a9d812b8b4c2eda4c997615c85129dab91b7f67771a1c86aa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r02.joblib",
+      "sha256": "c20f764eb7a8d7d5bcaae8e33ef3027086c96da4d6c355a2e7a485a2155bbf0f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r03.npz",
+      "sha256": "76771c44b6290fca0901cf468f95f1770f9c9d12c34465c8445d202c6e898349"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r03.json",
+      "sha256": "dd5411002359506c97b4033767058bd02c0fd51adb59e8b04063a364bc9c5d87"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r03.joblib",
+      "sha256": "9bddef4d0b605a1bd88562c0b9e611289fd64be125ac18ed37b0a37636b20b27"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r04.npz",
+      "sha256": "c59f61a803c4c4d2fd7e6c224a6051d6e28444dee1c26f97cf0cebb8b9ed15ff"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r04.json",
+      "sha256": "788ee0836abff665d9e164f6e38c59d2e1094968c55d79324db3e0cc66e52511"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r04.joblib",
+      "sha256": "41335d98a4acf3a7863804584f3f3cffb02157c957942b69da2f53823ed9eec1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r05.npz",
+      "sha256": "d3af8f824bf079ff73b78ee880771729324b16078b4df179ecb3ba447c8654e2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r05.json",
+      "sha256": "600adb51cae76dd5a5215650f4d8c7f9a07a7999dd7cf51f7a18be39a425a94d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r05.joblib",
+      "sha256": "9bff71d649e36b5d298e25e944c66e036510a773a4bdbb1f5165c69504739a0d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r06.npz",
+      "sha256": "4c9df7fa21c1cb422cc01bbce4b4a5a08895fd758a87ad224ffc324e3e42b2af"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r06.json",
+      "sha256": "6087f2c86a89d962ccf467a3cdbe77ba05ac4dac3e45cd1b6b3340bd81e1b5e3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r06.joblib",
+      "sha256": "12f065832d8810343d9613347b2a91179ab6b23d6066ada59cb96e37631ba535"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r07.npz",
+      "sha256": "7e582110fae7c6af441615efce14c73c8bcc72ddc51a1e3205afd96d9bface1c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r07.json",
+      "sha256": "01acf4c859a1572b66008f9aab2d6ddccb0067c0667f46e15055106cc01523c9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r07.joblib",
+      "sha256": "e4ba884b45c1fa03689d8f6bed7dd2355ac6dab01155f6ec5a218963e951d110"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r08.npz",
+      "sha256": "6e086fbf910537775baf2b4223077117fc6d2f2e8c0da704b01f5ebc2301f30c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r08.json",
+      "sha256": "5e0c8ef7d065a38b4c1c99b0bf121039ba898020181ad68a99fea61a3df95ded"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r08.joblib",
+      "sha256": "d55ee8b632a61ed09f95c0a57c2c27e1f45bce7af02e5ee7fc88d6c958828bc4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r09.npz",
+      "sha256": "7456bcc9f2b3cd6c68db9cfa2d51ed1df6ea317a4a82cdb99b1e21375cc1afbc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r09.json",
+      "sha256": "411260f79bb9a3021c497d174871d6b5f9252539db66b0728888341d96e51416"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r09.joblib",
+      "sha256": "0b7e5bb5fab1f28aab7cb47edcd61a77a8eabb0114c1a553b158f09958f04b0c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r10.npz",
+      "sha256": "ede751bd983ab6186eb9110b9b01e4b7b3d431b67d850cab9390f2d0f3127ab3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r10.json",
+      "sha256": "76167c6f08d6952ca94f60dcfe57b1f870f4274f38c1e3841c0a98fec8de15fc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r10.joblib",
+      "sha256": "28c7a14e16dd44005327c827db79ff01eb44ab44cf8277f0aa9f40852ce90a59"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r11.npz",
+      "sha256": "7a070db5dd2c478eb8174d4c3db6d297f5ea4ae878324718cd3e4d7759a7767c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r11.json",
+      "sha256": "b36e8668137b92ba4622e788bb4a3bc92e62e39abcd4c191589aafa506cbb429"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r11.joblib",
+      "sha256": "f6c220188b5431016f26927c44e45dfa2f036267fbee8662f03b09a7ce53dd3c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r12.npz",
+      "sha256": "a9387bfeafb909c75e49c4bf84845d6c90dcbaae2f647543cb163a8cedee7a8a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r12.json",
+      "sha256": "b01a8662e5fa950dec2929e3182365e6b4ac094b362a7c915225b386019cf81c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r12.joblib",
+      "sha256": "f2870c7be39cb306ca10a2140002cbdbcf2b162633986d2fd342b6e8b9f09e66"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r13.npz",
+      "sha256": "dbd49b325ebc4dcce1cd8bc17e89a04e84c79cc041259c5c554edb4bbb228cca"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r13.json",
+      "sha256": "9b1bc4606eb91d56e7e57ca77a44be7dcf0acdcf3ae24a62f128bef4c1790fb0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r13.joblib",
+      "sha256": "c3fac7ceedf4fe9a3018dcb5f20c8f1236351506f9508007a005a22adccfdaeb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r14.npz",
+      "sha256": "742c34b0c2a92ca42f0ee38f067038b3835e1187a6717cadaec27de4fcb56dcd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r14.json",
+      "sha256": "8f8535ff4ee25d9d23f63fda660e6bba10bb050b5dfae8adc434126e39ef21d1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r14.joblib",
+      "sha256": "efb52fcea24e67a713bb66dcfb8f5b209fb209562068ac1d80081d2bd6b85524"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r15.npz",
+      "sha256": "0c27e6af93d1b6f85e257a43946ee7c87030567a5a19541b3f45e33a49dd28f2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r15.json",
+      "sha256": "1855de291b78431e2cd6566e87f19d6b3f564e8f28a39b5b7fce687644cb107c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r15.joblib",
+      "sha256": "edef4a9fab7856c8d15b45578fb4ec08fe49b278aa98db892bb91ae2a6bcc3cb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r16.npz",
+      "sha256": "3af9f8bd122ab8e78867cd0717dafd2d28b7054ad9038a1ddc864107ac466c38"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r16.json",
+      "sha256": "1bbe694d71521640897cced4cdcece8f89b60af90811aaf6188e8838833de9a0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r16.joblib",
+      "sha256": "69784cdf5cabd29d217b6cd82c6aee900c520d948053a17c890cd4f7f59c0c5c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r17.npz",
+      "sha256": "c665140e33b0b457d9cf6484a3376c8b8e9e07d224b0c945276352de294a351a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r17.json",
+      "sha256": "e103afd3d31303a379be1760f22b0773ce223e7c604ca4545454b7e4ad253eab"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r17.joblib",
+      "sha256": "11fbe0599384470e87518ce29384fc4f21dff3a6a3141ae4b59f37b177a5a18f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r18.npz",
+      "sha256": "4d383a35fc41f69fdefce261e470b5b2b3e02e568210c30e4e124e6ce71799bc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r18.json",
+      "sha256": "76f818ce7a2653f558f406afc376eb7e93a591c73585938848c0f3f36b9968c2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r18.joblib",
+      "sha256": "7fc2126d5ccc1875fd874f0fd1d507a8a6bb40513d3b4604f6face15fca588cd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r19.npz",
+      "sha256": "91903838eb1dd7f4b30982fce7a3002f7e7d3b824a89d93e1ce1b416876b621b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r19.json",
+      "sha256": "2a3d61c008b50dedf89a144b6c765cca5eeee8f78dff72df831d5cd6e3bab738"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r19.joblib",
+      "sha256": "6cae2b8c6257c6682710527c70c44748d8b8d07852a96c4d71759016cb45d7e8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r20.npz",
+      "sha256": "fad27f23e9896e214c297da426ca324e83c795a5e8f5b9f744f491b0468b47d5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r20.json",
+      "sha256": "58fd4b44e796904d3aec2a15fca4c46d83517a53622d52f0b5f2fa43a33c101d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/folds/enet_selected_nn__r20.joblib",
+      "sha256": "021164aa4832e7a5089552c200170e16565b9106dfef82be4dc5f26264cb4a91"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r01.npz",
+      "sha256": "19edb94f007b3d8635fe44c5ed6a41d4efbaee8f053a31553716fc116aa0bfa9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r01.json",
+      "sha256": "63e82cf3db2b2c0140bb129006336552438aad573dfb4368fa2a8ead7b22c55f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r01.joblib",
+      "sha256": "390d844a212e2e4c69609a6f12aaa08fa6405ed0df0b227eb4fd1fc4c5bf6551"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r02.npz",
+      "sha256": "f50c9d5d9688acaad2e80060ec1d15e3b2e2229d66ada0a51740ae9c9c688367"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r02.json",
+      "sha256": "de91683c1b76bd036bc1d25589cca4d50ed215d4d8ffebd9acc40d5fb0fa3480"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r02.joblib",
+      "sha256": "867decf8a5c4e019d6b94c9cd8e0951b8c8009c87c3fa2b6a7b83dd4b4c6b4eb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r03.npz",
+      "sha256": "74c44e17b522f890286e6f6be31b7cd9a74c1c47f74d433748725664cfe0e867"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r03.json",
+      "sha256": "2e2c575ce2146d1089d749bc51824ea89c02059018414f048d8919b97e770e8b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r03.joblib",
+      "sha256": "6710bdebccc88b897fd00396e3f530f0a509950d6962c5c94776e29cb64a254b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r04.npz",
+      "sha256": "867262a2c9ca642cc3caa781ffcb1dc4f94b7bdd581cf31da29db12db5571271"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r04.json",
+      "sha256": "c7eed3cf6218baa4f58089f32e245b8a5f198f7b2ff80aed5199c1d3787c5bb8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r04.joblib",
+      "sha256": "e2b8e0ef033d6b9932088d9db5c4ccda33ecd0b59c6c241da567d00b34759257"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r05.npz",
+      "sha256": "17c4ccab459871c35d15893208d32384d488408ddbc29a7fc302b201d39050fc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r05.json",
+      "sha256": "b31ad1340f9dccb09e1995d8a9956c32fec57f7133ab5dba53ccf5792a8cf96b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r05.joblib",
+      "sha256": "9e2ff140c73e738e504592ff09f8485992cc6aba541e53917efed598980d77c9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r06.npz",
+      "sha256": "96e112977261caf147569faeb3eadc61b4f349f1dce2e04b76db6d64a674a7d9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r06.json",
+      "sha256": "9fab584727a43bb3067d4f951e27fd5de9beaa6e118691e4d8af07b40f8c13db"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r06.joblib",
+      "sha256": "25998150e0db159dd62d2e006f43025b07d99a080e92bc6bebabb143df645614"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r07.npz",
+      "sha256": "1ae976654cb0d534481fd41d275911622aa52b228a90b0739fb7322d6667e6b9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r07.json",
+      "sha256": "ce8fedf6517ceb9926154e44f99afbaefad11aae8566d6ea71497645862dd7cf"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r07.joblib",
+      "sha256": "08ee9c2612052aa48fe13169a970252ea4e6652c9ee84eb96f9d12002a9a3179"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r08.npz",
+      "sha256": "8ad8dc273e22f4b37e48606055fc6f5e02479a61e61943b5ced17b9016d3fdd8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r08.json",
+      "sha256": "c6df0658e2327cc59351c82fdf18a8518ba281165348a28ee6eed6a0163b5d79"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r08.joblib",
+      "sha256": "53e7182a3f9e0910eb7091e99b53656d33a6524f0039cd06fd645fcb4ed921f8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r09.npz",
+      "sha256": "d79edfbcdc721f221c5be095b950646c7dba5c4ccb7732b07347239694c936d3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r09.json",
+      "sha256": "afb87a9cbede739ac852b0cf1c72bda2a1a6b740b2cfe35b1ecb8ed2b21f8b5b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r09.joblib",
+      "sha256": "877b055af10b1753de07ee303eea76aea1cc713190c625b94e3e2d41937eb65a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r10.npz",
+      "sha256": "da63ed6ca90856f747c35f67b43a94dc20caa4c0349df3784fda98e8cb3a91aa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r10.json",
+      "sha256": "d4f3f26ac917b9a88af32e3e24650a41cf3854593017809d50562f59f01105ea"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r10.joblib",
+      "sha256": "7ea8167fa880ce291158dd0e58d8b00803cb96e4a411b0e8c2c6a903215941df"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r11.npz",
+      "sha256": "510f4a95dad9dd306064e9d36c35209988c92059f3a1f49a57ab1234c7b56063"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r11.json",
+      "sha256": "e05d25ec409853a711f36c93133fc62361af2d909f86167b154d326e4bc16107"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r11.joblib",
+      "sha256": "a3e9e49d70aa20414fd2432d58177de01e689428a3e8557af5cb4e1beb0ef01f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r12.npz",
+      "sha256": "f1de284f29f0bac0e7910365dde0044d2df5392d7a274846a379d47c93e43f8f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r12.json",
+      "sha256": "924e774c8312d81e1b602f123677afa4bcc0fb9bb7068e333886c11816f6a3c9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r12.joblib",
+      "sha256": "bed225a21a9bd9fdd8b60edbf6aab7cff9614fdb770b7e38173185b1b5643ef3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r13.npz",
+      "sha256": "1c0aa07af327a1a6485ade44e89b12a730f7a207000bd27bcbd5732715f5b1d9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r13.json",
+      "sha256": "9a34c9232be658e20c69cd7cab911f6ec33f6eb9f4a833c80f43c1de17e82c42"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r13.joblib",
+      "sha256": "4906611854e7ad81f6cd12668f758b21d3e60765af391d14f250ffade8c98904"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r14.npz",
+      "sha256": "1bc4ee3a95b3a46960251d29a932f81d1bbfed56adab82d9a9a9ce34487bdb07"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r14.json",
+      "sha256": "1078c2191a9f1d6a1ed1fb19425263a8b5260f3fb45bd08f2cac7a10a7391af3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r14.joblib",
+      "sha256": "f8236134470718c3dcb54777ffce9d1f4a560b14f30f6e7603fa6d69734bd53b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r15.npz",
+      "sha256": "e8696099e5b0b8305242cccf05326836672d230ef47ce1795cb4dae4ce373a9e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r15.json",
+      "sha256": "876c3665d6616f9f02ff916e104b4ee942faef2278147039be9f5582840af468"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r15.joblib",
+      "sha256": "cb2b730fceb74a440c8abdbde0760c877ffa399ae201552b763f5746eb52b399"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r16.npz",
+      "sha256": "6d4079a9570f57380529535cbf4583941d2d8a0f06478e7b04132054fb14302e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r16.json",
+      "sha256": "d76c895db2d393a7b7cef506fdb2419bb499b3f19cc68bbc819ccfd942b21833"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r16.joblib",
+      "sha256": "1b1ae6a7cf2229b087e5737200ee2b644f84dd7ba105113f1959ccb717505e5f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r17.npz",
+      "sha256": "e15847a0bd747e272c6c4b3de152e935132a6d08a1c1f8f29f420f414c958e22"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r17.json",
+      "sha256": "1074bd6c2023f2eaeec00a1ad2a78fb79d377b0591e13b96f32d9967e11a22d7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r17.joblib",
+      "sha256": "53d9d8c9cec92eb9c25618b55e9bb67759e725862dc062fbe15380d69c54fa72"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r18.npz",
+      "sha256": "167517614cfcc65b97d2e005b0d748269d59a503e8e8e0606a8e2a9882a8a829"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r18.json",
+      "sha256": "dd797f0d6577672bff6e67413ca0e5bd707abefd0bdbf0ac9aaa2e84173d17a0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r18.joblib",
+      "sha256": "ffdbc2c27577878fded0f927f07006f6bb2b0503b0482a27e07e03d790e07253"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r19.npz",
+      "sha256": "824204892e2e1c2be2e606513cb0560ff9097685b2a6e2f494a5d15c3c400b52"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r19.json",
+      "sha256": "1fadd4f3f829369e2785388e1d534db445de5dc92eedd0fc36003fa312837b2a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r19.joblib",
+      "sha256": "f12061fea5fe9e751919de7bed0dfb0c705d6181e3e1f9f788589d29d6434a6c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r20.npz",
+      "sha256": "0b5f54be4d06283d3fc19fc488ec07ad1811bf3371a7e6db3229f31aab927b7c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r20.json",
+      "sha256": "1b4037b153855e4f6dba51aabc46b34e170dbffca9d1f0c2b8912237ff0f8157"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/folds/enet_selected_nn__r20.joblib",
+      "sha256": "a0f3c1505b87ce5643d6bae6cdebf7613e76d6d253a6f9feef2d99bc408e6c2b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r01.npz",
+      "sha256": "092bdd5bba8d8d9718492b2c03c1f0f655c68ccad184dfefc2d05703c28f3708"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r01.json",
+      "sha256": "8fab48621ba26d5a8ce3f59425dd59c59927ad5a5c7a701c4ff1615d6281b524"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r01.joblib",
+      "sha256": "bb792af189d4877e56c3ffc8004be0e4109b9b5db0c46eba2fe602479ba22692"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r02.npz",
+      "sha256": "cbb4c6f506fe2ca94ca48ee9b860f1429aa5526a989109c72e5c90f8edd6dbcb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r02.json",
+      "sha256": "44fe56ba40570c81e259e784f7574b8e82df0762a8fae9d2ace98d95dece6419"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r02.joblib",
+      "sha256": "4093f6f457e1f2c46419ac15db9938e3df03a1e0305fe07d20e0c24c9209879e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r03.npz",
+      "sha256": "8015c7603ace203652310215f39d5784864f72f9761dbc54e02e846ecd84b1ce"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r03.json",
+      "sha256": "2c19050d0894bccc033c8f291a3241e364905db47e257713cd9a0324a7c24bdd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r03.joblib",
+      "sha256": "2420c58a7d5514194db3f678a39377db88fb8402785f38f13b521200d683772b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r04.npz",
+      "sha256": "82dc3427423714c2e75a1dc992a081b8fb38e11d6a79d3949cdcc51293200f30"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r04.json",
+      "sha256": "a77f9d88ae16c55f9a784ac0eee1c7c8439f38e17f35cfb475e5af8495225b65"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r04.joblib",
+      "sha256": "f26f884e4c16739b4f7e055bd5edfca2e22b25f1b6951c5236ac70a17bc5838a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r05.npz",
+      "sha256": "74071de4cf816d69641974a4380d210aa59811c8ac258eae3aa8b7964c65e5b3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r05.json",
+      "sha256": "29071d95873d3345b978d54566e8b90ae53859d58ea28731fbe48aa429f4a454"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r05.joblib",
+      "sha256": "1afd0ef7dc24b655255a680702d592de22c9e5b1d66b17d79fb25f27be953676"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r06.npz",
+      "sha256": "5da7168749ca42721312599141b8756a25d2052b6640c0e6e7cf70c7334a8c24"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r06.json",
+      "sha256": "e3bf1ce2154c2803dae008f63c55f2cbda4eaa64396a4d68e08970b8fdea4b94"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r06.joblib",
+      "sha256": "9524731333bbf6540a5ca0edd435938bd2f8f9d504241dfad7d3550af3592d10"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r07.npz",
+      "sha256": "ce56969b252f7161c7760bee653c2a118177bad2406f71b77441dad9a8e6b7e6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r07.json",
+      "sha256": "6f05b7e4f6d54cad86cc330c6552fdedbad1c7378a641218071d93670861bba4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r07.joblib",
+      "sha256": "6e43cbb04f6996cb39a10dd84d00b68d5e59e378b9d17dfc3f2da0d9e54b1bed"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r08.npz",
+      "sha256": "917bd1b02ff058b255e5a21a25c7ca6f48bb0bbb1307c107aef0bcd2ca13af23"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r08.json",
+      "sha256": "c1e5c287d286bb1336a0fa9d4f622c36b403fda518b769f1e9b0e39931ae9d83"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r08.joblib",
+      "sha256": "babb2330ea6beb3a66db60181ab23e30ee5501822762a6d7a1ed4c62bf1d9028"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r09.npz",
+      "sha256": "187b6a6ce881d992ed38643970ff685c0436bc06099c3fe0a6fd5ff15ce57c44"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r09.json",
+      "sha256": "352e585679d313c96923fb2cdd9918eebb4339d3cc82c9785bcd7b752977f0ad"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r09.joblib",
+      "sha256": "b5f1bd17cb4a19fa5ad9395dda585603adb10138ebe4ea620892dce7d2af3862"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r10.npz",
+      "sha256": "794c7bc28369f4dc47c9de4c40ba738a86273b0ee6b9a21dcd13f40fd8871e7c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r10.json",
+      "sha256": "0a244ef19614cbe2ccc9da7a2a440edf1d236881b3784386c247d67c28aefcdc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r10.joblib",
+      "sha256": "437bce6e8b1d2928f4fcb288d45a2d3a1cc939dd53c93ff257525d9e491210f7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r11.npz",
+      "sha256": "b8e954d6a8b137f445caa984f1d019e2daa4b5777b05d9d4640b17c583da906e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r11.json",
+      "sha256": "62bff870a952fcbfb45a5d56c4445e78adefc7ad1e9a1114e2e64f97a9bcbd27"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r11.joblib",
+      "sha256": "c989761f9dccb5f8c1c8034b54d645705e526fbbb4df8f3357b1ad91370d8cf4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r12.npz",
+      "sha256": "47c31ff6a3258662632a6d7e99b6c8e014b5f96aa79d5568c38756e24749a000"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r12.json",
+      "sha256": "37093e2d0c6efba19ff84cc6b4d4c8f8e07e149be8088bf0ae17a6cc3e3f8f85"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r12.joblib",
+      "sha256": "b8f65432efb4e02ffbd834dc27fae4a1a36225dc46f1bfa6b5e966bfaa4b2ceb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r13.npz",
+      "sha256": "12b57b9cddd975add458b1f46ffc83b98e13fc6818293ee805fa22297b614604"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r13.json",
+      "sha256": "ade49d1db7e4a756e38e57fbb7a775f55d24c3e90e45dda610df20acf7aee012"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r13.joblib",
+      "sha256": "91a229fbfaafafa280b5e63bf8924006750e75af950e6cf6fe5c17ab440e6b28"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r14.npz",
+      "sha256": "15a251c0f819cb5eb0db51033688f425497a8be657c63f5dacb31362594693a5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r14.json",
+      "sha256": "05d4307ca8f16660406c4ff151f263173ac249126481dec7cd01fbcc14012dd5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r14.joblib",
+      "sha256": "105f475f33121eec50a8d51d887669fe42eff11b1e2e5af2fcdd48e324ec1f64"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r15.npz",
+      "sha256": "d0153edd89a3a84bb2844c39a9925cc4d1286532e409346bc0508fe0a86232bc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r15.json",
+      "sha256": "91bfed904fab21582f26fa1480c0778933ec45c97f13342dd6d8a0696aacecca"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r15.joblib",
+      "sha256": "bd1794bbe2d0200025d906bc520a03118d1a43e68fe79b0ac03614f8b3b3a2da"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r16.npz",
+      "sha256": "1da2312c74dea05af33d5b72306a61c9b6201f16e5a1ed562ec3476e77a1fcbb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r16.json",
+      "sha256": "4e91e07243c6776abbb67d1019fc8ef2ecf6d8245cd2a70eb59cb3156c4b0311"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r16.joblib",
+      "sha256": "82ec6e314280915defdf7d8a04388bdc3f4d4015d4de558da7655074de73d8ab"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r17.npz",
+      "sha256": "c2d7709ac046e67134cc02d43bd8608ab0754b746d2833d49fbf30430e04d012"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r17.json",
+      "sha256": "e71ede1c4d682452afae361df19499e91572215cfed722de7bb0a06abed465ce"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r17.joblib",
+      "sha256": "8d7e8a837521be70e89097736c521434138a0273ae9fd0a6cae8f7bfc993690f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r18.npz",
+      "sha256": "6c85b8f3779ef79b0ceaa15207d6d7d273642f430442ecfdf08685faaebbbe07"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r18.json",
+      "sha256": "b197a178db70556b7f6506dccd7fd20904c8f495697ef13eb61df7bc96cadb9e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r18.joblib",
+      "sha256": "ffb40633c565730351a447bbd456024d3c6dd31301af013ada15a4826c624eda"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r19.npz",
+      "sha256": "5d18e0584112c2ed94e1cd413514f490df059c2d82bd6f2e8737d184939247cc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r19.json",
+      "sha256": "83beb4c6669aa009b69243e9ccfb1090ec1828e42434a0477da0bd3774c4931b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r19.joblib",
+      "sha256": "1873c9aea01c38fe75c5e72136fa14c92749922e3c3dc730d88a89460ec71a3b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r20.npz",
+      "sha256": "ef51a7a5a9faa32ceffe1cb15db45fda819837a28235743fa3e14dec79d2b620"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r20.json",
+      "sha256": "d98a74a549a4dd25700e3c124f49b5a748fd2ef8a92ba058e20f873212dc0f58"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/folds/forced_nn__r20.joblib",
+      "sha256": "fee1d7b3cc6c2f85710628cfee81dccc377e2d3a788f05ef6d9c8e245631dddf"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r01.npz",
+      "sha256": "0e01caf8f310031960e34a414770e14f2a075969d52fbdb4b05cc9701a555440"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r01.json",
+      "sha256": "1561997e98984a7832311a055c6fb8fc9dca3ccff158ad89fff247bc27c96f3f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r01.joblib",
+      "sha256": "5fe5655b7a5b9c5a19999af39f01232dece551ba05d04aae3592d61f98bf72a3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r02.npz",
+      "sha256": "37ab302806608e73a57981a0f6500c9a6d03b41e9dc97372b03a6706e574d75f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r02.json",
+      "sha256": "a50af0a65275f6056265d2066eafc3c577802d24edd144b36008d296912afd25"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r02.joblib",
+      "sha256": "f24b40a7f09acca09702eb4674b476eb85aaff77d7f4ca28fb1d2b8738f3d744"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r03.npz",
+      "sha256": "97920ff150d290e5a0e28063cb300eddb72ba1cd14ffef9966fdf984f954b093"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r03.json",
+      "sha256": "98ba453b3b3371de155b21356336dc1700c016330423d4a1835af7ff4c30392b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r03.joblib",
+      "sha256": "a6dbf255912912541565b57e6a935aa8f59151a2727ee0e099e28d189982819c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r04.npz",
+      "sha256": "7d13cbd9f290999a81c9885157b461089272be6c73a34de675aa7588d0deb128"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r04.json",
+      "sha256": "1d6a53b033d8f4dd3fb0f717bc3f6a4dbe852943ea0cb92d68d7b2218154c8a6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r04.joblib",
+      "sha256": "68de7946ec5b80c88842de1d7addb59a7db1ec6f3ad7e1e8d0437e1ff976c2a9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r05.npz",
+      "sha256": "637136a5e2e051c59712336b2d1cdf117a019dd371f58acc3888fa9015fcf066"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r05.json",
+      "sha256": "46d02ea6c2921bdb721db549042df214dffcc9d9a4fa0e5b43cb1857211f9399"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r05.joblib",
+      "sha256": "1372bf523fb90ce0b8dfffc7297b496ce6efb9bbef4984875ff8546f519dd5d2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r06.npz",
+      "sha256": "d2158b5bab2ef9f32abdf4e10ef9e811eb44533c82e9c64fa07397dfed18ce27"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r06.json",
+      "sha256": "f366e0df957c2ba729bce2169f3a5ec4aa058245121896a4a575daec46559453"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r06.joblib",
+      "sha256": "8ba51d5b04b205d0385becb3db376c2403d8531058f4ecb6102b47eb1cd8fea6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r07.npz",
+      "sha256": "bd05dd9ad649e63950c433bbe6dd6f8b3402fb48333523b0c851cc1ae7c5c8ba"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r07.json",
+      "sha256": "267487a60e997ffd1f75c57e1fca71a40ae2e4f9f6ec24e47c621932f97a0d89"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r07.joblib",
+      "sha256": "5f7faa6a61a26031b0de03150cb2f14fac4b0eb7ebfdaa6f675ab64111e800aa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r08.npz",
+      "sha256": "38f9f2e105e56236dd348a451583295badc11d48913779c306112ef30eff1d7d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r08.json",
+      "sha256": "7ed9b447fc55ba6639df30d286fc6d14527fb2a3b1feddef0b5dfe833645e413"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r08.joblib",
+      "sha256": "e62e276380fb3e736b190c17f26f066cd39e76b41ffc9a520870aafac21133c6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r09.npz",
+      "sha256": "5b33fa4bf6a5dd2b1b8d00df865e0a08fcfa5cd18256cc23ba807df516bc3379"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r09.json",
+      "sha256": "24d3a49048a49c2d819e8ae2d91c454fffb2a28a6e95dba447eb00e03749ee34"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r09.joblib",
+      "sha256": "b3cf01b0a02a59c58036981833fe014334bc46f5c5aa6ff780ce7355e004e952"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r10.npz",
+      "sha256": "9394c1974e88b7c4727742e41c3d8073499525ce4e373061384f3cb9fbe17d33"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r10.json",
+      "sha256": "be5ca444b21882aa2462a25862a19b56ae049ec95e8b0e0df110dda62438e24e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r10.joblib",
+      "sha256": "f9651d703a66c49476c3ce62bcef800c02e8b9cad4291b2ae37450bbd3fcac99"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r11.npz",
+      "sha256": "3ad77f6b2e335c9e75fda5e703ad7eece62e931f4063cc28db18aff18ed09a87"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r11.json",
+      "sha256": "306601f7e9f033304f610a851070eeddfc734f2b67f8f6f79c126e23e09beeba"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r11.joblib",
+      "sha256": "64248bd1e27733b5ca501d49fff3fef5e027a879c308130ade527ba374da9d93"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r12.npz",
+      "sha256": "c21f177d1546f23a63dd283a922567bae0733b4d78f321ccd0c9a436cbd58a4d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r12.json",
+      "sha256": "071eda1899aa32da4a8a84a5f47a3fd9c2b52b93a56b51873fd9f96aa1c37e58"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r12.joblib",
+      "sha256": "c3ec3a9499b5dc81002b15a58cddf27aaccef8384cb29a3d6758662f79f388f9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r13.npz",
+      "sha256": "f6ee52528e7a476e810d9eb1aece0ce5f501d76ee1e943a84b9e86583cdbd38f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r13.json",
+      "sha256": "42124271391f51765eeecb1bfba797cc3ea9697620683074cf723a322fbd2a0d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r13.joblib",
+      "sha256": "fc6d3327e9eff31b27a8a731b4379be2de7b082e9b9a3506839df170c9975454"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r14.npz",
+      "sha256": "898720b95c6ebbf31bcdb260b5c6f9bceab14bb137538eba1ace9bd3b0cadf0f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r14.json",
+      "sha256": "8480fb75539c4d4607fa700089515bce3a0a32b8117d7dd226e0edbe5d5aa571"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r14.joblib",
+      "sha256": "7559827f1ad6d591e31e64e149c2b124f1406eb12097ba65d1964c36bdcb9be5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r15.npz",
+      "sha256": "bf4de93c87e65accc7b785ce9b8b90862a862a103b760f036bc82ec024d2cd5a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r15.json",
+      "sha256": "cf758fdb91f36f419b88deb68a7b897d63bb0a0e8748d891c20163580afc5e2d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r15.joblib",
+      "sha256": "7dd49c6f90c6e900714f0ee2d302e162c63ba42663b0e639a1d94255897c023a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r16.npz",
+      "sha256": "f79fd80e023e84878a0ff8b06187751b9986ad7483770bf89a64636bea5fdada"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r16.json",
+      "sha256": "bd67286bce5fcd47755dc175f1cbc6b492896600702799f899449380dfddcafc"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r16.joblib",
+      "sha256": "1b393ecf26b208c1e84f1c238944191d6753249743b4cc1232a074fab6f807fa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r17.npz",
+      "sha256": "ac9285ecee252935bd877e17f1c2e21a591f7b6ad43c0ceb49d19abe2030f4a6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r17.json",
+      "sha256": "37d378061ae1f3776ff62a36103a902a6b5d2f5e829ce339b76b62634da328e7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r17.joblib",
+      "sha256": "c0f37e5f1beccb8486b3a01481d7accd04582866f6a47eb3dade09ca0281ac9e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r18.npz",
+      "sha256": "5e298ea5fa9377e50e06608f98c2c16ea7114257c73a3c02aa47f481ddd5fc8a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r18.json",
+      "sha256": "b7849bccd3393f4998fa4ced91f2f8c9893c9c0db05fbb7a7bfbfdd6e329ef30"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r18.joblib",
+      "sha256": "300476781ef37098c2a0854af6d95de20fffd26af4c44ccb43e8c7c360e0d98e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r19.npz",
+      "sha256": "839f1abd7c4f4df25afebb4a4648221717b7d4defe4e3c969c271a5dbe816169"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r19.json",
+      "sha256": "39652c9b7095a5d72859eee99744534ff6c867479ae86b911a2fd5acf6f66144"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r19.joblib",
+      "sha256": "63733cd2e28d18852238585b80182cc50e80e1211bf04b675631f7675ee77379"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r20.npz",
+      "sha256": "15c3b10069c5826d640dac9a571ac663e7b1ded093438a91ca7a9099d56c7a78"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r20.json",
+      "sha256": "052bb5967fe5d611327a337f3f2739270b8a66029faa03110199ebb920c332fb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/folds/forced_nn__r20.joblib",
+      "sha256": "911a6cd35f7f7767ac1accd81348f4f6f8c01a96faa4c7f3e5030d10be38d732"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/CTRP/predictions.npz",
+      "sha256": "d6292ca110245c3201fe0455bab978ab33f9bab477832bed5595cc060399cfb1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/PRISM/predictions.npz",
+      "sha256": "6e982ba5a2decefda915118f80b3ad2c23349160f79e1945ec2fdc869658e678"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/CTRP/predictions.npz",
+      "sha256": "489699b242db92f26afbd00f61cdb8773e9bc3f11ea4618a9c2893f8ae38885c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_enet_nn/forced_additions/PRISM/predictions.npz",
+      "sha256": "70b0cb0c754da1ef3899a99f8eb9e99cd63136eafc0cd3bcc0ae7b0c0243c958"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/expression.npy",
+      "sha256": "47e295068fd9c8df2c315ace4987376c052dbde0011f14ada547fb7a8988ab78"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/expression_index.npz",
+      "sha256": "08ee8c0608009f5a38a2e2eab2d724d52b1a722fa8368cb5af0b40a76e361632"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/protocol.json",
+      "sha256": "db5867a5f1a6e59e7c84cd2042b20fa6a9117262921def5869b9c7674aed257d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/validation.json",
+      "sha256": "7f2ee2b24a0b1391393be2734c0469ca8df37774ffecd5a0e75ee39358b10313"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/inputs.npz",
+      "sha256": "612cd52308de179746de3191b83f06bd549e9ad2d87163b059f6339afbd720c9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/CTRP/predictions.npz",
+      "sha256": "f9273f649db297d13040f370a12f35bdb4a716a50d5f92f7f94d5bdc682c3a87"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/inputs.npz",
+      "sha256": "c9b271909299e4f9b98838106a78a60e97668bca13e2c8dd312b22f43579bfd7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/shared_splits.npz",
+      "sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+    },
+    {
+      "path": "outputs/erastin_genomewide_search/PRISM/predictions.npz",
+      "sha256": "5e217a8159ac487022333b6224646042c21dcb17e353f5e880b2a2961e6c60c5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/protocol.json",
+      "sha256": "561d97c1c1b104a7d7d881e660603d6a7f847b9e19144e8fcb4e22cc5a44f9a5"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/validation.json",
+      "sha256": "f7b461a866026503acef68f5def6347c11e96878fbc1e0249d11f271b8f97c39"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r01.npz",
+      "sha256": "e0ea8e9148c64fb37884050d271014a8f1c8e9260490703f4e9d8e2e145cd53e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r01.json",
+      "sha256": "1dce4f644d7347c761706e29ffaef018432a04658b897ac42f8c12c4808f8f48"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r02.npz",
+      "sha256": "160cba37046daac7a49be8e151b3adf85014c2023e24d8f8193334b801cb22fa"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r02.json",
+      "sha256": "19f7672e9adb43fd008654ec643ff9eb0afb27e6a32db359af6c3ab2d62fdcc2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r03.npz",
+      "sha256": "db294b169caff02edb315ca6425d1f781621e536e552fdc44472e5e5575d29b3"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r03.json",
+      "sha256": "713201564bf0d4ba8ebd8c580693fe4ac5a82a773846d4339f05cfe4c32d4dc7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r04.npz",
+      "sha256": "9e56fb00bf21e68b67f0b8e3c5c30dede5a819835f92e4bbdb394edbcc9482b6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r04.json",
+      "sha256": "ce55c42cbc620d477cff4d1f30c699152075d0fc14ddff27021f970dc2f25e1a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r05.npz",
+      "sha256": "eb3d4a181909a9face9eee09cd25372cd4c38c4599e7ff7c88bae625a7a2cfa1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r05.json",
+      "sha256": "40708f2216c02e07004ab0a296c3cfafc3f1bc8d1db552829b5bdfe4d23da8d0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r06.npz",
+      "sha256": "2edf51f0121f270ef7a2544c1d8caea1c9065a34309b13630e3c0e5047d46926"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r06.json",
+      "sha256": "6d31620bc057bcff2ad3c7f7eadff463242ca849ebe120b20e44819f08eba643"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r07.npz",
+      "sha256": "23e81564daf65763bb19a53d8f0da16aed69906c71304f0607aae365e100570c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r07.json",
+      "sha256": "73d0c2958fa837f95cc3f00965eafdfcd71a3856eab1cba20a603c7ed57daf7e"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r08.npz",
+      "sha256": "c9466196fa64f5f575f4bbe3ab5bb86435583b5b700a502a24286324d26d1009"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r08.json",
+      "sha256": "885f27d33daa68307cc1e80d8734c36ba4313bf489dc00544a6b3a30e7de568d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r09.npz",
+      "sha256": "fcececfcb3e2b312b1bfac78ff5c6018a73338dc42cb84c8298b97cf0c23be1c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r09.json",
+      "sha256": "453765b8835b249a75e80922e21b473070252d7eeb8613a50ba2cb4e6b0b75be"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r10.npz",
+      "sha256": "6693d284e1ceebe7318cfc0557339c6b1d855ae4c820aa858e8ba26881faeb50"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r10.json",
+      "sha256": "999a60f5789c001815310a8b175e2c16746b40902c422b1c19ccafd2d09607e8"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r11.npz",
+      "sha256": "71f98cc089c2b08c67e008db69fc26c8dfce539ae6139242d666cea477011a1c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r11.json",
+      "sha256": "2e1475f090edfadea2839174cc46b911a2c906ca43e1e76e4abfab96ab4ad0ee"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r12.npz",
+      "sha256": "43360a22484975ebba5e22eb7e3c72c45150fde171fd110545d196b09bd0c69c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r12.json",
+      "sha256": "b62f59805f131887f773466ced573ddc466a1e8c816e50b79c348fa34aeb7d80"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r13.npz",
+      "sha256": "b33529babc6460fe689fa060a64d140789e051696b88c50c71848274a5cc2b9f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r13.json",
+      "sha256": "e2814d18c61049dc05253f16d3a4d02a4a0c4645ec10c0137b9d2f2753097662"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r14.npz",
+      "sha256": "882288a191811ad1a9ebeeeaea9b07f6379caf4a93c70599f0d1a574823cbb19"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r14.json",
+      "sha256": "52bb1b4970b744778ea3454daf4a75b68d30dc826cba0cb7981c1b042bb8f5fd"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r15.npz",
+      "sha256": "9e987a6075f8792d74ea57cd7d6ae25b7acaca005539c631e22d8dfbc6eb5e3b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r15.json",
+      "sha256": "ca8ca6a12aaef6f993ea9cc09b98eec00e634b82a602ce53ad6aa73e7fe59a98"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r16.npz",
+      "sha256": "405659518f2898b989fb497f50cefc935daddc45b4122136612f58b6e047a81c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r16.json",
+      "sha256": "35a9c33174acc0fca7b87d85b8a710f2d94a8d53dab80963e7db6e9415708c66"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r17.npz",
+      "sha256": "66cfda85ea43d53d40abbc286a583e0420c9bafb9622b6302d808ac9c2049a48"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r17.json",
+      "sha256": "908b9285a68aa37fef0e1c22e9fc11e3b1d03c95635fa475d967bd4e82557670"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r18.npz",
+      "sha256": "b0743343e4f837548688846b62d99ae5018de6f4713b4a7262f20c037fd809f1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r18.json",
+      "sha256": "96591a04505660684857b87a4a3939a821d3c290fa2bc2d83e7004943eb38ca0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r19.npz",
+      "sha256": "115e180767e3426442bb05d05a9e85141834c3dd46348ce72948c4c4d6632809"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r19.json",
+      "sha256": "cd731ce8a1daaa34b102bf3b93b86824b5f42b3ad61b07bc6df19c9fa69a7e3d"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r20.npz",
+      "sha256": "98d11feff081c243309cfba7e25a242e76fd43e78d598af19bfc23a5fb18ae24"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/CTRP/folds/enet_selected_ridge__r20.json",
+      "sha256": "8d075dab7795919d402736bcebb92f1bd4ce244bdc5c589aff2e97b5ef2db955"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r01.npz",
+      "sha256": "ce3dd36dad034eb9e1423842aa64506004111fe04740cd0e13e99eac555c927b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r01.json",
+      "sha256": "bd8229abb6dc2f76cbf2ea4915f35e3bcfcff536a52640461f1ebca923cdccdb"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r02.npz",
+      "sha256": "a91cca2b46b8cbe84f69b9e839d0450d1c4cd8620a80f8e41f6b6a4ce33cc07c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r02.json",
+      "sha256": "5dd722b0c14f1f25489cc1a4df7ed5bc392b33f9f9bd3c0426ac444b95d67ff4"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r03.npz",
+      "sha256": "b03e87e81867e06826d26efb74593c25b5677b7cd2bad197fcff22549adbf3d0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r03.json",
+      "sha256": "b053dbc4c1028a1e5de8b6451de217432d372e7cf1c13d629dbfb4339a3e2860"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r04.npz",
+      "sha256": "610cc1117de42d549dcecdfbc45e9115c5f0aa09584c41ebdbfffe79419ada37"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r04.json",
+      "sha256": "591232cc51f9e7dd5b321bec16fa8a161f46b262f0b6f2d637ad70d1a6879cf7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r05.npz",
+      "sha256": "075a4735ba7cd7ebe34763d7edf46438cc5e13c0ad49b7996bc2e2c7d08c9ec7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r05.json",
+      "sha256": "d4d34ddd0aac29c2ebfaa03094f95c2d1604a9030fdfd36dcf29b2f1d31a7d31"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r06.npz",
+      "sha256": "f380867c1a8db0df74e4caed8d9648701b24ec7cf2fa69d3e0096bf0cb4fe648"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r06.json",
+      "sha256": "4876ca705df7e504622af9cbdbb6f49f245807e6e30e3957a3b13308d7291452"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r07.npz",
+      "sha256": "73233db14e25cf55911ffaaa10eed9aac2f45864d47d72f52628bec61c12ba58"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r07.json",
+      "sha256": "24ad3f55b51ce723778dda5e9487b234b2a84f2759079797074d18d635097b34"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r08.npz",
+      "sha256": "a6a6d5c038de776da4fd44a1fc3a82a27f76692243209dd20ddff0692674f6ef"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r08.json",
+      "sha256": "41f7b3cfebf672020711e246c979d42c33e898ea39351227016b1556e539f7b9"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r09.npz",
+      "sha256": "b7adfc498affd8371e7debbc3f3c5c697b5b680938e7c564669728ca108c75ab"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r09.json",
+      "sha256": "05142ac6fb18c3b9db47237abff37f4d704143ec6b9ddc3f650687352609ad6b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r10.npz",
+      "sha256": "5619338ef0d083cca1525bdddb590372fae1f9fc68712a5b09742d4c2eafc00a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r10.json",
+      "sha256": "eb8e76e872f628473106096bf15978000e13b678d2179e5e4a87e964fc98a4ae"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r11.npz",
+      "sha256": "1a076bcbb1d5b3451a7ec140c7f832dfdcf9ff237c924d924b3f8e1820741c7b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r11.json",
+      "sha256": "b985d399329c96a67f2c7ca57d4c2afdccef4346950d63921ab53315578144a6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r12.npz",
+      "sha256": "efdb31f52d5ddcc1b5bd503b7bd0c17986ca01289bd0cf9b75eafa8b612383b1"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r12.json",
+      "sha256": "55a0bf75ad2478840111b21b9183742cc48ad98c462bce5fb960bbf9501b04be"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r13.npz",
+      "sha256": "71f8b96f0a1db168d01686e2ac6bbb50e0989153b65ce70c0b0629426e8bfcd0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r13.json",
+      "sha256": "4e5cd033cc22074735ce5b8cf22f2bb3a666a05afd7b6fbce71eceb456d6159a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r14.npz",
+      "sha256": "dcee5a167532bc089ada3b761b31c190d175588a5d49d334e482a62c2dcbc14c"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r14.json",
+      "sha256": "4ef7487220deb08eb144da04a1aaebf509de6478b8f160fd5c6594b5ae691948"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r15.npz",
+      "sha256": "6c1212bd4059b500553c54038c13773eed477183987ed30e86ed1d5aa5b02b2f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r15.json",
+      "sha256": "fd37dcbf3f514988011718a878c87ea999c5f87b381c5bd783afd8c48444b7a6"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r16.npz",
+      "sha256": "868dc3c551ced4164726fe3e03f6ecdf9197b6b2bfeab050447ebbfab96a494f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r16.json",
+      "sha256": "4d9e7e06a3e12d3426166c495f7fbd0c2dc7b89224ca18dbf17cdd81924ffc8f"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r17.npz",
+      "sha256": "ff594896f6307c036d32181d4bb93c2a6bb33f8b906d41c7b214ce9ce2f007b7"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r17.json",
+      "sha256": "9508471362790aaff2406a0c6e4bc407f1ffeee237e434b8efd784ec0e05f24b"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r18.npz",
+      "sha256": "f1b0ce6e3791191b4812dd26ceb0b5c33bdba2a7998302b45a437fad3c4bfeba"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r18.json",
+      "sha256": "a79fa6e7d8d7a582b08e9e97de45ffd65807e5ccdaea426301dc990749e2411a"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r19.npz",
+      "sha256": "5a1ddbd4d099aa488cad15dfcb90a57b110d449b1c3915df6eb5fc32ecc66fe2"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r19.json",
+      "sha256": "926a202c2dadb74ea45a9d817c00f4716ad1fe6dc805701af8af33ab63160c95"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r20.npz",
+      "sha256": "d30783ca86196073b701ea5709f03917c69c50cf4c149adc437f15259ff010a0"
+    },
+    {
+      "path": "outputs/erastin_genomewide_elastic_net/PRISM/folds/enet_selected_ridge__r20.json",
+      "sha256": "9465a261868758c6e9ea5e960f1089aa9003bb0cec234e65789ea5615912d712"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/predictions.npz",
+      "sha256": "d1c72c296fe42229dbe1d9a38090ec48a214f8b51d5ddca22ea6c5a79b7c1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "97c05b000e0d249c5865937e7b5334165923f706157f8600f87cc9123db4cf8d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "e3f72f65915e4d798f789269cb768e7247e2c784bd70ed61382c2a756d340722"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "bdd4506582adfd6e27b5c3737991daab3e716db568255bcbf6e0cafa508f2b72"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "5559c6682a5d071c196a8d9926513329b95d93ca352a89797327dba2d4ade207"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "28d185c1174e304829482859d7de597cebc69a42fa2f514d02f2a1004fb14416"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "742af7e888e5a43188d6e3e3d7675073e489a6a4f846cee6e9eb3fc64a082e86"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "4736acc742bbb7833fdef7b2913fe9f09ab00aa063e5bcf5ea3c328d3df0e9c3"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "79f475f79de988cf262797b4311194f9ec5d838f87b20fcd8f7301b093be06bd"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "cafd58996c06a0c39269d9c0bf315af64f6ca9cfb00beee6a23bb8acf92ac2eb"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "35f9b56aca1b9eefe46cb3d2db61c8f97b89f88716d46e1127ffd287268af884"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "66dd8d0d942151c49bcd38b3a8f722a3065cb8c150fa4760a9b300b7973f4006"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "e26428d87ffe46c5a6ac3bee16e4e6b329bde325ab9cdb1287348a9bdc698a31"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "178227b85b2a830447e01152b6e6ff4986b2652f4944312777be359653bf7aa4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "6878c61b35f602abd5d3d503e20ecb5e64e5c64e691e580251c296a23dd53ff4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "29853b0aafb24b3a06a3e3822036ca02cff770ae8a85a853e530ed74571a827d"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "3f7dc0aabdc6fad15d3d6d0c07eb91cfec599296cc171f3be991c061650793d1"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "fbd46dddc5c9aaacbd9028ef408797a1e53d71f65783e5b7a29454c9d7c6636b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "00e5f34e1c0f43cd56a68419505a32db4aa39a7f3211ba2fc6340286eaefeaa7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "3913f6e970491102d9be415a9f811da7288c73e1996f838d9c517d6bea442056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "b5554135a9a57849789a9b69ad07896dc2c4de719b8d81f0a40c635986cc8d41"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "edf1911bd5879b9c796f402ef5792dea2d37d27260d0b6ee55ef0e162b0284b4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "b1bf62b48dc986c855244ab40d7c814b1c82413d92cb8013d6a09d38126ac071"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "5952068d0de048d4dc32906cbe0c00c119a574d580858b479520e7f5ff5f3599"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "66d99a4a5c3062dc761d6c8754f1fe4cac575e6ee5fa1914a016ddf4aaab453b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "d870c8b6f171a514fc9a744287aed03eb6fbc46ab9df1231838f79c8b97aa6ee"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "e5c52f516396f7b0426ad1003b4847dec9e242cf929e5eb12502e5f75692dc15"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "0fdb62f2fe065ebfbb442c3a9a9694a240f964a262f86e636a52632e1d214cb4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "392b13aa2f394acdc4ace0e4744674013e466cd155195fdfd263e0bb6de1069c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "ea1b3c8c2aef5aca151f6115321d6e4f167c65c564e11090a24f5c9e1b6e9387"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "a9c2b3a39ae0a2b5f79df3c582ea918aaa64b1cf6b39d687a40c5ed635f3d3e6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "628b9ce0d71bba2cc20a8f2a7b3299f4e90743f3ec76dc776b8d6473e7d0b6e4"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "8917a7481aa54247c653b91bbb71d5b0bdaa5bfb63b4ba2abc9ab678725e4512"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "ae7bc785e67514248b36dab8f77f4f5a5d1d47ae309eeb8729c06b20502b1b19"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "54a367cdfa31170bba96af20c82f69860668657bf38b01133c5ac2b59b308f5c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "0f6ac0120d5241eb6af24b67a6edf61413914f80e6ba1b49f18ee827a955c201"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "9dcedcc6a110758ae416736105ce6858874145696c09b8c097837a84809486a7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "eeb684e7c8eb4835b14026f34e4b63013a4dff835c7184305e9cf024cecb9a40"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "db808cc09b7fcc9d8bf56a2dc343fab96dad3ed378a5c4d162925fd8e7b979a5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "b00cadbb25a712395876545a923d5f35e19884401d1a96b1b26a517d607fb680"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "462385fb494cf52891bd6b60c40d2f7c0b04f7b09ad0d48a16d1a95a8f7fb7c7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "34af9d116011ba050895628f6a0e6dafe78cf6ff347b7047fcaa6fb17fe8d883"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "389327b41a64b3ad1ec12892a7377e54aaa98f712071431ee4845afcd1853903"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "e582ee835090e97c1206215e0af0236513bd4f946d18c7782e56762f23edabcc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "3f21be3910b91c09d2c14efba722d3d10f05057d7295fdfa92fd57cf9fa3315c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "ee4e33ed5aa1a688adf56f323fb11da6190f603ed461769e48ed4674b8648305"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "127fb40ba1b4f443300138c03c5bd76c0860980f43466518e3f49cb1083f977f"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "1146c791584bb8274fffcb6bc51af6b3bc9987a23fe12b71aba601bd4200bce5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "4271af71400faf9475f0b935f095aac2224fcd4ef7c691e3639f8b9e80349dd6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "13c3cec77aee6b44e4d02b681f0b4ba7e42280acf6f0cd533d1bfd7ffdf2fe2b"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "d086ddc8d31516e88f8cb95e44993218ddda378a640d7acf9aa7b8c98239b4dc"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "a9f6853892717ba6a4bde68939889fb83617deb72df8ac03f4e0c3c3cc6d354e"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "5245477002ff1282ba085138af88fbf10cb49f8792c85a3e7fdc5525336eb056"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "80ebd0435f3be6fa27ddd2bd3497ccb2b5e2e7563796b9a3f2d37bc4a2a102e5"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "d522e3b59269f113ff9fa466531329ae0d86e11cc885bcf7997b568698167fe7"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "33774f16c3299d30872546ee744ee5862d1f4dae3517ff8b359154a2cbda6bc6"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "f35e06e18be414643b042ccc65bb9aea96ce794d819c7cd6b060c814f3c8bc26"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "bc5dc3fbe19e85f1f639bb594a75156fc0f952ecb8e6301653e9ecd25a5d4428"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "e41a1dc11361668104b47ee48e907efb0e06e2dacdeea3e28776fd35809e7f0c"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "032127712278d1a47237d78012ad331b0b093b72ec5cec3ffe98323307db2d12"
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d9a4ce4c0d40bc211d384c1d6b9285a538bdddf6b8899bba373dcbb44adbb509"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/shared_splits.npz",
+      "sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/protocol.json",
+      "sha256": "b3f978e3d659b0fe223353bd946b26b2f3e1f0c064830aee735316afc91ff84b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/predictions.npz",
+      "sha256": "fc3ffc274b08a559baf8952a1047130da36068895facf244c325d86fc76bd45c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "c398e64bec4d0f684d2a0425b94a71d6973705f1e80240570747c068edc86fbb"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "a8087857f56d6467ab7298860ba2439d494be827e688944370917c83b527e60d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "701ba3a68acde22307c35641801406eb691c6fa7fbff147f1b81031f076ac8a6"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "60d5850c3e87223c7fb8ee81765a0b2dac61547e36d74c348cf39104d978de26"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "4e578d78468f90310dc831dad3d42edb63c80cbd2867d8d7fc15432be07f00df"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "1a89f047a5e45f4ff3021e9720705d69f3ece65a4bd4eea8a7ccaac3ad7c6b6d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "7514980e48b915611ef36d86a5613a2c6f7026f0a605b6aa1eb219cd8ab6bd63"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "9eb1b6ee04c580bfde31f9163616201c16ef03fdc12dffaefbda56dc0651648b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "a5c4c589ff1f278ec84d265dc7f10f9d3115a299e5ce530bb7a4236a93c1a70c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "c9449608a0173ed63fd7b415c653170148e1497f29d8cad20dba558e9fd35a32"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "e45a847ff43126da14e64c446a0218188e06c9988e0c10e6156765dc51a4f476"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "6e29bb0e0863e56228261ff520c8b96564cb6dc40d5f9244c045245a9771929f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "c6158eb82d9685e7d99adb1081456251e8e862b74dfcb20f5cde85d919c2e83f"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "c84ffba82f553732b8d427f0df8f4e79a37549eca1f4cf47b2a67c5128c76220"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "015397619fbce9c6d1bfd7832c2667d0598696acf52bd9578cee55f399eff262"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "a47c0a9217a1845e4bab903e0550b4252835bd727e8d11314689af967c2eea92"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "5fecd2c9ba87c3fd041dcf1cd1ef08f077dde3a62720aa2c396cb7534003a19e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "59b85d80722ae16a90b7c35fa5d25462317395aa5f963a8e59c56b5c1c19990d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "29461d165f0b4505391f7630fdd95ab2f059d7a470c96f1bb3a789a2cc338858"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "80900eb8e3db7b34274c19e641823ab9e5870edec45472bc7bff1fb4c60a3d9c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "dd349a6c4b91d625561bff9733a3e29e4b195ac57bd3c38d9ec00ad429b1fd28"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "48e44d12305e652561276435d31db8ea6de455c93292e3f59336d35c3e343a9b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "b34ffb319201dbd4a3d83a2c8579f56ec874a7441206e6196ab84660a5555bde"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "0442aaa24ce8fa5c3727e0fe85267d182c33b52dd651691d260d328c2fa11252"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "2571d1410467d5f75ed5c4dffc08dbe387b6c4f60fb1f5b7706c55e7eff6273c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "4bc00cb94b81ddd2f0b45cad69d0a4094453650c714414ed6b67f1dd977665b9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "ec598d44b5600bed532030ccba571edb4cf4497a5dca38c2cc9562fdbc96ef36"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "dca638b346a3ebbb50e740fd39c833db2d7759b3889505d2aef3b430d725819c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "2c3f3628da8c703db3190cb3424106e67312e04765bcf1e83b3d1d787996ad90"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "0ef4219b0ad9f4e8d014f00d8711707795f4d7173c49673372b883554de1bf82"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "d3524f4c39462007a337b7bb35bb0eaa8af7cc0275112215cd0cfa1604993d37"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "39478e78b1dfc2984ca61c0eca3ff82bf86e36cd556456136b09b7cbdccc5714"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "555882d1cf94103927467c1b268d1f4699278e2864b1658c87651351421166dd"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "2568e2347841c4f6701fc5c48e7ea18d3c6d9d13d6dada70d52bcdedc2ed9c03"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "54f9129bdc80267cd436f93e2f54e7e40711edd3281f3bcf5a1a87784f7eb3d7"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "200f52b35b8f1c716dd7d3caf052809021e4105b3e324faec729520f687c4b3b"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "7a16df429afbdfba68910259f8d4b992066c7cdf5f3432c1fb2c78a0cd2d732c"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "c85242d41b95d05373cc000580d3de75d81ba1bb99725134dda6c602d14a8e2d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "dbc690e53610ea5837d9406ffa09546ec0578feabeed90d8bb8d6c457d668503"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "dc0e6b0d8e680e84a8f4feded9ab3a85c1fcdfb7c439c319995c49c058c5d53d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "5efef626672e1d142e9dfc24017bfadce38b9359410eafe7376fe3b77175f0f3"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "1184ff2a439c03bec206341022bf98dbb5ec11d7dad7604c169f7ed56be2a04d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "c8fd83def2e9c93baef6f5d59c1fbb6d2e0363f40c3913ba29138113d6563a12"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "c4f4587dbb505ef65cf67a5a802805155654a4ba592bbf85a7b6d386603b3e5a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "88416c1b7a04606abe98406ae90f641f279eef23c25a82ef7c4d8ce7acfcc892"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "b018c6e33ff9e2686447d75ab96ab51f6edf479a91103bfab278e72ad54f50e3"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "061274519aadc62f9cc60ea68c29ec60605beeeb5849ad8053d190e4f77c0de9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "78074389833f659c0699e7cb269fe28d7fa0ddce831057dfad562f1d7f467bba"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "f0e6f9eb038c56fb891d103dd095ebfcf24a20406b20966c3039824adf3ddad9"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "00c29dab6f854f59cb77c4a1aa8b8f6e99475ff1ba7964b84b66d548fc18fc38"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "f6b97d418cae8eed3c059eeba1f9a1770e5e7146d9dff58e097b2ccce7aa3e46"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "b3e5eee622d13cba86e613c29da9dd2913837d08b5f298d76a839c4d5218374e"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "9ae0d7bc1d30994aa1fef778c31e1cbaa85ab3dd9313170b4a3f6f27ab4f5792"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "8c610ca64bcab441d829bde715f8fb196e23a9c5ff133ede51a41ed6d81bb926"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "34f8203f6dc3199a9cd8874c0cb92dd43f55f6d60267b14cc331e24d1c3e41e5"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "fd752e90562a2745ef16f5598e7115f4c0e2016fc1e37aa46231ab616519b71d"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "6675646897a827a22dacce692621706a54d32f2f7a08130ee98d5880360117b6"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "98cd7bf2c3cf49580a184cd6928e0fe1697fc7611efb73a248ab19dba220f08a"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "e67f2bf49621dc88861c6fa76a0f7cf714759d12b938ffe0199458b0c6e2b024"
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d0dfa10a081cb2308a48dfe92125ce080f1dfeed3f81c8a7774487c94410b304"
+    },
+    {
+      "path": "outputs/retained_64_gene_models/model_registry.json",
+      "sha256": "0c1c9781638e235e7f26d14a8707326d45109d412900d338604506fff39d37e5"
+    }
+  ]
+}

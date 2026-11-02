@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "model_comparison.png",
+      "sha256": "462cea3e82734a4ff419242cd2d255c286122d8a23fd31bf58adef7989b9ce8c"
+    },
+    {
+      "path": "gene_selection_stability.png",
+      "sha256": "a08bcbfa6dcee8743092002474a74c7a93e9cbb212274b6fd9060acf03e0bd3d"
+    },
+    {
+      "path": "model_comparison.svg",
+      "sha256": "c52198454966b699db9737cf39393da0602c37ae8bb182420018c2adf4766acf"
+    }
+  ],
+  "checks": [
+    "Inspected comparison figure: all six references, both assays, RMSE/Spearman intervals, axes and labels are legible without clipping.",
+    "Inspected gene figure after correction: empty PRISM panel explicitly states no additions selected; CTRP bars show one selection per gene out of 20.",
+    "Primary and forced-addition tables match saved paired estimates; primary PRISM predictions are identical to core64.",
+    "Final wording-only rerender preserves inspected PNG hashes.",
+    "Parent and diagnostic bootstrap arrays remain separate; diagnostic registration/source correction was archived before its fits.",
+    "Core64 registry matches Git HEAD; all 25,200 candidate-fold scores, 72,000 new inner networks and both 40-ensemble audits passed."
+  ]
+}

@@ -10,6 +10,10 @@ Decision recorded on **2026-11-02**: retain the **64-gene ferroptosis panel** wi
 gene expression only**. Culture covariates and the expanded Hallmark EMT/DNA
 repair panels are not part of the retained models.
 
+This decision is reaffirmed after the latest neural-network benchmarks:
+Elastic Net-selected additions, including stronger regularization, did not
+establish lower prediction error than the matched 64-gene control.
+
 The existing CTRP and PRISM models are retained separately. These are saved
 models from 20 shared, lineage-stratified holdouts for each response cohort;
 they are not new models fitted on the entire cohort. Their response endpoints
@@ -73,6 +77,8 @@ Useful study reports:
 - [TabPFN regression on the 64-gene panel](outputs/erastin_tabpfn_comparison/REVIEW.md)
 - [Genome-wide search for additions to the core64 panel](outputs/erastin_genomewide_search/REVIEW.md)
 - [Genome-wide Elastic Net selection beyond the core64 panel](outputs/erastin_genomewide_elastic_net/REVIEW.md)
+- [Elastic Net-selected additions with the neural network](outputs/erastin_genomewide_enet_nn/REVIEW.md)
+- [Stronger NN regularization for Elastic Net additions](outputs/erastin_enet_nn_stronger_regularization/REVIEW.md)
 
 ## Version-control scope
 

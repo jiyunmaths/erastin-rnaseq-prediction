@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "review_comparison.py": "a11d51f323b62d911fd7bbd8afbb9bee91725ae7e380bd470f241c33f8e5ce89",
+    "analysis_helpers.py": "a2e696c5baef5c79399808ec66ade60bb113f80ff0115e73ea73f13a04739159",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+  },
+  "report_only_revision": {
+    "previous_scripts": {
+      "review_comparison.py": "edd9f1845bf30058941cfdef06fcd577d8e1731c12ae0d422dfbf33b63ca8447",
+      "analysis_helpers.py": "a2e696c5baef5c79399808ec66ade60bb113f80ff0115e73ea73f13a04739159",
+      "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+      "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+    },
+    "changes": "Clarify empty PRISM selection plot, automatic single-fit sign agreement, primary retention finding, separately registered forced-addition diagnostic and finite regularization boundary. Re-rendered saved tables only; no model, selected settings, scores or intervals changed."
+  }
+}

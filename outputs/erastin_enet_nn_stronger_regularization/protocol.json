@@ -1,0 +1,3467 @@
+{
+  "status": "frozen_before_stronger_regularization_fits",
+  "created_utc": "2026-11-02T20:23:46Z",
+  "core_panel": 64,
+  "assays": [
+    "CTRP",
+    "PRISM"
+  ],
+  "universe": 19176,
+  "candidates_outside_core": 19112,
+  "new_penalties": [
+    300.0,
+    1000.0,
+    3000.0,
+    10000.0,
+    30000.0
+  ],
+  "neural_grids": {
+    "CTRP": [
+      {
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "width": 32,
+        "alpha": 30000.0
+      }
+    ],
+    "PRISM": [
+      {
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "width": 32,
+        "alpha": 30000.0
+      }
+    ]
+  },
+  "new_neural_settings": {
+    "CTRP": [
+      {
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "width": 32,
+        "alpha": 30000.0
+      }
+    ],
+    "PRISM": [
+      {
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "width": 32,
+        "alpha": 30000.0
+      }
+    ]
+  },
+  "grids": {
+    "CTRP": [
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 30000.0
+      }
+    ],
+    "PRISM": [
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": -1,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": -1,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 0,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 0,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 1,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 1,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 2,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 2,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 3,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 3,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 4,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 4,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 5,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 5,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 6,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 6,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 7,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 7,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 8,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 8,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 9,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 9,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 10,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 10,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 11,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 11,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 12,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 12,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 13,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 13,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 14,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 14,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 15,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 15,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 16,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 16,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 17,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 17,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 18,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 18,
+        "width": 32,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 1000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 300.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 19,
+        "width": 16,
+        "alpha": 30000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 300.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 3000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 10000.0
+      },
+      {
+        "selector": 19,
+        "width": 32,
+        "alpha": 30000.0
+      }
+    ]
+  },
+  "split_design": "Same 20 identity-group/lineage-stratified 80/20 outer holdouts and five saved inner folds per assay. Every evaluated lineage in both outer sets; Cervix exclusion and protected inner-training singleton unchanged.",
+  "selector": "Same 20 hash-verified, fold-local Elastic Net selections: adjusted for core64 + training lineage, constants/aliases filtered on training only. No whole-cohort or consensus list; all selected genes appended without a top-K cap.",
+  "reuse": "Reuse every old NN candidate prediction by exact (selector,width,alpha) mapping from the verified previous benchmark. Fit only unseen penalties/settings, including core-only control. Original initialization triplets and NN solver/scaling are unchanged.",
+  "neural_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "prediction": "average of three independently initialized networks in inner and outer fits",
+    "scaling": "StandardScaler for X and y fit only on the current training subset"
+  },
+  "objective": "On current-training-standardized X and y: 0.5*mean(squared error)+0.5*alpha*sum(weight matrices squared)/n_training; biases unpenalized. Unit sample weights.",
+  "selection": "Mean five-fold inner RMSE in original response units. Core-only control tunes the extended NN grid; optional arm jointly tunes core-only or 20 EN settings and the same extended NN grid; forced arm tunes only the 20 nonempty settings. First grid index breaks ties. Outer refits use only outer training.",
+  "arms": [
+    "core_extended",
+    "optional_extended",
+    "forced_extended"
+  ],
+  "primary_comparisons": [
+    [
+      "optional_extended",
+      "core_extended"
+    ],
+    [
+      "forced_extended",
+      "core_extended"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "core_extended",
+      "nn64"
+    ],
+    [
+      "optional_extended",
+      "nn64"
+    ],
+    [
+      "optional_extended",
+      "old_optional"
+    ],
+    [
+      "forced_extended",
+      "old_forced"
+    ],
+    [
+      "optional_extended",
+      "tab64"
+    ]
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026112501,
+    "unit": "Paired whole-lineage bootstrap retaining all models and overlapping repeats together; conditional on fits, no retraining or multiplicity adjustment."
+  },
+  "new_inner_ensembles": 37800,
+  "new_inner_networks": 113400,
+  "candidate_fold_scores": 63000,
+  "logical_outer_ensembles": 120,
+  "numerical_policy": "Same tanh/L-BFGS, max_iter=2000,max_fun=40000,tol=0.001 and three-network seed triplets; abort on ConvergenceWarning. Record SciPy deprecation warnings separately.",
+  "retention": "Core64 always included. RNA-only, unweighted, no culture/lineage prediction covariates. Retained model registry stays unchanged.",
+  "limitations": [
+    "Previously inspected cohorts: exploratory despite fold-local selection and tuning.",
+    "Finite extended grid; no post-result penalty expansion.",
+    "Performance concerns the selection/tuning procedure, not a consensus gene list or individual causal genes.",
+    "Original endpoint provenance and protein-coding RNA scope remain."
+  ],
+  "references": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html"
+  ],
+  "scripts": {
+    "common.py": "d586eb2574550adc67661c1ca1647f09cae817a360169d1db1b39f3dc4bbf18e",
+    "run_comparison.py": "1019f2cdfe0093dad10d6f0ee053674b1253c1e98af855f358e5632b90926a1f",
+    "validate_preflight.py": "c918fd8d9b0fcbfa776242a7a4c726b5441268d65b1848166cd3f7554247eeed",
+    "model_helpers.py": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+    "selection_helpers.py": "19c82f6695143997bedcfb6425b06532a4884cb9c3859b42197383376c1b75db",
+    "ridge_helpers.py": "b88d7e9ae2818159d080bdfd2e4a4cd332142918e08d8a8e771242da71cd8b2d",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  }
+}

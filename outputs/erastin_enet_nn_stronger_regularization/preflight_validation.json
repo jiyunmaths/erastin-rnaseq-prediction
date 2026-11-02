@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "protocol_sha256": "d30d570bb1b1f870de0bbedfcd26acd510b9982d5c478baab0771727bef60d4f",
+  "split_checks": 240,
+  "exact_reuse_grid_mapping": true,
+  "replayed_selectors": [
+    {
+      "assay": "CTRP",
+      "repeat": 1,
+      "fold": 0,
+      "identical_gene_sets": 20
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 1,
+      "fold": 0,
+      "identical_gene_sets": 20
+    }
+  ],
+  "original_candidate_prediction_max_error": 0.0,
+  "native_mlp_strong_penalty_prediction_max_error": 0.0,
+  "training_objectives_verified": true,
+  "training_only_scaling": true,
+  "computational_pilot": [
+    {
+      "assay": "CTRP",
+      "alpha": 300.0,
+      "genes": 875,
+      "seconds": 0.3719055579858832,
+      "max_iterations": 52
+    },
+    {
+      "assay": "CTRP",
+      "alpha": 3000.0,
+      "genes": 875,
+      "seconds": 0.0836788319866173,
+      "max_iterations": 14
+    },
+    {
+      "assay": "CTRP",
+      "alpha": 30000.0,
+      "genes": 875,
+      "seconds": 0.07864202099153772,
+      "max_iterations": 11
+    },
+    {
+      "assay": "PRISM",
+      "alpha": 300.0,
+      "genes": 504,
+      "seconds": 0.11900376400444657,
+      "max_iterations": 43
+    },
+    {
+      "assay": "PRISM",
+      "alpha": 3000.0,
+      "genes": 504,
+      "seconds": 0.029116770019754767,
+      "max_iterations": 10
+    },
+    {
+      "assay": "PRISM",
+      "alpha": 30000.0,
+      "genes": 504,
+      "seconds": 0.036135000991635025,
+      "max_iterations": 11
+    }
+  ],
+  "seconds": 10.31509448698489
+}

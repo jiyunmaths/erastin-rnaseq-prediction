@@ -1,0 +1,15 @@
+assay	first_model	reference_model	favorable_lineages	lineages
+CTRP	optional_extended	core_extended	11	23
+CTRP	forced_extended	core_extended	9	23
+CTRP	core_extended	nn64	0	23
+CTRP	optional_extended	nn64	11	23
+CTRP	optional_extended	old_optional	13	23
+CTRP	forced_extended	old_forced	22	23
+CTRP	optional_extended	tab64	9	23
+PRISM	optional_extended	core_extended	7	20
+PRISM	forced_extended	core_extended	9	20
+PRISM	core_extended	nn64	0	20
+PRISM	optional_extended	nn64	7	20
+PRISM	optional_extended	old_optional	7	20
+PRISM	forced_extended	old_forced	14	20
+PRISM	optional_extended	tab64	6	20

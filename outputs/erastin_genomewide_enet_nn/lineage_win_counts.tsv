@@ -1,0 +1,13 @@
+assay	first_model	reference_model	favorable_lineages	lineages
+CTRP	enet_selected_nn	nn64	5	23
+CTRP	enet_selected_nn	ridge64	7	23
+CTRP	enet_selected_nn	enet64	8	23
+CTRP	enet_selected_nn	tab64	8	23
+CTRP	enet_selected_nn	enet_selected_ridge	9	23
+CTRP	enet_selected_nn	ridge_genome	6	23
+PRISM	enet_selected_nn	nn64	0	20
+PRISM	enet_selected_nn	ridge64	14	20
+PRISM	enet_selected_nn	enet64	14	20
+PRISM	enet_selected_nn	tab64	8	20
+PRISM	enet_selected_nn	enet_selected_ridge	13	20
+PRISM	enet_selected_nn	ridge_genome	10	20

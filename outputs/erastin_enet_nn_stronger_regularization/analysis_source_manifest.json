@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "review_comparison.py": "437bf317ffb127fe386a808f9505a3b0c8839bfd80d9fcac3ae574b14ce26446",
+    "analysis_helpers.py": "a2e696c5baef5c79399808ec66ade60bb113f80ff0115e73ea73f13a04739159",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+  },
+  "report_only_revision": {
+    "previous_scripts": {
+      "review_comparison.py": "8126ec89e1c58be2c3ea915f3bf718810416a43521ad7f149d0f06b0a222191a",
+      "analysis_helpers.py": "a2e696c5baef5c79399808ec66ade60bb113f80ff0115e73ea73f13a04739159",
+      "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+      "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+    },
+    "changes": "Clarify matched-control conclusion, improvement over previous forced expansion, lineage uncertainty, gap-filling PRISM penalty and finite selector scope. Re-rendered saved tables only; no fits, selections, scores or intervals changed."
+  }
+}

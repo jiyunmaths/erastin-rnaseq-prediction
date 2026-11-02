@@ -1,0 +1,35 @@
+{
+  "status": "registered_before_inspection_of_new_nn_heldout_scores",
+  "created_utc": "2026-11-02T20:03:57Z",
+  "rationale": "Early training-fold choices favored zero additions. A separately registered diagnostic evaluates the best nonempty panel while preserving the original primary zero-fallback analysis.",
+  "information_available": "Parent protocol, preflight, original baseline results, completion counts and selected-gene counts from training-validation choices. New NN outer prediction errors have not been reviewed.",
+  "selection": "Use the same saved inner losses. Exclude only the core-only candidate family; argmin mean five-fold RMSE among the unchanged 20 EN settings and original NN grid. No new inner fits, no top-K cap, no new tuning parameters or test-based selection.",
+  "outer_fit": "Mandatory core64 plus all outer-training EN-selected genes at that setting. Same three-member NN, seeds, scaling and solver. Reuse parent outer fit if identical; otherwise refit on outer training only.",
+  "parent_protocol_sha256": "485707ed6bbd61664347280b30d46aa985e3b74d7a69a93cead8a9938e529c66",
+  "script_sha256": "c56500c4ff4240c2f6633ddf7f3fa494a9218ed467741352a97ec26b294b8e24",
+  "primary_comparisons": [
+    [
+      "enet_forced_nn",
+      "nn64"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "enet_forced_nn",
+      "enet_selected_nn"
+    ],
+    [
+      "enet_forced_nn",
+      "enet_selected_ridge"
+    ]
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026112401,
+    "unit": "Whole-lineage paired bootstrap preserving models and all overlapping repeats; conditional on fitted models, no retraining/multiplicity correction."
+  },
+  "scope": "Secondary exploratory diagnostic, not a replacement for the frozen primary procedure. Every original seed/cohort retained.",
+  "supersedes_initial_protocol_sha256": "bdb9e6ea07348b505c83cbc08c9176a400d2009eae6624ed7928abaf01ca576f",
+  "initial_source_sha256": "4eddff87f82524c8ba29b60638d96988ef46f95603b221877c5d43d143c4d9ec",
+  "bookkeeping_amendment": "Correct diagnostic bootstrap output location before any diagnostic fits or new held-out score inspection; original registration/source archived. Fitting, selection and comparisons unchanged."
+}
