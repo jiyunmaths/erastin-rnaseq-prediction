@@ -1,0 +1,139 @@
+{
+  "genes": 64,
+  "models": 120,
+  "assay_model_gene_rows": 384,
+  "stable_NN_genes": {
+    "CTRP": 41,
+    "PRISM": 45
+  },
+  "NN_same_sign_across_assays": 41,
+  "NN_stable_same_sign_across_assays": 21,
+  "literature_role_counts": {
+    "R": 35,
+    "S": 22,
+    "M": 6,
+    "U": 1
+  },
+  "NN_comparison_counts": [
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "context_dependent_literature",
+      "genes": 5
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_functional_evidence",
+      "genes": 5
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_isoform_caution",
+      "genes": 1
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_other_inducer",
+      "genes": 3
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_pathway_inference",
+      "genes": 1
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "same_direction_functional_evidence",
+      "genes": 13
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "same_direction_other_inducer",
+      "genes": 10
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "same_direction_pathway_inference",
+      "genes": 2
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "unresolved_literature",
+      "genes": 1
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "literature_assessment": "unstable_model_sign",
+      "genes": 23
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "context_dependent_literature",
+      "genes": 4
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_functional_evidence",
+      "genes": 10
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_isoform_caution",
+      "genes": 1
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_other_inducer",
+      "genes": 3
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "opposite_direction_pathway_inference",
+      "genes": 2
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "same_direction_functional_evidence",
+      "genes": 10
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "same_direction_other_inducer",
+      "genes": 11
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "same_direction_pathway_inference",
+      "genes": 3
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "unresolved_literature",
+      "genes": 1
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "literature_assessment": "unstable_model_sign",
+      "genes": 19
+    }
+  ]
+}

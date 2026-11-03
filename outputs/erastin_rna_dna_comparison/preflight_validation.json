@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "protocol_sha256": "5ea61cc92ff0e543e36f79d744a495aa590263e7aff5d7c8f3c925ccd722a043",
+  "checks": [
+    {
+      "dataset": "CTRP",
+      "preprocessing_exclusion_invariance": true,
+      "training_only_carrier_filter_verified": true,
+      "checks": [
+        {
+          "family": "ridge",
+          "max_native_path_error": 2.220446049250313e-16
+        },
+        {
+          "family": "ridge",
+          "max_native_path_error": 1.1102230246251565e-16
+        },
+        {
+          "family": "elastic_net",
+          "max_native_path_error": 2.220446049250313e-16
+        },
+        {
+          "family": "elastic_net",
+          "max_native_path_error": 6.11695138985624e-10
+        },
+        {
+          "family": "neural_network",
+          "max_native_path_error": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "PRISM",
+      "preprocessing_exclusion_invariance": true,
+      "training_only_carrier_filter_verified": true,
+      "checks": [
+        {
+          "family": "ridge",
+          "max_native_path_error": 2.220446049250313e-16
+        },
+        {
+          "family": "ridge",
+          "max_native_path_error": 0.0
+        },
+        {
+          "family": "elastic_net",
+          "max_native_path_error": 1.1102230246251565e-16
+        },
+        {
+          "family": "elastic_net",
+          "max_native_path_error": 2.0892287899698658e-11
+        },
+        {
+          "family": "neural_network",
+          "max_native_path_error": 0.0
+        },
+        {
+          "family": "ridge",
+          "baseline_inner_error": 0.0,
+          "baseline_outer_error": 0.0
+        },
+        {
+          "family": "elastic_net",
+          "baseline_inner_error": 0.0,
+          "baseline_outer_error": 0.0
+        },
+        {
+          "family": "neural_network",
+          "baseline_inner_error": 0.0,
+          "baseline_outer_error": 0.0
+        }
+      ]
+    }
+  ]
+}

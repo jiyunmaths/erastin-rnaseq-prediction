@@ -1,0 +1,9 @@
+{
+  "target": "Negative erastin AUC: positive sign predicts higher sensitivity; negative sign predicts higher resistance.",
+  "models": "All 120 exact retained outer models: 20 repeats x 3 families x 2 assays. No fitting or panel changes.",
+  "signed_measure": "Ridge coefficient, Elastic Net coefficient times training target SD, or mean ensemble derivative with respect to standardized expression. Units are original target units per current-training expression SD.",
+  "stability": "Descriptive >=18/20 nonzero fitted mean slopes in the same direction. NN additionally requires >=90% of held-out test appearances to have matching ensemble-gradient sign. Exact EN zeros stay unselected. Not a statistical significance threshold.",
+  "biological_comparison": "Functional activity expectations are not universal basal RNA coefficients. Separate functional evidence, pathway inference, other-inducer evidence, LAMP2A isoform evidence, mixed roles, unresolved CTSD citation conflict, and unstable/unselected model signs.",
+  "search": "Targeted current literature search anchored to supplied 2024 review and primary studies; not a systematic review. Functional rather than exclusively expression-prediction evidence. Analyst not blinded to previously reviewed model results.",
+  "sources_checked": "2026-11-02"
+}

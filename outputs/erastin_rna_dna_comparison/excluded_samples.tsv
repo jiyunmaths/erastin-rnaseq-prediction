@@ -1,0 +1,6 @@
+assay	ModelID	lineage	mutation_complete	cnv_finite_fraction	included	reason
+CTRP	ACH-000282	Lung	False	0.0	False	missing genotyped mutation information; copy-number coverage below fixed 80% threshold or no profile
+CTRP	ACH-000578	Lung	False	0.0	False	missing genotyped mutation information; copy-number coverage below fixed 80% threshold or no profile
+CTRP	ACH-000731	Lung	False	0.0	False	missing genotyped mutation information; copy-number coverage below fixed 80% threshold or no profile
+CTRP	ACH-000904	Lung	False	0.0	False	missing genotyped mutation information; copy-number coverage below fixed 80% threshold or no profile
+CTRP	ACH-000931	Skin	False	0.0	False	missing genotyped mutation information; copy-number coverage below fixed 80% threshold or no profile

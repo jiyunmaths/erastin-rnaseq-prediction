@@ -1,0 +1,5097 @@
+{
+  "passed": true,
+  "protocol_sha256": "5ea61cc92ff0e543e36f79d744a495aa590263e7aff5d7c8f3c925ccd722a043",
+  "repeat_comparisons": 40,
+  "outer_model_arms": 480,
+  "new_outer_models": 420,
+  "reused_PRISM_RNA_models": 60,
+  "identical_cells_and_splits_across_all_arms": true,
+  "original_masks_projected_exactly": true,
+  "all_inner_assignments_preserved": true,
+  "no_identity_group_leakage": true,
+  "every_evaluated_lineage_in_both_train_and_test": true,
+  "all_RNA64_genes_retained": true,
+  "all_inner_losses_and_selected_candidates_verified": true,
+  "all_current_training_preprocessors_verified": true,
+  "mutation_missing_never_wild_type": true,
+  "PRISM_original_RNA_predictions_reused_exactly": true,
+  "PRISM_RNA_metrics_match_registry": true,
+  "CTRP_RNA_controls_refit_on_matched_739": true,
+  "all_source_hashes_reverified_after_analysis": true,
+  "matched_CNV_entries_all_finite": true,
+  "bootstrap_checks": [
+    {
+      "assay": "CTRP",
+      "passed": true,
+      "expanded_scipy_draws": 5,
+      "metric_checks": 420,
+      "max_error": 2.220446049250313e-16,
+      "constant_predictions_keep_undefined_correlations": true
+    },
+    {
+      "assay": "PRISM",
+      "passed": true,
+      "expanded_scipy_draws": 5,
+      "metric_checks": 420,
+      "max_error": 1.6653345369377348e-16,
+      "constant_predictions_keep_undefined_correlations": true
+    }
+  ],
+  "checks": [
+    {
+      "assay": "CTRP",
+      "repeat": 1,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.767559099714015e-10,
+          "max_elastic_net_path_iterations": 110,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.847062486281305e-10,
+          "max_elastic_net_path_iterations": 111,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.289456425417195e-10,
+          "max_elastic_net_path_iterations": 684254,
+          "extended_elastic_net_paths": 3
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.936379487954171e-10,
+          "max_elastic_net_path_iterations": 700549,
+          "extended_elastic_net_paths": 6
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 2,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.893415524876265e-10,
+          "max_elastic_net_path_iterations": 109,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.9272313743024534e-10,
+          "max_elastic_net_path_iterations": 99,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.161319296618448e-10,
+          "max_elastic_net_path_iterations": 453980,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.758901246161573e-10,
+          "max_elastic_net_path_iterations": 460439,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 3,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.100810377036246e-10,
+          "max_elastic_net_path_iterations": 108,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.89932288931763e-10,
+          "max_elastic_net_path_iterations": 112,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.144092416973443e-10,
+          "max_elastic_net_path_iterations": 684959,
+          "extended_elastic_net_paths": 3
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.148252563527426e-10,
+          "max_elastic_net_path_iterations": 680544,
+          "extended_elastic_net_paths": 6
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 4,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.741513349483528e-10,
+          "max_elastic_net_path_iterations": 96,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.2490567748326713e-10,
+          "max_elastic_net_path_iterations": 97,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.8623945014526484e-10,
+          "max_elastic_net_path_iterations": 570995,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.8689357707150096e-10,
+          "max_elastic_net_path_iterations": 576907,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 5,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.225466938151401e-10,
+          "max_elastic_net_path_iterations": 93,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.005883298685564e-10,
+          "max_elastic_net_path_iterations": 98,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.529666420254429e-10,
+          "max_elastic_net_path_iterations": 182541,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.588160824828348e-09,
+          "max_elastic_net_path_iterations": 228703,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 6,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.9869949941366556e-10,
+          "max_elastic_net_path_iterations": 96,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.1042987727250933e-10,
+          "max_elastic_net_path_iterations": 96,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.323091933803973e-10,
+          "max_elastic_net_path_iterations": 726516,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.7034322342751474e-10,
+          "max_elastic_net_path_iterations": 735643,
+          "extended_elastic_net_paths": 8
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 7,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.3513958603892677e-10,
+          "max_elastic_net_path_iterations": 105,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.238849982823867e-10,
+          "max_elastic_net_path_iterations": 99,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 5.365804248678736e-10,
+          "max_elastic_net_path_iterations": 536154,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 5.471542592649144e-10,
+          "max_elastic_net_path_iterations": 541393,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 8,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.872721785914138e-10,
+          "max_elastic_net_path_iterations": 93,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.8873299256614964e-10,
+          "max_elastic_net_path_iterations": 94,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.5338761777969907e-10,
+          "max_elastic_net_path_iterations": 590740,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.265587505268952e-10,
+          "max_elastic_net_path_iterations": 599744,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 9,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.680730598781823e-10,
+          "max_elastic_net_path_iterations": 107,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.8952170265324493e-10,
+          "max_elastic_net_path_iterations": 109,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.152042864660253e-10,
+          "max_elastic_net_path_iterations": 682405,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.177653421530219e-10,
+          "max_elastic_net_path_iterations": 690268,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 10,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.2443570533179376e-10,
+          "max_elastic_net_path_iterations": 102,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.018425265933309e-10,
+          "max_elastic_net_path_iterations": 102,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 5.599480173154939e-10,
+          "max_elastic_net_path_iterations": 503913,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.518751664157977e-10,
+          "max_elastic_net_path_iterations": 509353,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 11,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.4729983385033856e-10,
+          "max_elastic_net_path_iterations": 99,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.916042647491083e-10,
+          "max_elastic_net_path_iterations": 101,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.1720277146189977e-10,
+          "max_elastic_net_path_iterations": 571434,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 6.716352896034966e-10,
+          "max_elastic_net_path_iterations": 604262,
+          "extended_elastic_net_paths": 8
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 12,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.293148243589978e-10,
+          "max_elastic_net_path_iterations": 96,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.3142538673490716e-10,
+          "max_elastic_net_path_iterations": 98,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.8617370649679405e-10,
+          "max_elastic_net_path_iterations": 236897,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.0649513881167409e-09,
+          "max_elastic_net_path_iterations": 237211,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 13,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.645612609877059e-10,
+          "max_elastic_net_path_iterations": 97,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.4032320064418817e-10,
+          "max_elastic_net_path_iterations": 95,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 8.060674704007454e-10,
+          "max_elastic_net_path_iterations": 111177,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 8.5325482625725e-10,
+          "max_elastic_net_path_iterations": 103070,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 14,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.363476190615001e-10,
+          "max_elastic_net_path_iterations": 104,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.289419825428476e-10,
+          "max_elastic_net_path_iterations": 104,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.7869390089040333e-10,
+          "max_elastic_net_path_iterations": 505054,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.3278113468209094e-10,
+          "max_elastic_net_path_iterations": 509189,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 15,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.328567930521679e-10,
+          "max_elastic_net_path_iterations": 99,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.953896229522136e-10,
+          "max_elastic_net_path_iterations": 108,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.26289818081138e-10,
+          "max_elastic_net_path_iterations": 507613,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.69011153888697e-10,
+          "max_elastic_net_path_iterations": 511612,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 16,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.789880319293726e-10,
+          "max_elastic_net_path_iterations": 103,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.6847876703008375e-10,
+          "max_elastic_net_path_iterations": 104,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.663000786838306e-10,
+          "max_elastic_net_path_iterations": 735322,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.134897586348566e-10,
+          "max_elastic_net_path_iterations": 742961,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 17,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.70830412852008e-10,
+          "max_elastic_net_path_iterations": 105,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.581102294384798e-10,
+          "max_elastic_net_path_iterations": 106,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.2266073588492726e-10,
+          "max_elastic_net_path_iterations": 416847,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.5673591022807065e-10,
+          "max_elastic_net_path_iterations": 210661,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 18,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.274643405086445e-10,
+          "max_elastic_net_path_iterations": 96,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.096252230302382e-10,
+          "max_elastic_net_path_iterations": 98,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.8474281573164237e-10,
+          "max_elastic_net_path_iterations": 560655,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.40759960152685e-10,
+          "max_elastic_net_path_iterations": 568586,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 19,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.348279583621384e-10,
+          "max_elastic_net_path_iterations": 101,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.1546512237478073e-10,
+          "max_elastic_net_path_iterations": 102,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.149398415061742e-10,
+          "max_elastic_net_path_iterations": 683719,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.665251570473705e-10,
+          "max_elastic_net_path_iterations": 688591,
+          "extended_elastic_net_paths": 8
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "CTRP",
+      "repeat": 20,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.859067397235516e-10,
+          "max_elastic_net_path_iterations": 100,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.0192298187552433e-10,
+          "max_elastic_net_path_iterations": 99,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 5.419316111008074e-10,
+          "max_elastic_net_path_iterations": 194050,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 5.539604492174716e-10,
+          "max_elastic_net_path_iterations": 191072,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 1,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.1719619379005914e-10,
+          "max_elastic_net_path_iterations": 103,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.0669527196665652e-09,
+          "max_elastic_net_path_iterations": 1762099,
+          "extended_elastic_net_paths": 3
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 8.914489654055519e-10,
+          "max_elastic_net_path_iterations": 1864561,
+          "extended_elastic_net_paths": 6
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 2,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.6672380973948315e-10,
+          "max_elastic_net_path_iterations": 99,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.2305406360153533e-09,
+          "max_elastic_net_path_iterations": 580574,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.1193607846631657e-09,
+          "max_elastic_net_path_iterations": 590030,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 3,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.610637656914495e-10,
+          "max_elastic_net_path_iterations": 111,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.1329088563065003e-09,
+          "max_elastic_net_path_iterations": 181283,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.1906995610571746e-09,
+          "max_elastic_net_path_iterations": 1565269,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 4,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.9190354260421056e-10,
+          "max_elastic_net_path_iterations": 100,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.839723493175533e-09,
+          "max_elastic_net_path_iterations": 388853,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.7656122872067564e-09,
+          "max_elastic_net_path_iterations": 383401,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 5,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.72459482526899e-10,
+          "max_elastic_net_path_iterations": 90,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.0223851527071904e-09,
+          "max_elastic_net_path_iterations": 1526830,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.1859208885907618e-09,
+          "max_elastic_net_path_iterations": 767447,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 6,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.13126218564569e-10,
+          "max_elastic_net_path_iterations": 97,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.566462936482417e-10,
+          "max_elastic_net_path_iterations": 443336,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.35364177801331e-10,
+          "max_elastic_net_path_iterations": 464860,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 7,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.721649420931894e-10,
+          "max_elastic_net_path_iterations": 91,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.0814910887408519e-09,
+          "max_elastic_net_path_iterations": 557158,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.205695345673401e-09,
+          "max_elastic_net_path_iterations": 815604,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 8,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.22337935423217e-10,
+          "max_elastic_net_path_iterations": 87,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.5712355885981791e-09,
+          "max_elastic_net_path_iterations": 780325,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.163175396191212e-09,
+          "max_elastic_net_path_iterations": 826818,
+          "extended_elastic_net_paths": 8
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 9,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.27010054018001e-10,
+          "max_elastic_net_path_iterations": 87,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 9.256301400673524e-10,
+          "max_elastic_net_path_iterations": 477154,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.0574162909092118e-09,
+          "max_elastic_net_path_iterations": 488650,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 10,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.4216338009457337e-10,
+          "max_elastic_net_path_iterations": 84,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.3059452252584176e-09,
+          "max_elastic_net_path_iterations": 447416,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.1993999180339235e-09,
+          "max_elastic_net_path_iterations": 465895,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 11,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.5586362567667507e-10,
+          "max_elastic_net_path_iterations": 90,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 8.032381820715853e-10,
+          "max_elastic_net_path_iterations": 526421,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 8.996542894456407e-10,
+          "max_elastic_net_path_iterations": 551029,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 12,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.5124815686224387e-10,
+          "max_elastic_net_path_iterations": 104,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 2.252698075888332e-09,
+          "max_elastic_net_path_iterations": 239292,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 2.867255768709419e-09,
+          "max_elastic_net_path_iterations": 252103,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 13,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.10227253208606e-10,
+          "max_elastic_net_path_iterations": 102,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 8.773754960403335e-10,
+          "max_elastic_net_path_iterations": 572646,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.1802298949413936e-09,
+          "max_elastic_net_path_iterations": 186568,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 14,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.157806047898726e-10,
+          "max_elastic_net_path_iterations": 95,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 9.33514697948039e-10,
+          "max_elastic_net_path_iterations": 453602,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 9.16103492605493e-10,
+          "max_elastic_net_path_iterations": 473685,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 15,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.3623850795652666e-10,
+          "max_elastic_net_path_iterations": 96,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.0966325240143272e-09,
+          "max_elastic_net_path_iterations": 771191,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.0820952862088693e-09,
+          "max_elastic_net_path_iterations": 815150,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 16,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 2.923823969394612e-10,
+          "max_elastic_net_path_iterations": 95,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.326382163701933e-10,
+          "max_elastic_net_path_iterations": 436158,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.674455668738576e-10,
+          "max_elastic_net_path_iterations": 464825,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 17,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.4445788542624154e-10,
+          "max_elastic_net_path_iterations": 103,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 9.61690000567743e-10,
+          "max_elastic_net_path_iterations": 570752,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 9.366544543557183e-10,
+          "max_elastic_net_path_iterations": 591223,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 18,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 2.845646088558973e-10,
+          "max_elastic_net_path_iterations": 85,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.021196267948592e-09,
+          "max_elastic_net_path_iterations": 761202,
+          "extended_elastic_net_paths": 4
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 1.086589991750465e-09,
+          "max_elastic_net_path_iterations": 787754,
+          "extended_elastic_net_paths": 8
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 19,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 2.220446049250313e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 3.330355730774004e-10,
+          "max_elastic_net_path_iterations": 85,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.821869687173031e-10,
+          "max_elastic_net_path_iterations": 565801,
+          "extended_elastic_net_paths": 1
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 8.065746518206306e-10,
+          "max_elastic_net_path_iterations": 639871,
+          "extended_elastic_net_paths": 2
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    },
+    {
+      "assay": "PRISM",
+      "repeat": 20,
+      "models": [
+        {
+          "model": "ridge__rna",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "ridge__rna_mutation_cnv",
+          "prediction_max_error": 1.1102230246251565e-16,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 4.1741695343266993e-10,
+          "max_elastic_net_path_iterations": 86,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 5.789412196324594e-10,
+          "max_elastic_net_path_iterations": 410720,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "elastic_net__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 7.1357738804725e-10,
+          "max_elastic_net_path_iterations": 423769,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": true,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        },
+        {
+          "model": "neural_network__rna_mutation_cnv",
+          "prediction_max_error": 0.0,
+          "training_scale_error": 0.0,
+          "inner_folds": 5,
+          "reused": false,
+          "max_elastic_net_path_kkt": 0.0,
+          "max_elastic_net_path_iterations": 0,
+          "extended_elastic_net_paths": 0
+        }
+      ]
+    }
+  ],
+  "analysis_script_sha256": "49e45836927943896562ba0d72c0f58a18d08e5967a2e63a3c464ae7d8407249",
+  "presentation_revision": {
+    "numerical_audit_script_sha256": "9fb023d2f228c3f864cd83b56c4c19a3cd3c09b942c112356498d3e10624ec5c",
+    "reason": "Fix forest axis labels and report the primary-metric recommendation, favorable CTRP secondary metrics and lineage heterogeneity; all numeric artifacts unchanged.",
+    "numeric_artifacts_unchanged": {
+      "summary.tsv": "dd4364834dc063d6fb83f89573960fdeb323d9a64e5c436c8401901e2d1c5729",
+      "paired_comparisons.tsv": "e917f6e6d44a0e0ec32c48a2c34fe350c6d7abca64ff20d714605af31892e620",
+      "lineage_effects.tsv": "72b90b8e7b6c56695df269a71a33a4e7a2a530cfa94f6a74babba7f283e7b961",
+      "selected_parameters.tsv": "245e78268da9021b528733ba3bd993a2aee3723276761c2d1a0274ddec4037cc",
+      "feature_inclusion_frequency.tsv": "36a671b60451cc8f6bff04c9fe3ed5d17b227c14c39a2d67322f4674f0cc163a",
+      "pooled_metrics.tsv": "d3756d44eaacadeeca53eac162599918fca1fe814dc7bb39e8b11f11c4e5dcf9",
+      "lineage_metrics.tsv": "cf8494c850b6b96463f0a3f2dea82f048a664f168534323c896e4b097d51b2d2",
+      "macro_metrics.tsv": "3c73b0cd3a32abce94e85affed26f12e593f84802427cbcb21676bb45b37eef4"
+    }
+  }
+}

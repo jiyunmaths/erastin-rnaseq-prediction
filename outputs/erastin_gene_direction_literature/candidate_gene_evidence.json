@@ -1,0 +1,942 @@
+{
+  "scope": "Targeted functional-direction audit, not a systematic or exhaustive literature review; cutoff 2026-11-02.",
+  "roles": {
+    "R": "Higher functional activity commonly protects/resistance",
+    "S": "Higher functional activity commonly sensitizes",
+    "M": "Documented context-dependent roles; no single assigned sign",
+    "U": "Direction unresolved or source conflict"
+  },
+  "comparison_limit": "Functional perturbation direction is a mechanistic expectation; not proof that baseline mRNA must have the same conditional coefficient.",
+  "genes": [
+    {
+      "gene": "SLC7A11",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_cystine",
+      "reference_ids": [
+        "xc"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4054777/"
+      ],
+      "note": "Cystine import supports GSH defense; target abundance is not target inhibition or dependency."
+    },
+    {
+      "gene": "GCLC",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "cystine",
+      "reference_ids": [
+        "gclc"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7839835/"
+      ],
+      "note": "GCLC protects during cystine starvation through GSH and noncanonical peptide metabolism."
+    },
+    {
+      "gene": "GCLM",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "pathway",
+      "inducer_scope": "pathway",
+      "reference_ids": [
+        "gclc",
+        "iron"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7839835/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/"
+      ],
+      "note": "GCL modifier subunit; protective pathway expectation, not a universal independent RNA-expression effect."
+    },
+    {
+      "gene": "GSS",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "pathway",
+      "inducer_scope": "pathway",
+      "reference_ids": [
+        "review",
+        "gclc"
+      ],
+      "reference_urls": [
+        "https://doi.org/10.1038/s41580-024-00703-5",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7839835/"
+      ],
+      "note": "GSH synthesis supports defense; cystine-starved cells can also use GSH-independent protective pathways."
+    },
+    {
+      "gene": "GSR",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_and_other",
+      "reference_ids": [
+        "gsr"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13531920/"
+      ],
+      "note": "GSH recycling protects and knockout sensitizes tested cells. The 2026 paper also analyzes CTRP expression-response data; that observational result is not independent of our public-data benchmark."
+    },
+    {
+      "gene": "GGT1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "cystine",
+      "reference_ids": [
+        "ggt1"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8897698/"
+      ],
+      "note": "Extracellular GSH salvage protects glioblastoma cells; depends on substrate availability and cell density."
+    },
+    {
+      "gene": "CNDP2",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "cystine",
+      "reference_ids": [
+        "cndp2"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34324979/"
+      ],
+      "note": "Cysteinylglycine hydrolysis supplies cysteine; protection requires extracellular GSH-derived substrates."
+    },
+    {
+      "gene": "CTSD",
+      "literature_role": "U",
+      "expected_sensitivity_sign": 0,
+      "evidence_level": "source_conflict",
+      "inducer_scope": "unresolved",
+      "reference_ids": [
+        "review",
+        "ctsb",
+        "ctsd2025"
+      ],
+      "reference_urls": [
+        "https://doi.org/10.1038/s41580-024-00703-5",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9762237/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11831497/"
+      ],
+      "note": "Review names cathepsin D, but reference 59 identifies cathepsin B/CTSB. Newer CTSD glycosylation/CRC work does not establish a pan-cancer erastin mRNA direction."
+    },
+    {
+      "gene": "CTNS",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "cystine",
+      "reference_ids": [
+        "ctsb",
+        "ctns"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9762237/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529971/"
+      ],
+      "note": "Lysosomal cystine export supports cysteine supply and adaptive ATF4; albumin and lysosomal context matter."
+    },
+    {
+      "gene": "GPX4",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_and_other",
+      "reference_ids": [
+        "gpx4"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4076414/"
+      ],
+      "note": "Lipid peroxide detoxification protects; mRNA does not measure selenoprotein abundance or enzymatic activity."
+    },
+    {
+      "gene": "LRP8",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "lrp8"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9469796/"
+      ],
+      "note": "Selenium uptake maintains GPX4 translation; strongest direct evidence involves GPX4-inhibitor sensitivity."
+    },
+    {
+      "gene": "AIFM2",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "fsp1"
+      ],
+      "reference_urls": [
+        "https://www.nature.com/articles/s41586-019-1707-0"
+      ],
+      "note": "FSP1-dependent antioxidant defense protects; localization and reductase activity matter."
+    },
+    {
+      "gene": "STARD7",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "stard7"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9928583/"
+      ],
+      "note": "Cytosolic STARD7 supplies plasma-membrane CoQ; total RNA does not resolve processing or localization."
+    },
+    {
+      "gene": "DHFR",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "bh4"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299533/"
+      ],
+      "note": "BH4 recycling protects against GPX4 inhibition. That study did not establish the same requirement under cystine depletion."
+    },
+    {
+      "gene": "TFRC",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "cystine_and_starvation",
+      "reference_ids": [
+        "glutam"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4506736/"
+      ],
+      "note": "Transferrin-mediated iron uptake supports death in tested starvation models; trafficking and iron loading matter."
+    },
+    {
+      "gene": "NCOA4",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin",
+      "reference_ids": [
+        "ncoa4"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33245979/"
+      ],
+      "note": "Ferritinophagy sensitizes to erastin in HeLa; the same study did not find equivalent RSL3 dependence."
+    },
+    {
+      "gene": "NFS1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "cystine",
+      "reference_ids": [
+        "nfs1"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5808442/"
+      ],
+      "note": "Iron-sulfur maintenance protects from ferroptosis; dependence varies with oxygen tension."
+    },
+    {
+      "gene": "ACSL4",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "acsl4"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5610546/"
+      ],
+      "note": "PUFA activation usually sensitizes; requirement depends on cell context and available lipids."
+    },
+    {
+      "gene": "LPCAT3",
+      "literature_role": "M",
+      "expected_sensitivity_sign": 0,
+      "evidence_level": "mixed",
+      "inducer_scope": "mixed",
+      "reference_ids": [
+        "review",
+        "kras"
+      ],
+      "reference_urls": [
+        "https://doi.org/10.1038/s41580-024-00703-5",
+        "https://www.nature.com/articles/s41467-022-31963-4"
+      ],
+      "note": "Usually sensitizes through PUFA remodeling; protective palmitate remodeling is reported in KRAS-mutant lung cancer."
+    },
+    {
+      "gene": "AGPAT3",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "ether"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8051864/"
+      ],
+      "note": "PUFA phospholipid synthesis promotes GPX4-inhibitor sensitivity in tested cancer models."
+    },
+    {
+      "gene": "MBOAT7",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "mboat7"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10591818/"
+      ],
+      "note": "MMD-dependent PUFA-PI remodeling promotes ferroptosis; overexpression alone need not be sufficient."
+    },
+    {
+      "gene": "ACSL3",
+      "literature_role": "M",
+      "expected_sensitivity_sign": 0,
+      "evidence_level": "mixed",
+      "inducer_scope": "mixed",
+      "reference_ids": [
+        "review",
+        "kras"
+      ],
+      "reference_urls": [
+        "https://doi.org/10.1038/s41580-024-00703-5",
+        "https://www.nature.com/articles/s41467-022-31963-4"
+      ],
+      "note": "Usually supports MUFA-mediated resistance, with a pro-ferroptotic exception in KRAS-mutant lung cancer."
+    },
+    {
+      "gene": "SCD",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "srebf"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7733797/"
+      ],
+      "note": "MUFA production supports resistance through lipid remodeling; substrate and signaling context matter."
+    },
+    {
+      "gene": "MBOAT1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "mboat12"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10330611/"
+      ],
+      "note": "MUFA remodeling protects, notably in estrogen-receptor-positive breast cancer."
+    },
+    {
+      "gene": "MBOAT2",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "mboat12"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10330611/"
+      ],
+      "note": "MUFA remodeling protects, notably in androgen-receptor-positive prostate cancer."
+    },
+    {
+      "gene": "PLA2G6",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "pla2g6"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152680/"
+      ],
+      "note": "Oxidized phospholipid hydrolysis removes pro-ferroptotic lipid signals."
+    },
+    {
+      "gene": "ABHD12",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "abhd12"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386317/"
+      ],
+      "note": "Inhibition potentiates ferroptosis by altering phosphatidylserine lipid remodeling."
+    },
+    {
+      "gene": "POR",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "por"
+      ],
+      "reference_urls": [
+        "https://doi.org/10.1016/j.molcel.2020.11.024"
+      ],
+      "note": "Electron-transfer-dependent lipid oxidation promotes ferroptosis; model RNA associations need not follow this function."
+    },
+    {
+      "gene": "CYB5R1",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "por"
+      ],
+      "reference_urls": [
+        "https://doi.org/10.1016/j.molcel.2020.11.024"
+      ],
+      "note": "Oxidoreductase activity supports lipid oxidation; distinguish CYB5R1 from CYB5R3."
+    },
+    {
+      "gene": "NADK",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "nadk"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730079/"
+      ],
+      "note": "Recent HT1080 perturbation evidence supports NADPH-dependent protection; erastin was explicitly left for future testing."
+    },
+    {
+      "gene": "HDDC3",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin",
+      "reference_ids": [
+        "mesh1"
+      ],
+      "reference_urls": [
+        "https://www.nature.com/articles/s42255-020-0181-1"
+      ],
+      "note": "MESH1 overexpression sensitizes and depletion protects tested cells against erastin; multiple substrates and stress programs may contribute."
+    },
+    {
+      "gene": "NFE2L2",
+      "literature_role": "M",
+      "expected_sensitivity_sign": 0,
+      "evidence_level": "mixed",
+      "inducer_scope": "mixed",
+      "reference_ids": [
+        "nrf2",
+        "abcc1"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/26403645/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424331/"
+      ],
+      "note": "NRF2 usually protects, but can also induce sensitizing ABCC1-mediated GSH efflux."
+    },
+    {
+      "gene": "NFE2L1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "ngly1"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8931371/"
+      ],
+      "note": "NRF1 supports GPX4-dependent protection; requires post-translational maturation."
+    },
+    {
+      "gene": "NGLY1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "ngly1"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8931371/"
+      ],
+      "note": "Deglycosylation enables NFE2L1-mediated protection; RNA is not enzyme or processed NRF1 activity."
+    },
+    {
+      "gene": "SREBF1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "srebf"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7733797/"
+      ],
+      "note": "SREBP-driven lipogenesis commonly protects via SCD/MUFAs; transcription-factor activation is not basal RNA."
+    },
+    {
+      "gene": "ATF4",
+      "literature_role": "M",
+      "expected_sensitivity_sign": 0,
+      "evidence_level": "mixed",
+      "inducer_scope": "mixed",
+      "reference_ids": [
+        "ctns",
+        "atf4_protect",
+        "atf4_promote"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529971/",
+        "https://www.nature.com/articles/s41419-021-04018-7",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13135238/"
+      ],
+      "note": "Adaptive cysteine-stress programs can protect, whereas CHAC1-associated stress programs can promote ferroptosis."
+    },
+    {
+      "gene": "ATF3",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin",
+      "reference_ids": [
+        "atf3"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31273299/"
+      ],
+      "note": "Direct study shows SLC7A11 repression and erastin sensitization; stress-induced activation differs from basal RNA."
+    },
+    {
+      "gene": "HSPA8",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin",
+      "reference_ids": [
+        "cma"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6386716/"
+      ],
+      "note": "HSC70 participates in chaperone-mediated GPX4 degradation; broad chaperone functions complicate expression interpretation."
+    },
+    {
+      "gene": "LAMP2",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "isoform",
+      "inducer_scope": "erastin_isoform",
+      "reference_ids": [
+        "cma"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6386716/"
+      ],
+      "note": "Evidence concerns LAMP2A-mediated GPX4 degradation; gene-level LAMP2 RNA combines isoforms and other lysosomal functions."
+    },
+    {
+      "gene": "CKB",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "ckb"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/37156912/"
+      ],
+      "note": "GPX4 phosphorylation prevents chaperone-mediated degradation; kinase activation is not inferred from RNA alone."
+    },
+    {
+      "gene": "SLC3A2",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "pathway",
+      "inducer_scope": "pathway",
+      "reference_ids": [
+        "xc"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4054777/"
+      ],
+      "note": "System xc- heavy-chain partner supports cystine import; also serves other amino-acid transporters."
+    },
+    {
+      "gene": "CBS",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "pathway",
+      "inducer_scope": "erastin_cystine_pathway",
+      "reference_ids": [
+        "trans"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4716307/"
+      ],
+      "note": "Transsulfuration supplies cysteine; reported pathway protection does not establish a universal CBS-expression coefficient."
+    },
+    {
+      "gene": "CTH",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_cystine",
+      "reference_ids": [
+        "trans"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4716307/"
+      ],
+      "note": "Transsulfuration can bypass cystine-import blockade; methionine availability and pathway flux matter."
+    },
+    {
+      "gene": "GLS2",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "cystine_and_starvation",
+      "reference_ids": [
+        "glutam"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4506736/"
+      ],
+      "note": "Glutaminolysis promotes ferroptosis in tested starvation models; GLS2 and GLS1 are distinct genes."
+    },
+    {
+      "gene": "GOT1",
+      "literature_role": "M",
+      "expected_sensitivity_sign": 0,
+      "evidence_level": "mixed",
+      "inducer_scope": "mixed",
+      "reference_ids": [
+        "glutam",
+        "got1"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4506736/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8357841/"
+      ],
+      "note": "Can promote starvation-associated ferroptosis; in pancreatic cancer, GOT1 loss sensitizes cells to antioxidant-pathway inhibition."
+    },
+    {
+      "gene": "PRDX6",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "general_ferroptosis",
+      "reference_ids": [
+        "prdx6"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11327102/"
+      ],
+      "note": "Selenium delivery supports GPX4 synthesis and protection; not simply a lipid peroxide expression marker."
+    },
+    {
+      "gene": "SEPHS2",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "pathway",
+      "inducer_scope": "pathway",
+      "reference_ids": [
+        "prdx6"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11327102/"
+      ],
+      "note": "Selenoprotein synthesis machinery supports GPX4; gene-specific pan-cancer erastin-expression direction not established here."
+    },
+    {
+      "gene": "GCH1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_and_other",
+      "reference_ids": [
+        "bh4",
+        "bh4_crc"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299533/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8866854/"
+      ],
+      "note": "BH4 defense protects against GPX4 inhibition; erastin protection is demonstrated in selected colorectal cancer models."
+    },
+    {
+      "gene": "PTS",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "bh4"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299533/"
+      ],
+      "note": "BH4 synthesis supports GPX4-inhibitor resistance in tested cells; not a universal erastin dependency."
+    },
+    {
+      "gene": "SPR",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "bh4"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299533/"
+      ],
+      "note": "BH4 synthesis supports GPX4-inhibitor resistance in tested cells; inducer and salvage routes matter."
+    },
+    {
+      "gene": "IREB2",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin",
+      "reference_ids": [
+        "original"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367386/"
+      ],
+      "note": "IRP2 knockdown protected cells in the original erastin screen; iron-regulatory activity is central."
+    },
+    {
+      "gene": "FTH1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_and_other",
+      "reference_ids": [
+        "nrf2",
+        "iron"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/26403645/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/"
+      ],
+      "note": "Ferritin heavy chain limits labile iron; loading and ferritinophagy can differ from RNA abundance."
+    },
+    {
+      "gene": "SLC40A1",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "pathway",
+      "inducer_scope": "erastin_cystine_pathway",
+      "reference_ids": [
+        "iron"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/"
+      ],
+      "note": "Ferroportin-mediated iron export is protective; BACH1 pathway evidence is not a universal independent expression effect."
+    },
+    {
+      "gene": "PROM2",
+      "literature_role": "R",
+      "expected_sensitivity_sign": -1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_and_other",
+      "reference_ids": [
+        "prom2"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8316835/"
+      ],
+      "note": "Iron export through ferritin-containing vesicles protects tested epithelial/breast cells."
+    },
+    {
+      "gene": "FADS1",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "pufa",
+        "fads"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33288688/",
+        "https://pubmed.ncbi.nlm.nih.gov/38926633/"
+      ],
+      "note": "PUFA synthesis sensitizes tested gastric and breast cancer cells; extracellular lipids affect flux."
+    },
+    {
+      "gene": "ELOVL5",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "pufa"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33288688/"
+      ],
+      "note": "PUFA elongation supports sensitization in gastric cancer; not a universal erastin-expression biomarker."
+    },
+    {
+      "gene": "FADS2",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "fads"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38926633/"
+      ],
+      "note": "PUFA synthesis promotes ferroptosis in tested breast cancer models; substrate context matters."
+    },
+    {
+      "gene": "FAR1",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "ether",
+        "far1"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8051864/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8329287/"
+      ],
+      "note": "Ether-lipid substrate production promotes ferroptosis in tested cancer settings."
+    },
+    {
+      "gene": "GNPAT",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "ether",
+        "gnpat"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8051864/",
+        "https://pubmed.ncbi.nlm.nih.gov/38041059/"
+      ],
+      "note": "Ether-lipid synthesis supports ferroptosis; direct GNPAT perturbation evidence also involves cigarette-smoke extract."
+    },
+    {
+      "gene": "AGPS",
+      "literature_role": "M",
+      "expected_sensitivity_sign": 0,
+      "evidence_level": "mixed",
+      "inducer_scope": "mixed",
+      "reference_ids": [
+        "ether",
+        "ether_opposite"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8051864/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7483868/"
+      ],
+      "note": "Loss can protect some cancer cells, while AGPS inhibition sensitizes other human cells and ether lipids protect worms."
+    },
+    {
+      "gene": "TMEM164",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "other_inducer",
+      "reference_ids": [
+        "tmem"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36782012/"
+      ],
+      "note": "Pro-ferroptotic arachidonoyl ether phospholipids support GPX4-inhibitor sensitivity."
+    },
+    {
+      "gene": "BECN1",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin",
+      "reference_ids": [
+        "becn"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081251/"
+      ],
+      "note": "Phosphorylated BECN1 inhibits system xc-; basal RNA does not report phosphorylation or complex formation."
+    },
+    {
+      "gene": "BAP1",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin",
+      "reference_ids": [
+        "bap1"
+      ],
+      "reference_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/30202049/"
+      ],
+      "note": "Wild-type BAP1 represses SLC7A11 and promotes ferroptosis; mutation and catalytic function matter."
+    },
+    {
+      "gene": "ABCC1",
+      "literature_role": "S",
+      "expected_sensitivity_sign": 1,
+      "evidence_level": "functional",
+      "inducer_scope": "erastin_and_other",
+      "reference_ids": [
+        "abcc1"
+      ],
+      "reference_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424331/"
+      ],
+      "note": "MRP1 GSH export sensitizes to ferroptosis despite resistance to some other drugs."
+    }
+  ]
+}

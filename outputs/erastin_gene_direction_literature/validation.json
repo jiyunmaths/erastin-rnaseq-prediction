@@ -1,0 +1,740 @@
+{
+  "passed": true,
+  "genes": 64,
+  "models": 120,
+  "assay_model_gene_rows": 384,
+  "model_checks": [
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 1,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 2,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 3,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 4,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 5,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 6,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 7,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 8,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 9,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 10,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 11,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 12,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 13,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 14,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 15,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 16,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 17,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 18,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 19,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "neural_network",
+      "repeat": 20,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 1,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 2,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 3,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 4,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 5,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 6,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 7,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 8,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 9,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 10,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 11,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 12,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 13,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 14,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 15,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 16,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 17,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 18,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 19,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "ridge",
+      "repeat": 20,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 1,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 2,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 3,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 4,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 5,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 6,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 7,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 8,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 9,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 10,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 11,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 12,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 13,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 14,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 15,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 16,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 17,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 18,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 19,
+      "model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "model": "elastic_net",
+      "repeat": 20,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 1,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 2,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 3,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 4,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 5,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 6,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 7,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 8,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 9,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 10,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 11,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 12,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 13,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 14,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 15,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 16,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 17,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 18,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 19,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "neural_network",
+      "repeat": 20,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 1,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 2,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 3,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 4,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 5,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 6,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 7,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 8,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 9,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 10,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 11,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 12,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 13,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 14,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 15,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 16,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 17,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 18,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 19,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "ridge",
+      "repeat": 20,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 1,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 2,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 3,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 4,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 5,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 6,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 7,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 8,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 9,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 10,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 11,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 12,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 13,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 14,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 15,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 16,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 17,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 18,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 19,
+      "model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "model": "elastic_net",
+      "repeat": 20,
+      "model_verified": true
+    }
+  ],
+  "source_hashes_verified": true,
+  "registry_gene_order_exact": true,
+  "no_refitting": true,
+  "no_panel_change": true,
+  "exact_elastic_net_zero_and_sign_counts": true,
+  "max_saved_repeat_slope_error": 4.99409541498963e-14,
+  "max_lineage_gradient_error": 6.938893903907228e-18,
+  "sign_definition_verified": true,
+  "literature_gene_coverage": 64,
+  "literature_references": 51,
+  "CTSD_CTSB_source_discrepancy_flagged": true,
+  "NN_GPX4_PRISM_unstable": true
+}

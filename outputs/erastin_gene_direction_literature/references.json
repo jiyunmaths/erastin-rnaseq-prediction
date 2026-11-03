@@ -1,0 +1,410 @@
+{
+  "review": {
+    "id": "review",
+    "title": "Dixon and Olzmann, The cell biology of ferroptosis (2024)",
+    "url": "https://doi.org/10.1038/s41580-024-00703-5",
+    "source_type": "supplied_review",
+    "checked": "2026-11-02",
+    "retrieval": "supplied PDF and current live title/abstract/indexed article excerpts"
+  },
+  "xc": {
+    "id": "xc",
+    "title": "Pharmacological inhibition of cystine-glutamate exchange induces endoplasmic reticulum stress and ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4054777/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "gclc": {
+    "id": "gclc",
+    "title": "Non-canonical glutamate-cysteine ligase activity protects against ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7839835/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "cndp2": {
+    "id": "cndp2",
+    "title": "Carnosine dipeptidase II protects cells under cysteine insufficiency by hydrolyzing glutathione-related peptides",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34324979/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ggt1": {
+    "id": "ggt1",
+    "title": "Expression of gamma-glutamyltransferase 1 in glioblastoma cells confers resistance to cystine deprivation-induced ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8897698/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ctsb": {
+    "id": "ctsb",
+    "title": "Ferroptosis inhibition by lysosome-dependent catabolism of extracellular protein",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9762237/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ctns": {
+    "id": "ctns",
+    "title": "Lysosomal cystine governs ferroptosis sensitivity in cancer via cysteine stress response",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529971/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ctsd2025": {
+    "id": "ctsd2025",
+    "title": "N-glycosylation Modification of CTSD Affects Liver Metastases in Colorectal Cancer",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11831497/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "gpx4": {
+    "id": "gpx4",
+    "title": "Regulation of ferroptotic cancer cell death by GPX4",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4076414/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "lrp8": {
+    "id": "lrp8",
+    "title": "Ribosome stalling during selenoprotein translation exposes a ferroptosis vulnerability",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9469796/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "fsp1": {
+    "id": "fsp1",
+    "title": "FSP1 is a glutathione-independent ferroptosis suppressor",
+    "url": "https://www.nature.com/articles/s41586-019-1707-0",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "stard7": {
+    "id": "stard7",
+    "title": "Mitochondria regulate intracellular coenzyme Q transport and ferroptotic resistance via STARD7",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9928583/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "bh4": {
+    "id": "bh4",
+    "title": "Metabolic determinants of cancer cell sensitivity to canonical ferroptosis inducers",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8299533/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "bh4_crc": {
+    "id": "bh4_crc",
+    "title": "Blockade of GCH1/BH4 axis activates ferritinophagy to mitigate colorectal cancer resistance to erastin-induced ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8866854/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "glutam": {
+    "id": "glutam",
+    "title": "Glutaminolysis and transferrin regulate ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4506736/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "got1": {
+    "id": "got1",
+    "title": "GOT1 inhibition promotes pancreatic cancer cell death by ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8357841/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ncoa4": {
+    "id": "ncoa4",
+    "title": "NCOA4-mediated ferritinophagy promotes ferroptosis induced by erastin, but not by RSL3 in HeLa cells",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33245979/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "nfs1": {
+    "id": "nfs1",
+    "title": "NFS1 undergoes positive selection in lung tumours and protects cells from ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5808442/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "acsl4": {
+    "id": "acsl4",
+    "title": "ACSL4 dictates ferroptosis sensitivity by shaping cellular lipid composition",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5610546/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "mboat7": {
+    "id": "mboat7",
+    "title": "MMD collaborates with ACSL4 and MBOAT7 to promote polyunsaturated phosphatidylinositol remodeling and susceptibility to ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10591818/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ether": {
+    "id": "ether",
+    "title": "Plasticity of ether lipids promotes ferroptosis susceptibility and evasion",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8051864/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ether_opposite": {
+    "id": "ether_opposite",
+    "title": "Dietary lipids induce ferroptosis in Caenorhabditis elegans and human cancer cells",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7483868/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "kras": {
+    "id": "kras",
+    "title": "Targeting de novo lipogenesis and the Lands cycle induces ferroptosis in KRAS-mutant lung cancer",
+    "url": "https://www.nature.com/articles/s41467-022-31963-4",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "mboat12": {
+    "id": "mboat12",
+    "title": "Ferroptosis surveillance independent of GPX4 and differentially regulated by sex hormones",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10330611/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "srebf": {
+    "id": "srebf",
+    "title": "Oncogenic activation of PI3K-AKT-mTOR signaling suppresses ferroptosis via SREBP-mediated lipogenesis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7733797/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "pla2g6": {
+    "id": "pla2g6",
+    "title": "Phospholipase iPLA2beta averts ferroptosis by eliminating a redox lipid death signal",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8152680/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "abhd12": {
+    "id": "abhd12",
+    "title": "Blockade of the lysophosphatidylserine lipase ABHD12 potentiates ferroptosis in cancer cells",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7386317/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "por": {
+    "id": "por",
+    "title": "Membrane damage during ferroptosis is caused by oxidation of phospholipids catalyzed by the oxidoreductases POR and CYB5R1",
+    "url": "https://doi.org/10.1016/j.molcel.2020.11.024",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "nadk": {
+    "id": "nadk",
+    "title": "NADK governs ferroptosis susceptibility by orchestrating NADPH homeostasis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12730079/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "mesh1": {
+    "id": "mesh1",
+    "title": "MESH1 is a cytosolic NADPH phosphatase that regulates ferroptosis",
+    "url": "https://www.nature.com/articles/s42255-020-0181-1",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ngly1": {
+    "id": "ngly1",
+    "title": "Ferroptosis regulation by the NGLY1/NFE2L1 pathway",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8931371/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "nrf2": {
+    "id": "nrf2",
+    "title": "Activation of the p62-Keap1-NRF2 pathway protects against ferroptosis in hepatocellular carcinoma cells",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26403645/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "atf3": {
+    "id": "atf3",
+    "title": "ATF3 promotes erastin-induced ferroptosis by suppressing system Xc-",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31273299/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "atf4_protect": {
+    "id": "atf4_protect",
+    "title": "The regulation of ferroptosis by MESH1 through the activation of the integrative stress response",
+    "url": "https://www.nature.com/articles/s41419-021-04018-7",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "atf4_promote": {
+    "id": "atf4_promote",
+    "title": "EIF2alpha-ATF4-CHAC1 signalling links ER stress to ferroptosis in human aortic smooth muscle cells",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13135238/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "cma": {
+    "id": "cma",
+    "title": "Chaperone-mediated autophagy is involved in the execution of ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6386716/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "ckb": {
+    "id": "ckb",
+    "title": "Creatine kinase B suppresses ferroptosis by phosphorylating GPX4 through a moonlighting function",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37156912/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "trans": {
+    "id": "trans",
+    "title": "Loss of cysteinyl-tRNA synthetase induces the transsulfuration pathway and inhibits ferroptosis induced by cystine deprivation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4716307/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "prdx6": {
+    "id": "prdx6",
+    "title": "PRDX6 augments selenium utilization to limit iron toxicity and ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11327102/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "original": {
+    "id": "original",
+    "title": "Ferroptosis: an iron-dependent form of non-apoptotic cell death",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3367386/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "iron": {
+    "id": "iron",
+    "title": "Ferroptosis is controlled by coordinated transcriptional regulation of glutathione and labile iron metabolism by BACH1",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952604/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "prom2": {
+    "id": "prom2",
+    "title": "Prominin2 drives ferroptosis resistance by stimulating multivesicular body/exosome-mediated iron export",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8316835/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "pufa": {
+    "id": "pufa",
+    "title": "Polyunsaturated fatty acid biosynthesis pathway determines ferroptosis sensitivity in gastric cancer",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33288688/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "fads": {
+    "id": "fads",
+    "title": "FADS1/2 control lipid metabolism and ferroptosis susceptibility in triple-negative breast cancer",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38926633/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "far1": {
+    "id": "far1",
+    "title": "Peroxisome-driven ether-linked phospholipid biosynthesis is essential for ferroptosis",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8329287/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "gnpat": {
+    "id": "gnpat",
+    "title": "CSE triggers ferroptosis via SIRT4-mediated GNPAT deacetylation in the pathogenesis of COPD",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38041059/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "tmem": {
+    "id": "tmem",
+    "title": "TMEM164 is an acyltransferase that forms ferroptotic C20:4 ether phospholipids",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36782012/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "becn": {
+    "id": "becn",
+    "title": "AMPK-mediated BECN1 phosphorylation promotes ferroptosis by directly blocking system Xc- activity",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081251/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "bap1": {
+    "id": "bap1",
+    "title": "BAP1 links metabolic regulation of ferroptosis to tumour suppression",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30202049/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "abcc1": {
+    "id": "abcc1",
+    "title": "A genome-wide haploid genetic screen identifies regulators of glutathione abundance and ferroptosis sensitivity",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6424331/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  },
+  "gsr": {
+    "id": "gsr",
+    "title": "Glutathione reductase deficiency potentiates the immunogenicity of ferroptosis and cuproptosis via amplified ROS accumulation and cGAS-STING activation",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13531920/",
+    "source_type": "primary_study",
+    "checked": "2026-11-02",
+    "retrieval": "current live title/abstract or indexed article excerpts"
+  }
+}

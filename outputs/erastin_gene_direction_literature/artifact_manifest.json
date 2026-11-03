@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "88c9a9df76eb58771383240a69cce68adf6dfed7e252c0fbcb0336a9c276b8f7",
+      "bytes": 32371
+    },
+    {
+      "path": "agreement_counts.tsv",
+      "sha256": "5f5811a5c3828d4838f88b9079160d3942275bc03c90cf29e1a913141afa18df",
+      "bytes": 2807
+    },
+    {
+      "path": "all64_gene_signs_and_literature.csv",
+      "sha256": "8b63032e8dd08533b7d368af5f6948f26ebb62c79e567d289bd52f349cd56743",
+      "bytes": 62867
+    },
+    {
+      "path": "all64_signed_effects.png",
+      "sha256": "bcc2ee03c0d7d914ee64e6359b26a97b968a55ebcbabb1d92d4a63454e8565a9",
+      "bytes": 484176
+    },
+    {
+      "path": "all64_signed_effects.svg",
+      "sha256": "c31b01e8196ab2e18cc337de505c54749e28d099697e766495aa68b37f3f602c",
+      "bytes": 150394
+    },
+    {
+      "path": "audit_directions.py",
+      "sha256": "9899f70df46d01694a24df0e5a9bc325183a86dfa98b69dcd36209eb4bcf9005",
+      "bytes": 26976
+    },
+    {
+      "path": "candidate_gene_evidence.json",
+      "sha256": "cd9f58457d54c28823d4716d51f9b1bf41d59145d2671cd71a16448e1cf792bd",
+      "bytes": 30406
+    },
+    {
+      "path": "curate_evidence.py",
+      "sha256": "cc7f1e76bf66c0af6fecb2027f47e2a921ac419af9619de4702ffb6d2d6e9b35",
+      "bytes": 19469
+    },
+    {
+      "path": "model_directions_long.tsv",
+      "sha256": "12bfe33cac9f4ca7e7fd6228c9ca7dce855a643330072cd70f422f6dd56df854",
+      "bytes": 139430
+    },
+    {
+      "path": "nn_gene_direction_comparison.csv",
+      "sha256": "bc44b633ab125080815b067977109355909716f1fa75fef5190aab7109c57ba8",
+      "bytes": 19591
+    },
+    {
+      "path": "per_lineage_signed_effects.tsv",
+      "sha256": "f4654bf5e9fd218d944721febeb606d87fe6e580ce185d09d88d3613c8fbd426",
+      "bytes": 442769
+    },
+    {
+      "path": "per_split_signed_effects.tsv",
+      "sha256": "7fffbd41323735ee4bb7965223e653a8f395ec1f4d2cfe2caf7476e2b43eceff",
+      "bytes": 308461
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "7229aa55713b2c5720b742c4a4c2b6b2434480549da97e896df23acc4bcdb6ce",
+      "bytes": 1311
+    },
+    {
+      "path": "references.json",
+      "sha256": "0687bff5e69802bb9d60eb714c0db831adf05c52a5fb79f272d63ed0cb125b2a",
+      "bytes": 17662
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "2c99d5858e4a52aa776dceab8fc35adaef8fbac73df11bc090c7a519dcd3a599",
+      "bytes": 70756
+    },
+    {
+      "path": "summary.json",
+      "sha256": "c98f989713789419042649157fbd2f2ed572b10632497d87de511d19ba1ee2f3",
+      "bytes": 3403
+    },
+    {
+      "path": "summary.tsv",
+      "sha256": "4fea42bad8ef4568d3486809cea53e9a8a5428c34d70624134850c3c105685cd",
+      "bytes": 62849
+    },
+    {
+      "path": "validation.json",
+      "sha256": "d04b631f06c0fcec030d1ae78eb512a205145aa8ea9e346dc6abaeab994598ab",
+      "bytes": 14501
+    }
+  ]
+}

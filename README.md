@@ -26,6 +26,16 @@ in PRISM. Gene rankings and reduced-panel tuning were confined to nested
 training data. The gene-importance rankings describe the retained models and
 do not replace the panel with a fixed consensus subset.
 
+The compact mutation/copy-number benchmark also supports keeping the RNA-only
+models. Adding copy number reduced CTRP neural-network mean RMSE by 0.32%, but
+its paired lineage-bootstrap interval included zero; PRISM showed no clear gain.
+No tested DNA addition established lower primary pooled RMSE than its matched
+RNA-only control. Some CTRP secondary MAE and equal-lineage metrics favored copy
+number, making that model an exploratory candidate for independent validation.
+All four arms used the same 20 nested splits and matched cohorts: 739 CTRP rows
+and 386 PRISM rows. The CTRP RNA-only controls were refit on that 739-row cohort;
+the canonical registry still points to the original retained models.
+
 The existing CTRP and PRISM models are retained separately. These are saved
 models from 20 shared, lineage-stratified holdouts for each response cohort;
 they are not new models fitted on the entire cohort. Their response endpoints
@@ -84,6 +94,8 @@ Useful study reports:
 - [EMT/DNA-repair comparison](outputs/erastin_emt_ddr_comparison/REVIEW.md)
 - [PRISM versus CTRP gene importance](outputs/erastin_prism_ctrp_gene_importance/REVIEW.md)
 - [Complete 64-gene neural-network importance and gradient rankings](outputs/retained_nn_gene_ranking/REVIEW.md)
+- [Signed gene effects versus published ferroptosis mechanisms](outputs/erastin_gene_direction_literature/REVIEW.md)
+- [Matched-cohort RNA plus mutation/copy-number benchmark](outputs/erastin_rna_dna_comparison/REVIEW.md)
 - [Nested training selection of 10/20 genes versus the full 64-gene neural network](outputs/erastin_nn_topk_nested/REVIEW.md)
 - [64-gene kernel and hierarchical lineage benchmark](outputs/erastin_kernel_lineage_comparison/REVIEW.md)
 - [Multi-task learning across ferroptosis inducers](outputs/erastin_multitask_comparison/REVIEW.md)

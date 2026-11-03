@@ -1,0 +1,15 @@
+{
+  "stage": "training-only preflight before production fits",
+  "reason": "Elastic Net convergence warnings in very low-penalty mixed-omics candidates and a cold native refit",
+  "initial_iteration_limit": 50000,
+  "intermediate_iteration_limit": 500000,
+  "final_path_retry_limits": [500000, 2000000, 5000000],
+  "final_native_continuation_batch": 500000,
+  "maximum_native_batches": 10,
+  "selection_criterion": "Retry only on solver convergence warnings, never based on validation or outer-test performance",
+  "unchanged": ["feature definitions", "hyperparameter grids", "splits", "objective", "solver tolerance 1e-9", "KKT gate below 1e-6", "abort if final convergence check fails"],
+  "production_fits_before_amendment": 0,
+  "outer_results_inspected_before_amendment": false,
+  "initial_protocol_archive": "work/erastin_rna_dna/preflight_archive/protocol_initial_50000.json",
+  "intermediate_protocol_archive": "work/erastin_rna_dna/preflight_archive/protocol_intermediate_500000.json"
+}

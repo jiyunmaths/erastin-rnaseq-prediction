@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "method": "Manual visual inspection of final PNG renders",
+  "images": [
+    {
+      "path": "performance_comparison.png",
+      "sha256": "9f0ff35cb2da7ca70ae79f2805c95ed8ab73343adb12a87c0c85ecb49ab64c12",
+      "pixels": [
+        2080,
+        1232
+      ]
+    },
+    {
+      "path": "paired_rmse_improvement.png",
+      "sha256": "22983dcd6b9c690a7352f5678b162ca1ea95cf08ad3c377515d3331617ad366e",
+      "pixels": [
+        2000,
+        1040
+      ]
+    }
+  ],
+  "checks": [
+    "All six performance panels present",
+    "Shared within-assay y scales",
+    "Forest figure has both assays and all 18 primary comparisons",
+    "Tick labels, axis units and captions readable without overlap",
+    "Paired improvement sign and conditional-interval qualifier shown"
+  ],
+  "correction": "Replaced overlapping decimal x tick/offset text with short tick labels and explicit x10^-3 axis units."
+}
