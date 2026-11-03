@@ -3,6 +3,9 @@
 Research project predicting cancer-cell-line erastin sensitivity from DepMap
 bulk RNA-seq expression, using CTRP and PRISM response data.
 
+The [project presentation](outputs/project_presentation/README.md) introduces
+the methods, validation design, model comparisons and biological interpretation.
+
 ## Retained models
 
 Decision recorded on **2026-11-02**: retain the **64-gene ferroptosis panel** with

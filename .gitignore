@@ -105,6 +105,9 @@ Thumbs.db
 !/outputs/**/*.png
 !/outputs/**/*.svg
 
+# Published project presentation; other generated binaries remain local.
+!/outputs/project_presentation/erastin_methods_results.pptx
+
 # Generated model subtrees and downloaded snapshots override the exceptions.
 /outputs/**/folds/
 /outputs/**/source_metadata/
