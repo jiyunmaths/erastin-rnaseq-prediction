@@ -1,0 +1,15 @@
+{
+  "title_overlap_checks_passed": true,
+  "figures": [
+    {
+      "figure": "top15_predictive_importance",
+      "genes_each": 15,
+      "panel_and_main_titles_do_not_overlap": true
+    },
+    {
+      "figure": "all64_predictive_importance",
+      "genes_each": 64,
+      "panel_and_main_titles_do_not_overlap": true
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "passed": true,
+  "registry_gene_order_exact": true,
+  "retained_models": 40,
+  "ensemble_members": 120,
+  "source_and_model_files_verified": 228,
+  "predictive_ranks_exact": true,
+  "gradient_ranks_exact": true,
+  "positive_split_and_top10_counts_exact": true,
+  "relative_bootstrap_intervals_verified": true,
+  "no_refitting": true,
+  "no_panel_selection": true,
+  "train_test_identity_and_lineage_checks": true,
+  "max_absolute_errors": {
+    "prediction": 2.220446049250313e-16,
+    "gradient": 5.204170427930421e-18,
+    "finite_difference": 5.5530821369172145e-12,
+    "aggregation": 3.1500138868850724e-16,
+    "relative_interval": 4.980238443863527e-12,
+    "direct_replacement": 9.71445146547012e-17
+  },
+  "model_checks": [
+    {
+      "dataset": "CTRP",
+      "repeat": 1,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 2,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 3,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 4,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 5,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 6,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 7,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 8,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 9,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 10,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 11,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 12,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 13,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 14,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 15,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 16,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 17,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 18,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 19,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "CTRP",
+      "repeat": 20,
+      "members": 3,
+      "train": 595,
+      "test": 149,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 1,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 2,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 3,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 4,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 5,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 6,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 7,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 8,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 9,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 10,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 11,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 12,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 13,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 14,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 15,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 16,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 17,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 18,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 19,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    },
+    {
+      "dataset": "PRISM",
+      "repeat": 20,
+      "members": 3,
+      "train": 308,
+      "test": 78,
+      "saved_model_verified": true
+    }
+  ],
+  "source_importance_validation": {
+    "passed": true,
+    "no_refitting": true,
+    "saved_models": 120,
+    "genes": 64,
+    "datasets": 2,
+    "repeats_each": 20,
+    "common_large_lineages": 13,
+    "common_strict_lineages": 7,
+    "matched_receiver_cells": 290,
+    "CTRP_previous_importance_max_error": 4.3937293039975067e-16,
+    "previous_CTRP_native_ranks_exactly_reproduced": true,
+    "bootstrap_expansion_max_error": 2.168404344971009e-19,
+    "train_test_and_donor_identity_checks": 900,
+    "coefficient_selection_counts_and_signs_verified": true,
+    "source_hashes_verified": true,
+    "saved_prediction_error": 0.0,
+    "native_replacement_error": 3.3306690738754696e-16,
+    "identity_replacement_error": 2.220446049250313e-16,
+    "finite_difference_gradient_error": 2.1779788909881415e-11,
+    "full_donor_matrix_error": 3.3306690738754696e-16
+  }
+}

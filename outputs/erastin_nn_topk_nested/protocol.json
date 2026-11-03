@@ -1,0 +1,142 @@
+{
+  "status": "frozen_before_training_local_topk_benchmark",
+  "created_utc": "2026-11-02T21:46:34Z",
+  "assays": [
+    "CTRP",
+    "PRISM"
+  ],
+  "panel": 64,
+  "top_k": [
+    10,
+    20
+  ],
+  "arms": [
+    "top10",
+    "top20",
+    "full64"
+  ],
+  "workers": 8,
+  "outer": "Reuse the exact saved 20 lineage-stratified identity-group 80/20 holdouts separately in CTRP and PRISM; Cervix excluded. All evaluated lineages in both outer sets.",
+  "inner": "Reuse the five saved inner tuning folds. Protected singleton training lineages remain training (-2) and never validation.",
+  "selector": "Within each INNER-TRAINING subset separately, make three response-blind lineage/identity-group folds. Fit full64 three-member NNs on each selector-training fold for every candidate in the original assay NN grid. Choose the candidate with minimum mean selector-fold RMSE. Rank all 64 genes by pooled out-of-fold expected MSE increase after exhaustive same-lineage selector-training-donor replacement, using the selected candidate models. No inner-validation or outer-test data enter this function. Protected singleton-lineage groups are excluded as ranking receivers, retained as training observations. Fit the same selector afresh on complete OUTER TRAINING for the final panels.",
+  "ranking": "Descending exact mean delta MSE on selector out-of-fold receivers. Training-donor and receiver identity groups disjoint. Ties use original panel order. Take exactly top10/top20, including nonpositive ranks if necessary. Preserve canonical input order in downstream fits; top10 is a subset of top20 within each selector context.",
+  "selector_folds": 3,
+  "selector_seed": "SeedSequence([2026110207, assay_index, repeat_zero_based, context_0_to_5]); context 0..4 = saved inner fold; 5 = outer-training selector.",
+  "predictor": "For each K separately, tune original assay NN grid by mean five-fold RMSE using fold-specific selected genes, then refit the selected NN parameters on the outer-training selected panel. Each fit averages the original three NN initialization seeds. All X/y scaling uses current fit training only. No lineage prediction covariates, no culture information, unweighted.",
+  "neural_grids": {
+    "CTRP": [
+      {
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "width": 32,
+        "alpha": 100.0
+      }
+    ],
+    "PRISM": [
+      {
+        "width": 16,
+        "alpha": 1.0
+      },
+      {
+        "width": 16,
+        "alpha": 10.0
+      },
+      {
+        "width": 16,
+        "alpha": 100.0
+      },
+      {
+        "width": 16,
+        "alpha": 1000.0
+      },
+      {
+        "width": 32,
+        "alpha": 1.0
+      },
+      {
+        "width": 32,
+        "alpha": 10.0
+      },
+      {
+        "width": 32,
+        "alpha": 100.0
+      },
+      {
+        "width": 32,
+        "alpha": 1000.0
+      }
+    ]
+  },
+  "neural_fixed": {
+    "activation": "tanh",
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "max_fun": 40000,
+    "tol": 0.001,
+    "early_stopping": false,
+    "members": 3
+  },
+  "full64": "Reuse exact hash-verified retained full64 models, inner predictions and outer predictions. Validate selected parameters and predictions; no panel selection for this arm.",
+  "primary_metric": "Mean original-unit pooled held-out RMSE over 20 repeats, separately by assay.",
+  "secondary_metrics": [
+    "Spearman",
+    "Pearson",
+    "MAE",
+    "R2",
+    "equal-lineage RMSE",
+    "equal-large-lineage RMSE"
+  ],
+  "primary_comparisons": [
+    [
+      "top10",
+      "full64"
+    ],
+    [
+      "top20",
+      "full64"
+    ]
+  ],
+  "secondary_comparisons": [
+    [
+      "top10",
+      "top20"
+    ]
+  ],
+  "uncertainty": {
+    "count": 5000,
+    "seed": 2026110208,
+    "unit": "Paired whole-lineage bootstrap; keep all arms and overlapping holdouts together. Conditional on saved fits; no retraining or multiple-comparison correction."
+  },
+  "numerical_policy": "Abort on ConvergenceWarning or other runtime/numerical warnings; record the known SciPy optimizer deprecation warning. Resume only checksum-verified checkpoints with this protocol hash.",
+  "limitations": [
+    "Exploratory, previously inspected cohorts; fold-local selection prevents direct test leakage but does not undo earlier adaptive model exploration.",
+    "Results evaluate a panel-selection procedure; each repeat can select a different gene list. Consensus frequencies are descriptive, not a tested fixed panel.",
+    "Within-lineage replacement can disrupt correlated expression. Predictive contribution is not causal ferroptosis relevance.",
+    "CTRP and PRISM have different response provenance/scales and overlapping cell lines. No independent-assay replication or unseen-lineage claim."
+  ],
+  "scripts": {
+    "benchmark.py": "17add795c2d0b03b6cef8d1ceb7bc70fe5b3a4c43679e368bbf56d1df89f9357",
+    "model_helpers.py": "615316d1201dc2fcda0f349f2a29c6649ebbc1ef51aa50227dcbede5fcc9fae8",
+    "weighted_mlp.py": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+    "make_splits.py": "30d952f5d6f96ab9273477a4cb755929196d5d5756399eb80c0a92079b1dddc4",
+    "evaluate.py": "6b38e954790147620d937bd62abe08f4bad210120a82f028da92ad39a5428ced",
+    "metric_helpers.py": "2b3b86e97c92e242dad10adc37bc48d324100480d78a77e953641edecf3328e7"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "sklearn": "1.5.2",
+    "joblib": "1.5.2"
+  }
+}

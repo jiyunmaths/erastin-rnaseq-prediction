@@ -18,6 +18,14 @@ The ensemble benchmark likewise supports retaining the individual models:
 neither equal averaging nor learned mixing weights established a gain over
 the retained neural network.
 
+The nested top-10/top-20 comparison also supports retaining all 64 genes.
+The full panel had the lowest mean test RMSE in both CTRP and PRISM over the
+20 shared splits. Top 10 performed worse in both assays; top 20 was close in
+CTRP, with its conditional interval spanning no difference, and modestly worse
+in PRISM. Gene rankings and reduced-panel tuning were confined to nested
+training data. The gene-importance rankings describe the retained models and
+do not replace the panel with a fixed consensus subset.
+
 The existing CTRP and PRISM models are retained separately. These are saved
 models from 20 shared, lineage-stratified holdouts for each response cohort;
 they are not new models fitted on the entire cohort. Their response endpoints
@@ -75,6 +83,8 @@ Useful study reports:
 - [Direct PRISM training](outputs/erastin_prism_direct_comparison/REVIEW.md)
 - [EMT/DNA-repair comparison](outputs/erastin_emt_ddr_comparison/REVIEW.md)
 - [PRISM versus CTRP gene importance](outputs/erastin_prism_ctrp_gene_importance/REVIEW.md)
+- [Complete 64-gene neural-network importance and gradient rankings](outputs/retained_nn_gene_ranking/REVIEW.md)
+- [Nested training selection of 10/20 genes versus the full 64-gene neural network](outputs/erastin_nn_topk_nested/REVIEW.md)
 - [64-gene kernel and hierarchical lineage benchmark](outputs/erastin_kernel_lineage_comparison/REVIEW.md)
 - [Multi-task learning across ferroptosis inducers](outputs/erastin_multitask_comparison/REVIEW.md)
 - [Hierarchical lineage-specific gene effects](outputs/erastin_hierarchical_slopes/REVIEW.md)

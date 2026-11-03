@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "path": "CTRP_PRISM_64_gene_comparison.csv",
+      "sha256": "4f45d674616bc3b894fdd02f30327d8e830a9aff6cb127337fff3196c4952b44",
+      "bytes": 15861
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "63dc97f442a6b5739e29a4928e5aad16b1ea4f94cc0c57beb241e6166fe20290",
+      "bytes": 18092
+    },
+    {
+      "path": "all64_predictive_importance.png",
+      "sha256": "24b525ec124896bbf95e5d5cd9f19eb57dc23d077b50a1381c9561720a209f60",
+      "bytes": 410392
+    },
+    {
+      "path": "all64_predictive_importance.svg",
+      "sha256": "94cfc927051e743ea9ad75240530b1f78440f7005d90cfa9fe1bb76921550742",
+      "bytes": 102493
+    },
+    {
+      "path": "all_rankings_long.csv",
+      "sha256": "2af8d2eaf89084a3437fa0e4cf96c19b2d79ea149605ed359cf2abafefa665f4",
+      "bytes": 39099
+    },
+    {
+      "path": "ctrp_64_gene_gradient_ranking.csv",
+      "sha256": "11af84932f2f34f757d703115ff52f9041c65c8dd3516cf47bb4472a614e8736",
+      "bytes": 19813
+    },
+    {
+      "path": "ctrp_64_gene_ranking.csv",
+      "sha256": "69428f53811e1e24b6fe0253fe527ed7db56db2729f8c949401571044c4a8ffa",
+      "bytes": 19813
+    },
+    {
+      "path": "environment.json",
+      "sha256": "dd59f885da47dd266f86289a9c3815196cd79ce9c7188dc3db9b3895629c9d0d",
+      "bytes": 265
+    },
+    {
+      "path": "per_lineage_importance.csv",
+      "sha256": "a92528d8b1cfd0350ed0d1e3c6112577d83a36a1a0acc91373d48ebbdcda3db9",
+      "bytes": 401317
+    },
+    {
+      "path": "per_split_importance.csv",
+      "sha256": "046b611bfae1a8561d9e58522e50a9f2b2c9ed641000b48e09c3b0642538573a",
+      "bytes": 134864
+    },
+    {
+      "path": "prism_64_gene_gradient_ranking.csv",
+      "sha256": "544954005d19991ccf17433cb5670e7a287a9d2fb0e698f81284d4300d06b87f",
+      "bytes": 19944
+    },
+    {
+      "path": "prism_64_gene_ranking.csv",
+      "sha256": "74cf95290ac5d0a839be3be04ce23bcba84b8a0fdbb18fcd500e17ca2cb09950",
+      "bytes": 19944
+    },
+    {
+      "path": "rank_genes.py",
+      "sha256": "8ab26e71f0fe09ff38b63956a42cfbeda221d05f271cc69209f9144ed786f680",
+      "bytes": 27385
+    },
+    {
+      "path": "source_manifest.json",
+      "sha256": "61c1b15be40de24d7961978d94d388fbb74a0a1ca7d92c44d9e14616e3ce98db",
+      "bytes": 46887
+    },
+    {
+      "path": "summary.json",
+      "sha256": "c2259e16e59b717956f1da2b5c234fada606927a0ef6d94797c4d973c24c3c9e",
+      "bytes": 1332
+    },
+    {
+      "path": "top15_predictive_importance.png",
+      "sha256": "e0d5f7a557a96a6ed51949647229c1b97b84ee792680d357d8c958eb61431861",
+      "bytes": 146508
+    },
+    {
+      "path": "top15_predictive_importance.svg",
+      "sha256": "a9b30b79eceef751c3e29f1dfb477b394e4238bd530daacbc553616ea7ccaf34",
+      "bytes": 35264
+    },
+    {
+      "path": "validation.json",
+      "sha256": "95f342135d90bfd513018b7433e28067937dd777db6d6c5516c6d8af30c475cc",
+      "bytes": 7675
+    },
+    {
+      "path": "visual_qa.json",
+      "sha256": "1f242184d4e8fc08111a638db5a2e5d808e3b4dc2d6eaaec4765d53144db11b7",
+      "bytes": 331
+    }
+  ]
+}

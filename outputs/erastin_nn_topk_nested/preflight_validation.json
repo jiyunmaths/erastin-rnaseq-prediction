@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "protocol_sha256": "0d44d2c3356cc890d77bd85b56a5c585215e8fb5cff3fddbbb294361e6a1de60",
+  "all_20_splits_audited": true,
+  "checks": [
+    {
+      "dataset": "CTRP",
+      "baseline_refit_max_error": 0.0,
+      "excluded_response_and_expression_mutation_has_no_selection_effect": true,
+      "ranks_finite": true,
+      "top10_genes": [
+        "SLC7A11",
+        "ACSL4",
+        "AIFM2",
+        "CTSD",
+        "CYB5R1",
+        "GCLC",
+        "LPCAT3",
+        "GPX4",
+        "FADS1",
+        "ACSL3"
+      ]
+    },
+    {
+      "dataset": "PRISM",
+      "baseline_refit_max_error": 0.0,
+      "excluded_response_and_expression_mutation_has_no_selection_effect": true,
+      "ranks_finite": true,
+      "top10_genes": [
+        "SLC3A2",
+        "GCLC",
+        "AIFM2",
+        "SLC7A11",
+        "GGT1",
+        "POR",
+        "PTS",
+        "GOT1",
+        "GNPAT",
+        "NADK"
+      ]
+    }
+  ]
+}

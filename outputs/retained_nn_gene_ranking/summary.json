@@ -1,0 +1,76 @@
+{
+  "genes": 64,
+  "models": 40,
+  "no_refitting": true,
+  "cross_assay_predictive_rank_spearman": 0.24473443223443223,
+  "top10": {
+    "CTRP": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "GOT1",
+      "ACSL3",
+      "LRP8",
+      "GSR",
+      "DHFR"
+    ],
+    "PRISM": [
+      "AIFM2",
+      "SLC3A2",
+      "LRP8",
+      "SLC7A11",
+      "SLC40A1",
+      "POR",
+      "ACSL4",
+      "GCLC",
+      "CYB5R1",
+      "NFE2L2"
+    ]
+  },
+  "positive_pointwise_relative_intervals": {
+    "CTRP": [
+      "SLC7A11",
+      "ACSL4",
+      "GPX4",
+      "AIFM2",
+      "ABCC1",
+      "GOT1",
+      "LRP8"
+    ],
+    "PRISM": [
+      "AIFM2",
+      "SLC7A11",
+      "ACSL4",
+      "GCLC",
+      "CYB5R1"
+    ]
+  },
+  "stability": [
+    {
+      "dataset": "CTRP",
+      "scope": "between_splits",
+      "pairs": 190,
+      "median_spearman": 0.3640567765567765
+    },
+    {
+      "dataset": "CTRP",
+      "scope": "between_large_lineages",
+      "pairs": 171,
+      "median_spearman": 0.031272893772893766
+    },
+    {
+      "dataset": "PRISM",
+      "scope": "between_splits",
+      "pairs": 190,
+      "median_spearman": 0.37394688644688645
+    },
+    {
+      "dataset": "PRISM",
+      "scope": "between_large_lineages",
+      "pairs": 78,
+      "median_spearman": 0.037843406593406584
+    }
+  ]
+}

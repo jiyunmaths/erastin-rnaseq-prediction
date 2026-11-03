@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "inspection": "Both PNG figures inspected at completion; labels, legends, panel titles and footnotes are readable without overlap or clipping.",
+  "files": [
+    {
+      "path": "performance_comparison.png",
+      "sha256": "c436e5065a6d92be15f185bd56fb422283b9012bbf6a8d869e5d3cb93cb0665f"
+    },
+    {
+      "path": "paired_rmse_improvement.png",
+      "sha256": "4fc03ae114ef77a17dc80469e96a14d186ee84130053455eb4b84e1fdc689235"
+    }
+  ]
+}

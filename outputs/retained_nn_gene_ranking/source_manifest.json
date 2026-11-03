@@ -1,0 +1,1144 @@
+{
+  "files": [
+    {
+      "path": "outputs/retained_64_gene_models/model_registry.json",
+      "sha256": "0c1c9781638e235e7f26d14a8707326d45109d412900d338604506fff39d37e5",
+      "bytes": 147329
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/artifact_manifest.json",
+      "sha256": "7cb93366094b57f9cb022944cb35ea64a2e8f53e24e0ec8e896300563262dd8d",
+      "bytes": 19718
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/source_manifest.json",
+      "sha256": "c23055fc57f89344f22ba0e419c445d3986708ee22a2833db2d90b6a64d5b455",
+      "bytes": 70005
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/validation.json",
+      "sha256": "a82f9e2f7dc7439b7a9961a0433e468915523faaee04c67d336f10187d8af0ff",
+      "bytes": 793
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/gene_importance_summary.tsv",
+      "sha256": "7d496994b714bd9a90d58b401758518342ce0a3e75399a0b414b025342db28d4",
+      "bytes": 375573
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/per_lineage_importance.tsv",
+      "sha256": "baada7863764c5eb4624c5519630a70e9a7d94df6154fa447fd726103251e161",
+      "bytes": 1172054
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/per_repeat_importance.tsv",
+      "sha256": "9c430f267ce9dceff39cf8be1528463cc402d40d9bcef234f71aa0ac3dcf36c6",
+      "bytes": 354498
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/bootstrap_draws.npz",
+      "sha256": "e6fb2f6db10685ba999a7435de4fc13210d242b6cae9ef7cad47cd355c051183",
+      "bytes": 30269316
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/protocol.json",
+      "sha256": "a035bd0927550632c352670f2dd2115f23b644373c11bb7bf5148b6d39cd464c",
+      "bytes": 10893
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/calculate_importance.py",
+      "sha256": "dfee566b80348bd3e3ed368a268204324729f31b8b2a0462e24f421d366c9464",
+      "bytes": 15021
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/review_importance.py",
+      "sha256": "6b7843e52842995aa73a9d15992dd1a2f89e709c75c327e2194f612e2d894167",
+      "bytes": 20845
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/weighted_mlp.py",
+      "sha256": "9f102ccbba9e028daa46160184c0ff43e87050b291cfc9e43f584856e5f4b554",
+      "bytes": 2493
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/coefficient_sensitivity_by_repeat.tsv",
+      "sha256": "6082d233d2064a4b850f5c5ef6062644751b90aea10b1dafbfdbb2e4c7759ab2",
+      "bytes": 421660
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/ctrp_inputs.npz",
+      "sha256": "bc49bbd30135f11bbe4b29b22cd758987edcaa42d12c1c5564518f3eabbf51fd",
+      "bytes": 272117
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/ctrp_importance_arrays.npz",
+      "sha256": "edc4f596d839732d58698bd272f1a10dbc1c109fa2524c10fa0f492582fde4d3",
+      "bytes": 7001646
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/protocol.json",
+      "sha256": "865da0e9c3984c4760427a400de48eb9a3460d494fb02df843fa5b5a888207b7",
+      "bytes": 35086
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/validation.json",
+      "sha256": "aa510f475cbe23544c82e5a3a5f90316df73cffc5b74842530ce9640697e038a",
+      "bytes": 4591
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/panel_inputs.npz",
+      "sha256": "58854fd16a5614e4dd127564582cb76803716afdee579c2c2d9b21902df3f421",
+      "bytes": 206544
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/shared_splits.npz",
+      "sha256": "02713fefe83533f7620903a09e1b400e4dbca13aa9db1d18f0896069b1dd9876",
+      "bytes": 16057
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/summary.tsv",
+      "sha256": "ea499e84d4a5c170778b92c4ed6c6f7c57406820179a15f2cad49b9941e74b2b",
+      "bytes": 2371
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "bdd4506582adfd6e27b5c3737991daab3e716db568255bcbf6e0cafa508f2b72",
+      "bytes": 35740
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "97c05b000e0d249c5865937e7b5334165923f706157f8600f87cc9123db4cf8d",
+      "bytes": 27039
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "e3f72f65915e4d798f789269cb768e7247e2c784bd70ed61382c2a756d340722",
+      "bytes": 51102
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r01.npz",
+      "sha256": "cc6e055a5419412d3a643efb5ec2962ad1b339ad023a58d975407444a29d5d9b",
+      "bytes": 814233
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r01.json",
+      "sha256": "3ef92cb0f1d89ae3733874ccfc336c8615ff04c405bd1490bd1232d06f9274f5",
+      "bytes": 4056
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "742af7e888e5a43188d6e3e3d7675073e489a6a4f846cee6e9eb3fc64a082e86",
+      "bytes": 35774
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "5559c6682a5d071c196a8d9926513329b95d93ca352a89797327dba2d4ade207",
+      "bytes": 27058
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "28d185c1174e304829482859d7de597cebc69a42fa2f514d02f2a1004fb14416",
+      "bytes": 51089
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r02.npz",
+      "sha256": "99c73194c1d879d49705ee2f1061ced88dec92c46b60feb97d1f9a3a0b396aa2",
+      "bytes": 784965
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r02.json",
+      "sha256": "2984e122da9fa0b8d2e0223a066ef0797f570b0cbe5abe4a59ab5374352d0e51",
+      "bytes": 4035
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "cafd58996c06a0c39269d9c0bf315af64f6ca9cfb00beee6a23bb8acf92ac2eb",
+      "bytes": 35750
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "4736acc742bbb7833fdef7b2913fe9f09ab00aa063e5bcf5ea3c328d3df0e9c3",
+      "bytes": 27068
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "79f475f79de988cf262797b4311194f9ec5d838f87b20fcd8f7301b093be06bd",
+      "bytes": 51116
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r03.npz",
+      "sha256": "fede580fefa460a39b63486a8c20da0cb4fd7c41a3a08d74b84b87613ec1b8f9",
+      "bytes": 805487
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r03.json",
+      "sha256": "f8e765c82bb532c16b416f0fdad5f397f9bce02786ab4ef58f67b5ffc93128ea",
+      "bytes": 4033
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "e26428d87ffe46c5a6ac3bee16e4e6b329bde325ab9cdb1287348a9bdc698a31",
+      "bytes": 35728
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "35f9b56aca1b9eefe46cb3d2db61c8f97b89f88716d46e1127ffd287268af884",
+      "bytes": 27052
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "66dd8d0d942151c49bcd38b3a8f722a3065cb8c150fa4760a9b300b7973f4006",
+      "bytes": 51049
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r04.npz",
+      "sha256": "ea6220eaa2dab58926a44c92786e1f9a674c0da3d48b22b72fdae479498a9a43",
+      "bytes": 753123
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r04.json",
+      "sha256": "e3aaf549575d3aa7b1fe288d435998cb34f7f79daeb67d8cc63ea37a4ad4249b",
+      "bytes": 4035
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "29853b0aafb24b3a06a3e3822036ca02cff770ae8a85a853e530ed74571a827d",
+      "bytes": 35739
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "178227b85b2a830447e01152b6e6ff4986b2652f4944312777be359653bf7aa4",
+      "bytes": 27072
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "6878c61b35f602abd5d3d503e20ecb5e64e5c64e691e580251c296a23dd53ff4",
+      "bytes": 51099
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r05.npz",
+      "sha256": "cc857f290c392435fbf071549ba7956bb037539573cff913454862e7ae2fad9e",
+      "bytes": 914002
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r05.json",
+      "sha256": "3ab48a74509ff95766c705fcadc2d9fb304e13423b110c9d42673ddae0c339dc",
+      "bytes": 4035
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "00e5f34e1c0f43cd56a68419505a32db4aa39a7f3211ba2fc6340286eaefeaa7",
+      "bytes": 35771
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "3f7dc0aabdc6fad15d3d6d0c07eb91cfec599296cc171f3be991c061650793d1",
+      "bytes": 27075
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "fbd46dddc5c9aaacbd9028ef408797a1e53d71f65783e5b7a29454c9d7c6636b",
+      "bytes": 51117
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r06.npz",
+      "sha256": "39fc5b1dafc6596453a402a27469e8ac9864a7df8b3c5e905679de3a585d01be",
+      "bytes": 852795
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r06.json",
+      "sha256": "dc38a891f15351353c9328e9380c90cf7033d2dc29ed6fb081e06ad08b94076a",
+      "bytes": 4034
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "edf1911bd5879b9c796f402ef5792dea2d37d27260d0b6ee55ef0e162b0284b4",
+      "bytes": 35735
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "3913f6e970491102d9be415a9f811da7288c73e1996f838d9c517d6bea442056",
+      "bytes": 27051
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "b5554135a9a57849789a9b69ad07896dc2c4de719b8d81f0a40c635986cc8d41",
+      "bytes": 51116
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r07.npz",
+      "sha256": "513b209bf53dc049930b862a54d629322b037b4552813a758998a1477d01ac93",
+      "bytes": 830734
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r07.json",
+      "sha256": "e35661f15ccd07127e3b58b09d9125d55e3efd3d217f5f5c54667c488e6607e1",
+      "bytes": 4035
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "66d99a4a5c3062dc761d6c8754f1fe4cac575e6ee5fa1914a016ddf4aaab453b",
+      "bytes": 35742
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "b1bf62b48dc986c855244ab40d7c814b1c82413d92cb8013d6a09d38126ac071",
+      "bytes": 27079
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "5952068d0de048d4dc32906cbe0c00c119a574d580858b479520e7f5ff5f3599",
+      "bytes": 51118
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r08.npz",
+      "sha256": "3d4cd9c455ddff5dc065d746f0ce456d16f2a1d01babaf1c22bf27e1d4c011b4",
+      "bytes": 849043
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r08.json",
+      "sha256": "5e073184fb343fdb9af4d49d97588af9ccc6f40b9b3d6200d906d781b61db486",
+      "bytes": 4035
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "0fdb62f2fe065ebfbb442c3a9a9694a240f964a262f86e636a52632e1d214cb4",
+      "bytes": 35749
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "d870c8b6f171a514fc9a744287aed03eb6fbc46ab9df1231838f79c8b97aa6ee",
+      "bytes": 27033
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "e5c52f516396f7b0426ad1003b4847dec9e242cf929e5eb12502e5f75692dc15",
+      "bytes": 51104
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r09.npz",
+      "sha256": "75de756308e70d25dfd4356a15367dbb5f350152a1031811da1d040adb7f7840",
+      "bytes": 825451
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r09.json",
+      "sha256": "b162ba6f7f4b3885d50936672e947914d0ffb11c37b3c96a9898b140881ba8b5",
+      "bytes": 4033
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "a9c2b3a39ae0a2b5f79df3c582ea918aaa64b1cf6b39d687a40c5ed635f3d3e6",
+      "bytes": 35739
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "392b13aa2f394acdc4ace0e4744674013e466cd155195fdfd263e0bb6de1069c",
+      "bytes": 27069
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "ea1b3c8c2aef5aca151f6115321d6e4f167c65c564e11090a24f5c9e1b6e9387",
+      "bytes": 51116
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r10.npz",
+      "sha256": "bf651417a2500dddfc5ad1739f8ee46a8680a01bca7e3cd6360e6ea47d14ff8a",
+      "bytes": 929803
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r10.json",
+      "sha256": "011af1fb75cc4b335a18378ecd722f2ca283be9d1cdc5712f54b7c4bb2e87b36",
+      "bytes": 4036
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "ae7bc785e67514248b36dab8f77f4f5a5d1d47ae309eeb8729c06b20502b1b19",
+      "bytes": 35768
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "628b9ce0d71bba2cc20a8f2a7b3299f4e90743f3ec76dc776b8d6473e7d0b6e4",
+      "bytes": 27036
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "8917a7481aa54247c653b91bbb71d5b0bdaa5bfb63b4ba2abc9ab678725e4512",
+      "bytes": 51122
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r11.npz",
+      "sha256": "73ac1fd16f461d8d69574801a9c628f099ebd0ca649b09bf19c2ddf9b4ac5783",
+      "bytes": 864762
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r11.json",
+      "sha256": "ca20f34ff2fc2d74ceb486e543cad8079db6f494e22c9be9b3b6118e741417f9",
+      "bytes": 4035
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "9dcedcc6a110758ae416736105ce6858874145696c09b8c097837a84809486a7",
+      "bytes": 35796
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "54a367cdfa31170bba96af20c82f69860668657bf38b01133c5ac2b59b308f5c",
+      "bytes": 27078
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "0f6ac0120d5241eb6af24b67a6edf61413914f80e6ba1b49f18ee827a955c201",
+      "bytes": 51120
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r12.npz",
+      "sha256": "6bd7dda9fad90b9a360280fd5b3535e5dadf2b0c188cac2a7a0ba454a6a2c387",
+      "bytes": 838354
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r12.json",
+      "sha256": "20142c9df7183ff772244ed1de4cfc05ad62c254ac8255ff237699d9a74dd2e2",
+      "bytes": 4036
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "b00cadbb25a712395876545a923d5f35e19884401d1a96b1b26a517d607fb680",
+      "bytes": 60198
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "eeb684e7c8eb4835b14026f34e4b63013a4dff835c7184305e9cf024cecb9a40",
+      "bytes": 27048
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "db808cc09b7fcc9d8bf56a2dc343fab96dad3ed378a5c4d162925fd8e7b979a5",
+      "bytes": 51065
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r13.npz",
+      "sha256": "6ca4d21720aee2a9ccaf67c1f7cabf73db16c36effaa1a601a0d36cc1188ddaf",
+      "bytes": 860580
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r13.json",
+      "sha256": "c5e79e1404cc831be3b0bc58b732957fa37ee3efd7a717462e54a05e5ba454d1",
+      "bytes": 4035
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "389327b41a64b3ad1ec12892a7377e54aaa98f712071431ee4845afcd1853903",
+      "bytes": 35747
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "462385fb494cf52891bd6b60c40d2f7c0b04f7b09ad0d48a16d1a95a8f7fb7c7",
+      "bytes": 27067
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "34af9d116011ba050895628f6a0e6dafe78cf6ff347b7047fcaa6fb17fe8d883",
+      "bytes": 51099
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r14.npz",
+      "sha256": "319d178fd6ac3c5e436ba9aa9a1f06a579473a8667bcfdeb79ea18d07d1dad25",
+      "bytes": 856066
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r14.json",
+      "sha256": "e5cf2eedb84182b70eed3a51c13f6d375b477e7b730a00b69bf4cb249c73e473",
+      "bytes": 4036
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "ee4e33ed5aa1a688adf56f323fb11da6190f603ed461769e48ed4674b8648305",
+      "bytes": 35773
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "e582ee835090e97c1206215e0af0236513bd4f946d18c7782e56762f23edabcc",
+      "bytes": 27063
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "3f21be3910b91c09d2c14efba722d3d10f05057d7295fdfa92fd57cf9fa3315c",
+      "bytes": 51090
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r15.npz",
+      "sha256": "410eca16abca71dfd3584ba4eef5d86702b74ef226a027e9406b17c020204a82",
+      "bytes": 860373
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r15.json",
+      "sha256": "aad88e1841b3ec1e5198523b1188554ee84ec3fe87147789b9583159a7e79a24",
+      "bytes": 4037
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "4271af71400faf9475f0b935f095aac2224fcd4ef7c691e3639f8b9e80349dd6",
+      "bytes": 35776
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "127fb40ba1b4f443300138c03c5bd76c0860980f43466518e3f49cb1083f977f",
+      "bytes": 27045
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "1146c791584bb8274fffcb6bc51af6b3bc9987a23fe12b71aba601bd4200bce5",
+      "bytes": 51099
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r16.npz",
+      "sha256": "6d861ed91a366471055fd25499a937e686bd03219a726e3276c9f8e43e5c0aad",
+      "bytes": 830897
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r16.json",
+      "sha256": "5e59dd9484888779fe90a3cf0fd9811223d9a1dcae1e08f5babbd90a130b12ca",
+      "bytes": 4037
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "a9f6853892717ba6a4bde68939889fb83617deb72df8ac03f4e0c3c3cc6d354e",
+      "bytes": 35794
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "13c3cec77aee6b44e4d02b681f0b4ba7e42280acf6f0cd533d1bfd7ffdf2fe2b",
+      "bytes": 27074
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "d086ddc8d31516e88f8cb95e44993218ddda378a640d7acf9aa7b8c98239b4dc",
+      "bytes": 51124
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r17.npz",
+      "sha256": "bf14d3e8ac62aaa7dd5e8236271a98a7478458a5c3e22af1666eff1f8ade16ae",
+      "bytes": 764711
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r17.json",
+      "sha256": "d501a696948569d81f2d7378f2a258d8714c8bcdfc20cca0e52fc3a4210aafd5",
+      "bytes": 4037
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "d522e3b59269f113ff9fa466531329ae0d86e11cc885bcf7997b568698167fe7",
+      "bytes": 35790
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "5245477002ff1282ba085138af88fbf10cb49f8792c85a3e7fdc5525336eb056",
+      "bytes": 27047
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "80ebd0435f3be6fa27ddd2bd3497ccb2b5e2e7563796b9a3f2d37bc4a2a102e5",
+      "bytes": 51126
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r18.npz",
+      "sha256": "45f9d428e987eb262bef0e30821ca3c063499499e90e6ac68116fdd5608c299c",
+      "bytes": 835462
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r18.json",
+      "sha256": "1f82db6aeaeed31ac6d44fd3506dfb99e832b094b627c179a2a2a2fae190447e",
+      "bytes": 4036
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "bc5dc3fbe19e85f1f639bb594a75156fc0f952ecb8e6301653e9ecd25a5d4428",
+      "bytes": 35738
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "33774f16c3299d30872546ee744ee5862d1f4dae3517ff8b359154a2cbda6bc6",
+      "bytes": 27072
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "f35e06e18be414643b042ccc65bb9aea96ce794d819c7cd6b060c814f3c8bc26",
+      "bytes": 51094
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r19.npz",
+      "sha256": "fd274afb9bf48f3a4812acad48d9dee9f9b9f49653f3b645311a63719cef78ab",
+      "bytes": 882219
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r19.json",
+      "sha256": "8daf3ead2ce2aeca99545475e0acd33f315409d64f555234dc21266eac8b731a",
+      "bytes": 4037
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d9a4ce4c0d40bc211d384c1d6b9285a538bdddf6b8899bba373dcbb44adbb509",
+      "bytes": 35762
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "e41a1dc11361668104b47ee48e907efb0e06e2dacdeea3e28776fd35809e7f0c",
+      "bytes": 27081
+    },
+    {
+      "path": "outputs/erastin_elastic_net_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "032127712278d1a47237d78012ad331b0b093b72ec5cec3ffe98323307db2d12",
+      "bytes": 51135
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r20.npz",
+      "sha256": "3dcbec060fd5c9af13858942ed0f9fe56ccefd82b6e06721d162dd280d1cb26b",
+      "bytes": 856876
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/ctrp__r20.json",
+      "sha256": "efa056b38324d74ea9aa9b1eb53720fc68bb822c24ad21b1a5a738147ca6043d",
+      "bytes": 4055
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/prism_inputs.npz",
+      "sha256": "a006ad5900ee6566cf3e3160a748a4e1ab0729caf94cf9deb0cce4cbe263dbbb",
+      "bytes": 141752
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/prism_importance_arrays.npz",
+      "sha256": "27aaf7b9e45dead2b3c74e56e7691cac60f249dbb9c2a87a0b07fff04dbf98d6",
+      "bytes": 4452010
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/protocol.json",
+      "sha256": "b3f978e3d659b0fe223353bd946b26b2f3e1f0c064830aee735316afc91ff84b",
+      "bytes": 35503
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/validation.json",
+      "sha256": "236f5e57c6a102cc83246b62f541a44951be681583ee7835c7f64ad445c3b194",
+      "bytes": 5742
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/panel_inputs.npz",
+      "sha256": "80f7b5dddcb759ea59a34112209678d94024f697216f904ae42d8a447af5fed9",
+      "bytes": 110781
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/shared_splits.npz",
+      "sha256": "d82a47c59ddf9dadd93a9a77e9dca83a10c2328cf5465dad4acf021e6fe32896",
+      "bytes": 9791
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/summary.tsv",
+      "sha256": "b2655d2890574ac76f3dd6c528ec42d3bb718b78338f70c98841061db4244a2a",
+      "bytes": 2282
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.joblib",
+      "sha256": "701ba3a68acde22307c35641801406eb691c6fa7fbff147f1b81031f076ac8a6",
+      "bytes": 35645
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.npz",
+      "sha256": "c398e64bec4d0f684d2a0425b94a71d6973705f1e80240570747c068edc86fbb",
+      "bytes": 22534
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r01.json",
+      "sha256": "a8087857f56d6467ab7298860ba2439d494be827e688944370917c83b527e60d",
+      "bytes": 54837
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r01.npz",
+      "sha256": "a5dd5fd9ce871221af6703f045552fb1fa480c36f11bac6cfc4a26c82f07830f",
+      "bytes": 470142
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r01.json",
+      "sha256": "9d7a31794cc8e6d9055350c00d0222089739434f87a897c6d3042d9195b85a96",
+      "bytes": 3591
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.joblib",
+      "sha256": "1a89f047a5e45f4ff3021e9720705d69f3ece65a4bd4eea8a7ccaac3ad7c6b6d",
+      "bytes": 35695
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.npz",
+      "sha256": "60d5850c3e87223c7fb8ee81765a0b2dac61547e36d74c348cf39104d978de26",
+      "bytes": 22549
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r02.json",
+      "sha256": "4e578d78468f90310dc831dad3d42edb63c80cbd2867d8d7fc15432be07f00df",
+      "bytes": 54815
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r02.npz",
+      "sha256": "a738b92aabe46ec77277ea17a5b2e5be3cc540e6c423d24db6f38d07ab7a1a7a",
+      "bytes": 398361
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r02.json",
+      "sha256": "4e11ab53e99b2c5004170ea46427fa781fa4764c40a08f55742e9a864a4dd839",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.joblib",
+      "sha256": "a5c4c589ff1f278ec84d265dc7f10f9d3115a299e5ce530bb7a4236a93c1a70c",
+      "bytes": 35662
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.npz",
+      "sha256": "7514980e48b915611ef36d86a5613a2c6f7026f0a605b6aa1eb219cd8ab6bd63",
+      "bytes": 22499
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r03.json",
+      "sha256": "9eb1b6ee04c580bfde31f9163616201c16ef03fdc12dffaefbda56dc0651648b",
+      "bytes": 54872
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r03.npz",
+      "sha256": "75ee850049146b68af5a81bf3f0643c8fc6e537988388842c007d28b0445c228",
+      "bytes": 439030
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r03.json",
+      "sha256": "87724a50a3e528f2d00f03cb99223c02d906e3362e1ee5dfbfe8092321158828",
+      "bytes": 3571
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.joblib",
+      "sha256": "6e29bb0e0863e56228261ff520c8b96564cb6dc40d5f9244c045245a9771929f",
+      "bytes": 35664
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.npz",
+      "sha256": "c9449608a0173ed63fd7b415c653170148e1497f29d8cad20dba558e9fd35a32",
+      "bytes": 22537
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r04.json",
+      "sha256": "e45a847ff43126da14e64c446a0218188e06c9988e0c10e6156765dc51a4f476",
+      "bytes": 54739
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r04.npz",
+      "sha256": "b376feea89721b5db0100c673e60b844c797ef78dd7144460a65668e1d7e4bda",
+      "bytes": 356970
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r04.json",
+      "sha256": "5ccba698bc950d1570bed9db83d4df5d9e1a83ba2140ec845ba375aa07a5ef76",
+      "bytes": 3571
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.joblib",
+      "sha256": "015397619fbce9c6d1bfd7832c2667d0598696acf52bd9578cee55f399eff262",
+      "bytes": 35657
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.npz",
+      "sha256": "c6158eb82d9685e7d99adb1081456251e8e862b74dfcb20f5cde85d919c2e83f",
+      "bytes": 22513
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r05.json",
+      "sha256": "c84ffba82f553732b8d427f0df8f4e79a37549eca1f4cf47b2a67c5128c76220",
+      "bytes": 54828
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r05.npz",
+      "sha256": "ebfdbebeedb1301e3717395c8be1af9b528a5416b12c488812f2e3374dfadffe",
+      "bytes": 364899
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r05.json",
+      "sha256": "2e1c9198a87a0c7a6872594e12ee68e1c99b712a1648cf172a5ca6847fa43ac0",
+      "bytes": 3571
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.joblib",
+      "sha256": "59b85d80722ae16a90b7c35fa5d25462317395aa5f963a8e59c56b5c1c19990d",
+      "bytes": 35709
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.npz",
+      "sha256": "a47c0a9217a1845e4bab903e0550b4252835bd727e8d11314689af967c2eea92",
+      "bytes": 22730
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r06.json",
+      "sha256": "5fecd2c9ba87c3fd041dcf1cd1ef08f077dde3a62720aa2c396cb7534003a19e",
+      "bytes": 54870
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r06.npz",
+      "sha256": "c407a366c8bdd90387c26a2ed5afa88279611876f7ad64cc5ea32a136038fe40",
+      "bytes": 428479
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r06.json",
+      "sha256": "36034ca1a6115876f51505e6e55575702072f7c4f07c471b8013bc08b137a96c",
+      "bytes": 3571
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.joblib",
+      "sha256": "dd349a6c4b91d625561bff9733a3e29e4b195ac57bd3c38d9ec00ad429b1fd28",
+      "bytes": 35630
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.npz",
+      "sha256": "29461d165f0b4505391f7630fdd95ab2f059d7a470c96f1bb3a789a2cc338858",
+      "bytes": 22539
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r07.json",
+      "sha256": "80900eb8e3db7b34274c19e641823ab9e5870edec45472bc7bff1fb4c60a3d9c",
+      "bytes": 54871
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r07.npz",
+      "sha256": "7eb29fa8a58d109246e509ff22b7e2a88b2fe88940149b18c0547d0f6fc63c50",
+      "bytes": 396629
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r07.json",
+      "sha256": "8f8aad4e315564aea9753286432975f4606f664305e1fa96e661110784e70844",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.joblib",
+      "sha256": "0442aaa24ce8fa5c3727e0fe85267d182c33b52dd651691d260d328c2fa11252",
+      "bytes": 35654
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.npz",
+      "sha256": "48e44d12305e652561276435d31db8ea6de455c93292e3f59336d35c3e343a9b",
+      "bytes": 22685
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r08.json",
+      "sha256": "b34ffb319201dbd4a3d83a2c8579f56ec874a7441206e6196ab84660a5555bde",
+      "bytes": 54861
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r08.npz",
+      "sha256": "8d145639d22d826f5d54400d5037f23329ff4c9c4a88e0a182046e2388bfc92c",
+      "bytes": 395162
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r08.json",
+      "sha256": "1a3093ef747ccb843cddb54354d286ad8ed839c8c419c8b7980c71ec527fb3b7",
+      "bytes": 3570
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.joblib",
+      "sha256": "ec598d44b5600bed532030ccba571edb4cf4497a5dca38c2cc9562fdbc96ef36",
+      "bytes": 35661
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.npz",
+      "sha256": "2571d1410467d5f75ed5c4dffc08dbe387b6c4f60fb1f5b7706c55e7eff6273c",
+      "bytes": 22484
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r09.json",
+      "sha256": "4bc00cb94b81ddd2f0b45cad69d0a4094453650c714414ed6b67f1dd977665b9",
+      "bytes": 54828
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r09.npz",
+      "sha256": "b7520711ba29e466fb58d39c3200622af316363ca4e2a5e611c2203589f65f1d",
+      "bytes": 427422
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r09.json",
+      "sha256": "a6bb362b081a41b60a7030e9e0ebba650344c1414bb2e4011554564dd585d2de",
+      "bytes": 3571
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.joblib",
+      "sha256": "0ef4219b0ad9f4e8d014f00d8711707795f4d7173c49673372b883554de1bf82",
+      "bytes": 35692
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.npz",
+      "sha256": "dca638b346a3ebbb50e740fd39c833db2d7759b3889505d2aef3b430d725819c",
+      "bytes": 22536
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r10.json",
+      "sha256": "2c3f3628da8c703db3190cb3424106e67312e04765bcf1e83b3d1d787996ad90",
+      "bytes": 54872
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r10.npz",
+      "sha256": "2d1f714c2146308ace95e5de6ec58a75f6fcaff29ed6a7cea20210cf2dd81c09",
+      "bytes": 430177
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r10.json",
+      "sha256": "7b9483fca9073eecbec0bad99caa6ea0ef6dcdce6d9380e09e5bdd9998b138ff",
+      "bytes": 3571
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.joblib",
+      "sha256": "555882d1cf94103927467c1b268d1f4699278e2864b1658c87651351421166dd",
+      "bytes": 35682
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.npz",
+      "sha256": "d3524f4c39462007a337b7bb35bb0eaa8af7cc0275112215cd0cfa1604993d37",
+      "bytes": 22532
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r11.json",
+      "sha256": "39478e78b1dfc2984ca61c0eca3ff82bf86e36cd556456136b09b7cbdccc5714",
+      "bytes": 54875
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r11.npz",
+      "sha256": "26075719160b25380cc04f28b434092b9a85d68ac85c0f6e4ee9dce6d7f16740",
+      "bytes": 437797
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r11.json",
+      "sha256": "072ceb79948ee040c92976863e10c2fa10587ff2d8bf9f77183400dd0050a8df",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.joblib",
+      "sha256": "200f52b35b8f1c716dd7d3caf052809021e4105b3e324faec729520f687c4b3b",
+      "bytes": 35701
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.npz",
+      "sha256": "2568e2347841c4f6701fc5c48e7ea18d3c6d9d13d6dada70d52bcdedc2ed9c03",
+      "bytes": 22380
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r12.json",
+      "sha256": "54f9129bdc80267cd436f93e2f54e7e40711edd3281f3bcf5a1a87784f7eb3d7",
+      "bytes": 54877
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r12.npz",
+      "sha256": "f7932b2f1d5d69c5e864a512490f84d39e1939e7813f8193481c619df9a1232b",
+      "bytes": 450811
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r12.json",
+      "sha256": "13d1d4de3553ce17358802193441ae08a064c7a820fdc0a5f3fee1f9f6add6cc",
+      "bytes": 3571
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.joblib",
+      "sha256": "dbc690e53610ea5837d9406ffa09546ec0578feabeed90d8bb8d6c457d668503",
+      "bytes": 35647
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.npz",
+      "sha256": "7a16df429afbdfba68910259f8d4b992066c7cdf5f3432c1fb2c78a0cd2d732c",
+      "bytes": 22545
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r13.json",
+      "sha256": "c85242d41b95d05373cc000580d3de75d81ba1bb99725134dda6c602d14a8e2d",
+      "bytes": 54784
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r13.npz",
+      "sha256": "3696f8acca71d8764681139ed760d3e83e4ca967b07b2b6db2dfa9d7a9c6d608",
+      "bytes": 395986
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r13.json",
+      "sha256": "92a5f494cd7268427a9b812bbcdd348367b16b35a6ef810daffc299fdf160a3b",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.joblib",
+      "sha256": "1184ff2a439c03bec206341022bf98dbb5ec11d7dad7604c169f7ed56be2a04d",
+      "bytes": 60124
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.npz",
+      "sha256": "dc0e6b0d8e680e84a8f4feded9ab3a85c1fcdfb7c439c319995c49c058c5d53d",
+      "bytes": 22456
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r14.json",
+      "sha256": "5efef626672e1d142e9dfc24017bfadce38b9359410eafe7376fe3b77175f0f3",
+      "bytes": 54827
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r14.npz",
+      "sha256": "67be856c329a1a1825de962f1ffa2163e03afc0e60fb0a18bbe83c8cd511cd8b",
+      "bytes": 455012
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r14.json",
+      "sha256": "b356163c6f8376a1fecf66ff195f1fbe942f0c576a34f7eee3d8d109d0c679a6",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.joblib",
+      "sha256": "88416c1b7a04606abe98406ae90f641f279eef23c25a82ef7c4d8ce7acfcc892",
+      "bytes": 60095
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.npz",
+      "sha256": "c8fd83def2e9c93baef6f5d59c1fbb6d2e0363f40c3913ba29138113d6563a12",
+      "bytes": 22601
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r15.json",
+      "sha256": "c4f4587dbb505ef65cf67a5a802805155654a4ba592bbf85a7b6d386603b3e5a",
+      "bytes": 54827
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r15.npz",
+      "sha256": "65f914c0439fc86c6af3c4934f738becc70972ba01af6b007592353005d771af",
+      "bytes": 468157
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r15.json",
+      "sha256": "9fd0718328baaba828480aa87ce578c9389665b059f8af9b2913cdee54f4c40b",
+      "bytes": 3570
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.joblib",
+      "sha256": "78074389833f659c0699e7cb269fe28d7fa0ddce831057dfad562f1d7f467bba",
+      "bytes": 35709
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.npz",
+      "sha256": "b018c6e33ff9e2686447d75ab96ab51f6edf479a91103bfab278e72ad54f50e3",
+      "bytes": 22626
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r16.json",
+      "sha256": "061274519aadc62f9cc60ea68c29ec60605beeeb5849ad8053d190e4f77c0de9",
+      "bytes": 54814
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r16.npz",
+      "sha256": "ddaec85680df3303c5c289d7dfda5f0a4ae76ecce87ca1519da33c839d15f660",
+      "bytes": 455194
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r16.json",
+      "sha256": "6f2c5671246a0c49b8f62e075cf8ad1918b7b194feea076957b22d0e30673380",
+      "bytes": 3573
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.joblib",
+      "sha256": "f6b97d418cae8eed3c059eeba1f9a1770e5e7146d9dff58e097b2ccce7aa3e46",
+      "bytes": 35688
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.npz",
+      "sha256": "f0e6f9eb038c56fb891d103dd095ebfcf24a20406b20966c3039824adf3ddad9",
+      "bytes": 22598
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r17.json",
+      "sha256": "00c29dab6f854f59cb77c4a1aa8b8f6e99475ff1ba7964b84b66d548fc18fc38",
+      "bytes": 54868
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r17.npz",
+      "sha256": "b51baa3a19ab48a2d9611502ca4184ea92fbf1b09b10c541017b9b11680c73e3",
+      "bytes": 376156
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r17.json",
+      "sha256": "d3d60e6ffacb186137067ed6c13300de773c28bd3cc44ddf7acb9e9e9a488a48",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.joblib",
+      "sha256": "8c610ca64bcab441d829bde715f8fb196e23a9c5ff133ede51a41ed6d81bb926",
+      "bytes": 35646
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.npz",
+      "sha256": "b3e5eee622d13cba86e613c29da9dd2913837d08b5f298d76a839c4d5218374e",
+      "bytes": 22598
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r18.json",
+      "sha256": "9ae0d7bc1d30994aa1fef778c31e1cbaa85ab3dd9313170b4a3f6f27ab4f5792",
+      "bytes": 54874
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r18.npz",
+      "sha256": "2f1eaa8830aa531c5b3dbbbc0ddba0704e018eff51eef612b031b82fa143f53d",
+      "bytes": 443552
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r18.json",
+      "sha256": "09e08e732d5db3f51d0b7a28a22adb4945439489cd1fda0485aa87161c372872",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.joblib",
+      "sha256": "6675646897a827a22dacce692621706a54d32f2f7a08130ee98d5880360117b6",
+      "bytes": 35684
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.npz",
+      "sha256": "34f8203f6dc3199a9cd8874c0cb92dd43f55f6d60267b14cc331e24d1c3e41e5",
+      "bytes": 22390
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r19.json",
+      "sha256": "fd752e90562a2745ef16f5598e7115f4c0e2016fc1e37aa46231ab616519b71d",
+      "bytes": 54826
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r19.npz",
+      "sha256": "260e86d2e1e2fad0955121109a15c4769f588c5d67e11b9d53bac9d52f600db8",
+      "bytes": 367885
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r19.json",
+      "sha256": "70757de862407f337b8320a84e7cfe8d54df0c63b55bec126efa9920165a7837",
+      "bytes": 3572
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.joblib",
+      "sha256": "d0dfa10a081cb2308a48dfe92125ce080f1dfeed3f81c8a7774487c94410b304",
+      "bytes": 35689
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.npz",
+      "sha256": "98cd7bf2c3cf49580a184cd6928e0fe1697fc7611efb73a248ab19dba220f08a",
+      "bytes": 22598
+    },
+    {
+      "path": "outputs/erastin_prism_direct_comparison/folds/neural_network__p64__r20.json",
+      "sha256": "e67f2bf49621dc88861c6fa76a0f7cf714759d12b938ffe0199458b0c6e2b024",
+      "bytes": 54869
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r20.npz",
+      "sha256": "c540b5f720c84228f89499f07f50a2402ab0bf9458f8f9aab45e05b61400adb1",
+      "bytes": 452798
+    },
+    {
+      "path": "outputs/erastin_prism_ctrp_gene_importance/repeats/prism__r20.json",
+      "sha256": "8dccd391d8c0763cd4a1d71d38b70caaff9e497442bab5487180f57e89880f8a",
+      "bytes": 3590
+    },
+    {
+      "path": "outputs/retained_nn_gene_ranking/rank_genes.py",
+      "sha256": "8ab26e71f0fe09ff38b63956a42cfbeda221d05f271cc69209f9144ed786f680",
+      "bytes": 27385
+    }
+  ]
+}

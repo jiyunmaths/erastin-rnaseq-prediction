@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10 | packaged by conda-forge | (main, Apr 10 2025, 22:21:13) [GCC 13.3.0]",
+  "packages": {
+    "numpy": "2.4.0",
+    "scipy": "1.16.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.5.2",
+    "joblib": "1.5.2",
+    "matplotlib": "3.10.5"
+  }
+}

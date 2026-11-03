@@ -78,6 +78,15 @@ Thumbs.db
 !/outputs/erastin_64gene_ensemble/ensemble_weights.tsv
 !/outputs/erastin_64gene_ensemble/weight_summary.tsv
 !/outputs/erastin_64gene_ensemble/base_error_correlation.tsv
+# Compact rankings for all inputs of the retained neural networks.
+!/outputs/retained_nn_gene_ranking/*_64_gene_ranking.csv
+!/outputs/retained_nn_gene_ranking/*_64_gene_gradient_ranking.csv
+!/outputs/retained_nn_gene_ranking/CTRP_PRISM_64_gene_comparison.csv
+# Compact selected-panel and frequency summaries from the nested NN benchmark.
+!/outputs/erastin_nn_topk_nested/gene_selection_frequency.tsv
+!/outputs/erastin_nn_topk_nested/outer_selected_panels.tsv
+!/outputs/erastin_nn_topk_nested/selection_stability.tsv
+!/outputs/erastin_nn_topk_nested/selected_parameters.tsv
 !/outputs/**/visual_qa.json
 !/outputs/**/grid_amendment.json
 !/outputs/**/grid_boundary_audit.json
